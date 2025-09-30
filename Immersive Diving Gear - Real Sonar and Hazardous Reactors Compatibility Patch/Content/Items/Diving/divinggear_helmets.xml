@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <!-- OxyGear Helmet -->
+  <Override>
+    <Item name="Diving Helmet (Anechoic)" identifier="anechoicdivingsuithelmet" variantof="divingsuithelmetpreset" hideinmenus="false">
+      <Price baseprice="150">
+        <Price storeidentifier="merchantoutpost" multiplier="0.9" minavailable="2" />
+        <Price storeidentifier="merchantcity" multiplier="0.85" minavailable="4" />
+        <Price storeidentifier="merchantresearch" minavailable="3" />
+        <Price storeidentifier="merchantmilitary" minavailable="3" />
+        <Price storeidentifier="merchantmine" multiplier="1.25" minavailable="5" />
+      </Price>
+      <PreferredContainer primary="divingsuitcontainer" secondary="divingcab" />
+      <PreferredContainer primary="wreckedcrewcab,abandonedcrewcab" spawnprobability="0.2" />
+      <Deconstruct time="10" />
+      <Fabricate suitablefabricators="fabricator" requiredtime="15">
+        <RequiredSkill identifier="mechanical" level="40" />
+        <RequiredItem identifier="divingsuithelmet" />
+        <RequiredItem identifier="titaniumaluminiumalloy" />
+        <RequiredItem identifier="rubber" />
+        <RequiredItem identifier="rubber" />
+      </Fabricate>
+      <InventoryIcon texture="%ModDir:2936760984%/Icons/headgear.png" sourcerect="0,0,94,95" origin="0.5,0.5" />
+      <Sprite name="Diving Suit Item" texture="%ModDir:2936760984%/Icons/headgear.png" sourcerect="0,0,94,95" depth="0.55" origin="0.5,0.5" />
+      <Wearable>
+        <sprite name="Diving Suit Helmet Wearable" texture="%ModDir:2936760984%/Icons/headgear.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" hideotherwearables="true" sourcerect="0,0,94,95" origin="0.5,0.5">
+          <LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="10" IsOn="false" allowingameediting="false">
+            <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+            <StatusEffect type="OnWearing" target="This" Voltage="1.0" targetslot="0" setvalue="true">
+              <RequiredItem Items="mobilebattery" type="Contained" />
+            </StatusEffect>
+            <StatusEffect type="OnActive" target="Contained" targetslot="0" condition="-0.02">
+              <RequiredItem Items="mobilebattery" type="Contained" />
+            </StatusEffect>
+            <LightTexture texture="%ModDir:2936760984%/Icons/divinghelmetlight.png" origin="0.105, 0.5" size="0.27,0.27" />
+          </LightComponent>
+        </sprite>
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="activesonar" damagemultiplier="0.6" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acoustictrauma" damagemultiplier="0.15" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="vibrationdamage" damagemultiplier="0.5" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bleeding" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,bitewounds" damagemultiplier="0.90" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.90" damagesound="" deflectprojectiles="true" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,contamination,lethalradiation" damagemultiplier="0.75" damagesound="LimbArmor" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.5" probabilitymultiplier="0.5" damagesound="LimbArmor" />
+      </Wearable>
+    </Item>
+  </Override>
+</Items>

@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <Item name="" identifier="hazmatsuit2" variantof="divingsuitpreset6650" category="Diving" tags="diving,radiationproof,deepdiving,divinggear_wearableindoors" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_metal_heavy" botpriority="5" hideinmenus="false">
+      <PreferredContainer primary="reactorcab" />
+      <PreferredContainer secondary="crewcab" />
+      <Price baseprice="1000" sold="false">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" multiplier="0.9" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+        <Price storeidentifier="merchantengineering" multiplier="0.7" />
+      </Price>
+      <Deconstruct time="20">
+        <Item identifier="hazmatsuit1" />
+        <Item identifier="rubber" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="45">
+        <RequiredSkill identifier="mechanical" level="60" />
+        <Item identifier="hazmatsuit1" amount="1" />
+        <Item identifier="titaniumaluminiumalloy" amount="1" />
+        <Item identifier="rubber" amount="2" />
+      </Fabricate>
+      <GreaterComponent canbeselected="false" canbepicked="false" allowingameediting="false" timeframe="0">
+        <!-- SUIT SPECIFIC EFFECTS | Copy these into your suit item and adjust the values of condition draining, low pass multipliers, speed multipliers, oxygen refilling and damage modifiers to your liking or remove/add some -->
+        <!-- block hull oxygen usage -->
+        <StatusEffect type="OnWearing" target="This,Character" interval="0.2" duration="0.2" OxygenAvailable="-100.0" UseHullOxygen="false" comparison="And">
+          <Conditional HasStatusTag="eq sealed" />
+        </StatusEffect>
+        <!-- reduce walking speed -->
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.6" setvalue="true" interval="0.2" duration="0.2" disabledeltatime="true" />
+        <!-- make the character stumble randomly every 2.1s when running with the diving suit 
+        <StatusEffect type="OnWearing" target="This,Character" interval="2.1" comparison="And" disabledeltatime="true">
+          <Conditional speed="gt 2.8" />
+          <Conditional InWater="false" />
+          <Affliction identifier="stun" amount="1.5" probability="0.35" />
+        </StatusEffect>-->
+        <!-- Refill oxygen when the suit is contained. -->
+        <StatusEffect type="OnContained" target="Contained" targetslot="0" Condition="1.0" interval="1" disabledeltatime="true">
+          <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+          <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" excludefullcondition="true" />
+        </StatusEffect>
+        <!-- supply oxygen to the character and drain the oxygen tank if the valve is closed | also works for oxygenite tanks -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" OxygenAvailable="1000.0" Condition="-0.3" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="oxygensource" type="Contained" />
+        </StatusEffect>
+        <!-- supply welding fuel to the character and drain the welding fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <!-- supply incendium fuel to the character and drain the incendium fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="incendiumfueltank" type="Contained" />
+          <Affliction identifier="burn" amount="3.0" />
+        </StatusEffect>
+      </GreaterComponent>
+	  <InventoryIcon name="Engineer Hazmat Inventory" texture="%ModDir%/Content/Items/Diving/Hazmat_Suit_Item.png" sourcerect="9,112,183,117" origin="0.5,0.5" />
+      <Sprite name="Engineer Hazmat Item" texture="%ModDir%/Content/Items/Diving//Hazmat_Suit_Item.png" sourcerect="10,23,180,75" depth="0.6" origin="0.5,0.5" />
+      <ContainedSprite name="Respawn Diving Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="Content/Items/Diving/RespawnSuit_Items.png" sourcerect="181,0,70,192" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="Respawn Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" sourcerect="523,21,77,214" depth="0.55" origin="-0.12,-0.13" />
+      <ContainedSprite name="Respawn Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="Content/Items/Diving/RespawnSuit_Items.png" sourcerect="0,193,230,63" depth="0.55" origin="0.6,0.5" />
+      <Wearable slots="InnerClothes" msg="ItemMsgPickUpSelect">
+        <sprite name="Engineer's Hazmat Torso" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="Torso" hidelimb="false" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Hand" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Hand" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftHand" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Lower Arm" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Lower Arm" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftArm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Upper Arm" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Upper Arm" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftForearm" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Waist" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="Waist" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Thigh" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Thigh" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftThigh" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Leg" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Leg" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftLeg" hidelimb="true" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Left Shoe" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="LeftFoot" hidelimb="true" sound="footstep_armor_heavy" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <sprite name="Engineer's Hazmat Right Shoe" texture="%ModDir:3045796581%/Content/Items/Jobgear/Engineer/HazmatSuit.png" limb="RightFoot" hidelimb="true" sound="footstep_armor_heavy" hideotherwearables="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
+        <!-- TAGS -->
+        <!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
+        <StatusEffect type="OnWearing" target="Character" tags="hassuit" interval="0.1" duration="0.2">
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Affliction identifier="pressure6650" amount="1" />
+        </StatusEffect>
+        <!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
+        <!-- play a water ambient sound when moving in water -->
+        <StatusEffect type="OnWearing" target="Character" comparison="And">
+          <Conditional IsLocalPlayer="true" />
+          <Conditional InWater="true" />
+          <Sound file="%ModDir:3074045632%/Content/Items/Diving/SuitWaterAmbience.ogg" type="OnWearing" range="250" loop="true" volumeproperty="Speed" volume="0.8" frequencymultiplier="0.5" />
+        </StatusEffect>
+        <!-- BOT COMPATIBILITY -->
+        <!-- spawn helmet and close valve -->
+        <StatusEffect type="OnWearing" target="This" setvalue="true" interval="0.9" comparison="And">
+          <Conditional IsBot="true" targetcontainer="true" />
+          <Conditional HasStatusTag="neq hashelmet" targetcontainer="true" />
+          <SpawnItem identifier="bothazmatdivingsuithelmet" spawnposition="SameInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        </StatusEffect>
+        <!-- give pressure protection -->
+        <StatusEffect type="OnWearing" target="Character" ObstructVision="true" tags="botsuit,sealed,hassuit" PressureProtection="4000.0" interval="0.1" duration="0.2" setvalue="true" disabledeltatime="true">
+          <Conditional HasTag="bothelmet" targetcontaineditem="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" setvalue="true">
+          <TriggerAnimation Type="Walk" FileName="HumanWalkDivingSuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunDivingSuit" priority="1" ExpectedSpecies="Human" />
+        </StatusEffect>
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="overheating" damagemultiplier="0.0" />
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn,paralysis" damagemultiplier="0.3" />
+        <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="cyanidepoisoning,deliriuminepoisoning,morbusinepoisoning,sufforinpoisoning,radiationsickness,contaminated" damagemultiplier="0.5" />
+        <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.7" />
+      </Wearable>
+      <Holdable slots="LeftHand,RightHand" holdpos="0,-30" handle1="0,-30" aimable="false" pickkey="Use" msg="ItemMsgPickUpUse" />
+    </Item>
+    <Item name="" identifier="scp_renegadedivingsuit" variantof="divingsuitpreset6000" category="Diving" subcategory="Renegade" tags="diving,deepdiving,provocative,divingsuit" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" hideinmenus="false">
+      <Price baseprice="500" soldeverywhere="false"></Price>
+      <PreferredContainer primary="divingsuitcontainer" />
+      <Deconstruct time="30">
+        <Item identifier="ballisticfiber" />
+        <Item identifier="steel" />
+        <Item identifier="rubber" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="35">
+        <RequiredSkill identifier="mechanical" level="50" />
+        <RequiredItem identifier="divingsuit" />
+        <RequiredItem identifier="ballisticfiber" />
+        <RequiredItem identifier="steel" amount="2" />
+        <RequiredItem identifier="plastic" />
+      </Fabricate>
+      <InventoryIcon name="renegadesuitinv" texture="%ModDir:2764968387%/Jobgear/renegadesuititems.png" sourcerect="358,0,94,87" origin="0.5,0.5" />
+      <Sprite name="Renegade Diving Suit Item" texture="%ModDir:2764968387%/Jobgear/renegadesuititems.png" sourcerect="78,190,134,58" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="Renegade Diving Suit Vert Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:2764968387%/Jobgear/renegadesuititems.png" sourcerect="181,0,70,192" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="Renegade Diving Suit Beh Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:2764968387%/Jobgear/renegadesuititems.png" sourcerect="469,0,80,207" depth="0.55" origin="-0.12,-0.13" />
+      <ContainedSprite name="Renegade Diving Suit In Horiz Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:2764968387%/Jobgear/renegadesuititems.png" sourcerect="0,193,230,63" depth="0.55" origin="0.6,0.5" />
+      <Wearable>
+      <sprite name="Renegade Diving Suit Torso" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Hand" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Hand" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Lower Arm" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Lower Arm" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Upper Arm" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Upper Arm" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Waist" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Thigh" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Thigh" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Leg" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Leg" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Left Shoe" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="Renegade Diving Suit Right Shoe" texture="%ModDir:2764968387%/Jobgear/renegadesuit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <StatValue stattype="WalkingSpeed" value="-0.05" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bleeding" damagemultiplier="0.75" damagesound="armourmedimpact" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.6" damagesound="armourmedimpact" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.9" damagesound="LimbArmor" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.85" damagesound="" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,burn,contaminated,overheating" damagemultiplier="0.8" damagesound="armourmedimpact" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.5" probabilitymultiplier="0.5" damagesound="armourmedimpact" />
+        <!-- TAGS -->
+        <!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
+        <StatusEffect type="OnWearing" target="Character" tags="hassuit" interval="0.1" duration="0.2">
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Affliction identifier="pressure6000" amount="1" />
+        </StatusEffect>
+        <!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
+        <!-- play a water ambient sound when moving in water -->
+        <StatusEffect type="OnWearing" target="Character" comparison="And">
+          <Conditional IsLocalPlayer="true" />
+          <Conditional InWater="true" />
+          <Sound file="%ModDir:3074045632%/Content/Items/Diving/SuitWaterAmbience.ogg" type="OnWearing" range="250" loop="true" volumeproperty="Speed" volume="0.8" frequencymultiplier="0.5" />
+        </StatusEffect>
+	   <!-- BOT COMPATIBILITY -->
+        <!-- spawn helmet and close valve -->
+        <StatusEffect type="OnWearing" target="This" setvalue="true" interval="0.9" comparison="And">
+          <Conditional IsBot="true" targetcontainer="true" />
+          <Conditional HasStatusTag="neq hashelmet" targetcontainer="true" />
+          <SpawnItem identifier="botrenegadedivingsuithelmet" spawnposition="SameInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        </StatusEffect>
+        <!-- give pressure protection -->
+        <StatusEffect type="OnWearing" target="Character" ObstructVision="true" tags="botsuit,sealed,hassuit" PressureProtection="6000.0" interval="0.1" duration="0.2" setvalue="true" disabledeltatime="true">
+          <Conditional HasTag="bothelmet" targetcontaineditem="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" setvalue="true">
+          <TriggerAnimation Type="Walk" FileName="HumanWalkDivingSuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunDivingSuit" priority="1" ExpectedSpecies="Human" />
+        </StatusEffect>
+      </Wearable>
+      <ItemComponent canbeselected="false" allowingameediting="false">
+        <StatusEffect type="OnWearing" target="Character" PropulsionSpeedMultiplier="1.45" setvalue="true" disabledeltatime="true" />
+      </ItemComponent>
+      <!-- SUIT INVENTORY -->
+      <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+        <Containable items="weldingtoolfuel" excludeditems="oxygenitetank" />
+        <Containable items="oxygensource" excludeditems="oxygenitetank">
+          <StatusEffect type="OnWearing" target="Contained">
+            <RequiredItem items="oxygensource" type="Contained" />
+            <Conditional condition="lt 5.0" />
+            <Sound file="%ModDir:2764968387%/Sounds/suitalarm.ogg" range="200" volume="0.5" />
+          </StatusEffect>
+        </Containable>
+        <Containable items="oxygenitetank">
+          <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="1.3" setvalue="true" targetslot="0" comparison="And">
+            <Conditional IsDead="false" />
+            <Conditional HasStatusTag="eq hashelmet" />
+            <Conditional HasStatusTag="eq hasseal" />
+            <Conditional timeframe="eq 1" />
+          </StatusEffect>
+        </Containable>
+        <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource,weldingtoolfuel" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="%ModDir:2764968387%/Sounds/suitalarm.ogg" range="300" volume="0.5" />
+        </StatusEffect>
+      </ItemContainer>
+    </Item>
+    <Item name="" identifier="scp_combathardsuit" variantof="divingsuitpreset6650" description="" category="Diving" subcategory="Coalition" tags="diving,deepdiving,provocative,divingsuit" scale="0.5" fireproof="true" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" hideinmenus="false">
+      <PreferredContainer primary="divingsuitcontainer" />
+		<Price baseprice="4000" displaynonempty="true" minleveldifficulty="35">
+		  <Price storeidentifier="merchantoutpost" sold="false" multiplier="1.5" />
+		  <Price storeidentifier="merchantcity" multiplier="1.25" sold="false" />
+		  <Price storeidentifier="merchantresearch" sold="false" multiplier="1.25" />
+		  <Price storeidentifier="merchantmilitary" multiplier="0.95" minavailable="0" maxavailable="1">
+			<Reputation faction="coalition" min="100" />
+		  </Price>
+		  <Price storeidentifier="merchantmine" sold="false" multiplier="1.25" />
+		  <Price storeidentifier="merchantarmory" multiplier="0.95" minavailable="0" maxavailable="1">
+			<Reputation faction="coalition" min="100" />
+		  </Price>
+		</Price>
+      <PreferredContainer primary="divingsuitcontainer" />
+      <Deconstruct time="30">
+        <Item identifier="scp_durasteel" amount="2" />
+        <Item identifier="titaniumaluminiumalloy" amount="2" />
+        <Item identifier="rubber" amount="2" />
+      </Deconstruct>
+    <Fabricate suitablefabricators="fabricator" requiredtime="60">
+      <RequiredSkill identifier="mechanical" level="65" />
+      <RequiredSkill identifier="weapons" level="75" />
+      <RequiredItem identifier="abyssdivingsuit" />
+      <RequiredItem identifier="titaniumaluminiumalloy" amount="4" />
+      <RequiredItem identifier="scp_durasteel" amount="8" />
+      <RequiredItem identifier="rubber" amount="6" />
+    </Fabricate>
+      <InventoryIcon texture="%ModDir:2764968387%/jobgear/combathardsuititems.png" sourcerect="312,0,109,107" origin="0.5,0.5" />
+      <Sprite name="combathardsuit Item" texture="%ModDir:2764968387%/jobgear/combathardsuititems.png" sourcerect="68,188,157,85" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="combathardsuit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:2764968387%/jobgear/combathardsuititems.png" sourcerect="181,0,70,192" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="combathardsuit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:2764968387%/jobgear/combathardsuititems.png" sourcerect="553,0,77,214" depth="0.55" origin="-0.12,-0.13" />
+      <ContainedSprite name="combathardsuit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:2764968387%/jobgear/combathardsuititems.png" sourcerect="0,193,230,63" depth="0.55" origin="0.6,0.5" />
+      <GreaterComponent canbeselected="false" canbepicked="false" allowingameediting="false" timeframe="0"></GreaterComponent>
+      <Wearable>
+      <sprite name="combathardsuit Torso" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Hand" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Hand" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Lower Arm" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Lower Arm" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Upper Arm" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Upper Arm" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Waist" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Thigh" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Thigh" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Leg" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Leg" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Left Shoe" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="LeftFoot" sound="heavysuitfootstep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <sprite name="combathardsuit Right Shoe" texture="%ModDir:2764968387%/Jobgear/combathardsuit.png" limb="RightFoot" sound="heavysuitfootstep" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,blunttrauma" damagemultiplier="0.1" damagesound="armourheavyimpact" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,bleeding,explosiondamage,burn" damagemultiplier="0.25" damagesound="armourheavyimpact" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,bitewounds,stun,contaminated,overheating" damagemultiplier="0.5" damagesound="armourheavyimpact" />
+        <sound file="Content/Items/Weapons/WEAPONS_chargeUp.ogg" type="OnWearing" range="500.0" volumeproperty="Speed" volume="0.15" loop="true" frequencymultiplier="0.75" />
+        <SkillModifier skillidentifier="weapons" skillvalue="-10" />
+        <SkillModifier skillidentifier="mechanical" skillvalue="-50" />
+        <SkillModifier skillidentifier="electrical" skillvalue="-75" />
+        <!-- TAGS -->
+        <!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
+        <StatusEffect type="OnWearing" target="Character" tags="hassuit" interval="0.1" duration="0.2">
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Affliction identifier="pressure6650" amount="1" />
+        </StatusEffect>
+        <!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
+        <!-- play a water ambient sound when moving in water -->
+        <StatusEffect type="OnWearing" target="Character" comparison="And">
+          <Conditional IsLocalPlayer="true" />
+          <Conditional InWater="true" />
+          <Sound file="%ModDir:3074045632%/Content/Items/Diving/SuitWaterAmbience.ogg" type="OnWearing" range="250" loop="true" volumeproperty="Speed" volume="0.8" frequencymultiplier="0.5" />
+        </StatusEffect>
+        <!-- BOT COMPATIBILITY -->
+        <!-- spawn helmet and close valve -->
+        <StatusEffect type="OnWearing" target="This" setvalue="true" interval="0.9" comparison="And">
+          <Conditional IsBot="true" targetcontainer="true" />
+          <Conditional HasStatusTag="neq hashelmet" targetcontainer="true" />
+          <SpawnItem identifier="botcombathardsuithelmet" spawnposition="SameInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        </StatusEffect>
+        <!-- give pressure protection -->
+        <StatusEffect type="OnWearing" target="Character" ObstructVision="true" tags="botsuit,sealed,hassuit" PressureProtection="6650.0" interval="0.1" duration="0.2" setvalue="true" disabledeltatime="true">
+          <Conditional HasTag="bothelmet" targetcontaineditem="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" setvalue="true">
+          <TriggerAnimation Type="Walk" FileName="HumanWalkDivingSuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunDivingSuit" priority="1" ExpectedSpecies="Human" />
+        </StatusEffect>
+      </Wearable>
+      <ItemComponent canbeselected="false" allowingameediting="false">
+        <StatusEffect type="OnWearing" target="Contained" Condition="-0.25" interval="1" disabledeltatime="true" targetslot="1">
+          <RequiredItem items="mobilebattery" targetslot="1" type="Contained" />
+        </StatusEffect>
+      <StatusEffect type="OnWearing" target="Character" interval="0.9" disabledeltatime="true">
+        <Affliction identifier="recoilstabilized" amount="1" />
+      </StatusEffect>
+        <!-- reduce walking speed if out of power -->
+        <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.1" setvalue="true" interval="0.2" duration="0.2" disabledeltatime="true">
+          <Conditional HasStatusTag="neq powered" />
+        </StatusEffect>
+        <!-- increase walking speed if powered -->
+        <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="0.7" PropulsionSpeedMultiplier="0.5"  setvalue="true" interval="0.2" duration="0.2" disabledeltatime="true">
+          <Conditional HasStatusTag="eq powered" />
+        </StatusEffect>
+        <!-- block hull oxygen usage -->
+        <StatusEffect type="OnWearing" target="This,Character" interval="0.2" duration="0.2" OxygenAvailable="-100.0" UseHullOxygen="false" comparison="And">
+          <Conditional timeframe="eq 1" />
+          <Conditional HasStatusTag="eq hashelmet" />
+        </StatusEffect>
+        <!-- Refill oxygen when the suit is contained. -->
+        <StatusEffect type="OnContained" target="Contained" targetslot="0" Condition="1.0" interval="1" disabledeltatime="true">
+          <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+          <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" excludefullcondition="true" />
+        </StatusEffect>
+        <!-- supply oxygen to the character and drain the oxygen tank if the valve is closed | also works for oxygenite tanks -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" OxygenAvailable="1000.0" Condition="-0.3" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Conditional timeframe="eq 1" targetcontainer="true" />
+          <RequiredItem items="oxygensource" type="Contained" />
+        </StatusEffect>
+        <!-- supply welding fuel to the character and drain the welding fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Conditional timeframe="eq 1" targetcontainer="true" />
+          <RequiredItem items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <!-- supply incendium fuel to the character and drain the incendium fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Conditional timeframe="eq 1" targetcontainer="true" />
+          <RequiredItem items="incendiumfueltank" type="Contained" />
+          <Affliction identifier="burn" amount="3.0" />
+        </StatusEffect>
+      </ItemComponent>
+      <!-- SUIT INVENTORY -->
+      <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+        <SlotIcon slotindex="1" texture="Content/UI/ContainerIndicators.png" sourcerect="2,184,120,32" origin="0.5,0.5" />
+        <Containable items="weldingtoolfuel" excludeditems="oxygenitetank" />
+        <Containable items="oxygensource" excludeditems="oxygenitetank">
+          <StatusEffect type="OnWearing" target="Contained">
+            <RequiredItem items="oxygensource" type="Contained" />
+            <Conditional condition="lt 5.0" />
+            <Sound file="Content/Items/WarningBeepSlow.ogg" range="250" loop="true" />
+          </StatusEffect>
+        </Containable>
+        <Containable items="oxygenitetank" />
+        <SubContainer capacity="1" maxstacksize="1">
+          <Containable items="mobilebattery">
+            <StatusEffect type="OnWearing" target="This,Character" tags="powered" setvalue="true" interval="0.1" duration="0.2" targetslot="1">
+              <RequiredItem items="mobilebattery" type="Contained" />
+            </StatusEffect>
+          </Containable>
+        </SubContainer>
+        <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource,weldingtoolfuel" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="Content/Items/WarningBeep.ogg" range="250" loop="true" />
+        </StatusEffect>
+      </ItemContainer>
+    </Item>
+    <Item name="" identifier="scp_interceptorsuit" variantof="divingsuitpreset6000" category="Diving,Equipment" tags="diving,deepdiving,provocative" scale="0.5" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" botpriority="2" hideinmenus="false">
+      <Price baseprice="2500" sold="false"></Price>
+      <PreferredContainer primary="divingsuitcontainer" />
+      <PreferredContainer primary="piratedivingsuitcontainer" spawnprobability="0.01" minleveldifficulty="35" />
+      <PreferredContainer primary="wreckdivingsuitcontainer" spawnprobability="0.006" minleveldifficulty="35" />
+      <Deconstruct time="30">
+        <Item identifier="scp_durasteel" />
+        <Item identifier="dementonite" amount="3" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="45">
+        <RequiredSkill identifier="mechanical" level="85" />
+        <RequiredSkill identifier="weapons" level="75" />
+        <RequiredItem identifier="slipsuit" />
+        <RequiredItem identifier="scp_prototypeusb" mincondition="0.5" />
+        <RequiredItem identifier="scp_durasteel" amount="2" />
+        <RequiredItem identifier="dementonite" amount="8" />
+      </Fabricate>
+      <InventoryIcon texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" sourcerect="517,2,74,77" origin="0.5,0.5" />
+      <Sprite name="intercepsuit Suit Ground" texture="%ModDir:2764968387%/Jobgear/interceptsuititems.png" sourcerect="74,191,120,60" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="intercepsuit Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:2764968387%/Jobgear/interceptsuititems.png" sourcerect="174,0,70,192" depth="0.55" origin="0.5,0.5" />
+      <ContainedSprite name="intercepsuit Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" sourcerect="432,0,80,207" depth="0.55" origin="-0.12,-0.14" />
+      <ContainedSprite name="intercepsuit Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:2764968387%/Jobgear/interceptsuititems.png" sourcerect="0,193,230,63" depth="0.55" origin="0.6,0.5" />
+      <GreaterComponent canbeselected="false" canbepicked="false" allowingameediting="false" timeframe="0">
+        <StatusEffect type="OnWearing" target="This,Character" interval="0.2" duration="0.2" OxygenAvailable="-100.0" UseHullOxygen="false" comparison="And">
+          <Conditional HasStatusTag="eq sealed" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.95" PropulsionSpeedMultiplier="1.4" setvalue="true" interval="0.2" duration="0.2" disabledeltatime="true" />
+        <StatusEffect type="OnContained" target="Contained" targetslot="0" Condition="1.0" interval="1" disabledeltatime="true">
+          <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+          <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" excludefullcondition="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" OxygenAvailable="1000.0" Condition="-0.3" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="oxygensource" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" Oxygen="-10.0" targetslot="0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="incendiumfueltank" type="Contained" />
+          <Affliction identifier="burn" amount="3.0" />
+        </StatusEffect>
+      </GreaterComponent>
+      <Wearable>
+      <sprite name="intercepsuit Suit Torso" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,680,256" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Hand" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Hand" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Lower Arm" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Lower Arm" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Upper Arm" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Upper Arm" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Waist" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Thigh" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Thigh" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Leg" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Leg" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Left Shoe" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+      <sprite name="intercepsuit Suit Right Shoe" texture="%ModDir:2764968387%/Jobgear/interceptsuit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,0,0" origin="0.5,0.5" />
+		<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+		<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true" />
+		<damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="" deflectprojectiles="true" />
+		<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,contaminated,overheating" damagemultiplier="0.6" damagesound="LimbArmor" />
+		<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor" />
+        <StatValue stattype="SwimmingSpeed" value="0.5" />
+        <StatValue stattype="WalkingSpeed" value="-0.1" />
+        <!-- TAGS -->
+        <!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
+        <StatusEffect type="OnWearing" target="Character" tags="hassuit" interval="0.1" duration="0.2">
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Affliction identifier="pressure6000" amount="1" />
+        </StatusEffect>
+        <!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
+        <!-- play a water ambient sound when moving in water -->
+        <StatusEffect type="OnWearing" target="Character" comparison="And">
+          <Conditional IsLocalPlayer="true" />
+          <Conditional InWater="true" />
+          <Sound file="%ModDir:3074045632%/Content/Items/Diving/SuitWaterAmbience.ogg" type="OnWearing" range="250" loop="true" volumeproperty="Speed" volume="0.8" frequencymultiplier="0.5" />
+        </StatusEffect>
+        <!-- BOT COMPATIBILITY -->
+        <!-- spawn helmet and close valve -->
+        <StatusEffect type="OnWearing" target="This" setvalue="true" interval="0.9" comparison="And">
+          <Conditional IsBot="true" targetcontainer="true" />
+          <Conditional HasStatusTag="neq hashelmet" targetcontainer="true" />
+          <SpawnItem identifier="botinterceptordivingsuithelmet" spawnposition="SameInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        </StatusEffect>
+        <!-- give pressure protection -->
+        <StatusEffect type="OnWearing" target="Character" ObstructVision="true" tags="botsuit,sealed,hassuit" PressureProtection="6000.0" interval="0.1" duration="0.2" setvalue="true" disabledeltatime="true">
+          <Conditional HasTag="bothelmet" targetcontaineditem="true" />
+        </StatusEffect>
+        <StatusEffect type="OnWearing" target="Character" setvalue="true">
+          <TriggerAnimation Type="Walk" FileName="HumanWalkDivingSuit" priority="1" ExpectedSpecies="Human" />
+          <TriggerAnimation Type="Run" FileName="HumanRunDivingSuit" priority="1" ExpectedSpecies="Human" />
+        </StatusEffect>
+      </Wearable>
+    </Item>
+	<Item name="" identifier="scp_liquidatorsuit" category="Diving,Equipment" subcategory="Renegade" tags="smallitem,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" allowdroppingonswapwith="diving" impactsoundtag="impact_soft" hideinmenus="false">
+    <PreferredContainer primary="storagecab" />
+    <PreferredContainer primary="wreckstoragecab,wreckengcab" minamount="0" maxamount="1" spawnprobability="0.007" minleveldifficulty="35" />
+    <Price baseprice="2000" sold="false"></Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="35">
+      <RequiredSkill identifier="mechanical" level="50" />
+      <RequiredSkill identifier="electrical" level="85" />
+      <Item identifier="scp_heavyhazmatuniform" />
+      <Item identifier="scp_durasteel" amount="2" />
+      <Item identifier="lead" amount="8" />
+      <Item identifier="dementonite" amount="8" />
+    </Fabricate>
+    <Deconstruct time="20">
+      <Item identifier="lead" amount="2" />
+      <Item identifier="dementonite" amount="2" />
+    </Deconstruct>
+    <InventoryIcon name="Liquidator Suit Inventory" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" sourcerect="677,0,78,67" origin="0.5,0.5" />
+    <Sprite name="Liquidator Suit Item" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" sourcerect="640,69,115,62" depth="0.6" origin="0.5,0.5" />
+    <Body width="180" height="50" density="30" friction="0.8" restitution="0.01" />
+      <GreaterComponent canbeselected="false" canbepicked="false" allowingameediting="false" timeframe="0">
+        <!-- SUIT SPECIFIC EFFECTS | Copy these into your suit item and adjust the values of condition draining, low pass multipliers, speed multipliers, oxygen refilling and damage modifiers to your liking or remove/add some -->
+        <!-- block hull oxygen usage -->
+        <StatusEffect type="OnWearing" target="This,Character" interval="0.2" duration="0.2" OxygenAvailable="-100.0" UseHullOxygen="false" comparison="And">
+          <Conditional HasStatusTag="eq sealed" />
+        </StatusEffect>
+        <!-- reduce walking speed -->
+        <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.6" setvalue="true" interval="0.2" duration="0.2" disabledeltatime="true" />
+        <!-- make the character stumble randomly every 2.1s when running with the diving suit 
+        <StatusEffect type="OnWearing" target="This,Character" interval="2.1" comparison="And" disabledeltatime="true">
+          <Conditional speed="gt 2.8" />
+          <Conditional InWater="false" />
+          <Affliction identifier="stun" amount="1.5" probability="0.35" />
+        </StatusEffect>-->
+        <!-- Refill oxygen when the suit is contained. -->
+        <StatusEffect type="OnContained" target="Contained" targetslot="0" Condition="1.0" interval="1" disabledeltatime="true">
+          <Conditional Voltage="gt 0.01" targetcontainer="true" targetgrandparent="true" targetitemcomponent="Powered" />
+          <RequiredItem items="refillableoxygensource" type="Contained" excludebroken="false" excludefullcondition="true" />
+        </StatusEffect>
+        <!-- supply oxygen to the character and drain the oxygen tank if the valve is closed | also works for oxygenite tanks -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" OxygenAvailable="1000.0" Condition="-0.3" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="oxygensource" type="Contained" />
+        </StatusEffect>
+        <!-- supply welding fuel to the character and drain the welding fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="weldingfueltank" type="Contained" />
+        </StatusEffect>
+        <!-- supply incendium fuel to the character and drain the incendium fuel tank if the valve is closed -->
+        <StatusEffect type="OnWearing" target="Contained,Character" targetlimbs="Torso" targetslot="0" Oxygen="-10.0" Condition="-0.5" interval="1" disabledeltatime="true" comparison="And">
+          <Conditional IsDead="false" />
+          <Conditional HasStatusTag="eq sealed" />
+          <RequiredItem items="incendiumfueltank" type="Contained" />
+          <Affliction identifier="burn" amount="3.0" />
+        </StatusEffect>
+      </GreaterComponent>
+    <Wearable slots="Any,InnerClothes+Head" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbepicked="true" pickkey="Select">
+      <sprite name="highperfhazmat Torso" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Hand" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Hand" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Lower Arm" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Lower Arm" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Upper Arm" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Upper Arm" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Waist" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="Waist" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Thigh" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Thigh" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Leg" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Leg" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Left Shoe" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="LeftFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <sprite name="highperfhazmat Right Shoe" texture="%ModDir:2764968387%/Jobgear/highperfhazmat.png" limb="RightFoot" hidelimb="true" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" sourcerect="0,0,755,256" origin="0.5,0.5" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="scp_presolatexinfection,scp_hexgasdamage" damagemultiplier="0" probabilitymultiplier="0" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,contaminated,overheating" damagemultiplier="0.05" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn,burn" damagemultiplier="0.1" />
+      <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,gunshotwound,bitewounds" damagemultiplier="0.75" />
+      <SkillModifier skillidentifier="electrical" skillvalue="10" />
+      <SkillModifier skillidentifier="weapons" skillvalue="-35" />
+      <StatValue stattype="WalkingSpeed" value="-0.15" />
+      <StatValue stattype="SwimmingSpeed" value="-0.1" />
+        <!-- TAGS -->
+        <!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
+        <StatusEffect type="OnWearing" target="Character" tags="hassuit,cbrnsuit" interval="0.1" duration="0.2">
+          <Conditional HasStatusTag="eq hashelmet" />
+          <Affliction identifier="pressure6650" amount="1" />
+        </StatusEffect>
+        <!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
+        <!-- play a water ambient sound when moving in water -->
+        <StatusEffect type="OnWearing" target="Character" comparison="And">
+          <Conditional IsLocalPlayer="true" />
+          <Conditional InWater="true" />
+          <Sound file="%ModDir:3074045632%/Content/Items/Diving/SuitWaterAmbience.ogg" type="OnWearing" range="250" loop="true" volumeproperty="Speed" volume="0.8" frequencymultiplier="0.5" />
+        </StatusEffect>
+        <!-- BOT COMPATIBILITY -->
+        <!-- spawn helmet and close valve -->
+        <StatusEffect type="OnWearing" target="This" setvalue="true" interval="0.9" comparison="And">
+          <Conditional IsBot="true" targetcontainer="true" />
+          <Conditional HasStatusTag="neq hashelmet" targetcontainer="true" />
+          <SpawnItem identifier="botliquidatordivingsuithelmet" spawnposition="SameInventory" spawnifinventoryfull="false" spawnifcantbecontained="false" />
+        </StatusEffect>
+        <!-- give pressure protection -->
+        <StatusEffect type="OnWearing" target="Character" ObstructVision="true" tags="botsuit,sealed,hassuit" PressureProtection="6650.0" interval="0.1" duration="0.2" setvalue="true" disabledeltatime="true">
+          <Conditional HasTag="bothelmet" targetcontaineditem="true" />
+        </StatusEffect>
+    </Wearable>
+      <!-- SUIT INVENTORY -->
+      <ItemContainer capacity="1" maxstacksize="1" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,448,64,64" origin="0.5,0.5" />
+        <Containable items="weldingtoolfuel" excludeditems="oxygenitetank" />
+        <Containable items="oxygensource" excludeditems="oxygenitetank">
+          <StatusEffect type="OnWearing" target="Contained">
+            <RequiredItem items="oxygensource" type="Contained" />
+            <Conditional condition="lt 5.0" />
+            <Sound file="%ModDir:2764968387%/Sounds/suitalarm.ogg" range="250" volume="0.3" loop="true" />
+          </StatusEffect>
+        </Containable>
+        <Containable items="oxygenitetank">
+          <StatusEffect type="OnWearing" target="This,Character" SpeedMultiplier="1.3" setvalue="true" targetslot="0" comparison="And">
+            <Conditional IsDead="false" />
+            <Conditional HasStatusTag="eq sealed" />
+          </StatusEffect>
+        </Containable>
+        <StatusEffect type="OnWearing" target="Contained" playsoundonrequireditemfailure="true">
+          <RequiredItem items="oxygensource,weldingtoolfuel" type="Contained" matchonempty="true" />
+          <Conditional condition="lte 0.0" />
+          <Sound file="%ModDir:2764968387%/Sounds/suitalarm.ogg" range="300" loop="true" />
+        </StatusEffect>
+      </ItemContainer>
+      <aitarget maxsightrange="1500" />
+  </Item>
+  </Override>
+</Items>
