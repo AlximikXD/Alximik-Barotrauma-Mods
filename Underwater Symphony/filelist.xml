@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Underwater Symphony" modversion="1.0.8" corepackage="False" steamworkshopid="3257843239" gameversion="1.7.7.0">
-  <Sounds file="%ModDir%/Sounds/sounds.xml" />
-  <Item file="%ModDir%/Dummy.xml" />
-</contentpackage>
