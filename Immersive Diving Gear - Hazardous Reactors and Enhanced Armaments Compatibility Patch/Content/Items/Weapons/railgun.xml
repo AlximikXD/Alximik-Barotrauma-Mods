@@ -84,5 +84,29 @@
 				<Containable items="smallitem" />
 			</ItemContainer>
 		</Item>
+		<Item name="" identifier="nuclearshellcheap" variantof="nuclearshell" hideineditors="true">
+			<PreferredContainer spawnprobability="0" />
+			<PreferredContainer spawnprobability="0" />
+			<Price baseprice="300" sold="false">
+				<Price sold="false" />
+				<Price sold="false" />
+				<Price sold="false" />
+				<Price sold="false" />
+				<Price sold="false" />
+				<Price sold="false" />
+			</Price>
+			<Deconstruct time="10">
+				<Item identifier="steel" />
+				<Item identifier="uranium" />
+				<!-- clear the rest of the deconstruction -->
+				<Item />
+			</Deconstruct>
+			<Fabricate suitablefabricators="fabricator,nuclearmaterialprocessor" requiredtime="30" requiresrecipe="true">
+				<RequiredSkill identifier="electrical" level="40" />
+				<RequiredItem identifier="steel" />
+				<RequiredItem identifier="fuelrod" mincondition="0.8" usecondition="false" />
+				<RequiredItem identifier="uex" />
+			</Fabricate>
+		</Item>
 	</Items>
 </Override>
