@@ -3,4 +3,5 @@
 	<Item file="%ModDir%/Content/Items/Diving/divinggear_helmets.xml" />
 	<Item file="%ModDir%/Content/Items/Diving/divinggear_suits.xml" />
 	<Item file="%ModDir%/Content/Items/Weapons/railgun.xml" />
+	<Item file="%ModDir%/Content/Items/Weapons/depthcharge.xml" />
 </contentpackage>
