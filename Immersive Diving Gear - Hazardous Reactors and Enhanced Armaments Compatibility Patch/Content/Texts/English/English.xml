@@ -1,13 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+	<!-- Diving Helmets -->
+	<entityname.botpucsdivingsuithelmet>Bot Diving Helmet (PUCS)</entityname.botpucsdivingsuithelmet>
+	<entityname.botslipsuithelmet>Bot Diving Helmet (Slipsuit)</entityname.botslipsuithelmet>
+	<entityname.botabyssdivingsuithelmet>Bot Diving Helmet (Abyss)</entityname.botabyssdivingsuithelmet>
+	<entityname.botcombatdivingsuithelmet>Bot Diving Helmet (Combat)</entityname.botcombatdivingsuithelmet>
+	<entityname.respawndivingsuithelmet>Disposable Diving Helmet</entityname.respawndivingsuithelmet>
+	<entityname.botrespawndivingsuithelmet>Bot Disposable Diving Helmet</entityname.botrespawndivingsuithelmet>
+	<entityname.respawndivingsuithelmetpermanent>Diving Helmet (Orange)</entityname.respawndivingsuithelmetpermanent>
+	<entityname.divingsuithelmet>Diving Helmet (Regular)</entityname.divingsuithelmet>
+	<!-- Immersive Diving Gear -->
+	<entityname.botclowndivingsuithelmet>Bot Diving Helmet (Clown)</entityname.botclowndivingsuithelmet>
+	<entityname.clowndivingsuithelmet>Diving Helmet (Clown)</entityname.clowndivingsuithelmet>
+	<entityname.clowndivingsuit1>Clown Diving Suit (4000)</entityname.clowndivingsuit1>
+	<entityname.clowndivingsuit2>Clown Diving Suit (5700)</entityname.clowndivingsuit2>
+	<entityname.clowndivingsuit3>Clown Diving Suit (6600)</entityname.clowndivingsuit3>
 	<!-- Enhanced Armaments -->
 	<entityname.botrenegadedivingsuithelmet>Bot Diving Helmet (Renegade)</entityname.botrenegadedivingsuithelmet>
 	<entityname.botcombathardsuithelmet>Bot Diving Helmet (Combat Hardsuit)</entityname.botcombathardsuithelmet>
 	<entityname.botinterceptordivingsuithelmet>Bot Diving Helmet (Interceptor)</entityname.botinterceptordivingsuithelmet>
 	<entityname.botliquidatordivingsuithelmet>Bot Diving Helmet (Liquidator)</entityname.botliquidatordivingsuithelmet>
-	<!-- Diving Helmets -->
-	<entityname.pucsdivingsuithelmet>Diving Helmet (PUCS)</entityname.pucsdivingsuithelmet>
-	<!-- Enhanced Armaments -->
 	<entityname.renegadedivingsuithelmet>Diving Helmet (Renegade)</entityname.renegadedivingsuithelmet>
 	<entityname.combathardsuithelmet>Diving Helmet (Combat Hardsuit)</entityname.combathardsuithelmet>
 	<entityname.interceptordivingsuithelmet>Diving Helmet (Interceptor)</entityname.interceptordivingsuithelmet>

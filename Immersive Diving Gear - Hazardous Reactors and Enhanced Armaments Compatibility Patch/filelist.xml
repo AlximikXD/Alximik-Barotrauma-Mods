@@ -6,6 +6,7 @@
 	<Item file="%ModDir%/Content/Items/Jobgear/Mechanic/mechanic_talent_items.xml" />
 	<Item file="%ModDir%/Content/Items/Jobgear/clown/clown.xml" />
 	<Item file="%ModDir%/Content/Items/Jobgear/security/securityofficer_talent_items.xml" />
+	<Item file="%ModDir%/Content/Items/Jobgear/assistant/assistant_talent_items.xml" />
 	<Item file="%ModDir%/Content/Items/Jobgear/misc.xml" />
 	<Item file="%ModDir%/Content/Items/Weapons/railgun.xml" />
 	<Item file="%ModDir%/Content/Items/Weapons/depthcharge.xml" />
