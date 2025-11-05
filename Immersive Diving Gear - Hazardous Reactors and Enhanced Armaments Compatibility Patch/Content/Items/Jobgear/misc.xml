@@ -251,7 +251,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="scp_presolatexinfection" damagemultiplier="0" probabilitymultiplier="0" />
       <damagemodifier afflictionidentifiers="acidburn,burn" armorsector="0.0,360.0" damagemultiplier="0.1" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="radiationsickness" armorsector="0.0,360.0" damagemultiplier="0.4" damagesound="LimbArmor" deflectprojectiles="true" />
-	  <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0.5" damagesound="armourmedimpact" />
+	  <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact" />
       <damagemodifier afflictiontypes="alieninfection" armorsector="0.0,360.0" damagemultiplier="0.75" probabilitymultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="blunttrauma,lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true" />
       <damagemodifier afflictionidentifiers="bleeding" armorsector="0.0,360.0" damagemultiplier="0.65" damagesound="LimbArmor" deflectprojectiles="true" />
