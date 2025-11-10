@@ -681,7 +681,7 @@
 				<!-- tag the character with "hassuit" if it's a player and wearing a diving suit + diving helmet and apply the corresponding pressure protection affliction -->
 				<StatusEffect type="OnWearing" target="Character" tags="hassuit,cbrnsuit" interval="0.1" duration="0.2">
 					<Conditional HasStatusTag="eq hashelmet" />
-					<Affliction identifier="pressure6650" amount="1" />
+					<Affliction identifier="pressure6500" amount="1" />
 				</StatusEffect>
 				<!-- EFFECTS FOR ALL SUITS USING THIS PRESET -->
 				<!-- play a water ambient sound when moving in water -->
