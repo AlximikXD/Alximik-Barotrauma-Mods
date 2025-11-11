@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
   <Afflictions>
-<Affliction name="Pressurized (6500m)" identifier="pressure6500" description="" showiconthreshold="0" showicontoothersthreshold="0" showinhealthscannerthreshold="0" type="pressurization" limbspecific="false" indicatorlimb="Torso" maxstrength="61" healableinmedicalclinic="false" iconcolors="200,200,200,255;200,200,200,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;30,255,30,255">
+<Affliction name="Pressurized (6500m)" identifier="pressure6500" description="" showiconthreshold="0" showicontoothersthreshold="0" showinhealthscannerthreshold="0" type="pressurization" limbspecific="false" indicatorlimb="Torso" maxstrength="66" healableinmedicalclinic="false" iconcolors="200,200,200,255;200,200,200,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;60,140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;140,195,255;30,255,30,255">
       <Effect minstrength="0" maxstrength="5" strengthchange="0.0">
         <!-- decrease the affliction if the character doesn't have the "sealed" tag -->
         <StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true">
@@ -421,7 +421,44 @@
           <Conditional HasStatusTag="neq sonarprotection" />
         </StatusEffect>-->
       </Effect>
-      <Effect minstrength="60" maxstrength="65" strengthchange="0.0">
+	  <Effect minstrength="60" maxstrength="65" strengthchange="0.0">
+		<!-- apply pressure protection to the character -->
+		<StatusEffect type="OnActive" target="Character" tags="pressurized" PressureProtection="6000.0" setvalue="true" duration="0.1" disabledeltatime="true" />
+		<!-- damage the character and fully remove the affliction if the character doesn't have the "hassuit" tag -->
+		<StatusEffect type="OnActive" target="Character" delay="0.2" stackable="false" checkconditionalalways="true" disabledeltatime="true" comparison="And" multiplyafflictionsbymaxvitality="true">
+			<Conditional IsBot="false" />
+			<Conditional HasStatusTag="neq hassuit" />
+			<Affliction identifier="organdamage" amount="150" />
+			<Sound file="%ModDir:3074045632%/Content/Items/Diving/PressureRelease.ogg" volume="1.0" range="700" />
+			<ReduceAffliction identifier="pressure6500" amount="1000" />
+			<Affliction identifier="checkforbarotrauma" amount="1" />
+		</StatusEffect>
+		<!-- decrease the affliction if the character doesn't have the "sealed" tag -->
+		<StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true">
+			<Conditional HasStatusTag="neq sealed" />
+			<Conditional HasStatusTag="eq releasepressure" />
+			<ReduceAffliction identifier="pressure6500" amount="6" />
+		</StatusEffect>
+		<!-- play pressure releasing visual and audio if the the character doesn't have the "sealed" tag for when not in water -->
+		<StatusEffect type="OnActive" target="Character" targetlimb="Head" comparison="And">
+			<Conditional HasStatusTag="neq sealed" />
+			<Conditional InWater="false" />
+			<Sound file="Content/Items/Diving/Items_divingSuitOxygenLeakLoop.ogg" range="500" loop="true" />
+			<ParticleEmitter particle="steamspray" anglemin="200" anglemax="220" particlespersecond="20" velocitymin="50" velocitymax="200" scalemin="0.1" scalemax="0.2" copyentityangle="true" />
+		</StatusEffect>
+		<!-- play pressure releasing visual and audio if the the character doesn't have the "sealed" tag for when in water -->
+		<StatusEffect type="OnActive" target="Character" targetlimb="Head" comparison="And">
+			<Conditional HasStatusTag="neq sealed" />
+			<Conditional InWater="true" />
+			<Sound file="%ModDir:3074045632%/Content/Items/Diving/ReleasePressureUnderwater.ogg" volume="1.0" range="500" loop="true" />
+			<ParticleEmitter particle="risingbubbles" anglemin="205" anglemax="215" particlespersecond="50" velocitymin="50" velocitymax="200" scalemin="0.3" scalemax="0.5" copyentityangle="true" />
+		</StatusEffect>
+		<!-- damage suit seal if the character takes damage, but not if wearing an anechoic suit to prevent sonar from breaking the seal | Disabled due to also damaging the seal when player takes damage from meds
+        <StatusEffect type="OnDamaged" target="Character" tags="damageseal" duration="0.1">
+          <Conditional HasStatusTag="neq sonarprotection" />
+        </StatusEffect>-->
+	</Effect>
+      <Effect minstrength="60" maxstrength="66" strengthchange="0.0">
         <!-- apply pressure protection to the character -->
         <StatusEffect type="OnActive" target="Character" tags="pressurized" PressureProtection="6500.0" setvalue="true" duration="0.1" disabledeltatime="true" />
         <!-- damage the character and fully remove the affliction if the character doesn't have the "hassuit" tag -->
