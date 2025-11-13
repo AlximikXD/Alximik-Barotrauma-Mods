@@ -66,34 +66,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="Diving Suit Helmet Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" alphaclipotherwearables="true" sourcerect="0,409,103,103" origin="0.5,0.5">
 					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -199,34 +177,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="Diving Suit Helmet Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" alphaclipotherwearables="true" sourcerect="326,0,103,103" origin="0.5,0.5">
 					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -267,7 +223,7 @@
 				</SubContainer>
 			</ItemContainer>
 		</Item>
-		<!-- Bot Exclusive Helmet -->
+		<!-- Bot Diving Helmet -->
 		<Item name="" identifier="botdivingsuithelmet" tags="bothelmet" scale="0.3" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_light" botpriority="1" hideinmenus="true">
 			<InventoryIcon texture="Content/Items/Jobgear/headgears.png" sourcerect="5,4,92,94" origin="0.5,0.5" />
 			<Sprite name="Diving Suit Item" texture="Content/Items/Jobgear/headgears.png" sourcerect="5,4,92,94" depth="0.55" origin="0.5,0.5" />
@@ -332,34 +288,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="Diving Suit Helmet Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" alphaclipotherwearables="true" sourcerect="5,4,92,94" origin="0.5,0.5">
 					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -488,26 +422,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="Diving Suit Helmet Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" alphaclipotherwearables="true" sourcerect="100,409,103,103" origin="0.5,0.5">
 					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -536,8 +456,8 @@
 					<DropItem />
 				</StatusEffect>
 			</Wearable>
-			<!-- HELMET INVENTORY -->
-			<ItemContainer capacity="0" hideitems="true" spawnwithid="suitseal" containedstateindicatorslot="1">
+			<!-- HELMET INVENTORY | spawns with battery and seal for this specific helmet and is locked -->
+			<ItemContainer capacity="0" hideitems="true" spawnwithid="batterycell,suitseal" containedstateindicatorslot="1" allowaccess="false" locked="true">
 				<SlotIcon slotindex="1" texture="%ModDir:3074045632%/Content/Items/Diving/SuitSealIcon.png" sourcerect="0,0,60,55" origin="0.5,0.5" />
 				<SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="128,448,64,64" origin="0.5,0.5" />
 				<SubContainer capacity="1" maxstacksize="1">
@@ -937,34 +857,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="Renegade Diving Suit Helmet Wearable" texture="%ModDir:2764968387%/Jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="true" hideotherwearables="true" sourcerect="-3,204,103,103" origin="0.5,0.5">
-					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="10" IsOn="false" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -1068,34 +966,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="combathardsuithelmet" texture="%ModDir:2764968387%/jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="true" hideotherwearables="true" sourcerect="111,203,103,103" origin="0.5,0.5">
-					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="10" IsOn="false" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -1199,34 +1075,12 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="intercepsuit Suit Helmet Wearable" texture="%ModDir:2764968387%/Jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.67" hidelimb="false" alphaclipotherwearables="true" sourcerect="686,356,103,103" origin="0.50110054,0.5257158">
-					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="10" IsOn="false" allowingameediting="false">
-						<Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+					<LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
+						<StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+							<Conditional IsDead="false" />
+						</StatusEffect>
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 					</LightComponent>
 				</sprite>
@@ -1330,30 +1184,6 @@
 					<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 				</StatusEffect>
 			</GreaterComponent>
-			<!-- Helmet Light Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-				<TickBox text="interaction.togglesuitlight">
-					<StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-					<StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-				</TickBox>
-			</CustomInterface>
-			<!-- Pressure Valve Interface -->
-			<CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-				<GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-				<Button text="interaction.openpressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-						<Conditional timeframe="eq 1" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-				<Button text="interaction.closepressurevalve">
-					<StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-						<Conditional timeframe="eq 0" />
-						<Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-					</StatusEffect>
-				</Button>
-			</CustomInterface>
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 				<sprite name="highperfhazmat helm Wearable" texture="%ModDir:2764968387%/Jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.82" hidewearablesoftype="hair,beard" sourcerect="689,271,87,85" origin="0.59,0.51" />
 				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact" />
