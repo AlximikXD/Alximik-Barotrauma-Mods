@@ -64,34 +64,12 @@
 				  <Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
 			  </StatusEffect>
 		  </GreaterComponent>
-		  <!-- Helmet Light Interface -->
-		  <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-			  <GuiFrame style="ItemUI" absoluteoffset="200,-100" anchor="BottomCenter" relativesize="0.1,0.08" />
-			  <TickBox text="interaction.togglesuitlight">
-				  <StatusEffect type="OnUse" target="This" targetitemcomponent="LightComponent" IsOn="true" setvalue="true" />
-				  <StatusEffect type="OnSecondaryUse" target="This" targetitemcomponent="LightComponent" IsOn="false" setvalue="true" />
-			  </TickBox>
-		  </CustomInterface>
-		  <!-- Pressure Valve Interface -->
-		  <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="false">
-			  <GuiFrame style="ItemUI" absoluteoffset="-50,-100" anchor="BottomCenter" relativesize="0.14,0.12" />
-			  <Button text="interaction.openpressurevalve">
-				  <StatusEffect type="OnUse" target="This" timeframe="0" setvalue="true">
-					  <Conditional timeframe="eq 1" />
-					  <Sound file="%ModDir:3074045632%/Content/Items/Diving/OpenValve.ogg" volume="3.5" range="150" />
-				  </StatusEffect>
-			  </Button>
-			  <Button text="interaction.closepressurevalve">
-				  <StatusEffect type="OnUse" target="This" timeframe="1" setvalue="true">
-					  <Conditional timeframe="eq 0" />
-					  <Sound file="%ModDir:3074045632%/Content/Items/Diving/CloseValve.ogg" volume="3.5" range="150" />
-				  </StatusEffect>
-			  </Button>
-		  </CustomInterface>
 		  <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
 			  <sprite name="Diving Suit Helmet Wearable" texture="Content/Items/Jobgear/headgears.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.65" hidelimb="false" alphaclipotherwearables="true" sourcerect="127,520,105,124" origin="0.5,0.5">
-				  <LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="10" IsOn="false" allowingameediting="false">
-					  <Upgrade gameversion="0.1300.0.3" allowingameediting="false" />
+				  <LightComponent range="700.0" lightcolor="250,224,165,175" powerconsumption="0" IsOn="true" allowingameediting="false">
+					  <StatusEffect type="OnWearing" target="This,Character" Voltage="1.0" Interval="0.1" setvalue="true">
+						  <Conditional IsDead="false" />
+					  </StatusEffect>
 					  <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 				  </LightComponent>
 			  </sprite>
