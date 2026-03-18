@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+	<!-- Diving Helmets -->
+	<entityname.botpucsdivingsuithelmet>Водолазний шолом бота (УЗСА)</entityname.botpucsdivingsuithelmet>
+	<entityname.botslipsuithelmet>Водолазний шолом бота (Гідроскафандр)</entityname.botslipsuithelmet>
+	<entityname.botabyssdivingsuithelmet>Водолазний шолом бота (Глибоководний)</entityname.botabyssdivingsuithelmet>
+	<entityname.botcombatdivingsuithelmet>Водолазний шолом бота (Бойовий)</entityname.botcombatdivingsuithelmet>
+	<entityname.botrespawndivingsuithelmet>Водолазний шолом бота (Помаранчевий)</entityname.botrespawndivingsuithelmet>
+	<!-- Immersive Diving Gear -->
+	<entityname.botclowndivingsuithelmet>Водолазний шолом бота (Клоун)</entityname.botclowndivingsuithelmet>
+	<!-- Enhanced Armaments -->
+	<entityname.botrenegadedivingsuithelmet>Водолазний шолом бота (Renegade)</entityname.botrenegadedivingsuithelmet>
+	<entityname.botcombathardsuithelmet>Водолазний шолом бота (Combat Hardsuit)</entityname.botcombathardsuithelmet>
+	<entityname.botinterceptordivingsuithelmet>Водолазний шолом бота (Interceptor)</entityname.botinterceptordivingsuithelmet>
+	<entityname.botliquidatordivingsuithelmet>Водолазний шолом бота (Liquidator)</entityname.botliquidatordivingsuithelmet>
+	<entityname.renegadedivingsuithelmet>Водолазний шолом (Renegade)</entityname.renegadedivingsuithelmet>
+	<entityname.combathardsuithelmet>Водолазний шолом (Hardsuit)</entityname.combathardsuithelmet>
+	<entityname.interceptordivingsuithelmet>Водолазний шолом (Interceptor)</entityname.interceptordivingsuithelmet>
+	<entityname.liquidatorsuithelmet>Водолазний шолом (Liquidator)</entityname.liquidatorsuithelmet>
+</infotexts>
