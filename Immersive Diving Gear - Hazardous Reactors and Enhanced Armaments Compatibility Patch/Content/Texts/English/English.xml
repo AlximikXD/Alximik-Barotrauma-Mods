@@ -1,20 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
-	<!-- Diving Helmets -->
-	<entityname.botpucsdivingsuithelmet>Bot Diving Helmet (PUCS)</entityname.botpucsdivingsuithelmet>
-	<entityname.botslipsuithelmet>Bot Diving Helmet (Slipsuit)</entityname.botslipsuithelmet>
-	<entityname.botabyssdivingsuithelmet>Bot Diving Helmet (Abyss)</entityname.botabyssdivingsuithelmet>
-	<entityname.botcombatdivingsuithelmet>Bot Diving Helmet (Combat)</entityname.botcombatdivingsuithelmet>
-	<entityname.botrespawndivingsuithelmet>Bot Disposable Diving Helmet</entityname.botrespawndivingsuithelmet>
-	<!-- Immersive Diving Gear -->
-	<entityname.botclowndivingsuithelmet>Bot Diving Helmet (Clown)</entityname.botclowndivingsuithelmet>
-	<!-- Enhanced Armaments -->
-	<entityname.botrenegadedivingsuithelmet>Bot Diving Helmet (Renegade)</entityname.botrenegadedivingsuithelmet>
-	<entityname.botcombathardsuithelmet>Bot Diving Helmet (Combat Hardsuit)</entityname.botcombathardsuithelmet>
-	<entityname.botinterceptordivingsuithelmet>Bot Diving Helmet (Interceptor)</entityname.botinterceptordivingsuithelmet>
-	<entityname.botliquidatordivingsuithelmet>Bot Diving Helmet (Liquidator)</entityname.botliquidatordivingsuithelmet>
-	<entityname.renegadedivingsuithelmet>Diving Helmet (Renegade)</entityname.renegadedivingsuithelmet>
-	<entityname.combathardsuithelmet>Diving Helmet (Combat Hardsuit)</entityname.combathardsuithelmet>
-	<entityname.interceptordivingsuithelmet>Diving Helmet (Interceptor)</entityname.interceptordivingsuithelmet>
-	<entityname.liquidatorsuithelmet>Diving Helmet (Liquidator)</entityname.liquidatorsuithelmet>
+    <!-- Diving Helmets -->
+    <entityname.botpucsdivingsuithelmet>Bot Diving Helmet (PUCS)</entityname.botpucsdivingsuithelmet>
+    <entityname.botslipsuithelmet>Bot Diving Helmet (Slipsuit)</entityname.botslipsuithelmet>
+    <entityname.botabyssdivingsuithelmet>Bot Diving Helmet (Abyss)</entityname.botabyssdivingsuithelmet>
+    <entityname.botcombatdivingsuithelmet>Bot Diving Helmet (Combat)</entityname.botcombatdivingsuithelmet>
+    <entityname.botrespawndivingsuithelmet>Bot Disposable Diving Helmet</entityname.botrespawndivingsuithelmet>
+    <!-- Immersive Diving Gear -->
+    <entityname.botclowndivingsuithelmet>Bot Diving Helmet (Clown)</entityname.botclowndivingsuithelmet>
+    <!-- Enhanced Armaments -->
+    <entityname.botrenegadedivingsuithelmet>Bot Diving Helmet (Renegade)</entityname.botrenegadedivingsuithelmet>
+    <entityname.botcombathardsuithelmet>Bot Diving Helmet (Combat Hardsuit)</entityname.botcombathardsuithelmet>
+    <entityname.botinterceptordivingsuithelmet>Bot Diving Helmet (Interceptor)</entityname.botinterceptordivingsuithelmet>
+    <entityname.botliquidatordivingsuithelmet>Bot Diving Helmet (Liquidator)</entityname.botliquidatordivingsuithelmet>
+    <entityname.renegadedivingsuithelmet>Diving Helmet (Renegade)</entityname.renegadedivingsuithelmet>
+    <entityname.combathardsuithelmet>Diving Helmet (Combat Hardsuit)</entityname.combathardsuithelmet>
+    <entityname.interceptordivingsuithelmet>Diving Helmet (Interceptor)</entityname.interceptordivingsuithelmet>
+    <entityname.liquidatorsuithelmet>Diving Helmet (Liquidator)</entityname.liquidatorsuithelmet>
 </infotexts>

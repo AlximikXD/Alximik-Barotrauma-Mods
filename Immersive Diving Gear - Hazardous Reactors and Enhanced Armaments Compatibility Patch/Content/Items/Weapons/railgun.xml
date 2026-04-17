@@ -1,112 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Override>
-	<Items>
-		<Item name="" identifier="nuclearshell" tags="railgunequipment,railgunammo,nuclearshell" showcontentsintooltip="true" category="Weapon" subcategory="Weapons of Mass Destruction" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
-			<PreferredContainer primary="railgunammoloader,railgunammocontainer" mincondition="1" />
-			<PreferredContainer secondary="wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.05" minleveldifficulty="15" />
-			<Price baseprice="600" sold="false">
-				<Price storeidentifier="merchantoutpost" multiplier="1.35" />
-				<Price storeidentifier="merchantcity" multiplier="1.25" sold="false" />
-				<Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
-				<Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="3" minleveldifficulty="35" />
-				<Price storeidentifier="merchantmine" multiplier="1.25" sold="false" />
-				<Price storeidentifier="merchantarmory" sold="true" multiplier="0.9" minavailable="3" minleveldifficulty="35" />
-			</Price>
-			<Deconstruct time="10">
-				<Item identifier="steel" />
-				<Item identifier="uranium" />
-				<Item identifier="incendium" />
-			</Deconstruct>
-			<Fabricate suitablefabricators="fabricator,nuclearmaterialprocessor" requiredtime="30">
-				<RequiredSkill identifier="weapons" level="40" />
-				<RequiredItem identifier="steel" />
-				<RequiredItem identifier="uranium" />
-				<RequiredItem identifier="ic4block" />
-			</Fabricate>
-			<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,128,64,64" origin="0.5,0.5" />
-			<Sprite texture="Content/Items/Weapons/TurretsAndDepthCharges.png" sourcerect="1,131,217,33" depth="0.55" origin="0.5,0.5" />
-			<Body width="215" height="30" density="35" />
-			<Holdable canbecombined="false" slots="LeftHand,RightHand" holdpos="0,-15" handle1="-30,-5" holdangle="170" aimable="false" msg="ItemMsgPickUpSelect">
-				<!-- slow down the character when holding the item -->
-				<StatValue stattype="MovementSpeed" value="-0.2" />
-				<!-- adjust hold position when swimming -->
-				<StatusEffect type="OnActive" target="This" holdpos="-10,-15" handle1="0,-5" holdangle="70" setvalue="true" interval="1.1">
-					<Conditional InWater="true" />
-				</StatusEffect>
-				<!-- revert hold position adjustment when walking -->
-				<StatusEffect type="OnActive" target="This" holdpos="0,-15" handle1="-30,-5" holdangle="170" setvalue="true" interval="1.1">
-					<Conditional InWater="false" />
-				</StatusEffect>
-			</Holdable>
-			<Projectile characterusable="false" launchimpulse="0" maxtargetstohit="1" damagedoors="true">
-				<Attack structuredamage="100" itemdamage="50" severlimbsprobability="5" penetration="0.6" targetforce="1000">
-					<Affliction identifier="explosiondamage" strength="250" />
-					<Affliction identifier="bleeding" strength="50" />
-					<Affliction identifier="stun" strength="15" />
-				</Attack>
-				<StatusEffect type="OnImpact" target="This" Condition="-100.0" setvalue="true" allowwhenbroken="true">
-					<sound file="%ModDir:2764968387%/Sounds/nukesmall.ogg" range="50000" frequencymultiplier="0.95" volume="1.1" />
-					<sound file="Content/Items/Weapons/ExplosionLarge1.ogg" range="50000" />
-					<sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="50000" />
-					<SteamTimeLineEvent title="Nuke detonated" description="A nuclear shell detonated!" icon="steam_explosion"/>
-					<Explosion range="1800.0" structuredamage="600" itemdamage="1000" ballastfloradamage="1000" force="50.0" severlimbsprobability="2" debris="true" decal="explosion" decalsize="1.0" camerashake="1000" camerashakerange="50000" flashrange="10000" flashduration="5.0" screencolor="255,255,255,255" screencolorrange="5000" screencolorduration="5.0" penetration="0.6">
-						<Affliction identifier="explosiondamage" strength="1000" />
-						<Affliction identifier="burn" strength="1000" />
-						<Affliction identifier="radiationgeiger" strength="100" />
-						<Affliction identifier="lethalradiation" strength="50" />
-						<Affliction identifier="bleeding" strength="40" probability="0.05" dividebylimbcount="false" />
-						<Affliction identifier="stun" strength="30" />
-					</Explosion>
-					<Explosion range="2000" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
-						<Affliction identifier="emp" strength="50" multiplybymaxvitality="true" />
-					</Explosion>
-					<ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" velocitymax="0" scalemin="15" scalemax="15" />
-					<SpawnItem identifier="nuclearaftereffectemitter" spawnposition="This" />
-				</StatusEffect>
-				<StatusEffect type="OnImpact" target="This">
-					<sound file="Content/Items/Weapons/ExplosionDebris4.ogg" range="5000" />
-					<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="5000" />
-				</StatusEffect>
-				<StatusEffect type="OnActive" target="This">
-					<ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="50" scalemin="1" scalemax="3" />
-				</StatusEffect>
-				<StatusEffect type="OnBroken" target="Contained" allowwhenbroken="true">
-					<Use />
-				</StatusEffect>
-				<!-- Remove the item after exploding -->
-				<StatusEffect type="OnBroken" target="This">
-					<Remove />
-				</StatusEffect>
-			</Projectile>
-			<ItemContainer hideitems="true" capacity="1" maxstacksize="1" canbeselected="false" containedstateindicatorstyle="explosive" containedspritedepth="0.81">
-				<SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,384,64,64" origin="0.5,0.5" />
-				<GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
-				<Containable items="smallitem" />
-			</ItemContainer>
-		</Item>
-		<Item name="" identifier="nuclearshellcheap" variantof="nuclearshell" hideineditors="true">
-			<PreferredContainer spawnprobability="0" />
-			<PreferredContainer spawnprobability="0" />
-			<Price baseprice="300" sold="false">
-				<Price sold="false" />
-				<Price sold="false" />
-				<Price sold="false" />
-				<Price sold="false" />
-				<Price sold="false" />
-				<Price sold="false" />
-			</Price>
-			<Deconstruct time="10">
-				<Item identifier="steel" />
-				<Item identifier="uranium" />
-				<!-- clear the rest of the deconstruction -->
-				<Item />
-			</Deconstruct>
-			<Fabricate suitablefabricators="fabricator,nuclearmaterialprocessor" requiredtime="30" requiresrecipe="true">
-				<RequiredSkill identifier="electrical" level="40" />
-				<RequiredItem identifier="steel" />
-				<RequiredItem identifier="fuelrod" mincondition="0.8" usecondition="false" />
-				<RequiredItem identifier="uex" />
-			</Fabricate>
-		</Item>
-	</Items>
+    <Items>
+        <Item name="" identifier="nuclearshell" tags="railgunequipment,railgunammo,nuclearshell" showcontentsintooltip="true" category="Weapon" subcategory="Weapons of Mass Destruction" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
+            <PreferredContainer primary="railgunammoloader,railgunammocontainer" mincondition="1"/>
+            <PreferredContainer secondary="wreckrailgunammocontainer" minamount="0" maxamount="2" spawnprobability="0.05" minleveldifficulty="15"/>
+            <Price baseprice="600" sold="false">
+                <Price storeidentifier="merchantoutpost" multiplier="1.35"/>
+                <Price storeidentifier="merchantcity" multiplier="1.25" sold="false"/>
+                <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false"/>
+                <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="3" minleveldifficulty="35"/>
+                <Price storeidentifier="merchantmine" multiplier="1.25" sold="false"/>
+                <Price storeidentifier="merchantarmory" sold="true" multiplier="0.9" minavailable="3" minleveldifficulty="35"/>
+            </Price>
+            <Deconstruct time="10">
+                <Item identifier="steel"/>
+                <Item identifier="uranium"/>
+                <Item identifier="incendium"/>
+            </Deconstruct>
+            <Fabricate suitablefabricators="fabricator,nuclearmaterialprocessor" requiredtime="30">
+                <RequiredSkill identifier="weapons" level="40"/>
+                <RequiredItem identifier="steel"/>
+                <RequiredItem identifier="uranium"/>
+                <RequiredItem identifier="ic4block"/>
+            </Fabricate>
+            <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="0,128,64,64" origin="0.5,0.5"/>
+            <Sprite texture="Content/Items/Weapons/TurretsAndDepthCharges.png" sourcerect="1,131,217,33" depth="0.55" origin="0.5,0.5"/>
+            <Body width="215" height="30" density="35"/>
+            <Holdable canbecombined="false" slots="LeftHand,RightHand" holdpos="0,-15" handle1="-30,-5" holdangle="170" aimable="false" msg="ItemMsgPickUpSelect">
+                <!-- slow down the character when holding the item -->
+                <StatValue stattype="MovementSpeed" value="-0.2"/>
+                <!-- adjust hold position when swimming -->
+                <StatusEffect type="OnActive" target="This" holdpos="-10,-15" handle1="0,-5" holdangle="70" setvalue="true" interval="1.1">
+                    <Conditional InWater="true"/>
+                </StatusEffect>
+                <!-- revert hold position adjustment when walking -->
+                <StatusEffect type="OnActive" target="This" holdpos="0,-15" handle1="-30,-5" holdangle="170" setvalue="true" interval="1.1">
+                    <Conditional InWater="false"/>
+                </StatusEffect>
+            </Holdable>
+            <Projectile characterusable="false" launchimpulse="0" maxtargetstohit="1" damagedoors="true">
+                <Attack structuredamage="100" itemdamage="50" severlimbsprobability="5" penetration="0.6" targetforce="1000">
+                    <Affliction identifier="explosiondamage" strength="250"/>
+                    <Affliction identifier="bleeding" strength="50"/>
+                    <Affliction identifier="stun" strength="15"/>
+                </Attack>
+                <StatusEffect type="OnImpact" target="This" Condition="-100.0" setvalue="true" allowwhenbroken="true">
+                    <sound file="%ModDir:2764968387%/Sounds/nukesmall.ogg" range="50000" frequencymultiplier="0.95" volume="1.1"/>
+                    <sound file="Content/Items/Weapons/ExplosionLarge1.ogg" range="50000"/>
+                    <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="50000"/>
+                    <SteamTimeLineEvent title="Nuke detonated" description="A nuclear shell detonated!" icon="steam_explosion"/>
+                    <Explosion range="1800.0" structuredamage="600" itemdamage="1000" ballastfloradamage="1000" force="50.0" severlimbsprobability="2" debris="true" decal="explosion" decalsize="1.0" camerashake="1000" camerashakerange="50000" flashrange="10000" flashduration="5.0" screencolor="255,255,255,255" screencolorrange="5000" screencolorduration="5.0" penetration="0.6">
+                        <Affliction identifier="explosiondamage" strength="1000"/>
+                        <Affliction identifier="burn" strength="1000"/>
+                        <Affliction identifier="radiationgeiger" strength="100"/>
+                        <Affliction identifier="lethalradiation" strength="50"/>
+                        <Affliction identifier="bleeding" strength="40" probability="0.05" dividebylimbcount="false"/>
+                        <Affliction identifier="stun" strength="30"/>
+                    </Explosion>
+                    <Explosion range="2000" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
+                        <Affliction identifier="emp" strength="50" multiplybymaxvitality="true"/>
+                    </Explosion>
+                    <ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" velocitymax="0" scalemin="15" scalemax="15"/>
+                    <SpawnItem identifier="nuclearaftereffectemitter" spawnposition="This"/>
+                </StatusEffect>
+                <StatusEffect type="OnImpact" target="This">
+                    <sound file="Content/Items/Weapons/ExplosionDebris4.ogg" range="5000"/>
+                    <sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="5000"/>
+                </StatusEffect>
+                <StatusEffect type="OnActive" target="This">
+                    <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="50" scalemin="1" scalemax="3"/>
+                </StatusEffect>
+                <StatusEffect type="OnBroken" target="Contained" allowwhenbroken="true">
+                    <Use/>
+                </StatusEffect>
+                <!-- Remove the item after exploding -->
+                <StatusEffect type="OnBroken" target="This">
+                    <Remove/>
+                </StatusEffect>
+            </Projectile>
+            <ItemContainer hideitems="true" capacity="1" maxstacksize="1" canbeselected="false" containedstateindicatorstyle="explosive" containedspritedepth="0.81">
+                <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="64,384,64,64" origin="0.5,0.5"/>
+                <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI"/>
+                <Containable items="smallitem"/>
+            </ItemContainer>
+        </Item>
+        <Item name="" identifier="nuclearshellcheap" variantof="nuclearshell" hideineditors="true">
+            <PreferredContainer spawnprobability="0"/>
+            <PreferredContainer spawnprobability="0"/>
+            <Price baseprice="300" sold="false">
+                <Price sold="false"/>
+                <Price sold="false"/>
+                <Price sold="false"/>
+                <Price sold="false"/>
+                <Price sold="false"/>
+                <Price sold="false"/>
+            </Price>
+            <Deconstruct time="10">
+                <Item identifier="steel"/>
+                <Item identifier="uranium"/>
+                <!-- clear the rest of the deconstruction -->
+                <Item/>
+            </Deconstruct>
+            <Fabricate suitablefabricators="fabricator,nuclearmaterialprocessor" requiredtime="30" requiresrecipe="true">
+                <RequiredSkill identifier="electrical" level="40"/>
+                <RequiredItem identifier="steel"/>
+                <RequiredItem identifier="fuelrod" mincondition="0.8" usecondition="false"/>
+                <RequiredItem identifier="uex"/>
+            </Fabricate>
+        </Item>
+    </Items>
 </Override>
