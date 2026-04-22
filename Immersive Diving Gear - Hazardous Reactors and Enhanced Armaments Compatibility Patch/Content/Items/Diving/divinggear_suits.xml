@@ -84,8 +84,6 @@
                     <TriggerAnimation Type="Walk" FileName="HumanWalkDivingSuit" priority="1" ExpectedSpecies="Human"/>
                     <TriggerAnimation Type="Run" FileName="HumanRunDivingSuit" priority="1" ExpectedSpecies="Human"/>
                 </StatusEffect>
-                <!-- reduce walking speed -->
-                <StatValue stattype="WalkingSpeed" value="-0.2"/>
             </Wearable>
             <Holdable slots="RightHand,LeftHand" controlpose="true" holdpos="0,-40" handle1="-10,-20" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use">
                 <Upgrade gameversion="0.1401.0.0" msg="ItemMsgPickUpUse"/>
@@ -196,6 +194,7 @@
                 <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="LimbArmor" />
                 <!-- reduce walking and swimming speed -->
                 <StatValue stattype="WalkingSpeed" value="-0.25"/>
                 <StatValue stattype="SwimmingSpeed" value="-0.3"/>
