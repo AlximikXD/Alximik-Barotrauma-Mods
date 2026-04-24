@@ -431,11 +431,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.8" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
                 <!-- tag the character with "bothelmet" and "hashelmet" and give max. pressure protection | this prevents the player from dying when switching to a bot in water -->
                 <StatusEffect type="OnWearing" target="Character" tags="hashelmet,bothelmet" setvalue="true" duration="0.1"/>
                 <!-- remove the item when it's not contained -->
@@ -571,11 +567,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.8" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
                 <StatusEffect type="OnWearing" target="This,Character" condition="-0.1" comparison="And">
                     <Conditional HasStatusTag="eq hassuit"/>
                     <Conditional InWater="true"/>
@@ -649,11 +641,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.8" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Default Helmet -->
@@ -697,11 +685,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.7" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Abyss Helmet -->
@@ -741,11 +725,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.55" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.75" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Combat Helmet -->
@@ -786,11 +766,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.55" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Enhanced Armaments -->
@@ -1253,13 +1229,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bleeding" damagemultiplier="0.75" damagesound="armourmedimpact" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound" damagemultiplier="0.6" damagesound="armourmedimpact" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage" damagemultiplier="0.9" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.85" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,burn" damagemultiplier="0.8" damagesound="armourmedimpact"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" damagemultiplier="0.5" probabilitymultiplier="0.5" damagesound="armourmedimpact"/>
             </Wearable>
             <!-- HELMET INVENTORY -->
             <ItemContainer capacity="0" hideitems="true" containedstateindicatorslot="1">
@@ -1334,9 +1304,6 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,blunttrauma" damagemultiplier="0.1" damagesound="armourheavyimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,bleeding,explosiondamage,burn" damagemultiplier="0.25" damagesound="armourheavyimpact" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness,bitewounds,stun" damagemultiplier="0.5" damagesound="armourheavyimpact"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
             </Wearable>
         </Item>
@@ -1371,11 +1338,7 @@
                         <LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0"/>
                     </LightComponent>
                 </sprite>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding" damagemultiplier="0.6" damagesound="LimbArmor" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="" deflectprojectiles="true"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.6" damagesound="LimbArmor"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Diving Helmet (Liquidator) -->
@@ -1477,13 +1440,7 @@
             </CustomInterface>
             <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbepicked="true" pickkey="Select">
                 <sprite name="highperfhazmat helm Wearable" texture="%ModDir:2764968387%/Jobgear/helmets.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.82" hidewearablesoftype="hair,beard" sourcerect="689,271,87,85" origin="0.59,0.51"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="scp_presolatexinfection,scp_hexgasdamage" damagemultiplier="0" probabilitymultiplier="0"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.05"/>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="acidburn,burn" damagemultiplier="0.1"/>
-                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="lacerations,gunshotwound,bitewounds" damagemultiplier="0.75"/>
-                <SkillModifier skillidentifier="electrical" skillvalue="10"/>
-                <SkillModifier skillidentifier="weapons" skillvalue="-35"/>
             </Wearable>
             <!--<Holdable slots="RightHand,LeftHand" controlpose="true" holdpos="0,-30" handle1="0,-30" aimable="false" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />-->
             <Throwable slots="RightHand,LeftHand" controlpose="true" holdpos="0,-30" handle1="0,-10" aimable="true" aimpos="0,-30" msg="ItemMsgPickUpUse" throwforce="3.0" canbeselected="false" canbepicked="true" pickkey="Use">
