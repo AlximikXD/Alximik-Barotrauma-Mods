@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Immersive Diving Gear - Hazardous Reactors and Enhanced Armaments Compatibility Patch" modversion="1.0.2" corepackage="False" steamworkshopid="3156094291" gameversion="1.5.9.2">
+    <!-- TEMPLATE -->
     <Item file="%ModDir%/Content/Items/Diving/divinggear_helmets.xml"/>
     <Item file="%ModDir%/Content/Items/Diving/divinggear_suits.xml"/>
     <Item file="%ModDir%/Content/Items/Jobgear/Engineer/engineer_talent_items.xml"/>
@@ -11,6 +12,11 @@
     <Item file="%ModDir%/Content/Items/Weapons/railgun.xml"/>
     <Item file="%ModDir%/Content/Items/Weapons/depthcharge.xml"/>
     <Afflictions file="%ModDir%/Content/Afflictions.xml"/>
+    <!-- TEMPLATE -->
+    <!-- TEMPLATE -->
     <Text file="%ModDir%/Content/Texts/English/English.xml"/>
     <Text file="%ModDir%/Content/Texts/Ukrainian/Ukrainian.xml"/>
+    <!-- divingsuitlockers -->
+    <Item file="%ModDir%/Content/Items/Containers/containers.xml"/>
+    <Item file="%ModDir%/Content/Items/Shipwrecks/wreckeditems.xml"/>
 </contentpackage>
