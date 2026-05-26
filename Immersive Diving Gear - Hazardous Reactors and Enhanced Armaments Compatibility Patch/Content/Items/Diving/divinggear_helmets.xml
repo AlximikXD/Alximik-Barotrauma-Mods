@@ -738,8 +738,14 @@
                 <Price storeidentifier="merchantmine" sold="false" multiplier="1.25"/>
                 <Price storeidentifier="merchantarmory" multiplier="0.85" minavailable="3"/>
             </Price>
+                <!-- TODO: implement
+                divingsuitcontainer for divingsuitlocker2
+                -->
             <PreferredContainer primary="divingsuitcontainer" secondary="divingcab"/>
-            <PreferredContainer primary="wreckedcrewcab,abandonedcrewcab" spawnprobability="0.02"/>
+            <PreferredContainer primary="piratedivingsuitcontainer" spawnprobability="1" minleveldifficulty="35" />
+            <PreferredContainer primary="wreckdivingsuitcontainer" spawnprobability="0.05" minleveldifficulty="35"/>
+
+            <PreferredContainer primary="wreckedcrewcab,abandonedcrewcab" spawnprobability="0.05"/>
             <Deconstruct time="10"/>
             <Fabricate suitablefabricators="fabricator" requiredtime="15">
                 <RequiredSkill identifier="mechanical" level="40"/>
@@ -767,6 +773,10 @@
                     </LightComponent>
                 </sprite>
                 <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="contamination" probabilitymultiplier="0" damagesound="armourmedimpact"/>
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,gunshotwound,bitewounds,lacerations,bleeding,explosiondamage" damagemultiplier="0.75" damagesound="LimbArmor" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.7" damagesound="" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.75" damagesound="LimbArmor"/>
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.5" damagesound="LimbArmor"/>
             </Wearable>
         </Item>
         <!-- Enhanced Armaments -->
