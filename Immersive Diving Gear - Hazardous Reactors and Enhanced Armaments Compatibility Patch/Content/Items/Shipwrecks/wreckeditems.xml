@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Override>
+        <Item name="" identifier="divingsuitlockerwrecked" nameidentifier="divingsuitlocker" tags="divingsuitcontainerwindow,wreckdivingsuitcontainer" pickdistance="50" scale="0.5" category="Wrecked" subcategory="containers">
+            <Sprite texture="Content/Items/Shipwrecks/MiscWrecked.png" depth="0.84" sourcerect="1126,1710,99,254" origin="0.5,0.5" />
+            <!-- 70% opacity wrecked locker sprite on top, to make the window look more dirty when there's a suit inside -->
+            <DecorativeSprite texture="Content/Items/Shipwrecks/MiscWrecked.png" depth="0.83" sourcerect="1126,1710,99,254" origin="0.5,0.5" color="255,255,255,150" />
+            <LightComponent range="10.0" lightcolor="255,255,255,0" powerconsumption="5" IsOn="true" castshadows="false" flicker="0.4" flickerspeed="0.3" alphablend="false" allowingameediting="false">
+                <sprite texture="%ModDir:3074045632%/Content/Items/Diving/SuitlockerLighting.png" depth="0.83" sourcerect="0,0,99,256" origin="0.5,0.5" alpha="1.0" />
+            </LightComponent>
+            <ItemContainer hideitems="false" drawinventory="true" capacity="1" slotsperrow="1" itempos="0,0" iteminterval="0,0" canbeselected="true" msg="ItemMsgInteractSelect">
+                <GuiFrame relativesize="0.2,0.375" anchor="Center" minsize="140,170" maxsize="280,440" style="ItemUI" />
+                <SlotIcon slotindex="0" texture="Content/Map/LabelIcons.png" sourcerect="512,0,256,256" origin="0.5,0.5" />
+                <SlotIcon slotindex="1" texture="Content/Map/LabelIcons.png" sourcerect="512,0,256,179" origin="0.5,0.5" />
+                <Containable items="deepdiving" excludeditems="deepdivinglarge" />
+                <SubContainer capacity="1">
+                    <Containable items="divinghelmet" />
+                </SubContainer>
+                <StatusEffect type="OnPicked" target="this">
+                    <Sound file="%ModDir:3074045632%/Content/Items/Containers/divingcabinet_open.ogg" volume="5" range="250" selectionmode="Random" />
+                </StatusEffect>
+            </ItemContainer>
+        </Item>
+    </Override>
+</Items>
