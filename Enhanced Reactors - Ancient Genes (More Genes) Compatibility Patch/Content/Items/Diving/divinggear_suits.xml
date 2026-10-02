@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <Override>
+        <!-- Cyborg Armor -->
+        <Item name="" identifier="cyborgarmor" category="Diving" tags="diving,deepdiving,deepdivinglarge,clothing,divinggear_wearableindoors,cyborgarmor,sonar,provocative,mobilecontainer" scale="0.325" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" isshootable="true" hideinmenus="false">
+            <!-- <PreferredContainer primary="divingcab"/> -->
+            <Price baseprice="350" sold="false">
+                <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+                <Price storeidentifier="merchantcity" multiplier="1.2" />
+                <Price storeidentifier="merchantresearch" />
+                <Price storeidentifier="merchantmilitary" multiplier="1.25" />
+                <Price storeidentifier="merchantmine" />
+            </Price>
+            <Deconstruct time="20">
+                <Item identifier="physicorium" />
+                <Item identifier="dementonite" />
+                <Item identifier="titaniumaluminiumalloy" />
+                <Item identifier="copper" amount="2" />
+                <Item identifier="tin" amount="2" />
+            </Deconstruct>
+            <Fabricate suitablefabricators="fabricator" requiredtime="40" requiresrecipe="true">
+                <RequiredSkill identifier="electrical" level="30" />
+                <RequiredSkill identifier="mechanical" level="30" />
+                <RequiredItem identifier="physicorium" amount="2" />
+                <RequiredItem identifier="dementonite" amount="2" />
+                <RequiredItem identifier="aliencircuitry" />
+                <RequiredItem identifier="handheldsonar" />
+                <RequiredItem identifier="cargoscooter" />
+            </Fabricate>
+            <InventoryIcon texture="%ModDir:2967334496%/Items/CyborgArmor.png" sourcerect="0,384,128,128" origin="0.5,0.5" />
+            <Sprite name="Cyborg Armor" texture="%ModDir:2967334496%/Items/CyborgArmor.png" sourcerect="0,0,256,320" depth="0.55" origin="0.5,0.5" />
+            <!-- No longer containable being deepdivinglarge -->
+            <!-- <ContainedSprite name="Respawn Diving Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="Content/Items/Diving/RespawnSuit_Items.png" sourcerect="181,0,70,192" scale="0.5" depth="0.55" origin="0.5,0.5" />
+                <ContainedSprite name="Respawn Diving Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="Content/Items/Containers/containers.png" sourcerect="118,379,77,214" scale="0.5" depth="0.55" origin="-0.12,-0.13" />
+                <ContainedSprite name="Respawn Diving Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="Content/Items/Diving/RespawnSuit_Items.png" sourcerect="0,193,230,63" scale="0.5" depth="0.55" origin="0.6,0.5" /> -->
+            <Body width="120" height="270" density="20" />
+            <Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" allowusewhenworn="true">
+                <sprite name="Cyborg Torso" texture="%ModDir:2967334496%/Characters/HumanCyborg/chest.png" limb="Torso" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.48,0.51" sourcerect="0,0,122,220">
+                    <LightComponent range="600.0" lightcolor="250,224,165,128" powerconsumption="10" IsOn="false" allowingameediting="false">
+                    <StatusEffect type="OnActive" targettype="Contained" targetslot="0" Condition="-0.025">
+                        <RequiredItem items="reactorfuel,nuclearcartridge" type="Contained" />
+                    </StatusEffect>
+                    <LightTexture texture="Content/Lights/pointlight_bright.png" origin="0.5, 0.5" size="1.0,1.0" />
+                    </LightComponent>
+                </sprite>
+                <sprite name="Cyborg Left Upper Arm" texture="%ModDir:2967334496%/Characters/HumanCyborg/arm_1_down.png" limb="LeftArm" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.5,0.53" sourcerect="0,0,73,112" />
+                <sprite name="Cyborg Left Lower Arm" texture="%ModDir:2967334496%/Characters/HumanCyborg/arm_2_down.png" limb="LeftForearm" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.5,0.52" sourcerect="0,0,54,100" />
+                <sprite name="Cyborg Left Hand" texture="%ModDir:2967334496%/Characters/HumanCyborg/hand_down.png" limb="LeftHand" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.40,0.43" sourcerect="0,0,44,66" />
+                <sprite name="Cyborg Right Upper Arm" texture="%ModDir:2967334496%/Characters/HumanCyborg/arm_1_up.png" limb="RightArm" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.5,0.53" sourcerect="0,0,73,119" />
+                <sprite name="Cyborg Right Lower Arm" texture="%ModDir:2967334496%/Characters/HumanCyborg/arm_2_up.png" limb="RightForearm" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.5,0.52" sourcerect="0,0,54,100" />
+                <sprite name="Cyborg Right Hand" texture="%ModDir:2967334496%/Characters/HumanCyborg/hand_up.png" limb="RightHand" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.40,0.43" sourcerect="0,0,44,66" />
+                <sprite name="Cyborg Waist" texture="%ModDir:2967334496%/Characters/HumanCyborg/waist.png" limb="Waist" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.50,0.60" sourcerect="1,0,106,137" />
+                <sprite name="Cyborg Left Thigh" texture="%ModDir:2967334496%/Characters/HumanCyborg/leg_1_down.png" limb="LeftThigh" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.53,0.64" sourcerect="0,0,104,192" />
+                <sprite name="Cyborg Left Leg" texture="%ModDir:2967334496%/Characters/HumanCyborg/leg_2_down.png" limb="LeftLeg" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.45,0.61" sourcerect="0,0,82,178" />
+                <sprite name="Cyborg Left Shoe" texture="%ModDir:2967334496%/Characters/HumanCyborg/foot_down.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.45,0.36" sourcerect="0,0,103,65" />
+                <sprite name="Cyborg Right Thigh" texture="%ModDir:2967334496%/Characters/HumanCyborg/leg_1_up.png" limb="RightThigh" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.53,0.64" sourcerect="0,0,104,192" />
+                <sprite name="Cyborg Right Leg" texture="%ModDir:2967334496%/Characters/HumanCyborg/leg_2_up.png" limb="RightLeg" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.45,0.61" sourcerect="0,0,82,178" />
+                <sprite name="Cyborg Right Shoe" texture="%ModDir:2967334496%/Characters/HumanCyborg/foot_up.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.6" hideotherwearables="true" origin="0.45,0.36" sourcerect="0,0,103,65" />
+                <!-- Damage reduction -->
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,bitewounds,lacerations" damagemultiplier="0.30" damagesound="LimbArmor" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="explosiondamage,gunshotwound" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictiontypes="bleeding" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.5" damagesound="LimbArmor" deflectprojectiles="true" />
+                <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.7" />
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="radiationsickness" damagemultiplier="0.25" damagesound="LimbArmor" />
+                <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="huskinfection" probabilitymultiplier="0.25" damagesound="LimbArmor" />
+                <!-- Damage user who has no cyborg genes -->
+                <StatusEffect type="OnWearing" target="Character">
+                    <Conditional cyborgeffects="lte 0" />
+                    <Affliction identifier="internaldamage" amount="0.5" />
+                    <Affliction identifier="organdamage" amount="0.5" />
+                </StatusEffect>
+                <!-- no HMG stun -->
+                <StatusEffect type="OnWearing" target="Character" interval="0.9" disabledeltatime="true">
+                    <Affliction identifier="recoilstabilized" amount="1" />
+                </StatusEffect>
+                <!-- Increase propulsion speed and pressure protection up to 6400m -->
+                <StatusEffect type="OnWearing" target="Character" PressureProtection="6400.0" setvalue="true" disabledeltatime="true" />
+                <StatusEffect type="OnWearing" target="Character" tags="powered" interval="0.1" duration="0.2">
+                    <RequiredItem items="reactorfuel,nuclearcartridge" type="Contained" />
+                </StatusEffect>
+                <!-- Flow resistance and Increse swimming speed -->
+                <StatusEffect type="OnWearing" target="This,Character" FlowResistance="0.9" SwimmingSpeed="0.5" PropulsionSpeed="0.5" setvalue="true" disabledeltatime="true">
+                    <RequiredItem items="reactorfuel,nuclearcartridge" type="Contained" />
+                </StatusEffect>
+            </Wearable>
+            <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="50,-50" handle1="-10,-20" handle2="10,-20" holdangle="0" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
+            <!-- abondoned ideas, leads to conflict with weapon use. -->
+                <!-- <Propulsion force="150" usablein="water" particles="bubbles" ApplyToHands="false">
+                <RequiredItems items="reactorfuel" targetslot="0" type="Contained" msg="ItemMsgReactorFuelRequired" />
+                <StatusEffect type="OnUse" target="Contained" targetslot="0" Condition="-0.1">
+                    <RequiredItem items="reactorfuel" type="Contained" />
+                </StatusEffect>
+                <sound file="Content/Items/Diving/ScooterLoop.ogg" type="OnUse" range="500.0" loop="true" />
+                <LightComponent LightColor="1.0,1.0,1.0,0.8" range="1000">
+                    <LightTexture texture="Content/Lights/lightcone.png" origin="-0.01, 0.5" size="1.0,1.0" />
+                </LightComponent>
+                </Propulsion> -->
+                <!-- <RangedWeapon reload="0.5" barrelpos="18,14" spread="0" unskilledspread="10" combatPriority="80" drawhudwhenequipped="true" crosshairscale="0.2" maxchargetime="0.75">
+                <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
+                <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
+                <ParticleEmitter particle="FlareBubbles" scalemin="1.4" scalemax="1.8" particleamount="14" anglemin="0" anglemax="360" velocitymin="0" velocitymax="50" />
+                <ParticleEmitter particle="GlowDot" scalemin="4.0" scalemax="4.0" particleamount="20" anglemin="0" anglemax="360" velocitymin="0" velocitymax="0" colormultiplier="10,235,195,255" />
+                <ParticleEmitterCharge particle="chargenucleargun" particlespersecond="60" scalemultiplier="0.75,0.75" scalemin="1.0" scalemax="1.0" anglemin="0" anglemax="359" />
+                <Sound file="Content/Items/JobGear/Engineer/WEAPONS_rapidFissileAccelerator.ogg" type="OnUse" range="3000" selectionmode="Random" />
+                <Sound file="Content/Items/JobGear/Engineer/WEAPONS_rapidFissileAccelerator2.ogg" type="OnUse" range="3000" />
+                <Sound file="Content/Items/JobGear/Engineer/WEAPONS_rapidFissileAccelerator3.ogg" type="OnUse" range="3000" />
+                <Sound file="Content/Items/JobGear/Engineer/WEAPONS_rapidFissileAccelerator4.ogg" type="OnUse" range="3000" />
+                <ChargeSound file="Content/Items/JobGear/Engineer/WEAPONS_rapidFissileAcceleratorStartLoop.ogg" range="1000" />
+                <StatusEffect type="OnUse">
+                    <Explosion range="150.0" force="3" shockwave="false" smoke="false" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="6.0" />
+                </StatusEffect>
+                <StatusEffect type="OnUse" target="Contained">
+                    <Use />
+                </StatusEffect>
+                <RequiredItems items="reactorfuel" type="Contained" msg="ItemMsgAmmoRequired" />
+                <RequiredSkill identifier="weapons" level="45" />
+                <RequiredSkill identifier="electrical" level="30" />
+                <RequiredSkill identifier="mechanical" level="30" />
+                </RangedWeapon> -->
+            <!-- Built-in Sonar system -->
+            <Sonar range="6000.0" powerconsumption="10" drawhudwhenequipped="true" detectsubmarinewalls="true" displaybordersize="-0.1" characterusable="false" hasmineralscanner="true" allowuioverlap="true">
+                <StatusEffect type="OnUse" targettype="Contained" Condition="-0.1" targetslot="0" disabledeltatime="true">
+                    <RequiredItem items="reactorfuel,nuclearcartridge" type="Contained" />
+                </StatusEffect>
+                <sound file="Content/Items/Command/SonarPing.ogg" type="OnUse" range="1000.0" frequencymultiplier="1.5" />
+                <GuiFrame relativesize="0.25,0.25" anchor="BottomCenter" relativeoffset="-0.1,0.1" />
+                <PingCircle texture="Content/Items/Command/pingCircle.png" origin="0.5,0.5" />
+                <DirectionalPingCircle texture="Content/Items/Command/directionalPingCircle.png" origin="0.0,0.5" />
+                <ScreenOverlay texture="Content/Items/Command/sonarOverlay.png" origin="0.5,0.5" />
+                <ScreenBackground texture="Content/Items/Command/sonarBackground.png" origin="0.5,0.5" />
+                <DirectionalPingBackground texture="Content/Items/Command/directionalPingBackground.png" origin="0.5,0.5" />
+                <DirectionalPingButton index="0" texture="Content/Items/Command/directionalPingButton.png" sourcerect="0,0,91,266" origin="-4.5275,0.5" />
+                <DirectionalPingButton index="1" texture="Content/Items/Command/directionalPingButton.png" sourcerect="133,0,91,266" origin="-4.5275,0.5" />
+                <DirectionalPingButton index="2" texture="Content/Items/Command/directionalPingButton.png" sourcerect="266,0,91,266" origin="-4.5275,0.5" />
+                <Blip texture="Content/Items/Command/sonarBlip.png" origin="0.5,0.5" />
+                <LineSprite texture="Content/Items/Command/NavUI.png" sourcerect="181,141,109,4" origin="0,0.5" />
+                <icon identifier="outpost" texture="Content/UI/MainIconsAtlas.png" sourcerect="352,398,16,8" origin="0.5,0.5" />
+                <icon identifier="submarine" texture="Content/UI/MainIconsAtlas.png" sourcerect="353,407,14,6" origin="0.5,0.5" />
+                <icon identifier="shuttle" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,407,8,6" origin="0.5,0.5" />
+                <icon identifier="artifact" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,414,8,8" origin="0.5,0.5" />
+                <icon identifier="location" texture="Content/UI/MainIconsAtlas.png" sourcerect="349,435,11,11" origin="0.5,0.5" />
+                <icon identifier="mineral" texture="Content/UI/MainIconsAtlas.png" sourcerect="336,434,7,12" origin="0.5,0.5" />
+                <icon identifier="" texture="Content/UI/MainIconsAtlas.png" sourcerect="346,416,4,4" origin="0.5,0.5" />
+            </Sonar>
+            <!-- SUIT INVENTORY -->
+            <!-- Cargo capacity -->
+            <ItemContainer capacity="0" hideitems="true" containedstateindicatorslot="0" containedstateindicatorstyle="battery">
+                <!-- <Containable items="none" /> -->
+                <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="192,448,64,64" origin="0.5,0.5" />
+                <SubContainer capacity="1" maxstacksize="1">
+                    <Containable items="reactorfuel,nuclearcartridge">
+                        <StatusEffect type="OnContaining" target="This,Character" Voltage="1.0" setvalue="true">
+                            <Conditional IsDead="false" />
+                        </StatusEffect>
+                    </Containable>
+                </SubContainer>
+                <SubContainer capacity="11" maxstacksize="32">
+                    <Containable items="smallitem,mediumitem" excludeditems="backpack,toolbelt,toolbox,bandolier,cargoscooter" />
+                </SubContainer>
+            </ItemContainer>
+            <aitarget maxsightrange="1500" />
+        </Item>
+    </Override>
+</Items>

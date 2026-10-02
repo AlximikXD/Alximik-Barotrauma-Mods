@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Items -->
+  <!-- Bots Cyborg Helmet -->
+  <entityname.botcyborghelmet>Кіборгівський головний модуль:R1</entityname.botcyborghelmet>
+  <!-- Bots Cyborg Helmet Description -->
+  <entityname.botcyborghelmet.description>Кіборгівський головний модуль, що поєднує людські технології та інопланетну енергетичну систему. Внутрішній оксигенітовий пристрій постачає кисень, тож зовнішнє постачання кисню не потрібне. Має вбудовані режим тепловізора та режим медичного сканування. Обережно: обладнання може завдати власнику серйозних травм, якщо в нього немає кіборгівських генів.</entityname.botcyborghelmet.description>
+  <!-- Cyborg Helmet -->
+  <entityname.cyborghelmet>Кіборгівський головний модуль:R1</entityname.cyborghelmet>
+  <!-- Cyborg Helmet Description -->
+  <entityname.cyborghelmet.description>Кіборгівський головний модуль, що поєднує людські технології та інопланетну енергетичну систему. Внутрішній оксигенітовий пристрій постачає кисень, тож зовнішнє постачання кисню не потрібне. Має вбудовані режим тепловізора та режим медичного сканування. Обережно: обладнання може завдати власнику серйозних травм, якщо в нього немає кіборгівських генів.</entityname.cyborghelmet.description>
+  
+  <!-- Cyborg Armor -->
+  <entityname.cyborgarmor>Кіборгівський модуль тіла:CG-I</entityname.cyborgarmor>
+  <!-- Cyborg Armor Description -->
+  <entityname.cyborgarmor.description>Кіборгівський модуль тіла, що поєднує людські технології та інопланетну схемну систему. За умови подачі енергії значно збільшує швидкість плавання. Витримує тиск на глибині до 6400 метрів, має вбудовану сонарну систему та середню місткість для вантажу. Обережно: обладнання може завдати власнику серйозних травм, якщо в нього немає кіборгівських генів.</entityname.cyborgarmor.description>
+</infotexts>

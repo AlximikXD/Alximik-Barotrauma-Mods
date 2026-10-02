@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Enhanced Reactors - Ancient Genes (More Genes) Compatibility Patch" modversion="1.0.0" corepackage="False">
+  <Item file="%ModDir%/Content/Items/Diving/divinggear_helmets.xml" />
+  <Item file="%ModDir%/Content/Items/Diving/divinggear_suits.xml" />
+  <Text file="%ModDir%/Content/Texts/English/English.xml" />
+  <Text file="%ModDir%/Content/Texts/Ukrainian/Ukrainian.xml" />
+</contentpackage>

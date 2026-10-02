@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <!-- Items -->
+  <!-- Bots Cyborg Helmet -->
+  <entityname.botcyborghelmet>Bot Cyborg Head Module:R1</entityname.botcyborghelmet>
+  <!-- Bots Cyborg Helmet Description -->
+  <entityname.botcyborghelmet.description>The cyborg head module, which integrates human technology and alien energy system, the internal oxygenite device supplies oxygen, no external oxygen supply is required, and it has built-in thermal imaging mode and medical scanning mode. Caution: Equipment without cyborg genes can cause serious injury to the wearer.</entityname.botcyborghelmet.description>
+  <!-- Cyborg Helmet -->
+  <entityname.cyborghelmet>Cyborg Head Module:R1</entityname.cyborghelmet>
+  <!-- Cyborg Helmet Description -->
+  <entityname.cyborghelmet.description>The cyborg head module, which integrates human technology and alien energy system, the internal oxygenite device supplies oxygen, no external oxygen supply is required, and it has built-in thermal imaging mode and medical scanning mode. Caution: Equipment without cyborg genes can cause serious injury to the wearer.</entityname.cyborghelmet.description>
+  
+  <!-- Cyborg Armor -->
+  <entityname.cyborgarmor>Cyborg Body Module:CG-I</entityname.cyborgarmor>
+  <!-- Cyborg Armor Description -->
+  <entityname.cyborgarmor.description>The cyborg body module, which combines human technology and alien circuit system, greatly increase the swimming speed under the condition of energy input. It can withstand deep water pressure up to 6400 meters, and has a built-in sonar system and medium cargo capacity. Caution: Equipment without cyborg genes can cause serious injury to the wearer.</entityname.cyborgarmor.description>
+</infotexts>
