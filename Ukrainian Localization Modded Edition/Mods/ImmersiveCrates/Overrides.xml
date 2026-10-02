@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Item messages -->
+  <entityname.cratefloater>Поплавець для ящика</entityname.cratefloater>
+  <entitydescription.cratefloater>Запобігає потопленню ящика, який міститься всередині.</entitydescription.cratefloater>
+</infotexts>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <Override>
+    <!-- Locations -->
+    <!-- Location names and descriptions -->
+    <locationname.destroyedstation>Знищена станція</locationname.destroyedstation>
+    <locationnameformat.destroyedstation>[name] (Зруйновано)</locationnameformat.destroyedstation>
+    <locationdescription.destroyedstation>Нещодавно зруйнована станція. Недоступна для субмарин. Пристикуватися тут неможливо. 
+  </locationdescription.destroyedstation>
+    <locationname.starteroutpost>Великий європейський елеватор</locationname.starteroutpost>
+    <locationnameformat.starteroutpost>Стикувальний док [name]</locationnameformat.starteroutpost>
+    <locationdescription.starteroutpost>Ці старі ліфтові шахти перевозять персонал і ресурси крізь усю кору Європи до крижаних глибин. Це неминуча відправна точка для кожного, хто прагне стати моряком. \n\n\nУ наявності: \n-Місії\n-Найм екіпажу\n-Магазини: Загальні товари\n</locationdescription.starteroutpost>
+    <locationname.outpost>Аванпост</locationname.outpost>
+    <locationnameformat.outpost>Аванпост [name]</locationnameformat.outpost>
+    <locationnameformat.outpost>Станція [name]</locationnameformat.outpost>
+    <locationnameformat.outpost>Резиденція [name]</locationnameformat.outpost>
+    <locationdescription.outpost>Невеликий, нещодавно створений цивільний аванпост.\n\n\nУ наявності:\n-Місії\n</locationdescription.outpost>
+    <locationname.settlement>Поселення</locationname.settlement>
+    <locationnameformat.settlement>Поселення [name]</locationnameformat.settlement>
+    <locationnameformat.settlement>Оселище [name]</locationnameformat.settlement>
+    <locationnameformat.settlement>Популяція [name]</locationnameformat.settlement>
+    <locationdescription.settlement>Зростаючий цивільний аванпост.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Магазини: Загальні товари</locationdescription.settlement>
+    <locationname.colony>Колонія</locationname.colony>
+    <locationnameformat.colony>Колонія [name]</locationnameformat.colony>
+    <locationnameformat.colony>Громада [name]</locationnameformat.colony>
+    <locationnameformat.colony>Населений пункт [name]</locationnameformat.colony>
+    <locationdescription.colony>Розвинений цивільний аванпост.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Модернізація субмарин\n-Магазини: Загальні товари\n
+
+  </locationdescription.colony>
+    <locationname.city>Місто</locationname.city>
+    <locationnameformat.city>Місто [name]</locationnameformat.city>
+    <locationnameformat.city>Метрополіс [name]</locationnameformat.city>
+    <locationnameformat.city>Акваполіс [name]</locationnameformat.city>
+    <locationnameformat.city>Мегаполіс [name]</locationnameformat.city>
+    <locationdescription.city>Острівець Європейської цивілізації, що вирує життям.\n\n\nПропонується найширший спектр магазинів і послуг.\n</locationdescription.city>
+    <locationname.camp>Табір</locationname.camp>
+    <locationnameformat.camp>Табір [name]</locationnameformat.camp>
+    <locationnameformat.camp>Бараки [name]</locationnameformat.camp>
+    <locationnameformat.camp>Табір [name]</locationnameformat.camp>
+    <locationnameformat.camp>Гарнізон [name]</locationnameformat.camp>
+    <locationdescription.camp>Невеликий військовий табір.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n</locationdescription.camp>
+    <locationname.base>База</locationname.base>
+    <locationnameformat.base>База [name]</locationnameformat.base>
+    <locationnameformat.base>Бункер [name]</locationnameformat.base>
+    <locationnameformat.base>Форт [name]</locationnameformat.base>
+    <locationnameformat.base>Бастіон [name]</locationnameformat.base>
+    <locationdescription.base>Військова база середнього розміру.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Магазин: Військові товари\n</locationdescription.base>
+    <locationname.military>Фортеця</locationname.military>
+    <locationnameformat.military>Фортеця [name]</locationnameformat.military>
+    <locationnameformat.military>Військовий об'єкт [name]</locationnameformat.military>
+    <locationnameformat.military>Застава [name]</locationnameformat.military>
+    <locationnameformat.military>Командний пункт [name]</locationnameformat.military>
+    <locationdescription.military>Великий військовий опорний пункт.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Продаж і модернізація субмарин\n-Магазин: Зброя, військові та інженерні товари\n</locationdescription.military>
+    <locationname.blockade>Військова блокада</locationname.blockade>
+    <locationnameformat.blockade>Блокада [name]</locationnameformat.blockade>
+    <locationnameformat.blockade>Контрольний пункт [name]</locationnameformat.blockade>
+    <locationnameformat.blockade>Укріплення [name]</locationnameformat.blockade>
+    <locationdescription.blockade>Військові укріплення, що блокують доступ до глибших районів.\n\n\nУ наявності:\n-Місії\n-Лікар\n-Магазин: Зброя, військові товари\n</locationdescription.blockade>
+    <locationname.militaryforces>Збройні сили</locationname.militaryforces>
+    <locationnameformat.militaryforces>Збройні сили в [name]</locationnameformat.militaryforces>
+    <locationdescription.militaryforces>Військова субмарина бореться з монстрами в цьому районі.\n\n\nУ наявності:\n-Місії\n-Лікар\n-Магазин: Зброя, військові товари\n</locationdescription.militaryforces>
+    <locationname.clinic>Клініка</locationname.clinic>
+    <locationnameformat.clinic>Клініка [name]</locationnameformat.clinic>
+    <locationnameformat.clinic>Лазарет [name]</locationnameformat.clinic>
+    <locationnameformat.clinic>Медична капсула [name]</locationnameformat.clinic>
+    <locationnameformat.clinic>Диспансер [name]</locationnameformat.clinic>
+    <locationdescription.clinic>Невеликий медичний пункт для лікування травм.\n\n\nУ наявності:\n-Місії\n-Лікар\n</locationdescription.clinic>
+    <locationname.hospital>Госпіталь</locationname.hospital>
+    <locationnameformat.hospital>Аптека [name]</locationnameformat.hospital>
+    <locationnameformat.hospital>Медстанція [name]</locationnameformat.hospital>
+    <locationnameformat.hospital>Медичний центр [name]</locationnameformat.hospital>
+    <locationnameformat.hospital>Госпіталь [name]</locationnameformat.hospital>
+    <locationdescription.hospital>Великий медичний пункт з великою кількістю медикаментів і лікарів.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Лікар\n-Медичний фабрикатор\n-Магазин: Медикаменти\n</locationdescription.hospital>
+    <locationname.hydroponics>Гідропонна ферма</locationname.hydroponics>
+    <locationnameformat.hydroponics>Гідропоніка [name]</locationnameformat.hydroponics>
+    <locationnameformat.hydroponics>Геопоніка [name]</locationnameformat.hydroponics>
+    <locationnameformat.hydroponics>Аквакультура [name]</locationnameformat.hydroponics>
+    <locationdescription.hydroponics>Сільськогосподарська станція для вирощування рослин і годівлі голодних європейців.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Їжа\n</locationdescription.hydroponics>
+    <locationname.construction>Будівельний майданчик</locationname.construction>
+    <locationnameformat.construction>Будівельний майданчик [name]</locationnameformat.construction>
+    <locationnameformat.construction>Будівельний модуль [name]</locationnameformat.construction>
+    <locationnameformat.construction>Запланована зона [name]</locationnameformat.construction>
+    <locationdescription.construction>Будівельний майданчик, що працює над новою станцією.\n\n\nУ наявності:\n-Місії \n-Фабрикатори таі деконструктори\n</locationdescription.construction>
+    <locationname.factory>Завод</locationname.factory>
+    <locationnameformat.factory>Фабрика [name]</locationnameformat.factory>
+    <locationnameformat.factory>Майстерня [name]</locationnameformat.factory>
+    <locationnameformat.factory>Млин [name]</locationnameformat.factory>
+    <locationnameformat.factory>Мануфактура [name]</locationnameformat.factory>
+    <locationdescription.factory>Виробничий центр, що займається виготовленням і розповсюдженням різних товарів.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Модернізація субмарин\n-Магазин: Мінерали, загальні товари\n</locationdescription.factory>
+    <locationname.shipyard>Верф</locationname.shipyard>
+    <locationnameformat.shipyard>Верф [name]</locationnameformat.shipyard>
+    <locationnameformat.shipyard>Військово-морська верф [name]</locationnameformat.shipyard>
+    <locationnameformat.shipyard>Док [name]</locationnameformat.shipyard>
+    <locationnameformat.shipyard>Сухий док [name]</locationnameformat.shipyard>
+    <locationdescription.shipyard>Великий промисловий майданчик, обладнаний під будівництво субмарин.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Продаж і модернізація субмарин\n-Магазин: Загальніі та інженерні товари\n</locationdescription.shipyard>
+    <locationname.survey>Розвідка місцевості</locationname.survey>
+    <locationnameformat.survey>Спостережний пункт [name]</locationnameformat.survey>
+    <locationnameformat.survey>Розвідний дрон [name]</locationnameformat.survey>
+    <locationnameformat.survey>Автономний сканер [name]</locationnameformat.survey>
+    <locationdescription.survey>Невеликий автоматизований модуль, що сканує навколишню територію на предмет наявності корисних копалин.\n\n\nМожна отримати координати цінних мінералів\n</locationdescription.survey>
+    <locationname.mine>Розкопки</locationname.mine>
+    <locationnameformat.mine>Розкопки [name]</locationnameformat.mine>
+    <locationnameformat.mine>Кар'єр [name]</locationnameformat.mine>
+    <locationnameformat.mine>Місце розкопок [name]</locationnameformat.mine>
+    <locationnameformat.mine>Шахта [name]</locationnameformat.mine>
+    <locationnameformat.mine>Бурова станція [name]</locationnameformat.mine>
+    <locationdescription.mine>Гірничодобувна промисловість, що розробляє поклади корисних копалин у сухих печерах.\n\n\nУ наявності:\n-Фабрикатори та деконструктори\n-Магазин: Мінерали\n</locationdescription.mine>
+    <locationname.study>Дослідницький об'єкт</locationname.study>
+    <locationnameformat.study>Комплекс досліджень [name]</locationnameformat.study>
+    <locationnameformat.study>Біо-дослідження [name]</locationnameformat.study>
+    <locationnameformat.study>Гео-дослідження [name]</locationnameformat.study>
+    <locationnameformat.study>Обсерваторія [name]</locationnameformat.study>
+    <locationdescription.study>Невеликий дослідницький центр.\n\n\nУ наявності:\n-Місії\n-Дослідницькі лабораторії\n-Магазин: Дослідження\n</locationdescription.study>
+    <locationname.research>Наукова установа</locationname.research>
+    <locationnameformat.research>Інститут [name]</locationnameformat.research>
+    <locationnameformat.research>Університет [name]</locationnameformat.research>
+    <locationnameformat.research>Заклад [name]</locationnameformat.research>
+    <locationnameformat.research>Дослідницький фонд [name]</locationnameformat.research>
+    <locationdescription.research>Глибоководний дослідницький комплекс.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Фабрикатори та деконструктори\n-Дослідницькі лабораторії\n-Продаж субмарин\n-Магазин: Дослідження\n</locationdescription.research>
+    <locationname.PirateOutpost>Піратська гавань</locationname.PirateOutpost>
+    <locationnameformat.pirateoutpost>Гавань [name]</locationnameformat.pirateoutpost>
+    <locationnameformat.pirateoutpost>Бухта [name]</locationnameformat.pirateoutpost>
+    <locationnameformat.pirateoutpost>Схованка [name]</locationnameformat.pirateoutpost>
+    <locationdescription.pirateoutpost>Безпечний притулок, де пірати торгують своїми нечесно нажитими товарами. Ненавидять Коаліцію.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Лікар\n-Продаж і модернізація субмарин\n-Магазин: Зброя, загальні товари, медикаменти, електроніка\n</locationdescription.pirateoutpost>
+    <locationname.huskchurch>Церква Хаска</locationname.huskchurch>
+    <locationnameformat.huskchurch>Храм [name]</locationnameformat.huskchurch>
+    <locationnameformat.huskchurch>Абатство [name]</locationnameformat.huskchurch>
+    <locationnameformat.huskchurch>Собор [name]</locationnameformat.huskchurch>
+    <locationnameformat.huskchurch>Каплиця [name]</locationnameformat.huskchurch>
+    <locationdescription.huskchurch>Храм, що належить Церкві Хаска, що спеціалізується на дослідженнях, медицині та поклонінні.\n\n\nУ наявності:\n-Місії\n-Найм екіпажу\n-Лікар\n-Фабрикатори та деконструктори\n-Магазин: Дослідження, медикаменти.\n</locationdescription.huskchurch>
+    <locationname.sinkingcircus>Затонулий цирк</locationname.sinkingcircus>
+    <locationnameformat.sinkingcircus>Цирк на гастролях у [name]</locationnameformat.sinkingcircus>
+    <locationdescription.sinkingcircus>Артисти клоунської естради, які мандрують холодними морями Європи.\n</locationdescription.sinkingcircus>
+    <locationname.Lair>Лігво монстрів</locationname.Lair>
+    <locationnameformat.Lair>Місце розмноження [name]</locationnameformat.Lair>
+    <locationdescription.Lair>Місцева фауна оселилася глибоко в печері і використовує її як місце розмноження.</locationdescription.Lair>
+    <locationname.outerlair>Місця годування</locationname.outerlair>
+    <locationdescription.outerlair>Територія, що кишить монстрами через наявність лігва поблизу.</locationdescription.outerlair>
+    <locationname.HuskgroundsDE>Лігво хасків</locationname.HuskgroundsDE>
+    <locationnameformat.HuskGroundsDE>Розплідник [name]</locationnameformat.HuskGroundsDE>
+    <locationdescription.HuskgroundsDE>Джерело зараження паразитами, що швидко поширюється.</locationdescription.HuskgroundsDE>
+    <locationname.outerhusklair>Заражений рій</locationname.outerhusklair>
+    <locationdescription.outerhusklair>Орда монстрів, заражені епідемією хаска. Поширюються з найближчого розплідника.</locationdescription.outerhusklair>
+    <locationnameformat.UnderAttack>[name]</locationnameformat.UnderAttack>
+    <locationname.UnderAttack>Атаковано</locationname.UnderAttack>
+    <locationname.PirateNone>Піратський рейд</locationname.PirateNone>
+    <locationnameformat.PirateNone>Піратський будівельний майданчик [name]</locationnameformat.PirateNone>
+    <locationdescription.PirateNone>Пірати розбирають занедбаний аванпост і будують з його частин новий притулок.</locationdescription.PirateNone>
+    <!-- CHANGETOS -->
+    <locationchange.destroyedstation.changeto.abandoned>Поруч із залишками [name] помічено рух.</locationchange.destroyedstation.changeto.abandoned>
+    <locationchange.circus.changeto.none>Затонулий цирк покинув район.</locationchange.circus.changeto.none>
+    <locationchange.none.changeto.circus>Затонулий цирк прибув у [previousname].</locationchange.none.changeto.circus>
+    <locationchange.UnderAttack.changeto.militaryforces>Збройні сили рушили в [previousname].</locationchange.UnderAttack.changeto.militaryforces>
+    <locationchange.UnderAttack.changeto.militaryforces>Збройні сили зібралися в [previousname].</locationchange.UnderAttack.changeto.militaryforces>
+    <locationchange.UnderAttack.changeto.militaryforces>Збройні сили переміщуються в [previousname].</locationchange.UnderAttack.changeto.militaryforces>
+    <locationchange.militaryforces.changeto.None>Збройні сили покинули цей район.</locationchange.militaryforces.changeto.None>
+    <locationchange.PirateOutpost.changeto.UnderAttack>Пірати в [previousname] були викорінені.</locationchange.PirateOutpost.changeto.UnderAttack>
+    <locationchange.PirateOutpost.changeto.UnderAttack>Пірати в [previousname] були знищені.</locationchange.PirateOutpost.changeto.UnderAttack>
+    <locationchange.PirateOutpost.changeto.UnderAttack>[previousname] було звільнено від піратів.</locationchange.PirateOutpost.changeto.UnderAttack>
+    <locationchange.construction.changeto.none>Будівельні роботи в [name] були зупинені через небезпеки, що виходять поблизу.</locationchange.construction.changeto.none>
+    <locationchange.construction.changeto.none>Будівельні роботи в [name] були покинуті через небезпеку, що знаходиться поблизу.</locationchange.construction.changeto.none>
+    <locationchange.construction.changeto.none>Будівельні роботи в [name] припинилися через небезпеку, що знаходиться поблизу.</locationchange.construction.changeto.none>
+    <locationchange.construction.changeto.settlement>Будівництво нового поселення в [previousname] вже завершено. Дедалі більше поселенців переїжджають у свої нові домівки.</locationchange.construction.changeto.settlement>
+    <locationchange.survey.changeto.extraction>Розвідка, проведена в [previousname], виявила родовище корисних копалин, і зараз робітники починають розкопки.</locationchange.survey.changeto.extraction>
+    <locationchange.hydroponics.changeto.biosphere>Гідропонна станція [previousname] модернізувала свої об'єкти до рівня біосфери, щоб забезпечити місцеві станції достатньою кількістю м'яса.</locationchange.hydroponics.changeto.biosphere>
+    <locationchange.abandoned.changeto.piratenone>Пірати розбирають закинутий аванпост і будують з його частин новий притулок.</locationchange.abandoned.changeto.piratenone>
+    <locationchange.biosphere.changeto.nourishment>Біосферу [previousname] було успішно перетворено на центр харчування.</locationchange.biosphere.changeto.nourishment>
+    <locationchange.study.changeto.lab>Передові дослідження завершено, і [previousname] пройшов модернізацію модулів рівня дослідницької лабораторії.</locationchange.study.changeto.lab>
+    <locationchange.settlement.changeto.outpost>Колоністи розширили [previousname], щоб вмістити більше людей.</locationchange.settlement.changeto.outpost>
+    <locationchange.settlement.changeto.outpost>[previousname] збільшилося в розмірах.</locationchange.settlement.changeto.outpost>
+    <locationchange.lab.changeto.research>Усе більше дослідників стікаються до [previousname] і засновують інститут.</locationchange.lab.changeto.research>
+    <locationchange.excavation.changeto.mine>Розкопки в [previousname] завершені, і робітники приступають до розробки рудника.</locationchange.excavation.changeto.mine>
+    <locationchange.hospital.changeto.surgery>[previousname] було успішно перетворено на хірургічний центр.</locationchange.hospital.changeto.surgery>
+    <locationchange.clinic.changeto.hospital>У [previousname] було потрібно більше місця, тому його переобладнали на госпіталь.</locationchange.clinic.changeto.hospital>
+    <locationchange.outpost.changeto.abandoned>Зв'язок із [previousname] несподіваним чином перервався. Бажано провести розслідування інциденту з обережністю.</locationchange.outpost.changeto.abandoned>
+    <locationchange.outpost.changeto.abandoned>Розташований поблизу від [previousname]маяк отримав автоматичний сигнал SOS зі станції, але жодних подальших повідомлень не надходило.</locationchange.outpost.changeto.abandoned>
+    <locationchange.outpost.changeto.abandoned>Звіти про [previousname] вказують, що противник захопив аванпост. Вцілілих не виявлено.</locationchange.outpost.changeto.abandoned>
+    <locationchange.outpost.changeto.abandoned>Звіти про [previousname] вказують, що противник захопив аванпост. Вцілі евакуйовуються за допомогою шатла.</locationchange.outpost.changeto.abandoned>
+    <locationchange.none.changeto.waypoint>[previousname] позначено для колонізації.</locationchange.none.changeto.waypoint>
+    <locationchange.none.changeto.waypoint>[previousname] має достатньо місця для розміщення аванпосту.</locationchange.none.changeto.waypoint>
+    <locationchange.none.changeto.waypoint>[previousname] готовий для колонізації.</locationchange.none.changeto.waypoint>
+    <locationchange.none.changeto.waypoint>Коаліція визначила [previousname] як придатне місце для колонізації.</locationchange.none.changeto.waypoint>
+    <locationchange.none.changeto.lair>[previousname] кишить монстрами.</locationchange.none.changeto.lair>
+    <locationchange.none.changeto.Huskswarm>Зграї істот заражених хаском були помічені навколо [previousname].</locationchange.none.changeto.Huskswarm>
+    <locationchange.none.changeto.UnderAttack>[previousname] під атакою монстрів.</locationchange.none.changeto.UnderAttack>
+    <locationchange.UnderAttack.changeto.none>[previousname] врятовано від зараження.</locationchange.UnderAttack.changeto.none>
+    <locationchange.Huskswarm.changeto.none>Активність хасків зменшилася навколо [previousname].</locationchange.Huskswarm.changeto.none>
+    <locationchange.colony.changeto.settlement>Колоністи на [previousname] розширили колонію.</locationchange.colony.changeto.settlement>
+    <locationchange.colony.changeto.settlement>Колонія [previousname] виросла.</locationchange.colony.changeto.settlement>
+    <locationchange.colony.changeto.settlement>[previousname] розширюється.</locationchange.colony.changeto.settlement>
+    <locationchange.colony.changeto.construction>Колоністи на [previousname] започаткували будівельний майданчик .</locationchange.colony.changeto.construction>
+    <locationchange.colony.changeto.construction>Колоністи на [previousname] почали облаштовувати території.</locationchange.colony.changeto.construction>
+    <locationchange.colony.changeto.construction>[previousname], розпочато будівництво більшої кількості об'єктів інфраструктури.</locationchange.colony.changeto.construction>
+    <locationchange.construction.changeto.hydroponics>Інженери на [previousname] закінчили підключення гідропоніки.</locationchange.construction.changeto.hydroponics>
+    <locationchange.construction.changeto.hydroponics>Механіки на [previousname] закінчили взведення гідропоніки.</locationchange.construction.changeto.hydroponics>
+    <locationchange.construction.changeto.hydroponics>[previousname] тепер вирощує врожай для найближчих територій.</locationchange.construction.changeto.hydroponics>
+    <locationchange.construction.changeto.factory>Інженери на [previousname] закінчили налаштування фабрикаторів.</locationchange.construction.changeto.factory>
+    <locationchange.construction.changeto.factory>Механіки на [previousname] почали виробництво товарів.</locationchange.construction.changeto.factory>
+    <locationchange.construction.changeto.factory>Промисловість у [previousname] процвітає!</locationchange.construction.changeto.factory>
+    <locationchange.construction.changeto.camp>Збройні сили Коаліції розпочали облаштування бази на [previousname].</locationchange.construction.changeto.camp>
+    <locationchange.construction.changeto.camp>[previousname] під контролем Коаліції.</locationchange.construction.changeto.camp>
+    <locationchange.construction.changeto.camp>Новий табір Коаліції на [previousname].</locationchange.construction.changeto.camp>
+    <locationchange.construction.changeto.study>Дослідження місцевості навколо [previousname] показало, що в регіоні є багато екзотичного життя.</locationchange.construction.changeto.study>
+    <locationchange.construction.changeto.study>[previousname], знайдено дивовижний екземпляр флори, що росте в печері.</locationchange.construction.changeto.study>
+    <locationchange.construction.changeto.study>Флора поблизу [previousname] привертає увагу науковців.</locationchange.construction.changeto.study>
+    <locationchange.construction.changeto.survey>Розвідка території навколо [previousname] виявила поклади цінної руди.</locationchange.construction.changeto.survey>
+    <locationchange.construction.changeto.survey>Помічено мінерали навколо станції [previousname].</locationchange.construction.changeto.survey>
+    <locationchange.construction.changeto.survey>Багаті райони видобутку, знайдені поблизу [previousname].</locationchange.construction.changeto.survey>
+    <locationchange.construction.changeto.fusion>Інженери та науковці на [previousname] закінчили побудову ядерного реактору.</locationchange.construction.changeto.fusion>
+    <locationchange.construction.changeto.fusion>[previousname] тепер забезпечує енергією околиці.</locationchange.construction.changeto.fusion>
+    <locationchange.construction.changeto.fusion>Турбіна охолодження силової установки на [previousname] почала свою роботу.</locationchange.construction.changeto.fusion>
+    <locationchange.construction.changeto.shipyard>Інженери та механіки на [previousname] почали продавати субмарини та запчастини до них.</locationchange.construction.changeto.shipyard>
+    <locationchange.construction.changeto.shipyard>[previousname], завершено побудову сухого доку.</locationchange.construction.changeto.shipyard>
+    <locationchange.construction.changeto.shipyard>Верф [previousname] побудовано.</locationchange.construction.changeto.shipyard>
+    <locationchange.construction.changeto.clinic>Медпослуги тепер доступні на [previousname].</locationchange.construction.changeto.clinic>
+    <locationchange.construction.changeto.clinic>[previousname], розташовано маленький лазарет.</locationchange.construction.changeto.clinic>
+    <locationchange.construction.changeto.clinic>Побудовано клініку на [previousname].</locationchange.construction.changeto.clinic>
+    <locationchange.camp.changeto.base>Збройні сили Коаліції закріпились на позиції [previousname].</locationchange.camp.changeto.base>
+    <locationchange.camp.changeto.base>Збройні сили Коаліції посилили позиції [previousname].</locationchange.camp.changeto.base>
+    <locationchange.camp.changeto.base>[previousname], взведено фортифікації.</locationchange.camp.changeto.base>
+    <locationchange.base.changeto.military>Збройні сили Коаліції облаштували масивну фортецю на [previousname].</locationchange.base.changeto.military>
+    <locationchange.base.changeto.military>Збройні сили Коаліції мобілізувалися на позиції [previousname].</locationchange.base.changeto.military>
+    <locationchange.base.changeto.military>[previousname] перетворився на фортецю для захисту прилеглих станцій.</locationchange.base.changeto.military>
+    <locationchange.base.changeto.military>Збройні сили Коаліції облаштували масивну фортецю на [previousname].</locationchange.base.changeto.military>
+    <locationchange.base.changeto.military>Збройні сили Коаліції мобілізувалися на позиції [previousname].</locationchange.base.changeto.military>
+    <locationchange.base.changeto.military>[previousname] перетворився на фортецю для захисту прилеглих станцій.</locationchange.base.changeto.military>
+    <locationchange.none.changeto.pirateoutpost>Пірати влаштували новий притулок на [previousname].</locationchange.none.changeto.pirateoutpost>
+    <locationchange.none.changeto.pirateoutpost>Пірати наважилися встановити новий притулок на [previousname].</locationchange.none.changeto.pirateoutpost>
+    <locationchange.none.changeto.huskchurch>Місіонери Церкви Хаска охрестили [name].</locationchange.none.changeto.huskchurch>
+    <locationchange.StarterOutpostSPAWN.changeto.StarterOutpostAFTER>Стикувальна зона на станції [name] обслуговує інші підводні човни й наразі недоступна.</locationchange.StarterOutpostSPAWN.changeto.StarterOutpostAFTER>
+    <!-- Special Location Names -->
+    <locationname.huskchurch.0>Св. Менделя</locationname.huskchurch.0>
+    <locationname.huskchurch.1>Св. Дарвіна</locationname.huskchurch.1>
+    <locationname.huskchurch.2>Св. Ньютона</locationname.huskchurch.2>
+    <locationname.huskchurch.3>Св. Кюрі</locationname.huskchurch.3>
+    <locationname.huskchurch.4>Св. Архімеда</locationname.huskchurch.4>
+    <locationname.huskchurch.5>Св. Авогадро</locationname.huskchurch.5>
+    <locationname.huskchurch.6>Св. Бора</locationname.huskchurch.6>
+    <locationname.huskchurch.7>Св. Ейнштейна</locationname.huskchurch.7>
+    <locationname.huskchurch.8>Св. Ома</locationname.huskchurch.8>
+    <locationname.huskchurch.9>Св. Кеплера</locationname.huskchurch.9>
+    <locationname.huskchurch.10>Св. Коперника</locationname.huskchurch.10>
+    <locationname.huskchurch.11>Св. Бернуллі</locationname.huskchurch.11>
+    <locationname.huskchurch.12>Св. Фермі</locationname.huskchurch.12>
+    <locationname.huskchurch.13>Св. Вернадського</locationname.huskchurch.13>
+    <locationname.huskchurch.14>Св. аль-Хайсама</locationname.huskchurch.14>
+    <locationname.huskchurch.15>Св. Планка</locationname.huskchurch.15>
+    <locationname.huskchurch.16>Св. Паскаля</locationname.huskchurch.16>
+    <locationname.huskchurch.17>Св. Бойля</locationname.huskchurch.17>
+    <locationname.huskchurch.18>Св. Гаусса</locationname.huskchurch.18>
+    <locationname.huskchurch.19>Св. Галілео</locationname.huskchurch.19>
+    <locationname.huskchurch.20>Св. Шредінгера</locationname.huskchurch.20>
+    <locationname.huskchurch.21>Св. Гіпатії</locationname.huskchurch.21>
+    <locationname.huskchurch.22>Переможна Вольта</locationname.huskchurch.22>
+    <locationname.huskchurch.23>Св. Лапласа</locationname.huskchurch.23>
+    <locationname.huskchurch.24>Св. Фур'є</locationname.huskchurch.24>
+    <locationname.huskchurch.25>Св. Гудолла</locationname.huskchurch.25>
+    <locationname.pirateoutpost.0>Порт-Рояль</locationname.pirateoutpost.0>
+    <locationname.pirateoutpost.1>Тортуґа</locationname.pirateoutpost.1>
+    <locationname.pirateoutpost.2>Нью-Провіденс</locationname.pirateoutpost.2>
+    <locationname.pirateoutpost.3>Баратарія</locationname.pirateoutpost.3>
+    <locationname.pirateoutpost.4>Матансас</locationname.pirateoutpost.4>
+    <locationname.pirateoutpost.5>Ейль</locationname.pirateoutpost.5>
+    <locationname.pirateoutpost.6>Ліберталія</locationname.pirateoutpost.6>
+    <locationname.pirateoutpost.7>Хаі Так</locationname.pirateoutpost.7>
+    <locationname.pirateoutpost.8>Нью-Нассау</locationname.pirateoutpost.8>
+    <locationname.pirateoutpost.9>Клю</locationname.pirateoutpost.9>
+    <locationname.pirateoutpost.10>Розлом варвара</locationname.pirateoutpost.10>
+    <locationname.pirateoutpost.11>Кампече</locationname.pirateoutpost.11>
+    <locationname.pirateoutpost.12>Ходейда</locationname.pirateoutpost.12>
+    <locationname.pirateoutpost.13>Ем'юль</locationname.pirateoutpost.13>
+    <locationname.pirateoutpost.14>Планка</locationname.pirateoutpost.14>
+    <locationname.pirateoutpost.15>Помийна яма</locationname.pirateoutpost.15>
+    <locationname.pirateoutpost.16>П'яні щогли</locationname.pirateoutpost.16>
+    <locationname.pirateoutpost.17>Ромунема</locationname.pirateoutpost.17>
+    <locationname.pirateoutpost.18>Ґрім</locationname.pirateoutpost.18>
+  </Override>
+</infotext>

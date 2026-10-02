@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="vanillaconversations" Language="Ukrainian" nowhitespace="False">
+  <Conversation line="Гаразд, народ, поїхали!" speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="" speaker="0"></Conversation>
+    <Conversation line="Так." speaker="1">
+      <Conversation line="Так, пане!" speaker="2"></Conversation>
+      <Conversation line="Так, капітане!" speaker="2" speakertags="brokenenglish"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ті, хто спускаються у море на човнах;" speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="Хто веде бізнес у великих водах;" speaker="0">
+      <Conversation line="Вони бачать творіння Господа та чудеса Його у глибині." speaker="0">
+        <Conversation line="Поїхали! Успіхів, екіпаже!" speaker="0"></Conversation>
+        <Conversation line="Тут немає творінь Господа." speaker="1" speakertags="joker,tough,professional"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Пристебніть ремені — у нас попереду довгий шлях!" speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="Так, пане!" speaker="1"></Conversation>
+    <Conversation line="Так, точно!" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Ласкаво просимо на борт. Просимо не висовувати руки за межі судна." speaker="0" flags="Initial" allowedjobs="captain" speakertags="joker">
+    <Conversation line="Так, пане!" speaker="1"></Conversation>
+    <Conversation line="Так, точно!" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Усьому екіпажу приготуватися, попереду у нас довгий шлях!" speaker="0" flags="Initial" allowedjobs="captain" speakertags="brokenenglish">
+    <Conversation line="Так, пане!" speaker="1"></Conversation>
+    <Conversation line="Так, точно!" speaker="1"></Conversation>
+    <Conversation line="Мати Клаксонів, помилуй душі наші." speaker="1" speakertags="crazy"></Conversation>
+  </Conversation>
+  <Conversation line="Говорить капітан! Екіпажу приготуватися до місії. Бажаю удачі!" speaker="0" flags="Initial" allowedjobs="captain" speakertags="brokenenglish">
+    <Conversation line="Так, пане!" speaker="1"></Conversation>
+    <Conversation line="Так, точно." speaker="1">
+      <Conversation line="Так, пане!" speaker="2"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Давайте подивимося, що океан підготував для нас цього разу!" speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="Я припускаю, що це будуть жахливі монстри, смерть і вічна пітьма." speaker="1" speakertags="joker,fearful">
+      <Conversation line="Ймовірно. Нам зараз не до твого сарказму." speaker="0" speakertags="professional"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Всі готові? Краще, щоб це було так. Назад дороги немає." speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="" speaker="0"></Conversation>
+    <Conversation line="Так, пане!" speaker="1">
+      <Conversation line="Давайте зробимо це!" speaker="2"></Conversation>
+      <Conversation line="Завжди готовий!" speaker="2" speakertags="brokenenglish"></Conversation>
+      <Conversation line="Трясця! Ми всі помремо!" speaker="2" speakertags="crazy"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="I'm cold." speaker="0" maxintensity="0.4"></Conversation>
+  <Conversation line="У мене погане передчуття..." speaker="0" speakertags="fearful" maxintensity="0.4">
+    <Conversation line="Я знав одного старого капітана, який колись казав..." speaker="1" speakertags="professional,tough">
+      <Conversation line="Ви не взмозі вгамувати шторм, тож припиніть спроби." speaker="1">
+        <Conversation line="Все, що ви можете зробити, взяти себе в руки. Буря пройде." speaker="1">
+          <Conversation line="Чуваче, ну, ти й гівнюк..." speaker="0" speakertags="rude,fearful"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="У всіх так." speaker="1"></Conversation>
+    <Conversation line="У тебе що, знову приступ метеоризму?" speaker="1" speakertags="joker"></Conversation>
+  </Conversation>
+  <Conversation line="Я чую, як скрипить корпус." speaker="0" speakertags="fearful" maxintensity="0.4">
+    <Conversation line="Я теж чую." speaker="1" speakertags="brokenenglish"></Conversation>
+    <Conversation line="" speaker="1" speakertags="joker"></Conversation>
+  </Conversation>
+  <Conversation line="Не можу дочекатися, коли повернуся додому, щоб випити пляшечку старого кадмуса." speaker="0" speakertags="laid-back" maxintensity="0.2">
+    <Conversation line="Зосередься на своїй роботі, інакше ти сам приєднаєшся до цієї пляшечки - у труну." speaker="1" speakertags="professional,tough,rude">
+      <Conversation line="Ха-ха! Поховання у труні! Коли востаннє це було?" speaker="2" speakertags="laid-back,joker"></Conversation>
+    </Conversation>
+    <Conversation line="Не час думати про дім. У нас ще довгий шлях попереду." speaker="1" speakertags="professional,tough"></Conversation>
+    <Conversation line="Кадмус - рибача сеча. Мені подобаються міцніші напої" speaker="1" speakertags="brokenenglish"></Conversation>
+  </Conversation>
+  <Conversation line="У флотилії Землі мали таку приказку..." speaker="0" allowedjobs="captain" speakertags="professional,tough" maxintensity="0.3">
+    <Conversation line="Є лише два способи щось зробити: зробити це правильно або зробити це знову." speaker="0">
+      <Conversation line="Але не тут. На Європі немає другого шансу." speaker="0">
+        <Conversation line="Отже, зосередьтеся на роботі." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я моряк Попай!" speaker="0" allowedjobs="medicaldoctor" speakertags="laid-back,joker" maxintensity="0.2">
+    <Conversation line="Я сильний, тому що я їм шпинат!" speaker="0">
+      <Conversation line="Лікар, ти знову був біля схованки з етанолом?" speaker="1">
+        <Conversation line="Добре, припиню." speaker="0"></Conversation>
+        <Conversation line="Пробачте, за спробу підняти вам настрій." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Ніякого співу на моєму човні." speaker="1" allowedjobs="captain" speakertags="professional,tough"></Conversation>
+  </Conversation>
+  <Conversation line="Я сумую за сонцем." speaker="0" maxintensity="0.2">
+    <Conversation line="" speaker="0" flags="Casual"></Conversation>
+    <Conversation line="Я чув, що сонячне світло викликає рак. Без нього нам буде краще." speaker="1">
+      <Conversation line="Юпітер також викликає рак. Тому краще вже Сонце" speaker="0">
+        <Conversation line="Припиніть." speaker="2" speakertags="professional,tough"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Припиніть." speaker="1" speakertags="professional,tough"></Conversation>
+  </Conversation>
+  <Conversation line="Мене лякають хаски." speaker="0" speakertags="fearful" maxintensity="0.2">
+    <Conversation line="" speaker="0" flags="Casual"></Conversation>
+    <Conversation line="Мене також. Пообіцяй мені, якщо я заражуся, застрели мене гарпуном." speaker="1">
+      <Conversation line="Краще я застрелю тебе шприцом з каліксанідом." speaker="2" allowedjobs="medicaldoctor"></Conversation>
+      <Conversation line="Я б обрав каліксанід, але краще вже гарпун." speaker="2" allowedjobs="medicaldoctor" speakertags="rude"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Хтось із вас чув про профспілки?" speaker="0" maxintensity="0.2">
+    <Conversation line="Торгівля, яка вдосконалює збільшення цілісності цілісної монополії, цілісності цілісної монополістичної монополії." speaker="0" flags="Psychosis">
+      <Conversation line="Вони торгують темами: стандарти безпеки, пенсії, пенсії,  пенсії і робітники. Про фах. Вдосконалення робітників." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+    <Conversation line="То комуністичні балачки. Коаліція – це єдине об’єднання, яке нам потрібне." speaker="1" allowedjobs="captain" speakertags="professional,tough,rude"></Conversation>
+    <Conversation line="Так, і?" speaker="1">
+      <Conversation line="Я вважаю, що і ми повинні створити свою профспілку." speaker="0">
+        <Conversation line="Ми могли б підняти стандарти безпеки, заробітну плату, пенсії..." speaker="0">
+          <Conversation line="Думаєш, що проживеш достатньо довго, щоб вийти на пенсію?" speaker="1">
+            <Conversation line="Ну, я на це сподіваюся." speaker="0"></Conversation>
+            <Conversation line="Справедливо." speaker="0"></Conversation>
+          </Conversation>
+          <Conversation line="Стандарти безпеки? Чи в змозі профспілка відлякати молохів чи триматиме за ручку під час потопу?" speaker="1" speakertags="rude,tough">
+            <Conversation line="Я не це мав на увазі." speaker="0"></Conversation>
+            <Conversation line="Розумно." speaker="0"></Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ви коли-небудь бачили, що відбувається з тілом людини, коли воно піддається зовнішньому тиску?" speaker="0" speakertags="fearful" maxintensity="0.2">
+    <Conversation line="Скоро побачиш." speaker="0" flags="Psychosis">
+      <Conversation line="Так, кажу ж тобі." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+    <Conversation line="Можу уявити." speaker="1">
+      <Conversation line="Досі не можу викинути цю картину з голови." speaker="0">
+        <Conversation line="Мішок з м'ясом і кістками під гідравлічним пресом, тільки так я можу це описати." speaker="0"></Conversation>
+        <Conversation line="Люблячі обійми Європи." speaker="2" speakertags="crazy"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Візьми її швидко, візьми її глибоко..." speaker="0" flags="Casual" speakertags="joker,laid-back" maxintensity="0.3">
+    <Conversation line="Відведи її туди, де риби сплять!" speaker="0">
+      <Conversation line="До біса глибину, до біса тиск..." speaker="0">
+        <Conversation line="Візьміть її так само, як тигрового молотаря!" speaker="0">
+          <Conversation line="Ніякого співу на моєму човні." speaker="1" allowedjobs="captain" speakertags="professional,tough">
+            <Conversation line="" speaker="0"></Conversation>
+            <Conversation line="Гаразд, добре, я більше не намагатимуся підняти настрій!" speaker="0"></Conversation>
+          </Conversation>
+          <Conversation line="Хоч ця пісня з Землі, але ще як підходить і нам!" speaker="1"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ми вже на місці?" speaker="0" speakertags="joker" maxintensity="0.2">
+    <Conversation line="" speaker="0" flags="Casual"></Conversation>
+    <Conversation line="Замовкни." speaker="1" speakertags="rude"></Conversation>
+    <Conversation line="Взагалі не смішно." speaker="1"></Conversation>
+    <Conversation line="Не смішно." speaker="1" speakertags="brokenenglish"></Conversation>
+  </Conversation>
+  <Conversation line="Хтось з вас пам'ятає Землю?" speaker="0" maxintensity="0.2">
+    <Conversation line="Земля, Земля, Земля. Шкода, що ти ніколи її не побачиш." speaker="0" flags="Psychosis"></Conversation>
+    <Conversation line="Я звісно старий, але не настільки." speaker="1"></Conversation>
+    <Conversation line="Мій дідусь був з Землі." speaker="1">
+      <Conversation line="Я любив слухати його історії, хоча я впевнений, що половина з них була вигадкою." speaker="1">
+        <Conversation line="Чи можете ви уявити, як ви просто виходите з дому і бачите небо навколо себе?" speaker="1">
+          <Conversation line="Це звучить неймовірно." speaker="0">
+            <Conversation line="Дивитися вгору, не турбуватися про те, що газовий гігант обсмажить нас радіацією..." speaker="2"></Conversation>
+          </Conversation>
+        </Conversation>
+        <Conversation line="Я б хотів побачити птахів." speaker="1">
+          <Conversation line="І собак. І слонів." speaker="0"></Conversation>
+          <Conversation line="І носорогів!" speaker="2" speakertags="brokenenglish"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Коли-небудь замислювалися, що сталося з тими, хто побудував руїни?" speaker="0" maxintensity="0.2">
+    <Conversation line="Нескінченні склепіння, які приховані у безмежній темряві нічного кошмару. Незліченні і ті, хто пішли, бр-бр-бр!" speaker="0" flags="Psychosis"></Conversation>
+    <Conversation line="Хтось та й задумувався." speaker="1"></Conversation>
+    <Conversation line="Залиш ці питання дослідникам." speaker="1">
+      <Conversation line="Є питання більш важливі, ніж ці." speaker="1"></Conversation>
+    </Conversation>
+    <Conversation line="Лише безодня знає." speaker="1" speakertags="crazy"></Conversation>
+    <Conversation line="Я думав про це, але думаю, що ніхто нічого не знає." speaker="2" speakertags="brokenenglish"></Conversation>
+  </Conversation>
+  <Conversation line="Коли-небудь бачив штуки, які охороняють руїни?" speaker="0" maxintensity="0.2">
+    <Conversation line="Так, але я хотів би забути про них." speaker="1" speakertags="fearful"></Conversation>
+    <Conversation line="Бачив один в інституті." speaker="1">
+      <Conversation line="Вони кажуть, що вони не з органіки — ближче до роботів, ніж до тварин." speaker="1">
+        <Conversation line="Вони не кровоточать, це точно." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Сигари нині дуже дорогі." speaker="0" speakertags="laid-back" maxintensity="0.2">
+    <Conversation line="А що там говорити." speaker="1"></Conversation>
+    <Conversation line="Та й, гідропонні ферми немалі у ціні." speaker="1">
+      <Conversation line="Логічно, їх використовують для чогось більш корисного, ніж тютюн." speaker="1"></Conversation>
+      <Conversation line="Що таке гідропоніка?" speaker="2" speakertags="brokenenglish">
+        <Conversation line="Значить «вирощування у воді». Тут все у воді, не більше." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ви це чули?" speaker="0" maxintensity="0.4">
+    <Conversation line="Чули що?" speaker="1">
+      <Conversation line="Наче щось чіпляється кігтями за корпус." speaker="0">
+        <Conversation line="Напевно, це мені мариться." speaker="0"></Conversation>
+      </Conversation>
+      <Conversation line="Ззовні якийсь глибокий стогін." speaker="0">
+        <Conversation line="Люди-краби. Я все сказав." speaker="1" speakertags="crazy"></Conversation>
+        <Conversation line="Мабуть, це тільки корпус. Розслабтесь." speaker="1"></Conversation>
+        <Conversation line="У тебе що, знову приступ метеоризму?" speaker="1" speakertags="joker"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Нещодавно я прочитав старий посібник моряка." speaker="0" maxintensity="0.2">
+    <Conversation line="Не все у ньому зрозумів через всю цю дивну та старовинну термінологію." speaker="0">
+      <Conversation line="Наприклад, дідько, що таке астролябія?" speaker="0">
+        <Conversation line="Здогадуюсь." speaker="1"></Conversation>
+        <Conversation line="Мабуть щось про зірки." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Чи виникає у вас відчуття, що весь місяць проти нас?" speaker="0" maxintensity="0.3">
+    <Conversation line="Як і ти." speaker="0" flags="Psychosis">
+      <Conversation line="Так, я з тобою говорю." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+    <Conversation line="Ну, це не найгостинніше місце, де можна оселитися." speaker="1">
+      <Conversation line="З огляду на обставини, я думаю, що це дійсно так." speaker="2">
+        <Conversation line="Ти розумієш, що я мав на увазі." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Ви не можете зупинити хвилі, але можете навчитися серфінгу." speaker="1"></Conversation>
+    <Conversation line="Нам тут не місце — це точно." speaker="1">
+      <Conversation line="" speaker="0" flags="Casual"></Conversation>
+      <Conversation line="Що б ми не робили, все йде не так." speaker="0">
+        <Conversation line="Достатньо. Це звучить, як фігня культистів." speaker="2" speakertags="professional"></Conversation>
+      </Conversation>
+      <Conversation line="Досить. Це звучать, як фігня сектантів." speaker="2" speakertags="professional"></Conversation>
+    </Conversation>
+    <Conversation line="Досить цього." speaker="1" speakertags="professional,tough"></Conversation>
+  </Conversation>
+  <Conversation line="Друге сонце, друге сонце..." speaker="0" speakertags="laid-back,crazy" maxintensity="0.2">
+    <Conversation line="Ми єдині, як Юпітер..." speaker="0">
+      <Conversation line="" speaker="0" flags="Casual"></Conversation>
+      <Conversation line="Якщо так кортить поспівати, будь ласка, вимикайте гарнітуру." speaker="1" speakertags="professional"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Відстій!" speaker="0" speakertags="fearful">
+    <Conversation line="Я хочу додому!" speaker="0"></Conversation>
+  </Conversation>
+  <Conversation line="Мені скучно!" speaker="0" speakertags="tough" maxintensity="0.2"></Conversation>
+  <Conversation line="Гладкі моря не роблять вмілих моряків." speaker="0" speakertags="tough">
+    <Conversation line="Бурхливе море робить мертвих моряків!" speaker="1" speakertags="brokenenglish"></Conversation>
+  </Conversation>
+  <Conversation line="Ми повинні взяти кавоварку на борт." speaker="0" speakertags="laid-back" maxintensity="0.2">
+    <Conversation line="Ти думаєш, я не розумію, що ти маєш на увазі?" speaker="1" flags="PsychosisSelf">
+      <Conversation line="Кава? Так, вірно..." speaker="1" flags="PsychosisSelf">
+        <Conversation line="Це все скоро закінчиться." speaker="1" flags="PsychosisSelf"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Згоден." speaker="1"></Conversation>
+    <Conversation line="Я не п'ю каву." speaker="1"></Conversation>
+    <Conversation line="" speaker="0"></Conversation>
+  </Conversation>
+  <Conversation line="Я бачив плазуна на днях. Потворні істоти." speaker="0" speakertags="joker,crazy" maxintensity="0.2"></Conversation>
+  <Conversation line="Дайте людині рибу, і ви нагодуєте її на день;" speaker="0" speakertags="joker" maxintensity="0.4">
+    <Conversation line="Дайте рибі людину, і ви нагодуєте її на день." speaker="0" flags="Psychosis">
+      <Conversation line="Дай рибі день, і ви нагодуєте людину." speaker="0" flags="Psychosis">
+        <Conversation line="Дай рибі." speaker="0" flags="Psychosis">
+          <Conversation line="Дай рибу." speaker="0" flags="Psychosis">
+            <Conversation line="Віддай рибу." speaker="0" flags="Psychosis">
+              <Conversation line="Ні!" speaker="1" flags="PsychosisSelf"></Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Навчіть людину ловити рибу, і вона, найімовірніше, загине в жахливій катастрофі." speaker="0" speakertags="joker">
+      <Conversation line="Не думаю, що це так." speaker="1">
+        <Conversation line="Воно є саме так." speaker="0"></Conversation>
+      </Conversation>
+      <Conversation line="Досить жартів." speaker="0" speakertags="professional,rude"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Знаєш, днями у мене була геніальна бізнес-ідея." speaker="0" speakertags="joker,laid-back" maxintensity="0.2">
+    <Conversation line="Але інших днів немає." speaker="0" flags="Psychosis">
+      <Conversation line="Усе це не має сенсу." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+    <Conversation line="Вислухай мене. На цьому ми могли б заробити багато грошей." speaker="0">
+      <Conversation line="Що якби хтось почав виготовляти більші кисневі балони?" speaker="0">
+        <Conversation line="Такі, яких вистачало б на годину-дві?" speaker="0">
+          <Conversation line="Я не фахівець, але думаю, що технічно це можливо." speaker="0">
+            <Conversation line="Гей, як щодо того, щоб ми зосередилися на роботі?" speaker="1" speakertags="professional"></Conversation>
+            <Conversation line="Я не знаю... Мабуть, є якась технічна причина. Інакше вони б уже зробили їх." speaker="1"></Conversation>
+            <Conversation line="Хороша ідея!" speaker="1" speakertags="brokenenglish">
+              <Conversation line="Гей, як щодо того, щоб ми зосередилися на поточному завданні?" speaker="2" speakertags="professional"></Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+      <Conversation line="Водонепроникні розподільні коробки." speaker="0">
+        <Conversation line="Геніально, так?" speaker="0">
+          <Conversation line="Гей, як щодо того, щоб ми зосередилися на роботі?" speaker="1" speakertags="professional"></Conversation>
+          <Conversation line="Є ж на те причина, чому вони завжди мають малі вентиляційні отвори." speaker="1">
+            <Conversation line="Інакше б їх давно зробили водонепроникними." speaker="1"></Conversation>
+          </Conversation>
+          <Conversation line="Чудова ідея!" speaker="1" speakertags="brokenenglish">
+            <Conversation line="Гей, як щодо того, щоб ми зосередилися на роботі?" speaker="2" speakertags="professional"></Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Тут страшенно тихо." speaker="0" maxintensity="0.3">
+    <Conversation line="ЙООООООМААААААЙОООООООО!" speaker="0" flags="Psychosis">
+      <Conversation line="ТРЯЯЯЯЯСЦЯЯЯЯЯЯЯЯЯ!" speaker="0" flags="Psychosis">
+        <Conversation line="AAAAAAAAAAAAAAAAAAAAAAAAAA!" speaker="0" flags="Psychosis"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Моя гарнітура все ще працює?" speaker="0">
+      <Conversation line="Так. Будь ласка, менше балачків." speaker="1" speakertags="professional"></Conversation>
+      <Conversation line="Чути чітко та зрозуміло." speaker="1"></Conversation>
+      <Conversation line="Так, тебе добре чути!" speaker="1" speakertags="brokenenglish"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Перевірка зв'язку." speaker="0" speakertags="professional" maxintensity="0.3">
+    <Conversation line="Перевірка зв'язку." speaker="1" flags="PsychosisSelf">
+      <Conversation line="Зв'язку перевірка." speaker="1" flags="PsychosisSelf">
+        <Conversation line="Хвилі зв'язку. Зв'яжуть. Зв'язкують." speaker="1" flags="PsychosisSelf">
+          <Conversation line="Зв'язок!" speaker="1" flags="PsychosisSelf">
+            <Conversation line="Зв'язок." speaker="1" flags="PsychosisSelf"></Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Чітко та зрозуміло." speaker="1" speakertags="professional"></Conversation>
+    <Conversation line="Дохідливо." speaker="1" speakertags="professional"></Conversation>
+    <Conversation line="Все гаразд!" speaker="1"></Conversation>
+    <Conversation line="Так, тебе добре чути!" speaker="1" speakertags="brokenenglish"></Conversation>
+  </Conversation>
+  <Conversation line="Чуєте, як співають люди-краби?" speaker="0" speakertags="crazy" maxintensity="0.2">
+    <Conversation line="" speaker="0"></Conversation>
+    <Conversation line="Ні." speaker="1"></Conversation>
+    <Conversation line="Мовлю востаннє: крабо-людей не існує." speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Всередину." speaker="0" speakertags="crazy" maxintensity="0.2">
+    <Conversation line="Пірнати глибше? Ні, пірнати всередину." speaker="0" speakertags="crazy" maxintensity="0.2">
+      <Conversation line="" speaker="0"></Conversation>
+      <Conversation line="Ти, чорт, безнадійний." speaker="1" speakertags="rude"></Conversation>
+      <Conversation line="Не зрозумів." speaker="1" speakertags="brokenenglish"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Чи бачить Бог, що відбувається під товщею льоду?" speaker="0" speakertags="crazy" maxintensity="0.2">
+    <Conversation line="Чи може бачить Юпітер?" speaker="0" speakertags="crazy">
+      <Conversation line="" speaker="0"></Conversation>
+      <Conversation line="Несинітниця." speaker="1"></Conversation>
+    </Conversation>
+    <Conversation line="А може, це Безодня споглядає на нас?" speaker="0" speakertags="crazy">
+      <Conversation line="Культ має рацію в одному: там щось є." speaker="0" speakertags="crazy">
+        <Conversation line="" speaker="0"></Conversation>
+        <Conversation line="Прошу." speaker="1"></Conversation>
+        <Conversation line="Може бути, можливо." speaker="1">
+          <Conversation line="Зараз у нас є важливіші речі, про які варто хвилюватися." speaker="1"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Іноді мені здається, що ми лише маріонетки на ниточці." speaker="0" speakertags="crazy" maxintensity="0.3">
+    <Conversation line="Танцюють і вмирають заради розваги того, хто за кулісами." speaker="0">
+      <Conversation line="" speaker="1"></Conversation>
+      <Conversation line="Будь ласка, без танців і смерті на моєму човні." speaker="1" allowedjobs="captain"></Conversation>
+      <Conversation line="Не забавляє." speaker="1" speakertags="professional"></Conversation>
+      <Conversation line="*зідхнув*" speaker="1"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Зараз нас трясане як треба." speaker="0" minintensity="0.3" maxintensity="0.5"></Conversation>
+  <Conversation line="Стає жарче." speaker="0" minintensity="0.3" maxintensity="0.6"></Conversation>
+  <Conversation line="Ми впораємось." speaker="0" minintensity="0.3"></Conversation>
+  <Conversation line="Ура, нарешті щось цікаве!" speaker="0" speakertags="tough" minintensity="0.3"></Conversation>
+  <Conversation line="Покажи нам свою силу!" speaker="0" speakertags="crazy" minintensity="0.3" maxintensity="0.6"></Conversation>
+  <Conversation line="Уф-ой." speaker="0" minintensity="0.5"></Conversation>
+  <Conversation line="Нічого страшного!" speaker="0" speakertags="tough" minintensity="0.5"></Conversation>
+  <Conversation line="Як швидко все змінилося." speaker="0" minintensity="0.5"></Conversation>
+  <Conversation line="Очєнь плоха!" speaker="0" speakertags="brokenenglish" minintensity="0.5"></Conversation>
+  <Conversation line="Ніхарашо!" speaker="0" speakertags="brokenenglish" minintensity="0.5"></Conversation>
+  <Conversation line="Йди служити на флот, говорили вони! Буде весело, говорили вони" speaker="0" speakertags="joker" minintensity="0.5"></Conversation>
+  <Conversation line="Мені треба випити після цього!" speaker="0" speakertags="joker,laid-back" minintensity="0.5"></Conversation>
+  <Conversation line="Гаразд, екіпаж, покажіть на що ви здатні!" speaker="0" allowedjobs="captain" speakertags="professional,tough,laid-back" minintensity="0.5"></Conversation>
+  <Conversation line="Радоватись поки що рано!" speaker="0" allowedjobs="captain" minintensity="0.5"></Conversation>
+  <Conversation line="Я не помру в туаелті!" speaker="0" speakertags="fearful" minintensity="0.6"></Conversation>
+  <Conversation line="Треба було йти в ботаники!" speaker="0" speakertags="joker" minintensity="0.6"></Conversation>
+  <Conversation line="Тримайтеся. Разом ми впораємся!" speaker="0" speakertags="tough" minintensity="0.6">
+    <Conversation line="Впевнений?" speaker="1" speakertags="fearful"></Conversation>
+  </Conversation>
+  <Conversation line="Досить з мене цього гівна!" speaker="0" speakertags="rude" minintensity="0.6"></Conversation>
+  <Conversation line="Якщо я не виживу, скажи моїй мамі, що я її люблю!" speaker="0" speakertags="fearful" minintensity="0.6">
+    <Conversation line="Заткни пельку!" speaker="1" speakertags="rude"></Conversation>
+    <Conversation line="Не переймайся! Впораємося!" speaker="1" speakertags="professional"></Conversation>
+  </Conversation>
+  <Conversation line="Якщо ми виживимо, я піду в відставку!" speaker="0" speakertags="joker,laid-back" minintensity="0.6"></Conversation>
+  <Conversation line="Вот так і життя обриваються, зато, безодня насититься." speaker="0" speakertags="crazy" minintensity="0.7"></Conversation>
+  <Conversation line="На цей раз нам капздець." speaker="0" speakertags="rude" minintensity="0.8"></Conversation>
+  <Conversation line="О Боже." speaker="0" minintensity="0.8"></Conversation>
+  <Conversation line="Ого." speaker="0" speakertags="joker" minintensity="0.8"></Conversation>
+  <Conversation line="Це було честью бути з вами." speaker="0" speakertags="professional" minintensity="0.8"></Conversation>
+  <Conversation line="Мені завжди було незручно на такій глибині." speaker="0" flags="SubmarineDeep">
+    <Conversation line="" speaker="0" flags="Casual"></Conversation>
+    <Conversation line="Все буде добре. Ми були й глибше." speaker="1" speakertags="tough"></Conversation>
+  </Conversation>
+  <Conversation line="Страшно, коли ми так глибоко." speaker="0" flags="SubmarineDeep" speakertags="brokenenglish">
+    <Conversation line="" speaker="0" flags="Casual"></Conversation>
+    <Conversation line="І моя жінка так мені мовить." speaker="1" speakertags="joker"></Conversation>
+    <Conversation line="Все буде добре. Ця крихітка була й глибше." speaker="1" speakertags="tough"></Conversation>
+  </Conversation>
+  <Conversation line="Чуєш стогін корпусу? Ти впевнений, що це безпечно?" speaker="0" flags="SubmarineDeep" speakertags="fearful">
+    <Conversation line="Не слід було йти у флот, як прагнеш безпеки." speaker="1" speakertags="tough,rude"></Conversation>
+    <Conversation line="Ми впораємось. Ця крихітка була й глибше." speaker="1" speakertags="tough"></Conversation>
+    <Conversation line="Все буде добре. Проте тримайте зварювальники напоготові." speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="У мене крутиться голова." speaker="0" flags="Bloodloss"></Conversation>
+  <Conversation line="Щось мені не дуже добре." speaker="0" flags="Bloodloss"></Conversation>
+  <Conversation line="Мені здається, мені потрібна плазма крові." speaker="0" flags="Bloodloss"></Conversation>
+  <Conversation line="Ик" speaker="0" flags="DrunkMedium"></Conversation>
+  <Conversation line="Я не часто кажу це, але ви, найкращі." speaker="0" flags="DrunkMedium">
+    <Conversation line="Кращого екіпажу годі й бажати!" speaker="0" flags="DrunkMedium">
+      <Conversation line="Ти п'яний?" speaker="1" flags="DrunkMedium">
+        <Conversation line="Заспокойся, чувак, все добре!" speaker="2" flags="DrunkMedium"></Conversation>
+        <Conversation line="Не зовсім та й п'яний, я лише зробив кілька ковтків." speaker="0" flags="DrunkMedium"></Conversation>
+        <Conversation line="Що, я просто хотів сказати, як сильно я вас усіх ціную!" speaker="0" flags="DrunkMedium"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Хехе..." speaker="0" flags="DrunkMedium"></Conversation>
+  <Conversation line="Слухай мене... Ми... Ми з тобою виберемося звідси!" speaker="0" flags="DrunkMedium" minintensity="0.5"></Conversation>
+  <Conversation line="Мені варто полежати..." speaker="0" flags="DrunkHigh">
+    <Conversation line="О, до біса. Тримайся подалі, поки не протверезієш." speaker="1" speakertags="professional,tough,rude"></Conversation>
+    <Conversation line="" speaker="0"></Conversation>
+  </Conversation>
+  <Conversation line="Що ж нам робити з п'яяяним моряком, що ж робити з п'яяяним моряком..." speaker="0" flags="DrunkHigh">
+    <Conversation line="Рано вранці!" speaker="0" flags="DrunkHigh">
+      <Conversation line="Ти не в змозі виконувати свої обов'язки, моряку. Коли ти протверезієш, ми серйозно поговоримо." speaker="1" allowedjobs="captain" speakertags="professional,tough,rude">
+        <Conversation line="Нні, я можу я впораааюся!" speaker="0" flags="DrunkHigh"></Conversation>
+      </Conversation>
+      <Conversation line="У когось гарний настрій!" speaker="1" speakertags="joker"></Conversation>
+      <Conversation line="О, до біса. Тримайся подалі, поки не протверезієш." speaker="1" speakertags="professional,tough,rude"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Чому човен так гойдає?" speaker="0" flags="DrunkHigh">
+    <Conversation line="Я впевнений, що це ти." speaker="1"></Conversation>
+    <Conversation line="Зберіться!" speaker="1"></Conversation>
+    <Conversation line="" speaker="0"></Conversation>
+  </Conversation>
+  <Conversation line="Щось мені зле..." speaker="0" flags="OpiateWithdrawalLow"></Conversation>
+  <Conversation line="Я відчуваю нудоту..." speaker="0" flags="OpiateWithdrawalLow"></Conversation>
+  <Conversation line="У мене болить нога. Чи можу я отримати трохи морфію?" speaker="0" flags="OpiateWithdrawalMedium">
+    <Conversation line="З твоєю ногою все гаразд. Гадаю, тобі варто на деякий час скоротити вживання морфіну." speaker="1" allowedjobs="medicaldoctor"></Conversation>
+    <Conversation line="З твоєю ногою все гаразд, торчок." speaker="1" speakertags="rude"></Conversation>
+  </Conversation>
+  <Conversation line="У мене вдасться!." speaker="0" flags="OpiateWithdrawalMedium"></Conversation>
+  <Conversation line="Я думаю, що мене зараз вирве." speaker="0" flags="OpiateWithdrawalMedium"></Conversation>
+  <Conversation line="Я не повинен бути тут. Я хочу додому." speaker="0" flags="OpiateWithdrawalMedium"></Conversation>
+  <Conversation line="Я відчуваю, що вмираю! Я не можу нічого з цим зробити!" speaker="0" flags="OpiateWithdrawalHigh">
+    <Conversation line="Я думаю, вам варто зробити укол налоксону." speaker="1" allowedjobs="medicaldoctor"></Conversation>
+    <Conversation line="Да ти шо." speaker="1" speakertags="rude"></Conversation>
+    <Conversation line="" speaker="0"></Conversation>
+  </Conversation>
+  <Conversation line="Треба погомоніти про слона в кімнаті." speaker="0" flags="Psychosis">
+    <Conversation line="Ви всі знаєте, про кого я." speaker="0">
+      <Conversation line="Так продовжуватись не може. Якщо так триватиме, він когось уб’є." speaker="0">
+        <Conversation line="Хіба що ми зробимо це першими." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Нам треба забиратися." speaker="0" flags="PsychosisSelf">
+    <Conversation line="Негайно." speaker="0" flags="PsychosisSelf"></Conversation>
+  </Conversation>
+  <Conversation line="Ревіння чинного спадкоємця творить, загадками побожно тріпає, як батогами, але більшого у нас немає ." speaker="0" flags="Psychosis">
+    <Conversation line="Слухайте уважно, це не метафора." speaker="0" flags="Psychosis">
+      <Conversation line="Через те, що ми заповіти розумієм неправильно, у цьому проблема." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Реальність; але одного дня ми складемо з нашої волі реальність." speaker="0" flags="Psychosis">
+    <Conversation line="І безпека розкритих знань буде далеко." speaker="0" flags="Psychosis">
+      <Conversation line="Ми живемо в день, чи буде це власним напрямком, чи втечемо від нездатності." speaker="0" flags="Psychosis"></Conversation>
+      <Conversation line="І більшість із порожніх морів власне роз’єднує знання, відкриє таке жахливе для нас, що породило нас." speaker="0" flags="Psychosis"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="БУМ! А потім ми дивилися." speaker="0" flags="Psychosis">
+    <Conversation line="І наша рибка теж спустилася. Разом із човном." speaker="0" flags="Psychosis">
+      <Conversation line="Анітрохи! І наша риба, як він сказав, прийшла у наш час" speaker="0" flags="Psychosis">
+        <Conversation line="Анітрохи! Не люблю. Анітрохи. Ні." speaker="0" flags="Psychosis"></Conversation>
+        <Conversation line="Цього не повинно бути, - сказала риба." speaker="0" flags="Psychosis">
+          <Conversation line="Але це неправильно, і ви це знаєте." speaker="1" flags="Psychosis"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Де, в біса, морфін?" speaker="0" flags="OpiateWithdrawalHigh">
+    <Conversation line="Тобі більше його не потрібно. Дам тобі трохи налоксону." speaker="1" allowedjobs="medicaldoctor"></Conversation>
+    <Conversation line="Сподіваюся, ви його не знайдете." speaker="1" speakertags="rude"></Conversation>
+    <Conversation line="Що з тобою коїться? Ти травмований?" speaker="1">
+      <Conversation line="Відчуття, що я, в біса, вмираю. Я більше не можу, мені треба доза." speaker="0"></Conversation>
+      <Conversation line="Мої м’язи зводить судоми, а серце ось-ось розірветься! Я більше так не можу!" speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Мене ранили! Мені потрібен бинт!" speaker="0" flags="GunshotWound"></Conversation>
+  <Conversation line="Допоможіть, мене ранили!" speaker="0" flags="GunshotWound"></Conversation>
+  <Conversation line="Привіт, моряки!" speaker="0" flags="EnterEndOutpost" allowedjobs="watchman">
+    <Conversation line="Решта форпосту будується, але він буде готовим вже через кілька місяців!" speaker="0">
+      <Conversation line="Проте я можу показати вам список товарів, які ми продаємо, і людей, які шукають роботу." speaker="0">
+        <Conversation line="І коли ви будете готові, я можу дати вам інструкції з навігації до нових найближчих місць." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Приємно бачити доброзичливе обличчя! Тут не надто багато відвідувачів." speaker="0" flags="EnterEndOutpost" allowedjobs="watchman">
+    <Conversation line="Решта форпосту будується, але він буде вже готовим через кілька місяців!" speaker="0">
+      <Conversation line="Але якщо вам потрібні якісь припаси чи додатковий екіпаж, дайте мені знати." speaker="0">
+        <Conversation line="І коли ви будете готові, я можу дати вам інструкції щодо навігації до нових найближчих місць." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Можна я складу всі свої проблеми в приманку?" speaker="0"></Conversation>
+  <Conversation line="Чи ви відчували себе... Плоським?" speaker="0"></Conversation>
+  <Conversation line="Як мовлять: «таламусес» чи «таламі»?" speaker="0">
+    <Conversation line="Сподіваюся, що їх не буде більше одного одразу." speaker="1"></Conversation>
+    <Conversation line="Ех, зовсім зіпсував мені весь настрій." speaker="1"></Conversation>
+    <Conversation line="Коли затонулий підводний човен випльовує амеб і стріляє в мене снарядами рейкотрона, я не питаю, як там її звуть." speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Минулої ночі біля моєї каюти був плазун, який кігтями дряпався мені у вікно." speaker="0" flags="OutpostNPC">
+    <Conversation line="Чорт, ти повинен повідомити про це охороні. Вони не повинні підпускати їх так близько." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Вчора одна з вентиляційних труб у моїй кабіні почала протікати." speaker="0" flags="OutpostNPC">
+    <Conversation line="Вдалось полагодити?" speaker="1" flags="OutpostNPC">
+      <Conversation line="Ні, я надто старий, щоб там повзати." speaker="0">
+        <Conversation line="Я не знаю, чи це мій артрит, чи що, але я теж не можу повзати." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Чому тут завжди так, до біса, холодно? Чи не могли б ми трошки підсилити опалення?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Знаєш, уран не росте на деревах." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Вдягни іншу куртку і перестань скаржитися." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Акулий тигр з'їв вашу команду? Треба нові моряки? Ви їх знайшли!" speaker="0" flags="OutpostNPC,CampaignNPC.Crew"></Conversation>
+  <Conversation line="Потрібен екіпаж? Досвідчені чи салаги? Що захочете за ваші гроші!" speaker="0" flags="OutpostNPC,CampaignNPC.Crew"></Conversation>
+  <Conversation line="Зачекайте, будь ласка. Твоя смерть важлива для нас, і молох незабаром буде з тобою." speaker="0" flags="OutpostNPC,CampaignNPC.Crew">
+    <Conversation line="Що?" speaker="1">
+      <Conversation line="Ах, вибачте, я мав на увазі: «будь ласка, зачекайте своєї черги»." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Коли-небудь пробував плазу-смак?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Коли я працював помічником, це було все, що я міг собі дозволити. Сподіваюся, що більше ніколи не торкнуся цього лайна." speaker="1" flags="OutpostNPC">
+      <Conversation line="Не знаю, наприклад мені він подобається. Хоча випадкові кігті та очі в ньому трохи бентежать." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ви чули про перегони рапторів, що відбулися на минулих вихідних?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Не хочу говорити про це." speaker="1" flags="OutpostNPC">
+      <Conversation line="Я взяв позику в якогось клоуна, щоб зробити ставку на одного клятого хижака, якого взагалі з'їли під час змагань. І тепер червононосі погрожують мені смертю, ще й щовечора підходять до моїх дверей та шумлять клятим клаксоном." speaker="1"></Conversation>
+    </Conversation>
+    <Conversation line="Так! Не кожен день можна побачити перегони, де нікого врешті б не з'їли!" speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Чесно, я не дуже захоплююся спортом, а тим паче гонками на рапторах. Я знаю, вони хижаки, але вважаю, що це вже якесь насильство над тваринами." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Ви чули про радіаційні дослідження, які вони проводили на поверхні?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Я читав про це в газеті 'Європеєць'. Похмурі часи настали." speaker="1" flags="OutpostNPC">
+      <Conversation line="Чув, кажуть, мовби нам доведеться залишити форпости поблизу поверхні й почати просуватися глибше, якщо ситуація погіршиться." speaker="0"></Conversation>
+      <Conversation line="Чесно, це мене так сильно й не турбує. Якщо нам доведеться рухатися глибше, щоб сховатися від радіації, тоді яка різниця?" speaker="0">
+        <Conversation line="У будь-якому випадку, я не планував подорож на поверхню найближчим часом." speaker="0">
+          <Conversation line="Гадаю, ти правий. Але мені не дає покою те, що ми не знаємо, чому рівень радіації зростає чи вона взагалі припинить зростати." speaker="1"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Мені взагалі байдуже, що там по науці. У нас і так є достатньо речей, про які варто потурбуватися." speaker="1" flags="OutpostNPC">
+      <Conversation line="Що ж, якщо вони говорять про те, що радіація проникає глибше в лід - правда, тож незабаром у нас може виникнути ще кілька речей, про які варто потурбуватися." speaker="0">
+        <Conversation line="Ехх. Мене це не хвилює, я все одно не проживу достатньо довго, щоб померти від раку." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я хотів би колись побувати на поверхні." speaker="0" flags="OutpostNPC">
+    <Conversation line="Кілька років тому мені довелося піднятися туди, щоб провести технічне обслуговування однієї з обсерваторій." speaker="1" flags="OutpostNPC">
+      <Conversation line="Це справді щось неймовірне. Ви навіть не можете уявити собі, яке може бути велике небо, поки не побачите його." speaker="1">
+        <Conversation line="Звучить неймовірно. Шкода, що сьогодні туди так важко потрапити. Хіба, якщо ти не купаєшся в марках." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Мушу визнати, що я хотів би побачити Юпітер, але мене не дуже вабить радіація, рак та все інше." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Тільки не знову. Розплющ свої очі!" speaker="1">
+      <Conversation line="Запитайте себе: ви коли-небудь бачили цю «поверхню»? Ви коли-небудь бачили кривизну «крижаного покриву»? Ви коли-небудь замислювалися, чому вони не хочуть, щоб ми підіймалися надто високо до цих «слоїв»?" speaker="1">
+        <Conversation line="Я знаю людей, які були на поверхні." speaker="0">
+          <Conversation line="А я знаю людей, які мовлять, що вони ніби їли барбекю з Матір'ю Клаксонів. Що ти хочеш цим сказати?" speaker="1">
+            <Conversation line="Здаюсь." speaker="0"></Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Останнім часом я погано себе почуваю. Сьогодні вранці я знепритомнів, коли чистив зуби, і ця дивна висипка на моїй щоці погіршилася." speaker="0" flags="OutpostNPC">
+    <Conversation line="Не читаєш 'Європейця', чи не так? У розділі «запитайте лікаря» було ніби щось подібне на кшталт цього." speaker="1" flags="OutpostNPC">
+      <Conversation line="Ухх, я справді мало читаю. До того ж, лікар — це ще той чорт. Б’юся об заклад, що мені було б краще без його порад." speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Знаєш, що ти щойно описав космічний герпес?" speaker="1" flags="OutpostNPC">
+      <Conversation line="Знаю-знаю. Просто сподіваюся, що це звичайний герпес або щось таке, що легше лікувати." speaker="0">
+        <Conversation line="Можливо, ти не віриш в карму, але особисто я вважаю, що є частка правди в тому, що «хороший вчинок на день - відганяє похід до лікаря». І не ображайся, ти, м'яко кажучи, не святий." speaker="1">
+          <Conversation line="Навіть не починай." speaker="0"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Молохи відкладають яйця чи виношують живих дитинчат?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Не знаю. Чув, люди говорять, що лялечки молохів, ніби як яйця." speaker="1" flags="OutpostNPC">
+      <Conversation line="Поняття не маю. Ніби талісман Хуба Пупа не схожий на яйце." speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Ніколи не чув, щоб хтось говорив про яйця молоха. Я не ксенобіолог." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="О привіт! Як справи?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Старезний, як завжди." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Безцільно пригнічений… Я знову впав зі сходів." speaker="1" flags="OutpostNPC" speakertags="brokenenglish"></Conversation>
+    <Conversation line="Люди висихають, як вареники бабусі… А ті, в кого повільно вогник надії горить, вірно, гинуть?" speaker="1" speakertags="brokenenglish">
+      <Conversation line="Що?" speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Зараз день? Я ледве можу помітити різницю з моменту, коли вони почали цілодобово приглушувати світло." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="О, привіт Марк!" speaker="1" speakertags="crazy">
+      <Conversation line="Хто Марк?" speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Дай мені спокій." speaker="1"></Conversation>
+    <Conversation line="Добре, дякую, а ти?" speaker="1">
+      <Conversation line="Добре-добре." speaker="0">
+        <Conversation line="" speaker="0"></Conversation>
+        <Conversation line="Чудово-чудово." speaker="1"></Conversation>
+        <Conversation line="Це була плідна розмова." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ти чув? Культисти церкви хаска напали на будівлю суду в столиці!" speaker="0" flags="OutpostNPC">
+    <Conversation line="А я ж тобі казав, що вони звільнять Якова!" speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Який форпост знову стане столицею?" speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Коли ти востаннє щось їв?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Навіть не пам'ятаю." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Два вечори тому я спробував один із рецептів тітоньки Доріс, і після цього мені взагалі не хочеться їсти." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Їж побільше, тоді якраз не помістишся у водолазний костюм." speaker="1" flags="OutpostNPC">
+      <Conversation line="Їж побільше, тоді якраз тебе можна буде використовувати, наприклад, як глибинну бомбу." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Що думаєш про дизайн форпосту тут?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Що ж, не зовсім зроблене з кістки молоха. Але, на мою думку, це краще, ніж підводний човен." speaker="1" flags="OutpostNPC">
+      <Conversation line="" speaker="0"></Conversation>
+      <Conversation line="У молохів є кістки?" speaker="1">
+        <Conversation line="Це лише вираз." speaker="0"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Не знаю, мені здається, що я це вже бачив." speaker="1"></Conversation>
+    <Conversation line="Нічого страшного, просто хотілося б, щоб вони додали більше кольорів." speaker="1"></Conversation>
+    <Conversation line="Це не менш, ніж консервна банка тільки лише тому, що вона не рухається." speaker="1"></Conversation>
+    <Conversation line="Я просто так радий, що нарешті маю трохи місця для ніг, інше мене не хвилює!" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Мені лише здається, чи вода реально так голосно шумить" speaker="0" flags="OutpostNPC">
+    <Conversation line="Ти впевнений, що дійсно це чуєш?" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Минулой ночі були такі пекельні гонки багнорапторів" speaker="0" flags="OutpostNPC">
+    <Conversation line="Я вважаю, що гонки на багнорапторах – це жорстоко." speaker="1" flags="OutpostNPC">
+      <Conversation line="Що ж, жокея, на якого я поставив, з’їли, тож погоджуся з тобою." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Як ти думаєш, нам варто взяти з собою більше рослинності?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Ми щойно тільки позбулися до болі неприємної баластної флори. Тепер хочеш нам тут більше біологічних організмів?" speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Чого тебе так тягне до рослин? Мабуть тобі легко працюється, якщо у тебе є стільки часу." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="*апчих*" speaker="1" speakertags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="У цьому місці весь час холодно та сиро. Ненавиджу." speaker="0" flags="OutpostNPC">
+    <Conversation line="Треба поскаржитися начальнику форпосту на ці нестерпні умови." speaker="1" flags="OutpostNPC">
+      <Conversation line="Б'юся об заклад, що ми б врешті-решт опинился в гіршому місці, якби ми це зробили." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Мені нещодавно приснився дивний сон, у якому я був богом чи подібним до нього..." speaker="0" flags="OutpostNPC" allowedjobs="engineer,mechanic,assistant">
+    <Conversation line="Екіпажний відсік потребує очищення, ваша святість. Зробіть це." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Останнім часом реактор дивно поводиться." speaker="0" flags="OutpostNPC">
+    <Conversation line="Напишіть про це. Думаю, хтось зрештою подивиться що з ним, сподіваюся, раніше, ніж нас опромінить." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Що взагалі твориться з клоунами останнім часом?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Наче тут, унизу, недостатньо проблем." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Скоро відбудеться парад сходження Юпітера!" speaker="0" flags="OutpostNPC">
+    <Conversation line="Я чув, що на цей раз все буде ліпше. Не можу дочекатися, щоб отримати смачний шматок смаженого тигрового молотаря!" speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="І тоді я сказав медику: «Це не щупальце!»..." speaker="0" flags="OutpostNPC">
+    <Conversation line="Ха-ха!" speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="Ахх, поганець!" speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Той, хто проєктував це місце, не знав, що робить." speaker="0" flags="OutpostNPC">
+    <Conversation line="А знає що ще? Це місце також нормально не доступне для інвалідних візків." speaker="1" flags="OutpostNPC"></Conversation>
+    <Conversation line="А знає що ще? Таке відчуття, ніби хтось просто навмання з’єднав купу кімнат та й на цьому все." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="Ви бачили підводний човен, який прибув минулого тижня?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Тріумфатор? Вона була, до біса, розтерзана. Інженери, які ремонтували її, знайшли в одній із розрізів корпусу ще живого багнораптора." speaker="1" flags="OutpostNPC">
+      <Conversation line="Так. Також я бачив, як вони вийняли з субмарини 4 тіла в мішках. Мабуть, щось потрапило всередину та пливло у місто разом з ними." speaker="0">
+        <Conversation line="Моторошно те, наскільки холодним був капітан... Він просто найняв пару нових хлопців і повернувся у плавання, наче нічого не сталося." speaker="1">
+          <Conversation line="У мене таке відчуття, що ми не побачимо їх більше живими." speaker="1"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Компенсатор? Це, мабуть, найдивніший за виглядом підводний човен, що я коли-небудь бачив." speaker="1" flags="OutpostNPC"></Conversation>
+  </Conversation>
+  <Conversation line="У місцевих торгових автоматах найкраща їжа. Протеїнові батончики з водоростей такі смакотющі!" speaker="0" flags="OutpostNPC">
+    <Conversation line="На смак вони схожі на землю, як і будь-які інші білкові батончики з водоростей з будь-якого іншого торговельного автомата, з яких я коли-небудь це отримував." speaker="1" flags="OutpostNPC">
+      <Conversation line="Ти нічого не тямиш в делікатесах." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Було б дуже прикро, якби тут сталася пожежа, через це постраждає так багато людей." speaker="0" flags="OutpostNPC" speakertags="crazy">
+    <Conversation line="Що ти таке кажеш" speaker="1" flags="OutpostNPC">
+      <Conversation line="Мені дуже холодно, і я не знаю, коли мені потрібно буде якось зігрітися." speaker="0">
+        <Conversation line="Тримай себе в руках, принаймі, не намагайся мене спалити живцем." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я думаю, що всі молохи доброзичливі і хочуть обіймати тільки симпатичні підводні човни." speaker="0" flags="OutpostNPC" speakertags="crazy"></Conversation>
+  <Conversation line="Я особисто вітаю всіх володарів восьминогоподібних істот." speaker="0" flags="OutpostNPC" speakertags="crazy"></Conversation>
+  <Conversation line="Вода сьогодні дійсно каламутна." speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Погода сьогодні відмінна. Течій немає, вода чиста... Можливо, пізніше я піду збирати мак." speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Ви коли-небудь замислювалися, кому першому спало на думку використовувати викрутку в якості заточування?" speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Що я повинен зробити, щоб мене перевели звідси?" speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Життя на станції нудне, але я все одно віддам йому перевагу перед виходом на підводному човні." speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Цікаво, що сьогодні подаватиме автомат із їжею в їдальні." speaker="0" flags="OutpostNPC"></Conversation>
+  <Conversation line="Смажений молотар чи мені здається?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Ймовірно, хтось знову страдає фігнею." speaker="1"></Conversation>
+    <Conversation line="" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Якби ти міг дозволити собі власний човник, яку модель хотів би придбати?" speaker="0" flags="OutpostNPC">
+    <Conversation line="Авжеж Bunyip - човник природнього відбору. Рятуються найкращі моряки." speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Наш попередній капітан іноді змушував нас виконувати, як він казав: «занурення камікадзе»." speaker="0" flags="OutpostNPC">
+    <Conversation line="«Усе є баластом, якщо ти сміливий», – казав він." speaker="0">
+      <Conversation line="На превеликий жаль, його вже нема з нами. Можливо, він був надто сміливим." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Приємно бачити дружнє обличчя! У наших краях не так вже й багато відвідувачів." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="О, у нас знову гості." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Привіт всім!" speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Привіт! Ти виглядаєш так, ніби у тебе була важка поїздка." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Привіт! Ласкаво просимо до нашої скромної оселі." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Ви, хлопці, виглядаєте так, ніби вам не завадив би невеликий відпочинок." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Я вас раніше не бачи тут." speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Яка у вас симпатична субмарина!" speaker="0" flags="EnterOutpost,OutpostNPC"></Conversation>
+  <Conversation line="Сподіваюся, ви не плануєте затримуватися надовго. У нас і так достатньо проблем." speaker="0" flags="EnterOutpost,OutpostNPC" speakertags="rude"></Conversation>
+  <Conversation line="Привіт. Я сподіваюся, що ви не завдасте мені ніяких турбот." speaker="0" flags="EnterOutpost,OutpostNPC" speakertags="fearful"></Conversation>
+  <Conversation line="Я буду приглядувати за тобою." speaker="0" flags="EnterOutpost,OutpostNPC" allowedjobs="securityofficer"></Conversation>
+  <Conversation line="Не роби ніякиих нам проблем." speaker="0" flags="EnterOutpost,OutpostNPC" allowedjobs="securityofficer"></Conversation>
+  <Conversation line="Гей, ти! Геть звідси до біса!" speaker="0" flags="EnterOutpost,LowReputation,OutpostNPC"></Conversation>
+  <Conversation line="Вам тут не раді." speaker="0" flags="EnterOutpost,LowReputation,OutpostNPC"></Conversation>
+  <Conversation line="Який ти сміливий, якщо знову показуєшся тут." speaker="0" flags="EnterOutpost,LowReputation,OutpostNPC"></Conversation>
+  <Conversation line="Ти не повинен був сюди приходити..." speaker="0" flags="EnterOutpost,LowReputation,OutpostNPC"></Conversation>
+  <Conversation line="Завжди радий вас бачити!" speaker="0" flags="EnterOutpost,HighReputation,OutpostNPC"></Conversation>
+  <Conversation line="Ах, це ти. Ласкаво просимо!" speaker="0" flags="EnterOutpost,HighReputation,OutpostNPC"></Conversation>
+  <Conversation line="Привіт! Радий тебе тут бачити." speaker="0" flags="EnterOutpost,HighReputation,OutpostNPC"></Conversation>
+  <Conversation line="Будь ласка, відпусти мене!" speaker="0" flags="Hostage"></Conversation>
+  <Conversation line="Я більше не можу цього терпіти!" speaker="0" flags="Hostage"></Conversation>
+  <Conversation line="Мені потрібно вибратися звідси... Я благаю тебе!" speaker="0" flags="Hostage"></Conversation>
+  <Conversation line="Давайте домовимося, відпустіть мене, і я нікому не скажу, що ви тут робите.!" speaker="0" flags="Hostage"></Conversation>
+  <Conversation line="Я ж не виберуся звідси живим, чи не так?" speaker="0" flags="Hostage"></Conversation>
+  <Conversation line="Ти вибрав не той форпост для стикування, приятель..." speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="Та субмарина, що у вас там, внизу, виглядає чертовски добре... Я думаю, ми залишимо її собі!" speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="Ах, свіже м'ясо!" speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="Тепер це місце належить нам, і ми недолюблюємо непроханих гостей..." speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="У нас гості!" speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="Ви повинні були триматися подалі!" speaker="0" flags="EnterOutpost,Bandit"></Conversation>
+  <Conversation line="Я щось почув, здається." speaker="0" flags="Bandit">
+    <Conversation line="Мабуть, просто вітер." speaker="1" flags="Bandit">
+      <Conversation line="Що за вітер?" speaker="0"></Conversation>
+      <Conversation line="Ха-ха, смішно." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Щось щойно причалило?" speaker="0" flags="Bandit">
+    <Conversation line="Гадаю, я б помітив, якби пристикувалася субмарина." speaker="1" flags="Bandit">
+      <Conversation line="Дійсно, стикування - не тихе діло." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Тут так холодно." speaker="0" flags="Bandit">
+    <Conversation line="Замовкки та бережи сили." speaker="1" flags="Bandit"></Conversation>
+  </Conversation>
+  <Conversation line="Якщо нас відвідають сили Коаліції, нам буде гаплик" speaker="0" flags="Bandit">
+    <Conversation line="Їм не вдасться нас вбити" speaker="1" flags="Bandit">
+      <Conversation line="Уявляєш, що вони роблять з форпостами, на кшталт нашого?" speaker="0"></Conversation>
+      <Conversation line="Мабуть, ти правий." speaker="0"></Conversation>
+      <Conversation line="Я чув розповіді про те, що вони підривають цілі форпости заради заяв." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Іноді я думаю, скільки часу мине, коли прибуде Коаліція, щоб звільнити це місце..." speaker="0" flags="Bandit">
+    <Conversation line="Їх точно не буде. Поки ця штука з безодні сіє хаос у цих краях, вони сюди не прибудуть." speaker="1" flags="Bandit">
+      <Conversation line="Я знаю, але що буде, коли цей монстр зникне?" speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Відповім: нехай тільки спробують. У нас достатньо зброї, щоб вгамувати цих виродків." speaker="1" flags="Bandit"></Conversation>
+  </Conversation>
+  <Conversation line="Я голодний." speaker="0" flags="Bandit">
+    <Conversation line="Так, як усі ми." speaker="1" flags="Bandit">
+      <Conversation line="Знаєте, думаю, було б гарною ідеєю спакувати ті тіла у мішки, а не скидати їх зі шлюзу..." speaker="0">
+        <Conversation line="Дурня. Не хочу навіть слухати." speaker="1"></Conversation>
+        <Conversation line="Ти не один, хто так думає, але маю надію, що нам не доведеться цим займатися..." speaker="1"></Conversation>
+        <Conversation line="" speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я відчуваю, як радіація поколює мою шкіру." speaker="0" flags="InRadiation"></Conversation>
+  <Conversation line="Радіація Юпітера в цьому районі занадто сильна, щоб ми могли бути тут." speaker="0" flags="InRadiation"></Conversation>
+  <Conversation line="У мене в роті мідний присмак і страшенно болить голова." speaker="0" flags="InRadiation">
+    <Conversation line="Радіація вб'є нас, якщо ми не будемо рухатися далі." speaker="1">
+      <Conversation line="Сподіваюсь, що ще не пізно..." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я бачу білі вогники, коли закриваю очі!" speaker="0" flags="InRadiation">
+    <Conversation line="Я теж, радіація впливає на очі." speaker="1">
+      <Conversation line="Звучить жахливо." speaker="0"></Conversation>
+      <Conversation line="Та ні, ти просто хочеш мене налякати..." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <!-- New values, November 11 -->
+  <Conversation line="Хто б зараз перервав наш експеримент...?" speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="Підводний човен? Може бути, ми зможемо взяти її собі? Цей експеримент трохи вийшов з-під контролю..." speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="Ще більше тіл для експериментів! На крок ближче..." speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="Шлях людства вперед буде прокладений саме звідси! Дивіться, як твориться історія!" speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="Невіруючі!" speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="*зловісні клацаючі звуки*" speaker="0" flags="EnterOutpost,HuskExtremist"></Conversation>
+  <Conversation line="Чули?" speaker="0" flags="HuskExtremist">
+    <Conversation line="Хаск у тебе в горлі? Хаск у мене в горлі? Хаск у коридорі?" speaker="1" flags="HuskExtremist">
+      <Conversation line="*зловісні веселі клацання*" speaker="0"></Conversation>
+      <Conversation line="Це звучить інакше, кроки хаска як *тук-тук*, а ці *тап-тап*." speaker="0"></Conversation>
+      <Conversation line="Твоя правда, це може бути все, що завгодно." speaker="0"></Conversation>
+      <Conversation line="Мені чомусь здавалося, що симбіоз доволі комфортний. Бо слово симбіоз таке благозвучне." speaker="0"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Як назвав паразита?" speaker="0" flags="HuskExtremist">
+    <Conversation line="Симбіонт, недоумок." speaker="1" flags="HuskExtremist">
+      <Conversation line="Дивне ім'я." speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Симбіонт. Ти дав ім'я симбіонту? Я вважаю свого, як частиною себе..." speaker="1" flags="HuskExtremist">
+      <Conversation line="Я досі розриваюся між Люсі та Генком." speaker="0">
+        <Conversation line="Безумовно Генк, Люсі звучить надто мило." speaker="1"></Conversation>
+        <Conversation line="А може Каліксус? Звучить круто." speaker="1"></Conversation>
+        <Conversation line="Люсі звучить ніжніше. Я б хотів, щоб моє горло менше боліло...." speaker="1"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Чому саме Юпітер? Чому не Ювітер? Хто такий, в біса, Юпітер?" speaker="0" maxintensity="0.2">
+    <Conversation line="Якщо мені не зраджує пам’ять, це якийсь стародавній бог, якого люди асоціювали з Юпітером на Землі." speaker="1" speakertags="professional"></Conversation>
+    <Conversation line="" speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Як думаєте, що в центрі?" speaker="0" maxintensity="0.2">
+    <Conversation line="У центрі Європи? Лава, напевно? Чи каміння?" speaker="1">
+      <Conversation line="Ні, телепню, в центрі Ока." speaker="0">
+        <Conversation line="Що ж, схоже, ми рухаємося саме в цьому напрямку. Може, згодом, якщо зайдемо так далеко." speaker="2"></Conversation>
+        <Conversation line="Зіниця? Величезна зіниця?" speaker="1" speakertags="joker"></Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="У центрі Ока? Можливо, всі затонулі підводні човни, які безодня проковтнула за минуле століття. Це пояснило, чому гравітація тут сильніша, ніж повинна була б бути." speaker="1">
+      <Conversation line="Маячня." speaker="0"></Conversation>
+    </Conversation>
+    <Conversation line="Кажуть, що це аномалія, але що це означає?" speaker="1" speakertags="brokenenglish">
+      <Conversation line="Так науковці натякають: 'ми не знаємо, чому гравітація навколо Ока Європи така сильна'" speaker="0">
+        <Conversation line="Я чув, що деякі фізики вважають, ніби там чорна діра." speaker="2">
+          <Conversation line="Так, звісно. Викопана червом кінця?" speaker="0"></Conversation>
+        </Conversation>
+        <Conversation line="Я чув деякі теорії про якусь гравітаційну сферу. Але не знаю, вона мала б бути набагато, набагато більшою, ніж ті, що я бачив у руїнах." speaker="2"></Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Не треба було запливати так далеко." speaker="0" flags="EndLevel"></Conversation>
+  <Conversation line="Де це ми?" speaker="0" flags="EndLevel"></Conversation>
+  <Conversation line="Зовні гримить? Грім... під льодом? Як це працює?" speaker="0" flags="EndLevel">
+    <Conversation line="Я не впевнений, що ми нині перебуваємо під льодом. Я навіть не впевнений, що ми в Європі." speaker="1"></Conversation>
+  </Conversation>
+  <Conversation line="Ви чули, що Коаліція конфіскувала продовольство, яке ми мали сьогодні отримати?" speaker="0" flags="OutpostNPCSeparatists">
+    <Conversation line="Так. Ми, трясця, заплатили їм за той вантаж! Кажу тобі, вони хочуть заморити нас голодом." speaker="1" flags="OutpostNPCSeparatists"></Conversation>
+  </Conversation>
+  <Conversation line="Знаєте, я радий бачити, як лейтенант Петран дотримується більш дипломатичної позиції, ніж її попередники. Я просто хвилююся, що дипломатія не поборе Коаліцію." speaker="0" flags="OutpostNPCSeparatists">
+    <Conversation line="Не впевнений, що ти бачиш всю картину. Вона такий же солдат, як і Харлоу. Справжня боротьба за ширмою." speaker="1" flags="OutpostNPCSeparatists"></Conversation>
+  </Conversation>
+  <Conversation line="Я не можу повірити, що вони переобрали Ігнатія Мея." speaker="0" flags="OutpostNPCSeparatists">
+    <Conversation line="Думаєш, Коаліція дасть людям висловитися?" speaker="1" flags="OutpostNPCSeparatists">
+      <Conversation line="Маю на увазі, що вони цього не робили, але чому люди не повстають проти нього?" speaker="0">
+        <Conversation line="Оголосити перше травня Днем неоплачуваної праці, щоб вшанувати працю своїх предків? Це довбаний абсурд!" speaker="0">
+          <Conversation line="Працюйте, як раби, на мене та моїх хлопців в пам'ять про те, як ваші предки працювали, як раби, для моїх попередників!" speaker="1"></Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Якось мені довелося бачитися з Сутманом." speaker="0" flags="OutpostNPCSeparatists">
+    <Conversation line="Чекай, що? Я завжди думав, що це пропаганда Коаліції чи щось таке. Страшний терорист, який приходить і спалює форпости!" speaker="1" flags="OutpostNPCSeparatists">
+      <Conversation line="Ні, він справжній. Очевидно, що хтось на кшталт нього хотів би залишатися непомітним, зважаючи на винагороду і все інше." speaker="0">
+        <Conversation line="Який він?" speaker="1">
+          <Conversation line="Я від нього мало що дізнався, він просто приїхав за пальним і поїхав." speaker="0"></Conversation>
+        </Conversation>
+      </Conversation>
+      <Conversation line="Ідіоти. Це не якась одна людина, а ціла купка, просто для кращої історії краще сказати, що за кожним нерозкритим нападом на форпост Коаліції стоїть таємничий месник.." speaker="2"></Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я не розумію, чому сепаратисти переслідують цю дівчину, як там її, Петран. Скільки їй, за 30 чи скільки?" speaker="0" flags="OutpostNPCCoalition">
+    <Conversation line="Гадаю, те, що вона є пра-пра-правнучкою Харлоу Петрана, надає їй певної ваги." speaker="1">
+      <Conversation line="А це ще хто, чорт забирай?" speaker="0">
+        <Conversation line="Чоловік, який заснував Юпітерський народний рух?" speaker="1">
+          <Conversation line="Що? Хіба вони не називають себе Юпітерськими сепаратистами?" speaker="0">
+            <Conversation line="Я так розумію, ти не прочитав жодної книжки з історії у своєму житті?" speaker="1"></Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+</Conversations>

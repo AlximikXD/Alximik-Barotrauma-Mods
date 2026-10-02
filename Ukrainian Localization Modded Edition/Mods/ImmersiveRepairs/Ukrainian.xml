@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Items -->
+  <entityname.fungus>Грибок</entityname.fungus>
+  <entitydescription.fungus>Дивний грибок, що виріс на повітряному фільтрі. Його можна проаналізувати за допомогою дослідницького столу.</entitydescription.fungus>
+  <entityname.safecracker>Відмикач сейфів</entityname.safecracker>
+  <entitydescription.safecracker>Старий переналаштований шахтарський бур, модифікований для свердління та відкривання сейфів і шаф.</entitydescription.safecracker>
+  <entityname.miningdrill>Відбійний молоток</entityname.miningdrill>
+  <entitydescription.miningdrill>Гучний, але ефективний інструмент для швидкого добування мінералів.</entitydescription.miningdrill>
+  <entityname.weldingrodpack>Коробка зварювальних електродів</entityname.weldingrodpack>
+  <entitydescription.weldingrodpack>Коробка, що містить 8 зварювальних електродів для зварювального апарата.</entitydescription.weldingrodpack>
+  <entityname.weldingrod>Зварювальний електрод</entityname.weldingrod>
+  <entitydescription.weldingrod>Електрод, необхідний для зварювання за допомогою зварювального апарата.</entitydescription.weldingrod>
+  <entityname.weldingcartridge>Зварювальний картридж</entityname.weldingcartridge>
+  <entitydescription.weldingcartridge>Джерело живлення для зварювального апарата.</entitydescription.weldingcartridge>
+  <entityname.weldingtorch>Зварювальний пальник</entityname.weldingtorch>
+  <entitydescription.weldingtorch>Зварює вдвічі швидше за звичайний зварювальний апарат, але не може використовуватися під водою.</entitydescription.weldingtorch>
+  <entityname.autowelder>Автоматичний зварювальник</entityname.autowelder>
+  <entitydescription.autowelder>Одноразовий зварювальний інструмент, корисний для важкодоступних протікань. Поставте його біля протікання, і він автоматично заварить усі витоки в радіусі 2.5 метра при контакті з водою. Викликає дуже яскраві спалахи. Поруч повинні бути люди у зварювальній масці!</entitydescription.autowelder>
+  <entityname.weldingmask>Зварювальна маска</entityname.weldingmask>
+  <entitydescription.weldingmask>Захищена маска для обличчя та очей від частинок під час зварювання.</entitydescription.weldingmask>
+  <entityname.largeweldingfueltank>Великий балон для зварювального апарату</entityname.largeweldingfueltank>
+  <entitydescription.largeweldingfueltank>Достатньо пального, щоб заповнити 10 стандартних балонів.</entitydescription.largeweldingfueltank>
+  <entityname.ventblade>Лопать вентиляції</entityname.ventblade>
+  <entitydescription.ventblade>Лопаті у вентиляції крутяться без упину. Псуються у воді та пошкоджуються при падінні чи киданні.</entitydescription.ventblade>
+  <entityname.airfilter>Повітряний фільтр</entityname.airfilter>
+  <entitydescription.airfilter>Стандартний повітряний фільтр для всіх типів генераторів кисню. Можна очистити етанолом і використовувати повторно, якщо він не повністю зламаний — техобслуговування важливе!</entitydescription.airfilter>
+  <entityname.industrialflashlight>Промисловий ліхтар</entityname.industrialflashlight>
+  <entitydescription.industrialflashlight>Кращий варіант для освітлення навколишнього простору. Має 3 режими освітлення: направлений, радіальний та мульти-світло.</entitydescription.industrialflashlight>
+  <entityname.engineoil>Моторна олива</entityname.engineoil>
+  <entitydescription.engineoil>Забезпечує плавну роботу двигуна.</entitydescription.engineoil>
+  <entityname.premiumengineoil>Преміальна моторна олива</entityname.premiumengineoil>
+  <entitydescription.premiumengineoil>Забезпечує плавну роботу двигуна протягом тривалого часу завдяки преміум формулі.</entitydescription.premiumengineoil>
+  <entityname.holdableladder>Драбина</entityname.holdableladder>
+  <entitydescription.holdableladder>Мобільна драбина. Щоб піднятися, її потрібно прикріпити.</entitydescription.holdableladder>
+  <entityname.multitool>Мультитул</entityname.multitool>
+  <entitydescription.multitool>Надзвичайно швидкий і простий у використанні інструмент для ремонту. Не потребує навичок! Просто наведіть на те, що хочете відремонтувати, і натисніть курок. Швидко зношується під час використання. Можна відремонтувати, встановивши нову схему ПКВМ.</entitydescription.multitool>
+  <entityname.fixfoamtank>Балон із ремонтною піною</entityname.fixfoamtank>
+  <entitydescription.fixfoamtank>Балон із ремонтною піною, що тимчасово закриває протікання у конструкціях. Автоматично закриває нові протікання протягом певного часу. Наносити на конструкції за допомогою розпилювача і обов’язково зварити закриту піною ділянку приблизно через 3 хвилини!</entitydescription.fixfoamtank>
+  <entityname.fuelrefillstation>Станція заправки пального</entityname.fuelrefillstation>
+  <entitydescription.fuelrefillstation>Дозволяє заправити балони за допомогою великих балонів.</entitydescription.fuelrefillstation>
+  <entityname.concentratedweldingfuelcanister>Великий концентрований паливний балон для зварювального апарату</entityname.concentratedweldingfuelcanister>
+  <entitydescription.concentratedweldingfuelcanister>Повний балон містить достатньо пального для заправки до 10 концентрованих паливних балонів.</entitydescription.concentratedweldingfuelcanister>
+  <entityname.concentratedweldingfueltank>Концентрований паливний балон для зварювального апарату</entityname.concentratedweldingfueltank>
+  <entitydescription.concentratedweldingfueltank>Балон з концентрованим паливним балоном для зварювального апарату. Завдяки своїм унікальним властивостям, дозволяє зварювати під водою та збільшує дальність зварювання на 200%. Проте згорає значно швидше, особливо при підводному зварюванні.</entitydescription.concentratedweldingfueltank>
+  <entityname.welderseyedrops>Краплі для очей</entityname.welderseyedrops>
+  <entitydescription.welderseyedrops>Прискорюють процес загоєння синдрому око зварювальника.</entitydescription.welderseyedrops>
+  <entityname.fireaxe>Пожежна сокира</entityname.fireaxe>
+  <entitydescription.fireaxe>Ідеальний інструмент для швидкого зламу дверей у разі надзвичайної ситуації.</entitydescription.fireaxe>
+  <entityname.halligantool>Лом Геллігана</entityname.halligantool>
+  <entitydescription.halligantool>Незамінний напарник кожного пожежника. Відчиняє двері вдвічі швидше за лом.</entitydescription.halligantool>
+  <entityname.co2grenade>Вуглецева граната</entityname.co2grenade>
+  <entitydescription.co2grenade>Ефективний інструмент для швидкого гасіння невеликих пожеж і значного зменшення великих, шляхом витіснення всього кисню з приміщення.</entitydescription.co2grenade>
+  <entityname.co2grenade>Вуглецева граната</entityname.co2grenade>
+  <entitydescription.co2grenade>Ефективний інструмент для швидкого гасіння невеликих пожеж і значного зменшення великих, шляхом витіснення всього кисню з приміщення.</entitydescription.co2grenade>
+  <entityname.firefightersuit>Костюм пожежника</entityname.firefightersuit>
+  <entitydescription.firefightersuit>Обов’язковий елемент для всіх пожежників. Повністю захищає тіло від вогню, але потребує регулярного ремонту для збереження ефективності.</entitydescription.firefightersuit>
+  <entityname.firefighterhelmet>Шолом пожежника</entityname.firefighterhelmet>
+  <entitydescription.firefighterhelmet>Обов’язковий елемент для всіх пожежників. Повністю захищає голову від вогню, але потребує регулярного ремонту для збереження ефективності.</entitydescription.firefighterhelmet>
+  <entityname.firefightercabinet>Шафа пожежника</entityname.firefightercabinet>
+  <entitydescription.firefightercabinet>Спеціально сконструйована шафа для зберігання пожежного спорядження, щоб усе було впорядковано.</entitydescription.firefightercabinet>
+  <entityname.extinguisherfuelcanister>Великий балон для вогнегасників</entityname.extinguisherfuelcanister>
+  <entitydescription.extinguisherfuelcanister>Достатньо вогнегасної речовини, щоб заповнити 10 вогнегасників.</entitydescription.extinguisherfuelcanister>
+  <entityname.clownweldingmask>Зварювальна маска клоуна</entityname.clownweldingmask>
+  <entitydescription.clownweldingmask>Зварювальна маска з намальованою клоунською усмішкою. Повністю захищає обличчя й очі від частинок під час зварювання, не обмежуючи силу клоуна.</entitydescription.clownweldingmask>
+  <entityname.advancedweldingmask>Покращена зварювальна маска</entityname.advancedweldingmask>
+  <entitydescription.advancedweldingmask>Модифікована зварювальна маска з інтегрованими елементами інтерфейсу, що інформують користувача про пробоїни й поламані об'єкти, одночасно захищаючи обличчя й очі від частинок під час зварювання.</entitydescription.advancedweldingmask>
+  <!-- Afflictions -->
+  <afflictionname.oily>Масний</afflictionname.oily>
+  <afflictiondescription.oily>Ти весь у оливі. Є ризик послизнутись і отримати вдвічі більше шкоди від опіків. Найкраще — попросити когось обприскати тебе етанолом!</afflictiondescription.oily>
+  <afflictionname.welderseye>Око зварювальника</afflictionname.welderseye>
+  <afflictiondescription.welderseye>Зварювання без маски — можливо, не найкраща ідея. Зору знадобиться час, щоб відновитись.</afflictiondescription.welderseye>
+  <afflictionname.overheating>Ризик теплового удару</afflictionname.overheating>
+  <afflictiondescription.overheating>Ви потієте. Навколишнє повітря надто гаряче. Краще не затримуватися тут надовго!</afflictiondescription.overheating>
+  <!-- Interactions -->
+  <interaction.activate>Активувати</interaction.activate>
+  <interaction.deactivate>Деактивувати</interaction.deactivate>
+  <interaction.directionalmode>Направленний режим</interaction.directionalmode>
+  <interaction.radialmode>Радіальний режим</interaction.radialmode>
+  <interaction.multimode>Режим мульти-світла</interaction.multimode>
+  <interaction.turnoff>Вимкнути</interaction.turnoff>
+  <interaction.takeone>Взяти один</interaction.takeone>
+  <interaction.clean>Очистити</interaction.clean>
+  <interaction.refill>Заправити</interaction.refill>
+  <interaction.togglesuitlight>Налобний ліхтар</interaction.togglesuitlight>
+  <interaction.switchtohulloxygen>Перемкнутись на кисень корпуса</interaction.switchtohulloxygen>
+  <interaction.switchtosuitoxygen>Перемкнутись на кисень костюма</interaction.switchtosuitoxygen>
+  <!-- Messages -->
+  <ItemMsgNotUsableInWater>Не можна використовувати під водою!</ItemMsgNotUsableInWater>
+  <itemmsgcleaningagentrequired>Потрібен засіб для чищення</itemmsgcleaningagentrequired>
+  <ItemMsgWeldingRodRequired>Потрібен зварювальний електрод</ItemMsgWeldingRodRequired>
+  <ItemMsgweldingcartridgesRequired>Потрібен зварювальний картридж</ItemMsgweldingcartridgesRequired>
+  <!-- Dialog -->
+  <Eventtext.activedrill.CalledSecurity>Охорона! Тут незаконна діяльність!</Eventtext.activedrill.CalledSecurity>
+  <!-- Talents -->
+  <talentname.firefighter>Пожежник</talentname.firefighter>
+  <talentdescription.firefighter>Ти присвятив трохи часу, щоб навчитися правильно боротися з вогнем і рятувати людей.\nТепер ти можеш тягнути персонажів на повній швидкості.\nВідкриває наступні рецепти:\n[itemname1]\n[itemname2]\n[itemname3]\n[itemname4]\n[itemname5]</talentdescription.firefighter>
+</infotexts>

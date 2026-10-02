@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <interaction.openpressurevalve>Відкрити клапан тиску</interaction.openpressurevalve>
+  <interaction.closepressurevalve>Закрити клапан тиску</interaction.closepressurevalve>
+  <interaction.togglesuitlight>Налобний ліхтар</interaction.togglesuitlight>
+  <afflictionname.pressure4000>Герметизація (4000м)</afflictionname.pressure4000>
+  <afflictiondescription.pressure4000>Забезпечує захист від гідростатичного тиску на глибині до 4000 метрів у повністю герметичному стані.</afflictiondescription.pressure4000>
+  <afflictionname.pressure5750>Герметизація (5700м)</afflictionname.pressure5750>
+  <afflictiondescription.pressure5750>Забезпечує захист від гідростатичного тиску на глибині до 5700 метрів у повністю герметичному стані.</afflictiondescription.pressure5750>
+  <afflictionname.pressure6000>Герметизація (6000м)</afflictionname.pressure6000>
+  <afflictiondescription.pressure6000>Забезпечує захист від гідростатичного тиску на глибині до 6000 метрів у повністю герметичному стані.</afflictiondescription.pressure6000>
+  <afflictionname.pressure6200>Герметизація (6200м)</afflictionname.pressure6200>
+  <afflictiondescription.pressure6200>Забезпечує захист від гідростатичного тиску на глибині до 6200 метрів у повністю герметичному стані.</afflictiondescription.pressure6200>
+  <afflictionname.pressure6650>Герметизація (6600м)</afflictionname.pressure6650>
+  <afflictiondescription.pressure6650>Забезпечує захист від гідростатичного тиску на глибині до 6600 метрів у повністю герметичному стані.</afflictiondescription.pressure6650>
+  <afflictionname.pressure7500>Герметизація (7500м)</afflictionname.pressure7500>
+  <afflictiondescription.pressure7500>Забезпечує захист від гідростатичного тиску на глибині до 7500 метрів у повністю герметичному стані.</afflictiondescription.pressure7500>
+  <afflictionname.pressure8000>Герметизація (8000м)</afflictionname.pressure8000>
+  <afflictiondescription.pressure8000>Забезпечує захист від гідростатичного тиску на глибині до 8000 метрів у повністю герметичному стані.</afflictiondescription.pressure8000>
+  <afflictionname.pressure10000>Герметизація (10000м)</afflictionname.pressure10000>
+  <afflictiondescription.pressure10000>Забезпечує захист від гідростатичного тиску на глибині до 10000 метрів у повністю герметичному стані.</afflictiondescription.pressure10000>
+  <entityname.clowndivingsuit1>Водолазний скафандр клоуна (4000м)</entityname.clowndivingsuit1>
+  <entitydescription.clowndivingsuit1>Надає носієві силу клоуна, якщо вдягнутий разом із будь-яким клоунським шоломом або маскою.</entitydescription.clowndivingsuit1>
+  <entityname.clowndivingsuit2>Водолазний скафандр клоуна (5700м)</entityname.clowndivingsuit2>
+  <entitydescription.clowndivingsuit2>Надає носієві силу клоуна, якщо вдягнутий разом із будь-яким клоунським шоломом або маскою.</entitydescription.clowndivingsuit2>
+  <entityname.clowndivingsuit3>Водолазний скафандр клоуна (6600м)</entityname.clowndivingsuit3>
+  <entitydescription.clowndivingsuit3>Надає носієві силу клоуна, якщо вдягнутий разом із будь-яким клоунським шоломом або маскою.</entitydescription.clowndivingsuit3>
+  <entityname.clowndivingsuithelmet>Водолазний шолом (Клоун)</entityname.clowndivingsuithelmet>
+  <entitydescription.clowndivingsuithelmet>Надає носієві силу клоуна, якщо вдягнутий разом із будь-яким клоунським шоломом або маскою.</entitydescription.clowndivingsuithelmet>
+  <entityname.respawndivingsuithelmetpermanent>Водолазний шолом (Помаранчевий)</entityname.respawndivingsuithelmetpermanent>
+  <entityname.divingsuithelmet>Водолазний шолом</entityname.divingsuithelmet>
+  <entityname.abyssdivingsuithelmet>Водолазний шолом (Глибоководний)</entityname.abyssdivingsuithelmet>
+  <entityname.combatdivingsuithelmet>Водолазний шолом (Бойовий)</entityname.combatdivingsuithelmet>
+  <entityname.pucsdivingsuithelmet>Водолазний шолом (УЗСА)</entityname.pucsdivingsuithelmet>
+  <entityname.slipsuithelmet>Водолазний шолом (Гідроскафандр)</entityname.slipsuithelmet>
+  <entityname.utilityhardsuithelmet>Водолазний шолом (Функціональний)</entityname.utilityhardsuithelmet>
+  <entityname.oxygeardivingsuithelmet>Водолазний шолом (OxyGear)</entityname.oxygeardivingsuithelmet>
+  <entityname.anechoicdivingsuithelmet>Водолазний шолом (Ехозахисний)</entityname.anechoicdivingsuithelmet>
+  <entityname.earenegadedivingsuithelmet>Водолазний шолом (Ренегат)</entityname.earenegadedivingsuithelmet>
+  <entityname.eacombatdivingsuithelmet>Водолазний шолом (Коаліційний бойовий)</entityname.eacombatdivingsuithelmet>
+  <entityname.eainterceptordivingsuithelmet>Водолазний шолом (Перехоплювач)</entityname.eainterceptordivingsuithelmet>
+  <entityname.divingsuithelmet>Водолазний шолом</entityname.divingsuithelmet>
+  <entityname.botdivingsuithelmet>Водолазний шолом бота</entityname.botdivingsuithelmet>
+  <entityname.respawndivingsuithelmet>Одноразовий водолазний шолом</entityname.respawndivingsuithelmet>
+  <entityname.suitseal>Латка для скафандру</entityname.suitseal>
+  <entitydescription.suitseal>Латка необхідна для герметизації водолазного скафандра зі шоломом.</entitydescription.suitseal>
+  <entityname.suitvalveswitch>Перемикач клапана скафандра (ПКС)</entityname.suitvalveswitch>
+  <entitydescription.suitvalveswitch>Пристрій, що дозволяє перемикати стан клапана тиску водолазного скафандра. Корисний для герметизації або розгерметизації скафандру непритомної людини.</entitydescription.suitvalveswitch>
+</infotexts>

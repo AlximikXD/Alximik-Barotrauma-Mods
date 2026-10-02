@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- ITEMS -->
+  <entityname.cyberarm>Кіберрука</entityname.cyberarm>
+  <entitydescription.cyberarm>Рука, зроблена з металу та електроніки. Швидша й не кровоточить. Використовується після ампутації для встановлення.</entitydescription.cyberarm>
+  <entityname.cyberleg>Кібернога</entityname.cyberleg>
+  <entitydescription.cyberleg>Нога, зроблена з металу та електроніки. Швидша й не кровоточить. Використовується після ампутації для встановлення.</entitydescription.cyberleg>
+  <entityname.waterproofcyberarm>Водонепроникна кіберрука</entityname.waterproofcyberarm>
+  <entitydescription.waterproofcyberarm>Водонепроникна кіберрука, зроблена з металу та електроніки. Швидша й не кровоточить. Використовується після ампутації для встановлення.</entitydescription.waterproofcyberarm>
+  <entityname.waterproofcyberleg>Водонепроникна кібернога</entityname.waterproofcyberleg>
+  <entitydescription.waterproofcyberleg>Водонепроникна кібернога, зроблена з металу та електроніки. Швидша й не кровоточить. Використовується після ампутації для встановлення.</entitydescription.waterproofcyberleg>
+  <entityname.augmentedliver>Кіберпідсилена печінка</entityname.augmentedliver>
+  <entitydescription.augmentedliver>Частково синтетична печінка. Покращена система фільтрації крові, здатна виводити токсини та зміцнювати імунну систему. Готова до повторної імплантації.</entitydescription.augmentedliver>
+  <entityname.augmentedkidney>Кіберпідсилена нирка</entityname.augmentedkidney>
+  <entitydescription.augmentedkidney>Частково синтетична нирка. Покращує вироблення крові та згортання, змінюючи групу крові на C+ для сумісності з іншими кіберімплантами. Використовується після видалення оригінальної нирки для встановлення.</entitydescription.augmentedkidney>
+  <entityname.augmentedheart>Кіберпідсилене серце</entityname.augmentedheart>
+  <entitydescription.augmentedheart>Частково синтетичне серце. Покращує швидкість м’язових скорочень і нормалізує артеріальний тиск. Використовується після видалення оригінального серця для встановлення.</entitydescription.augmentedheart>
+  <entityname.augmentedlung>Кіберпідсилені легені</entityname.augmentedlung>
+  <entitydescription.augmentedlung>Частково синтетичний комплект легенів. Покращує швидкість м’язових скорочень, ємність для кисню, регулює дихання для балансування pH крові та забезпечує короткочасну стійкість до тиску. Використовується після видалення оригінальних легенів для встановлення.</entitydescription.augmentedlung>
+  <entityname.augmentedbrain>Кіберпідсилений імплант мозку</entityname.augmentedbrain>
+  <entitydescription.augmentedbrain>Нейронний чип-імплант для мозку. Покращує навички, сприяє відновленню після нейротравми і залежностей, усуває потребу в анальгезії під час операцій. Встановлюється в наявний мозок пацієнта.</entitydescription.augmentedbrain>
+  <entityname.cyberliver>Кіберпечінка</entityname.cyberliver>
+  <entitydescription.cyberliver>Повністю синтетична печінка. Передова система фільтрації крові, здатна виводити токсини та зміцнювати імунну систему. Готова до трансплантації.</entitydescription.cyberliver>
+  <entityname.cyberkidney>Кібернирка</entityname.cyberkidney>
+  <entitydescription.cyberkidney>Повністю синтетична нирка. Передова наносистема вироблення крові, що покращує кровотворення та згортання, змінює групу крові на C+ для сумісності з іншими кіберімплантатами. Використовується після видалення оригінальної нирки для встановлення.</entitydescription.cyberkidney>
+  <entityname.cyberheart>Кіберсерце</entityname.cyberheart>
+  <entitydescription.cyberheart>Повністю синтетичне серце. Передова система кровообігу, що покращує швидкість м’язових скорочень і нормалізує артеріальний тиск. Використовується після видалення оригінального серця для встановлення.</entitydescription.cyberheart>
+  <entityname.cyberlung>Кіберлегені</entityname.cyberlung>
+  <entitydescription.cyberlung>Повністю синтетичний комплект легенів. Передова дихальна система, що покращує швидкість м’язових скорочень, ємність для кисню, регулює дихання для балансування pH крові та забезпечує частковий захист від тиску. Використовується після видалення оригінальних легенів для встановлення.</entitydescription.cyberlung>
+  <entityname.cyberbrain>Позитронний кіберімплант мозку</entityname.cyberbrain>
+  <entitydescription.cyberbrain>Позитронний кіберімплант для мозку. Передовий комплект, який значно покращує навички, сприяє відновленню після нейротравми і залежностей, а також усуває потребу в анальгезії під час операції. Встановлюється у наявний мозок пацієнта.</entitydescription.cyberbrain>
+  <entityname.bloodpackabcplus>Контейнер із кров'ю C+</entityname.bloodpackabcplus>
+  <entitydescription.bloodpackabcplus>Можна переливати: C+</entitydescription.bloodpackabcplus>
+  <entityname.abcpluscard>Картка донора C+</entityname.abcpluscard>
+  <entitydescription.abcpluscard>Може отримувати кров будь-якої групи
+Може бути донором для: C+</entitydescription.abcpluscard>
+  <entityname.immunosuppressantinhaler>Інгалятор-імуноблокатор</entityname.immunosuppressantinhaler>
+  <entitydescription.immunosuppressantinhaler>Пригнічує імунну систему для зменшення кіберпсихозу, спричиненого надмірною кількістю кібернетичних імплантатів.</entitydescription.immunosuppressantinhaler>
+  <!-- AFFLICTIONS -->
+  <afflictionname.ntc_cyberlimb></afflictionname.ntc_cyberlimb>
+  <afflictiondescription.ntc_cyberlimb></afflictiondescription.ntc_cyberlimb>
+  <afflictionname.ntc_cyberarm>Кіберрука</afflictionname.ntc_cyberarm>
+  <afflictiondescription.ntc_cyberarm>Рука, зроблена з металу та електроніки.</afflictiondescription.ntc_cyberarm>
+  <afflictionname.ntc_cyberleg>Кібернога</afflictionname.ntc_cyberleg>
+  <afflictiondescription.ntc_cyberleg>Нога, зроблена з металу та електроніки.</afflictiondescription.ntc_cyberleg>
+  <afflictionname.ntc_waterproof>Водонепроникний</afflictionname.ntc_waterproof>
+  <afflictiondescription.ntc_waterproof>Кінцівка захищена від шкідливого впливу води.</afflictiondescription.ntc_waterproof>
+  <afflictionname.ntc_cyberlung_pressure_recovery>Герметизовані легені</afflictionname.ntc_cyberlung_pressure_recovery>
+  <afflictiondescription.ntc_cyberlung_pressure_recovery>Кіберлегені витримують сильний тиск, короткочасно запобігаючи їх розриву.</afflictiondescription.ntc_cyberlung_pressure_recovery>
+  <afflictiondescription.ntc_cyberlung_pressure_recovery.low>Кіберлегені витримали сильний тиск і наразі виконують процедури самовідновлення.</afflictiondescription.ntc_cyberlung_pressure_recovery.low>
+  <!-- Hidden Cyberpsychosis technical afflictions -->
+  <afflictionname.ntc_cyberpsychosis>Кіберпсихоз</afflictionname.ntc_cyberpsychosis>
+  <afflictiondescription.ntc_cyberpsychosis>Пацієнт страждає на кіберпсихоз — психічний розлад, спричинений надмірною кількістю кібернетичних імплантів.</afflictiondescription.ntc_cyberpsychosis>
+  <afflictionname.ntc_cyberpsychosis_resistance>Стійкість до кіберпсихозу</afflictionname.ntc_cyberpsychosis_resistance>
+  <afflictiondescription.ntc_cyberpsychosis_resistance>Пацієнт має стійкість до кіберпсихозу.</afflictiondescription.ntc_cyberpsychosis_resistance>
+  <afflictionname.ntc_loosescrews>Розхитані гвинти</afflictionname.ntc_loosescrews>
+  <afflictiondescription.ntc_loosescrews>Деякі гвинти виглядають так, ніби ось-ось випадуть. Під час руху кінцівкою чути глухий стукіт.</afflictiondescription.ntc_loosescrews>
+  <afflictionname.ntc_damagedelectronics>Пошкоджена електроніка</afflictionname.ntc_damagedelectronics>
+  <afflictiondescription.ntc_damagedelectronics>Кінцівка час від часу випускає іскри. Деякі підсистеми повідомляють про збої.</afflictiondescription.ntc_damagedelectronics>
+  <afflictionname.ntc_bentmetal>Зігнутий метал</afflictionname.ntc_bentmetal>
+  <afflictiondescription.ntc_bentmetal>Кінцівка згинається в небажаному напрямку.</afflictiondescription.ntc_bentmetal>
+  <afflictionname.ntc_materialloss>Втрата матеріалу</afflictionname.ntc_materialloss>
+  <afflictiondescription.ntc_materialloss>Деякі частини кінцівки відсутні.</afflictiondescription.ntc_materialloss>
+  <afflictionname.immunosuppressantinhaler>Інгальовані імунодепресанти</afflictionname.immunosuppressantinhaler>
+  <afflictiondescription.immunosuppressantinhaler></afflictiondescription.immunosuppressantinhaler>
+</infotexts>

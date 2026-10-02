@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <loadingscreentip>Інтенсивність відгуку активного сонара досить потужна, щоб скип’ятити воду навколо емітерів.</loadingscreentip>
+  <loadingscreentip>Рекомендується носити ехозахисний водолазний скафандр під час роботи навколо субмарини. Звичайний водолазний скафандр не захистить вас від активного сонара.</loadingscreentip>
+  <loadingscreentip>Активний сонар субмарини може досягти гучності 235 дБ, що приблизно в 724 разів голосніше, і в 3,16 мільярда разів інтенсивніше реактивного двигуна.</loadingscreentip>
+  <loadingscreentip>Звукові хвилі у воді долають в чотири рази довшу дистанцію. Низькочастотні звуки, на кшталт відгуків активного сонара навіть далі.</loadingscreentip>
+  <loadingscreentip>Коли звук поширюється від води до повітря, інтенсивність зменшується на 80 дБ (256x тихіше). У поєднанні з безеховим покриттям корпусу субмарини це захищає підводників від активного сонара.</loadingscreentip>
+  <loadingscreentip>Корпуси субмарин покриті ехозахисним покриттям, гумовими плитками, що містять тисячі мікропорожнин, розроблені для поглинання відгуків активного сонара та стишених звуків, що надходять зсередини судна.</loadingscreentip>
+  <loadingscreentip>На близькій відстані інтенсивності відгуку активного сонара достатньо, щоб розірвати органи та спричинити внутрішню кровотечю.</loadingscreentip>
+  <loadingscreentip>Переконайтесь, що жоден з ваших товаришів не знаходяться за межами субмарини, перш ніж увімкнути активний сонар.</loadingscreentip>
+  <loadingscreentip>Всередині субмарини екіпаж захищений від активного сонара. Однак цей захист зникає, як тільки корпус пробивається і вода потрапляє всередину.</loadingscreentip>
+  <loadingscreentip>Вимкніть активний сонар, якщо корпус пробито. Вашим інженерам буде важко усунути пробоїну, якщо їх барабанні перетинки розірвані.
+</loadingscreentip>
+  <loadingscreentip>Будьте обережні, пропливаючи біля підводного човна. Один сигнал сонара може спричинити втрату слуху, пошкодження тканин, а в екстремальних випадках — розриви органів і крововилив у мозок.</loadingscreentip>
+  <loadingscreentip>Рекомендується вдягнути ехозахисний водолазний скафандр під час активації маяків. Хоча і не такий потужний, як у субмарини, але сигнал сонара від маяка все одно може завдати серйозної шкоди.</loadingscreentip>
+  <loadingscreentip>Кортизид єдиний спосіб врятувати пацієнта від крововиливу в мозок, спричинений сонаром.</loadingscreentip>
+  <loadingscreentip>Екстракт манни може тимчасово зупинити прогресування крововиливу в мозок, спричинений сонаром. Після — єдиний варіант — кортизид.</loadingscreentip>
+  <loadingscreentip>Не рекомендується вводити екстракт манни, якщо в кровоносній системі пацієнта вже є його сліди.</loadingscreentip>
+  <loadingscreentip>Тримайтеся подалі від баластних відсіків, коли увімкнено сонар. Звукові хвилі легко поширюються заповненими водою трубами.</loadingscreentip>
+  <loadingscreentip>Якщо не лікувати ушкодження, спричинені вібраціями від активного сонара, це може призвести до ураження нервової системи та рабдоміолізу в уражених м’язах.</loadingscreentip>
+  <loadingscreentip>Коли субмарини стали способом життя в Європі, медицина досягла значного прогресу в лікуванні унікальних травм, пов’язаних із сонарами. Розумні трансплантати для ушкоджених органів, кортизид проти мозкових крововиливів та екстракт манни для відновлення тканин.</loadingscreentip>
+  <!-- Active sonar -->
+  <afflictionname.activesonar>Сонар субмарини</afflictionname.activesonar>
+  <!-- Beacon station sonar -->
+  <afflictionname.activesonarbeacon>Сонар маяка</afflictionname.activesonarbeacon>
+  <!-- Acoustic Trauma -->
+  <afflictionname.acoustictrauma>Акустична травма</afflictionname.acoustictrauma>
+  <afflictiondescription.acoustictrauma>Барабанні перетинки пацієнта розірвано, що спричиняє кровотечу та шум у вухах.</afflictiondescription.acoustictrauma>
+  <afflictiondescription.acoustictrauma.self>У вас дзвенить у вухах і йде кров, ви відчуваєте запаморочення та дезорієнтацію.</afflictiondescription.acoustictrauma.self>
+  <afflictioncauseofdeath.acoustictrauma>Отогенна смерть</afflictioncauseofdeath.acoustictrauma>
+  <afflictioncauseofdeathself.acoustictrauma>Ви померли від вушної кровотечі.</afflictioncauseofdeathself.acoustictrauma>
+  <!-- Vibration Damage -->
+  <afflictionname.vibrationdamage>Ушкодження від вібрацій</afflictionname.vibrationdamage>
+  <afflictiondescription.vibrationdamage>Пацієнт страждає від незначних ушкоджень кровоносної системи, спричиненої інтенсивними звуковими вібраціями.</afflictiondescription.vibrationdamage>
+  <afflictiondescription.vibrationdamage.medium>Пацієнт зазнав серйозних ушкодженнь артерій, нервів та м’язів.</afflictiondescription.vibrationdamage.medium>
+  <afflictiondescription.vibrationdamage.high>Нутрощі пацієнта важко пошкодженні. Артерії, нерви, м'язи та кістки розірвані на шмаття.</afflictiondescription.vibrationdamage.high>
+  <afflictiondescription.vibrationdamage.self>Ви відчуваєте гострий біль по всьому тілу. Шкіру поколює так, ніби у вас встромили голки.</afflictiondescription.vibrationdamage.self>
+  <afflictiondescription.vibrationdamage.medium.self>Ваші кінцівки оніміли, і ви відчуваєте гострі пронизливі болі по всьому тілу.</afflictiondescription.vibrationdamage.medium.self>
+  <afflictiondescription.vibrationdamage.high.self>Ви не відчуваєте своїх кінцівок. Все, що ви відчуваєте — це нестерпний біль, ніби кожна клітина вашого тіла розривається на частини.</afflictiondescription.vibrationdamage.high.self>
+  <afflictioncauseofdeath.vibrationdamage>Фатальні внутрішні ушкодження</afflictioncauseofdeath.vibrationdamage>
+  <afflictioncauseofdeathself.vibrationdamage>Ваші нутрощі були розірвані.</afflictioncauseofdeathself.vibrationdamage>
+  <!-- Nerve Damage -->
+  <afflictionname.nervedamage>Ушкодження нервової системи</afflictionname.nervedamage>
+  <afflictiondescription.nervedamage>Нервова система пацієнта була пошкоджена вібраціями. Рутинні задачі ускладненні.</afflictiondescription.nervedamage>
+  <afflictiondescription.nervedamage.self>Ваші руки оніміли, ваша незграбність змушує вас працювати менш ефективно.</afflictiondescription.nervedamage.self>
+  <!-- Rhabdomyolysis -->
+  <afflictionname.muscledamage>Рабдоміоліз</afflictionname.muscledamage>
+  <afflictiondescription.muscledamage>М’язи пацієнта почали руйнуватися, і їхній вміст потрапляє в кров.</afflictiondescription.muscledamage>
+  <afflictiondescription.muscledamage.high>Більшість м'язів пацієнта відмерла, небезпечна кількість білків потрапила в кров.</afflictiondescription.muscledamage.high>
+  <afflictiondescription.muscledamage.self>Ви відчуваєте млявість, ваші ноги набрякли та болять.</afflictiondescription.muscledamage.self>
+  <afflictiondescription.muscledamage.high.self>Ви відчуваєте слабкість у ногах. Ходити майже неможливо, біль нестерпний.</afflictiondescription.muscledamage.high.self>
+  <afflictioncauseofdeath.muscledamage>Уремія</afflictioncauseofdeath.muscledamage>
+  <afflictioncauseofdeathself.muscledamage>Ваші м’язи випустили смертельну кількість білків у кров.</afflictioncauseofdeathself.muscledamage>
+  <!-- Ruptured Lung -->
+  <afflictionname.rupturedlung>Розірвані легені</afflictionname.rupturedlung>
+  <afflictiondescription.rupturedlung>Легені пацієнта ушкоджені від вібрацій сонару.</afflictiondescription.rupturedlung>
+  <afflictiondescription.rupturedlung.high>Легені пацієнта були ушкоджені екстремальними вібраціями, що призвело до гіпоксемії та високої ймовірності асфіксії.</afflictiondescription.rupturedlung.high>
+  <afflictiondescription.rupturedlung.self>У ваших грудях різкий біль. Дихання ускладнене.</afflictiondescription.rupturedlung.self>
+  <afflictiondescription.rupturedlung.high.self>Ви ледве дихаєте та кашляєте кров'ю, кожен вдих супроводжуєтсья агонією.</afflictiondescription.rupturedlung.high.self>
+  <afflictioncauseofdeath.rupturedlung>Захлинувся у власній крові</afflictioncauseofdeath.rupturedlung>
+  <afflictioncauseofdeathself.rupturedlung>Ви захлинулися власною кров'ю через сильне ушкодження легенів.</afflictioncauseofdeathself.rupturedlung>
+  <!-- Brain Hemorrhage -->
+  <afflictionname.brainhemorrhage>Крововилив у мозок</afflictionname.brainhemorrhage>
+  <afflictiondescription.brainhemorrhage>Мозок пацієнта кровоточить від впливу активного сонара. Добре, що не стає гірше.</afflictiondescription.brainhemorrhage>
+  <afflictiondescription.brainhemorrhage.medium>Значна частина головного мозку пацієнта перетворилася на місиво. Мозок тоне у власній крові, і йому стає тільки гірше.</afflictiondescription.brainhemorrhage.medium>
+  <afflictiondescription.brainhemorrhage.high>Мозок пацієнта розплавився від впливу активного сонару.</afflictiondescription.brainhemorrhage.high>
+  <afflictiondescription.brainhemorrhage.self>Ваш зір розмитий, ваш розум у тумані.</afflictiondescription.brainhemorrhage.self>
+  <afflictiondescription.brainhemorrhage.medium.self>Ви не можете думати. Бачите спалахи і відчуваєте смак металу. Ви хочете кричати, але не можете. Ви втрачаєте контроль над моторними функціями, реальність повільно вислизає.</afflictiondescription.brainhemorrhage.medium.self>
+  <afflictioncauseofdeath.brainhemorrhage>Смерть мозку</afflictioncauseofdeath.brainhemorrhage>
+  <afflictioncauseofdeathself.brainhemorrhage>Ваш мозок розплавився під дією активного сонара.</afflictioncauseofdeathself.brainhemorrhage>
+  <!-- Manna Influence -->
+  <afflictionname.mannainfluence>Вплив манни</afflictionname.mannainfluence>
+  <afflictiondescription.mannainfluence>Ця кінцівка під цілющим впливом екстракту манни.</afflictiondescription.mannainfluence>
+  <afflictiondescription.mannainfluence.self>Ви відчуваєте ніжний тиск і приємне тепло під шкірою.</afflictiondescription.mannainfluence.self>
+  <!-- Manna Overdose -->
+  <afflictionname.mannaoverdose>Передозування манни</afflictionname.mannaoverdose>
+  <afflictiondescription.mannaoverdose>Організм пацієнта містить небезпечну кількість манни.</afflictiondescription.mannaoverdose>
+  <afflictiondescription.mannaoverdose.self>Ви відчуваєте себе фантастично.</afflictiondescription.mannaoverdose.self>
+  <afflictioncauseofdeath.mannaoverdose>Помер у екстазі</afflictioncauseofdeath.mannaoverdose>
+  <afflictioncauseofdeathself.mannaoverdose>Ви зробили це, ласкаво просимо на небо.</afflictioncauseofdeathself.mannaoverdose>
+  <!-- Photopsia -->
+  <afflictionname.photopsia>Фотопсія</afflictionname.photopsia>
+  <afflictiondescription.photopsia>Пацієнт переживає візуальні аномалії у вигляді мерехтливих вогнів та яскравих спалахів.</afflictiondescription.photopsia>
+  <afflictiondescription.photopsia.self>Здається, наче мерехтять вогники, ти бачиш це? Спалахи світла у твоєму периферійному зорі. Щось, безумовно, не так.</afflictiondescription.photopsia.self>
+  <!-- Ataxia -->
+  <afflictionname.ataxia>Атаксія</afflictionname.ataxia>
+  <afflictiondescription.ataxia>Мозочок пацієнта пошкоджений, що призводить до мимовільних м'язових спазмів та погіршеної координації.</afflictiondescription.ataxia>
+  <afflictiondescription.ataxia.self>Ваші м'язи, здається, живуть власним життям. Ви продовжуєте безвольно хитатися зі сторони в сторону, а коли намагаєтеся йти, то опиняєтеся там, звідки починали.</afflictiondescription.ataxia.self>
+  <!-- Aphasia -->
+  <afflictionname.aphasia>Афазія</afflictionname.aphasia>
+  <afflictiondescription.aphasia>Пацієнт отримав пошкодження ділянки мозку Брока, через що не здатний говорити зв'язно.</afflictiondescription.aphasia>
+  <afflictiondescription.aphasia.self>Ви не можете закінчити елементарні речення і відчуваєте надзвичайні труднощі з формуванням слів, іноді вдаючись до незв'язного бурмотіння.</afflictiondescription.aphasia.self>
+  <!-- Blindness -->
+  <afflictionname.opticneuritis>Неврит зорового нерва</afflictionname.opticneuritis>
+  <afflictiondescription.opticneuritis>Потилична частка пацієнта сильно пошкоджена, періодично сліпить і дезорієнтує пацієнта.</afflictiondescription.opticneuritis>
+  <afflictiondescription.opticneuritis.self>Ваш зір періодично затьмарюється. Це кінець?</afflictiondescription.opticneuritis.self>
+  <!-- Treatments -->
+  <entityname.manna>Екстракт манни</entityname.manna>
+  <entitydescription.manna>Чудодійна рідина, що поєднує людські гемоглобіни з інопланетною плазмою, що використовує природну стійкість та цілющі властивості підводних мешканців Європи. Використовується для лікування внутрішніх пошкоджень м'язової та нервової системи, а також здатна тимчасово зупинити крововилив у мозок. Слід зазначити, що повторне використання призводить до зменшення ефекту та ризику передозування.</entitydescription.manna>
+  <entityname.cortizide>Кортизид</entityname.cortizide>
+  <entitydescription.cortizide>Потужна суміш знеболюючих та ліків, що знижують тиск, з безліччю неприємних побічних ефектів. Зазвичай вводиться в череп як крайній засіб для лікування крововиливу в мозок.
+Попередження: Введення в середовище здорового мозку може спричинити небезпечне підвищення внутрішньочерепного тиску.</entitydescription.cortizide>
+  <entityname.smartgraft>Розумний трансплантат</entityname.smartgraft>
+  <entitydescription.smartgraft>Генетично виведена сполучна тканина, яка відтворює ДНК пацієнта для стимуляції регенерації складних анатомічних систем. Зазвичай використовується для відновлення розірваних органів.</entitydescription.smartgraft>
+  <!-- Items -->
+  <entityname.anechoicdivingsuit>Ехозахисний водолазний скафандр</entityname.anechoicdivingsuit>
+  <entitydescription.anechoicdivingsuit>Малопомітний, легкий водолазний скафандр, призначений для поглинання звукових хвиль активного сонара завдяки своєму звукопоглинаючому покриттю. Він забезпечує незначний захист від пошкоджень і може витримувати тиск на глибині до 6 000 метрів.</entitydescription.anechoicdivingsuit>
+  <entityname.navremote>Пульт від сонара</entityname.navremote>
+  <entitydescription.navremote>Ручний пристрій, який може бути використаний для віддаленого контролю сонара та двигунів субмарини.</entitydescription.navremote>
+  <!-- Menu -->
+  <realsonarsettings>Налаштування Real Sonar</realsonarsettings>
+  <volumesettings>Налаштування гучності</volumesettings>
+  <airpingvolume>Гучність сонара у приміщенні</airpingvolume>
+  <waterpingvolume>Гучність сонара у воді</waterpingvolume>
+  <suitpingvolume>Гучність сонара у костюмі</suitpingvolume>
+  <tinnitusvolume>Гучність дзвону у вухах</tinnitusvolume>
+  <distortionvolume>Гучність спотворень</distortionvolume>
+  <networksettings>Мережеві налаштування - Тільки на стороні клієнту (Потребує ввести "cl_reloadlua" в консолі)</networksettings>
+  <lowlatencymode>Low Latency режим (Експериментальний)</lowlatencymode>
+  <lowlatencymodetooltip>Усуває затримку, спричинену високим пінгом до сервера. Може спричинити візуальні баги або десинхронізацію, якщо сервер має відмінні параметри конфігурації.</lowlatencymodetooltip>
+  <gameplaysettingsserver>Налаштування ігроладу - Тільки для хосту</gameplaysettingsserver>
+  <gameplaysettingsclient>Налаштування ігроладу</gameplaysettingsclient>
+  <sonarrange>Дальність сонара (Тільки для одиночного режиму)</sonarrange>
+  <sonardamage>Ушкодження від сонара (Нелінійне)</sonardamage>
+  <submarinesonar>Сонар субмарини</submarinesonar>
+  <submarinesonartooltip>Увімкнути для Навігаційних терміналів.</submarinesonartooltip>
+  <beaconsonar>Сонар маяка</beaconsonar>
+  <beaconsonartooltip>Увімкнути для Моніторів сонара.</beaconsonartooltip>
+  <shuttlesonar>Сонар човника</shuttlesonar>
+  <shuttlesonartooltip>Увімкнути для сонара човника.</shuttlesonartooltip>
+  <enemysonar>Ворожий сонар</enemysonar>
+  <enemysonartooltip>Увімкнути звук сонара для субмарин, підконтрольних НІП-ами.</enemysonartooltip>
+  <customsonar>Модифікований сонар</customsonar>
+  <customsonartooltip>Увімкнути для модифікованих сонарів. Вимкнення може покращити стабільність.</customsonartooltip>
+  <targetcreatures>Ушкодження істотам</targetcreatures>
+  <targetcreaturestooltip>Увімкнути ушкодження для всіх нелюдських істот.</targetcreaturestooltip>
+  <targetplayers>Ушкодження гравцям</targetplayers>
+  <targetplayerstooltip>Увімкнути ушкодження гравцям.</targetplayerstooltip>
+  <targetbots>Ушкодження ботам</targetbots>
+  <targetbotstooltip>Увімкнути ушкодження ботам.</targetbotstooltip>
+  <creaturehulldetection>Виявлення корпусу істотами</creaturehulldetection>
+  <creaturehulldetectiontooltip>Точне виявлення влучань сонара для істот. Вимкнення може покращити стабільність.</creaturehulldetectiontooltip>
+  <humanhulldetection>Виявлення корпусу людьми</humanhulldetection>
+  <humanhulldetectiontooltip>Точне виявлення влучень сонара для людей. Тобто, ви хочете, щоб люди були захищені в баластних цистернах?</humanhulldetectiontooltip>
+  <impactvisuals>Візуальний ефект імпульсу сонара</impactvisuals>
+  <sonarslow>Штраф швидкісті руху від сонара</sonarslow>
+  <defaultfx>Інші візуальні ефекти (Крововилив у мозок, кортизид, і т.д.):\nСтандарт</defaultfx>
+  <lowfx>Інші візуальні ефекти (Крововилив у мозок, кортизид, і т.д.):\nЗменшено</lowfx>
+  <nofx>Інші візуальні ефекти (Крововилив у мозок, кортизид, і т.д.):\nВимкнено</nofx>
+  <ignoredplayers>Ігнорувати імена гравців</ignoredplayers>
+  <ignoredcharacters>Ігнорувати ID персонажів</ignoredcharacters>
+  <wearableprotections>Опір водолазного костюма</wearableprotections>
+  <sonarterminals>Термінали сонара</sonarterminals>
+  <requirescustomsonar>(Потребує увімкнення "Модифікований сонар")</requirescustomsonar>
+  <resetdefault>Перезавантаження</resetdefault>
+  <resetalldefault>Перезавантажити все</resetalldefault>
+  <invalidinput>Помилкове введення</invalidinput>
+  <close>Закрити</close>
+  <!-- Dialogue -->
+  <dialoggetanechoicsuit>Мені потрібний ехозахисний водолазний скафандр!</dialoggetanechoicsuit>
+  <dialoggetanechoicsuit>Мені потрібний ехозахисний водолазний скафандр, щоб провести ремонт із увімкненим сонаром!</dialoggetanechoicsuit>
+  <dialoggetanechoicsuit>Я маю знайти ехозахисний водолазний скафандр!</dialoggetanechoicsuit>
+  <dialogcantfindanechoicsuit>Я не можу знайти ехозахисний водолазний скафандр! Вимкніть сонар!</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>Немає ехозахисних водолазних скафандр! Я туди не піду!</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>Я не піду туди, поки не вимкнуть сонар!</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>У мене немає захисту! Вимкніть сонар!</dialogcantfindanechoicsuit>
+  <dialogcantfindanechoicsuit>Я не можу проводити ремонт, поки сонар працює!</dialogcantfindanechoicsuit>
+  <dialogturnoffsonar>Вимкніть сонар!</dialogturnoffsonar>
+  <dialogturnoffsonar>У мене кров із вух йде від цього клятого сонара!</dialogturnoffsonar>
+  <dialogturnoffsonar>Вирубіть сонар!</dialogturnoffsonar>
+  <dialogturnoffsonar>Я потрапив під сонар!</dialogturnoffsonar>
+  <dialogturnoffsonar>Господи, цей сонар такий гучний!</dialogturnoffsonar>
+  <dialogturnoffsonar>Я у воді, вимкніть сонар!</dialogturnoffsonar>
+  <dialogturnoffsonar>Боже, вимкніть сонар!</dialogturnoffsonar>
+  <dialogturnoffsonar>Хто-небудь, вимкніть сонар!</dialogturnoffsonar>
+</infotexts>

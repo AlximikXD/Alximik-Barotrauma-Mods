@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Display Names -->
+  <displayname.uraniumbased>[itemname] (Уран)</displayname.uraniumbased>
+  <displayname.thoriumbased>[itemname] (Торій)</displayname.thoriumbased>
+  <displayname.fulguriumbased>[itemname] (Фульгурій)</displayname.fulguriumbased>
+  <displayname.volatilefulguriumbased>[itemname] (Нестабільний Фульгурій)</displayname.volatilefulguriumbased>
+  <!-- Items -->
+  <entityname.deconshower>Дезактиваційний душ</entityname.deconshower>
+  <entitydescription.deconshower>Проводить дезактивацію радіоактивних речовин із тіла користувача та автоматично вимикається після повного очищення. Для дезактивації потрібен деконроз.</entitydescription.deconshower>
+  <entityname.hazmatsuit1>Хімзахисний комбінезон</entityname.hazmatsuit1>
+  <entitydescription.hazmatsuit1>- Обов’язкове спорядження під час роботи з паливними стрижнями.\n- Потребує кисневого балона.\n- Не захищає від тиску.</entitydescription.hazmatsuit1>
+  <entityname.hazmatsuit2>Хімзахисний скафандр</entityname.hazmatsuit2>
+  <entitydescription.hazmatsuit2>Модифікований хімзахисний комбінезон. 
+Його адаптовано для захисту від гідростатичного тиску на глибині до 6600 метрів, проте це знизило ефективність радіаційного захисту.</entitydescription.hazmatsuit2>
+  <entityname.fuelrodtongs>Щипці для паливних стрижнів</entityname.fuelrodtongs>
+  <entitydescription.fuelrodtongs>Необхідні для переміщення активних паливних стрижнів без ризику обпекти руки. Можуть зберігатися в ременю для інструментів.</entitydescription.fuelrodtongs>
+  <entityname.geigercounter>Лічильник Гейгера</entityname.geigercounter>
+  <entitydescription.geigercounter>Дозволяє виявляти радіацію. Може використовуватися на персонажах.</entitydescription.geigercounter>
+  <entityname.fuelrodcrate>Ящик для паливних стрижнів</entityname.fuelrodcrate>
+  <entitydescription.fuelrodcrate>Безпечно зберігає до 8 паливних стрижнів і запобігає їхньому випромінюванню в навколишнє середовище.</entitydescription.fuelrodcrate>
+  <entityname.fuelrodcrateshelf>Стелаж для ящиків із паливними стрижнями</entityname.fuelrodcrateshelf>
+  <entitydescription.fuelrodcrateshelf>Може вміщувати до 2 ящиків із паливними стрижнями.</entitydescription.fuelrodcrateshelf>
+  <entityname.potassiumiodidetablets>Таблетки йодиду калію</entityname.potassiumiodidetablets>
+  <entitydescription.potassiumiodidetablets>Захист від радіації, корисний як запобіжний захід у разі безпосередньої небезпеки низького рівня радіації. Зменшує низький рівень опромінення.</entitydescription.potassiumiodidetablets>
+  <entityname.activatedcarbontablets>Таблетки активованого вугілля</entityname.activatedcarbontablets>
+  <entitydescription.activatedcarbontablets>Використовується для лікування незначного отруєння та радіації. Неефективний проти опромінення. Надмірне вживання може бути шкідливим.</entitydescription.activatedcarbontablets>
+  <entityname.radioactivematcrate>Ящик із радіоактивними матеріалами</entityname.radioactivematcrate>
+  <entitydescription.radioactivematcrate>Може безпечно зберігати до 9 стосів радіоактивної руди або мінералів.</entitydescription.radioactivematcrate>
+  <entityname.radioactivematcontainer>Контейнер для радіоактивних матеріалів</entityname.radioactivematcontainer>
+  <entitydescription.radioactivematcontainer>Може безпечно зберігати до 6 стосів радіоактивних мінералів.</entitydescription.radioactivematcontainer>
+  <entityname.nuclearcartridge>Ядерний картридж</entityname.nuclearcartridge>
+  <entitydescription.nuclearcartridge>Магазин для ядерної зброї.</entitydescription.nuclearcartridge>
+  <entityname.deconsoltank>Деконроз</entityname.deconsoltank>
+  <entitydescription.deconsoltank>Розчин для деактивації радіоактивних речовин. Потрібно розпилити на опромінену людину за допомогою розпилювача.</entitydescription.deconsoltank>
+  <entityname.emptyfuelrod>Порожній паливний стрижень</entityname.emptyfuelrod>
+  <entitydescription.emptyfuelrod>Порожній паливний стрижень. Він все ще випромінює помітне тепло та радіацію.</entitydescription.emptyfuelrod>
+  <!-- Afflictions -->
+  <afflictionname.radiationresistance>Стійкість до радіації</afflictionname.radiationresistance>
+  <afflictiondescription.radiationresistance>Ви маєте підвищену стійкість до радіації, але не є до неї імунними!</afflictiondescription.radiationresistance>
+  <afflictiondescription.radiationresistance.others>Пацієнт має достатньо високий рівень стійкості до радіації.</afflictiondescription.radiationresistance.others>
+  <afflictionname.contaminated>Опромінений</afflictionname.contaminated>
+  <afflictiondescription.contaminated>Пацієнт поступово випромінює радіацію в навколишнє середовище. Краще лікувати це якнайшвидше.</afflictiondescription.contaminated>
+  <afflictiondescription.contaminated.high>Пацієнт сильно опромінений і становить серйозну загрозу для здоров’я інших. Рекомендується обережність під час лікування!</afflictiondescription.contaminated.high>
+  <afflictioncauseofdeath.contaminated>Помер від променевої хвороби.
+
+
+
+
+
+
+</afflictioncauseofdeath.contaminated>
+  <afflictioncauseofdeathself.contaminated>Ви померли від променевої хвороби.</afflictioncauseofdeathself.contaminated>
+  <afflictionname.overheating>Ризик теплового удару</afflictionname.overheating>
+  <afflictiondescription.overheating.self>Ви пітнієте. Навколишнє повітря надто спекотне. Краще не затримуватись тут надто довго!</afflictiondescription.overheating.self>
+  <afflictiondescription.overheating>Пацієнт сильно пітніє! Йому варто покинути цю зону та трохи охолонути.</afflictiondescription.overheating>
+  <afflictioncauseofdeath.overheating>Згорів заживо.</afflictioncauseofdeath.overheating>
+  <afflictioncauseofdeathself.overheating>Ви згоріли заживо.</afflictioncauseofdeathself.overheating>
+</infotexts>

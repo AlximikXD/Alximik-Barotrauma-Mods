@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" noWhitespace="false" translatedName="Українська">
+  <enhancedimmersion.camera>Масштаб камери</enhancedimmersion.camera>
+  <enhancedimmersion.camera.description>Наскільки камера гравця має бути наближена.\nВстановіть 0, щоб вимкнути.</enhancedimmersion.camera.description>
+  <enhancedimmersion.periscope>Зміщення перископа</enhancedimmersion.periscope>
+  <enhancedimmersion.periscope.description>Наскільки має віддалятись зображення при керуванні через перископ.\n
+Впливає на турелі, прожектори, камери тощо.\nВстановіть 0, щоб вимкнути.</enhancedimmersion.periscope.description>
+  <enhancedimmersion.aiming>Зміщення прицілу</enhancedimmersion.aiming>
+  <enhancedimmersion.aiming.description>Наскільки має зміщуватися камера під час прицілювання.\n
+Впливає на зброю ближнього бою, вогнепальну зброю та гранати.\n
+Встановіть 0, щоб вимкнути.</enhancedimmersion.aiming.description>
+  <enhancedimmersion.sync>Синхронізація з іншими гравцями</enhancedimmersion.sync>
+  <enhancedimmersion.sync.description>Якщо ввімкнено — усі під’єднані гравці використовуватимуть однакові налаштування масштабування.\n
+Вимкніть, щоб дозволити гравцям використовувати власні налаштування.</enhancedimmersion.sync.description>
+  <enhancedimmersion.sync.enabled>Неможливо змінити — синхронізовано із сервером.</enhancedimmersion.sync.enabled>
+  <enhancedimmersion.incompatibility.nteyes>Неможливо змінити — несумісно з NT Eyes.</enhancedimmersion.incompatibility.nteyes>
+  <entityname.enterable_doora>Вхідні двері</entityname.enterable_doora>
+  <entityname.enterable_doorb>Вхід до карцеру</entityname.enterable_doorb>
+  <entityname.enterable_doorc>Вхід до печери</entityname.enterable_doorc>
+  <entityname.enterable_vent>Вентиляційний отвір</entityname.enterable_vent>
+</infotexts>

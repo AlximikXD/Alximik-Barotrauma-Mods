@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <entityname.ammopack>Контейнер для боєприпасів</entityname.ammopack>
+  <entitydescription.ammopack>Контейнер, в якому легко зберігати боєприпаси.</entitydescription.ammopack>
+  <entityname.backpack1>Рюкзак</entityname.backpack1>
+  <entitydescription.backpack1>Щоб звільнити руки і нагрузити спину.</entitydescription.backpack1>
+  <entityname.minigun1>Мініган</entityname.minigun1>
+  <entitydescription.minigun1>Для фахівців із великих гармат. Щоб перезарядити цього монстра вам треба помістити його в ящик для боєприпасів мінігана. (Нотатка: як тільки мініган буде повний, швидко його дістаньте, автор моду ще не завершив над ним роботу).</entitydescription.minigun1>
+  <entityname.minigunammunitiontank>Ящик для боєприпасів мінігана</entityname.minigunammunitiontank>
+  <entitydescription.minigunammunitiontank>Великий ящик патронів навішений на броню, щоб втамувати величезний апетит мінігана.</entitydescription.minigunammunitiontank>
+  <entityname.ddossuit>Скафандр для глибокого занурення</entityname.ddossuit>
+  <entitydescription.ddossuit>Водолазний скафандр, який використовують елітні загони дайверів. З вбудованим скутером, який живиться від акумулятора, рюкзаком, компактним місцем для зберігання предметів і загартованими тиско-стійкими плитами для повного захисту платоспроможного носія...  Треба повністю роздягнутись, щоб надягти його.</entitydescription.ddossuit>
+  <entityname.heavybackpack>Важкий рюкзак</entityname.heavybackpack>
+  <entitydescription.heavybackpack>Великий рюкзак, який використовують для легшого перенесення важкого обладнання. Має змогу переносити ящики набоїв, снаряди для рейкотрона та інопланетні артефакти.</entitydescription.heavybackpack>
+  <entityname.heavycrate>Важкий ящик</entityname.heavycrate>
+  <entitydescription.heavycrate>Важкий переносний ящик, який використовується для зберігання ящиків набоїв, снарядів для рейоктрона, водолазних скафандрів і навіть інопланетних артефактів. Ящик вас сповільнуює, але є чудовим способом переміщувати великі предмети.</entitydescription.heavycrate>
+  <entityname.medicalbackpack>Медичний рюкзак</entityname.medicalbackpack>
+  <entitydescription.medicalbackpack>Для переміщення медикаментів і медичних матеріалів.</entitydescription.medicalbackpack>
+  <entityname.medipack>Аптечка</entityname.medipack>
+  <entitydescription.medipack>Контейнер для легшого переміщення медикаментів.</entitydescription.medipack>
+  <entityname.oxy-genbackpack>Кисневий рюкзак</entityname.oxy-genbackpack>
+  <entitydescription.oxy-genbackpack>Портативний генератор кисню зменшений до розмірів рюкзаку, дозволяє носію дихати під водою та наповнювати кисневі балони.</entitydescription.oxy-genbackpack>
+  <entityname.power-backpack>Рюкзак-акумулятор</entityname.power-backpack>
+  <entitydescription.power-backpack>Рюкзак із лампою та зарядною станцією для тривалих експедицій з додатковими кишенями.</entitydescription.power-backpack>
+  <entityname.shieldbackpack>Щитовий рюкзак</entityname.shieldbackpack>
+  <entitydescription.shieldbackpack>Революційний пристрій, який дозволяє зменшити шкоду, що отримує власник в залежності від типу батареї, яка його живить. Дехто навіть живить його якимось інопланетним джерелом енергії...</entitydescription.shieldbackpack>
+  <entityname.tacticalbodyarmor>Тактична броня</entityname.tacticalbodyarmor>
+  <entitydescription.tacticalbodyarmor>По суті, це бронежилет з бандольєром на ньому. Це просто працює.</entitydescription.tacticalbodyarmor>
+  <entityname.techno-backpack>Технологічний рюкзак</entityname.techno-backpack>
+  <entitydescription.techno-backpack>Корисний рюкзак, що дозволяє відстежувати стан підводного човна, а також теплову сигнатуру кожної форми життя навколо. (І, звісно ж, він не вибухне (сподіваюсь))</entitydescription.techno-backpack>
+  <entityname.xeno-backpack>Інопланетний рюкзак</entityname.xeno-backpack>
+  <entitydescription.xeno-backpack>Дивний пристрій, створений з різноманітних незрозумілих інопланетних матеріалів, що нагадує рюкзак, який можна носити. Звичайно, він не може вмістити в себе багато речей, але, використовуючи кров свого власника, може, рематеріалізувати різні види спорядження, а також пригнічувати психоз.</entitydescription.xeno-backpack>
+</infotexts>

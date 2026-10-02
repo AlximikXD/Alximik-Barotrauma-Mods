@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- When adding new text, do it so at the bottom under the 'New values' & 'Modified values' sections. If it's a new tag entirely, put it under the new additions one; If it's an update to an existing value, put it under the changed values one. -->
+  <!-- DO NOT EDIT EXISTING TAGS FOR ALREADY TRANSLATED LINES -> if you need a new tag for something, add it under the 'New values' header and comment if there's some other tag that should be replaced -->
+  <!-- ****************************************************************************************************************************************************** -->
+  <!-- Modified values for the Winter Update 2025 -->
+  <!-- ****************************************************************************************************************************************************** -->
+  <entityname.medicalcompartment>Контейнер для зберігання</entityname.medicalcompartment>
+  <afflictiondescription.tastytarget>Зменшує шкоду, але робить вас більш привабливими для ворогів.</afflictiondescription.tastytarget>
+  <!-- Editor Texts -->
+  <sp.lightcomponent.pulseamount.description>Скільки світла пульсує. 0 = зовсім не пульсує, 1 = чергується між повною яскравістю та вимкненням.</sp.lightcomponent.pulseamount.description>
+  <!-- ****************************************************************************************************************************************************** -->
+  <!-- New values for the Winter Update 2025 -->
+  <!-- ****************************************************************************************************************************************************** -->
+  <sp.item.ImpactTolerance.name>Ударостійкість</sp.item.ImpactTolerance.name>
+  <sp.item.ImpactTolerance.description>Який рівень удару необхідний, щоб предмет отримав пошкодження від удару або активував ефекти OnImpact?</sp.item.ImpactTolerance.description>
+  <sp.item.ImpactDamage.name>Пошкодження від удару</sp.item.ImpactDamage.name>
+  <sp.item.ImpactDamage.description>Кількість шкоди, яку предмет отримує від ударів. Діє як множник сили удару. Зверніть увагу, що стійкість до ударів повинна бути більшою за 0, щоб удари реєструвалися.</sp.item.ImpactDamage.description>
+  <sp.item.ImpactDamageProbability.name>Імовірність пошкодження від удару</sp.item.ImpactDamageProbability.name>
+  <sp.item.ImpactDamageProbability.description>Імовірність реєстрації ударів. Зверніть увагу, що для реєстрації ударів толерантність до ударів повинна бути більшою за 0.</sp.item.ImpactDamageProbability.description>
+  <!-- New values fix/server-settings-resetting -->
+  <ServerMessage.UnknownClient>Невідомий клієнт приєднується</ServerMessage.UnknownClient>
+  <DoSProtectionBanned>Заблоковано за неодноразове уповільнення роботи сервера.</DoSProtectionBanned>
+  <submarine.name.wallaby>Валлабі</submarine.name.wallaby>
+  <submarine.description.wallaby>Wallaby — це компактний підводний човен "Атакуючого" класу, який може похвалитися несподівано високою вогневою потужністю для свого розміру, а також має повний набір виробничих потужностей. Рішення вмістити все це обладнання в невеликий корпус має свою ціну: управління незручним сплетінням силових кабелів і водопровідних труб у тісних відсіках технічного обслуговування може бути складним завданням.</submarine.description.wallaby>
+  <entityname.wallpipeweakpoint>Слабке місце настінної труби</entityname.wallpipeweakpoint>
+  <entitydescription.wallpipeweakpoint>Слабке місце в системі трубопроводів. Удар (зіткнення з місцевістю або таран підводним човном чи істотою) може пошкодити або зламати їх, що призведе до затоплення. Потрібно прикріпити до стіни — пошкодження стіни призведе до протікання цього слабкого місця.</entitydescription.wallpipeweakpoint>
+  <entityname.y_wallwpipes>Велика вертикальна внутрішня стіна з трубами</entityname.y_wallwpipes>
+</infotexts>

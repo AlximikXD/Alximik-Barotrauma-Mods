@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- a template file for translations; this file is never actually read by the mod -->
+  <!-- Coalition -->
+  <entityname.frogsmilitaryassaultrifle>Військова штурмова гвинтівка</entityname.frogsmilitaryassaultrifle>
+  <entitydescription.frogsmilitaryassaultrifle>Створено Коаліцією проти саморобних стволів сеператистів.</entitydescription.frogsmilitaryassaultrifle>
+  <entityname.frogsderringer>Кишенькова гармата</entityname.frogsderringer>
+  <entitydescription.frogsderringer>Найкраще місце для неї – у капітанській кишені.</entitydescription.frogsderringer>
+  <entityname.frogsrhinounique>Ріно</entityname.frogsrhinounique>
+  <entitydescription.frogsrhinounique>Використовує набої для дробовика.</entitydescription.frogsrhinounique>
+  <entityname.frogsviperunique>Субкомпактний Вайпер</entityname.frogsviperunique>
+  <entitydescription.frogsviperunique>Бійся змії.</entitydescription.frogsviperunique>
+  <entityname.frogssingleactionrevolver>Антикварний револьвер</entityname.frogssingleactionrevolver>
+  <entitydescription.frogssingleactionrevolver>Старий земний револьвер.</entitydescription.frogssingleactionrevolver>
+  <entityname.frogsbiggamehunter>Великокаліберна гвинтівка</entityname.frogsbiggamehunter>
+  <entitydescription.frogsbiggamehunter>Для вбивства найбільших істот.</entitydescription.frogsbiggamehunter>
+  <entityname.frogsbiggameround>Великокаліберний патрон</entityname.frogsbiggameround>
+  <entitydescription.frogsbiggameround>Величезний і рідкісний.</entitydescription.frogsbiggameround>
+  <entityname.frogslongdivingknife>Ніж для молоха</entityname.frogslongdivingknife>
+  <entitydescription.frogslongdivingknife>Велике зубчасте лезо, призначене для прорізання жорстких панцерів.</entitydescription.frogslongdivingknife>
+  <entityname.frogsburstsyringegun>Швидко-мед</entityname.frogsburstsyringegun>
+  <entitydescription.frogsburstsyringegun>Патент на розгляд.</entitydescription.frogsburstsyringegun>
+  <entityname.frogsparalyzantsprayer>Паралізуючий спрей</entityname.frogsparalyzantsprayer>
+  <entitydescription.frogsparalyzantsprayer>Суміш морської води та палива для зварювального апарату, що діє як швидкодіючий анестетик.</entitydescription.frogsparalyzantsprayer>
+  <!-- Separatist -->
+  <entityname.frogsbullpupassaultrifle>Влучний Буллпап</entityname.frogsbullpupassaultrifle>
+  <entitydescription.frogsbullpupassaultrifle>Неймовірно точний.</entitydescription.frogsbullpupassaultrifle>
+  <entityname.frogssmallboreunique>Свинцевий Молотар</entityname.frogssmallboreunique>
+  <entitydescription.frogssmallboreunique>Прототипна штурмова гвинтівка із стрічковою подачею й стволом під .38 калібр.</entitydescription.frogssmallboreunique>
+  <entityname.frogssnubnosehandcannon>Імператор</entityname.frogssnubnosehandcannon>
+  <entitydescription.frogssnubnosehandcannon>Вприскує невелику кількість бензину при натисканні на спусковий гачок для надання кулі більшої швидкості.</entitydescription.frogssnubnosehandcannon>
+  <entityname.frogscompactautoshotgun>Магнітний автоматичний дробовик</entityname.frogscompactautoshotgun>
+  <entitydescription.frogscompactautoshotgun>Розроблений для швидкого заряджання великої кількості патронів під час перестрілки.</entitydescription.frogscompactautoshotgun>
+  <entityname.frogspirahna>Пістолет-кулемет "Піранья"</entityname.frogspirahna>
+  <entitydescription.frogspirahna>Серійний номер стертий.</entitydescription.frogspirahna>
+  <entityname.frogsheavynucleargun>Важкий прискорювач частинок</entityname.frogsheavynucleargun>
+  <entitydescription.frogsheavynucleargun>Результат секретного дослідження.</entitydescription.frogsheavynucleargun>
+  <entityname.frogspiezogun>Експериментальна п'єзогармата</entityname.frogspiezogun>
+  <entitydescription.frogspiezogun>Невідомо як напруга зберігається в уламку кристала.</entitydescription.frogspiezogun>
+  <entityname.frogsnuclear40mmgrenade>Мініатюрна ядерна бомба</entityname.frogsnuclear40mmgrenade>
+  <entitydescription.frogsnuclear40mmgrenade>Гравіювання на гільзі: 'УДАЧІ'.</entitydescription.frogsnuclear40mmgrenade>
+  <entityname.frogskatana>Катана</entityname.frogskatana>
+  <entitydescription.frogskatana>Видається визначним діячам Коаліції.</entitydescription.frogskatana>
+  <!-- Husk -->
+  <entityname.frogswatcherseye>Око наглядача</entityname.frogswatcherseye>
+  <entitydescription.frogswatcherseye>Здавлювання боків досі може давати відчуття нудоти.</entitydescription.frogswatcherseye>
+  <entityname.frogshusksprayer>Прилад зараження</entityname.frogshusksprayer>
+  <entitydescription.frogshusksprayer>Використовувався для популяризації 'віри' серед станцій Коаліції.</entitydescription.frogshusksprayer>
+  <entityname.frogsinfusedhuskstinger>Дарувач</entityname.frogsinfusedhuskstinger>
+  <entitydescription.frogsinfusedhuskstinger>Повний яєць.</entitydescription.frogsinfusedhuskstinger>
+  <!-- Clown -->
+  <entityname.frogshandheldgrenadelauncher>Весела трубка</entityname.frogshandheldgrenadelauncher>
+  <entitydescription.frogshandheldgrenadelauncher>Вціль йому в ніс!</entitydescription.frogshandheldgrenadelauncher>
+  <entityname.frogsbrasshammer>Кувалда матері клаксонів</entityname.frogsbrasshammer>
+  <entitydescription.frogsbrasshammer>Чиста латунь. Використовувалась для покарання нечемних клоунів.</entitydescription.frogsbrasshammer>
+  <entityname.frogspyschoknife>Шматувальник</entityname.frogspyschoknife>
+  <entitydescription.frogspyschoknife>Ніж, названий на честь давно загиблого садомазо-клоуна.</entitydescription.frogspyschoknife>
+  <entityname.frogsclowndetonator>Вихід веселуна</entityname.frogsclowndetonator>
+  <entitydescription.frogsclowndetonator>Останній винахід веселуна.</entitydescription.frogsclowndetonator>
+  <!-- valuables -->
+  <entityname.frogsgoldenstatue>Статуя з чистого золота</entityname.frogsgoldenstatue>
+  <entitydescription.frogsgoldenstatue>Один із найрідкісніших матеріалів на супутнику.</entitydescription.frogsgoldenstatue>
+  <!-- v1.1 -->
+  <!-- Coalition -->
+  <entityname.frogsniperrifle>Мабуґурен</entityname.frogsniperrifle>
+  <entitydescription.frogsniperrifle>Має передовий ствол, що зберігає швидкість кулі. Названий в честь його винахідника.</entitydescription.frogsniperrifle>
+  <entityname.frogsshockriotshield>Шоковий щит</entityname.frogsshockriotshield>
+  <entitydescription.frogsshockriotshield>Має невелику розрядну котушку для стримування.</entitydescription.frogsshockriotshield>
+  <entityname.frogshandheldPDA>Усе-й-одразу</entityname.frogshandheldPDA>
+  <entitydescription.frogshandheldPDA>Висвітлює усю інформацію про субмарину.</entitydescription.frogshandheldPDA>
+  <entityname.frogsracingscooter>Персоналізована "Акула"</entityname.frogsracingscooter>
+  <entitydescription.frogsracingscooter>Використовує двигун внутрішнього згоряння для збільшення рушійної сили.</entitydescription.frogsracingscooter>
+  <!-- Separatist -->
+  <entityname.frogshadessmg>Аїдова лінза</entityname.frogshadessmg>
+  <entitydescription.frogshadessmg>Диявольський погляд розкриває все.</entitydescription.frogshadessmg>
+  <entityname.frogsincendiumflamer>Інцендієнатор</entityname.frogsincendiumflamer>
+  <entitydescription.frogsincendiumflamer>Споживає паливні балони з інцендієвого кристалу.</entitydescription.frogsincendiumflamer>
+  <entityname.frogssteadyhmg>Молотоголовий</entityname.frogssteadyhmg>
+  <entitydescription.frogssteadyhmg>Розфарбований щоб нагадувати істоту в честь якої названий.</entitydescription.frogssteadyhmg>
+  <entityname.frogsstabbingknife>Тигряче ікло</entityname.frogsstabbingknife>
+  <entitydescription.frogsstabbingknife>Короткий ніж, народженний для заколювання і готовий до надирання дуп. Був у власності сумнозвісного сепаратиста.</entitydescription.frogsstabbingknife>
+  <entityname.frogsacidicdivingknife>Хімічна межа</entityname.frogsacidicdivingknife>
+  <entitydescription.frogsacidicdivingknife>Не дуже гострий, але має капсулу з кислотою, яка вивільняється при ударі і спричиняє вразливість та хімічні опіки.</entitydescription.frogsacidicdivingknife>
+  <entityname.frogsbuzzsaw>Подрібнювач</entityname.frogsbuzzsaw>
+  <entitydescription.frogsbuzzsaw>Зменшений гірничий інструмент, що став занадто небезпечним для використання по призначенню.</entitydescription.frogsbuzzsaw>
+  <entityname.frogsbigscrapcannon>Антикварна гармата</entityname.frogsbigscrapcannon>
+  <entitydescription.frogsbigscrapcannon>Історичний артефакт із Землі. Спалахувальний порошок є чудовим запалювачем.</entitydescription.frogsbigscrapcannon>
+  <entityname.frogscannonball>Гарматне ядро</entityname.frogscannonball>
+  <entitydescription.frogscannonball>Тепер моряки Європи теж почнуть боятися літаючих чавунних ядер.</entitydescription.frogscannonball>
+  <!-- Husk -->
+  <entityname.frogsliquiddeath>Смертельна отрута</entityname.frogsliquiddeath>
+  <entitydescription.frogsliquiddeath>Це одна з найсильніших, якщо не найсильніша, отрут на Європі, яка не проявляє жодного ефекту при вживанні. Її походження відоме лише Церкві.</entitydescription.frogsliquiddeath>
+  <!-- Clown -->
+  <entityname.frogsspringhammer>Пружинна кувалда</entityname.frogsspringhammer>
+  <entitydescription.frogsspringhammer>БОНЬК!</entitydescription.frogsspringhammer>
+</infotexts>

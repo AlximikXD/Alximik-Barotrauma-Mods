@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Factions -->
+  <!--Templar of Europe-->
+  <faction.Templars>Тамплієри Європи</faction.Templars>
+  <faction.Templars.description>Ніхто не знає, як виникла ця фракція: одного дня вони просто з'явилися з бажанням сприяти прогресу та виживанню людства, проповідуючи, що Alpha Spark врятує всіх. Втім, їхні інженерні та механічні послуги в Європі — вишукані.</faction.Templars.description>
+  <faction.Templars.shortdescription>Тамплієри Європи — невелика релігійно-комерційна фракція. Вони обожнюють технологію, адже вірять, що лише завдяки їй зможуть вижити в океанах Європи.</faction.Templars.shortdescription>
+  <!--Zealot of Europa-->
+  <faction.Zealot_Templars>Зелоти Європи</faction.Zealot_Templars>
+  <faction.Zealot_Templars.description>Фракція, народжена з найрадикальнішого розколу серед Тамплієрів. Зелоти вважають технологію Alpha Spark священною спадщиною, забороненою для «негідних» з інших фракцій. Їхнє спорядження — це брутальне поєднання передової інженерії та саморобних латок, викуване нестачею та призначене витримувати там, де інші гинуть.</faction.Zealot_Templars.description>
+  <faction.Zealot_Templars.shortdescription>Радикальна секта Тамплієрів, що забороняє «негідним» доступ до технології Alpha Spark. Їхній арсенал — це брутальне поєднання високих технологій і саморобного спорядження, викуване нестачею.</faction.Zealot_Templars.shortdescription>
+</infotext>

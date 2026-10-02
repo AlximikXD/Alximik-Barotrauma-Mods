@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- CHARACTERS -->
+  <character.Lithomorph_Cassiterite>Літоморф</character.Lithomorph_Cassiterite>
+  <character.Lithomorph_Chamosite>Літоморф</character.Lithomorph_Chamosite>
+  <character.Lithomorph_Cryolite>Літоморф</character.Lithomorph_Cryolite>
+  <character.Lithomorph_Galena>Літоморф</character.Lithomorph_Galena>
+  <character.Lithomorph_Hydroxyapatite>Літоморф</character.Lithomorph_Hydroxyapatite>
+  <character.Lithomorph_Pyromorphite>Літоморф</character.Lithomorph_Pyromorphite>
+  <character.Lithomorph_Sphalerite>Літоморф</character.Lithomorph_Sphalerite>
+  <character.Lithomorph_Sylvite>Літоморф</character.Lithomorph_Sylvite>
+  <character.Lithomorph_Triphylite>Літоморф</character.Lithomorph_Triphylite>
+  <character.Lithomorph>Літоморф</character.Lithomorph>
+  <character.spineling_electric>Великий електричний шпильчак</character.spineling_electric>
+  <charactername.kazuyakumo>Кадзуя Кумо</charactername.kazuyakumo>
+  <charactername.captainsmith>Джон Сміт</charactername.captainsmith>
+  <charactername.loyalcommissar>Комісар Сепаратистів</charactername.loyalcommissar>
+  <charactername.jokster>Жартолік</charactername.jokster>
+  <charactername.jokster1>Жартолік</charactername.jokster1>
+  <charactername.frenseynomor>Френ Стулиписок</charactername.frenseynomor>
+  <charactername.frenseynomor1>Френ Стулиписок</charactername.frenseynomor1>
+  <charactername.noveva>Новіва</charactername.noveva>
+  <charactername.sadashikira>Садаші Кіра</charactername.sadashikira>
+  <charactername.sadashikira1>Садаші Кіра</charactername.sadashikira1>
+  <charactername.sadashikira2>Садаші Кіра</charactername.sadashikira2>
+  <!-- NPCS -->
+  <!-- newtext -->
+  <Override>
+    <npctitle.piratecaptain>Капер</npctitle.piratecaptain>
+    <npctitle.piratecaptainlord>Корсар</npctitle.piratecaptainlord>
+    <npctitle.pirateannihilator>Піратський руйнівник</npctitle.pirateannihilator>
+    <npctitle.piratesecurityrecruit>Посіпака</npctitle.piratesecurityrecruit>
+    <npctitle.piratesecuritybrute>Найманець</npctitle.piratesecuritybrute>
+  </Override>
+  <npctitle.partypiratecaptain>Шалений капітан піратів</npctitle.partypiratecaptain>
+  <npctitle.partypiratecaptainlord>Шалений лорд піратів</npctitle.partypiratecaptainlord>
+  <npctitle.partypiratesecurityrecruit>Шалений пірат-юнга</npctitle.partypiratesecurityrecruit>
+  <npctitle.partypiratesecuritygunner>Шалений пірат-стрілець</npctitle.partypiratesecuritygunner>
+  <npctitle.partypiratesecuritybrute>Шалений пірат-громило</npctitle.partypiratesecuritybrute>
+  <npctitle.partypiratesecurityelite>Шалений пірат-ветеран</npctitle.partypiratesecurityelite>
+  <npctitle.partypiratemechanicveteran>Шалений пірат-технік</npctitle.partypiratemechanicveteran>
+  <npctitle.partypirateengineerveteran>Шалений пірат-фізик</npctitle.partypirateengineerveteran>
+  <npctitle.partypiratemechanicrecruit>Шалений пірат-механік</npctitle.partypiratemechanicrecruit>
+  <npctitle.partypirateengineerrecruit>Шалений пірат-інженер</npctitle.partypirateengineerrecruit>
+  <!-- newtext -->
+  <npctitle.outpostmanagerhusk>Диякон</npctitle.outpostmanagerhusk>
+  <npctitle.huskcultistsecurity>Храмовник</npctitle.huskcultistsecurity>
+  <npctitle.huskvip>Кардинал</npctitle.huskvip>
+  <npctitle.outposthuskdoctor>Хірург</npctitle.outposthuskdoctor>
+  <npctitle.huskassassinationtarget>Головний вчений</npctitle.huskassassinationtarget>
+  <npctitle.hireablehuskscientist>Церковний вчений</npctitle.hireablehuskscientist>
+  <npctitle.hireablehusktemplar>Церковний храмовник</npctitle.hireablehusktemplar>
+  <npctitle.sergeantcoalition>Офіцер Коаліції</npctitle.sergeantcoalition>
+  <npctitle.sergeantseparatists>Офіцер Сепаратистів</npctitle.sergeantseparatists>
+  <npctitle.soldiercoalition>Солдат</npctitle.soldiercoalition>
+  <npctitle.tempsoldiercoalition>Солдат</npctitle.tempsoldiercoalition>
+  <npctitle.soldierseparatists>Бунтівник</npctitle.soldierseparatists>
+  <npctitle.tempsoldierseparatists>Бунтівник</npctitle.tempsoldierseparatists>
+  <npctitle.tempsoldierseparatists>Бунтівник</npctitle.tempsoldierseparatists>
+  <npctitle.ransomtarget>Ціль для викупу</npctitle.ransomtarget>
+  <character.Crawler_capture>Повзун-утікач</character.Crawler_capture>
+  <charactername.scrapdealer>Сол Вагер</charactername.scrapdealer>
+  <npctitle.sickpatient>Пацієнт</npctitle.sickpatient>
+  <character.orangeboy_escort>Ціль для супроводу</character.orangeboy_escort>
+  <character.Defensebot_defective>Несправний бот</character.Defensebot_defective>
+</infotext>

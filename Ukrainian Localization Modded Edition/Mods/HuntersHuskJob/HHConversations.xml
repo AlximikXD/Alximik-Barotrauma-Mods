@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="hhconversations" Language="Ukrainian">
+  <Conversation line="Клянусь, ця штука досі дрейфує в коридорі…" speaker="0" maxintensity="0.2">
+    <Conversation line="Гнилий труп у тому старому водолазному скафандрі?" speaker="1">
+      <Conversation line="Так, саме він. Зайшов через шлюз під час минулої зміни. Відтоді майже не рухався." speaker="0">
+        <Conversation line="Чого ж йому, чорт забирай, треба?" speaker="1">
+          <Conversation line="Якщо йому взагалі щось треба. Воно просто стоїть там, ніби гойдається… і пускає чорну слизьку слину." speaker="0">
+            <Conversation line="Тхне морем, але старим і смердючим." speaker="2" allowedjobs="medicaldoctor">
+              <Conversation line="Учора вночі я чув, як воно клацало. Наче зуби цокотіли... чи порожній стукіт по шолому." speaker="0">
+                <Conversation line="Ти ж не пробував зняти з нього костюм, правда?" speaker="1">
+                  <Conversation line="Та до дупи це. Воно ніби приросло до цього костюма, наче мушля." speaker="0">
+                    <Conversation line="Просто не підходь близько. Може бути заразним. Або й гірше." speaker="2">
+                      <Conversation line="Заразним? Чим саме? Морською гниллю?" speaker="1" />
+                    </Conversation>
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Його варто викинути через шлюз." speaker="0" maxintensity="0.3" allowedjobs="securityofficer">
+    <Conversation line="Легше сказати, ніж зробити. Воно стоїть одразу за перехрестям." speaker="1">
+      <Conversation line="Ви хочете, щоб я виштовхнув гнилий труп у скафандрі звідси? Руками?" speaker="2">
+        <Conversation line="То як інакше його позбутися?" speaker="0">
+          <Conversation line="Вистрілити в нього?" speaker="1" allowedjobs="securityofficer">
+            <Conversation line="Ні в якому разі. Хто знає, що може вилитися зсередини. Може роз’їсти корпус або приманити щось гірше." speaker="2" />
+          </Conversation>
+          <Conversation line="Можливо, просто залишимо його в спокої. Воно нікого не атакувало." speaker="2">
+            <Conversation line="Поки що. Але що, якщо воно раптом вирішить зрушитися? Це моторошно." speaker="1" />
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Я бачив, як воно здригнулося. Його рука на секунду різко сіпнулась." speaker="0" maxintensity="0.4">
+    <Conversation line="Ви впевнені, що це не через втому?" speaker="1">
+      <Conversation line="Я знаю, що бачив. Воно здригнулося. Ніби згадувало, як рухатися." speaker="0">
+        <Conversation line="Це тривожить. Можливо, то просто вихід газів всередині скафандра." speaker="2">
+          <Conversation line="А може, воно ще якось жевріє у цьому жахливому вигляді." speaker="0">
+            <Conversation line="Жевріє? З наполовину відсутньою щелепою та цією рідиною, що капає? Не смішіть." speaker="1">
+              <Conversation line="Ми на дні океанічного супутника. Тут абсурд — це норма." speaker="2">
+                <Conversation line="Тримайте інструменти під рукою." speaker="0" />
+              </Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Корпус скрипнув минулої ночі, одразу після того клацання." speaker="0" minintensity="0.5">
+    <Conversation line="Я теж щось чув. Ніби хтось волочить ногу." speaker="1" flags="Psychosis">
+      <Conversation line="Якщо воно рухається, то шукає щось. Або когось." speaker="0">
+        <Conversation line="Не кажіть так. Це просто труп." speaker="1">
+          <Conversation line="Тоді чому воно зависло тут? Трупи відпливають або падають на підлогу. А це стоїть." speaker="0">
+            <Conversation line="Нам варто закрити цей сектор на карантин." speaker="2" />
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Ви думаєте, воно пам’ятає, що колись було людиною?" speaker="0" maxintensity="0.6">
+    <Conversation line="Кому не байдуже? Воно тепер не людина." speaker="1" speakertags="rude, tough">
+      <Conversation line="Воно втиснуте в той старезний скафандр. Можливо, це просто маріонетка для чогось іншого." speaker="2" allowedjobs="medicaldoctor">
+        <Conversation line="Ви маєте на увазі паразита чи грибок, що керує ним?" speaker="0">
+          <Conversation line="Може й так. Ми знаємо, що тут є спори, які чіпляються до старих скафандрів." speaker="2">
+            <Conversation line="Від цього у мене мурашки по шкірі." speaker="1">
+              <Conversation line="Краще бути наляканим, ніж бути спантеличеним зненацька." speaker="0" />
+              <Conversation line="Якщо це грибок, можемо його зішкребти або спалити?" speaker="1">
+                <Conversation line="Зішкребти? Спалити? Це може його роздратувати, якщо воно відчуває." speaker="2">
+                  <Conversation line="Якщо це лише грибок, чи відчувають гриби біль?" speaker="0">
+                    <Conversation line="Ми поняття не маємо, що ці спори роблять, коли їх турбують." speaker="2">
+                      <Conversation line="Я не дуже хочу дізнаватися це на власному шкурі." speaker="1" />
+                    </Conversation>
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+              <Conversation line="А що, якщо спори поширяться на нас? Вони можуть зачепитися й за наші скафандри?" speaker="0">
+                <Conversation line="Навіть не натякайте на таке. Ви серйозно думаєте, що ми можемо стати схожими на нього?" speaker="1">
+                  <Conversation line="Якщо спори розвиваються на старих скафандрах, можливо, й на нових теж." speaker="2">
+                    <Conversation line="Тоді тримаємо скафандрами герметезованими і уникаємо контакту з ним." speaker="0" />
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+              <Conversation line="Якщо воно колись було людиною, чи пам’ятає мову або жести?" speaker="0">
+                <Conversation line="Ви хочете з ним говорити? Це божевілля." speaker="1">
+                  <Conversation line="Ми знаємо, що спори можуть спілкуватися хімічно. Але з нами?" speaker="2">
+                    <Conversation line="Ми робимо лише здогадки. Але жест може викликати якусь реакцію." speaker="0">
+                      <Conversation line="Реакцію, яку ми можемо не пережити." speaker="1" />
+                    </Conversation>
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+              <Conversation line="Чи можуть спори бути якимось захисним механізмом скафандра?" speaker="2">
+                <Conversation line="Скафандр, створений для проживання грибка? Це вже перебільшення." speaker="1">
+                  <Conversation line="Та все ж ці скафандри старі. Ми не знаємо їхнього походження." speaker="0">
+                    <Conversation line="Якщо грибок адаптувався до цих скафандрів, він може бути старшим, ніж ми думаємо." speaker="2">
+                      <Conversation line="Древнє життя, що використовує мертву людську форму. Бентежить." speaker="1" />
+                    </Conversation>
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+              <Conversation line="Можливо, нам краще нічого не робити. Просто залишити його в спокої." speaker="1">
+                <Conversation line="Ігнорувати його — означає пропустити попередження. Можливо, воно тут, щоб щось нам сказати." speaker="0">
+                  <Conversation line="Що саме? Якщо воно не людина, чи може йому бути до нас діло?" speaker="1">
+                    <Conversation line="Можливо, це ознака чогось більшого, що ховається зовні." speaker="2">
+                      <Conversation line="Щось більше за скафандр, наповнений грибком? Я ненавиджу це місце." speaker="1" />
+                    </Conversation>
+                  </Conversation>
+                </Conversation>
+              </Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Воно знову пускає слину. Підлога слизька від тієї солонуватої рідини." speaker="0" maxintensity="0.8" allowedjobs="assistant">
+    <Conversation line="Хтось мусить це прибрати." speaker="1" speakertags="rude, tough">
+      <Conversation line="Прибери це сам! Я не підійду навіть на метр." speaker="0">
+        <Conversation line="Ми не можемо просто залишити його гнити. Цей запах може поширитися." speaker="0">
+          <Conversation line="Якщо ми відкриємо шлюз і різко змінимо тиск, можливо, воно відпливе назад." speaker="0">
+            <Conversation line="Ризик знищити половину нашого складу теж? Не варто." speaker="1">
+              <Conversation line="Тоді чекаємо. Можливо, воно просто піде так само, як і з’явилося." speaker="0" />
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Здається, воно дивиться на мене крізь той тріснутий візор." speaker="0" minintensity="1.0">
+    <Conversation line="У нього ж немає очей!" speaker="1">
+      <Conversation line="Таке відчуття, ніби є. Порожній, пронизливий погляд." speaker="0">
+        <Conversation line="Припини вигадувати й рухайся далі. У нас справи." speaker="2" allowedjobs="securityofficer">
+          <Conversation line="Робота? Коли та штука просто нишпорить поруч?" speaker="1">
+            <Conversation line="У нас немає вибору. Або навчимось його ігнорувати, або зробимо щось радикальне." speaker="2">
+              <Conversation line="Я не можу його ігнорувати. Це — знак. Щось погане насувається." speaker="0" />
+            </Conversation>
+          </Conversation>
+          <Conversation line="Ігнорувати? Авжеж, давай вдавати, що його там немає." speaker="1">
+            <Conversation line="Ти справді можеш удавати? Воно ж залишає всюди той чорний слиз." speaker="0">
+              <Conversation line="Прибиратимемо після того, як воно піде. Якщо воно взагалі колись піде." speaker="2">
+                <Conversation line="А якщо ні?" speaker="1">
+                  <Conversation line="Тоді пристосуємося. Саме так ми тут і живемо." speaker="2" />
+                </Conversation>
+              </Conversation>
+            </Conversation>
+          </Conversation>
+        </Conversation>
+        <Conversation line="А що, як воно нас розуміє?" speaker="1">
+          <Conversation line="Розуміє? Це ж просто труп у скафандрі." speaker="2">
+            <Conversation line="Але що, як воно слухає? Можливо, якось нас імітує?" speaker="0">
+              <Conversation line="Це абсурдно. Але... жодних різких рухів." speaker="2" />
+            </Conversation>
+          </Conversation>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <!-- Doctors assessments -->
+  <Conversation line="Я дослідив той слиз, що охопив екіпаж..." speaker="0" allowedjobs="medicaldoctor" maxintensity="0.2">
+    <Conversation line="І я досі не впевнений, що це таке." speaker="0">
+      <Conversation line="Якщо спробуємо його видалити, можемо лише поширити його ще більше." speaker="0">
+        <Conversation line="Можливо, краще поспостерігати за ним довше?" speaker="0">
+          <Conversation line="Може ні." speaker="0" />
+        </Conversation>
+        <Conversation line="Воно ще нас не вкусило?" speaker="0">
+          <Conversation line="Поки що..." speaker="0" />
+        </Conversation>
+      </Conversation>
+      <Conversation line="Якщо ці штуки можуть допомогти, чи можемо ми їх використати?" speaker="0">
+        <Conversation line="Або ж це вони використовують нас?" speaker="0" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="Цей липкий слиз, сильно прилип." allowedjobs="medicaldoctor" speaker="0">
+    <Conversation line="Заважає?" speaker="0">
+      <Conversation line="Чи просто висить?" speaker="0">
+        <Conversation line="Важко сказати." speaker="0" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <Conversation line="«Латка» замінює шви огидними нитками." allowedjobs="medicaldoctor" speaker="0">
+    <Conversation line="Воно дійсно латає, але чи можна йому довіряти?" speaker="0" />
+  </Conversation>
+  <Conversation line="«Згусток втіхи» захищає, але ворушиться від твого дотику." speaker="0">
+    <Conversation line="Воно живе?" speaker="0">
+      <Conversation line="Чи голодне?" speaker="0" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="З «Блідим Подихом» повітря стає густішим." allowedjobs="medicaldoctor" speaker="0">
+    <Conversation line="Дихати легше, але хто дихає поруч із тобою?" speaker="0" />
+  </Conversation>
+  <Conversation line="«Гладенькі щупальця» полегшують рухи." allowedjobs="medicaldoctor" speaker="0">
+    <Conversation line="Гладкі кроки, але ти керуєш чи тобою керують?" speaker="0" />
+  </Conversation>
+  <Conversation line="«Шепіт М’ясного Щита» робить тебе міцнішим, але м’язи — не твої." allowedjobs="medicaldoctor" speaker="0">
+    <Conversation line="Захищає?" speaker="0">
+      <Conversation line="Чи наказує?" speaker="0" />
+    </Conversation>
+  </Conversation>
+</Conversations>

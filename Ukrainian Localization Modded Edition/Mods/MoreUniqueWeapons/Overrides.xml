@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <entityname.frogs_sworddisplay>Стійка для меча</entityname.frogs_sworddisplay>
+  <entityname.frogshornrevolver>Клаксонольвер</entityname.frogshornrevolver>
+  <entitydescription.frogshornrevolver>БАХ!+ Гудок!</entitydescription.frogshornrevolver>
+  <entityname.frogstasershotgun>Модель 7</entityname.frogstasershotgun>
+  <entitydescription.frogstasershotgun>Розроблена, щоб бути інструментом вгамування для одних із найбільших тюрем Європи.</entitydescription.frogstasershotgun>
+  <entityname.frogspiezoconduit>П'єзопровід</entityname.frogspiezoconduit>
+  <entitydescription.frogspiezoconduit>Елемент без якого п'єзогармата не працюватиме.</entitydescription.frogspiezoconduit>
+  <entityname.frogsslapglove>Дуельна рукавичка</entityname.frogsslapglove>
+  <entitydescription.frogsslapglove>Одна із найрідкісніших речей на Європі.</entitydescription.frogsslapglove>
+</infotexts>

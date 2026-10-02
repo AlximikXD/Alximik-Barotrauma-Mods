@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <entityname.de-rockcavewallverticalstraight>Печерна кам'яна стіна (Вертикальна)</entityname.de-rockcavewallverticalstraight>
+  <entityname.de-rockcavewallwall5degrees>Печерна кам'яна стіна (5°)</entityname.de-rockcavewallwall5degrees>
+  <entityname.de-rockcavewallwall15degrees>Печерна кам'яна стіна (15°)</entityname.de-rockcavewallwall15degrees>
+  <entityname.de-rockcavewallwall25degrees>Печерна кам'яна стіна (25°)</entityname.de-rockcavewallwall25degrees>
+  <entityname.de-rockcavewallwall35degrees>Печерна кам'яна стіна (35°)</entityname.de-rockcavewallwall35degrees>
+  <entityname.de-rockcavewallwall55degrees>Печерна кам'яна стіна (55°)</entityname.de-rockcavewallwall55degrees>
+  <entityname.de-rockcavewallwall70degrees>Печерна кам'яна стіна (70°)</entityname.de-rockcavewallwall70degrees>
+  <entityname.de-rockcavewallwall80degrees>Печерна кам'яна стіна (80°)</entityname.de-rockcavewallwall80degrees>
+  <entityname.de-rockcavewallhorizontalstraight>Печерна кам'яна стіна (Горизонтальна)</entityname.de-rockcavewallhorizontalstraight>
+  <entityname.de-rockcavebackwall>Фонова печерна кам'яна стіна</entityname.de-rockcavebackwall>
+  <entityname.de-crystalcavebackwall>Фонова печерна кристалічна стіна</entityname.de-crystalcavebackwall>
+  <entityname.de-coldcavernswallverticalstraight>Стіна Холодних печер (Вертикальна)</entityname.de-coldcavernswallverticalstraight>
+  <entityname.de-coldcavernswallhorizontalstraight>Стіна Холодних печер (Горизонтальна)</entityname.de-coldcavernswallhorizontalstraight>
+  <entityname.de-coldcavernsbackwall>Фонова стіна Холодних печер</entityname.de-coldcavernsbackwall>
+  <entityname.de-europanridgebackwall>Фонова стіна Європейського хребта</entityname.de-europanridgebackwall>
+  <entityname.de-rockcaveboulder1>Шматок печерної брили</entityname.de-rockcaveboulder1>
+  <entityname.de-rockcaveboulder2>Шматок печерної брили</entityname.de-rockcaveboulder2>
+  <entityname.de-rockcaveboulder3>Шматок печерної брили</entityname.de-rockcaveboulder3>
+  <entityname.de-rockcaveboulder4>Шматок печерної брили</entityname.de-rockcaveboulder4>
+  <entityname.de-rockcaveboulder5>Шматок печерної брили</entityname.de-rockcaveboulder5>
+  <entityname.de-rockcavechunk1>Фрагмент печери</entityname.de-rockcavechunk1>
+  <entityname.de-rockcavechunk2>Фрагмент печери</entityname.de-rockcavechunk2>
+  <entityname.de-rockcavechunk3>Фрагмент печери</entityname.de-rockcavechunk3>
+  <entityname.de-rockcavechunk4>Фрагмент печери</entityname.de-rockcavechunk4>
+  <entityname.de-rockcavevent1>Отвір печери</entityname.de-rockcavevent1>
+  <entityname.de-rockcavevent2>Отвір печери</entityname.de-rockcavevent2>
+  <entityname.de-rockcavestalactite1>Печерний сталактит</entityname.de-rockcavestalactite1>
+  <entityname.de-rockcavestalactite2>Печерний сталактит</entityname.de-rockcavestalactite2>
+  <entityname.de-rockcavestalactite3>Печерний сталактит</entityname.de-rockcavestalactite3>
+  <entityname.de-crystalcaveboulder1>Брила кристалічної печери</entityname.de-crystalcaveboulder1>
+  <entityname.de-crystalcaveboulder2>Брила кристалічної печери</entityname.de-crystalcaveboulder2>
+  <entityname.de-crystalcaveboulder3>Брила кристалічної печери</entityname.de-crystalcaveboulder3>
+  <entityname.de-crystalcaveboulder4>Брила кристалічної печери</entityname.de-crystalcaveboulder4>
+  <entityname.de-crystalcaveboulder5>Брила кристалічної печери</entityname.de-crystalcaveboulder5>
+  <entityname.de-crystalcavechunk1>Фрагмент кристалічної печери</entityname.de-crystalcavechunk1>
+  <entityname.de-crystalcavechunk2>Фрагмент кристалічної печери</entityname.de-crystalcavechunk2>
+  <entityname.de-crystalcavechunk3>Фрагмент кристалічної печери</entityname.de-crystalcavechunk3>
+  <entityname.de-crystalcavechunk4>Фрагмент кристалічної печери</entityname.de-crystalcavechunk4>
+  <entityname.de-crystal1>Кристал</entityname.de-crystal1>
+  <entityname.de-crystal2>Кристал</entityname.de-crystal2>
+  <entityname.de-crystal3>Кристал</entityname.de-crystal3>
+  <entityname.de-crystal4>Кристал</entityname.de-crystal4>
+  <entityname.de-crystal5>Кристал</entityname.de-crystal5>
+  <entityname.de-crystal6>Кристал</entityname.de-crystal6>
+  <entityname.de-crystal7>Кристал</entityname.de-crystal7>
+  <entityname.de-crystal8>Кристал</entityname.de-crystal8>
+  <entityname.de-europanridgeboulder1>Брила Європейського хребта</entityname.de-europanridgeboulder1>
+  <entityname.de-europanridgeboulder2>Брила Європейського хребта</entityname.de-europanridgeboulder2>
+  <entityname.de-europanridgeboulder3>Брила Європейського хребта</entityname.de-europanridgeboulder3>
+  <entityname.de-europanridgechunk1>Фрагмент Європейського хребта</entityname.de-europanridgechunk1>
+  <entityname.de-europanridgechunk2>Фрагмент Європейського хребта</entityname.de-europanridgechunk2>
+  <entityname.de-europanridgechunk3>Фрагмент Європейського хребта</entityname.de-europanridgechunk3>
+  <entityname.de-europanridgechunk4>Фрагмент Європейського хребта</entityname.de-europanridgechunk4>
+  <entityname.de-europanridgechunk5>Фрагмент Європейського хребта</entityname.de-europanridgechunk5>
+  <entityname.de-europanridgechunk6>Фрагмент Європейського хребта</entityname.de-europanridgechunk6>
+  <entityname.de-europanridgereef1>Риф Європейського хребта</entityname.de-europanridgereef1>
+  <entityname.de-europanridgereef2>Риф Європейського хребта</entityname.de-europanridgereef2>
+  <entityname.de-europanridgereef3>Риф Європейського хребта</entityname.de-europanridgereef3>
+  <entityname.de-europanridgereef4>Риф Європейського хребта</entityname.de-europanridgereef4>
+  <entityname.de-europanridgereef5>Риф Європейського хребта</entityname.de-europanridgereef5>
+  <entityname.de-europanridgereef6>Риф Європейського хребта</entityname.de-europanridgereef6>
+  <entityname.de-europanridgereef7>Риф Європейського хребта</entityname.de-europanridgereef7>
+  <entityname.de-europanridgereef8>Риф Європейського хребта</entityname.de-europanridgereef8>
+  <entityname.de-europanridgeimpsclaw1>Бісовий кіготь Європейського хребта</entityname.de-europanridgeimpsclaw1>
+  <entityname.de-europanridgeimpsclaw2>Бісовий кіготь Європейського хребта</entityname.de-europanridgeimpsclaw2>
+  <entityname.de-europanridgetanglebush1>Зарості Європейського хребта</entityname.de-europanridgetanglebush1>
+  <entityname.de-europanridgetanglebush2>Зарості Європейського хребта</entityname.de-europanridgetanglebush2>
+  <entityname.caveplatform>Кам'яна платформа</entityname.caveplatform>
+  <entityname.effect_trigger_leak_water_large>Тригерний ефект — Витік води (Великий)</entityname.effect_trigger_leak_water_large>
+  <entityname.effect_trigger_leak_water_small>Тригерний ефект — Витік води (Малий)</entityname.effect_trigger_leak_water_small>
+  <entityname.effect_leak_water_large>Тривалий ефект — Витік води (Великий)</entityname.effect_leak_water_large>
+  <entityname.effect_leak_water_small>Тривалий ефект — Витік води (Малий)</entityname.effect_leak_water_small>
+  <entityname.effect_trigger_shortcircuit>Тригерний ефект — Коротке замикання</entityname.effect_trigger_shortcircuit>
+  <entityname.effect_shortcircuit>Тривалий ефект — Коротке замикання</entityname.effect_shortcircuit>
+  <entityname.effect_trigger_lava>Тригерний ефект — Лава</entityname.effect_trigger_lava>
+  <entityname.effect_lava>Тривалий ефект — Лава</entityname.effect_lava>
+  <entityname.piezocrystalPA>П'єзокристал (Прив'язаний)</entityname.piezocrystalPA>
+  <entityname.music_scavengerhunt_outpost>Пісня на аванпості: Scavenger Hunt Techno (EurocorpFx Remake)</entityname.music_scavengerhunt_outpost>
+  <entitydescription.music_scavengerhunt_outpost>Scavenger Hunt Techno (EurocorpFx Remake) виконавця EurocorpFx з Youtube (Посилання на сторінці Dynamic Europa)</entitydescription.music_scavengerhunt_outpost>
+  <entityname.music_rebelpath_outpost>Пісня на аванпості: The Rebel Path</entityname.music_rebelpath_outpost>
+  <entitydescription.music_rebelpath_outpost>The Rebel Path виконавця P.T. Adamczyk з Cyberpunk 2077 OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_rebelpath_outpost>
+  <entityname.music_blackout_outpost>Пісня на аванпості: Black Out</entityname.music_blackout_outpost>
+  <entitydescription.music_blackout_outpost>Black Out виконавця Full Kontakt з GRIP: Combat Racing OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_blackout_outpost>
+  <entityname.music_contralaluna_outpost>Пісня на аванпості: Contra la Luna</entityname.music_contralaluna_outpost>
+  <entitydescription.music_contralaluna_outpost>Contra la Luna виконавця P.T. Adamczyk з Cyberpunk 2077 Phantom Liberty OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_contralaluna_outpost>
+  <entityname.music_aliensyndicateremix>Пісня на аванпості: Alien Syndicate (Re_]|M|[_ix)</entityname.music_aliensyndicateremix>
+  <entitydescription.music_aliensyndicateremix>Alien Syndicate (Re_]|M|[_ix) виконавця _]|M|[_ написано для Dynamic Europa</entitydescription.music_aliensyndicateremix>
+  <entityname.music_exosuit>Пісня: Exosuit</entityname.music_exosuit>
+  <entitydescription.music_exosuit>Exosuit виконавця Simon Chylinski з Subnautica OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_exosuit>
+  <entityname.music_abandonship>Пісня: Abandon Ship</entityname.music_abandonship>
+  <entitydescription.music_abandonship>Abandon Ship виконавця Simon Chylinski з Subnautica OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_abandonship>
+  <entityname.music_redalert>Пісня: Red Alert</entityname.music_redalert>
+  <entitydescription.music_redalert>Red Alert виконавця Simon Chylinski з Subnautica OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_redalert>
+  <entityname.music_clockwatch>Пісня: Clock Watch</entityname.music_clockwatch>
+  <entitydescription.music_clockwatch>Clock Watch виконавця Full Kontakt з GRIP: Combat Racing OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_clockwatch>
+  <entityname.music_cerbera>Пісня: Cerbera</entityname.music_cerbera>
+  <entitydescription.music_cerbera>Cerbera виконавця Imperium з GRIP: Combat Racing OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_cerbera>
+  <entityname.music_seamoth>Пісня: Seamoth</entityname.music_seamoth>
+  <entitydescription.music_seamoth>Seamoth виконавця Simon Chylinski з Subnautica OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_seamoth>
+  <entityname.music_cyborg>Пісня: Cyborg</entityname.music_cyborg>
+  <entitydescription.music_cyborg>Cyborg виконавця Full Kontakt з GRIP: Combat Racing OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_cyborg>
+  <entityname.music_scavengerhunt>Пісня: Scavenger Hunt Techno (EurocorpFx Remake)</entityname.music_scavengerhunt>
+  <entitydescription.music_scavengerhunt>Scavenger Hunt Techno (EurocorpFx Remake) виконавця EurocorpFx з Youtube (Посилання на сторінці Dynamic Europa)</entitydescription.music_scavengerhunt>
+  <entityname.music_rebelpath>Пісня: The Rebel Path</entityname.music_rebelpath>
+  <entitydescription.music_rebelpath>The Rebel Path виконавця P.T. Adamczyk з Cyberpunk 2077 OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_rebelpath>
+  <entityname.music_blackout>Пісня: Black Out</entityname.music_blackout>
+  <entitydescription.music_blackout>Black Out виконавця Full Kontakt з GRIP: Combat Racing OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_blackout>
+  <entityname.music_contralaluna>Пісня: Contra la Luna</entityname.music_contralaluna>
+  <entitydescription.music_contralaluna>Contra la Luna виконавця P.T. Adamczyk з Cyberpunk 2077 Phantom Liberty OST (Посилання на сторінці Dynamic Europa)</entitydescription.music_contralaluna>
+  <entityname.eventtrigger_random>Тригерна подія — Випадкова</entityname.eventtrigger_random>
+  <entitydescription.eventtrigger_random>ТРИГЕРИТЬ ВИПАДКОВУ ПОДІЮ З ІНШИХ ТРИГЕРНИХ ПОДІЙ. НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНОМУ МОДУЛІ ТА ВСТАНОВІТЬ ДЛЯ МОДУЛЯ СПАВН ЛИШЕ ОДИН РАЗ НА АВАНПОСТ.</entitydescription.eventtrigger_random>
+  <entityname.eventtrigger_bartender>Тригерна подія — Бармен</entityname.eventtrigger_bartender>
+  <entitydescription.eventtrigger_bartender>НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНОМУ МОДУЛІ ТА ВСТАНОВІТЬ ДЛЯ МОДУЛЯ СПАВН ЛИШЕ ОДИН РАЗ НА АВАНПОСТ.</entitydescription.eventtrigger_bartender>
+  <entityname.eventtrigger_mudraptors>Тригерна подія — Багнораптори</entityname.eventtrigger_mudraptors>
+  <entitydescription.eventtrigger_mudraptors>НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНОМУ МОДУЛІ ТА ВСТАНОВІТЬ ДЛЯ МОДУЛЯ СПАВН ЛИШЕ ОДИН РАЗ НА АВАНПОСТ.</entitydescription.eventtrigger_mudraptors>
+  <entityname.eventtrigger_crawlers>Тригерна подія — Плазуни</entityname.eventtrigger_crawlers>
+  <entitydescription.eventtrigger_crawlers>НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНОМУ МОДУЛІ ТА ВСТАНОВІТЬ ДЛЯ МОДУЛЯ СПАВН ЛИШЕ ОДИН РАЗ НА АВАНПОСТ.</entitydescription.eventtrigger_crawlers>
+  <entityname.eventtrigger_husk>Тригерна подія — Хаски</entityname.eventtrigger_husk>
+  <entitydescription.eventtrigger_husk>НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНОМУ МОДУЛІ ТА ВСТАНОВІТЬ ДЛЯ МОДУЛЯ СПАВН ЛИШЕ ОДИН РАЗ НА АВАНПОСТ.</entitydescription.eventtrigger_husk>
+  <entityname.eventtrigger_multiwreck>Тригерна подія — Уламки</entityname.eventtrigger_multiwreck>
+  <entitydescription.eventtrigger_multiwreck>РОЗМІЩУЙТЕ В УЛАМКАХ, ЯКІ МІСТЯТЬ ШАТЛИ! НЕ РОЗМІЩУЙТЕ КІЛЬКА В ОДНИХ УЛАМКАХ! НЕ РОЗМІЩУЙТЕ В ШАТЛАХ, ЯКІ БУДУТЬ ПРИЄДНАНІ ДО УЛАМКІВ!</entitydescription.eventtrigger_multiwreck>
+  <entityname.patrolspawner>Спавнер патруля</entityname.patrolspawner>
+  <entityname.vineladder>Ліани (Драбина)</entityname.vineladder>
+  <entityname.de-bioluminescentcaveboulder1>Біолюмінесцентна печерна брила</entityname.de-bioluminescentcaveboulder1>
+  <entityname.de-bioluminescentcaveboulder2>Біолюмінесцентна печерна брила</entityname.de-bioluminescentcaveboulder2>
+  <entityname.de-bioluminescentcaveboulder3>Біолюмінесцентна печерна брила</entityname.de-bioluminescentcaveboulder3>
+  <entityname.de-bioluminescentcaveboulder4>Біолюмінесцентна печерна брила</entityname.de-bioluminescentcaveboulder4>
+  <entityname.de-bioluminescentcaveboulder5>Біолюмінесцентна печерна брила</entityname.de-bioluminescentcaveboulder5>
+  <entityname.de-bioluminescentcavechunk1>Біолюмінесцентний печерний фрагмент</entityname.de-bioluminescentcavechunk1>
+  <entityname.de-bioluminescentcavechunk2>Біолюмінесцентний печерний фрагмент</entityname.de-bioluminescentcavechunk2>
+  <entityname.de-bioluminescentcavechunk3>Біолюмінесцентний печерний фрагмент</entityname.de-bioluminescentcavechunk3>
+  <entityname.de-bioluminescentcavechunk4>Біолюмінесцентний печерний фрагмент</entityname.de-bioluminescentcavechunk4>
+  <entityname.de-bioluminescentplant1>Біолюмінесцентна рослина</entityname.de-bioluminescentplant1>
+  <entityname.de-bioluminescentplant2>Біолюмінесцентна рослина</entityname.de-bioluminescentplant2>
+  <entityname.de-bioluminescentplant3>Біолюмінесцентна рослина</entityname.de-bioluminescentplant3>
+  <entityname.de-bioluminescentplant4>Біолюмінесцентна рослина</entityname.de-bioluminescentplant4>
+  <entityname.de-bioluminescentplant5>Біолюмінесцентна рослина</entityname.de-bioluminescentplant5>
+  <entityname.revolverbroken>Револьвер (Зламано)</entityname.revolverbroken>
+  <entityname.smgbroken>ПК (Зламано)</entityname.smgbroken>
+  <entityname.shotgunbroken>Дробовик (Зламано)</entityname.shotgunbroken>
+  <entityname.assaultriflebroken>Штурмова гвинтівка (Зламано)</entityname.assaultriflebroken>
+  <entityname.machinepistolbroken>Мініпістолет-кулемет (Зламано)</entityname.machinepistolbroken>
+  <entityname.aliengeneratorPA>Інопланетний генератор</entityname.aliengeneratorPA>
+  <entityname.creepingorangevineseedoutpost>Декоративне насіння вибухового гранату</entityname.creepingorangevineseedoutpost>
+  <entitydescription.creepingorangevineseedoutpost>Лише для декору. Не дає плодів.</entitydescription.creepingorangevineseedoutpost>
+  <entityname.tobaccovineseedoutpost>Декоративне насіння тютюнової лози</entityname.tobaccovineseedoutpost>
+  <entitydescription.tobaccovineseedoutpost>Лише для декору. Не дає плодів.</entitydescription.tobaccovineseedoutpost>
+  <entityname.saltvineseedoutpost>Декоративне насіння сольової лози</entityname.saltvineseedoutpost>
+  <entitydescription.saltvineseedoutpost>Лише для декору. Не дає плодів.</entitydescription.saltvineseedoutpost>
+  <entityname.raptorbaneseedoutpost>Декоративне насіння бича багнораптора</entityname.raptorbaneseedoutpost>
+  <entitydescription.raptorbaneseedoutpost>Лише для декору. Не дає плодів.</entitydescription.raptorbaneseedoutpost>
+  <entityname.bananaoutpost>Декоративне насіння банану</entityname.bananaoutpost>
+  <entitydescription.bananaoutpost>Лише для декору. Не дає плодів.</entitydescription.bananaoutpost>
+  <entityname.bartenderchair>Крісло бармена</entityname.bartenderchair>
+  <entitydescription.bartenderchair>ТРИГЕРИТЬ ПОДІЮ БАРМЕНА. НЕ ВИКОРИСТОВУЙТЕ ЦЕ У СВОЄМУ БУДІВНИЦТВІ, ЯКЩО ЛИШЕ ВИ НЕ СТВОРЮЄТЕ МОДУЛЬ БАРУ ЧИ ПОДІБНЕ І НЕ ХОЧЕТЕ, ЩОБ ПОДІЯ СПРАЦЮВАЛА ТАМ. НІКОЛИ НЕ ВИКОРИСТОВУЙТЕ ЦЕ НА ПІДВОДНОМУ ЧОВНІ ГРАВЦЯ!</entitydescription.bartenderchair>
+  <entityname.laircore>Серце лігва</entityname.laircore>
+  <entityname.vendingmachine1PA>Піратський автомат</entityname.vendingmachine1PA>
+  <entityname.mineralspawner>Родовище мінералів</entityname.mineralspawner>
+  <entityname.decospeaker>Декоративний гучномовець</entityname.decospeaker>
+  <entitydescription.decospeaker>Гучномовець з анімацією при активації</entitydescription.decospeaker>
+  <entityname.raverplayeroutpost>Колонка аванпосту</entityname.raverplayeroutpost>
+  <entitydescription.raverplayeroutpost>Прихована колонка для модулів аванпосту</entitydescription.raverplayeroutpost>
+  <entityname.piratedivingsuitmakeshift>Саморобний піратський водолазний скафандр</entityname.piratedivingsuitmakeshift>
+  <entityname.invisibleholder>Взяти предмет</entityname.invisibleholder>
+  <entitydescription.invisibleholder>Невидимий утримувач предметів, який видаляється після взаємодії з ним. Добре підходить для фіксації предметів без використання платформ.</entitydescription.invisibleholder>
+</infotexts>

@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Dialog -->
+  <eventtext.gettakeovermission.option.accept.answer.acceptcrew>«Дякую! Підкріплення завжди вітається!»</eventtext.gettakeovermission.option.accept.answer.acceptcrew>
+  <eventtext.gettakeovermission.option.accept.answer.acceptcrew.answer>«Удачі!»</eventtext.gettakeovermission.option.accept.answer.acceptcrew.answer>
+  <eventtext.gettakeovermission.option.accept.answer.declinecrew>«У цьому немає потреби. Будь ласка, накажіть своїм солдатам залишитися.»</eventtext.gettakeovermission.option.accept.answer.declinecrew>
+  <eventtext.gettakeovermission.option.accept.answer.declinecrew.answer>«Ви видаєтеся дуже рішучим... Добре, я накажу їм залишатися на місці. Удачі!»</eventtext.gettakeovermission.option.accept.answer.declinecrew.answer>
+  <EventText.mine.terminal.interact>Двері зачинені. На терміналі написано: «Усі зовнішні підрядники повинні внести заставу в розмірі 250 марок для доступу до видобутку корисних копалин.»</EventText.mine.terminal.interact>
+  <EventText.mine.terminal.interact.pay.success>Успішна транзакція. Двері відчинено...</EventText.mine.terminal.interact.pay.success>
+  <EventText.mine.terminal.interact.pay.failure>Транзакція не вдалася. Недостатньо коштів.</EventText.mine.terminal.interact.pay.failure>
+  <EventText.mine.breakin>Ви проникли в шахту, не сплативши внесок. Про ваші дії було повідомлено владу.</EventText.mine.breakin>
+  <EventText.option.pay>Заплатити</EventText.option.pay>
+  <entityname.mineterminal>Доступ до шахти</entityname.mineterminal>
+  <EventText.jailbreak_husk.c1>«Хвала Хаску! Ми думали, що ніколи звідси не виберемося!»</EventText.jailbreak_husk.c1>
+  <EventText.missionevent_beaconhusk.quest>«Це судно ваше, вірно? Ми втратили зв'язок із прилеглою глибоководною лабораторією. Дослідницька група мала надсилати нам щотижневий детальний звіт, але тепер вони не відповідають на наші повідомлення. Спробуйте відновити зв'язок, і церква винагородить вас відповідним чином.»</EventText.missionevent_beaconhusk.quest>
+  <EventText.beaconhusk.transducerbroken>Нема сигналу... Може, перевірити антену? </EventText.beaconhusk.transducerbroken>
+  <EventText.beaconhusk.poweronline>Електрика знову в мережі. Споруда гримить і гуркоче, механізми оживають.</EventText.beaconhusk.poweronline>
+  <EventText.beaconhusk.smell>Коли кисень повертається назад, ви відчуваєте дивний запах у повітрі...</EventText.beaconhusk.smell>
+  <EventText.beaconhusk.savedresearcher>Дослідник викашлює лякаючу кількість рідини, перш ніж перевести подих. \n«Слава Хаску, ти прийшов! Здається, ти не з церкви...»</EventText.beaconhusk.savedresearcher>
+  <EventText.beaconhusk.whathappened>«Ви були на межі перетворення, що тут сталося?»</EventText.beaconhusk.whathappened>
+  <EventText.beaconhusk.taintedgenes>«Ми використовували гени. Зазвичай церква безпосередньо забезпечує нас свіжими запасами, але нещодавно нам довелося розраховувати на доставку зі стороннього корабля. Ці невірні, мабуть, підробили продукт, намагаючись отримати прибуток, перепродуючи залишки.»</EventText.beaconhusk.taintedgenes>
+  <EventText.beaconhusk.whynotransform>«Але чому паразит не взяв гору?»</EventText.beaconhusk.whynotransform>
+  <EventText.beaconhusk.explanation>«Ми помістили симбіонта в стазис, розпорошивши хлор через вентиляційну систему, і відключили весь контур. Це стандартна процедура безпеки на випадок спалаху... Ми намагалися подати сигнал до церкви, але ніхто не прийшов, поки ви не показалися.»</EventText.beaconhusk.explanation>
+  <EventText.beaconhusk.sabotaged>«Ваш сигнал зв'язку від антени було розірвано.»</EventText.beaconhusk.sabotaged>
+  <EventText.beaconhusk.reward>«Виродки, мабуть, саботували! Я надішлю до церкви повний звіт... І благословлю вашу подорож.»</EventText.beaconhusk.reward>
+  <EventText.hiddenandclowngerous.thisistheplace>Це те саме місце. Клоун може бути де завгодно. Не забудьте посигналити у свій клаксон.</EventText.hiddenandclowngerous.thisistheplace>
+  <EventText.hiddenandclowngerous.psstoverhere> Раптово ви чуєте приглушений голос, що кличе вас. «Псс! Сюди!»</EventText.hiddenandclowngerous.psstoverhere>
+  <EventText.hiddenandclowngerous.trashfound>Коли ви наближаєтеся, з-під сміття з'являється помаранчева перука. «Слава Матері Клаксонів! Тебе прислала моя трупа?»</EventText.hiddenandclowngerous.trashfound>
+  <EventText.hiddenandclowngerous.whyintrash>«Що ти взагалі там робиш?»</EventText.hiddenandclowngerous.whyintrash>
+  <EventText.hiddenandclowngerous.hidingobivously>«Ховаюся, звісно ж. Спочатку подумав, що кілька жартів інкогніто піднімуть настрій — ну, щоб ті похмурі хлопці побачили веселіший бік життя. Але щойно я прокрався на заставу — мене викрили! Уявляєте?»</EventText.hiddenandclowngerous.hidingobivously>
+  <EventText.hiddenandclowngerous.whatdidyouexpect>«А ти чого очікував?»</EventText.hiddenandclowngerous.whatdidyouexpect>
+  <EventText.hiddenandclowngerous.unbelievable>«Сама ідея існування клоунів мені з самого початку здається неймовірною.»</EventText.hiddenandclowngerous.unbelievable>
+  <EventText.hiddenandclowngerous.studiedhusks>Клоун бурчить. «Я тижнями опановував мистецтво маскування, щоб злитися з культом, навіть усю їхню, клаксон мені в дупу, міфологію вивчив — келих, вино і вся ця лабуда…»</EventText.hiddenandclowngerous.studiedhusks>
+  <EventText.hiddenandclowngerous.timetoleave>«Що ж, час вирушати.»</EventText.hiddenandclowngerous.timetoleave>
+  <EventText.hiddenandclowngerous.pullnose>«Мені витягнути тебе за ніс?»</EventText.hiddenandclowngerous.pullnose>
+  <EventText.hiddenandclowngerous.cantgetout>«Нізащо! Якщо мене помітять — їхні хапливі лапи миттю схоплять мене і прив’яжуть до препарувального столу! А клоуна розрізати не можна — це все одно, що пояснювати жарт: вже не смішно!»</EventText.hiddenandclowngerous.cantgetout>
+  <EventText.hiddenandclowngerous.gotosecurity>«Залишайся тут, я розберуся з охороною.»</EventText.hiddenandclowngerous.gotosecurity>
+  <EventText.hiddenandclowngerous.timetonegociate>«Чудово! У мене якраз є декілька жартів, щоб розрядити обстановку. Отже, культист, клоун і сепаратист заходять у бар...» Ви закриваєте кришку. Час для переговорів.</EventText.hiddenandclowngerous.timetonegociate>
+  <EventText.hiddenandclowngerous.sternsecurity>«Цей по-особливому суворий культист схожий на начальника служби безпеки.»</EventText.hiddenandclowngerous.sternsecurity>
+  <EventText.hiddenandclowngerous.heardanysqueaks>«Отже... чи чули ви останнім часом якісь скрипучі звуки?»</EventText.hiddenandclowngerous.heardanysqueaks>
+  <EventText.hiddenandclowngerous.lookingforclown>Культист зітхає. «А... так ви вже чули про нашого небажаного гостя. Ми хотіли вигнати цього порушника, але шахрай вислизнув від нас.»</EventText.hiddenandclowngerous.lookingforclown>
+  <EventText.hiddenandclowngerous.nofanofclowns>«Невеликий фанат клоунів, еге ж?»</EventText.hiddenandclowngerous.nofanofclowns>
+  <EventText.hiddenandclowngerous.clownsnottolerated>«У цьому святилищі не повинно бути жодних порушень. Ксенонаука - це не якась дрібниця. Вона вимагає відточеного розуму, зосередженого на найблагороднішій меті - поліпшенні людства. Ніхто не має права насміхатися над нашими заповідями.»</EventText.hiddenandclowngerous.clownsnottolerated>
+  <EventText.hiddenandclowngerous.allowclowntoleave>«Скажімо, я можу переконати клоуна покинути станцію назавжди, ви дозволите йому піти?»</EventText.hiddenandclowngerous.allowclowntoleave>
+  <EventText.hiddenandclowngerous.fineclowncanleave>«Добре. Ми просто бажаємо душевного спокою. Позбавте нас від цього занепокоєння, і ми заплющимо очі на ситуацію.»</EventText.hiddenandclowngerous.fineclowncanleave>
+  <EventText.hiddenandclowngerous.didtheylikejoke>«Ну як? Їм сподобався мій жарт?»</EventText.hiddenandclowngerous.didtheylikejoke>
+  <EventText.hiddenandclowngerous.youcango>«Вони готові тебе відпустити.»</EventText.hiddenandclowngerous.youcango>
+  <EventText.hiddenandclowngerous.clownleavestrash>«Свіже повітря, нарешті!» Клоун незграбно вилазить зі сміттєвого бака, як людиноподібна сосиска.</EventText.hiddenandclowngerous.clownleavestrash>
+  <EventText.hiddenandclowngerous.smellyclown>Невмілий диверсант випромінює огидний запах після кількох днів, проведених в укритті. «Будь ласка, тільки не говори нічого моїй трупі, щоб на мене звалили весь цирк!»</EventText.hiddenandclowngerous.smellyclown>
+  <EventText.hiddenandclowngerous.joinmycrew>«А як щодо того, щоб приєднатися до моєї команди?»</EventText.hiddenandclowngerous.joinmycrew>
+  <EventText.hiddenandclowngerous.joinsthecrew>«Чудово! Я, можливо, не найкращий жартівник, але я вмію поводитися із субмариною.»</EventText.hiddenandclowngerous.joinsthecrew>
+  <EventText.hiddenandclowngerous.laughatyourself>«Тобі варто було б навчитися самоіронії. Це по-клоунськи.»</EventText.hiddenandclowngerous.laughatyourself>
+  <EventText.hiddenandclowngerous.clowngrateful>«Маєш рацію. Тут немає чого соромитися. Я зв'яжуся зі своїми друзями і чекатиму на шатл, який відвезе мене назад.» Клоун кланяється і стискає свій великий червоний ніс на знак подяки.</EventText.hiddenandclowngerous.clowngrateful>
+  <EventText.hiddenandclowngerous.seennoclown>"Ну... Не те щоб я бачив тут клоунів, пане.»</EventText.hiddenandclowngerous.seennoclown>
+  <EventText.hiddenandclowngerous.dontbotherme>«Тоді не відволікай мене!» Їм не потрібно знати про клоуна, а вам варто придумати інший спосіб.</EventText.hiddenandclowngerous.dontbotherme>
+  <EventText.hiddenandclowngerous.nonegociation>«Нє-а. Я з такими чортами перемовин не веду.»</EventText.hiddenandclowngerous.nonegociation>
+  <EventText.hiddenandclowngerous.escapeplan>«Це місце наганяє на мене страх.» Клоун робить на мить паузу і вигадує план. «Як щодо того, щоб влаштувати останній розіграш, відволікти їх, поки я тікатиму?»</EventText.hiddenandclowngerous.escapeplan>
+  <EventText.hiddenandclowngerous.whatprank>«Що в тебе на думці?»</EventText.hiddenandclowngerous.whatprank>
+  <EventText.hiddenandclowngerous.givesgrenade>«Ось, я приготував цю хлопавку для вечірки.» Він простягає вам... гранату? «Поклади її в шафу, а коли будеш готовий, посигналь. Це буде просто бомбезно, повір мені!»</EventText.hiddenandclowngerous.givesgrenade>
+  <EventText.hiddenandclowngerous.honkit> Зараз саме час! Сигналь! </EventText.hiddenandclowngerous.honkit>
+  <EventText.hiddenandclowngerous.pathoftrickster>Ви знаходите клоуна, що трясеться від збудження. «Це був розіграш на рівні J! До біса формальності, візьми мене на екскурсію супутником, у мене багато ідей, які можна розіграти!»</EventText.hiddenandclowngerous.pathoftrickster>
+  <EventText.hiddenandclowngerous.clowncanjoin>«Звичайно, тільки не підривай субмарину.»</EventText.hiddenandclowngerous.clowncanjoin>
+  <EventText.hiddenandclowngerous.snitchonclown>«Я знаю, де ховається єретик.»</EventText.hiddenandclowngerous.snitchonclown>
+  <EventText.hiddenandclowngerous.luretheclown>«Церква буде дуже вдячна за вашу співпрацю. Виманіть невіруючого, а ми подбаємо про решту.»</EventText.hiddenandclowngerous.luretheclown>
+  <EventText.hiddenandclowngerous.lietoclown>«Їм сподобалося. Тепер ви можете виходити.»</EventText.hiddenandclowngerous.lietoclown>
+  <EventText.hiddenandclowngerous.clownarrested>Ви чуєте по радіо начальника служби безпеки: «Церква дякує вам за допомогу. Нехай припливи донесуть вас до вашої мети.» Ви не дуже пишаєтеся тим, що зробили, але тим не менш приймаєте нагороду.</EventText.hiddenandclowngerous.clownarrested>
+  <EventText.missionevent_hiddenandclowngerous.worriedclown>Ви помічаєте незвично сумного клоуна. Незважаючи на його яскраву зовнішність, він, здається, чимось занепокоєний.</EventText.missionevent_hiddenandclowngerous.worriedclown>
+  <EventText.missionevent_hiddenandclowngerous.steppedonrake>«Що сталося? Наступив на граблі?»</EventText.missionevent_hiddenandclowngerous.steppedonrake>
+  <EventText.missionevent_hiddenandclowngerous.helpclowns>«Хочете вірте, хочете ні, але мені зараз не до сміху. Мені б знадобилася допомога такої команди, як ваша.»</EventText.missionevent_hiddenandclowngerous.helpclowns>
+  <EventText.missionevent_hiddenandclowngerous.twodaysago>«Два дні тому один із членів нашої трупи подумав, що було б непогано сісти на шатл до найближчої церкви, і відтоді ми про нього нічого не чули. Наш друг вважав, що він зможе проникнути в церкву і видати себе за адепта... Звісно, я подумав, що це жарт!»</EventText.missionevent_hiddenandclowngerous.twodaysago>
+  <EventText.missionevent_hiddenandclowngerous.huskdontlaugh>«Хаски не вміють говорити, а тим паче сміятися.»</EventText.missionevent_hiddenandclowngerous.huskdontlaugh>
+  <EventText.missionevent_hiddenandclowngerous.blasphemy>«Для нас це розвага та гра, але для цих людей саме поняття гумору схоже на блюзнірство!»</EventText.missionevent_hiddenandclowngerous.blasphemy>
+  <EventText.missionevent_hiddenandclowngerous.clownspies>«Не знав, що у Матері Клаксонів є шпигунська мережа.»</EventText.missionevent_hiddenandclowngerous.clownspies>
+  <EventText.missionevent_hiddenandclowngerous.avoidchurches>«Я думав, ви уникаєте відвідування церкви.»</EventText.missionevent_hiddenandclowngerous.avoidchurches>
+  <EventText.missionevent_hiddenandclowngerous.takethebikehorn>«Ми переїжджаємо з однієї станції на іншу, піднімаючи бойовий дух, у цьому й полягає місія нашої дезорганізації. У будь-якому разі, візьміть із собою цей велосипедний клаксон і вирушайте за цими координатами. Коли опинитеся там, посигнальте. Клоуни завжди відгукуються на поклик, тож ви зможете знайти нашого друга.»</EventText.missionevent_hiddenandclowngerous.takethebikehorn>
+  <EventText.missionevent_hiddenandclowngerous.acceptmission>«Глянемо, що зможу зробити.»</EventText.missionevent_hiddenandclowngerous.acceptmission>
+  <EventText.missionevent_hiddenandclowngerous.refusemission>Не будемо втручатися у справи клоунів.</EventText.missionevent_hiddenandclowngerous.refusemission>
+  <eventtext.missionevent_huskcultinterception.churchmakesmeds>«Ви знайомі з цими моторошними культистами Хаска, вірно? Зауважте, що вони не просто релігійні фанатики, церква виробляє більшу частину медикаментів і біотехнологій тут, на Європі.»</eventtext.missionevent_huskcultinterception.churchmakesmeds>
+  <EventText.missionevent_huskcultinterception.dependentonmeds>«Доти, доки ми не зможемо самі виробляти свої власні медикаменти у великих масштабах, ми залежимо від їхніх поставок, власне, як і Коаліція...»</EventText.missionevent_huskcultinterception.dependentonmeds>
+  <EventText.missionevent_huskcultinterception.takedowntransport>«План такий: захопити церковний транспортний корабель, що прямує до форпосту Коаліції. Це дасть нам змогу залишитися в тіні й одночасно завдати удару по Коаліції.»</EventText.missionevent_huskcultinterception.takedowntransport>
+  <EventText.missionevent_huskcultinterception.Whataboutit>«Я це вже знав, але що з того?»</EventText.missionevent_huskcultinterception.Whataboutit>
+  <EventText.missionevent_huskcultinterception.Whatnow>«І що тепер?»</EventText.missionevent_huskcultinterception.Whatnow>
+  <EventText.missionevent_huskcultinterception.Consideritdone>«Вважай, що справа в капелюсі.»</EventText.missionevent_huskcultinterception.Consideritdone>
+  <EventText.missionevent_huskcultinterception.Notapirate>«Ми не займаємося піратством.»</EventText.missionevent_huskcultinterception.Notapirate>
+  <EventText.missionevent_assassinatehuskresearcher.majorproblem>Представник Коаліції махає вам рукою. «Ось ви де. Я отримав звіт... У нас серйозна проблема.»</EventText.missionevent_assassinatehuskresearcher.majorproblem>
+  <EventText.missionevent_assassinatehuskresearcher.huskpathogen>«Ці церковні фанатики перебувають на межі наукового прориву: нового патогена, несхожого ні на що, що ми бачили раніше. Ми думаємо, що вони працюють над тим, як поширити вірус у великих масштабах.»</EventText.missionevent_assassinatehuskresearcher.huskpathogen>
+  <EventText.missionevent_assassinatehuskresearcher.missionbrief>«Ми повинні покласти край цьому дослідницькому проєкту. Їхній головний вчений має бути усунутий. Але ми не можемо діяти самостійно, відправка одного з наших агентів викличе не тільки відповідні дії церкви, а й підтримку Сепаратистів. \nНам потрібна позаштатна команда для цього... і ви якраз тут.»</EventText.missionevent_assassinatehuskresearcher.missionbrief>
+  <EventText.missionevent_assassinatehuskresearcher.whatkindofproblem>«То в чому, власне, проблема?»</EventText.missionevent_assassinatehuskresearcher.whatkindofproblem>
+  <EventText.missionevent_assassinatehuskresearcher.soundsbad>Звучить не дуже...</EventText.missionevent_assassinatehuskresearcher.soundsbad>
+  <EventText.missionevent_assassinatehuskresearcher.Iwilldoit>Я зроблю це.</EventText.missionevent_assassinatehuskresearcher.Iwilldoit>
+  <EventText.missionevent_assassinatehuskresearcher.Noway>Нізащо. Це занадто великий ризик.</EventText.missionevent_assassinatehuskresearcher.Noway>
+  <eventtext.missionevent_escorthuskterrorist.c1>«Деякі з місцевих шукають безпечний шлях до найближчої станції. Супроводьте їх туди в цілості, і вам заплатять.»</eventtext.missionevent_escorthuskterrorist.c1>
+  <EventText.missionevent_jailbreak_husk.c1>Диякон виглядає стурбованим. «Ви дуже добре знаєте, що Євангеліє Церкви може бути занадто... просвітницьким для деяких. \nТі, хто поширює добре слово, ніколи не застраховані від фанатизму та підозр.»</EventText.missionevent_jailbreak_husk.c1>
+  <EventText.missionevent_jailbreak_husk.o1.c1>«Кілька навернених несправедливо утримуються на найближчому аванпості. Звільніть їх від щелеп нетерпимості, і церква винагородить вас.»</EventText.missionevent_jailbreak_husk.o1.c1>
+  <eventtext.missionevent_huskmedicalcargo.c1>«На сусідньому форпості спалахнула епідемія. \nДоставте медикаменти та поширюйте добре слово церкви.»</eventtext.missionevent_huskmedicalcargo.c1>
+  <eventtext.missionevent_huskeggsmuggling.c1>«Нам потрібно поширювати віру, але невіруючі насторожено ставляться до наших дарів.\nВиставте ці товари нашим наверненим браттям, які ховаються.»</eventtext.missionevent_huskeggsmuggling.c1>
+  <eventtext.missionevent_escorthuskvip.c1>«Кардинал шукає транспорт до найближчої дослідницької лабораторії.»</eventtext.missionevent_escorthuskvip.c1>
+  <eventtext.missionevent_slimecollection.c1>«Ходять чутки, що церква Хаска розробляє нову вакцину. \nВони добре заплатять за свіжі зразки слизових бактерій.»</eventtext.missionevent_slimecollection.c1>
+  <eventtext.openblockade.pathunlocked>Ви тягнете важіль і чуєте гуркіт воріт: прохід відкрито.</eventtext.openblockade.pathunlocked>
+  <eventtext.blockadealarm.breakin>Порушник намагається відкрити ворота!</eventtext.blockadealarm.breakin>
+  <eventtext.blockadealarm.breakin>Не підходьте! Ми стрілятимемо!</eventtext.blockadealarm.breakin>
+  <eventtext.blockadealarm.breakin>Не дайте їм дістатися до воріт!</eventtext.blockadealarm.breakin>
+  <eventtext.blockadealarm.breakin>У нас проникнення!</eventtext.blockadealarm.breakin>
+  <eventtext.blockadealarm.breakin>Стріляйте в порушника!</eventtext.blockadealarm.breakin>
+  <eventtext.openblockade.blockade>Ви дісталися до блокади. Шлях до наступного біому має бути розблокований, щоб продовжити.</eventtext.openblockade.blockade>
+  <eventtext.openblockade.gotolever>Доберіться до пункту управління, щоб зняти блокаду.</eventtext.openblockade.gotolever>
+  <eventtext.missionevent_killmonster_regional.c1>«Я вже повідомляв про завдання. Якась фауна, не типова для цього регіону, завдає нам величезні збитки. Я відправив усі дані у вашу бортову навігаційну систему, якщо вам цікаво.»</eventtext.missionevent_killmonster_regional.c1>
+  <eventtext.missionevent_piratemission1.c1>«Ми отримали численні повідомлення про піратські судна, які створюють проблеми. Нам потрібно, щоб ви позбулися їх у будь-який спосіб.»</eventtext.missionevent_piratemission1.c1>
+  <eventtext.missionevent_piratemission2.c1>«Ми отримали численні повідомлення про піратське судно, яке транслює музику в глибинах і привертає більше монстрів до наших станцій. Необхідно, щоб ви позбулися його якомога швидше.»</eventtext.missionevent_piratemission2.c1>
+  <eventtext.missionevent_piratemission3.c1>«Нещодавно ми втратили контакт із кількома нашими суднами. Ми вважаємо, що їх атакувало дивне судно, яке, за повідомленнями, ховається в цих краях. Нам потрібно, щоб ви позбулися його, щоб запобігти подальшим втратам.»</eventtext.missionevent_piratemission3.c1>
+  <eventtext.troubledengine.monitor>На моніторі стану з'являється попередження про те, що двигун повільно виходить з ладу. Краще сказати механіку, щоб він подивився.</eventtext.troubledengine.monitor>
+  <eventtext.troubledengine.engine>Двигун перестав працювати. Потрібно швидко його полагодити.</eventtext.troubledengine.engine>
+  <eventtext.troubledengine.engine.success>Ви знову запустили двигун!</eventtext.troubledengine.engine.success>
+  <eventtext.troubledengine.engine.failure>Двигун не запустився. Спробувати ще раз? </eventtext.troubledengine.engine.failure>
+  <eventtext.troubledengine.engine.smack.failure>Щось відвалилося. Нічого особливого... Потрібно трохи часу, і він, імовірно, знову запрацює.</eventtext.troubledengine.engine.smack.failure>
+  <eventtext.option.useitem.wrench>Використати гайковий ключ</eventtext.option.useitem.wrench>
+  <eventtext.option.smack>Ударити!</eventtext.option.smack>
+  <eventtext.option.releasepressure>Скинути тиск</eventtext.option.releasepressure>
+  <eventtext.option.dontbother>Нехай хтось інший займеться цим...</eventtext.option.dontbother>
+  <eventtext.reactormalfunction.monitor>На моніторі стану з'являється попередження про несправність реактора. Інженеру, ймовірно, варто поглянути.</eventtext.reactormalfunction.monitor>
+  <eventtext.reactormalfunction.reactor>Здається, автоматична схема управління не реагує, і перемикач застряг. Хтось повинен вручну керувати реактором!</eventtext.reactormalfunction.reactor>
+  <eventtext.reactormalfunction.reactor.success>Ви вирішили проблему, і реактор повертається до нормальних значень!</eventtext.reactormalfunction.reactor.success>
+  <eventtext.reactormalfunction.reactor.failure>Вам не вдалося скинути тиск. Спробувати ще раз? </eventtext.reactormalfunction.reactor.failure>
+  <eventtext.reactormalfunction.reactor.smack.failure>Щось відвалилося. Будемо сподіватися, що нічого важливого...</eventtext.reactormalfunction.reactor.smack.failure>
+  <eventtext.reactormalfunction.backtonormal>Ви чуєте рух механічних деталей. Мабуть, проблема якимось чином вирішилася сама собою. У машини є свій власний дух...</eventtext.reactormalfunction.backtonormal>
+  <eventtext.bartender.buy.coalitionbeer>Пиво - Коаліція Преміум (10 марок)</eventtext.bartender.buy.coalitionbeer>
+  <eventtext.bartender.buy.separatistbeer>Пиво - Сила Юпітера (10 марок)</eventtext.bartender.buy.separatistbeer>
+  <eventtext.bartender.buy.huskbeer>Пиво - Рідке Вознесіння (59 марок)</eventtext.bartender.buy.huskbeer>
+  <eventtext.bartender.buy.clownbeer>Пиво - Клоунський Сік (38 марок)</eventtext.bartender.buy.clownbeer>
+  <eventtext.bartender.buy.whiskey>Віскі (125 марок)</eventtext.bartender.buy.whiskey>
+  <eventtext.bartender.buy.coalitionbeer.success.nodrunk>«Досить популярний вибір.»</eventtext.bartender.buy.coalitionbeer.success.nodrunk>
+  <eventtext.bartender.buy.separatistbeer.success.nodrunk>«Ах так, нещасливець.»</eventtext.bartender.buy.separatistbeer.success.nodrunk>
+  <eventtext.bartender.buy.huskbeer.success.nodrunk>«Цікавий вибір. Але тобі варто бути обережнішим із цим пійлом... Ходять чутки, що в ньому можуть міститися паразити.»</eventtext.bartender.buy.huskbeer.success.nodrunk>
+  <eventtext.bartender.buy.clownbeer.success.nodrunk>«Одну з тих, га? Тримай.»</eventtext.bartender.buy.clownbeer.success.nodrunk>
+  <eventtext.bartender.buy.whiskey.success.nodrunk>«Рекомендовано лікарями по всій Європі.»</eventtext.bartender.buy.whiskey.success.nodrunk>
+  <eventtext.bartender.outofstock>«Вибачте, у нас більше нічого не залишилося.»</eventtext.bartender.outofstock>
+  <eventtext.shop.engineer.co.attack>«Сьогодні ви заплатите. Хай живе революція!»</eventtext.shop.engineer.co.attack>
+  <eventtext.manualtakeover.call.nostation>Судячи з трекера, ви навіть не на станції! Не витрачайте наш час даремно! </eventtext.manualtakeover.call.nostation>
+  <eventtext.manualtakeover.call.church>Ви перебуваєте на станції Церкви Хаска. Ми не маємо наміру втручатися. Доступ заборонено!</eventtext.manualtakeover.call.church>
+  <eventtext.manualtakeover.call.bandits>Ви перебуваєте на піратській станції. Нас не цікавить цей об'єкт. Робіть що завгодно, ми не будемо претендувати на станцію!</eventtext.manualtakeover.call.bandits>
+  <eventtext.manualtakeover.call.coalition>Ви викликаєте Коаліцію на військовій частоті...</eventtext.manualtakeover.call.coalition>
+  <eventtext.manualtakeover.call.separatists>Ви викликаєте Сепаратистів на військовій частоті...</eventtext.manualtakeover.call.separatists>
+  <eventtext.manualtakeover.call.playerresponse>Ми хотіли б взяти на себе відповідальність за станцію...</eventtext.manualtakeover.call.playerresponse>
+  <eventtext.manualtakeover.call.permissiongranted>«Зрозумів. Можете продовжувати, але врахуйте, що ми не зможемо вам заплатити і не зможемо допомогти в цьому, але ви можете залишити собі будь-яке обладнання, яке знайдете! Тож удачі вам і вашій команді!»</eventtext.manualtakeover.call.permissiongranted>
+  <eventtext.manualtakeover.call.friendlystation>«Схоже, ви пристикувалися до дружньої станції. Прийом.»</eventtext.manualtakeover.call.friendlystation>
+  <eventtext.manualtakeover.call.radiobroke>Рація зламалася! \n\nВам слід отримати нову в офіцера в таборі, військовій базі, фортеці, колонії або аванпості.</eventtext.manualtakeover.call.radiobroke>
+  <eventtext.takeover.success>Ви чуєте, як хтось налаштовується на вашу частоту: «Досить! Ми здаємося! Станція ваша... Тільки, будь ласка, припиніть кровопролиття!»</eventtext.takeover.success>
+  <!-- <eventtext.takeover.success.info>Leave the station to receive your reward.</eventtext.takeover.success.info> -->
+  <!-- <eventtext.takeover.success.reward>You're receiving a call from the seargent: "Good work! The station is now under our command! We've delivered a little gift to your submarine. Go check it out!"</eventtext.takeover.success.reward> -->
+  <!-- <eventtext.takeover.success.reward.check>You notice a crate. Upon opening it you find a military radio with a note: \n"Use this to call into our military frequency and inform us about any other takeovers!"</eventtext.takeover.success.reward.check> -->
+  <eventtext.takeover.complete>«Відмінна робота! Станція тепер наша. Ми відправимо туди кілька наших людей. Станція скоро знову працюватиме під нашим командуванням! А поки що вам слід покинути станцію. Відправляю вашу нагороду...»</eventtext.takeover.complete>
+  <eventtext.takeover.attack>«Ми прибули! Переконайтеся, що ваша зброя заряджена, і запобіжник знято! Уперед!» \n\nТепер немає шляху назад: ви на війні.</eventtext.takeover.attack>
+  <eventtext.gettakeovermission.coalition.highrep.askingforhelp>«Ах, радий вас бачити! Ваша команда відмінно справляється! Ми запланували ще одну атаку. Чи могла б ваша команда допомогти в захопленні ще однієї сепаратистської станції поблизу?»</eventtext.gettakeovermission.coalition.highrep.askingforhelp>
+  <eventtext.gettakeovermission.coalition.medrep.askingforhelp>«Оскільки ваша команда добре справляється, ми хотіли б запитати, чи могла б ваша команда допомогти нам у ще одній атаці на сепаратистську станцію поблизу?»</eventtext.gettakeovermission.coalition.medrep.askingforhelp>
+  <eventtext.gettakeovermission.coalition.lowrep.askingforhelp>«Ми помітили ваші зусилля з підтриманням гарної репутації у нас, і хотіли б дати вашій команді шанс довести свою серйозність. Допоможіть нам в атаці на сепаратистську станцію поблизу, і незабаром ви працюватимете з нашими найкращими людьми!»</eventtext.gettakeovermission.coalition.lowrep.askingforhelp>
+  <eventtext.gettakeovermission.separatists.highrep.askingforhelp>«Ах, радий вас бачити! Ваша команда відмінно справляється! Ми запланували ще одну атаку. Чи могла б ваша команда допомогти в захопленні ще однієї коаліційної станції поблизу?»</eventtext.gettakeovermission.separatists.highrep.askingforhelp>
+  <eventtext.gettakeovermission.separatists.medrep.askingforhelp>«Оскільки ваша команда добре справляється, ми хотіли б запитати, чи могла б ваша команда допомогти нам у ще одній атаці на коаліційну станцію поблизу?»</eventtext.gettakeovermission.separatists.medrep.askingforhelp>
+  <eventtext.gettakeovermission.separatists.lowrep.askingforhelp>«Ми помітили ваші зусилля з підтриманням гарної репутації у нас, і хотіли б дати вашій команді шанс довести свою серйозність. Допоможіть нам в атаці на коаліційну станцію поблизу, і незабаром ви працюватимете з нашими найкращими людьми!» </eventtext.gettakeovermission.separatists.lowrep.askingforhelp>
+  <eventtext.gettakeovermission.option.accept>«Так, ми хотіли б допомогти. Яка станція наша ціль?»</eventtext.gettakeovermission.option.accept>
+  <eventtext.gettakeovermission.option.accept.answer>«Ось, я позначу це на вашій мапі... Ми також наказали кільком нашим солдатам допомогти вам і вашій команді під час атаки. Вони приєднаються до вас за хвилину.»</eventtext.gettakeovermission.option.accept.answer>
+  <eventtext.gettakeovermission.option.decline>«Вибачте, але в нас зараз інші справи, які потрібно вирішити в першу чергу.»</eventtext.gettakeovermission.option.decline>
+  <eventtext.gettakeovermission.option.decline.answer>«Гаразд. Повідомте мене, коли розберетеся зі справами або якщо передумаєте.»</eventtext.gettakeovermission.option.decline.answer>
+  <eventtext.gettakeovermission.giveradio.coalition>«Нам повідомили, що ви успішно втихомирили аванпост повстанців.» Сержант простягає вам пристрій зв'язку. \n\n«Ця рація налаштована на нашу військову частоту. Якщо ви опинитеся на ворожій станції, зв'яжіться з нами. Ми не зможемо надіслати підкріплення, але відправимо екіпаж, який візьме станцію під контроль після того, як ви розберетеся з її мешканцями.»</eventtext.gettakeovermission.giveradio.coalition>
+  <eventtext.gettakeovermission.giveradio.separatists>«Нам повідомили, що ви успішно звільнили аванпост з-під контролю Коаліції». Сержант простягає вам пристрій зв'язку. \n\n«Ця рація налаштована на нашу військову частоту. Якщо ви опинитеся на ворожій станції, зв'яжіться з нами. Ми не зможемо надіслати підкріплення, але відправимо екіпаж, який візьме станцію під контроль після того, як ви розберетеся з її мешканцями.»</eventtext.gettakeovermission.giveradio.separatists>
+  <eventtext.gettakeovermission.newradio>«Судячи з трекера, ви втратили військову рацію. Ось ще одна, але бережіть її як слід! Такі речі коштують недешево...»</eventtext.gettakeovermission.newradio>
+  <eventtext.gettakeovermission.general.isactive>«Нам досі треба захопити останню станцію, на яку відправили ваш екіпаж, перш ніж ми зможемо спланувати настуний напад.»</eventtext.gettakeovermission.general.isactive>
+  <eventtext.piratemissionbroadcast.receive>«Ярхархар, що в нас тут? Мої очі помітили гарний улов! Сподіваюся, ви підготувалися...»</eventtext.piratemissionbroadcast.receive>
+  <eventtext.cocargobroadcast.receive>Ви отримуєте передачу від іншого судна. Що ви будете робити? </eventtext.cocargobroadcast.receive>
+  <eventtext.cocargobroadcast.receive.accept.answer>«Це CO-CT-43. Негайно вкажіть мету вашого перебування в цій зоні!»</eventtext.cocargobroadcast.receive.accept.answer>
+  <eventtext.cocargobroadcast.receive.accept.answer.truth>(Сказати правду) «Вочевидь, ми тут, щоб пограбувати вас... Готуйтеся до абордажу!»</eventtext.cocargobroadcast.receive.accept.answer.truth>
+  <eventtext.cocargobroadcast.receive.accept.answer.truth.answer>«Принаймні, ти чесний... *ВСІ ПО МІСЦЯХ! У НАС ВОРОГИ!*»</eventtext.cocargobroadcast.receive.accept.answer.truth.answer>
+  <eventtext.cocargobroadcast.receive.accept.answer.lie>(Збрехати) «У нас є офіційні накази від адмірала Едварда перевірити ваш вантаж на наявність можливих безбілетників. Будь ласка, співпрацюйте з нами та зупиніть вашу субмарину.»</eventtext.cocargobroadcast.receive.accept.answer.lie>
+  <eventtext.cocargobroadcast.receive.accept.answer.lie.success>«О, адмірал Едвард? Так, ми негайно зупинимо наше судно! Ласкаво просимо на борт!»</eventtext.cocargobroadcast.receive.accept.answer.lie.success>
+  <eventtext.cocargobroadcast.receive.accept.answer.lie.failure>«Ви нас за придурків маєте? Адмірала Едварда не існує! Ким би ви не були, радимо розвернутися і забратися з нашого шляху, або зіткніться з наслідками.»</eventtext.cocargobroadcast.receive.accept.answer.lie.failure>
+  <eventtext.factionseparatist.meltdown>Реактор прогинається і скиглить від тиску, що робитимете?</eventtext.factionseparatist.meltdown>
+  <eventtext.factionseparatist.meltdown.option.pressure> Скинути тиск</eventtext.factionseparatist.meltdown.option.pressure>
+  <eventtext.factionseparatist.meltdown.option.pressure.success>Реактор здригається, але ви чуєте свист пари з ядра. Здається, щось під'єднали до нього...</eventtext.factionseparatist.meltdown.option.pressure.success>
+  <eventtext.factionseparatist.meltdown.option.pressure.failure>Реактор булькає, пара роздуває захисні шланги, що виходять з ядра, схоже, потрібен кваліфікований інженер.</eventtext.factionseparatist.meltdown.option.pressure.failure>
+  <eventtext.factionseparatist.smellofsulfur>Запах сірки обпікає ваші ніздрі...</eventtext.factionseparatist.smellofsulfur>
+  <eventtext.factionseparatist.hiddenstash>У стінах ви помічаєте маленьку металеву коробку, що виблискує у світлі.</eventtext.factionseparatist.hiddenstash>
+  <eventtext.factionseparatist.hiddenstash.take>Ви знаходите записку, заховану в детонаторі, з докладними інструкціями про те, що потрібно зробити для демократії.</eventtext.factionseparatist.hiddenstash.take>
+  <eventtext.bartender.offerdrink.nodrunk>«Вам не завадить випити.»</eventtext.bartender.offerdrink.nodrunk>
+  <eventtext.bartender.offerdrink.slightdrunk>«Вам не завадить ще один напій.»</eventtext.bartender.offerdrink.slightdrunk>
+  <eventtext.bartender.offerdrink.drunk>«Ще по одній?»</eventtext.bartender.offerdrink.drunk>
+  <eventtext.bartender.buy.rum>Ром (150 марок)</eventtext.bartender.buy.rum>
+  <eventtext.bartender.buy.rum.success.nodrunk>«Тільки штучний підсолоджувач, вибач.»</eventtext.bartender.buy.rum.success.nodrunk>
+  <eventtext.bartender.buy.rum.success.slightdrunk>«У мене ще багато такого.»</eventtext.bartender.buy.rum.success.slightdrunk>
+  <eventtext.bartender.buy.rum.success.drunk>«Я б подивився, як ви осушуватимете наступну!»</eventtext.bartender.buy.rum.success.drunk>
+  <eventtext.bartender.buy.rum.failure>«Ми даємо в борг тільки для своїх, спочатку заплатіть мені гроші.»</eventtext.bartender.buy.rum.failure>
+  <eventtext.bartender.tip>Залишити чайові та піти (50 марок)</eventtext.bartender.tip>
+  <eventtext.bartender.tip.success>«Я дам вам пораду за чайові; щойно відстиковуєтесь, перевірте цей сигнал, воно того варте.»</eventtext.bartender.tip.success>
+  <eventtext.bartender.tip.failure>«Волів би я, щоб компліменти сплачували рахунки, але спасибі в будь-якому разі.»</eventtext.bartender.tip.failure>
+  <eventtext.pirateoutpostevent>Пірат зупинився і дивиться на вас, наче очікуючи ваших дій. Що ви робитимете? </eventtext.pirateoutpostevent>
+  <eventtext.pirateoutpostevent.option.ignore>Іти далі.</eventtext.pirateoutpostevent.option.ignore>
+  <eventtext.pirateoutpostevent.option.ignore.answer>Ви не звертаєте уваги і продовжуєте займатися своїми справами.</eventtext.pirateoutpostevent.option.ignore.answer>
+  <eventtext.pirateoutpostevent.option.ignore.answer.response>Ви чуєте, як хтось кричить: «Гей, зажди секунду!»</eventtext.pirateoutpostevent.option.ignore.answer.response>
+  <eventtext.pirateoutpostevent.option.attack>Атакувати (знищити піратський аванпост)</eventtext.pirateoutpostevent.option.attack>
+  <eventtext.pirateoutpostevent.option.attack.answer>«Мені справді не подобається твоя пика, брудна піратська наволоч... Час для дезінсекції!»</eventtext.pirateoutpostevent.option.attack.answer>
+  <eventtext.pirateoutpostevent.option.attack2>Рвати й шматувати (Знищити піратський аванпост)</eventtext.pirateoutpostevent.option.attack2>
+  <eventtext.pirateoutpostevent.option.attack2.answer>«Час відправити вас усіх до пекла!»</eventtext.pirateoutpostevent.option.attack2.answer>
+  <eventtext.commsrelay.piratehaven>Станція намагається встановити зв'язок...</eventtext.commsrelay.piratehaven>
+  <eventtext.commsrelay.piratehaven.answer>«Агов! Ти що, йолоп? Думаєш, ми не перевіряємо, хто стикується? Ну, подумай ще раз, мудило! Ви ж з коаліцією! Навіть не думайте ступати на цей аванпост, інакше пошкодуєте, їблани! Забирайтеся!»</eventtext.commsrelay.piratehaven.answer>
+  <eventtext.option.accept>Прийняти</eventtext.option.accept>
+  <eventtext.option.listen>Слухати</eventtext.option.listen>
+  <eventtext.option.investigate>Досліджувати</eventtext.option.investigate>
+  <eventtext.option.decline>Відмовитися</eventtext.option.decline>
+  <eventtext.option.ignore>Ігнорувати</eventtext.option.ignore>
+  <eventtext.option.leave>Відійти</eventtext.option.leave>
+  <eventtext.option.nevermind>Неважливо</eventtext.option.nevermind>
+  <eventtext.general.decline>«Не зараз.»</eventtext.general.decline>
+  <eventtext.commsrelay.monster>Ви вловлюєте дивний радіосигнал, можливо, варто його дослідити...</eventtext.commsrelay.monster>
+  <eventtext.commsrelay.monster.answer>Примарне виття відлунює від корпусу, щось, мабуть, видає ці дивні сигнали.</eventtext.commsrelay.monster.answer>
+  <eventtext.commsrelay.monster.answer>Від пронизливого вереску по спині пробігають мурашки, щось, мабуть, випромінює ці дивні сигнали.</eventtext.commsrelay.monster.answer>
+  <eventtext.commsrelay.wreck>Ви вловлюєте автоматичний сигнал лиха, можливо, варто його дослідити...</eventtext.commsrelay.wreck>
+  <eventtext.commsrelay.wreck.answer>Ви отримуєте сигнал SOS звідкись поблизу від вашого поточного місця розташування.</eventtext.commsrelay.wreck.answer>
+  <eventtext.commsrelay.ruin>Ви вловлюєте інопланетний сигнал, можливо, варто його дослідити...</eventtext.commsrelay.ruin>
+  <eventtext.commsrelay.ruin.answer>Моторошний свист із дзижчанням збурює глибинний страх — щось, без сумніву, подає ці дивні сигнали.</eventtext.commsrelay.ruin.answer>
+  <eventtext.commsrelay.closetosignal>Дивний радіосигнал посилюється, він має бути поблизу...</eventtext.commsrelay.closetosignal>
+  <eventtext.commsrelay.generic.decline>«У нас зараз немає на це часу.»</eventtext.commsrelay.generic.decline>
+  <eventtext.factionstowaway.separatist>З ящика вистрибує суворий борець за свободу, розмахуючи вогнепальною зброєю.</eventtext.factionstowaway.separatist>
+  <eventtext.factionstowaway.coalition.good> Схоже, це неправильно доставлений вантаж іншого капітана. Відмінно! </eventtext.factionstowaway.coalition.good>
+  <eventtext.factionstowaway.coalition.bad>У ящику була маленька записка з печаткою коаліції. Вона містить штраф, не пощастило.</eventtext.factionstowaway.coalition.bad>
+  <eventtext.factionstowaway.cultist>Сморід гнилої плоті супроводжується іржавим водолазним костюмом, який починає вилазити з коробки.</eventtext.factionstowaway.cultist>
+  <eventtext.factionstowaway.clown>Підступний, глумливий арлекін зустрічає твій погляд з ухмилкою — з-під маски стікає слина.</eventtext.factionstowaway.clown>
+  <eventtext.cocivtransport.interact>Ви підходите до, здавалося б, наляканого цивільного. Що ви будете робити? </eventtext.cocivtransport.interact>
+  <eventtext.cocivtransport.option.rob>«Або швидко віддавай усі свої гроші, або винесуть звідси вперед ногами!»</eventtext.cocivtransport.option.rob>
+  <eventtext.cocivtransport.option.rob.answer>«Добре-добре… Це все, що в мене є!»</eventtext.cocivtransport.option.rob.answer>
+  <eventtext.cocivtransport.option.execute>"Останні слова?" (Стратити)</eventtext.cocivtransport.option.execute>
+  <eventtext.cocivtransport.option.execute.answer>«Ні-ні-ні-ні, будь ласка, заче...»</eventtext.cocivtransport.option.execute.answer>
+  <eventtext.cocivtransport.option.hire>«Приєднуйся до нас або помри, як інші!»</eventtext.cocivtransport.option.hire>
+  <eventtext.cocivtransport.option.hire.success>«Добре-добре! Я зроблю все, тільки не кривдьте мене!»</eventtext.cocivtransport.option.hire.success>
+  <eventtext.cocivtransport.option.hire.failure>«Я скоріше помру, ніж приєднаюся до якихось брудних піратів!» </eventtext.cocivtransport.option.hire.failure>
+  <eventtext.jobboardde.interact>Стіна всіяна оголошеннями — на кожному вказано винагороду. Яке з них ти обереш?</eventtext.jobboardde.interact>
+  <eventtext.jobboardde.option.piratemission>Нагорода за пірата</eventtext.jobboardde.option.piratemission>
+  <eventtext.jobboardde.option.piratemission.info>-НАЯВНІ НАГОРОДИ ДЛЯ МІСЦЕВИХ МИСЛИВЦІВ НА ПІРАТІВ-</eventtext.jobboardde.option.piratemission.info>
+  <eventtext.jobboardde.option.piratemission.accept>Ви думаєте про себе: «Коаліції дійсно потрібні люди, які анонімно виконують їхню брудну роботу.»</eventtext.jobboardde.option.piratemission.accept>
+  <eventtext.jobboardde.option.monstermission>Усунення фауни</eventtext.jobboardde.option.monstermission>
+  <eventtext.jobboardde.option.monstermission.info>-МІСЦЕВА ФАУНА СІЄ ХАОС - ПЛАТИМО ЗА ЇХ ЗНИЩЕННЯ-</eventtext.jobboardde.option.monstermission.info>
+  <eventtext.jobboardde.option.monstermission.accept>Ви думаєте про себе: «Хтось дійсно повинен очистити цих небезпечних тварюк."</eventtext.jobboardde.option.monstermission.accept>
+  <eventtext.jobboardde.option.miningmission>Місія з видобутку</eventtext.jobboardde.option.miningmission>
+  <eventtext.jobboardde.option.miningmission.info>-МІСЦЕВА ПЕЧЕРА МОЖЕ МІСТИТИ МІНЕРАЛЬНІ ПОКЛАДИ - МИ ПЛАТИМО ЗА ДОКАЗИ ЇХ ІСНУВАННЯ-</eventtext.jobboardde.option.miningmission.info>
+  <eventtext.jobboardde.option.miningmission.accept>Ви думаєте про себе: «Трохи чесної роботи з видобутку, що може піти не так?»</eventtext.jobboardde.option.miningmission.accept>
+  <eventtext.jobboardde.option.cargomission>Перевезення вантажу</eventtext.jobboardde.option.cargomission>
+  <eventtext.jobboardde.option.cargomission.info>-ПОТРІБНІ КАПІТАНИ ДЛЯ МОРОЗНИХ ПЕРЕВЕЗЕНЬ-</eventtext.jobboardde.option.cargomission.info>
+  <eventtext.jobboardde.option.cargomission.accept>Ви думаєте про себе: «Якщо чесно, мені до сраки на будь-які обмеження швидкості!»</eventtext.jobboardde.option.cargomission.accept>
+  <eventtext.jobboardde.option.salvagemission>Збір трофеїв</eventtext.jobboardde.option.salvagemission>
+  <eventtext.jobboardde.option.salvagemission.info>-У МІСЦЕВІЙ ПЕЧЕРІ З'ЯВИВСЯ СИГНАЛ - ПЛАТИМО КОЖНОМУ, ХТО ДОСЛІДИТЬ І ПОВЕРНЕ ЗНАЙДЕНЕ-</eventtext.jobboardde.option.salvagemission.info>
+  <eventtext.jobboardde.option.salvagemission.accept>Ви думаєте про себе: «Упевнений, там знайдеться що-небудь для утилізації!»</eventtext.jobboardde.option.salvagemission.accept>
+  <eventtext.shop.engineer.interact>«У мене тут є запасні матеріали, хочете купити? Але ви можете вибрати лише щось одне!»</eventtext.shop.engineer.interact>
+  <eventtext.shop.engineer.option.fuelrod>4x Паливний стрижень (900 марок)</eventtext.shop.engineer.option.fuelrod>
+  <eventtext.shop.engineer.option.fuelrod.buy.success>«Ось трохи додаткового палива для вас.»</eventtext.shop.engineer.option.fuelrod.buy.success>
+  <eventtext.shop.engineer.option.fuelrod.buy.failure>«Вибачте, я не займаюся благодійництвом.»</eventtext.shop.engineer.option.fuelrod.buy.failure>
+  <eventtext.shop.engineer.option.fpga>2x Схема ПКВМ (250 марок)</eventtext.shop.engineer.option.fpga>
+  <eventtext.shop.engineer.option.fpga.buy.success>«На ньому все ще відчувається запах фабрикатора.»</eventtext.shop.engineer.option.fpga.buy.success>
+  <eventtext.shop.engineer.option.fpga.buy.failure>«Ви знаєте, що це коштує грошей, вірно?»</eventtext.shop.engineer.option.fpga.buy.failure>
+  <eventtext.shop.engineer.option.extinguisher>1x Вогнегасник (100 марок)</eventtext.shop.engineer.option.extinguisher>
+  <eventtext.shop.engineer.option.extinguisher.buy.success>«Береженого Бог береже.»</eventtext.shop.engineer.option.extinguisher.buy.success>
+  <eventtext.shop.engineer.option.extinguisher.buy.failure>«У вас будуть проблеми, якщо спалахне пожежа.»</eventtext.shop.engineer.option.extinguisher.buy.failure>
+  <eventtext.shop.engineer.unfriedly>«Ми не збираємося допомагати таким, як ви.»</eventtext.shop.engineer.unfriedly>
+  <eventtext.shop.engineer.attack>«Сьогодні ви заплатите! Хай живе революція!»</eventtext.shop.engineer.attack>
+  <eventtext.shop.quartermaster.interact>«У мене є надлишок зварювального палива, якщо вам потрібно поповнити запаси.»</eventtext.shop.quartermaster.interact>
+  <eventtext.shop.quartermaster.option.weldingfuel>8x Зварювальне паливо (1000 марок)</eventtext.shop.quartermaster.option.weldingfuel>
+  <eventtext.shop.quartermaster.option.weldingfuel.buy.success>«Пам'ятайте, воно легкозаймисте!»</eventtext.shop.quartermaster.option.weldingfuel.buy.success>
+  <eventtext.shop.quartermaster.option.weldingfuel.buy.failure>«Вибачте, я не займаюся благодійництвом.»</eventtext.shop.quartermaster.option.weldingfuel.buy.failure>
+  <eventtext.shop.quartermaster.option.scrap>1x Брухт + Інформація (1000 марок)</eventtext.shop.quartermaster.option.scrap>
+  <eventtext.shop.quartermaster.option.scrap.buy.success>«Отримав з уламків неподалік звідси, дозвольте додати це на вашу карту...»</eventtext.shop.quartermaster.option.scrap.buy.success>
+  <eventtext.shop.quartermaster.option.scrap.buy.failure>«Для мене це не сміття, хлопче, плати.»</eventtext.shop.quartermaster.option.scrap.buy.failure>
+  <eventtext.shop.securityofficer.interact>У мене є надлишкові боєприпаси, якщо хочете поповнити запаси, але я можу продати лише один пакунок!</eventtext.shop.securityofficer.interact>
+  <eventtext.shop.securityofficer.option.coilgunammo>Ящик набоїв для магнітної гармати (150 марок)</eventtext.shop.securityofficer.option.coilgunammo>
+  <eventtext.shop.securityofficer.option.coilgunammo.buy.success>«Віддавай усе до останнього патрона.»</eventtext.shop.securityofficer.option.coilgunammo.buy.success>
+  <eventtext.shop.securityofficer.option.coilgunammo.buy.failure>«Ці набої не для благодійсності.»</eventtext.shop.securityofficer.option.coilgunammo.buy.failure>
+  <eventtext.shop.securityofficer.option.revolverammo>12x Набій для револьвера .38 калібру (600 марок)</eventtext.shop.securityofficer.option.revolverammo>
+  <eventtext.shop.securityofficer.option.revolverammo.buy.success>«Старий-добрий .38.»</eventtext.shop.securityofficer.option.revolverammo.buy.success>
+  <eventtext.shop.securityofficer.option.revolverammo.buy.failure>«Ви знаєте, що кулі не безкоштовні, так?»</eventtext.shop.securityofficer.option.revolverammo.buy.failure>
+  <eventtext.shop.securityofficer.option.smgmagazine>2x Магазин для ПК (400 марок)</eventtext.shop.securityofficer.option.smgmagazine>
+  <eventtext.shop.securityofficer.option.smgmagazine.buy.success>«.45, щоб випустити дух з тіла.»</eventtext.shop.securityofficer.option.smgmagazine.buy.success>
+  <eventtext.shop.securityofficer.option.smgmagazine.buy.failure>«Ви знаєте, що кулі не безкоштовні, так?»</eventtext.shop.securityofficer.option.smgmagazine.buy.failure>
+  <eventtext.securityofficer.interact>«У вас є вкрадені товари при собі?»</eventtext.securityofficer.interact>
+  <eventtext.securityofficer.option.polite>«Ні, пане.»</eventtext.securityofficer.option.polite>
+  <eventtext.securityofficer.option.polite.answer>«Краще що б так і було.»</eventtext.securityofficer.option.polite.answer>
+  <eventtext.securityofficer.option.rude>«Жодних, про які б тобі варто було знати.»</eventtext.securityofficer.option.rude>
+  <eventtext.securityofficer.option.rude.answer>«Сильно розумний, еге ж?»</eventtext.securityofficer.option.rude.answer>
+  <eventtext.securityofficer.bribe.interact>«Я стежитиму за тобою.»</eventtext.securityofficer.bribe.interact>
+  <eventtext.securityofficer.bribe.option.polite>«Я нормально поводитимуся, офіцере.»</eventtext.securityofficer.bribe.option.polite>
+  <eventtext.securityofficer.bribe.option.polite.answer>«Побачимо...»</eventtext.securityofficer.bribe.option.polite.answer>
+  <eventtext.securityofficer.bribe.option.rude>«Усі охоронці - вилупки!»</eventtext.securityofficer.bribe.option.rude>
+  <eventtext.securityofficer.bribe.option.rude.answer>«То ти хочеш робити це складним шляхом, а?»</eventtext.securityofficer.bribe.option.rude.answer>
+  <eventtext.securityofficer.bribe.option.leave.answer>«У мене тут підозрюваний, будьте напоготові.»</eventtext.securityofficer.bribe.option.leave.answer>
+  <eventtext.securityofficer.bribe.option.bribe.high>Підкупити (500 марок)</eventtext.securityofficer.bribe.option.bribe.high>
+  <eventtext.securityofficer.bribe.option.bribe.medium>Підкупити (250 марок)</eventtext.securityofficer.bribe.option.bribe.medium>
+  <eventtext.securityofficer.bribe.option.bribe.low>Підкупити (75 марок)</eventtext.securityofficer.bribe.option.bribe.low>
+  <eventtext.securityofficer.bribe.option.bribe.success>«Думаю, ти не той, кого я шукав.»</eventtext.securityofficer.bribe.option.bribe.success>
+  <eventtext.securityofficer.bribe.option.bribe.failure>«Намагаєшся підкупити мене цим дріб'язком?»</eventtext.securityofficer.bribe.option.bribe.failure>
+  <eventtext.securityofficer.bribe.option.bribe.rejected>«Ти намагаєшся мене підкупити?»</eventtext.securityofficer.bribe.option.bribe.rejected>
+  <eventtext.securityofficer.option.insult> Образити</eventtext.securityofficer.option.insult>
+  <eventtext.securityofficer.option.insult.answer>«Що ти мені щойно сказав!? Якщо не припиниш, то я складу рапорт!»</eventtext.securityofficer.option.insult.answer>
+  <eventtext.securityofficer.option.insult.answer.insult.answer>«Ну все! Тебе заарештовано!»</eventtext.securityofficer.option.insult.answer.insult.answer>
+  <eventtext.securityofficer.option.insult.leave.answer>«Так, тобі краще йти!»</eventtext.securityofficer.option.insult.leave.answer>
+  <eventtext.shop.piratesecurityofficer.interact>«Та маю я трохи клятого вогнепалу, як підзапастись хочеш. Продам тобі одну паку — яку вибереш.»</eventtext.shop.piratesecurityofficer.interact>
+  <eventtext.shop.piratesecurityofficer.option.hyperzine>Гіперцин (500 марок)</eventtext.shop.piratesecurityofficer.option.hyperzine>
+  <eventtext.shop.piratesecurityofficer.option.hyperzine.buy.success>«О! Оце штука як треба!»</eventtext.shop.piratesecurityofficer.option.hyperzine.buy.success>
+  <eventtext.shop.piratesecurityofficer.option.hyperzine.buy.failure>«Задарма кайфувати не будеш.»</eventtext.shop.piratesecurityofficer.option.hyperzine.buy.failure>
+  <eventtext.shop.piratesecurityofficer.option.handcannonammo>6x Патрон для револьвера тяжкого калібру (1000 марок)</eventtext.shop.piratesecurityofficer.option.handcannonammo>
+  <eventtext.shop.piratesecurityofficer.option.handcannonammo.buy.success>«Це проб'є будь-який бронежилет Коаліції, богомола і навіть панцир молоха, присягаюся.»</eventtext.shop.piratesecurityofficer.option.handcannonammo.buy.success>
+  <eventtext.shop.piratesecurityofficer.option.handcannonammo.buy.failure>«Це схоже на благодійність?»</eventtext.shop.piratesecurityofficer.option.handcannonammo.buy.failure>
+  <eventtext.shop.piratesecurityofficer.option.assaultriflemagazine>2x Магазин для штурмової гвинтівки (1000 марок)</eventtext.shop.piratesecurityofficer.option.assaultriflemagazine>
+  <eventtext.shop.piratesecurityofficer.option.assaultriflemagazine.buy.success>«Вони зроблені з ненавистю і заряджені зловмисними намірами, штурмуйте відповідально.»</eventtext.shop.piratesecurityofficer.option.assaultriflemagazine.buy.success>
+  <eventtext.shop.piratesecurityofficer.option.assaultriflemagazine.buy.failure> «Ти тільки-но пригнав із занедбаної станції? Мені тут гроші потрібні.»</eventtext.shop.piratesecurityofficer.option.assaultriflemagazine.buy.failure>
+  <eventtext.piratesecurityofficer.toll.low.interact>«Знаєш, ми не кожному даємо просто так зайти. Тут, курва, мито платять! Дам пораду: краще заплати!»</eventtext.piratesecurityofficer.toll.low.interact>
+  <eventtext.piratesecurityofficer.highrep.pay.high>Сплатити мито (1000 марок)</eventtext.piratesecurityofficer.highrep.pay.high>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success>«Ха! Ось це я люблю. Жодних клопотів!»</eventtext.piratesecurityofficer.highrep.paytoll.success>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation>«А знаєш що... Даси вдвічі більше — пошепчу кільком екіпажам, які ви файні.»</eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy>Заплатити 1000 марок (Репутація Коаліції -20)</eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy.success>«Ха! Я знав, що ти мені сподобаєшся!»</eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy.success>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy.failure>«Мужик, в тебе навіть немає бабла... Хотів наїбати мене? Забирайся геть!»</eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.buy.failure>
+  <eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.declined>«Пфф! Гаразд... Залишайся зі своїми смердючими грошима!»</eventtext.piratesecurityofficer.highrep.paytoll.success.extra.reputation.declined>
+  <eventtext.piratesecurityofficer.highrep.paytoll.failure>«Грошей нема? Та певно, є у тебе щось, що варте мого часу.»</eventtext.piratesecurityofficer.highrep.paytoll.failure>
+  <eventtext.piratesecurityofficer.highrep.pay.medium>Торгуватися (750 марок)</eventtext.piratesecurityofficer.highrep.pay.medium>
+  <eventtext.piratesecurityofficer.highrep.haggle.success>«Серйозно? Ти підйобуєш мене, так? Гаразд, добре! Заходь...»</eventtext.piratesecurityofficer.highrep.haggle.success>
+  <eventtext.piratesecurityofficer.highrep.haggle.failure>«Думаєш, цього дріб'язку вистачить? Гаразд, заходь, але май на увазі: без готівки — ні чорта не отримаєш.»</eventtext.piratesecurityofficer.highrep.haggle.failure>
+  <eventtext.piratesecurityofficer.highrep.haggle.rejected>«Знайди гроші або відвали.»</eventtext.piratesecurityofficer.highrep.haggle.rejected>
+  <eventtext.piratesecurityofficer.highrep.pay.low>Благати (250 марок)</eventtext.piratesecurityofficer.highrep.pay.low>
+  <eventtext.piratesecurityofficer.highrep.plead.success>«Твої сльози мене смішать... Не говори ні слова більше і геть з моїх очей.»</eventtext.piratesecurityofficer.highrep.plead.success>
+  <eventtext.piratesecurityofficer.highrep.plead.undress>«Не можеш дозволити собі нашу гостинність? Не хвилюйся, я дам тобі королівський прийом!»</eventtext.piratesecurityofficer.highrep.plead.undress>
+  <eventtext.piratesecurityofficer.highrep.plead.UhOh>«Ой-ой.»</eventtext.piratesecurityofficer.highrep.plead.UhOh>
+  <eventtext.piratesecurityofficer.highrep.plead.failure>«Як вам буде завгодно, ваша величносте!»</eventtext.piratesecurityofficer.highrep.plead.failure>
+  <eventtext.piratesecurityofficer.highrep.plead.rejected>«Ця жалюгідна відмазка тебе не врятує!»</eventtext.piratesecurityofficer.highrep.plead.rejected>
+  <eventtext.piratesecurityofficer.toll.option.leave.answer>«Я знаю мову, яку ти зрозумієш.»</eventtext.piratesecurityofficer.toll.option.leave.answer>
+  <eventtext.piratesecurityofficer.toll.option.insult> Образити</eventtext.piratesecurityofficer.toll.option.insult>
+  <eventtext.piratesecurityofficer.toll.option.insult.answer>«Ти, сука, згниєш на дні!»</eventtext.piratesecurityofficer.toll.option.insult.answer>
+  <eventtext.piratesecurityofficer.attack>«Взяти їх!»</eventtext.piratesecurityofficer.attack>
+  <eventtext.piratesecurityofficer.attack.coalition>Взяти тих свиней Коаліції! </eventtext.piratesecurityofficer.attack.coalition>
+  <eventtext.piratesecurityofficer.toll.high.interact>«Що у нас тут? Коаліційна сволота!? Ти знаєш, що тут є блядське МИТО! Плати, йолопе!»</eventtext.piratesecurityofficer.toll.high.interact>
+  <eventtext.piratesecurityofficer.lowrep.pay.high>Заплатити мито(2000 марок)</eventtext.piratesecurityofficer.lowrep.pay.high>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success>«Спасибі, що зазирнув, свине!»</eventtext.piratesecurityofficer.lowrep.paytoll.success>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation>«У мене для тебе особлива пропозиція. Плати вдвічі більше, і я скажу хороше про твою команду іншим екіпажам тут.»</eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy>Заплатити 1000 марок (Репутація Коаліції -40)</eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy.success>«Не очікував, що ти справді заплатиш. Гаразд, я поширю круті чутки про твою команду. Коаліції це не сподобається, хе-хе.»</eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy.success>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy.failure>«Подивіться на цього телепня! Навіть за своїми довбаними грошима не може вслідкувати. Забирайся звідси!»</eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.buy.failure>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.declined>«Міг би й здогадатися. Ти ж просто сраний вірний підлиза. Забирайся з очей!»</eventtext.piratesecurityofficer.lowrep.paytoll.success.extra.reputation.declined>
+  <eventtext.piratesecurityofficer.lowrep.paytoll.failure>«У тебе навіть немає грошей? Упевнений, у вас, коаліційних хлопців, є щось варте мого часу.»</eventtext.piratesecurityofficer.lowrep.paytoll.failure>
+  <eventtext.piratesecurityofficer.lowrep.pay.medium>Торгуватися (1500 марок)</eventtext.piratesecurityofficer.lowrep.pay.medium>
+  <eventtext.piratesecurityofficer.lowrep.haggle.success>«Заходь, але швидше, свине, інакше я сам.»</eventtext.piratesecurityofficer.lowrep.haggle.success>
+  <eventtext.piratesecurityofficer.lowrep.haggle.failure>«Я очікував більшого від такого, як ти... Іди сюди!»</eventtext.piratesecurityofficer.lowrep.haggle.failure>
+  <eventtext.piratesecurityofficer.toll.high.haggle.rejected>«Знаєш що? Забудь про це! Тобі кінець!»</eventtext.piratesecurityofficer.toll.high.haggle.rejected>
+  <eventtext.piratesecurityofficer.lowrep.pay.low>Благати (1000 марок)</eventtext.piratesecurityofficer.lowrep.pay.low>
+  <eventtext.piratesecurityofficer.lowrep.plead.success>«Ха-ха, хлопці, дивіться на цей шмат лайна! ...Гаразд, ти мене розсмішив, заходь, поки я не передумав!»</eventtext.piratesecurityofficer.lowrep.plead.success>
+  <eventtext.piratesecurityofficer.lowrep.plead.failure>«Ти, блядь, знущаєшся!? Я заберу все з твого їбаного трупа!»</eventtext.piratesecurityofficer.lowrep.plead.failure>
+  <eventtext.piratesecurityofficer.lowrep.plead.rejected>«Твоя жалюгідна відмазка тебе не врятує, як і твої союзнички з коаліції! Говори свої останні слова!»</eventtext.piratesecurityofficer.lowrep.plead.rejected>
+  <eventtext.piratehavenalarm.breakin>«Ці хлопці намагаються вдертися всередину! Взяти їх!»</eventtext.piratehavenalarm.breakin>
+  <eventtext.piratearmorylocked.doorlocked>Ти намагаєшся натиснути кнопку, але двері здаються замкненими. З іншого боку чується хрипкий голос: \n\n«Треба було заплатити мито, бовдуре. Але якщо ти СПРАВДІ хочеш увійти... Ми можемо знайти рішення...»</eventtext.piratearmorylocked.doorlocked>
+  <eventtext.piratearmorylocked.howmuch>*Зітхає...* «Скільки?»</eventtext.piratearmorylocked.howmuch>
+  <eventtext.piratearmorylocked.500mk>«500 марок. Плати або залишайся назовні.»</eventtext.piratearmorylocked.500mk>
+  <eventtext.piratearmorylocked.Pay>«Гаразд...»</eventtext.piratearmorylocked.Pay>
+  <eventtext.piratearmorylocked.noway>«Нізащо. Це грабунок.»</eventtext.piratearmorylocked.noway>
+  <eventtext.piratearmorylocked.dooropens>«Відмінно. Сподіваюся на плідну співпрацю.»</eventtext.piratearmorylocked.dooropens>
+  <eventtext.piratearmorylocked.nomoney>«Намагаєшся мене обдурити? Немає грошей – немає зброї.»</eventtext.piratearmorylocked.nomoney>
+  <eventtext.piratearmorylocked.comeback>«Ха! Повертайся, якщо передумаєш. Я нікуди не дінуся.»</eventtext.piratearmorylocked.comeback>
+  <eventtext.piratearmoryalarm.breakin>«Цей хлопець намагається вкрасти наші запаси!»</eventtext.piratearmoryalarm.breakin>
+  <eventtext.piratediversoutpost.meetambusher>Коли ви проходите коридором, якийсь підозрілий індивід кладе руку вам на плече.
+ «Гарненька у тебе субмарина. Справжня красуня... Б’юсь об заклад, коштувала тобі чимало.»</eventtext.piratediversoutpost.meetambusher>
+  <eventtext.piratediversoutpost.agree>«Це просто купа мотлоху.»</eventtext.piratediversoutpost.agree>
+  <eventtext.piratediversoutpost.buggeroff>«Відвали»</eventtext.piratediversoutpost.buggeroff>
+  <eventtext.piratediversoutpost.Iwascaptain>Чоловік продовжує слідувати за вами. «Знаєте, я був капітаном? Моє судно потопили ці коаліційні пси. Намагався прорватися через блокаду з вантажем хорошого товару, але виявилося, що Дюгоні не славляться своєю швидкістю.»</eventtext.piratediversoutpost.Iwascaptain>
+  <eventtext.piratediversoutpost.Iwascaptain2>Самопроголошений капітан спльовує на підлогу.
+ «Пряме влучання з рейкотрона. Пробило діру в середині корпусу, але якось я і моя команда дотягнули назад до цієї щурячої діри. Якби в мене була твоя субмарина, усе було б інакше...»</eventtext.piratediversoutpost.Iwascaptain2>
+  <eventtext.piratediversoutpost.goodluck>«Не пощастило, друже. Бажаю тобі всього найкращого.»</eventtext.piratediversoutpost.goodluck>
+  <eventtext.piratediversoutpost.dontcare>«Не моя проблема.»</eventtext.piratediversoutpost.dontcare>
+  <eventtext.piratediversoutpost.offersbooze>Мимовільно, капітан-сухохід повертається і витягує щось з-під пальта. На якусь мить вам здається, що це пістолет, але це лише пляшка рому. «Знаєте що, у мене гарне передчуття, що бізнес відновиться. Витягнув цих крихіток з моєї особистої заначки. Ця за рахунок закладу!»</eventtext.piratediversoutpost.offersbooze>
+  <eventtext.piratediversoutpost.takebooze>«Ніколи не кажи «ні» безкоштовному алкоголю.»</eventtext.piratediversoutpost.takebooze>
+  <eventtext.piratediversoutpost.getthehelloff>«Відвали від мене. Ти мені не друг, приятелю.»</eventtext.piratediversoutpost.getthehelloff>
+  <eventtext.piratediversoutpost.drinkup> «Пий до дна, і не забудь поділитися з усією своєю командою! До останньої краплі. А я скоро полишу це місце...» \n\nВи помічаєте зловісний смішок.</eventtext.piratediversoutpost.drinkup>
+  <eventtext.piratediversoutpost.dontgetalong>«Байдуже. Схоже, ми не поладнаємо. Не турбуйся, я скоро відпливаю...»</eventtext.piratediversoutpost.dontgetalong>
+  <eventtext.piratediversoutpost.soundinairlock>У шлюзовій камері лунає гучний звук...</eventtext.piratediversoutpost.soundinairlock>
+  <eventtext.piratediversoutpost.takeover>«Ми захоплюємо цей корабель!»</eventtext.piratediversoutpost.takeover>
+  <eventtext.piratemissioninformant.interact>«Хм? Шукаєш підробіток, кажеш? Дозволь мені сказати тобі дещо! Тут немає ніякої адміністративної служби! Але... У мене є інформація про коаліційний транспорт, що проходить неподалік, і я не впевнений, що моя команда готова до цього. Я продам її тобі, якщо в тебе є гроші!»</eventtext.piratemissioninformant.interact>
+  <eventtext.piratemissioninformant.option.buy>Купити (1000 марок)</eventtext.piratemissioninformant.option.buy>
+  <eventtext.piratemissioninformant.option.buy.success>«Ха, чудово! Дозволь мені показати тобі, де вони будуть проходити!»</eventtext.piratemissioninformant.option.buy.success>
+  <eventtext.piratemissioninformant.option.buy.failure>«Не збираюся ділитися задарма, дурню! Повертайся, коли в тебе будуть гроші!»</eventtext.piratemissioninformant.option.buy.failure>
+  <EventText.DEgotoblockade.c1>«НАГОРОДА ВІД КОАЛІЦІЇ» — вицвілі й пошарпані плакати перераховують місця руйнувань та зараження. Схоже, коаліція загрузла по самі вуха. Тобі вдається розібрати лише один набір координат.</EventText.DEgotoblockade.c1>
+  <EventText.DEgotoblockade.o1>«Безподаткова виплата ще нікому не завадила…»</EventText.DEgotoblockade.o1>
+  <eventtext.missionevent_lair.c1>«Поруч знаходиться величезне лігво, з якого щохвилини з'являється все більше і більше істот, якщо ти зможеш знищити його, тобі буде призначена винагорода!»</eventtext.missionevent_lair.c1>
+  <EventText.missionevent_lair.o1>Зрозумів</EventText.missionevent_lair.o1>
+  <eventtext.survey.interact>Ця автоматична станція сканує навколишню місцевість на наявність мінералів. На терміналі відображається повідомлення: \n\n «ЗАПЛАТИ 1000 МАРОК, ЩОБ ОТРИМАТИ ДОСТУП ДО БАЗИ ДАНИХ СКАНУВАННЯ ЦЬОГО ПРИСТРОЮ»</eventtext.survey.interact>
+  <eventtext.survey.payup>Переказати гроші</eventtext.survey.payup>
+  <eventtext.survey.givemissions>«ДОСТУП НАДАНО. МОЖЛИВІ МІСЦЕЗНАХОДЖЕННЯ МІНЕРАЛІВ МОЖНА ЗНАЙТИ В ЦИХ МІСЦЯХ...»</eventtext.survey.givemissions>
+  <eventtext.survey.nomoney>«НЕДОСТАТНЬО КОШТІВ. У ДОСТУПІ ВІДМОВЛЕНО»</eventtext.survey.nomoney>
+  <eventtext.constructionrecipe.recipe>На панелі відображено повідомлення від наглядача аванпосту: \n\n
+
+«ПОТРІБНІ БУДІВЕЛЬНІ БЛОКИ. МОЖНА ВИГОТОВИТИ ТА УПАКУВАТИ ЗА ДОПОМОГОЮ НАСТУПНИХ МАТЕРІАЛІВ:» 
+
+\n\n-Свинець
+
+ \n-Мідь \n-
+
+Сталь \n-
+
+Залізо
+ \n-Цинк \n-Алюміній </eventtext.constructionrecipe.recipe>
+  <eventtext.Constructionprogress.starterdialogue>«Гей, ти! У нас закінчуються матеріали, а наступна поставка затримується на кілька днів. Ми не хочемо витрачати більше часу на цьому будівельному об'єкті, ніж необхідно... У вас випадково немає 5 ящиків будівельних матеріалів? Ми, звісно, заплатимо за них!»</eventtext.Constructionprogress.starterdialogue>
+  <eventtext.Constructionprogress.wehavecrates>«Так, у нас є. Дозвольте мені їх принести.»</eventtext.Constructionprogress.wehavecrates>
+  <eventtext.Constructionprogress.speaktomeagain>«О, чудово! Поговори зі мною ще раз, коли завершиш доставку до вантажного відсіку он там — і отримаєш свою оплату.»</eventtext.Constructionprogress.speaktomeagain>
+  <eventtext.Constructionprogress.letmecheck>«Дозвольте мені перевірити наш вантаж.»</eventtext.Constructionprogress.letmecheck>
+  <eventtext.Constructionprogress.ifyoufindcrates>«Добре! Якщо раптом щось знайдеш — достав до вантажного відсіку он там і поговори зі мною, коли закінчиш.»</eventtext.Constructionprogress.ifyoufindcrates>
+  <eventtext.Constructionprogress.notinterested>«Незацікавлений.»</eventtext.Constructionprogress.notinterested>
+  <eventtext.Constructionprogress.findmeagain>«Розумію... Ну, якщо передумаєте, знаєте, де мене знайти.»</eventtext.Constructionprogress.findmeagain>
+  <eventtext.Constructionprogress.nomaterials>«Нам не вистачає матеріалів.»</eventtext.Constructionprogress.nomaterials>
+  <eventtext.Constructionprogress.wellwait>«Розумію... Ну тоді, гадаю, нам доведеться чекати офіційної поставки.»</eventtext.Constructionprogress.wellwait>
+  <eventtext.Constructionprogress.changeyourmind>«О, гей! Ви передумали? Нам справді потрібні ці 5 ящиків будівельних матеріалів!»</eventtext.Constructionprogress.changeyourmind>
+  <eventtext.Constructionprogress.cratescoming>«Так, ящики вже в дорозі.»</eventtext.Constructionprogress.cratescoming>
+  <eventtext.Constructionprogress.cratesdelivered>«Бачу, ви доставили необхідну кількість. Ось ваша оплата!»</eventtext.Constructionprogress.cratesdelivered>
+  <eventtext.Constructionprogress.thanks>«Дякую.»</eventtext.Constructionprogress.thanks>
+  <eventtext.Constructionprogress.youdecide>«О, і оскільки в нас із вами добрі стосунки, адміністрація вирішила відкинути поточні плани будівництва й дозволити вам вирішити, який тип станції ми маємо побудувати тут. Отже, що це буде, босе?»</eventtext.Constructionprogress.youdecide>
+  <eventtext.Constructionprogress.settlement>Поселення</eventtext.Constructionprogress.settlement>
+  <eventtext.Constructionprogress.settlementpicked>«Добре, це буде поселення. Я повернуся до роботи. Вдалих подорожей!»</eventtext.Constructionprogress.settlementpicked>
+  <eventtext.Constructionprogress.base>Військова база</eventtext.Constructionprogress.base>
+  <eventtext.Constructionprogress.basepicked>«Добре, це буде військова база. Я повернуся до роботи. Вдалих подорожей!»</eventtext.Constructionprogress.basepicked>
+  <eventtext.Constructionprogress.research>Дослідницька станція</eventtext.Constructionprogress.research>
+  <eventtext.Constructionprogress.researchpicked>«Добре, це буде дослідницька станція. Я повернуся до роботи. Вдалих подорожей!»</eventtext.Constructionprogress.researchpicked>
+  <eventtext.Constructionprogress.hospital>Госпіталь</eventtext.Constructionprogress.hospital>
+  <eventtext.Constructionprogress.hospitalpicked>«Гаразд, це буде госпіталь. Я повернуся до роботи. Вдалих подорожей!»</eventtext.Constructionprogress.hospitalpicked>
+  <eventtext.Constructionprogress.backtowork>«Я повернуся до роботи. Вдалих подорожей!»</eventtext.Constructionprogress.backtowork>
+  <eventtext.Constructionprogress.notenough>«Боюся, цього недостатньо. Перевірте свій вантажний відсік і подивіться, чи зможете ви знайти ще.»</eventtext.Constructionprogress.notenough>
+  <eventtext.Constructionprogress.checkagain>«Я піду перевірю ще раз.»</eventtext.Constructionprogress.checkagain>
+  <eventtext.Constructionprogress.allwegot>«Вибачте, але це все, що в нас є...»</eventtext.Constructionprogress.allwegot>
+  <eventtext.Constructionprogress.takecargoback>«У цьому випадку я рекомендую забрати ваш вантаж назад. Ми будемо чекати офіційної поставки.»</eventtext.Constructionprogress.takecargoback>
+  <eventtext.ConstructionUpgrade.starterdialogue>«Ми працюємо над розширенням цього аванпосту, тож постійно шукаємо будівельні ресурси. Маєш 3 ящики будматеріалів? Звісно ж, ми заплатимо!»</eventtext.ConstructionUpgrade.starterdialogue>
+  <eventtext.pantytheft.heyyou>«Пссс. Гей, ти, сюди.»</eventtext.pantytheft.heyyou>
+  <eventtext.pantytheft.opportunity>Підозріла постать говорить пошепки:
+«Я про тебе чув. Знаю, що ти берешся за незвичні справи. Можливо, тебе зацікавить надзвичайно вигідна пропозиція?»</eventtext.pantytheft.opportunity>
+  <eventtext.pantytheft.confidentiality>«Бачиш, люди тут приходять і йдуть, але ніхто не знає — коли і куди. Така вже вона, капітанська конфіденційність.»</eventtext.pantytheft.confidentiality>
+  <eventtext.pantytheft.plantingtags>«Отже, ми з партнерами по всій Європі придумали одну хитру систему. Вшиваємо мітки в одяг, а простенький сканер у шлюзі фіксує, хто саме прибув і хто відбув. Потім продаємо цю інформацію тим, кому вона потрібна — сепаратистам-дисидентам, шишкам з Коаліції, жирним торговцям… називай кого хочеш — ми знайдемо. І тут ти входиш у гру.»</eventtext.pantytheft.plantingtags>
+  <eventtext.pantytheft.ifitpays>Поки ви платите...</eventtext.pantytheft.ifitpays>
+  <eventtext.pantytheft.grabclothes>«Я не можу бути поміченим, риючись по каютах, тож це твоя робота. Візьми купу одягу з шафок і принеси їх мені в цьому мішку. Я зроблю свою справу і поверну їх на місце.»</eventtext.pantytheft.grabclothes>
+  <eventtext.pantytheft.clothesdelivered>«Чудово. Я приступлю до роботи. Пам'ятай: ми ніколи не розмовляли.»</eventtext.pantytheft.clothesdelivered>
+  <eventtext.pantytheft.moreclothes>«Так не піде. Принеси мені більше одягу.»</eventtext.pantytheft.moreclothes>
+  <eventtext.vendingsmashing.heyyou>«Пссс. Гей, ти, сюди.»</eventtext.vendingsmashing.heyyou>
+  <eventtext.vendingsmashing.quickcash>Обшарпаний індивід шепоче: 
+«Гей, шукаєш спосіб швидко підзаробити?»</eventtext.vendingsmashing.quickcash>
+  <eventtext.vendingsmashing.machinetrick>«Ті торгові автомати, чувак — суцільний обман. Але я знаю один фокус, як змусити їх виплюнути свої нутрощі.»</eventtext.vendingsmashing.machinetrick>
+  <eventtext.vendingsmashing.hitemhard>«Бийте їх щосили. Це приверне увагу.»</eventtext.vendingsmashing.hitemhard>
+  <eventtext.vendingsmashing.Notsubtle>«Не дуже витончено...»</eventtext.vendingsmashing.Notsubtle>
+  <eventtext.vendingsmashing.Ilootyourun>«Так, тому ти займаєшся трощенням, а я грабунком. Займи охоронців, поки я забираю добро. Тепер за роботу.» Він простягає вам лом.</eventtext.vendingsmashing.Ilootyourun>
+  <eventtext.vendingsmashing.readycrowbar>Цей виглядає повним. Приготуйте свій лом...</eventtext.vendingsmashing.readycrowbar>
+  <eventtext.vendingsmashing.Ilootyourun>«Так, тому ти займаєшся трощенням, а я грабунком. Займи охоронців, поки я забираю добро. Тепер за роботу.»</eventtext.vendingsmashing.Ilootyourun>
+  <eventtext.vendingsmashing.yourshare>«Відмінна робота. Ось твоя частка.»</eventtext.vendingsmashing.yourshare>
+  <eventtext.circuswelcome.foundus>«Ви нас знайшли! Щиро вітаємо наших гостей.»</eventtext.circuswelcome.foundus>
+  <eventtext.missionevent_vipnapping.listen>Один із місцевих зупиняє вас: «Шукаєш грошей? У мене є робота.»</eventtext.missionevent_vipnapping.listen>
+  <eventtext.missionevent_vipnapping.bigscore>«Кажуть, десь тут крутилася якась велика промислова шишка, яка приїхала у відрядження з мілководдя...»</eventtext.missionevent_vipnapping.bigscore>
+  <eventtext.missionevent_vipnapping.whatabout>«І що спало тобі на думку?»</eventtext.missionevent_vipnapping.whatabout>
+  <eventtext.missionevent_vipnapping.ransomplan>«Великий викуп, звичайно! Тобі заплатять авансом.»</eventtext.missionevent_vipnapping.ransomplan>
+  <eventtext.missionevent_vipnapping.briefing>«Ось план: ти знаходиш ціль, пакуєш хлопця на свою субмарину і відчалюєш зі станції. Потім я забираю його на шатлі, щоб збити з пантелику переслідувачів. Вони не помітять, як це станеться.»</eventtext.missionevent_vipnapping.briefing>
+  <eventtext.missionevent_vipnapping.Imin>«Я в ділі. Пора ділитися багатством.»</eventtext.missionevent_vipnapping.Imin>
+  <eventtext.missionevent_vipnapping.notmykink>«Мені це не до душі.»</eventtext.missionevent_vipnapping.notmykink>
+  <eventtext.missionevent_vipnapping.hereslocation>«Ось місце розташування і фотографія цілі. Я буду слідувати за тобою.»</eventtext.missionevent_vipnapping.hereslocation>
+  <eventtext.missionevent_vipnapping.yourloss>«Пфе! Тобі ж гірше.»</eventtext.missionevent_vipnapping.yourloss>
+  <eventtext.vipnapping.thatstarget>«Вишуканий одяг, дорогий годинник... Це ціль.»</eventtext.vipnapping.thatstarget>
+  <eventtext.psychovisions.ghosts>Помітно схвильований дослідник пильно вдивляється в дослідницький термінал.
+ \n«Привиди! Вони говорять зі мною!»</eventtext.psychovisions.ghosts>
+  <eventtext.psychovisions.noghosts>«Привиди? Хіба ти не вчений?»</eventtext.psychovisions.noghosts>
+  <eventtext.psychovisions.insidemyhead>«Це ті інопланетяни! Вони в моїй голові! Клянуся, я їх бачив... стародавні писання! Пісня СПРАВЖНІХ європейців!»</eventtext.psychovisions.insidemyhead>
+  <eventtext.psychovisions.psychotic>«Тобі знесло дах.»</eventtext.psychovisions.psychotic>
+  <eventtext.psychovisions.panic>«Можливо, ТИ просто неспроможний! Якби ти міг бачити те, що бачу я...» — дослідник метушливо втікає в паніці.</eventtext.psychovisions.panic>
+  <eventtext.psychovisions.leave>Залишити божевільного його маренням.</eventtext.psychovisions.leave>
+  <eventtext.psychovisions.listenalien>«Підійти. Слухай. Глибше...»</eventtext.psychovisions.listenalien>
+  <eventtext.psychovisions.paranoid>Ви не зовсім розумієте, що щойно почули. Але якось ви відчуваєте, що бачите... шлях до кінця своєї подорожі. Ви залишаєтеся спантеличеним і трохи параноїком.</eventtext.psychovisions.paranoid>
+  <EventText.scrapdealer1.scrapseller>Ти чуєш приглушений голос, що кликав перехожих:
+ «Брухт, рідкісні метали, усе маю! Гей, мандрівнику, зацікавлений у першокласних деталях колишніх субмарин?»</EventText.scrapdealer1.scrapseller>
+  <EventText.scrapdealer1.sellmescrap>«Ти продаєш мені ... брухт?»</EventText.scrapdealer1.sellmescrap>
+  <EventText.scrapdealer1.junktreasure>«Сміття для одного — скарб для іншого. Не повіриш, що можна знайти, терпляче чекаючи на дні моря. Брухт — це що завгодно: зламані двигуни, електроніка… навіть може бути цілий човен! То як щодо того, щоб допомогти мені розкрутити цей бізнес і стати моїм першим клієнтом?»</EventText.scrapdealer1.junktreasure>
+  <EventText.scrapdealer1.buyscrap>«За 250 марок весь цей брухт може бути твоїм!»</EventText.scrapdealer1.buyscrap>
+  <EventText.scrapdealer1.deal>«Згода.»</EventText.scrapdealer1.deal>
+  <EventText.scrapdealer1.scrapbought>«Ось тримай! Це початок прибуткової справи!»</EventText.scrapdealer1.scrapbought>
+  <EventText.scrapdealer1.nomoney>«Задарма не віддам! Мусиш заплатити!»</EventText.scrapdealer1.nomoney>
+  <EventText.scrapdealer2.scrapseller>Знайомий блиск металевого відра і людина, яка його носить, привертають вашу увагу: «Знову ти! Як бачиш, я досі продаю брухт. І я дістав абсолютно новий, високоякісний брухт! Не цікавить?»</EventText.scrapdealer2.scrapseller>
+  <EventText.scrapdealer2.buyscrap>«За 250 марок весь цей брухт може бути твоїм! Знову!»</EventText.scrapdealer2.buyscrap>
+  <EventText.scrapdealer2.scrapbought>«Ніколи б не думав, що якась людина при глузді купить той мотлох ДВІЧІ! Оскільки ти мій найкращий і єдиний клієнт, ось тобі бонус — порада: є одні уламки, що я знайшов давно, але вони виявилися надто небезпечними для огляду. Може, ти зможеш ризикнути...»</EventText.scrapdealer2.scrapbought>
+  <EventText.missionevent_capturelivecrawler.periloustask>Постать у каптурі подає тобі знак. «Благословляю тебе, дорогий мандрівнику. Я шукав судно достатньо спроможне, щоб допомогти нам в дуже делікатній справі.»</EventText.missionevent_capturelivecrawler.periloustask>
+  <EventText.missionevent_capturelivecrawler.whattask>«Звучить підозріло.»</EventText.missionevent_capturelivecrawler.whattask>
+  <EventText.missionevent_capturelivecrawler.experiments>«Наша церква проводить надважливі експерименти над унікальними організмами та рідкісними мутаціями задля блага людства. Але в гонитві за прогресом трапляються неприємні… інциденти.»</EventText.missionevent_capturelivecrawler.experiments>
+  <EventText.missionevent_capturelivecrawler.incidents>«Інциденти?»</EventText.missionevent_capturelivecrawler.incidents>
+  <EventText.missionevent_capturelivecrawler.missionbrief>«Деякі наші піддослідні втекли з ізоляції під час транспортування до однієї з наших церков. Врятуйте ці загублені душі та поверніть їх до нашого святилища. Ми винагородимо твої зусилля… і твоє мовчання.»</EventText.missionevent_capturelivecrawler.missionbrief>
+  <EventText.missionevent_capturelivecrawler.Iwilldoit>«Я зроблю це.»</EventText.missionevent_capturelivecrawler.Iwilldoit>
+  <EventText.missionevent_capturelivecrawler.Noway>«Нізащо. Розсьорбуйте свою кашу самі.»</EventText.missionevent_capturelivecrawler.Noway>
+  <EventText.missionevent_capturelivecrawler.takethis>«Візьміть ці снодійні засоби. Вони допоможуть тримати звірів у спокої. Пам’ятайте: залиште хоча б одного піддослідного живим.»</EventText.missionevent_capturelivecrawler.takethis>
+  <EventText.piratebodybag.smellyroom>Купи мотлоху звалені в одному місці, насичуючи вологе повітря смородом плісняви. Ти й гадки не мав, що це місце може стати ще бруднішим.</EventText.piratebodybag.smellyroom>
+  <EventText.piratebodybag.hearthump>Ви чуєте якийсь стукіт, що доноситься з підозріло загорнутого пакета...</EventText.piratebodybag.hearthump>
+  <EventText.piratebodybag.kickit>Копнути його.</EventText.piratebodybag.kickit>
+  <EventText.piratebodybag.stayaway>Триматися подалі від нього.</EventText.piratebodybag.stayaway>
+  <EventText.missionevent_escortmedivac.needhelp>«Ви член екіпажу, який щойно пристикувався, вірно? Послухайте, у нас тут екстренна ситуація, і ми могли б скористатися вашим судном.»</EventText.missionevent_escortmedivac.needhelp>
+  <EventText.missionevent_escortmedivac.myship>«Моїм судном? Як?»</EventText.missionevent_escortmedivac.myship>
+  <EventText.missionevent_escortmedivac.spaceflu>«Один із наших мешканців підхопив якусь невідому космічну заразу під час недавньої експедиції. На щастя, ми одразу ізолювали пацієнта, але досі не можемо зрозуміти, що це, чорт забирай, таке. Ще гірше те, що ця станція не має засобів для лікування. Поки що лише стабілозин дає якийсь ефект, але він тимчасовий.»</EventText.missionevent_escortmedivac.spaceflu>
+  <EventText.missionevent_escortmedivac.lupus>«Може, це вовчак?»</EventText.missionevent_escortmedivac.lupus>
+  <EventText.missionevent_escortmedivac.missionbrief>«Ні, і в нас закінчуються припаси. Тому нам потрібно, щоб ти транспортував пацієнта до найближчого медичного закладу, перш ніж ця ситуація переросте в потенційний спалах.»</EventText.missionevent_escortmedivac.missionbrief>
+  <EventText.missionevent_escortmedivac.accept>«Все, щоб врятувати життя.»</EventText.missionevent_escortmedivac.accept>
+  <EventText.missionevent_escortmedivac.refuse>«Інфекційна хвороба в замкнутій субмарині? Навіть не думайте.»</EventText.missionevent_escortmedivac.refuse>
+  <EventText.orangePETA.spotted>Людина в дивному шоломі кричить у ваш бік: «Гей, я думаю, це той самий хлопець!»</EventText.orangePETA.spotted>
+  <EventText.orangePETA.whatme>«Ви зі мною розмовляєте?»</EventText.orangePETA.whatme>
+  <EventText.orangePETA.OPSspeech1>Дивакувата група називає себе Товариством помаранчевого захисту.
+ «До нас дійшли чутки про безпринципного капітана, який торгує добрими помаранчевими душами, щоби відправити їх на забій! Незабаром уся видова популяція опиниться під загрозою через ненажерливість кількох жорстоких м’ясоїдів! Справжні монстри Європи — це вони, а також ті, хто виконує їхні криваві накази за гроші!»</EventText.orangePETA.OPSspeech1>
+  <EventText.orangePETA.OPSspeech2>«Як і люди, європейський крабстер — надзвичайно соціальна, розумна й добра істота. Вони можуть жити понад 100 років — більшість із них старші за будь-яку людину на цьому супутнику! Ти взагалі уявляєш, що вони відчувають, коли їх живцем варять і пожирають?»</EventText.orangePETA.OPSspeech2>
+  <EventText.orangePETA.lie>«Ви помиляєтеся, ми перевозили їх у дім вічного кохання.»</EventText.orangePETA.lie>
+  <EventText.orangePETA.whatarelief>Настає незручне мовчання. «О, яке полегшення. Я такий радий, що вони живі й неушкоджені. Вибачте, зрештою, у світі ще є добро. Візьміть, це знак Товариства помаранчевого захисту.»</EventText.orangePETA.whatarelief>
+  <EventText.orangePETA.delicious>«Відчуваються вони — божественно, особливо з дрібкою масла Молоха.»</EventText.orangePETA.delicious>
+  <EventText.orangePETA.getem>«Та це ж м’ясник апельсинчиків! Хапай його!»</EventText.orangePETA.getem>
+  <EventText.piezopioneer.argument>Ви чуєте, як двоє шахтарів гучно сперечаються:
+
+ «Та чув я цю маячню вже тисячу разів...» \n\n«Це правда! От тут написано: легенда про першовідкривачів п'єзо...»\n\n
+«Ти хоч колись наближався до п’єзокристалу? Сумніваюсь, та тебе б одразу підсмажило як на мангалі. А цей твій антикваріат? Тебе просто надурили. А тепер — повертайся до роботи! \n</EventText.piezopioneer.argument>
+  <EventText.piezopioneer.hmmm>«Хммм...»</EventText.piezopioneer.hmmm>
+  <EventText.piezopioneer.upsetminer>Цей шахтар виглядає помітно засмученим...</EventText.piezopioneer.upsetminer>
+  <EventText.piezopioneer.inquirepiezos>«Що ви там казали про п'єзо?»</EventText.piezopioneer.inquirepiezos>
+  <EventText.piezopioneer.taleofpioneers>«Я вже довгенько намагаюся переконати цих телепнів, але їм, бач, і землі рити до кінця життя вистачає. А ти знав, що колись, у давні часи, перші європейські шахтарі вирізали шматки з п'єзокристалів і використовували їх як джерело енергії? П'єзо!»</EventText.piezopioneer.taleofpioneers>
+  <EventText.piezopioneer.insane>«Гігантські вибухові кристали? Це звучить божевільно...»</EventText.piezopioneer.insane>
+  <EventText.piezopioneer.strangetool>«Але я можу це довести! Купив цей інструмент у якогось дивного бариги металобрухтом... Виглядає досить старим, але сам я ним ніколи не користувався.»</EventText.piezopioneer.strangetool>
+  <EventText.piezopioneer.youdontknow>«Тобто ти насправді не знаєш.»</EventText.piezopioneer.youdontknow>
+  <EventText.piezopioneer.taketool>«Я все одно не зможу покинути цю діру, у мене все ще контракт... Ось, візьми й доведи цим ідіотам, що дух першовідкривання усе ще живий.»</EventText.piezopioneer.taketool>
+  <EventText.missionevent_silencewitness.gangbounty>«Маємо винагороду, якщо цікаво. Банда Червоного богомола замовила ціль.»</EventText.missionevent_silencewitness.gangbounty>
+  <EventText.missionevent_silencewitness.tellmemore>«Розкажи мені більше...»</EventText.missionevent_silencewitness.tellmemore>
+  <EventText.missionevent_silencewitness.missionbrief>«Один із їхніх старих лейтенантів дав драла до найближчого аванпосту Коаліції. Носяться чутки, що він зібрався настукати на стару-добру команду владі. Звісно, банді таке не до вподоби, тож вони відвалюють кругленьку суму, щоб той щур більше не відкривав писка.»</EventText.missionevent_silencewitness.missionbrief>
+  <EventText.missionevent_silencewitness.accept>«Я розчавлю щура.»</EventText.missionevent_silencewitness.accept>
+  <EventText.missionevent_silencewitness.seacario>«Замочити його буде дуже мокрою справою.»</EventText.missionevent_silencewitness.seacario>
+  <EventText.missionevent_silencewitness.dotdotdot>«...»</EventText.missionevent_silencewitness.dotdotdot>
+  <EventText.missionevent_silencewitness.hitlocation>«Ось де має бути ціль. Ймовірно, щур чекає у камері, поки з нього не витиснуть усі показання.»</EventText.missionevent_silencewitness.hitlocation>
+  <EventText.missionevent_silencewitness.nogangbusiness>«Ні, дякую. Ми стараємось не втручатися в справи банд.»</EventText.missionevent_silencewitness.nogangbusiness>
+  <EventText.silencewitnessevent.whichone>«Пірат згадував, що зрадник має бути тут, але ти не очікував побачити одразу кількох в’язнів в одному місці. Тепер годі й вгадати, хто з них — твоя ціль...»</EventText.silencewitnessevent.whichone>
+  <EventText.silencewitnessevent.whoareyou>«Хто ти, чорт забирай, такий? Мене нарешті випускають?»</EventText.silencewitnessevent.whoareyou>
+  <EventText.silencewitnessevent.whoareyou>«Я тебе не знаю. Мене звільняють?»</EventText.silencewitnessevent.whoareyou>
+  <EventText.silencewitnessevent.regards>«Червоні богомоли передають вітання.»</EventText.silencewitnessevent.regards>
+  <EventText.silencewitnessevent.righttarget>«Червоний богомол? Курва! Охороно, тут хлоп хоче мене прибрати!»</EventText.silencewitnessevent.righttarget>
+  <EventText.silencewitnessevent.wrongtarget>«Та хто ти, сука, взагалі такий?! Охороно!»</EventText.silencewitnessevent.wrongtarget>
+  <EventText.silencewitnessevent.nevermind>«Забудь. Залишайся всередині.»</EventText.silencewitnessevent.nevermind>
+  <EventText.silencewitnessevent.whatever>«Як скажете, начальнику...»</EventText.silencewitnessevent.whatever>
+  <EventText.silencewitnessevent.whatever>«То не мороч мені голову…»</EventText.silencewitnessevent.whatever>
+  <EventText.silencewitnessevent.outtahere>«Хто б ти там не був, придурку — я звалюю!»</EventText.silencewitnessevent.outtahere>
+  <EventText.oxygenfluidleak.monitor>На моніторі стану відображається попередження про несправність кисневого генератора. Краще викликати механіка, щоб він подивився.</EventText.oxygenfluidleak.monitor>
+  <EventText.oxygenfluidleak.toolate>Ти трохи запізнився, але хімічний фільтр протікав, і аміак у великій кількості просочувався через вентиляцію по всьому кораблю. На щастя, рідина вже закінчилась.</EventText.oxygenfluidleak.toolate>
+  <EventText.oxygenfluidleak.leakyscrubber>Хімічний фільтр протікає великою кількістю аміаку через вентиляційні отвори по всьому кораблю.</EventText.oxygenfluidleak.leakyscrubber>
+  <EventText.oxygenfluidleak.waitorpurge>Залишки рідини з часом випарується, якщо просто почекати... але ви також можете прибрати її всю одразу.</EventText.oxygenfluidleak.waitorpurge>
+  <EventText.oxygenfluidleak.purgeoption>Прибрати рідину на свій страх і ризик.</EventText.oxygenfluidleak.purgeoption>
+  <EventText.oxygenfluidleak.goodpurge>Ви пам'ятаєте процедуру очищення. Підготуйте екіпаж! </EventText.oxygenfluidleak.goodpurge>
+  <EventText.oxygenfluidleak.badpurge>Ви шкодуєте, що обміняли інструкцію з експлуатації на опіум. Нічого не вийшло...</EventText.oxygenfluidleak.badpurge>
+  <EventText.oxygenfluidleak.waititout>Зачекайте, поки проблема вирішиться сама собою.</EventText.oxygenfluidleak.waititout>
+  <EventText.beaconcommsjam.jammed>З гарнітури доноситься спотворений шум. Сигнал маяка активний, але дає збій і заважає зв’язку поблизу. Краще не затримуватися тут.</EventText.beaconcommsjam.jammed>
+  <EventText.missionevent_hostagesituation.distressed>Ви підходите до чиновника коаліції, який виглядає стурбованим. «Добре, що ви тут... У нас криза, а вільних рук не вистачає.»</EventText.missionevent_hostagesituation.distressed>
+  <EventText.missionevent_hostagesituation.missionbrief>«Одна з наших станцій захоплена групою добре озброєних бандитів. Ми не знаємо, чи виконують вони замовлення сепаратистів, чи просто нерозсудливі, але вони погрожують вбити всіх мешканців, якщо ми не виплатимо дебелий викуп у 5000 марок готівкою. Піратство й так було скалкою в дупі, а тепер ще й це?»</EventText.missionevent_hostagesituation.missionbrief>
+  <EventText.missionevent_hostagesituation.ynomilitary>«Ви не можете просто відіслати військову субмарину туди?»</EventText.missionevent_hostagesituation.ynomilitary>
+  <EventText.missionevent_hostagesituation.3rdparty>«Ні, не можемо. Вони сказали, що якщо побачать субмарину із прапором Коаліції, то стратять заручників. Ось чому нам потрібен капітан третьої сторони, який виступить посередником.»</EventText.missionevent_hostagesituation.3rdparty>
+  <EventText.missionevent_hostagesituation.volunteer>«Ми візьмемося за порятунок.»</EventText.missionevent_hostagesituation.volunteer>
+  <EventText.missionevent_hostagesituation.freehostages>«Спробуйте звільнити заручників, так чи інашке. Керівництво категорично відмовляється вести переговори зі злочинцями, тож фінансування не отримаєте, але якщо вдасться — я постараюся виділити кошти на винагороду.»</EventText.missionevent_hostagesituation.freehostages>
+  <EventText.missionevent_hostagesituation.canthelp>«На жаль, ми зараз нічим не можемо допомогти.»</EventText.missionevent_hostagesituation.canthelp>
+  <EventText.hostagesituation.radiocall>Ти чуєш, як хтось налаштовується на твою частоту зсередини станції:
+
+ \n\n«Хто б ти не був — не заходь сюди! Ми контролюємо весь аванпост! Один невірний крок — і ми спустимо курок!»</EventText.hostagesituation.radiocall>
+  <EventText.hostagesituation.negociate>«Ми прийшли, щоб домовитися про викуп.»</EventText.hostagesituation.negociate>
+  <EventText.hostagesituation.nonegociate>Мирного рішення не буде.</EventText.hostagesituation.nonegociate>
+  <EventText.hostagesituation.sendnegociator>«Краще приходь БЕЗ ЗБРОЇ, якщо помітимо хоч натяк на залізо — відкриємо вогонь! Наш лідер чекає в офісі адміністрації, навіть не думай викинути якісь фокуси!» \n\n
+Відправляйте свого найкращого перемовника і ховайте зброю...</EventText.hostagesituation.sendnegociator>
+  <EventText.hostagesituation.killeveryone>Мирного рішення не буде.</EventText.hostagesituation.killeveryone>
+  <EventText.hostagesituation.gangleader>Ви підходите до ватажка банди, на одязі якого ще свіжа кров. «Так-так, хіба ж це не шавка Коаліції. Ось що нам треба: 5000 марок, готівка, які не можна вистежити. Ми розбагатіємо, ти залишишся живим, чесним людям тут нічого не загрожуватиме. Уторопав?»</EventText.hostagesituation.gangleader>
+  <EventText.hostagesituation.payransom>Передати 5000 марок</EventText.hostagesituation.payransom>
+  <EventText.hostagesituation.dealsoff>«Пішов ти! Угоду скасовано!»</EventText.hostagesituation.dealsoff>
+  <EventText.hostagesituation.happybandit>Негідник потирає руки. «Чудово! Бачите, хлопці, я ж казав — коаліція завжди поважає владу! Хар-хар... Не хвилюйтесь, ми підемо, щойно ви відчалите, лиш дайте нам трохи простору для безпеки. А зараз забирайтесь геть, поки я не передумав.»</EventText.hostagesituation.happybandit>
+  <EventText.hostagesituation.paidransom>Ви повідомили коаліцію, що викуп сплачено, а бандити пішли своєю дорогою. Вони не в захваті, але все одно виплатять вам нагороду...</EventText.hostagesituation.paidransom>
+  <EventText.hostagesituation.nomoney>«Гей, гей, гей, ви хочете нас обдурити?Тримайте їх!»</EventText.hostagesituation.nomoney>
+  <EventText.hostagesituation.intimidate>«Ти думаєш, тобі все зійде з рук?»</EventText.hostagesituation.intimidate>
+  <EventText.hostagesituation.infamous>Бандит придивляється до твого обличчя. «Чекай-но, я чув про тебе... У цих водах ти досить відомий... Хочеш сказати, що інша банда послала тебе, щоб нас спинити?»</EventText.hostagesituation.infamous>
+  <EventText.hostagesituation.badforbusiness>(Блеф) «Інші банди не в захваті від ваших витівок — ви привертаєте надто багато уваги, і зовсім не тієї, що йде на користь справі. Вам дають шанс з'їбатися звідси, поки ще можете.»</EventText.hostagesituation.badforbusiness>
+  <EventText.hostagesituation.packitup>Після хвилинної розгубленості серед бандитів ватажок здається: 
+«Чорт забирай! Краще б і далі возив наркоту, ніж лізти в це лайно. Змотуйте вудки, хлопці, ми звалюємо!»</EventText.hostagesituation.packitup>
+  <EventText.hostagesituation.banditsleave>Ви повідомили коаліцію, що бандити залишають станцію. Вони не знають, як вам це вдалося, але винагороду надішлють негайно.</EventText.hostagesituation.banditsleave>
+  <EventText.hostagesituation.extorsion>«Ти маєш сталеві яйця, але з тебе такий собі здирник. Дивись і вчися.»</EventText.hostagesituation.extorsion>
+  <EventText.hostagesituation.callcoalition>Ви налаштовуєтеся на частоту Коаліції. Вони питають про заручників...</EventText.hostagesituation.callcoalition>
+  <EventText.hostagesituation.10000mk>«Ми вирішили стати на бік бандитів. Викуп щойно зріс: 10 000 марок, переказом.»</EventText.hostagesituation.10000mk>
+  <EventText.hostagesituation.moneysent>Офіцер аж кипить від люті й проклинає вас усією можливою європейською лайкою. Але це нічого не змінює — ви були їхньою єдиною надією, і в них немає вибору. Зрештою, вони надсилають гроші.</EventText.hostagesituation.moneysent>
+  <EventText.hostagesituation.artfulrobbery>«Це було просто неперевершене пограбування! Ми ж розділимо гроші, вірно?»</EventText.hostagesituation.artfulrobbery>
+  <EventText.hostagesituation.splitmoney>Розділити гроші</EventText.hostagesituation.splitmoney>
+  <EventText.hostagesituation.keepmoney>«А якщо я просто прикінчу тебе та залишу все собі?»</EventText.hostagesituation.keepmoney>
+  <EventText.hostagesituation.telltheguys>«Не можу дочекатися, щоб розповісти це хлопакам вдома!» Бандити готуються вирушати, і вам теж слід.</EventText.hostagesituation.telltheguys>
+  <EventText.hostagesituation.backoff>(Відступити) «Забудьте, переговори ще тривають. Кінець зв'язку.»</EventText.hostagesituation.backoff>
+  <EventText.hostagesituation.backedoff>«Що це, у біса, було? Ви що, з коаліцією в обнімку тепер? Тоді викладайте гроші.»</EventText.hostagesituation.backedoff>
+  <EventText.hostagesituation.payanyway>«Пофіг, ось твої 5000 марок.»</EventText.hostagesituation.payanyway>
+  <EventText.hostagesituation.scaredbandits>Бандити помітно нервують, побачивши зброю на вашій субмарині. Схоже, вони не чекали озброєного судна.
+«Е-е, так, звісно! Станція під нашим контролем, Коаліція нічого не вдіє, правда ж, хлопці?»</EventText.hostagesituation.scaredbandits>
+  <EventText.hostagesituation.2hours>(Блеф) «За дві години коаліція пришле свій антитерористичний загін, і вас тут рознесе на шмаття. Але я можу дати вам шанс — забирайтесь звідси цілі та неушкоджені.»</EventText.hostagesituation.2hours>
+  <EventText.hostagesituation.webounce>«Блядь, я ж знав, що це паршива ідея… Усі, змотуємось! Хапайте, що знайдете, і на вихід!»</EventText.hostagesituation.webounce>
+  <EventText.hostagesituation.bullshit>«Ха! Наче я поведусь на це лайно.» Лідер клацає пальцями.</EventText.hostagesituation.bullshit>
+  <EventText.hostagesituation.snapfingers>«Мені насрати, що думають ці щури. Давай я тобі покажу.» Лідер клацає пальцями.</EventText.hostagesituation.snapfingers>
+  <EventText.hostagesituation.shothostage>«Чуєш? Одним заручником менше. Продовжуй сперечатися і подивися, що буде. А тепер плати.»</EventText.hostagesituation.shothostage>
+  <EventText.hostagesituation.ceasebloodshed>«Припиніть кровопролиття, ось гроші.»</EventText.hostagesituation.ceasebloodshed>
+  <EventText.hostagesituation.toomanydead>Загинуло занадто багато заручників. Місію провалено.</EventText.hostagesituation.toomanydead>
+  <EventText.hostagesituationalarm.gunspotted>«У цих хлопців є зброя!»</EventText.hostagesituationalarm.gunspotted>
+  <hostagesexecuted>Загинуло занадто багато заручників. Місію провалено.</hostagesexecuted>
+  <EventText.methformeds.dirtydoctor>Ви помічаєте постать у чомусь, що колись було білим халатом хірурга, а тепер в плямах від алкоголю. Вона косо дивиться на вас і каже:
+ «На що вилупився?»</EventText.methformeds.dirtydoctor>
+  <EventText.methformeds.dontlookgood>«Ви виглядаєте не дуже добре.»</EventText.methformeds.dontlookgood>
+  <EventText.methformeds.lostlicense>«Ці покручі відібрали у мене ліцензію.»
+ \nШвидко ковтає ром, проливши половину на підлогу. «Зараз люди думають, що можна просто вколоти морфін і всі їхні проблеми зникнуть. Вони залишаться без кінцівок, з розчавленими руками та проламаними черепами. Але потім це нам доводиться їх лікувати, без винятку. Лікарі мають триматися подалі від ліків! Ну а хтось не втримався. Кілька невдалих операцій, ну то й шо?»</EventText.methformeds.lostlicense>
+  <EventText.methformeds.nojob>«Тож ви залишилися без роботи?»</EventText.methformeds.nojob>
+  <EventText.methformeds.kickedout>«Офіційно мене вигнали з медичного закладу, але є багато сумнівних екіпажів, яким на це байдуже...»</EventText.methformeds.kickedout>
+  <EventText.methformeds.useadoc>«Зараз мені б дуже знадобився лікар.»</EventText.methformeds.useadoc>
+  <EventText.methformeds.findmeth>«Руки трохи тремтять через пляшку, але знайди мені трошки мету — і, можливо, я зможу тебе підлатати.»</EventText.methformeds.findmeth>
+  <EventText.methformeds.havesome>«Так вийшло, що у мене є трохи.»</EventText.methformeds.havesome>
+  <EventText.methformeds.feelsgood>Очі закочуються в спазмі. «Ооо, це мене вставило. Покажи мені свої рани.»</EventText.methformeds.feelsgood>
+  <EventText.methformeds.nometh>«Не жартуй зі мною, дай мені мою дозу.»</EventText.methformeds.nometh>
+  <EventText.methformeds.moremeth>«Наразі це все, що я можу зробити – принеси мені ще.»</EventText.methformeds.moremeth>
+  <EventText.methformeds.dontfeelgood>Руки знову починають тремтіти, ледве утримуючи пляшку. «Ооо, щось не добре мені...»</EventText.methformeds.dontfeelgood>
+  <EventText.orangecombat.cheering>Коли ви наближаєтесь до галасливої юрби, помічаєте, як роздають гроші, а дві помітні скрині міцно тримають у руках.</EventText.orangecombat.cheering>
+  <EventText.orangecombat.whatsthis>«Що відбувається?»</EventText.orangecombat.whatsthis>
+  <EventText.orangecombat.petfighters>«Ми зібрали наймерзенніших, найжорстокіших і найзлісніших ракоподібних, яких тільки могли знайти, і виростили їх з яйця, щоб вони билися до смерті!»
+ \nСхоже, що сумнозвісні бої тварин дісталися і до цієї станції...</EventText.orangecombat.petfighters>
+  <EventText.orangecombat.gambling>«Ну що, обереш чемпіона? Ставка — 300 марок, тільки не пхайте руки до бійців.»</EventText.orangecombat.gambling>
+  <EventText.orangecombat.picktyler>«Я оберу Тайлера.»</EventText.orangecombat.picktyler>
+  <EventText.orangecombat.pickdurden>«Я оберу Дердена»</EventText.orangecombat.pickdurden>
+  <EventText.orangecombat.nomoney>«У тебе замало грошей, друже.»</EventText.orangecombat.nomoney>
+  <EventText.orangecombat.betsareoff>«Усі ставки зроблено! Випускайте звірів!»</EventText.orangecombat.betsareoff>
+  <EventText.orangecombat.winner>Один із двох раптом завмирає. «У нас є переможець!»</EventText.orangecombat.winner>
+  <EventText.orangecombat.youwon> «Гарна чуйка, твій малий переміг.» Ваші кишені стали важчими, але й совість теж...</EventText.orangecombat.youwon>
+  <EventText.orangecombat.youlost>«Ти програв, чуваче! Хе-хе-хе...»</EventText.orangecombat.youlost>
+  <EventText.orangecombat.rescuepets>Урятувати тварин.</EventText.orangecombat.rescuepets>
+  <EventText.orangecombat.dropit>«Поклади срану тварину!»</EventText.orangecombat.dropit>
+  <EventText.orangecombat.dropit>«Поклади її!»</EventText.orangecombat.dropit>
+  <EventText.orangecombat.dropit>«Припини!»</EventText.orangecombat.dropit>
+  <EventText.orangecombat.dontmess>«Не жартуй з нами!»</EventText.orangecombat.dontmess>
+  <eventtext.duckcorleone.heyyou>Хтось штуркнув вас у плече, коли ви проходили повз. «Матросе, виглядаєте так, наче ви щойно пристикувалися. Чи зацікавить вас пропозиція, від якої ви не зможете відмовитися?»</eventtext.duckcorleone.heyyou>
+  <eventtext.duckcorleone.delivery>«Лише невеличка послуга. Мені потрібно, щоб ви доставили одну річ, бажано непомітно. Легке діло — щедра винагорода.»</eventtext.duckcorleone.delivery>
+  <eventtext.duckcorleone.whatisit>«Доставка? Яка саме?»</eventtext.duckcorleone.whatisit>
+  <eventtext.duckcorleone.themessage>«Просто іграшка. Маленька дрібничка. Адміністратор цієї станції завдав мені і моїй родині неприємностей. Поклади це в кабінет, він зрозуміє послання... Мене не мають помітити. Домовилися?»</eventtext.duckcorleone.themessage>
+  <eventtext.duckcorleone.Iwilldoit>«Я швиденько.»</eventtext.duckcorleone.Iwilldoit>
+  <eventtext.duckcorleone.good>«Добре.» Ви отримуєте пластикову качечку з пов’язкою на оці. Час шукати схованку адміністратора.</eventtext.duckcorleone.good>
+  <eventtext.duckcorleone.unfortunate>«Дуже шкода. Тебе.»</eventtext.duckcorleone.unfortunate>
+  <eventtext.duckcorleone.pleased>«Родина дуже задоволена. А тепер забудь все, що чув. Кілька келихів допоможуть.»</eventtext.duckcorleone.pleased>
+  <eventtext.duckcorleone.security>Що ти робиш? Охороно!</eventtext.duckcorleone.security>
+  <EventText.mudraptorracing.bookmaker>Ви натрапляєте на тренера багнорапторів, який завідує іподромом.
+ «Звіри готові і голодні, гонка ось-ось почнеться! Хочеш зробити ставку?»</EventText.mudraptorracing.bookmaker>
+  <EventText.mudraptorracing.pickred>Обрати червоного раптора</EventText.mudraptorracing.pickred>
+  <EventText.mudraptorracing.pickgreen>Обрати зеленого раптора</EventText.mudraptorracing.pickgreen>
+  <EventText.mudraptorracing.pickblue>Обрати синього раптора</EventText.mudraptorracing.pickblue>
+  <EventText.mudraptorracing.howmuchred>«Авжеж, ‖color:gui.red‖червоний‖end‖ колір робить його швидшим!
+ \nСкільки поставиш?»</EventText.mudraptorracing.howmuchred>
+  <EventText.mudraptorracing.howmuchgreen>«Чудовий вибір, ‖color:gui.green‖зелена‖end‖ – швидка і гнучка! \nСкільки поставиш?»</EventText.mudraptorracing.howmuchgreen>
+  <EventText.mudraptorracing.howmuchblue>«Розумний вибір, ‖color:gui.blue‖Синя‖end‖ – розумна дівчинка! \nСкільки поставиш?»</EventText.mudraptorracing.howmuchblue>
+  <EventText.mudraptorracing.100>Поставити 100 марок</EventText.mudraptorracing.100>
+  <EventText.mudraptorracing.300>Поставити 300 марок</EventText.mudraptorracing.300>
+  <EventText.mudraptorracing.yourticket>«Твій білет.»</EventText.mudraptorracing.yourticket>
+  <EventText.mudraptorracing.nomoney>«Вибачай, друже, в тебе недостатньо готівки.»</EventText.mudraptorracing.nomoney>
+  <EventText.mudraptorracing.morebets>Потрібно більше ставок! Робіть ставки!</EventText.mudraptorracing.morebets>
+  <EventText.mudraptorracing.enoughbets>Усі ставки зроблено!</EventText.mudraptorracing.enoughbets>
+  <EventText.mudraptorracing.betsareoff>«Ставки зроблено! Зробіть нам честь — смикніть за важіль і випустіть гонщиків!»</EventText.mudraptorracing.betsareoff>
+  <EventText.mudraptorracing.winner>«У нас є переможець! Переводьте виграшні квитки у готівку через термінал, і побачимося на наступних перегонах!»</EventText.mudraptorracing.winner>
+  <EventText.mudraptorracing.cashout.claim>На терміналі для видачі готівки відображено: \n
+«ВСТАВТЕ БІЛЕТ, ЩОБ ОТРИМАТИ ВИГРАШ.»</EventText.mudraptorracing.cashout.claim>
+  <EventText.mudraptorracing.cashout.redticket>Вставити червоний білет</EventText.mudraptorracing.cashout.redticket>
+  <EventText.mudraptorracing.cashout.greenticket>Вставити зелений білет</EventText.mudraptorracing.cashout.greenticket>
+  <EventText.mudraptorracing.cashout.blueticket>Вставити синій білет</EventText.mudraptorracing.cashout.blueticket>
+  <EventText.mudraptorracing.cashout.noticket>«КВИТКА НЕ ВИЯВЛЕНО. СПРОБУЙТЕ ЩЕ РАЗ.»</EventText.mudraptorracing.cashout.noticket>
+  <EventText.mudraptorracing.cashout.raptorlost>«ВИБРАНИЙ РАПТОР НЕ ПЕРЕМІГ У ПЕРЕГОНАХ. БУДЬ ЛАСКА, ВИКИНЬТЕ БІЛЕТ У НАЙБЛИЖЧИЙ СМІТНИК. ПІДТРИМУЙТЕ ЧИСТОТУ НА СТАНЦІЯХ І ГАРНОГО ВАМ ДНЯ.»</EventText.mudraptorracing.cashout.raptorlost>
+  <EventText.firstmission.justarrived>Спуск у тісному ліфті здався вічністю, але нарешті ви зустрічаєтесь із керівником станції. Щойно ви відкрили рота, щоб попросити ключі від власного підводного човна, він зітхає. \n«Ви й на краплю не схожі на того, хто хоч раз у житті мочив ноги. Невже ви — все, що може запропонувати це мілководдя?»</EventText.firstmission.justarrived>
+  <EventText.firstmission.ready>«Не хвилюйтеся, я тренований та готовий.»</EventText.firstmission.ready>
+  <EventText.firstmission.thebest>«Найкращий з найкращих.»</EventText.firstmission.thebest>
+  <EventText.firstmission.donebefore>«Я вже робив це раніше. Напевно?»</EventText.firstmission.donebefore>
+  <EventText.firstmission.notready>«О, сумніваюся, що ви готові до того, що чекає внизу. Занадто багато екіпажів рвуться в плавання. Більшість не проходить навіть Холодні печери.»</EventText.firstmission.notready>
+  <EventText.firstmission.notthebest>«Те саме казав і екіпаж до вас. Усі вони потонули — більшість на дні пляшки.»</EventText.firstmission.notthebest>
+  <EventText.firstmission.notdonebefore>«Звідки вам взагалі знати хоч щось про управління підводним човном? Ви що, мандрівник у часі якийсь?»</EventText.firstmission.notdonebefore>
+  <EventText.firstmission.anyway>«Гаразд, покажіть посвідчення. Ваш підводний човен чекає на вас у доці B. І постарайтесь не потонути, бо тоді саме мені доведеться оформлювати ваші посмертні папери. А бюрократія, знаєте, іноді гірша за блукання у водах, вируючих плазунами.»</EventText.firstmission.anyway>
+  <EventText.firstmission.timetodive>«Час пірнати.»</EventText.firstmission.timetodive>
+  <EventText.firstmission.mission>«І ще одне перед відплиттям — у мене є завдання, яке потрібно виконати», – керівник знову починає шалено перегортати папери.</EventText.firstmission.mission>
+  <cargodefensebot.bzzt>*бзз*</cargodefensebot.bzzt>
+  <cargodefensebot.beepboop>*біп-буп*</cargodefensebot.beepboop>
+  <!-- GENERIC RESPONSES. VANILLA ONES ARE COMMENTED OUT -->
+  <!-- GENERIC RESPONSES. VANILLA ONES ARE COMMENTED OUT -->
+  <!-- GENERIC RESPONSES. VANILLA ONES ARE COMMENTED OUT -->
+  <!-- GENERIC RESPONSES. VANILLA ONES ARE COMMENTED OUT -->
+  <!-- <eventtext.generic.walkaway>Walk away.</eventtext.generic.walkaway>
+  <eventtext.generic.ignore>Ignore.</eventtext.generic.ignore>
+  <eventtext.generic.continue>Continue...</eventtext.generic.continue>
+  <eventtext.generic.refuse>Refuse.</eventtext.generic.refuse> -->
+  <eventtext.generic.Iwilldoit>«Я зроблю це.»</eventtext.generic.Iwilldoit>
+  <eventtext.generic.noway>«Нізащо.»</eventtext.generic.noway>
+  <eventtext.generic.tellmemore>«Розкажи мені більше...»</eventtext.generic.tellmemore>
+  <eventtext.generic.accept>Прийняти</eventtext.generic.accept>
+  <eventtext.generic.agree>Погодитися</eventtext.generic.agree>
+  <eventtext.generic.disagree>Відмовитися</eventtext.generic.disagree>
+  <eventtext.generic.leave>Відійти.</eventtext.generic.leave>
+  <eventtext.generic.inquire>Запитати.</eventtext.generic.inquire>
+  <eventtext.generic.askabout>Спитати, що трапилося.</eventtext.generic.askabout>
+  <eventtext.generic.nevermind>«Забудь.»</eventtext.generic.nevermind>
+</infotext>

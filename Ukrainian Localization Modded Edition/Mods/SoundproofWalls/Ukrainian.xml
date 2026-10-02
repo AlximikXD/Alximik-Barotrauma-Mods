@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <spw_settings>Soundproof Walls</spw_settings>
+  <spw_generalsettings>Загальні налаштування</spw_generalsettings>
+  <spw_enabled>Увімкнено</spw_enabled>
+  <spw_disabled>Вимкнено</spw_disabled>
+  <spw_enabledtooltip>Вмикає/вимикає всі функції мода</spw_enabledtooltip>
+  <spw_syncsettings>Синхронізувати налаштування</spw_syncsettings>
+  <spw_syncsettingstooltip>Вмикає/вимикає синхронізацію конфігурацій хоста та клієнта</spw_syncsettingstooltip>
+  <spw_syncsettingsalert>Примітка: На цьому сервері увімкнено синхронізацію — усі гравці автоматично використовуватимуть налаштування хоста (значення в дужках).</spw_syncsettingsalert>
+  <spw_focustargetaudio>Аудіо фокусування на цілі.</spw_focustargetaudio>
+  <spw_focustargetaudiotooltip>Імітує звук з точки зору поточної цілі (тобто ви чуєте те, що чує турель або камера).</spw_focustargetaudiotooltip>
+  <spw_talkingragdolls>Балакучі реґдоли</spw_talkingragdolls>
+  <spw_talkingragdollstooltip>Чуєте гравців, коли вони в стані реґдолів (не стосується оглушення).</spw_talkingragdollstooltip>
+  <spw_lowpassfrequency>Фільтр низьких частот</spw_lowpassfrequency>
+  <spw_lowpassfrequencytooltip>Гранична частота, яка використовується для приглушення звуків (зміна цього параметра під час раунду тимчасово призупинить гру).</spw_lowpassfrequencytooltip>
+  <spw_voicelowpassfrequency>Фільтр низьких частот голосів</spw_voicelowpassfrequency>
+  <spw_voicelowpassfrequencytooltip>Гранична частота, що використовується для приглушення голосового чату</spw_voicelowpassfrequencytooltip>
+  <spw_soundrange>Дальність звуку</spw_soundrange>
+  <spw_soundrangetooltip>Дальність дії звуків, не пов’язаних із компонентами.</spw_soundrangetooltip>
+  <spw_voicerange>Дальність голосу</spw_voicerange>
+  <spw_radiorange>Дальність радіозв’язку</spw_radiorange>
+  <spw_volumesettings>Налаштування гучності</spw_volumesettings>
+  <spw_muffledvoicevolume>Гучність приглушеного голосу</spw_muffledvoicevolume>
+  <spw_muffledvoicevolumetooltip>Гучність голосів гравців із низькочастотним фільтром, які чути крізь стіну або водяну поверхню.</spw_muffledvoicevolumetooltip>
+  <spw_muffledsoundvolume>Гучність приглушених звуків</spw_muffledsoundvolume>
+  <spw_muffledsoundvolumetooltip>Гучність низькочастотних звуків без повтору, які чути крізь стіну або водяну поверхню.</spw_muffledsoundvolumetooltip>
+  <spw_muffledcomponentvolume>Гучність приглушених звуків компонентів</spw_muffledcomponentvolume>
+  <spw_muffledcomponentvolumetooltip>Гучність низькочастотних повторюваних звуків компонентів або ефектів стану, які чути крізь стіну або водяну поверхню.</spw_muffledcomponentvolumetooltip>
+  <spw_unmuffledcomponentvolume>Гучність неприглушених звуків компонентів</spw_unmuffledcomponentvolume>
+  <spw_submergedvolume>Гучність під водою</spw_submergedvolume>
+  <spw_submergedvolumetooltip>Гучність звуків під водою, коли слухач також перебуває у тому ж просторі, наповненим водою.</spw_submergedvolumetooltip>
+  <spw_eavesdroppingsettings>Налаштування підслуховування</spw_eavesdroppingsettings>
+  <spw_eavesdroppingbind>Кнопка активації підслуховування</spw_eavesdroppingbind>
+  <spw_eavesdroppingsoundvolume>Гучність звуку підслуховування</spw_eavesdroppingsoundvolume>
+  <spw_eavesdroppingvoicevolume>Гучність голосу підслуховування</spw_eavesdroppingvoicevolume>
+  <spw_eavesdroppingpitch>Висота тону звуку підслуховування</spw_eavesdroppingpitch>
+  <spw_eavesdroppingmaxdistance>Максимальна дистанція підслуховування</spw_eavesdroppingmaxdistance>
+  <spw_eavesdroppingmaxdistancetooltip>Максимальна відстань, на якій голова гравця може знаходитися від дверей під час підслуховування.</spw_eavesdroppingmaxdistancetooltip>
+  <spw_hydrophonesettings>Налаштування гідрофона</spw_hydrophonesettings>
+  <spw_hydrophonerange>Дальність гідрофона</spw_hydrophonerange>
+  <spw_hydrophonerangetooltip>Дальність звуків руху під водою та додаткова дальність, що додається до всіх звуків поза субмариною.</spw_hydrophonerangetooltip>
+  <spw_hydrophonevolume>Гучність гідрофона</spw_hydrophonevolume>
+  <spw_hydrophonepitch>Висота тону гідрофона</spw_hydrophonepitch>
+  <spw_hydrophonelegacyswitch>Перемикач на старий гідрофон</spw_hydrophonelegacyswitch>
+  <spw_hydrophonelegacyswitchtooltip>Використовує стару логіку перемикача гідрофона (перемикач вимикається під час використання активного сонару).</spw_hydrophonelegacyswitchtooltip>
+  <spw_hydrophoneswitchenabled>Перемикач гідрофона увімкнено</spw_hydrophoneswitchenabled>
+  <spw_hydrophoneswitchenabledtooltip>Перемикає наявність перемикача гідрофона (потрібно перезапустити раунд).</spw_hydrophoneswitchenabledtooltip>
+  <spw_ambiencesettings>Налаштування ембієнту</spw_ambiencesettings>
+  <spw_unsubmergedwaterambiencevolume>Гучність ембієнту води незануреним</spw_unsubmergedwaterambiencevolume>
+  <spw_submergedwaterambiencevolume>Гучність ембієнту води зануреним</spw_submergedwaterambiencevolume>
+  <spw_hydrophonewaterambiencevolume>Гучність ембієнту води в гідрофоні</spw_hydrophonewaterambiencevolume>
+  <spw_waterambiencetransitionspeed>Швидкість переходу між ембієнтами води</spw_waterambiencetransitionspeed>
+  <spw_waterambiencetransitionspeedtooltip>Швидкість, з якою ембієнт води переходить між заданими рівнями гучності.</spw_waterambiencetransitionspeedtooltip>
+  <spw_advancedsoundsettings>Розширені налаштування звуку</spw_advancedsoundsettings>
+  <spw_soundvolumemultipliers>Коефіцієнти множення гучності звуку</spw_soundvolumemultipliers>
+  <spw_ignoredsounds>Ігноровані звуки</spw_ignoredsounds>
+  <spw_lowpassignoredsounds>Ігноровані звуки з низькочастотним фільтром</spw_lowpassignoredsounds>
+  <spw_pitchignoredsounds>Ігноровані звуки за висотою тону</spw_pitchignoredsounds>
+  <spw_pathignoredsounds>Ігноровані звуки, що проходять через стіни</spw_pathignoredsounds>
+  <spw_containerignoredsounds>Ігноровані звуки контейнерів</spw_containerignoredsounds>
+  <spw_waterignoredsounds>Ігноровані звуки під водою</spw_waterignoredsounds>
+  <spw_submersionignoredsounds>Ігноровані звуки занурення</spw_submersionignoredsounds>
+  <spw_bubbleignorednames>Ігноровані імена бульбашок</spw_bubbleignorednames>
+  <spw_nichesettings>Нішеві налаштування</spw_nichesettings>
+  <spw_mufflesubmergedplayer>Приглушувати гравця під водою</spw_mufflesubmergedplayer>
+  <spw_mufflesubmergedplayertooltip>Приглушувати звук, коли ваша голова знаходиться під водою (рекомендовано).</spw_mufflesubmergedplayertooltip>
+  <spw_mufflesubmergedviewtarget>Приглушувати фокусовану ціль під водою.</spw_mufflesubmergedviewtarget>
+  <spw_mufflesubmergedviewtargettooltip>Приглушує звук, коли ціль вашого перегляду перебуває під водою (наприклад, турелі, камери тощо).</spw_mufflesubmergedviewtargettooltip>
+  <spw_mufflesubmergedsounds>Приглушувати звуки під водою</spw_mufflesubmergedsounds>
+  <spw_mufflesubmergedsoundstooltip>Приглушує звуки, що знаходяться під поверхнею води (рекомендовано).</spw_mufflesubmergedsoundstooltip>
+  <spw_muffleflowsounds>Приглушувати звуки течії</spw_muffleflowsounds>
+  <spw_muffleflowsoundstooltip>Перемикає приглушення звуків потоку води від протікань.</spw_muffleflowsoundstooltip>
+  <spw_mufflefiresounds>Приглушувати звуки вогню</spw_mufflefiresounds>
+  <spw_mufflefiresoundstooltip>Перемикає приглушення звуків вогню.</spw_mufflefiresoundstooltip>
+  <spw_muffledivingsuit>Приглушувати водолазні скафандри</spw_muffledivingsuit>
+  <spw_muffledivingsuittooltip>Перемикає приглушення звуків під час носіння водолазного скафандра (не рекомендується).</spw_muffledivingsuittooltip>
+  <spw_divingsuitpitch>Висота тону водолазного скафандра</spw_divingsuitpitch>
+  <spw_divingsuitpitchtooltip>Висота тону звуків під час носіння водолазного скафандра (накладається додатково).</spw_divingsuitpitchtooltip>
+  <spw_submergedpitch>Висота тону під водою</spw_submergedpitch>
+  <spw_submergedpitchtooltip>Висота тону звуків, коли слухач перебуває під водою (накладається додатково).</spw_submergedpitchtooltip>
+  <spw_muffledvoicepitch>Висота тону приглушеного голосу</spw_muffledvoicepitch>
+  <spw_muffledvoicepitchtooltip>Не рекомендовано. Просто щоб погульбанити.</spw_muffledvoicepitchtooltip>
+  <spw_unmuffledvoicepitch>Висота тону неприглушеного голосу</spw_unmuffledvoicepitch>
+  <spw_unmuffledvoicepitchtooltip>Не рекомендовано. Просто щоб погульбанити.</spw_unmuffledvoicepitchtooltip>
+  <spw_muffledcomponentpitch>Висота тону приглушених компонентів</spw_muffledcomponentpitch>
+  <spw_unmuffledcomponentpitch>Висота тону неприглушених компонентів</spw_unmuffledcomponentpitch>
+  <spw_hidesettings>Сховати кнопку меню</spw_hidesettings>
+  <spw_hidesettingstooltip>Увага: Увімкнення цього налаштування видалить кнопку «Налаштування Soundproof» з вашого інтерфейсу. Щоб відновити цю кнопку, потрібно вручну відредагувати або видалити файл конфігурації.</spw_hidesettingstooltip>
+  <spw_updateserverconfig>змінені налаштування — конфігурація сервера оновлена</spw_updateserverconfig>
+  <spw_disableserverconfig>вимкнено синхронізацію налаштувань — тепер пріоритет мають локальні конфігурації.</spw_disableserverconfig>
+  <spw_hydrophonemonitoring>Слухати гідрофони</spw_hydrophonemonitoring>
+  <spw_listening>Слухає...</spw_listening>
+  <spw_invalidinput>Неправильний ввід</spw_invalidinput>
+  <spw_default>(За замовчуванням)</spw_default>
+  <spw_vanilla>(Ванільний)</spw_vanilla>
+  <spw_custom>(Кастомний)</spw_custom>
+  <spw_reset>Скинути</spw_reset>
+  <spw_resetall>Скинути все</spw_resetall>
+</infotexts>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- ITEMS -->
+  <entityname.mannitolplus>Манітол плюс</entityname.mannitolplus>
+  <entitydescription.mannitolplus>Покращена версія манітолу. Використовується для лікування нейротравми.</entitydescription.mannitolplus>
+  <entityname.artificialbrain>Штучний мозок</entityname.artificialbrain>
+  <entitydescription.artificialbrain>Штучний мозок, який використовується для утримання тіла живим, поки оригінальний мозок видалений.</entitydescription.artificialbrain>
+  <entityname.surgeonclothes>Хірургічний халат</entityname.surgeonclothes>
+  <entitydescription.surgeonclothes>Стерильний халат для хірурга, щоб унеможливити занесення інфекції.</entitydescription.surgeonclothes>
+  <entityname.surgicalmask>Хірургічна маска</entityname.surgicalmask>
+  <entitydescription.surgicalmask>Маска для хірурга, щоб унеможливити занесення інфекції.</entitydescription.surgicalmask>
+  <entityname.brainjar>Банка для мозку</entityname.brainjar>
+  <entitydescription.brainjar>Банка, щоб тримати трансплантат мозку живим.</entitydescription.brainjar>
+  <entityname.surgicaldrapes>Хірургічні простирадла</entityname.surgicaldrapes>
+  <entitydescription.surgicaldrapes>Стерильні простирадла, щоб унеможливити занесення інфекції.</entitydescription.surgicaldrapes>
+  <entityname.skillbooksurgery>Лікарська неправомірна поведінка</entityname.skillbooksurgery>
+  <entitydescription.skillbooksurgery>Книга, у якій містяться описи різних хірургічних процедур і покроково розписано, як їх повторити.</entitydescription.skillbooksurgery>
+  <entityname.triagetag>Ярлик медичного сортування (автоматичний)</entityname.triagetag>
+  <entitydescription.triagetag>У випадку трагедії з великою кількістю жертв, цей ярлик використовується для швидкого класифікування травм і порядку надання медичної допомоги.</entitydescription.triagetag>
+  <entityname.manualtriagetag>Ярлик медичного сортування (ручний)</entityname.manualtriagetag>
+  <entitydescription.manualtriagetag>Ручний ярлик медичного сортування. Зелене для нижніх кінцівок, жовте для верхніх, червоне для тулуба і чорне для голови.</entitydescription.manualtriagetag>
+  <entityname.experimentaltreatment>Експериментальний препарат</entityname.experimentaltreatment>
+  <entitydescription.experimentaltreatment>Дуже експерементальні ліки, можуть мати позитивні, або негативні побічні ефекти.</entitydescription.experimentaltreatment>
+  <!-- AFFLICTIONS -->
+  <afflictionname.preventativepermit>Профілактичний дозвіл</afflictionname.preventativepermit>
+  <afflictiondescription.preventativepermit>Менша вірогідність отримати серйозні травми.</afflictiondescription.preventativepermit>
+  <afflictionname.artificialbrain>Штучний мозок</afflictionname.artificialbrain>
+  <afflictiondescription.artificialbrain>Пацієнт без свідомості, але організм залишається живим.</afflictiondescription.artificialbrain>
+  <afflictionname.triagetag_green>Позначено: Незначні пошкодження</afflictionname.triagetag_green>
+  <afflictiondescription.triagetag_green>Травми пацієнта класифіковано як легкі. Пацієнт не потребує медичного втручання.</afflictiondescription.triagetag_green>
+  <afflictionname.triagetag_yellow>Позначено: Середні пошкодження</afflictionname.triagetag_yellow>
+  <afflictiondescription.triagetag_yellow>Травми пацієнта класифіковано як середні. Пацієнт має деякі травми, але вони не погрожують життю.</afflictiondescription.triagetag_yellow>
+  <afflictionname.triagetag_red>Позначено: Погрожує життю</afflictionname.triagetag_red>
+  <afflictiondescription.triagetag_red>Травми пацієнта класифіковані як тяжкі. Пацієнт потребує термінового медичного втручання.</afflictiondescription.triagetag_red>
+  <afflictionname.triagetag_black>Позначено: Неможливо врятувати</afflictionname.triagetag_black>
+  <afflictiondescription.triagetag_black>Пацієнту надано ярлик "труп". Формально він ще живий, але медичне втручання йому вже не допоможе.</afflictiondescription.triagetag_black>
+  <!-- JOBS -->
+  <jobname.surgeon>Хірург</jobname.surgeon>
+  <jobdescription.surgeon>В той час як медик краще підготований до надання першої медичної допомоги і швидкого реагування, хірург спеціалізується на складних процедурах і оптимізуванню хірургичного процесу. Менший ризик інфекції, швидше виконання процедур, якщо це має відношення до хірургії, хірург це має.</jobdescription.surgeon>
+  <skillname.surgery>Хірургія</skillname.surgery>
+  <!-- TALENTS -->
+  <talenttree.ethicalmedicine>Етична медицина</talenttree.ethicalmedicine>
+  <talenttree.dabblingpharmacist>Млявий фармацевт</talenttree.dabblingpharmacist>
+  <talenttree.fieldsurgeon>Польовий хірург</talenttree.fieldsurgeon>
+  <!-- Tier 1 -->
+  <talentname.ntsp_adrenalinepump>Адреналінова помпа</talentname.ntsp_adrenalinepump>
+  <talentdescription.ntsp_rapiddeoploymentdrag>Переміщуйте тіла на повній швидкості.</talentdescription.ntsp_rapiddeoploymentdrag>
+  <talentdescription.ntsp_rapiddeoployment>Отримайте бонус до швидкості, еквівалентній [skillpercentage]% вашій навичці хірургії.</talentdescription.ntsp_rapiddeoployment>
+  <talentname.ntsp_autodidact>Самоучка</talentname.ntsp_autodidact>
+  <talentdescription.ntsp_autodidact>Отримайте [amount]% додаткового досвіду після виконання місії, під час якої ви надавали медичну допомогу члену екіпажа.</talentdescription.ntsp_autodidact>
+  <talentname.ntsp_surgeonsintuition>Інтуїція хірурга</talentname.ntsp_surgeonsintuition>
+  <talentdescription.ntsp_surgeonsintuition>Коли ви відкриваєте медичний (або інопланетний) контейнер вперше, у вас є [probability]% шанс отримати додаткові предмети.</talentdescription.ntsp_surgeonsintuition>
+  <!-- Tier 2 -->
+  <talentname.ntsp_fellowtoaster>Як ся маєте, колеги-інженери?</talentname.ntsp_fellowtoaster>
+  <talentname.ntsp_homecarepackage>Медичний комплект</talentname.ntsp_homecarepackage>
+  <talentdescription.ntsp_homecarepackage>Під час початку раунду ви отримуєте:</talentdescription.ntsp_homecarepackage>
+  <talentname.ntsp_injectorgeneral>Майстер ін'єкцій</talentname.ntsp_injectorgeneral>
+  <talentdescription.ntsp_injectorgeneral>Медичні предмети, які ви використовуєте, отримують [amount]% ефективності.</talentdescription.ntsp_injectorgeneral>
+  <!-- Ethical Medicine Tree -->
+  <talentname.ntsp_underpressure>Під тиском</talentname.ntsp_underpressure>
+  <talentdescription.ntsp_underpressure>Безтямні пацієнти біля вас отримують [amount]% стійкості до крововтрати, нейротравми і пошкодження органів.</talentdescription.ntsp_underpressure>
+  <talentname.ntsp_fisharespecimens>Риба – це зразки, а не їжа!</talentname.ntsp_fisharespecimens>
+  <talentdescription.ntsp_fisharespecimens>Коли ви або інший член команди вбиває монстра поза субмариною, ви отримуєте [amount]% шанс знайти випадковий генетичний матеріал в ньому.</talentdescription.ntsp_fisharespecimens>
+  <talentname.ntsp_bedsidemanner>Чуйне ставлення</talentname.ntsp_bedsidemanner>
+  <talentdescription.ntsp_bedsidemanner>Пацієнти біля вас будуть швидше одужувати. Ефект подвоюється, якщо пацієнт лежить в ліжку.</talentdescription.ntsp_bedsidemanner>
+  <talentname.ntsp_brucereitzperk>Я доктор... Комаровський</talentname.ntsp_brucereitzperk>
+  <talentdescription.ntsp_brucereitzperk>Органи, які ви вирізали, продаються за повну ціну і не будуть відторгатися.</talentdescription.ntsp_brucereitzperk>
+  <!-- Dabbling Pharmacist Tree -->
+  <talentname.ntsp_ultrasoniccleaner>Ультразвукове очищення</talentname.ntsp_ultrasoniccleaner>
+  <talentdescription.ntsp_rnr>Дренажі, ендоваскулярні балони і голки більше не витрачаються при використанні.</talentdescription.ntsp_rnr>
+  <talentdescription.ntsp_sterlise>Отримайте [amount] бонус до перевірки стерильності. Пішов геть, сепсис!</talentdescription.ntsp_sterlise>
+  <talentname.ntsp_therapisttintraining>Лікар-стажист</talentname.ntsp_therapisttintraining>
+  <talentdescription.ntsp_therapisttintraining>Отримайте [amount]% додаткового здоров'я.</talentdescription.ntsp_therapisttintraining>
+  <talentname.ntsp_experimental>Неетичне постачання</talentname.ntsp_experimental>
+  <talentname.ntsp_mannitol>Манітольний маніяк</talentname.ntsp_mannitol>
+  <talentname.ntsp_selfcare>Самолікування</talentname.ntsp_selfcare>
+  <talentdescription.ntsp_selfcarepsychosis>Отримайте [amount]% стійкості до [affliction].</talentdescription.ntsp_selfcarepsychosis>
+  <!-- Field Surgeon Tree -->
+  <talentname.ntsp_rapiddeoployment>Швидке розгортання</talentname.ntsp_rapiddeoployment>
+  <talentname.ntsp_captainresist>Будь ласка, капітане, досить в мене стріляти заради забави.</talentname.ntsp_captainresist>
+  <talentname.ntsp_fallenandcantgetup>Я впав, і не можу піднятись!</talentname.ntsp_fallenandcantgetup>
+  <talentname.ntsp_preventativepermit>Профілактичний дозвіл</talentname.ntsp_preventativepermit>
+  <talentdescription.ntsp_preventativepermit>Остання людина, якій ви щось наказували, отримує [physicalresistance]% стійкості до шкоди і має меншу вирогідність отримати серйозні травми.</talentdescription.ntsp_preventativepermit>
+  <talentname.ntsp_imasurgeonnota>Я хірург, а не...</talentname.ntsp_imasurgeonnota>
+  <talentdescription.ntsp_imasurgeonnota1>Використовуючи свій «Інтелект хірурга», ви отримуєте [amount] додаткові навички.</talentdescription.ntsp_imasurgeonnota1>
+  <talentdescription.ntsp_imasurgeonnota2>Чи ви можете обрати [jobname], що взамін дасть [amount] додаткових навичок до усіх професій</talentdescription.ntsp_imasurgeonnota2>
+  <talentname.ntsp_properfol>Не на моїй зміні, солдате!</talentname.ntsp_properfol>
+  <talentdescription.ntsp_properfol>[itemname] не потребує часу, щоб подіяти.</talentdescription.ntsp_properfol>
+  <!-- un-used/depricated talents, these are only kept for historical purposes.
+    
+  <talentname.ntsp_unspecialisedspecialist>Unspecialised Specialist</talentname.ntsp_unspecialisedspecialist>
+  <talentdescription.ntsp_unspecialisedspecialist>Gain a bonus of [amount] to [skillname].</talentdescription.ntsp_unspecialisedspecialist>
+  <talentname.ntsp_soothingsurgeon>Soothing Surgeon</talentname.ntsp_soothingsurgeon>
+  <talentdescription.ntsp_soothingsurgeon>People you operate on suffer less traumatic shock</talentdescription.ntsp_soothingsurgeon>
+  <talentname.ntsp_firstaidtraining>First Aid Advances</talentname.ntsp_firstaidtraining>
+  <talentdescription.ntsp_selfcareunlocktree>Gain the talents you haven't unlocked in this tree.</talentdescription.ntsp_selfcareunlocktree>
+  <talentdescription.ntsp_selfcarepsychosis>Gain 50% psychosis resistance</talentdescription.ntsp_selfcarepsychosis> this will be for the self use medical items 
+
+  -->
+</infotexts>

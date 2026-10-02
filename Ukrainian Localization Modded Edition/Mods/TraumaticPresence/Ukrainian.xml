@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="true" translatedname="Українська">
+  <!--Most texts are taken from basegame but there are some that are better off being custom hence why this exists -->
+  <!-- Round results. -->
+  <traumaticpresence.roundsummaryprogress>Дійшов до [location].</traumaticpresence.roundsummaryprogress>
+  <traumaticpresence.roundsummaryprogress>Прибув у [location].</traumaticpresence.roundsummaryprogress>
+  <traumaticpresence.roundsummaryreturn>Повернувся до [location].</traumaticpresence.roundsummaryreturn>
+  <traumaticpresence.roundsummarygameover>Субмарина [sub] пішла на дно з його екіпажем. Press F.</traumaticpresence.roundsummarygameover>
+  <traumaticpresence.roundsummaryroundhasended>Раунд закінчено.</traumaticpresence.roundsummaryroundhasended>
+  <traumaticpresence.roundsummaryleaving>Відправлення з [location].</traumaticpresence.roundsummaryleaving>
+  <traumaticpresence.roundsummaryprogresstoemptylocation>Пройшов через [location].</traumaticpresence.roundsummaryprogresstoemptylocation>
+  <traumaticpresence.roundsummaryreturntoemptylocation>Повертається назад через [location].</traumaticpresence.roundsummaryreturntoemptylocation>
+  <traumaticpresence.roundsummarycasualties>Втрати: [casualties]</traumaticpresence.roundsummarycasualties>
+  <!-- Location -->
+  <traumaticpresence.atoutpost>Перебуває в [outpost] | [biome]</traumaticpresence.atoutpost>
+  <!-- Generic -->
+  <traumaticpresence.subeditorstatus>Страждає фігнею в редакторі субмарин.</traumaticpresence.subeditorstatus>
+  <traumaticpresence.testingsub>Тестить субмарину [sub]</traumaticpresence.testingsub>
+  <traumaticpresence.inserverlobby>У серверному лоббі. Чекає на екіпаж.</traumaticpresence.inserverlobby>
+  <traumaticpresence.inmenu>Вирішує, що б зробити...</traumaticpresence.inmenu>
+  <traumaticpresence.spectating>Спостерігає.</traumaticpresence.spectating>
+  <traumaticpresence.fightingdetails>Битва з [boss] | [vitality]HP.</traumaticpresence.fightingdetails>
+  <traumaticpresence.causeofdeath>Загинув. Причина смерті: [causeofdeath]</traumaticpresence.causeofdeath>
+  <!-- PVP -->
+  <traumaticpresence.subvsub>[sub1] ПРОТИ [sub2]</traumaticpresence.subvsub>
+  <traumaticpresence.pvpscore>[team1]: [team1score] | [team2]: [team2score]</traumaticpresence.pvpscore>
+</infotexts>

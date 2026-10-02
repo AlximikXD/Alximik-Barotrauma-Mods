@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!--Item Descriptions -->
+  <entityname.unidentifiedgeneticmaterial>Невідомий генетичний матеріал</entityname.unidentifiedgeneticmaterial>
+  <entitydescription.unidentifiedgeneticmaterial>Маса інопланетного генетичного матеріалу. Використайте дослідницьку станцію, щоб ідентифікувати матеріал і перетворити його на щось, що можна вставити в генетичний зрощувач.</entitydescription.unidentifiedgeneticmaterial>
+  <entityname.geneticmaterialcrawler>Генетичний матеріал (Плазун)</entityname.geneticmaterialcrawler>
+  <entitydescription.geneticmaterialcrawler>Збільшує швидкість плавання на [value]%.</entitydescription.geneticmaterialcrawler>
+  <entityname.geneticmaterialmudraptor>Генетичний матеріал (Багнораптор)</entityname.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmoloch>Збільшує опір до фізичних ушкоджень на [value]%.</entitydescription.geneticmaterialmoloch>
+  <entitydescription.geneticmaterialthresher>Зменшує споживання кисню суб’єктом на [value]%.</entitydescription.geneticmaterialthresher>
+  <entitydescription.geneticmaterialmantis>Збільшує швидкість пересування на суші на [value]%.</entitydescription.geneticmaterialmantis>
+  <entitydescription.geneticmaterialhammerhead>Дозволяє суб’єкту завдавати на [value]% більше шкоди ближньою зброєю.</entitydescription.geneticmaterialhammerhead>
+  <entitydescription.geneticmaterialhammerheadmatriarch>Змушує фізичні поранення суб’єкта загоюватися зі швидкістю [value]% за хвилину.</entitydescription.geneticmaterialhammerheadmatriarch>
+  <entitydescription.geneticmaterialspineling>Збільшує опір суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialhusk>Запобігає прогресуванню інфекції хаска до стадії, коли паразит бере контроль над носієм.</entitydescription.geneticmaterialhusk>
+  <character.mollusc>Молюск</character.mollusc>
+  <entitydescription.geneticmaterialmollusc>Отримання фізичної шкоди надає суб’єкту [value]% витривалості.</entitydescription.geneticmaterialmollusc>
+  <character.skitter>Блискавка</character.skitter>
+  <entitydescription.geneticmaterialskitter>Отримання фізичної шкоди викликає у суб’єкта приріст гіперактивності на [value]%.</entitydescription.geneticmaterialskitter>
+  <character.hunter>Мисливець</character.hunter>
+  <entitydescription.geneticmaterialhunter>Отримання фізичної шкоди надає суб’єкту приріст шкоди ближньою зброєю на [value]%.</entitydescription.geneticmaterialhunter>
+  <!-- jank workaround -->
+  <!-- for some reason, you can't override localization files, and changing gene descriptions here has the game choose at random between vanilla desc and modded desc. -->
+  <!-- while imperfect, the likelihood of the vanilla desc appearing can be reduced by creating several copies of the modded description; for mudraptors and spinelings, that is exactly what ive done: -->
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialmudraptor>Суб’єкт швидше відновлюється від кровотечі на [value]%.</entitydescription.geneticmaterialmudraptor>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <entitydescription.geneticmaterialspineling>Збільшує стійкість суб’єкта до оглушення, паралічу та нейротоксинів на [value]%.</entitydescription.geneticmaterialspineling>
+  <!--Health HUD Descriptions -->
+  <afflictionname.increasedswimmingspeed>Гени плазуна</afflictionname.increasedswimmingspeed>
+  <afflictiondescription.increasedswimmingspeed>Кисень вільніше надходить до кінцівок суб’єкта, що підвищує швидкість плавання. [10-50%]</afflictiondescription.increasedswimmingspeed>
+  <afflictionname.chunkyblood>Гени багнораптора</afflictionname.chunkyblood>
+  <afflictiondescription.chunkyblood>Кров суб’єкта згортається зі збільшеною швидкістю. [Від 0,1 до 0,6 лікування кровотечі за секунду.]</afflictiondescription.chunkyblood>
+  <afflictionname.hypernerves>Гени шпильчака</afflictionname.hypernerves>
+  <afflictiondescription.hypernerves>Нервова система суб’єкта є надзвичайно ефективною та стійкою до оглушення, токсинів і паралічу. [10-25%]</afflictiondescription.hypernerves>
+  <afflictionname.damageresistance>Гени молоха</afflictionname.damageresistance>
+  <afflictiondescription.damageresistance>Шкіра суб’єкта ущільнена та більш стійка до ушкоджень. [10-25%]</afflictiondescription.damageresistance>
+  <afflictionname.decreasedoxygenconsumption>Гени тигрового молотаря</afflictionname.decreasedoxygenconsumption>
+  <afflictiondescription.decreasedoxygenconsumption>Об’єм легенів суб’єкта збільшено, що забезпечує ефективніше споживання кисню. [0-100%]</afflictiondescription.decreasedoxygenconsumption>
+  <afflictionname.increasedwalkingspeed>Гени богомола</afflictionname.increasedwalkingspeed>
+  <afflictiondescription.increasedwalkingspeed>Кісткова структура суб’єкта стала легшою, що призводить до підвищення швидкості ходьби та бігу. [10-30%]</afflictiondescription.increasedwalkingspeed>
+  <afflictionname.increasedmeleedamage>Гени молотоголового</afflictionname.increasedmeleedamage>
+  <afflictiondescription.increasedmeleedamage>Суб’єкт набрав м’язову масу, що призводить до збільшення сили. [20-100%]</afflictiondescription.increasedmeleedamage>
+  <afflictionname.healdamage>Гени матріарха молотоголових</afflictionname.healdamage>
+  <afflictiondescription.healdamage>Рани суб’єкта загоюються прискореними темпами. [0-100%]</afflictiondescription.healdamage>
+  <afflictionname.vigorondamage>Гени молюска</afflictionname.vigorondamage>
+  <afflictiondescription.vigorondamage>Больові рецептори суб’єкта приглушені у відповідь на фізичну травму. [16-80% Витривалості]</afflictiondescription.vigorondamage>
+  <afflictionname.hyperactivityondamage>Гени блискавки</afflictionname.hyperactivityondamage>
+  <afflictiondescription.hyperactivityondamage>Рефлекси суб’єкта покращені у відповідь на фізичну травму. [15-75% Гіперактивності]</afflictiondescription.hyperactivityondamage>
+  <afflictionname.increasedmeleedamageondamage>Гени мисливця</afflictionname.increasedmeleedamageondamage>
+  <afflictiondescription.increasedmeleedamageondamage>Рівень адреналіну суб’єкта підвищується у відповідь на фізичну травму. [75%-150%]</afflictiondescription.increasedmeleedamageondamage>
+  <afflictionname.increasedmeleedamage_temporary>Підвищена шкода ближнім боєм (тимчасово)</afflictionname.increasedmeleedamage_temporary>
+  <afflictionname.husktransformimmunity>Гени хаска</afflictionname.husktransformimmunity>
+  <afflictiondescription.husktransformimmunity>Суб’єкт набув підвищеної стійкості до паразита хаска. [Інфекція не може прогресувати понад 90%]</afflictiondescription.husktransformimmunity>
+  <afflictionname.tunnelvision>Тунельний зір</afflictionname.tunnelvision>
+  <afflictiondescription.tunnelvision>Очі суб’єкта надчутливі до світла. [Постійне розмивання та спотворення екрану]</afflictiondescription.tunnelvision>
+  <afflictionname.rigidjoints>Жорсткі суглоби</afflictionname.rigidjoints>
+  <afflictiondescription.rigidjoints>Суглоби суб’єкта жорсткі, рухи ускладнені. [Зменшення швидкості на 15-45%]</afflictiondescription.rigidjoints>
+  <afflictionname.hypersensitivity>Гіперчутливість</afflictionname.hypersensitivity>
+  <afflictiondescription.hypersensitivity>Шкіра суб’єкта запалена і більш чутлива до дотику. [Збільшення отримуваної шкоди на 25-75%]</afflictiondescription.hypersensitivity>
+  <afflictionname.xenobiology>Ксенобіологія</afflictionname.xenobiology>
+  <afflictiondescription.xenobiology>Органи суб’єкта стійкіші до традиційної медицини. [На 25-66% менше ефекту від ліків]</afflictiondescription.xenobiology>
+  <afflictionname.outsideinfluence>Зовнішній вплив</afflictionname.outsideinfluence>
+  <afflictiondescription.outsideinfluence>Суб’єкт постійно чує незрозумілі голоси у своїй голові. [Постійний психоз]</afflictiondescription.outsideinfluence>
+  <afflictionname.glassjaw>Скляна щелепа</afflictionname.glassjaw>
+  <afflictiondescription.glassjaw>Суб’єкт страждає від подовжених періодів непритомності після втрати свідомості. [25-75% знижена стійкість до оглушення]</afflictiondescription.glassjaw>
+  <afflictionname.decrepify>Послаблення</afflictionname.decrepify>
+  <afflictiondescription.decrepify>Витривалість суб’єкта знижена. [10-25% зменшення життєвих сил]</afflictiondescription.decrepify>
+  <afflictionname.musculardystrophy>М’язова дистрофія</afflictionname.musculardystrophy>
+  <afflictiondescription.musculardystrophy>Суб’єкт страждає від зменшення м’язової маси. [10-50% зменшення шкоди ближнім боєм]</afflictiondescription.musculardystrophy>
+  <afflictionname.inflamedlung>Запалені легені</afflictionname.inflamedlung>
+  <afflictiondescription.inflamedlung>Суб’єкт має негативну реакцію на кисень. [0-50% зниження життєвих сил під час дихання]</afflictiondescription.inflamedlung>
+</infotexts>

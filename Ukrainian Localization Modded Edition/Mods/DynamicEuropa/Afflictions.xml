@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Afflictions -->
+  <afflictionname.temporarycrew>Тимчасовий член екіпажу</afflictionname.temporarycrew>
+  <afflictiondescription.temporarycrew.other>Покине вашу команду через 6 годин з моменту приєднання.</afflictiondescription.temporarycrew.other>
+  <afflictiondescription.temporarycrew.self>Я тут, щоб підтримати цю команду протягом 6 годин з моменту мого прибуття. Ні більше, ні менше.</afflictiondescription.temporarycrew.self>
+  <afflictionname.mysteriousdisease>Таємнича хвороба</afflictionname.mysteriousdisease>
+  <afflictiondescription.mysteriousdisease.self>Ти погано себе почуваєш і не знаєш чому.</afflictiondescription.mysteriousdisease.self>
+  <afflictiondescription.mysteriousdisease.others>Пацієнт хворий на невідому заразну хворобу і потребує медичної допомоги.</afflictiondescription.mysteriousdisease.others>
+  <afflictionname.mysteriousdiseaseplayer>Хвороба</afflictionname.mysteriousdiseaseplayer>
+  <afflictiondescription.mysteriousdiseaseplayer.self>Тепер ти теж хворий. Постарайся ізолюватися і витерпіти це.</afflictiondescription.mysteriousdiseaseplayer.self>
+  <afflictiondescription.mysteriousdiseaseplayer.others>Таємнича хвороба поширилася на екіпаж...</afflictiondescription.mysteriousdiseaseplayer.others>
+  <afflictionname.nastyscar>Брудний шрам</afflictionname.nastyscar>
+  <afflictiondescription.nastyscar.self>Шрам у формі богомола, який отримує будь-який член команди, що приєднався до сумнозвісної банди піратів.</afflictiondescription.nastyscar.self>
+  <afflictiondescription.nastyscar.others>Ви помічаєте незвичайний шрам під ключицею. Майже як клеймо...</afflictiondescription.nastyscar.others>
+</infotext>

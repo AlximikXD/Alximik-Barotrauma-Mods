@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Items -->
+  <entityname.module_extraturbine>Реакторний модуль: додаткова турбіна</entityname.module_extraturbine>
+  <entitydescription.module_extraturbine>Підвищує ефективність паливних стрижнів.</entitydescription.module_extraturbine>
+  <entityname.module_extrashielding>Реакторний модуль: посилене екранування</entityname.module_extrashielding>
+  <entitydescription.module_extrashielding>Запобігає витоку радіації з реактора у разі його пошкодження.</entitydescription.module_extrashielding>
+  <entityname.module_meltdownpreventor>Реакторний модуль: запобіжник від розплавлення</entityname.module_meltdownpreventor>
+  <entitydescription.module_meltdownpreventor>Безперервно стабілізує реактор, щоб запобігти його розплавленню.</entitydescription.module_meltdownpreventor>
+  <entityname.module_failsafe>Реакторний модуль: мікросхема із системою аварійної безпеки</entityname.module_failsafe>
+  <entitydescription.module_failsafe>Процесор, який миттєво вносить корективи у разі невдалої спроби ремонту, запобігаючи переходу реактора в критичний стан. Фактично дозволяє безпечно проводити ремонт під час його роботи.</entitydescription.module_failsafe>
+</infotexts>

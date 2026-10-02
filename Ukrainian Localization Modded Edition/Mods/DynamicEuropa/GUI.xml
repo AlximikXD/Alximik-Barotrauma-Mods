@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- ITEM GUI TEXT ELEMENTS -->
+  <GUI.button.onoff>Вмк/Вимк</GUI.button.onoff>
+  <GUI.button.140mrange>Діапазон 140 м</GUI.button.140mrange>
+  <GUI.button.10mrange>Діапазон 10 м</GUI.button.10mrange>
+  <GUI.button.nexttrack>Наступний трек</GUI.button.nexttrack>
+  <GUI.button.previoustrack>Попередній трек</GUI.button.previoustrack>
+  <GUI.button.jumptofirst>Перемкнутись на перший</GUI.button.jumptofirst>
+  <GUI.button.untangle>Розплутати</GUI.button.untangle>
+</infotext>

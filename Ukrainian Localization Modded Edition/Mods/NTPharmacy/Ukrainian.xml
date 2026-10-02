@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- ChemMaster 2k -->
+  <entityname.chemmaster>Хімастер 2000</entityname.chemmaster>
+  <entitydescription.chemmaster>Машина, що створює капсули і таблетки із заданих матеріалів.</entitydescription.chemmaster>
+  <lua.chemerror.header>Хімастер 2000 - ПОМИЛКА!:</lua.chemerror.header>
+  <lua.chemerror.invaliditem>{id} не інгредієнт.</lua.chemerror.invaliditem>
+  <lua.chemerror.invalidcategory.base>{id} не можна використовувати у якості основи.</lua.chemerror.invalidcategory.base>
+  <lua.chemerror.invalidcategory.binder>{id} не можна використовувати у якості зв'язувальної речовини.</lua.chemerror.invalidcategory.binder>
+  <lua.chemerror.invalidcategory.filler>{id} не можна використовувати у якості наповнювача.</lua.chemerror.invalidcategory.filler>
+  <lua.chemerror.invalidcategory.active>{id} не можна використовувати у якості діючої речовини.</lua.chemerror.invalidcategory.active>
+  <lua.chemerror.invalidcategory.dye>{id} не можна використовувати у якості барвника.</lua.chemerror.invalidcategory.dye>
+  <lua.chemerror.outputfull>Вихід повний.</lua.chemerror.outputfull>
+  <lua.chemerror.missingbase>Основа для таблетки відсутня.</lua.chemerror.missingbase>
+  <lua.chemerror.missingbinder>Відсутня зв'язувальна речовина.</lua.chemerror.missingbinder>
+  <lua.chemerror.missingactive>Відсутня діюча речовина.</lua.chemerror.missingactive>
+  <lua.chemerror.capacity>Ці налаштування можуть застосувуватися лише до {cap} діючих речовин.</lua.chemerror.capacity>
+  <lua.chemerror.yield>Ці налаштування не дадуть ніяких капсул.</lua.chemerror.yield>
+  <label.cm_makeone>Зробити одну</label.cm_makeone>
+  <label.cm_makeall>Зробити все</label.cm_makeall>
+  <label.cm_description>Опис таблеток</label.cm_description>
+  <ItemMsgDetachCrowbar>Від'єднати (Лом)</ItemMsgDetachCrowbar>
+  <!-- Pill analyzer -->
+  <entityname.chemalyzer>Аналізатор таблеток</entityname.chemalyzer>
+  <entitydescription.chemalyzer>Показує вміст капсул і таблеток.</entitydescription.chemalyzer>
+  <label.ca_analyze>Аналізувати</label.ca_analyze>
+  <lua.chemalyzer.header>Інгредієнти:</lua.chemalyzer.header>
+  <label.ca_rename>Задати опис</label.ca_rename>
+  <!-- pill combos -->
+  <pillcombo.antihusk>Антихаск</pillcombo.antihusk>
+  <!-- other items -->
+  <entityname.custompill>Капсули</entityname.custompill>
+  <entityname.custompill_horsepill>Кінська капсула</entityname.custompill_horsepill>
+  <entityname.custompill_tablets>Таблетки</entityname.custompill_tablets>
+  <entitydescription.custompill>Хто знає який від них ефект?</entitydescription.custompill>
+  <entitydescription.custompill_horsepill>Занадто велика для того щоб ви змогли її проковтнути.</entitydescription.custompill_horsepill>
+  <entitydescription.custompill_tablets>Воно не може бути настільки погано, правда?</entitydescription.custompill_tablets>
+  <entityname.pillbottleregular>Баночка за рецептом</entityname.pillbottleregular>
+  <entitydescription.pillbottleregular>Баночка в якій можна зберігати таблетки і капсули.</entitydescription.pillbottleregular>
+  <entityname.pillbottleadvanced>Покращена баночка для таблеток</entityname.pillbottleadvanced>
+  <entitydescription.pillbottleadvanced>Велика пластикова баночка, що використовується для зберігання капсул і таблеток. На ній захисна кришка від помічників, яку неможливо відкрити без медичної освіти. Ідеально для зберігання медикаментів від незнаючих рук.</entitydescription.pillbottleadvanced>
+  <!-- containers -->
+  <entityname.antidotetoolbox>Контейнер для антидотів</entityname.antidotetoolbox>
+  <entityname.machinetoolbox>Контейнер для механізмів</entityname.machinetoolbox>
+  <entityname.bonetoolbox>Контейнер для кісток</entityname.bonetoolbox>
+  <entityname.biohazardtoolbox>Контейнер для біонебезпечних речовни</entityname.biohazardtoolbox>
+  <entityname.bufftoolbox>Контейнер для допінгу</entityname.bufftoolbox>
+  <entityname.surgerycrate>Хірургічний ящик</entityname.surgerycrate>
+  <entityname.antidotecrate>Ящик для антидотів</entityname.antidotecrate>
+  <entityname.machinecrate>Ящик для механізмів</entityname.machinecrate>
+  <entityname.bonecrate>Ящик для кісток</entityname.bonecrate>
+  <entityname.biohazardcrate>Ящик для біонебезпечних речовин</entityname.biohazardcrate>
+  <entityname.buffcrate>Ящик для допінгу</entityname.buffcrate>
+</infotexts>

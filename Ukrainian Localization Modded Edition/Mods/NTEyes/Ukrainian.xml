@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- ITEMS -->
+  <entityname.nightgoggles>Прилад нічного бачення</entityname.nightgoggles>
+  <entitydescription.nightgoggles>Стандартний прилад нічного бачення. Використовує батарейки.</entitydescription.nightgoggles>
+  <entityname.organscalpel_eyes>Точний скальпель для ока</entityname.organscalpel_eyes>
+  <entitydescription.organscalpel_eyes>Скальпель, що використовується в операціях на оці.</entitydescription.organscalpel_eyes>
+  <entityname.eyespoon>Передовий виколупувач очного яблука</entityname.eyespoon>
+  <entitydescription.eyespoon>Спеціалізований медичний інструмент для акуратного діставання донорських очних яблук. Працює на людях і монстрах.</entitydescription.eyespoon>
+  <entityname.eyeglasses>Окуляри</entityname.eyeglasses>
+  <entitydescription.eyeglasses>Застарілий пристрій, використовували як тимчасове полегшення зорових порушень.</entitydescription.eyeglasses>
+  <entityname.aviatorglasses>Окуляри льотчика</entityname.aviatorglasses>
+  <entitydescription.aviatorglasses>Як каже назва, використовувався командирами древніх земних літальних апаратів. Дає +100 до крутості.</entitydescription.aviatorglasses>
+  <entityname.eyejar>Банка для відновлення очних яблук</entityname.eyejar>
+  <entitydescription.eyejar>Банка, яка застосовує регенерацію стовбурових клітин для поступового загоєння очей. Не здатна повністю відновити зір.</entitydescription.eyejar>
+  <!-- SURGERY ITEMS -->
+  <entityname.eyedrops>Очні краплі</entityname.eyedrops>
+  <entitydescription.eyedrops>Прискорює відновлення очей.</entitydescription.eyedrops>
+  <entityname.deusizinedrops>Деусицинові краплі</entityname.deusizinedrops>
+  <entitydescription.deusizinedrops>Запобігає внутрішньому та зовнішньому ушкодшенню ока.</entitydescription.deusizinedrops>
+  <entityname.muscleconnectors>З'єднувач м'язів</entityname.muscleconnectors>
+  <entitydescription.muscleconnectors>З'єднує м'язи з очами, використовувати після гелю, але до нервового з'єднувача.</entitydescription.muscleconnectors>
+  <entityname.eyegel>Очний гель</entityname.eyegel>
+  <entitydescription.eyegel>Зволожує очні ямки, використовувати перед з'єднувачем м'язів.</entitydescription.eyegel>
+  <entityname.medicallensitem>Біонічна лінза для лікаря</entityname.medicallensitem>
+  <entitydescription.medicallensitem>Покращення для біонічних очей, що дає пацієнту зір із медичним сканером.
+  ‖color:120,200,120‖ Натисніть F на кінцівці, щоб сканувати.‖color:end‖
+  ‖color:200,200,120‖ Натисніть F, щоб вмикнути/вимнкути.‖color:end‖</entitydescription.medicallensitem>
+  <entityname.electricallensitem>Біонічна лінза для електриків</entityname.electricallensitem>
+  <entitydescription.electricallensitem>Покращення для біонічних очей, що дає пацієнту зір з електричним сканером.
+  ‖color:200,200,120‖ Натисніть F, щоб вмикнути/вимнкути.‖color:end‖</entitydescription.electricallensitem>
+  <entityname.zoomlensitem>Біонічна рогівка для збільшення зображення</entityname.zoomlensitem>
+  <entitydescription.zoomlensitem>Покращення для біонічних очей, що дає пацієнту можливість збільшувати зображення.
+  ‖color:100,100,200‖ Натисніть - або + щоб збільшити.‖color:end‖</entitydescription.zoomlensitem>
+  <entityname.eyelens>Контактна лінза</entityname.eyelens>
+  <entitydescription.eyelens>Застосовується при операціях на катаракту — встановлюється після емульсифікації.</entitydescription.eyelens>
+  <entityname.nerveconnectors>Нервовий з'єднувач</entityname.nerveconnectors>
+  <entitydescription.nerveconnectors>З'єднує очні нерви, використовувати після з'єднувача м'язів і перед вставленням очного яблука.</entitydescription.nerveconnectors>
+  <entityname.eye_laser_tool>Лазер для корекції зору</entityname.eye_laser_tool>
+  <entitydescription.eye_laser_tool>Компактний хірургічний апарат для корекції рогівки. Потрібно мати багато досвіду для використання.</entitydescription.eye_laser_tool>
+  <!-- EYE ITEMS -->
+  <entityname.transplant_eyes>Трансплантати очей</entityname.transplant_eyes>
+  <entitydescription.transplant_eyes>Прямісінько з людського черепа. Використовуються для трансплантації.</entitydescription.transplant_eyes>
+  <entityname.transplant_eyes_monster>Трансплантати очей монстра</entityname.transplant_eyes_monster>
+  <entitydescription.transplant_eyes_monster>Прямісінько з черепа монстра. Ненайкращі очі, щоб бачити, проте вони стильно виглядають.</entitydescription.transplant_eyes_monster>
+  <entityname.transplant_eyes_terror>Жахаючі очі</entityname.transplant_eyes_terror>
+  <entitydescription.transplant_eyes_terror>Схожий на око об'єкт, який людство ще не зустрічало. Використовувати з обережністю.</entitydescription.transplant_eyes_terror>
+  <entityname.transplant_eyes_husk>Трансплантати очей хаска</entityname.transplant_eyes_husk>
+  <entitydescription.transplant_eyes_husk>Прямісінько з черепа хаска. Тиск не має на них ефекту, але є шанс що пацієнт заразиться паразитом хаска.</entitydescription.transplant_eyes_husk>
+  <entityname.transplant_eyes_bionic>Транслантати біонічних очей</entityname.transplant_eyes_bionic>
+  <entitydescription.transplant_eyes_bionic>Металеві, більш витривалі очі, що спроєктовані для трансплантації. Біологічні чинники не можуть їм нашкодити, але ці очі мають бути відремонтовані вручну. Трохи підвищують чіткість зору. Можуть бути покращені за допомогою біонічних лінз.</entitydescription.transplant_eyes_bionic>
+  <entityname.transplant_eyes_night>Трансплантати очей нічного бачення</entityname.transplant_eyes_night>
+  <entitydescription.transplant_eyes_night>Пара очей з покращенням на нічне бачення. НЕ можуть бути відключені по команді.</entitydescription.transplant_eyes_night>
+  <entityname.transplant_eyes_infrared>Трансплантати інфрачервоних очей</entityname.transplant_eyes_infrared>
+  <entitydescription.transplant_eyes_infrared>Пара очей з покращенням на бачення інфрачервоних променів. Трохи підвищують навички у бою і бачення в темряві.</entitydescription.transplant_eyes_infrared>
+  <entityname.transplant_eyes_plastic>Трансплантати пластикових очей</entityname.transplant_eyes_plastic>
+  <entitydescription.transplant_eyes_plastic>Пара "очей", не набагато краще, ніж бути сліпим. У той час як з ними майже неможливо бачити, вони хоча б виглядають нормально.</entitydescription.transplant_eyes_plastic>
+  <!-- AFFLICTIONS -->
+  <afflictionname.noeye>Очі видалено</afflictionname.noeye>
+  <afflictiondescription.noeye>Очі пацієнта були хірургічно видалені, залишаючи великі, червоні ямки в черепі. Неприємна картина.</afflictiondescription.noeye>
+  <afflictionname.eyedamage>Ушкодшення ока</afflictionname.eyedamage>
+  <afflictiondescription.eyedamage>Очі пацієнта виглядають пласкими, пацієнту важко бачити.</afflictiondescription.eyedamage>
+  <afflictionname.eyeshock>Аутоімунна ретинопатія</afflictionname.eyeshock>
+  <afflictiondescription.eyeshock>Імунна система пацієнта не прийняла трансплантовані очі і атакує їх. Треба видалити очі, або застосувати імунодепресанти.</afflictiondescription.eyeshock>
+  <afflictionname.eyedrop>Очні краплі</afflictionname.eyedrop>
+  <afflictiondescription.eyedrop>Очі пацієнта швидше відновлюються.</afflictiondescription.eyedrop>
+  <afflictionname.deusizinedrop>Деусицинові краплі</afflictionname.deusizinedrop>
+  <afflictiondescription.deusizinedrop>Було використано деусицинові краплі, очі пацієнта захищені від усієї шкоди, враховуючи тиск, </afflictiondescription.deusizinedrop>
+  <afflictionname.eyeone>Мертве око</afflictionname.eyeone>
+  <afflictiondescription.eyeone>Пацієнт втратив зір на одному оці.</afflictiondescription.eyeone>
+  <afflictionname.eyesdead>Мертві очі</afflictionname.eyesdead>
+  <afflictiondescription.eyesdead>Пацієнт повністю втратив зір.</afflictiondescription.eyesdead>
+  <afflictionname.eyesickness>Вади зору</afflictionname.eyesickness>
+  <afflictiondescription.eyesickness>Пацієнту важко бачити, скоріш за все через недавню операцію. Пройде з часом.</afflictiondescription.eyesickness>
+  <afflictionname.eyecataract>Катаракта</afflictionname.eyecataract>
+  <afflictiondescription.eyecataract>Очі пацієнта виглядають туманними, а його зір не чіткий. Бажано провести операцію.</afflictiondescription.eyecataract>
+  <afflictionname.eyemuscle>З'єднувач м'язів</afflictionname.eyemuscle>
+  <afflictiondescription.eyemuscle>З'єднувач м'язів було під'єднано до очних ямок.</afflictiondescription.eyemuscle>
+  <afflictionname.eyegell>Очний гель</afflictionname.eyegell>
+  <afflictiondescription.eyegell>Очний гель було застосовано до очних ямок.</afflictiondescription.eyegell>
+  <afflictionname.eyelid>Затиснуті повіки</afflictionname.eyelid>
+  <afflictiondescription.eyelid>Повіки пацієнта затиснуті і не закриються, можна починати операцію.</afflictiondescription.eyelid>
+  <afflictionname.eyepopped>Висячі очні яблука</afflictionname.eyepopped>
+  <afflictiondescription.eyepopped>Очні яблука вискочили з черепа і висять.</afflictiondescription.eyepopped>
+  <afflictionname.corneaincision>Розрізана рогівка</afflictionname.corneaincision>
+  <afflictiondescription.corneaincision>Був зроблений надріз на рогівці.</afflictiondescription.corneaincision>
+  <afflictionname.emulsification>Емульсифікація</afflictionname.emulsification>
+  <afflictiondescription.emulsification>Лінзи пацієнта видалені.</afflictiondescription.emulsification>
+  <afflictionname.lasereyesurgery>Лазерна корекція</afflictionname.lasereyesurgery>
+  <afflictiondescription.lasereyesurgery>Очі пацієнта активно відновлюються через недавню лазерну корекцію.</afflictiondescription.lasereyesurgery>
+  <afflictionname.eyenerve>Нервовий з'єднувач</afflictionname.eyenerve>
+  <afflictiondescription.eyenerve>Підключення мозку до очей налагоджено.</afflictiondescription.eyenerve>
+  <!-- EYE AFFLICTIONS -->
+  <afflictionname.eyebionic>Біонічні очі</afflictionname.eyebionic>
+  <afflictiondescription.eyebionic>Пацієнт має біонічні очі.</afflictiondescription.eyebionic>
+  <afflictionname.eyenight>Очі нічного бачення</afflictionname.eyenight>
+  <afflictiondescription.eyenight>Пацієнт бачить у темряві.</afflictiondescription.eyenight>
+  <afflictionname.eyeinfrared>Інфрачервоні очі</afflictionname.eyeinfrared>
+  <afflictiondescription.eyeinfrared>Пацієнт може бачити інфрачервоні промені.</afflictiondescription.eyeinfrared>
+  <afflictionname.eyeplastic>Пластикові очі</afflictionname.eyeplastic>
+  <afflictiondescription.eyeplastic>Пацієнт має пластикові очі.</afflictiondescription.eyeplastic>
+  <afflictionname.eyemonster>Очі  монстра</afflictionname.eyemonster>
+  <afflictiondescription.eyemonster>Пацієнт має очі монстра.</afflictiondescription.eyemonster>
+  <afflictionname.eyehusk>Очі хаска</afflictionname.eyehusk>
+  <afflictiondescription.eyehusk>Пацієнт має очі хаска.</afflictiondescription.eyehusk>
+  <afflictionname.eyeterror>ОЧІ МОНСТРА</afflictionname.eyeterror>
+  <afflictiondescription.eyeterror>Ви відчуваєте втішну жагу до крові та сили. Ти стійкіший, витриваліший. Ти нарешті почуваєшся живим. Ти хочеш вбивати, ти ПОВИНЕН ВБИВАТИ. РВИ І МЕТАЙ, </afflictiondescription.eyeterror>
+  <!-- LOADING TIPS -->
+  <loadingscreentip>Причепа та Харібда бачать світ по-різному</loadingscreentip>
+  <loadingscreentip>Окуляри можуть покращити зір.</loadingscreentip>
+  <loadingscreentip>Очі хаска можуть заразити пацієнта паразитом хаска.</loadingscreentip>
+  <loadingscreentip>Лазер для корекції зору використовує велику кількість електроенергії.</loadingscreentip>
+  <loadingscreentip>Банка для відновлення очних яблук може відновити мертві очі.</loadingscreentip>
+  <loadingscreentip>Через катаракту у вас може бути розмите бачення, використовуйте окуляри.</loadingscreentip>
+</infotexts>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Items -->
+  <entityname.zippolighter>Запальничка</entityname.zippolighter>
+  <entitydescription.zippolighter>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighter>
+  <entityname.packofcigarettes>Пачка цигарок</entityname.packofcigarettes>
+  <entitydescription.packofcigarettes>Вміщає до 20 цигарок.</entitydescription.packofcigarettes>
+  <entityname.cigarette>Цигарка</entityname.cigarette>
+  <entitydescription.cigarette>Життя моряків виснажує психіку, але хороша цигарка допоможе трохи заспокоїти нерви. Підпаліть її запальничкою або відкритим вогнем.</entitydescription.cigarette>
+  <entityname.crumpledpaper>Зім'ятий папір</entityname.crumpledpaper>
+  <entitydescription.crumpledpaper>Зім’ятий аркуш паперу. Легкозаймистий.</entitydescription.crumpledpaper>
+  <entityname.lighterfuel>Пальне для запальнички</entityname.lighterfuel>
+  <entitydescription.lighterfuel>Використовується для її заправки. Просто піднесіть до запальнички.</entitydescription.lighterfuel>
+  <entityname.zippolighterblue>Синя запальничка</entityname.zippolighterblue>
+  <entitydescription.zippolighterblue>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighterblue>
+  <entityname.zippolighterred>Червона запальничка</entityname.zippolighterred>
+  <entitydescription.zippolighterred>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighterred>
+  <entityname.zippolightergreen>Зелена запальничка</entityname.zippolightergreen>
+  <entitydescription.zippolightergreen>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolightergreen>
+  <entityname.zippolighterpurple>Фіолетова запальничка</entityname.zippolighterpurple>
+  <entitydescription.zippolighterpurple>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighterpurple>
+  <entityname.zippolighterpink>Рожева запальничка</entityname.zippolighterpink>
+  <entitydescription.zippolighterpink>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighterpink>
+  <entityname.zippolighteryellow>Жовта запальничка</entityname.zippolighteryellow>
+  <entitydescription.zippolighteryellow>Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть його близько до предмета.</entitydescription.zippolighteryellow>
+  <entityname.zippolighterblackengraved>Чорна гравійована запальничка</entityname.zippolighterblackengraved>
+  <entitydescription.zippolighterblackengraved>Рідкісна запальничка з гравіюванням, яка ефективніше витрачає пальне. Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть її близько до предмета.</entitydescription.zippolighterblackengraved>
+  <entityname.zippolightersilverengraved>Срібна гравійована запальничка</entityname.zippolightersilverengraved>
+  <entitydescription.zippolightersilverengraved>Рідкісна запальничка з гравіюванням, яка ефективніше витрачає пальне. Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть її близько до предмета.</entitydescription.zippolightersilverengraved>
+  <entityname.zippolightergoldengraved>Золота гравійована запальничка</entityname.zippolightergoldengraved>
+  <entitydescription.zippolightergoldengraved>Рідкісна запальничка з гравіюванням, яка ефективніше витрачає пальне. Використовується для підпалювання легкозаймистих предметів, таких як цигарки чи коктейлі Молотова. Просто піднесіть її близько до предмета.</entitydescription.zippolightergoldengraved>
+  <!-- Afflictions -->
+  <afflictionname.smoking>Паління</afflictionname.smoking>
+  <afflictiondescription.smoking>Вдихає дим.</afflictiondescription.smoking>
+</infotexts>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <Override>
+    <!-- ITEMS -->
+    <!-- Artifacts -->
+    <entityname.unidentifiedartifact>Інопланетний артефакт</entityname.unidentifiedartifact>
+    <entitydescription.unidentifiedartifact>Невизначений чужопланетний артефакт. Його призначення та властивості невідомі.</entitydescription.unidentifiedartifact>
+    <entityname.skyholderartifact>Небесний інопланетний артефакт</entityname.skyholderartifact>
+    <entitydescription.skyholderartifact>Поглинає воду та кисень. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.skyholderartifact>
+    <entityname.thermalartifact>Термальний інопланетний артефакт</entityname.thermalartifact>
+    <entitydescription.thermalartifact>Спричиняє викиди вогню та пари. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.thermalartifact>
+    <entityname.faradayartifact>Фарадеєвий інопланетний артефакт</entityname.faradayartifact>
+    <entitydescription.faradayartifact>Спричиняє викиди ЕМІ, що пошкоджують навколишні механізми й електроніку. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.faradayartifact>
+    <entityname.nasonovartifact>Насоновий інопланетний артефакт</entityname.nasonovartifact>
+    <entitydescription.nasonovartifact>Приманює монстрів поблизу. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.nasonovartifact>
+    <entityname.psychosisartifact>Психозний інопланетний артефакт</entityname.psychosisartifact>
+    <entitydescription.psychosisartifact>Спричиняє психоз у людей поблизу. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.psychosisartifact>
+    <entityname.electricalrecalibrationartifact>Артефакт електричної реконфігурації</entityname.electricalrecalibrationartifact>
+    <entitydescription.electricalrecalibrationartifact>Спричиняє викиди дивного електричного струму, що, схоже, ремонтує та підзаряджає навколишні механізми й електроприлади. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.electricalrecalibrationartifact>
+    <entityname.repellerartifact>Артефакт-відлякувач</entityname.repellerartifact>
+    <entitydescription.repellerartifact>Відлякує деяких монстрів поблизу. Подальші дослідження можуть дозволити добути інопланетний матеріал.</entitydescription.repellerartifact>
+    <entityname.gillartifact>Зябревий артефакт</entityname.gillartifact>
+    <entitydescription.gillartifact>Дозволяє навколишнім живим істотам дихати під водою. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.gillartifact>
+    <entityname.radiationartifact>Радіаційний артефакт</entityname.radiationartifact>
+    <entitydescription.radiationartifact>Іонізує всіх живих істот в радіусі 15 м. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.radiationartifact>
+    <entityname.airconverterartifact>Артефакт повітряного конвертера</entityname.airconverterartifact>
+    <entitydescription.airconverterartifact>Перетворює повітря на воду. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.airconverterartifact>
+    <entityname.waterconverterartifact>Артефакт перетворення води</entityname.waterconverterartifact>
+    <entitydescription.waterconverterartifact>Перетворює воду на повітря. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.waterconverterartifact>
+    <entityname.sacrificialartifact>Жертовний артефакт</entityname.sacrificialartifact>
+    <entitydescription.sacrificialartifact>Жертвує життям носія, щоб благословити оточуючих. Кома, що виникає, може бути вилікувана лише правильною медициною. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.sacrificialartifact>
+    <entityname.infectionartifact>Інфекційний артефакт</entityname.infectionartifact>
+    <entitydescription.infectionartifact>Заражає людей поблизу інопланетною інфекцією. Кома, що виникає, лікується лише правильною медициною. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.infectionartifact>
+    <entityname.invulnerabilityartifact>Артефакт непереможності</entityname.invulnerabilityartifact>
+    <entitydescription.invulnerabilityartifact>Робить людське тіло здатним витримувати майже будь-що. Тривале перебування під його впливом може спричинити серйозні побічні ефекти. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.invulnerabilityartifact>
+    <entityname.mutingartifact>Артефакт мовчання</entityname.mutingartifact>
+    <entitydescription.mutingartifact>Блокує голосові зв’язки всіх людей поблизу. Лікується лише правильною медициною. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.mutingartifact>
+    <entityname.addictivehealingartifact>Артефакт лікувальної залежності</entityname.addictivehealingartifact>
+    <entitydescription.addictivehealingartifact>Швидко лікує навколишні живі істоти, але викликає у них залежність від опіоїдів. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.addictivehealingartifact>
+    <entityname.corrosionartifact>Артефакт корозії</entityname.corrosionartifact>
+    <entitydescription.corrosionartifact>Повільно розчиняє штучні споруди навколо себе. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.corrosionartifact>
+    <entityname.livingmetalartifact>Артефакт живого металу</entityname.livingmetalartifact>
+    <entitydescription.livingmetalartifact>Повільно відновлює будь-яку металеву структуру навколо себе. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.livingmetalartifact>
+    <entityname.stasisartifact>Артефакт стазису</entityname.stasisartifact>
+    <entitydescription.stasisartifact>Артефакт стазису. Поміщає навколишні живих істот у стазис-поле, роблячи їх нездатними рухатися. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.stasisartifact>
+    <entityname.cleansingartifact>Артефакт очищення</entityname.cleansingartifact>
+    <entitydescription.cleansingartifact>Схоже, має властивості генетичного очищення, але нам бракує знань, щоб їх використати. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.cleansingartifact>
+    <entityname.calibratedcleansingartifact>Калібрований артефакт очищення</entityname.calibratedcleansingartifact>
+    <entitydescription.calibratedcleansingartifact>Його сила повністю розблокована. Тепер він може керувати деякими інопланетними механізмами, можливо, знайденими в руїнах.</entitydescription.calibratedcleansingartifact>
+    <entityname.teleportartifact>Артефакт телепортації</entityname.teleportartifact>
+    <entitydescription.teleportartifact>Телепортує збирачів рою до свого місця розташування. Подальші дослідження можуть дозволити видобуток інопланетного матеріалу.</entitydescription.teleportartifact>
+    <entityname.devourerartifact>Артефакт пожирача</entityname.devourerartifact>
+    <entitydescription.devourerartifact>При поміщенні на труп артефакт ніби пожирає тіло і вилучає з нього гени.</entitydescription.devourerartifact>
+    <!-- Ruin Items-->
+    <entityname.aliencleanser>Інопланетний пристрій</entityname.aliencleanser>
+    <entitydescription.aliencleanser>Пристрій, знайдений у руїнах, який здатен зцілювати та очищувати гени користувача.</entitydescription.aliencleanser>
+    <!-- Medical Items-->
+    <entityname.serumunidentified>Невідома сироватка</entityname.serumunidentified>
+    <entitydescription.serumunidentified>Невідома сироватка. Її ефекти та призначення невідомі.</entitydescription.serumunidentified>
+    <entityname.antisacrifice>Ансейн</entityname.antisacrifice>
+    <entitydescription.antisacrifice>Лікує кому, викликану жертовним артефактом. УВАГА: Серйозна загроза для здоров’я у неінфікованих пацієнтів!</entitydescription.antisacrifice>
+    <entityname.antialieninfection>Аналарін</entityname.antialieninfection>
+    <entitydescription.antialieninfection>Лікує інопланетну інфекцію та виводить пацієнта з коми. УВАГА: Серйозна загроза для здоров’я у неінфікованих пацієнтів!</entitydescription.antialieninfection>
+    <entityname.antimute>Анарму</entityname.antimute>
+    <entitydescription.antimute>Відновлює функціональність голосових зв’язок у пацієнтів, які постраждали від дії артефакту мовчання. УВАГА: Серйозна загроза для здоров’я неуражених пацієнтів!</entitydescription.antimute>
+    <entityname.containmentknowledgeserum>Сироватка знань із утримання артефактів</entityname.containmentknowledgeserum>
+    <entitydescription.containmentknowledgeserum>Містить давні знання про правильне обладнання для утримання артефактів.</entitydescription.containmentknowledgeserum>
+    <entityname.stasisknowledgeserum>Сироватка знань зі стазису</entityname.stasisknowledgeserum>
+    <entitydescription.stasisknowledgeserum>Містить давні знання про стазис та способи його використання.</entitydescription.stasisknowledgeserum>
+    <entityname.livingmetalknowledgeserum>Сироватка знань про живий метал</entityname.livingmetalknowledgeserum>
+    <entitydescription.livingmetalknowledgeserum>Містить давні знання про живий метал та способи його використання.</entitydescription.livingmetalknowledgeserum>
+    <entityname.cleansingknowledgeserum>Сироватка знань з очищення</entityname.cleansingknowledgeserum>
+    <entitydescription.cleansingknowledgeserum>Містить давні знання про артефакт очищення та способи його використання.</entitydescription.cleansingknowledgeserum>
+    <entityname.teleportationknowledgeserum>Сироватка знань із телепортації</entityname.teleportationknowledgeserum>
+    <entitydescription.teleportationknowledgeserum>Містить давні знання про телепортацію та способи її використання.</entitydescription.teleportationknowledgeserum>
+    <entityname.sacrificeserum>Жертовна сироватка</entityname.sacrificeserum>
+    <entitydescription.sacrificeserum>Викликає жертовну кому, спричинену артефактом.</entitydescription.sacrificeserum>
+    <entityname.alieninfectionserum>Інфекційна сироватка</entityname.alieninfectionserum>
+    <entitydescription.alieninfectionserum>Викликає інопланетну інфекцію та занурює пацієнта в кому.</entitydescription.alieninfectionserum>
+    <entityname.muteserum>Сироватка мовчання</entityname.muteserum>
+    <entitydescription.muteserum>Блокує голосові зв’язки пацієнта.</entitydescription.muteserum>
+    <entityname.tunnelvisionserum>Сироватка тунельного зору</entityname.tunnelvisionserum>
+    <entitydescription.tunnelvisionserum>Викликає у пацієнта постійний тунельний зір.</entitydescription.tunnelvisionserum>
+    <entityname.rigidjointsserum>Сироватка жорстких суглобів</entityname.rigidjointsserum>
+    <entitydescription.rigidjointsserum>Викликає у пацієнта постійна скованість у суглобах, що ускладнюєь рух.</entitydescription.rigidjointsserum>
+    <entityname.hypersensitivityserum>Сироватка гіперчутливості</entityname.hypersensitivityserum>
+    <entitydescription.hypersensitivityserum>Викликає у пацієнта постійну гіперчутливість, через що він стає більш вразливим до будь-яких пошкоджень.</entitydescription.hypersensitivityserum>
+    <entityname.xenobiologyserum>Сироватка ксенобіології</entityname.xenobiologyserum>
+    <entitydescription.xenobiologyserum>Назавжди змінює біологію пацієнта, через що людські медичні засоби стають менш ефективними.</entitydescription.xenobiologyserum>
+    <entityname.outsideinfluenceserum>Сироватка зовнішнього впливу</entityname.outsideinfluenceserum>
+    <entitydescription.outsideinfluenceserum>Змушує пацієнта постійно чути голоси, що призводить до невиліковного божевілля.</entitydescription.outsideinfluenceserum>
+    <entityname.glassjawserum>Сироватка скляної щелепи</entityname.glassjawserum>
+    <entitydescription.glassjawserum>Викликає у пацієнта постійну ламкість щелепи, через що його легше вивести з ладу на довший час.</entitydescription.glassjawserum>
+    <entityname.decrepifyserum>Сироватка занепаду</entityname.decrepifyserum>
+    <entitydescription.decrepifyserum>Назавжди виснажує пацієнта, знижуючи його загальний стан.</entitydescription.decrepifyserum>
+    <entityname.musculardystrophyserum>Сироватка м’язової дистрофії</entityname.musculardystrophyserum>
+    <entitydescription.musculardystrophyserum>Спричиняє постійну м’язову дистрофію, через що пацієнт стає слабшим у ближньому бою.</entitydescription.musculardystrophyserum>
+    <entityname.inflamedlungserum>Сироватка запалених легень</entityname.inflamedlungserum>
+    <entitydescription.inflamedlungserum>Спричиняє у пацієнта постійне запалення легень, що поступово погіршує загальний стан при диханні киснем.</entitydescription.inflamedlungserum>
+    <!-- Misc Items -->
+    <entityname.ruinlocator>Локатор руїн</entityname.ruinlocator>
+    <entitydescription.ruinlocator>Вкрай енергоємний пристрій, здатний знаходити руїни поблизу.</entitydescription.ruinlocator>
+    <entityname.researchworkbench>Дослідницький верстат</entityname.researchworkbench>
+    <entitydescription.researchworkbench>Використовується для експериментів і створення пристроїв на основі інопланетних технологій</entitydescription.researchworkbench>
+    <entityname.livingmetalamplifier>Підсилювач живого металу</entityname.livingmetalamplifier>
+    <entitydescription.livingmetalamplifier>Підсилює ефект артефакту живого металу, поширюючи його на весь підводний човен.</entitydescription.livingmetalamplifier>
+    <entityname.artifactcontainmentunit>Блок утримання артефактів</entityname.artifactcontainmentunit>
+    <entitydescription.artifactcontainmentunit>Безпечно стримує ефекти артефакту, доки увімкнений і забезпечений живленням.</entitydescription.artifactcontainmentunit>
+    <entityname.teleportationanchor>Телепортаційний якір</entityname.teleportationanchor>
+    <entitydescription.teleportationanchor>Прив’язує телепортаційні пристрої до підводного човна.</entitydescription.teleportationanchor>
+    <entityname.teleportdevice>Пристрій зворотної телепортації</entityname.teleportdevice>
+    <entitydescription.teleportdevice>Телепортує користувача назад на підводний човен. Вимагає встановленого якоря телепортації на човні. Кілька телепортацій поспіль можуть спричинити побічні ефекти.</entitydescription.teleportdevice>
+    <!-- Weapons -->
+    <entityname.stasisrifle>Стазисна гвинтівка</entityname.stasisrifle>
+    <entitydescription.stasisrifle>Створює стазисну бульбашку навколо цілі, захоплюючи її та утримуючи на місці.</entitydescription.stasisrifle>
+    <!-- AFFLICTIONS -->
+    <afflictionname.artifactinfectionunknown>???</afflictionname.artifactinfectionunknown>
+    <afflictiondescription.artifactinfectionunknown>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.artifactinfectionunknown>
+    <afflictiondescription.artifactinfectionunknown.others>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.artifactinfectionunknown.others>
+    <afflictionname.artifactinfection>Інопланетна інфекція</afflictionname.artifactinfection>
+    <afflictiondescription.artifactinfection>Ви страждаєте від інопланетної інфекції та потребуєте медичної допомоги.</afflictiondescription.artifactinfection>
+    <afflictiondescription.artifactinfection.self>Ви страждаєте від інопланетної інфекції та потребуєте медичної допомоги.</afflictiondescription.artifactinfection.self>
+    <afflictiondescription.artifactinfection.others>Пацієнт страждає від інопланетної інфекції та потребує медичної допомоги.</afflictiondescription.artifactinfection.others>
+    <afflictionname.artifactstasisunknown>???</afflictionname.artifactstasisunknown>
+    <afflictiondescription.artifactstasisunknown>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.artifactstasisunknown>
+    <afflictiondescription.artifactstasisunknown.others>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.artifactstasisunknown.others>
+    <afflictionname.artifactstasis>Стазис</afflictionname.artifactstasis>
+    <afflictiondescription.artifactstasis>Ви захоплені стазис-полем!</afflictiondescription.artifactstasis>
+    <afflictiondescription.artifactstasis.others>Ця особа захоплена стазис-полем.</afflictiondescription.artifactstasis.others>
+    <afflictionname.stasisaffliction>Стазис</afflictionname.stasisaffliction>
+    <afflictiondescription.stasisaffliction>Ви захоплені стазис-полем!</afflictiondescription.stasisaffliction>
+    <afflictiondescription.stasisaffliction.others>Ця особа захоплена стазис-полем.</afflictiondescription.stasisaffliction.others>
+    <afflictionname.sacrificeunknown>???</afflictionname.sacrificeunknown>
+    <afflictiondescription.sacrificeunknown>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.sacrificeunknown>
+    <afflictiondescription.sacrificeunknown.others>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.sacrificeunknown.others>
+    <afflictionname.sacrifice>Жертвопринесення</afflictionname.sacrifice>
+    <afflictiondescription.sacrifice>Ви приноситеся в жертву заради благословення своїх товаришів по екіпажу...</afflictiondescription.sacrifice>
+    <afflictiondescription.sacrifice.others>Цю особу приносять у жертву, щоб благословити вас і ваших товаришів по екіпажу...</afflictiondescription.sacrifice.others>
+    <afflictionname.invulnerabilityunknown>???</afflictionname.invulnerabilityunknown>
+    <afflictiondescription.invulnerabilityunknown>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.invulnerabilityunknown>
+    <afflictiondescription.invulnerabilityunknown.others>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.invulnerabilityunknown.others>
+    <afflictionname.invulnerability>Невразливість</afflictionname.invulnerability>
+    <afflictiondescription.invulnerability>Усередині вас наростає дивна сила. У повній мірі вона може дарувати вам невразливість, але остерігайтеся надто довгого впливу! Людське тіло не пристосоване до таких сил!</afflictiondescription.invulnerability>
+    <afflictiondescription.invulnerability.others>Усередині пацієнта наростає дивна сила. У повній мірі вона може дарувати невразливість, але надто тривалий вплив може зашкодити! Людське тіло не пристосоване до таких сил!</afflictiondescription.invulnerability.others>
+    <afflictionname.healingaura>Аура зцілення</afflictionname.healingaura>
+    <afflictiondescription.healingaura>Усі ваші поранення швидко загоюються.</afflictiondescription.healingaura>
+    <afflictiondescription.healingaura.others>Пацієнт перебуває під впливом аури зцілення, і всі його поранення швидко гояться.</afflictiondescription.healingaura.others>
+    <afflictionname.teleportsickness>Телепортаційна хвороба</afflictionname.teleportsickness>
+    <afflictiondescription.teleportsickness>Вам стає неспокійно, шлунок нудить. Повторна телепортація може спричинити небажані побічні ефекти!</afflictiondescription.teleportsickness>
+    <afflictiondescription.teleportsickness.others>Пацієнт почувається трішки неспокійно. Якщо він телепортуватиметься знову, це може спричинити небажані побічні ефекти!</afflictiondescription.teleportsickness.others>
+    <afflictionname.mutinginfluenceunknown>???</afflictionname.mutinginfluenceunknown>
+    <afflictiondescription.mutinginfluenceunknown>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.mutinginfluenceunknown>
+    <afflictiondescription.mutinginfluenceunknown.others>Щось відбувається, але ви не можете зрозуміти, що саме...</afflictiondescription.mutinginfluenceunknown.others>
+    <afflictionname.mutinginfluence>Вплив мовчання</afflictionname.mutinginfluence>
+    <afflictiondescription.mutinginfluence>Ваші голосові зв’язки не працюють. Вас більше ніхто не чує.</afflictiondescription.mutinginfluence>
+    <afflictiondescription.mutinginfluence.others>У пацієнта, здається, не працюють голосові зв’язки. Ніхто більше не чує, як він говорить.</afflictiondescription.mutinginfluence.others>
+    <!-- TALENTS -->
+    <talentname.StasisKnowledge>Знання про стазис</talentname.StasisKnowledge>
+    <talentdescription.StasisKnowledge>Ви здобули знання про стазис і навчилися виготовляти зброю, що викликає стазис.</talentdescription.StasisKnowledge>
+    <talentname.LivingMetalKnowledge>Знання про живий метал</talentname.LivingMetalKnowledge>
+    <talentname.ArtifactContainmentKnowledge>Знання з утримання артефактів</talentname.ArtifactContainmentKnowledge>
+    <talentname.RuinLocating>Пошук руїн</talentname.RuinLocating>
+    <talentname.CleansingKnowledge>Знання з очищення</talentname.CleansingKnowledge>
+    <talentname.TeleportationKnowledge>Знання телепортації</talentname.TeleportationKnowledge>
+  </Override>
+</infotexts>

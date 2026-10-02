@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <entityname.ekdockyard_reactorslow_small>Ядерний реактор повільного розпаду (Маленький)</entityname.ekdockyard_reactorslow_small>
+  <entitydescription.ekdockyard_reactorslow_small>Конструкція ядерного енергоблоку із великою масою активної зони та ефективним використанням палива на докритичних рівнях.</entitydescription.ekdockyard_reactorslow_small>
+  <entityname.effect_trigger_radiation_low>Тригер-ефект - Мале джерело радіації (10м)</entityname.effect_trigger_radiation_low>
+  <entitydescription.effect_trigger_radiation_low>Коли активний, випромінює в радіусі 10 метрів. Враховує стіни, двері та відстань персонажа від центру. Випромінювання та забруднення в секунду в центрі: 0.5. Може бути підключений до дроту для ввімкнення/вимкнення.</entitydescription.effect_trigger_radiation_low>
+  <entityname.effect_trigger_radiation_medium>Тригер-ефект - Середнє джерело радіації (10м)</entityname.effect_trigger_radiation_medium>
+  <entitydescription.effect_trigger_radiation_medium>Коли активний, випромінює в радіусі 10 метрів. Враховує стіни, двері та відстань персонажа від центру. Випромінювання та забруднення в секунду в центрі: 1.0. Може бути підключений до дроту для ввімкнення/вимкнення.</entitydescription.effect_trigger_radiation_medium>
+  <entityname.effect_trigger_radiation_high>Тригер-ефект - Велике джерело радіації (10м)</entityname.effect_trigger_radiation_high>
+  <entitydescription.effect_trigger_radiation_high>Коли активний, випромінює в радіусі 10 метрів. Враховує стіни, двері та відстань персонажа від центру. Випромінювання та забруднення в секунду в центрі: 1.5. Може бути підключений до дроту для ввімкнення/вимкнення.</entitydescription.effect_trigger_radiation_high>
+  <entityname.ekdockyard_reactor_mini>Мініядерний реактор</entityname.ekdockyard_reactor_mini>
+  <entitydescription.ekdockyard_reactor_mini>Пристрій для виробництва енергії. Успішна мініатюризація архітектури малих модульних реакторів. Достатньо компактний для використання на деяких шатлах для збільшення дальності ходи.</entitydescription.ekdockyard_reactor_mini>
+  <entityname.ekdockyard_reactor_small>Ядерний реактор (Маленький)</entityname.ekdockyard_reactor_small>
+  <entitydescription.ekdockyard_reactor_small>Пристрій для виробництва енергії. Зменшена версія силової установки для використання на суднах із меншим розходом електроенергії.</entitydescription.ekdockyard_reactor_small>
+</infotexts>

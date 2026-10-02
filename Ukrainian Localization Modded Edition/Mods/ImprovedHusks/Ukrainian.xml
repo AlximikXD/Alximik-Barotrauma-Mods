@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Characters -->
+  <character.huskmutantcrawler>Мутований плазун</character.huskmutantcrawler>
+  <character.huskmutantmudraptor>Мутований багнораптор</character.huskmutantmudraptor>
+  <character.huskmutantarmored>Броньований мутований хаск</character.huskmutantarmored>
+  <character.huskmutanthunter>Мутований різник-хаск</character.huskmutanthunter>
+  <character.huskmutanthuman>Мутований хаск</character.huskmutanthuman>
+  <character.huskmutantcocooncrawler>Кокон з хаском</character.huskmutantcocooncrawler>
+  <character.huskmutanttigerthresher>Мутований тигровий молотар</character.huskmutanttigerthresher>
+  <character.huskmutantbonethresher>Мутований кістяний молотар</character.huskmutantbonethresher>
+  <character.snatcher>Хапун</character.snatcher>
+  <character.nibbler>Кліщак</character.nibbler>
+  <character.micoteron>Мікотерон</character.micoteron>
+  <!-- Items -->
+  <entityname.unstablehuskeggs>Нестабільні яйця велонацепса калікса</entityname.unstablehuskeggs>
+  <entitydescription.unstablehuskeggs>Яйця європейської форми життя, яка в народі називається «паразитом хаска». Ці яйця кишать активністю!</entitydescription.unstablehuskeggs>
+  <entityname.unstablehuskstinger>Нестабільне жало хаска</entityname.unstablehuskstinger>
+  <entitydescription.unstablehuskstinger>Загартоване чорне жало. Здається, воно пульсує час від часу.</entitydescription.unstablehuskstinger>
+  <entityname.endwormhuskprojectile>Закручена маса</entityname.endwormhuskprojectile>
+  <entityname.huskmutantembryo> Мутований ембріон</entityname.huskmutantembryo>
+  <entitydescription.huskmutantembryo>Дивна недорозвинена істота. Наразі вона неактивна.</entitydescription.huskmutantembryo>
+  <entityname.calyxinjector>Ін'єктор калікса</entityname.calyxinjector>
+  <entitydescription.calyxinjector>Зловісний пристрій, схожий на ін'єктор. Використовується для виготовлення.</entitydescription.calyxinjector>
+  <entityname.calyxinjectorsymbiotic>Симбіотичний ін'єктор калікса</entityname.calyxinjectorsymbiotic>
+  <entitydescription.calyxinjectorsymbiotic>Зловісний пристрій, схожий на ін'єктор. Вводить модифіковану версію інфекції, яка надає своєму носію переваги (і недоліки) хаска.</entitydescription.calyxinjectorsymbiotic>
+  <entityname.calyxinjectorbooster>Посилений ін'єктор калікса</entityname.calyxinjectorbooster>
+  <entitydescription.calyxinjectorbooster>Зловісний пристрій, схожий на ін'єктор. Вводить суміш, яка тимчасово прискорює деякі внутрішні процеси пацієнта, такі як загоєння та зрощення ран. Може мати непередбачувані побічні ефекти.</entitydescription.calyxinjectorbooster>
+  <!-- Afflictions -->
+  <afflictionname.huskmutation>Мутація хаска</afflictionname.huskmutation>
+  <afflictiondescription.huskmutation>Шкіра викривляється, а кістки тріщать... Щось недобре відбувається.</afflictiondescription.huskmutation>
+  <afflictionname.symbiotichusk>Симбіотична інфекція хаска</afflictionname.symbiotichusk>
+  <afflictiondescription.symbiotichusk>Щось чуже, але доброзичливе процвітає всередині...</afflictiondescription.symbiotichusk>
+  <afflictionname.huskinfectionhealing>Хасковане лікування</afflictionname.huskinfectionhealing>
+  <afflictiondescription.huskinfectionhealing>Симбіотичний хаск забезпечує організм киснем і виробляє інші корисні речовини, які допомагають вийти з критичного стану.</afflictiondescription.huskinfectionhealing>
+  <afflictionname.huskinfectionaffinity>Співіснування із хаском</afflictionname.huskinfectionaffinity>
+  <afflictiondescription.huskinfectionaffinity>Симбіотичний хаск повністю прижився у вашому тілі, забезпечуючи стійкість до тиску та контроль над поширенням решти інфекції, запобігаючи повному контролю хаска.</afflictiondescription.huskinfectionaffinity>
+  <afflictionname.huskheadhijacking1>Викрадення голови</afflictionname.huskheadhijacking1>
+  <afflictiondescription.huskheadhijacking1>Відрубана голова намагається вивихнути вам череп! Намагатися відштовхнути її самостійно, здається, марним... Вам потрібно попросити когось іншого відстрілити її!</afflictiondescription.huskheadhijacking1>
+  <afflictionname.blacktoxin>Темний токсин</afflictionname.blacktoxin>
+  <afflictiondescription.blacktoxin>Пульсуючі чорні вени поширюються по шкірі пацієнта, розносячи якусь чорну рідину з тривожною швидкістю.</afflictiondescription.blacktoxin>
+  <afflictionname.boosterhusk>Посиленна інфекція хаска</afflictionname.boosterhusk>
+  <afflictiondescription.boosterhusk>Потужна, але нестабільна суміш стовбурових клітин швидко інтегрується в організм, забезпечуючи надзвичайно швидке загоєння.</afflictiondescription.boosterhusk>
+  <afflictionname.growth>Зрощення</afflictionname.growth>
+</infotexts>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Afflictions -->
+  <afflictionname.af_calyxanide>Каліксанід</afflictionname.af_calyxanide>
+  <afflictiondescription.af_calyxanide>Ти не повинен був цього побачити.</afflictiondescription.af_calyxanide>
+  <afflictionname.surgery_huskhealth>Паразит хаска</afflictionname.surgery_huskhealth>
+  <afflictiondescription.surgery_huskhealth.low>Паразит усе ще знаходиться в тілі, але він вже не рухається. Час його витягнути.</afflictiondescription.surgery_huskhealth.low>
+  <afflictiondescription.surgery_huskhealth.medium>Ти послабив паразита, але чи буде цього достатньо...?</afflictiondescription.surgery_huskhealth.medium>
+  <afflictiondescription.surgery_huskhealth.high>Ви бачите гидку масу щупальців. Треба буде обережним, воно кусається.</afflictiondescription.surgery_huskhealth.high>
+  <afflictionname.bonecuttorso>Відпилені ребра</afflictionname.bonecuttorso>
+  <afflictiondescription.bonecuttorso>Ребра були відпилені, відкривається чудовий краєвид на нутрощі пацієнта.</afflictiondescription.bonecuttorso>
+  <afflictionname.husklamp>Пари ритуальної лампи</afflictionname.husklamp>
+  <afflictiondescription.husklamp>Різкий запах парів ще довго лишиться у твоїх ніздрях.</afflictiondescription.husklamp>
+  <afflictionname.huskstasis>Симбіотичний стазис</afflictionname.huskstasis>
+  <afflictiondescription.huskstasis>Паразит робить усе можливе, щоб лишити носія живим.</afflictiondescription.huskstasis>
+</infotexts>

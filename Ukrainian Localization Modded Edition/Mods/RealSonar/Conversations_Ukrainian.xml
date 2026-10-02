@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="sonarconversations" Language="Ukrainian">
+  <!-- Sonar-->
+  <Conversation line="Вимкніть сонар!" speaker="0" flags="SonarHigh" />
+  <Conversation line="У мене кров із вух йде від цього клятого сонара!" speaker="0" flags="SonarHigh" speakertags="rude" />
+  <Conversation line="Вирубіть сонар!" speaker="0" flags="SonarHigh" />
+  <Conversation line="Я потрапив під сонар!" speaker="0" flags="SonarHigh" />
+  <Conversation line="Господи, цей сонар такий гучний!" speaker="0" flags="SonarHigh" />
+  <Conversation line="Я у воді, вимкніть сонар!" speaker="0" flags="SonarHigh" speakertags="professional,tough" />
+  <Conversation line="Боже, вимкніть сонар!" speaker="0" flags="SonarHigh" speakertags="fearful" />
+  <Conversation line="Гей, я все ще там!" speaker="0" flags="SonarMedium" speakertags="crazy,joker" />
+  <Conversation line="Хто-небудь, вимкніть сонар!" speaker="0" flags="SonarMedium" />
+  <Conversation line="Обережно із сонаром, я в його радіусі дії!" speaker="0" flags="SonarLow" />
+  <Conversation line="Обережно із сонаром, я поряд із субмариною!" speaker="0" flags="SonarLow" />
+  <!-- Brain hemorrhage low -->
+  <Conversation line="Щось я недобре почуваюся..." speaker="0" flags="BrainHemorrhageLow" />
+  <Conversation line="Думаю, щось зі мною не так..." speaker="0" flags="BrainHemorrhageLow" speakertags="fearful" />
+  <Conversation line="Голова тріщить..." speaker="0" flags="BrainHemorrhageLow" />
+  <Conversation line="Мені здається, чи тут якісь вогники мерехтять?" speaker="0" flags="BrainHemorrhageLow" />
+  <Conversation line="Чому тут так потемніло зненацька?" speaker="0" flags="BrainHemorrhageLow" />
+  <Conversation line="Щось не так..." speaker="0" flags="BrainHemorrhageLow" />
+  <!-- Brain hemorrhage medium -->
+  <Conversation line="Кортизид, будь ласка..." speaker="0" flags="BrainHemorrhageMedium" allowedjobs="medicaldoctor" />
+  <Conversation line="Хто-небудь, допоможіть!" speaker="0" flags="BrainHemorrhageMedium" speakertags="fearful" />
+  <Conversation line="Що зі мною відбувається?" speaker="0" flags="BrainHemorrhageMedium" />
+  <Conversation line="Боже, моя голова..." speaker="0" flags="BrainHemorrhageMedium" />
+  <Conversation line="Господи, стає гірше!" speaker="0" flags="BrainHemorrhageMedium" speakertags="crazy,fearful" />
+  <Conversation line="Моя голова..." speaker="0" flags="BrainHemorrhageMedium" />
+  <Conversation line="Як дістало перечіплятися!" speaker="0" flags="BrainHemorrhageMedium" speakertags="crazy,fearful,brokenenglish" />
+  <!-- Brain hemorrhage high -->
+  <Conversation line="Запам'ятайте мене..." speaker="0" flags="BrainHemorrhageHigh" />
+  <Conversation line="Мені гайки..." speaker="0" flags="BrainHemorrhageHigh" speakertags="fearful" />
+  <Conversation line="Прощавайте." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough" />
+  <Conversation line="Кортизид... будь ласка..." speaker="0" flags="BrainHemorrhageHigh" allowedjobs="medicaldoctor" />
+  <Conversation line="Будь ласка..." speaker="0" flags="BrainHemorrhageHigh" />
+  <Conversation line="Допоможіть..." speaker="0" flags="BrainHemorrhageHigh" />
+  <Conversation line="Хто..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="вимкнув..." speaker="0" flags="BrainHemorrhageHigh" />
+    <Conversation line="с... світло?.." speaker="0" flags="BrainHemorrhageHigh" />
+  </Conversation>
+  <Conversation line="Де..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="це..." speaker="0" flags="BrainHemorrhageHigh" />
+    <Conversation line="я?" speaker="0" flags="BrainHemorrhageHigh" />
+  </Conversation>
+  <Conversation line="Тату?..." speaker="0" flags="BrainHemorrhageHigh" speakertags="joker,fearful">
+    <Conversation line="Але як?..." speaker="0" flags="BrainHemorrhageHigh" speakertags="joker,fearful" />
+  </Conversation>
+  <Conversation line="Мені кінець..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="нарешті..." speaker="0" flags="BrainHemorrhageHigh" speakertags="joker,rude" />
+  </Conversation>
+  <Conversation line="Врятуйте..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="мене..." speaker="0" flags="BrainHemorrhageHigh" />
+  </Conversation>
+  <Conversation line="Я ж..." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough">
+    <Conversation line="впорався?.." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough" />
+  </Conversation>
+  <Conversation line="Не..." speaker="0" flags="BrainHemorrhageHigh" speakertags="crazy,fearful,joker">
+    <Conversation line="забувайте мене..." speaker="0" flags="BrainHemorrhageHigh" speakertags="crazy,fearful,joker" />
+  </Conversation>
+  <Conversation line="Так..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="темно..." speaker="0" flags="BrainHemorrhageHigh" />
+  </Conversation>
+  <Conversation line="Так..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="холодно..." speaker="0" flags="BrainHemorrhageHigh" />
+  </Conversation>
+  <Conversation line="На..." speaker="0" flags="BrainHemorrhageHigh" speakertags="rude">
+    <Conversation line="все добре..." speaker="0" flags="BrainHemorrhageHigh" speakertags="rude" />
+  </Conversation>
+  <Conversation line="Допоможіть..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="мені..." speaker="0" flags="BrainHemorrhageHigh">
+      <Conversation line="будь ласка..." speaker="0" flags="BrainHemorrhageHigh" speakertags="fearful" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Не дайте..." speaker="0" flags="BrainHemorrhageHigh">
+    <Conversation line="мені..." speaker="0" flags="BrainHemorrhageHigh">
+      <Conversation line="померти..." speaker="0" flags="BrainHemorrhageHigh" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Мій..." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough">
+    <Conversation line="час..." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough">
+      <Conversation line="настав..." speaker="0" flags="BrainHemorrhageHigh" speakertags="professional,tough" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Забув..." speaker="0" flags="BrainHemorrhageHigh" speakertags="brokenenglish,crazy,joker">
+    <Conversation line="що я..." speaker="0" flags="BrainHemorrhageHigh" speakertags="brokenenglish,crazy,joker">
+      <Conversation line="тільки що сказав..." speaker="0" flags="BrainHemorrhageHigh" speakertags="brokenenglish,crazy,joker" />
+    </Conversation>
+  </Conversation>
+  <Conversation line="Як раз..." speaker="0" flags="BrainHemorrhageHigh" speakertags="crazy,joker,tough,rude">
+    <Conversation line="саме..." speaker="0" flags="BrainHemorrhageHigh" speakertags="crazy,joker,tough,rude">
+      <Conversation line="час..." speaker="0" flags="BrainHemorrhageHigh" speakertags="crazy,joker,tough,rude" />
+    </Conversation>
+  </Conversation>
+</Conversations>

@@ -1,0 +1,1430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Generic -->
+  <editor.saveall>Зберегти все</editor.saveall>
+  <!-- Submarine editor -->
+  <items>Елементи</items>
+  <structures>Структури</structures>
+  <totalhullvolume>Загальний об'єм корпусу</totalhullvolume>
+  <selectedhullvolume>Вибраний об'єм корпусу</selectedhullvolume>
+  <optimalballastlevel>Оптимальний рівень баласту становитиме [value]</optimalballastlevel>
+  <saveitemassembly>Зберегти збірку елементів</saveitemassembly>
+  <insufficientballast>Недостатній об'єм баласту для контролю плавучості</insufficientballast>
+  <physicsbodies>Фізичні тіла</physicsbodies>
+  <opensubbutton>Відкрити...</opensubbutton>
+  <savesubbutton>Зберегти</savesubbutton>
+  <addsubbutton>Додати субмарину</addsubbutton>
+  <addsubtooltip>Розміщує інший підводний човен у поточному файлі підводного човна. Може використовуватися для додавання таких речей, як менші судна, аварійні капсули або знімні секції до основного підводного човна.</addsubtooltip>
+  <holdtolink>Утримуйте "Space" та натисніть кнопку миші, щоб зв'язати елементи.</holdtolink>
+  <allowedlinks>Дозволені з'єднання</allowedlinks>
+  <filtermapentities>Фільтр</filtermapentities>
+  <charactermodebutton>Режим персонажа</charactermodebutton>
+  <charactermodetooltip>Дозволяє підіймати та використовувати предмети. Корисно для того, щоб розміщувати предмети у шафи, вмикати/вимикати пристрої та проводити проводку.</charactermodetooltip>
+  <wiringmodebutton>Режим проводки</wiringmodebutton>
+  <wiringmodetooltip>Дозволяє з'єднувати проводи між елементами.</wiringmodetooltip>
+  <generatewaypointsbutton>Створити точки маршруту</generatewaypointsbutton>
+  <generatewaypointstooltip>Члени екіпажу, які контролюються ШІ, потребують точки маршруту для орієнтування на субмарині.</generatewaypointstooltip>
+  <showentitieslabel>Показати</showentitieslabel>
+  <showwalls>Стіни</showwalls>
+  <showstructures>Структури</showstructures>
+  <showitems>Елементи</showitems>
+  <showlighting>Освітлення</showlighting>
+  <showwaypoints>Маршрути</showwaypoints>
+  <showspawnpoints>Точки появи</showspawnpoints>
+  <showlinks>Зв'язки</showlinks>
+  <hulllinkinfo>Зв'язані корпуси відображатимуться як одна кімната на моніторах стану.</hulllinkinfo>
+  <showhulls>Корпуси</showhulls>
+  <showgaps>Прогалини</showgaps>
+  <previouslyusedlabel>Попередньо використане</previouslyusedlabel>
+  <subnamemissingwarning>Назвіть свою субмарину перед тим як її зберегти.</subnamemissingwarning>
+  <subnameillegalcharswarning>Заборонені символи у назві файлу ([illegalchar])</subnameillegalcharswarning>
+  <subsavednotification>Субмарину збережено у [filepath].</subsavednotification>
+  <savesubdialogheader>Зберегти субмарину</savesubdialogheader>
+  <savesubdialogname>Назва</savesubdialogname>
+  <savesubdialogdescription>Опис</savesubdialogdescription>
+  <savesubdialogsettings>Налаштування</savesubdialogsettings>
+  <saveitemassemblydialogheader>Зберегти збірку</saveitemassemblydialogheader>
+  <saveitemassemblyhideinmenus>Сховати в меню</saveitemassemblyhideinmenus>
+  <saveitemassemblydialogname>Назва</saveitemassemblydialogname>
+  <saveitemassemblydialogdescription>Опис</saveitemassemblydialogdescription>
+  <itemassemblynamemissingwarning>Назвіть вашу збірку елементів, перед її збереженням.</itemassemblynamemissingwarning>
+  <itemassemblyfileexistswarning>Існує збірка з такою ж назвою. Чи ви бажаєте замінити наявну збірку елементів вашою?</itemassemblyfileexistswarning>
+  <itemassemblynameillegalcharswarning>Заборонені символи в назві файлу ([illegalchar])</itemassemblynameillegalcharswarning>
+  <nohullswarning>На субмарині не знайдено жодного корпусу. Корпуси визначають "межі" окремого приміщення і необхідні для правильного розподілу води та повітря.</nohullswarning>
+  <NoSuitableBrainRoomsWarning>Неможливо знайти підходяще приміщення для мозку таламуса. Використання випадкової кімнати. Затонуле судно слід відремонтувати таким чином, щоб було принаймні одне місце, де виконуються такі умови: відсутність з'єднаних корпусів, відсутність відкритих щілин у підлозі або зовні підводного човна, а також відсутність інших предметів Таламуса в корпусі.</NoSuitableBrainRoomsWarning>
+  <disconnectedventswarning>Субмарина має вентиляційні отвори, які не були з'єднані з кисневим генератором. Виберіть вентиляційний отвір і клацніть на генератор кисню, утримуючи пробіл, щоб з'єднати їх.</disconnectedventswarning>
+  <disconnectedturretswarning>Субмарина містить [itemname], який не був прив'язаний до подавача. Виберіть турель і клацніть на подавач, утримуючи пробіл, щоб з'єднати їх.</disconnectedturretswarning>
+  <nowaypointswarning>На субмарині не було знайдено точок маршруту. Члени екіпажу, які контролюються ШІ, не зможуть орієнтуватися на субмарині, без точок маршруту.</nowaypointswarning>
+  <nocargospawnpointwarning>Субмарина не має точок появи для вантажу (які використовуються для визначення місця, куди помістити куплені предмети). Щоб виправити це, створіть нову точку появи й змініть її параметр появи на "вантаж."</nocargospawnpointwarning>
+  <farawayentitieswarning>Одна або кілька структур чи предметів були розміщені дуже далеко від субмарини. Чи бажаєте пересунути камеру на них?</farawayentitieswarning>
+  <adjustlightsprompt>Ця субмарина була збережена на старій версії Barotrauma, яка використовувала іншу формулу для розрахунку освітлення. Тепер освітлення в підводному човні може здаватися занадто яскравим. Ви хочете автоматично переналаштувати освітлення під актуальну формулу освітлення?</adjustlightsprompt>
+  <adjustedlightsnotification>Яскравість освітлення відрегульовано. Зони з кількома джерелами світла все ще можуть здаватися занадто яскравими й можуть потребувати зменшення радіусу або яскравості світла вручну. Ви також можете скористатися консольною командою "multiplylights", щоб відрегулювати яскравість усіх джерел світла одночасно. Для прикладу, "multiplylights 1,1,1,1,0.5" зменшить яскравість світла на 50%.</adjustedlightsnotification>
+  <noballasttagswarning>Вам слід додати мітку "ballast" до баластних помп, щоб ШІ персонажі могли ідентифікувати помпи використані для контролю плавучості субмарини.</noballasttagswarning>
+  <insufficientfreeconnectionswarning>Модуль містить розподільну коробку, яка пов'язана з [doorcount] дверима, але має лише [freeconnectioncount] вільних комірок для клем. Це може призвести до того, що електрона мережа модулів форпосту не буде з'єднана між собою.</insufficientfreeconnectionswarning>
+  <LowOxygenOutputWarning>Вентиляційний отвір у кімнаті  [roomname] може не видавати достатньо кисню, щоб компенсувати споживання кисню однією людиною. Подумайте про додавання більшої кількості вентиляційних отворів до кімнати або збільшення потужності генератора кисню.</LowOxygenOutputWarning>
+  <toolargeforendgamewarning>Підводний човен настільки великий (&amp;amp;gt; 80 м x 32 м), що він може не подолати деякі перешкоди у фінальному біомі. Для завершення кампанії може знадобитися перехід на менший підводний човен.</toolargeforendgamewarning>
+  <waterinhullswarning>Деякі з корпусів містять воду. Якщо це не навмисно, ви можете видалити її за допомогою консольної команди "water".</waterinhullswarning>
+  <nohullnameswarning>Жодному з корпусів не дано назви; будуть використанні автоматично згенеровані імена. Під час гри назви корпусів/кімнат використовуються для повідомлення подій, наприклад «Пробоїна в корпусі в "назва кімнати"».</nohullnameswarning>
+  <deletingcontainerwithitems>Контейнер з предметами було видалено—видалити вміст контейнера також?\n\nКонтейнер містить:\n\n</deletingcontainerwithitems>
+  <hideinmenus>Сховати в меню</hideinmenus>
+  <manuallyoutfitted>Укомплектований вручну</manuallyoutfitted>
+  <manuallyoutfittedtooltip>Чи є на підводному човні достатньо припасів, розміщених вручну, чи вона покладається на автоматично розміщені предмети та/або предмети, передані разом з гравцем?</manuallyoutfittedtooltip>
+  <unspecifiedsubfilename>Не названо</unspecifiedsubfilename>
+  <reloadsprite>Перезавантажити спрайт</reloadsprite>
+  <resettoprefab>Скинути до початкових налаштувань</resettoprefab>
+  <mirrorentityx>Віддзеркалити Х</mirrorentityx>
+  <mirrorentityxtooltip>Віддзеркалити ентіті горизонтально. Ви також можете використовувати Ctrl + N.</mirrorentityxtooltip>
+  <mirrorentityy>Віддзеркалити Y</mirrorentityy>
+  <mirrorentityytooltip>Віддзеркалити ентіті вертикально. Ви також можете використовувати Ctrl + M.</mirrorentityytooltip>
+  <nonlinkedgapswarning>Субмарина має прогалини які не контактують з жодним корпусом. Прогалини завжди повинні контактувати принаймні з одним корпусом (для прогалин, що виходять за межі підводного човна) або двома корпусами (для прогалин між приміщеннями).</nonlinkedgapswarning>
+  <cannoteditvanillasubs>Неможливо редагувати субмарини, які наявні у пакеті контенту Vanilla!</cannoteditvanillasubs>
+  <subeditor.structurecountwarning>Субмарина має дуже велику кількість структур, що може спричинити проблеми з продуктивністю гри. Подумайте про зменшення кількості структур.</subeditor.structurecountwarning>
+  <subeditor.structurecounterror>Субмарина має занадто багато структур (&amp;amp;amp;gt;[max]), що призведе до проблем з продуктивністю гри. Будь ласка, зменште кількість структур.</subeditor.structurecounterror>
+  <subeditor.wallcountwarning>Підводний човен має дуже велику кількість стінок з колайдером, що може спричинити проблеми з продуктивністю. Подумайте про зменшення кількості стін.</subeditor.wallcountwarning>
+  <subeditor.wallcounterror>Підводний човен має занадто багато частин стінок з колайдером (&amp;amp;amp;gt;[max]), що призведе до проблем з продуктивністю. Будь ласка, зменште кількість настінних елементів.</subeditor.wallcounterror>
+  <subeditor.itemcountwarning>Підводний човен має дуже велику кількість елементів, що може спричинити проблеми з продуктивністю. Подумайте над тим, щоб зменшити кількість позицій.</subeditor.itemcountwarning>
+  <subeditor.itemcounterror>Підводний човен має занадто багато елементів (&amp;amp;amp;gt;[max]), що призведе до проблем з продуктивністю. Будь ласка, зменште кількість пунктів.</subeditor.itemcounterror>
+  <subeditor.lightcountwarning>Підводний човен має дуже велику кількість джерел світла, що може спричинити проблеми з продуктивністю. Подумайте про те, щоб зменшити кількість джерел світла.</subeditor.lightcountwarning>
+  <subeditor.lightcounterror>Підводний човен має занадто багато джерел світла (&amp;amp;amp;gt;[max]), що призведе до проблем з продуктивністю. Будь ласка, зменште кількість джерел світла.</subeditor.lightcounterror>
+  <subeditor.shadowcastinglightcounterror>Підводний човен має занадто багато джерел світла, що відкидають тінь (&amp;amp;amp;gt;[max]), що призведе до проблем з продуктивністю. Будь ласка, зменште кількість світильників або вимкніть відкидання тіні на деякі з них.</subeditor.shadowcastinglightcounterror>
+  <canattachtoprevious>Можна прикріпити до попереднього</canattachtoprevious>
+  <canattachtoprevious.tooltip>Які сторони цього модуля дозволено приєднувати до раніше розміщеного модуля. Наприклад, якщо ви хочете, щоб модуль завжди приєднувався до лівого боку стикувального модуля, ви можете встановити значення на "Вправо".</canattachtoprevious.tooltip>
+  <subeditor.packagealreadyexists>Вже існує пакет контенту з назвою "[name]". Будь ласка, виберіть іншу назву або виберіть пакет зі списку, якщо ви хочете його відредагувати.</subeditor.packagealreadyexists>
+  <subeditor.duplicatesubinpackage>У пакеті контенту вже є однойменний підводний човен. Ви хочете перезаписати наявний файл підводного човна?</subeditor.duplicatesubinpackage>
+  <stringpropertytranslate>Цей текст буде перекладено на [translation].</stringpropertytranslate>
+  <stringpropertycannottranslate>Цей текст не буде перекладено - текст з тегом [tag] не знайдено у мовних файлах.</stringpropertycannottranslate>
+  <subeditorlights>Освітлення</subeditorlights>
+  <subeditorshadowcastinglights>Освітлення, що відкидає тінь</subeditorshadowcastinglights>
+  <equipped.required>Обладнання, необхідне для взаємодії</equipped.required>
+  <equipped.required.tooltip>Користувач повинен носити або тримати елемент з одним із перерахованих ідентифікаторів або тегів для взаємодії з цим компонентом.</equipped.required.tooltip>
+  <picked.required>Предмет, необхідний для взаємодії</picked.required>
+  <picked.required.tooltip>Щоб взаємодіяти з цим компонентом, користувач повинен мати предмет з одним із перелічених ідентифікаторів або тегів будь-де в своєму інвентарі. Ви можете використовувати теги ідентифікаційних карток, визначені в точках появи підводного човна, щоб обмежити взаємодію певними ролям.</picked.required.tooltip>
+  <enemysub.reward>Нагорода</enemysub.reward>
+  <preferreddifficulty>Бажана Складність</preferreddifficulty>
+  <allowdamageddevices>Дозволити пошкоджені пристрої</allowdamageddevices>
+  <subeditor.duplicatefilenameerror>Не вдалося зберегти файл. Пакет вмісту [packagename] містить файл підводного човна з такою ж назвою. Будь ласка, виберіть інше ім’я.</subeditor.duplicatefilenameerror>
+  <editor.layer>Шар</editor.layer>
+  <editor.layer.movetolayer>Надіслати вибір у шар...</editor.layer.movetolayer>
+  <editor.layer.createlayer>Створіть новий шар з вибору</editor.layer.createlayer>
+  <editor.layer.selectall>Виберіть усі елементи цього шару</editor.layer.selectall>
+  <editor.layer.nolayer>Немає шару</editor.layer.nolayer>
+  <editor.layer.newlayer>Новий шар</editor.layer.newlayer>
+  <editor.layer.renamelayer>Перейменувати шар</editor.layer.renamelayer>
+  <editor.layer.deletelayer>Видалити шар</editor.layer.deletelayer>
+  <editor.layer.button>Керуйте шарами</editor.layer.button>
+  <editor.layer.tooltip>Перемикайте, створюйте, видаляйте та перейменуйте шари</editor.layer.tooltip>
+  <editor.layer.headerlink>Згрупувати</editor.layer.headerlink>
+  <editor.layer.removefromlayer>Видаліть вибір із шару</editor.layer.removefromlayer>
+  <editor.layer.selectlayer>Виберіть елементи в шарі</editor.layer.selectlayer>
+  <editor.layer.headerlink.tooltip>Окремі елементи в шарі трактуються як група: вибір будь -якого з них вибирає їх усіх.</editor.layer.headerlink.tooltip>
+  <editor.layer.editinglayer>Редагування шару: [шар]</editor.layer.editinglayer>
+  <editor.layer.movetoactivelayer>Надіслати вибір на активний шар</editor.layer.movetoactivelayer>
+  <editor.layeroptions>Шар...</editor.layeroptions>
+  <editor.layer.visiblebydefault>Шари, видимі за замовчуванням</editor.layer.visiblebydefault>
+  <editor.layer.headervisible>Видимість</editor.layer.headervisible>
+  <!-- Character editor -->
+  <charactereditor.creatingnewjoint>Створення нового з'єднання</charactereditor.creatingnewjoint>
+  <charactereditor.totalmass>Загальна маса: [mass]</charactereditor.totalmass>
+  <charactereditor.selectanchor1pos>Виберіть положення анкера для з'єднання</charactereditor.selectanchor1pos>
+  <charactereditor.selectlimbtoconnect>Виберіть іншу кінцівку, щоб з'єднати її з суглобом</charactereditor.selectlimbtoconnect>
+  <charactereditor.frozen>Заморожений</charactereditor.frozen>
+  <charactereditor.spriteorientation>Орієнтація спрайту</charactereditor.spriteorientation>
+  <charactereditor.spritesheetorientation>Орієнтація текстурного атласу</charactereditor.spritesheetorientation>
+  <charactereditor.cantaddjointsnolimbelements>Неможливо додати з'єднання, бо не знайдено жодного елемента кінцівки!</charactereditor.cantaddjointsnolimbelements>
+  <charactereditor.humanoidlimbdeletiondisabled>Видалення кінцівок з гуманоїда наразі відключено, щоб запобігти поломкам</charactereditor.humanoidlimbdeletiondisabled>
+  <charactereditor.tryingtospawncharacter>Спроба створити [config]</charactereditor.tryingtospawncharacter>
+  <charactereditor.nocontentpackageselected>Пакет контенту не обрано!</charactereditor.nocontentpackageselected>
+  <charactereditor.contentpackagesaved>Пакет вмісту збережено в: [path]</charactereditor.contentpackagesaved>
+  <charactereditor.backgroundcolor>Фон \nКолір</charactereditor.backgroundcolor>
+  <charactereditor.spritesheetzoom>Масштаб текстурного атласу</charactereditor.spritesheetzoom>
+  <charactereditor.reset>Скинути</charactereditor.reset>
+  <charactereditor.hidebodysprites>Приховати спрайти тіла</charactereditor.hidebodysprites>
+  <charactereditor.showwearables>Показати одяг</charactereditor.showwearables>
+  <charactereditor.lockspriteorigin>Зафіксувати походження спрайту</charactereditor.lockspriteorigin>
+  <charactereditor.lockspriteposition>Зафіксувати положення спрайта</charactereditor.lockspriteposition>
+  <charactereditor.lockspritesize>Зафіксувати розмір спрайту</charactereditor.lockspritesize>
+  <charactereditor.adjustcollider>Налаштувати колайдер</charactereditor.adjustcollider>
+  <charactereditor.uniformscale>Єдиний масштаб</charactereditor.uniformscale>
+  <charactereditor.copyjointsettings>Копіювати налаштування з'єднання</charactereditor.copyjointsettings>
+  <charactereditor.copyjointsettingstooltip>Копіює поточні налаштування до всіх вибраних з'єднань.</charactereditor.copyjointsettingstooltip>
+  <charactereditor.jointscale>Масштаб з'єднання</charactereditor.jointscale>
+  <charactereditor.limbscale>Масштаб кінцівок</charactereditor.limbscale>
+  <charactereditor.selectedanimation>Обрана анімація</charactereditor.selectedanimation>
+  <charactereditor.previouscharacter>Попередня</charactereditor.previouscharacter>
+  <charactereditor.nextcharacter>Наступна</charactereditor.nextcharacter>
+  <charactereditor.showparameters>Параметри [F1]</charactereditor.showparameters>
+  <charactereditor.showspritesheet>Текстурний атлас [T]</charactereditor.showspritesheet>
+  <charactereditor.drawskeleton>Скелет [N]</charactereditor.drawskeleton>
+  <charactereditor.enablelights>Освітлення [L]</charactereditor.enablelights>
+  <charactereditor.drawdamagemodifiers>Модифікатори пошкоджень [M]</charactereditor.drawdamagemodifiers>
+  <charactereditor.editcharacter>ПЕРСОНАЖ [1]</charactereditor.editcharacter>
+  <charactereditor.editragdoll>ФІЗИКА ПЕРСОНАЖА [2]</charactereditor.editragdoll>
+  <charactereditor.editlimbs>КІНЦІВКИ [3]</charactereditor.editlimbs>
+  <charactereditor.editjoints>З'ЄДНАННЯ [4]</charactereditor.editjoints>
+  <charactereditor.editanimations>АНІМАЦІЇ [5]</charactereditor.editanimations>
+  <charactereditor.editiktargets>Цілі ІК [I]</charactereditor.editiktargets>
+  <charactereditor.freeze>Заморозити</charactereditor.freeze>
+  <charactereditor.autofreeze>Автоматична заморозка</charactereditor.autofreeze>
+  <charactereditor.limbpairediting>Редагування пар кінцівок</charactereditor.limbpairediting>
+  <charactereditor.animationtestpose>Тестова поза [X]</charactereditor.animationtestpose>
+  <charactereditor.animationtestposeenabled>Тестова поза ввімкнена</charactereditor.animationtestposeenabled>
+  <charactereditor.automove>Автопереміщення</charactereditor.automove>
+  <charactereditor.followcursor>Слідувати за курсором</charactereditor.followcursor>
+  <charactereditor.showcolliders>Колайдери [C]</charactereditor.showcolliders>
+  <charactereditor.editbackgroundcolor>Редагувати колір фону</charactereditor.editbackgroundcolor>
+  <charactereditor.savebutton>Зберегти все</charactereditor.savebutton>
+  <charactereditor.allanimationssaved>Всі анімації збережено</charactereditor.allanimationssaved>
+  <charactereditor.ragdollsavedto>Фізику персонажа збережено до [path]</charactereditor.ragdollsavedto>
+  <charactereditor.charactersavedto>Файл конфігурації персонажа збережено до [path]</charactereditor.charactersavedto>
+  <charactereditor.resetbutton>Скинути</charactereditor.resetbutton>
+  <charactereditor.saveragdoll>Зберегти фізику персонажа</charactereditor.saveragdoll>
+  <charactereditor.providefilename>Будь ласка, вкажіть ім'я для файлу</charactereditor.providefilename>
+  <charactereditor.loadragdoll>Вивантажити фізику персонажа</charactereditor.loadragdoll>
+  <charactereditor.couldntopendirectory>Не вдалося відкрити директорію [folder]!</charactereditor.couldntopendirectory>
+  <charactereditor.ragdolldeletedfrom>Фізику персонажа видалено з [file]</charactereditor.ragdolldeletedfrom>
+  <charactereditor.ragdollloadedfrom>Фізику персонажа вивантажено з [file]</charactereditor.ragdollloadedfrom>
+  <charactereditor.saveanimation>Зберегти анімацію</charactereditor.saveanimation>
+  <charactereditor.selectanimationtype>Оберіть тип анімації</charactereditor.selectanimationtype>
+  <charactereditor.animationoftypesavedto>Анімація типу [type] збережена до [path]</charactereditor.animationoftypesavedto>
+  <charactereditor.loadanimation>Завантажити анімацію</charactereditor.loadanimation>
+  <charactereditor.animationoftypedeleted>Анімацію типу [type] у [file] видалено</charactereditor.animationoftypedeleted>
+  <charactereditor.animationtypenotimplemented>Тип анімації [type] не реалізовано!</charactereditor.animationtypenotimplemented>
+  <charactereditor.animationoftypeloaded>Анімація типу [type] завантажена з [file]</charactereditor.animationoftypeloaded>
+  <charactereditor.reloadtextures>Перезавантажити текстури</charactereditor.reloadtextures>
+  <charactereditor.recreateragdoll>Відтворити фізику персонажа [F5]</charactereditor.recreateragdoll>
+  <charactereditor.recreateragdolltooltip>Багато параметрів вимагають відтворення фізики персонажа. Якщо налаштування параметра не має ефекту, натисніть цю кнопку.</charactereditor.recreateragdolltooltip>
+  <charactereditor.createnewcharacter>Створити нового персонажа</charactereditor.createnewcharacter>
+  <charactereditor.copycharacter>Копіювати персонажа</charactereditor.copycharacter>
+  <charactereditor.copycharactertooltip>Створити копію поточного персонажа</charactereditor.copycharactertooltip>
+  <charactereditor.nofieldforparameterfound>Поле для [parameter] не знайдено!</charactereditor.nofieldforparameterfound>
+  <charactereditor.holdleftalttoadjustcyclespeed>Утримуйте ліву клавішу Alt, щоб відрегулювати швидкість циклу</charactereditor.holdleftalttoadjustcyclespeed>
+  <charactereditor.cyclespeed>Швидкість циклу</charactereditor.cyclespeed>
+  <charactereditor.movementspeed>Швидкість руху</charactereditor.movementspeed>
+  <charactereditor.headangle>Кут нахилу голови</charactereditor.headangle>
+  <charactereditor.head>Голова</charactereditor.head>
+  <charactereditor.headposition>Положення голови</charactereditor.headposition>
+  <charactereditor.torsoangle>Кут нахилу тулуба</charactereditor.torsoangle>
+  <charactereditor.torso>Тулуб</charactereditor.torso>
+  <charactereditor.torsoposition>Положення тулуба</charactereditor.torsoposition>
+  <charactereditor.tailangle>Кут нахилу хвоста</charactereditor.tailangle>
+  <charactereditor.footangle>Кут нахилу стопи</charactereditor.footangle>
+  <charactereditor.stepsize>Розмір кроку</charactereditor.stepsize>
+  <charactereditor.handmoveamount>Кількість рухів рукою</charactereditor.handmoveamount>
+  <charactereditor.tailmovementspeed>Швидкість рухів хвоста</charactereditor.tailmovementspeed>
+  <charactereditor.tailmovementamount>Кількість рухів хвоста</charactereditor.tailmovementamount>
+  <charactereditor.legmovementspeed>Швидкість руху ніг</charactereditor.legmovementspeed>
+  <charactereditor.legmovementamount>Кількість рухів ногами</charactereditor.legmovementamount>
+  <charactereditor.handmovementamount>Кількість рухів рукою</charactereditor.handmovementamount>
+  <charactereditor.holdleftalttomanipulatejoint>Утримуйте ліву клавішу Alt, щоб маніпулювати іншим кінцем з'єднання</charactereditor.holdleftalttomanipulatejoint>
+  <charactereditor.origin>Походження</charactereditor.origin>
+  <charactereditor.position>Позиція: [coordinates]</charactereditor.position>
+  <charactereditor.size>Розмір</charactereditor.size>
+  <charactereditor.upperlimit>Верхня межа</charactereditor.upperlimit>
+  <charactereditor.lowerlimit>Нижня межа</charactereditor.lowerlimit>
+  <charactereditor.defaultname>Персонаж X</charactereditor.defaultname>
+  <charactereditor.ishumanoid>Є гуманоїдом?</charactereditor.ishumanoid>
+  <charactereditor.canentersubmarines>Може проникати в субмарини?</charactereditor.canentersubmarines>
+  <charactereditor.canwalk>Може ходити?</charactereditor.canwalk>
+  <charactereditor.configfileoutput>Виведення файлу конфігурації</charactereditor.configfileoutput>
+  <charactereditor.texturepath>Шлях до текстур</charactereditor.texturepath>
+  <charactereditor.selecttexture>Вибрати текстуру</charactereditor.selecttexture>
+  <charactereditor.contentpackagename>Назва пакету вмісту</charactereditor.contentpackagename>
+  <charactereditor.texturedoesnotexist>Файл текстури не існує!</charactereditor.texturedoesnotexist>
+  <charactereditor.defineragdoll>Визначити фізику персонажа</charactereditor.defineragdoll>
+  <charactereditor.limbs>Кінцівки</charactereditor.limbs>
+  <charactereditor.limb>Кінцівка</charactereditor.limb>
+  <charactereditor.joints>З'єднання</charactereditor.joints>
+  <charactereditor.joint>З'єднання</charactereditor.joint>
+  <charactereditor.selectfile>Вибрати Файл</charactereditor.selectfile>
+  <charactereditor.missingtorsoorhead>Вам потрібно вказати хоча б одну кінцівку як тулуб або голову!</charactereditor.missingtorsoorhead>
+  <charactereditor.missinglimbtype>Вам потрібно вказати одну і тільки одну кінцівку як [limbtype]!</charactereditor.missinglimbtype>
+  <charactereditor.charactercreated>Персонаж [name] створений</charactereditor.charactercreated>
+  <charactereditor.limbtype>Тип кінцівки</charactereditor.limbtype>
+  <charactereditor.sourcerectangle>Вихідний прямокутник</charactereditor.sourcerectangle>
+  <charactereditor.id>Ідентифікатор</charactereditor.id>
+  <charactereditor.limbwithindex>Кінцівка [index]</charactereditor.limbwithindex>
+  <charactereditor.limbwithindexanchor>Кінцівка [index] якір</charactereditor.limbwithindexanchor>
+  <charactereditor.failedtoreadhtml>Екран редактора персонажа: Не вдалося прочитати HTML за адресою [path]</charactereditor.failedtoreadhtml>
+  <charactereditor.multipleitemswithsamehierarchy>Знайдено декілька елементів з однаковою ієрархією [hierarchy] ([name]). Неможливо продовжувати.</charactereditor.multipleitemswithsamehierarchy>
+  <charactereditor.cannoteditvanillacharacters>Неможливо редагувати персонажів, визначених у пакеті вмісту "Vanilla"! Ви можете створити копію персонажа (в іншому пакеті вмісту), якщо захочете його відредагувати.</charactereditor.cannoteditvanillacharacters>
+  <charactereditor.existingcharacterfoundreplaceverification>У цьому ж пакеті вмісту знайдено персонажа з таким самим іменем. Ви хочете замінити його (оригінальні файли будуть втрачені)?</charactereditor.existingcharacterfoundreplaceverification>
+  <charactereditor.existingcharacterfoundoverrideverification>наявний персонаж з таким самим іменем був знайдений в іншому пакеті вмісту. Ви хочете створити його перевизначення (оригінальні файли залишаться недоторканими)?</charactereditor.existingcharacterfoundoverrideverification>
+  <charactereditor.existingcharacterfound>Знайдено наявного персонажа з таким самим ім'ям.</charactereditor.existingcharacterfound>
+  <charactereditor.modespanel>Редагувати</charactereditor.modespanel>
+  <charactereditor.fileeditpanel>Файли</charactereditor.fileeditpanel>
+  <charactereditor.optionspanel>Параметри</charactereditor.optionspanel>
+  <charactereditor.characterpanel>Персонаж</charactereditor.characterpanel>
+  <charactereditor.toolspanel>Інструменти</charactereditor.toolspanel>
+  <charactereditor.minormodestitle>Показати</charactereditor.minormodestitle>
+  <charactereditor.addmultiplelimbsbutton>Додати декілька</charactereditor.addmultiplelimbsbutton>
+  <charactereditor.addaitarget>Додати ціль</charactereditor.addaitarget>
+  <charactereditor.addbloodemitter>Додати джерело кровотечі</charactereditor.addbloodemitter>
+  <charactereditor.addgibemitter>Додати джерело розчленування</charactereditor.addgibemitter>
+  <charactereditor.adddamageemitter>Додати джерело пошкодження</charactereditor.adddamageemitter>
+  <charactereditor.addsound>Додати звук</charactereditor.addsound>
+  <charactereditor.addlightsource>Додати освітлення</charactereditor.addlightsource>
+  <charactereditor.addattack>Додати атаку</charactereditor.addattack>
+  <charactereditor.addaffliction>Додати страждання</charactereditor.addaffliction>
+  <charactereditor.adddamagemodifier>Додати модифікатор шкоди</charactereditor.adddamagemodifier>
+  <charactereditor.addinventory>Додати речі</charactereditor.addinventory>
+  <charactereditor.addinventoryitem>Додати предмет до речей</charactereditor.addinventoryitem>
+  <charactereditor.selected>Обраний</charactereditor.selected>
+  <charactereditor.duplicatelimb>Дублювати кінцівку</charactereditor.duplicatelimb>
+  <charactereditor.deleteselected>Видалити обране</charactereditor.deleteselected>
+  <charactereditor.createjoint>Створити з'єднання</charactereditor.createjoint>
+  <charactereditor.createlimb>Створити кінцівку</charactereditor.createlimb>
+  <charactereditor.drawlimbonspritesheet>Намалювати кінцівку на текстурному атласі</charactereditor.drawlimbonspritesheet>
+  <charactereditor.onlyshowselectedlimbs>Показувати тільки обрані кінцівки</charactereditor.onlyshowselectedlimbs>
+  <charactereditor.newcontentpackage>Новий пакет контенту</charactereditor.newcontentpackage>
+  <charactereditor.existingjointfound>Суглоб між кінцівками [limbid1] та [limbid2] вже знайдено!</charactereditor.existingjointfound>
+  <charactereditor.unrestrict>Зняти обмеження</charactereditor.unrestrict>
+  <charactereditor.contentpackagenameinuse>Пакет контенту з такою ж назвою вже існує. Будь ласка, оберіть інше ім'я або наявний пакет контенту у випадаючому списку, якщо ви хочете додати до нього персонажа.</charactereditor.contentpackagenameinuse>
+  <charactereditor.spritesheetorientationtooltip>Загальна орієнтація спрайтів, як намальовано на аркуші спрайтів.</charactereditor.spritesheetorientationtooltip>
+  <charactereditor.spriteorientationtooltip>Орієнтація вибраного спрайта, як намальовано на аркуші спрайтів.</charactereditor.spriteorientationtooltip>
+  <charactereditor.generalorientationtooltip>Визначає «напрямок вперед» спрайту(ів). Слід налаштувати напрямок, що вказує назовні від головної кінцівки. Неправильно визначені орієнтації можуть призвести до неправильного обертання кінцівок, наприклад, коли персонаж цілиться або перевертається в іншому напрямку.</charactereditor.generalorientationtooltip>
+  <!-- Entity properties -->
+  <sp.scale.name>Масштаб</sp.scale.name>
+  <sp.spritedepth.name>Глибина спрайту</sp.spritedepth.name>
+  <sp.disallowedupgrades.name>Заборонені покращення</sp.disallowedupgrades.name>
+  <sp.hiddeningame.name>Приховані в грі</sp.hiddeningame.name>
+  <sp.item.hiddeningame.name>Приховано в грі</sp.item.hiddeningame.name>
+  <sp.item.noninteractable.name>Не для взаємодії</sp.item.noninteractable.name>
+  <sp.item.spritecolor.name>Колір спрайту</sp.item.spritecolor.name>
+  <sp.item.inventoryiconcolor.name>Колір іконки речей</sp.item.inventoryiconcolor.name>
+  <sp.item.containercolor.name>Колір контейнера</sp.item.containercolor.name>
+  <sp.item.containercolor.description>Змінює колір контейнера цього елемента. Впливає тільки якщо властивості UseContainedSpriteColor або UseContainedInventoryIconColor контейнера мають значення true.</sp.item.containercolor.description>
+  <sp.item.condition.name>Стан</sp.item.condition.name>
+  <sp.item.tags.name>Мітки</sp.item.tags.name>
+  <sp.item.displaysidebysidewhenlinked.name>Відображати поруч, коли зв'язано</sp.item.displaysidebysidewhenlinked.name>
+  <sp.item.displaysidebysidewhenlinked.description>Увімкніть, якщо ви хочете відображати HUD елемента поруч із HUD іншого елемента, коли вони зв'язані. Відмова від відповідальності: HUD можуть блокувати один одного, якщо вони не були розроблені для спільного перегляду!</sp.item.displaysidebysidewhenlinked.description>
+  <sp.item.spritedepth.name>Глибина спрайту</sp.item.spritedepth.name>
+  <sp.item.nonplayerteaminteractable.name>Не для гравців</sp.item.nonplayerteaminteractable.name>
+  <sp.item.nonplayerteaminteractable.description>Взаємодія з цим предметам доступна тільки персонажам, що не в команді гравців.</sp.item.nonplayerteaminteractable.description>
+  <sp.item.allowswapping.name>Дозволити заміну</sp.item.allowswapping.name>
+  <sp.item.allowswapping.description>Чи можна обміняти предмет на інші предмети в аванпостах? Актуально лише для змінних об'єктів, таких як башти.</sp.item.allowswapping.description>
+  <sp.item.invulnerabletodamage.name>Невразливий до пошкоджень</sp.item.invulnerabletodamage.name>
+  <sp.item.invulnerabletodamage.description>Якщо увімкнено, запобігає отриманню пошкоджень від будь-якого джерела.</sp.item.invulnerabletodamage.description>
+  <sp.structure.indestructible.name>Незламний</sp.structure.indestructible.name>
+  <sp.structure.castshadows.name>Відкидати тіні</sp.structure.castshadows.name>
+  <sp.structure.specialtag.name>Спеціальний тег</sp.structure.specialtag.name>
+  <sp.structure.spritecolor.name>Колір спрайту</sp.structure.spritecolor.name>
+  <sp.structure.usedropshadow.name>Використовувати падаючі тіні</sp.structure.usedropshadow.name>
+  <sp.structure.dropshadowoffset.name>Зміщення падаючої тіні</sp.structure.dropshadowoffset.name>
+  <sp.structure.dropshadowoffset.description>Положення падаючої тіні відносно структури. Якщо встановлено нульове значення, тінь автоматично позиціонується так, щоб вона вказувала на центр маси субмарини.</sp.structure.dropshadowoffset.description>
+  <sp.structure.texturescale.name>Масштаб текстур</sp.structure.texturescale.name>
+  <sp.structure.textureoffset.name>Зміщення текстури</sp.structure.textureoffset.name>
+  <sp.structure.removeiflinkedoutpostdoorinuse.name>Зніміть, якщо використовуються пов'язані двері форпосту</sp.structure.removeiflinkedoutpostdoorinuse.name>
+  <sp.structure.removeiflinkedoutpostdoorinuse.description>Якщо структура пов'язана з дверима на краю модуля аванпосту, це налаштування призведе до видалення структури, якщо двері будуть використовуватися в аванпості. В іншому випадку конструкція знімається, якщо двері НЕ використовуються.</sp.structure.removeiflinkedoutpostdoorinuse.description>
+  <sp.structure.noaitarget.name>Немає ШІ-цілі</sp.structure.noaitarget.name>
+  <sp.structure.noaitarget.description>Якщо увімкнено, монстри не намагатимуться атакувати цю структуру.</sp.structure.noaitarget.description>
+  <sp.structure.maxhealth.name>Максимальне здоров'я</sp.structure.maxhealth.name>
+  <sp.hull.ambientlight.name>Освітлення довкілля</sp.hull.ambientlight.name>
+  <sp.hull.roomname.name>Назва кімнати</sp.hull.roomname.name>
+  <sp.hull.iswetroom.name>Це вологе приміщення</sp.hull.iswetroom.name>
+  <sp.hull.iswetroom.description>Чи нормально, що цей корпус заповнений водою? Якщо назва приміщення містить слова "баласт", "трюм" або "шлюз", ви не можете вимкнути цей параметр.</sp.hull.iswetroom.description>
+  <sp.hull.avoidstaying.name>Уникайте перебування</sp.hull.avoidstaying.name>
+  <sp.hull.avoidstaying.description>Боти уникають тут перебувати, але їм все одно дозволено заходити в кімнату, коли це необхідно, і проходити через неї. Вимушений варіант для вологих приміщень.</sp.hull.avoidstaying.description>
+  <sp.door.openingspeed.name>Швидкість відкриття</sp.door.openingspeed.name>
+  <sp.door.openingspeed.description>Як швидко відчиняються двері.</sp.door.openingspeed.description>
+  <sp.door.closingspeed.name>Швидкість закриття</sp.door.closingspeed.name>
+  <sp.door.closingspeed.description>Як швидко зачиняються двері.</sp.door.closingspeed.description>
+  <sp.door.togglecooldown.name>Перемикач перезаряджання</sp.door.togglecooldown.name>
+  <sp.door.togglecooldown.description>Протягом цього часу двері не можуть бути відкриті/закриті після того, як вони були відкриті/закриті іншим персонажем.</sp.door.togglecooldown.description>
+  <sp.door.isopen.name>Відкрито</sp.door.isopen.name>
+  <sp.door.isopen.description>Двері зараз відчинені.</sp.door.isopen.description>
+  <sp.door.usebetweenoutpostmodules.name>Використання поміж модулями аванпостів</sp.door.usebetweenoutpostmodules.name>
+  <sp.door.usebetweenoutpostmodules.description>Це двері, які мають вести до іншого модуля аванпосту? Актуально лише для модулів аванпосту.</sp.door.usebetweenoutpostmodules.description>
+  <sp.door.botsshouldkeepopen.name>Боти повинні тримати відчиненими</sp.door.botsshouldkeepopen.name>
+  <sp.door.botsshouldkeepopen.description>Якщо це так, то боти не намагатимуться зачинити за собою ці двері.</sp.door.botsshouldkeepopen.description>
+  <sp.door.ToggleWhenClicked>Перемикання при натисканні</sp.door.ToggleWhenClicked>
+  <sp.door.ToggleWhenClicked.description>Якщо двері мають вбудовані кнопки, чи має натискання на них виконувати дію за замовчуванням – відкриття дверей? Можна використовувати разом з виходом "activate_out" для передачі сигналу в схему без перемикання дверей, коли хтось намагається їх відкрити або закрити.</sp.door.ToggleWhenClicked.description>
+  <sp.itemcomponent.pickingtime.name>Час вибору</sp.itemcomponent.pickingtime.name>
+  <sp.itemcomponent.pickingtime.description>Скільки часу потрібно, щоб забрати предмет (у секундах).</sp.itemcomponent.pickingtime.description>
+  <sp.itemcomponent.canbepicked.name>Може бути обраний</sp.itemcomponent.canbepicked.name>
+  <sp.itemcomponent.canbepicked.description>Чи можна взяти предмет (або взаємодіяти з ним, якщо дія взяття робить щось інше, ніж просто взяти предмет).</sp.itemcomponent.canbepicked.description>
+  <sp.itemcomponent.allowingameediting.name>Дозволити редагування в грі</sp.itemcomponent.allowingameediting.name>
+  <sp.itemcomponent.allowingameediting.description>Чи можна редагувати властивості компонента в грі (застосовується тільки якщо компонент має властивості, які можна редагувати в грі).</sp.itemcomponent.allowingameediting.description>
+  <sp.itemcomponent.msg.name>Повідомлення</sp.itemcomponent.msg.name>
+  <sp.itemcomponent.msg.description>Текст, що відображається поруч з елементом, коли він виділений (зазвичай містить інструкції про те, як взаємодіяти з елементом, наприклад "[Mouse1] Візьми").</sp.itemcomponent.msg.description>
+  <sp.electricaldischarger.range.description>Як далеко заряд може віддалитись від предмета.</sp.electricaldischarger.range.description>
+  <sp.electricaldischarger.rangemultiplierinwalls.name>Множник дальності у стінах</sp.electricaldischarger.rangemultiplierinwalls.name>
+  <sp.electricaldischarger.rangemultiplierinwalls.description>На яку відстань можна переносити заряд при русі через стіни.</sp.electricaldischarger.rangemultiplierinwalls.description>
+  <sp.electricaldischarger.duration.name>Тривалість</sp.electricaldischarger.duration.name>
+  <sp.electricaldischarger.duration.description>Тривалість окремого заряду (у секундах).</sp.electricaldischarger.duration.description>
+  <sp.electricaldischarger.outdoorsonly.name>Тільки поза приміщенням</sp.electricaldischarger.outdoorsonly.name>
+  <sp.electricaldischarger.outdoorsonly.description>Якщо встановлено значення true, заряд не зможе потрапити всередину підводного човна і не вразить нікого всередині.</sp.electricaldischarger.outdoorsonly.description>
+  <sp.electricaldischarger.reload.name>Перезавантажити</sp.electricaldischarger.reload.name>
+  <sp.electricaldischarger.reload.description>Скільки часу потрібно для «перезавантаження» елемента, перш ніж він зможе знову розрядитися (у секундах).</sp.electricaldischarger.reload.description>
+  <sp.powered.minvoltage.name>Мінімальна напруга</sp.powered.minvoltage.name>
+  <sp.powered.minvoltage.description>Мінімальна напруга, необхідна для роботи пристрою. Напруга розраховується як потужність/споживана потужність, тобто для роботи пристрою зі споживаною потужністю 1000 кВт знадобиться щонайменше 500 кВт потужності, якщо мінімальна напруга встановлена на 0,5.</sp.powered.minvoltage.description>
+  <sp.powered.powerconsumption.name>Енергоспоживання</sp.powered.powerconsumption.name>
+  <sp.powered.powerconsumption.description>Скільки енергії пристрій споживає (або намагається споживати) з електромережі, коли він активний.</sp.powered.powerconsumption.description>
+  <sp.powered.vulnerabletoemp.name>Вразливий до електромагнітних хвиль</sp.powered.vulnerabletoemp.name>
+  <sp.powered.vulnerabletoemp.description>Чи може предмет бути пошкоджений електромагнітними імпульсами?</sp.powered.vulnerabletoemp.description>
+  <sp.entityspawnercomponent.itemidentifier.name>Ідентифікатор елементу</sp.entityspawnercomponent.itemidentifier.name>
+  <sp.entityspawnercomponent.itemidentifier.description>Ідентифікатор предмета для додавання у світ; нічого не робить, якщо задано SpeciesName. Через кому, щоб випадковим чином з'явилося кілька елементів.</sp.entityspawnercomponent.itemidentifier.description>
+  <sp.entityspawnercomponent.speciesname.name>Назва виду</sp.entityspawnercomponent.speciesname.name>
+  <sp.entityspawnercomponent.speciesname.description>Назва виду істоти, яку буде створено; має пріоритет, якщо задано ItemIdentifier. Через кому, щоб випадковим чином з'явилося кілька істот.</sp.entityspawnercomponent.speciesname.description>
+  <sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>З'являється лише тоді, коли екіпаж у зоні досяжності</sp.entityspawnercomponent.onlyspawnwhencrewinrange.name>
+  <sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>Може з'явитися лише тоді, коли члени екіпажу перебувають у певній зоні</sp.entityspawnercomponent.onlyspawnwhencrewinrange.description>
+  <sp.entityspawnercomponent.crewareashape.name>Форма зони екіпажу</sp.entityspawnercomponent.crewareashape.name>
+  <sp.entityspawnercomponent.crewareashape.description>Форма зони, де повинні перебувати члени екіпажу</sp.entityspawnercomponent.crewareashape.description>
+  <sp.entityspawnercomponent.crewareabounds.name>Межі зони екіпажу</sp.entityspawnercomponent.crewareabounds.name>
+  <sp.entityspawnercomponent.crewareabounds.description>Розмір прямокутника, в якому мають перебувати члени екіпажу. Нічого не робить, якщо CrewAreaShape має значення "Коло"</sp.entityspawnercomponent.crewareabounds.description>
+  <sp.entityspawnercomponent.crewarearadius.name>Радіус зони екіпажу</sp.entityspawnercomponent.crewarearadius.name>
+  <sp.entityspawnercomponent.crewarearadius.description>Радіус кола, в якому будуть додаватись речі. Нічого не робить, якщо CrewAreaShape має значення "Прямокутник"</sp.entityspawnercomponent.crewarearadius.description>
+  <sp.entityspawnercomponent.crewareaoffset.name>Зміщення зони екіпажу</sp.entityspawnercomponent.crewareaoffset.name>
+  <sp.entityspawnercomponent.crewareaoffset.description>Зміщення зони екіпажу від центру елемента</sp.entityspawnercomponent.crewareaoffset.description>
+  <sp.entityspawnercomponent.spawnareashape.name>Форма області появи</sp.entityspawnercomponent.spawnareashape.name>
+  <sp.entityspawnercomponent.spawnareashape.description>Форма області, де з'являються вороги або предмети</sp.entityspawnercomponent.spawnareashape.description>
+  <sp.entityspawnercomponent.spawnareabounds.name>Межі області появи</sp.entityspawnercomponent.spawnareabounds.name>
+  <sp.entityspawnercomponent.spawnareabounds.description>Розмір прямокутника, в якому будуть з'являтись предмети або істоти. Нічого не робить, якщо SpawnAreaShape має значення "Коло"</sp.entityspawnercomponent.spawnareabounds.description>
+  <sp.entityspawnercomponent.spawnarearadius.name>Радіус зони появи</sp.entityspawnercomponent.spawnarearadius.name>
+  <sp.entityspawnercomponent.spawnarearadius.description>Радіус кола, в якому будуть з'являтись предмети або істоти. Нічого не робить, якщо SpawnAreaShape має значення "Прямокутник"</sp.entityspawnercomponent.spawnarearadius.description>
+  <sp.entityspawnercomponent.spawnareaoffset.name>Зміщення зони появи</sp.entityspawnercomponent.spawnareaoffset.name>
+  <sp.entityspawnercomponent.spawnareaoffset.description>Відхилення області появи від центру елемента</sp.entityspawnercomponent.spawnareaoffset.description>
+  <sp.entityspawnercomponent.spawntimerrange.name>Діапазон таймера появи</sp.entityspawnercomponent.spawntimerrange.name>
+  <sp.entityspawnercomponent.spawntimerrange.description>Діапазон часу між спробами появи в секундах. Встановіть від'ємне значення для обох параметрів, щоб вимкнути автоматичну появу.</sp.entityspawnercomponent.spawntimerrange.description>
+  <sp.entityspawnercomponent.spawnamountrange.name>Діапазон кількості елементів при появі</sp.entityspawnercomponent.spawnamountrange.name>
+  <sp.entityspawnercomponent.spawnamountrange.description>Мінімальна та максимальна кількість предметів або істот, які можуть з'явитися за одну спробу</sp.entityspawnercomponent.spawnamountrange.description>
+  <sp.entityspawnercomponent.maximumamount.name>Максимальна кількість</sp.entityspawnercomponent.maximumamount.name>
+  <sp.entityspawnercomponent.maximumamount.description>Загальна максимальна кількість предметів або істот, які можуть появитися. 0 = необмежена.</sp.entityspawnercomponent.maximumamount.description>
+  <sp.entityspawnercomponent.maximumamountinarea.name>Максимальна кількість в області</sp.entityspawnercomponent.maximumamountinarea.name>
+  <sp.entityspawnercomponent.maximumamountinarea.description>Кількість предметів або істот у зоні появи, які не дають можливості з'являтися іншим предметам або істотам. 0 = необмежений.</sp.entityspawnercomponent.maximumamountinarea.description>
+  <sp.entityspawnercomponent.maximumamountrangepadding.name>Максимальний діапазон зміни кількості</sp.entityspawnercomponent.maximumamountrangepadding.name>
+  <sp.entityspawnercomponent.maximumamountrangepadding.description>Збільште коло або прямокутник на це значення, щоб збільшити площу, яка враховується при визначенні максимальної кількості предметів або ворогів, які з'являться</sp.entityspawnercomponent.maximumamountrangepadding.description>
+  <sp.entityspawnercomponent.preloadcharacter.name>Предзавантаження персонажа</sp.entityspawnercomponent.preloadcharacter.name>
+  <sp.entityspawnercomponent.preloadcharacter.description>Якщо спаунер спавнить персонажів, чи потрібно їх «попередньо завантажувати» на початку раунду, щоб уникнути затримки під час їхньої появи?</sp.entityspawnercomponent.preloadcharacter.description>
+  <sp.holdable.holdpos.name>Утримувати положення</sp.holdable.holdpos.name>
+  <sp.holdable.holdpos.description>Положення у якому персонаж тримає предмет (в пікселях, як зміщення від плеча персонажа). Для прикладу число 10,-100 зробить що б персонаж тримав предмет 100 пікселів нижче плеча і 10 пікселів попереду.</sp.holdable.holdpos.description>
+  <sp.holdable.holdangle.name>Утримувати кут</sp.holdable.holdangle.name>
+  <sp.holdable.holdangle.description>Обертання при якому персонаж тримає предмет (у градусах відносно обертанню руки персонажа).</sp.holdable.holdangle.description>
+  <sp.holdable.swingamount.name>Сума розмаху</sp.holdable.swingamount.name>
+  <sp.holdable.swingamount.description>Наскільки предмет хитається довкола коли цілитесь/тримаєте його (у пікселях, як зміщення з AimPos/HoldPos).</sp.holdable.swingamount.description>
+  <sp.holdable.swingspeed.name>Швидкість розмаху</sp.holdable.swingspeed.name>
+  <sp.holdable.swingspeed.description>Як швидко предмет хитається довкола коли цілитесь/тримаєте його (дійсний лише якщо встановлено SwingAmount).</sp.holdable.swingspeed.description>
+  <sp.holdable.swingwhenholding.name>Розмах при утримуванні</sp.holdable.swingwhenholding.name>
+  <sp.holdable.swingwhenholding.description>Чи має предмет хитатися коли його тримають.</sp.holdable.swingwhenholding.description>
+  <sp.holdable.swingwhenaiming.name>Розмах при прицілюванні</sp.holdable.swingwhenaiming.name>
+  <sp.holdable.swingwhenaiming.description>Чи має предмет хитатися довкола коли ним ціляться.</sp.holdable.swingwhenaiming.description>
+  <sp.holdable.swingwhenusing.name>Розмах коли використовується</sp.holdable.swingwhenusing.name>
+  <sp.holdable.swingwhenusing.description>Чи має предмет хитатися довкола коли його використовують (для прикладу, коли стріляєте зі зброї чи працюєте зі зварювальним апаратом).</sp.holdable.swingwhenusing.description>
+  <sp.holdable.disableheadrotation.name>Відключити обертання голови</sp.holdable.disableheadrotation.name>
+  <sp.holdable.spritedepthwhendropped.name>Глибина спрайта коли викинуто</sp.holdable.spritedepthwhendropped.name>
+  <sp.holdable.spritedepthwhendropped.description>Глибина спрайта, яка використовується коли предмет НЕ прив'язаний до стіни.</sp.holdable.spritedepthwhendropped.description>
+  <sp.holdable.aimangle.name>Кут прицілювання</sp.holdable.aimangle.name>
+  <sp.holdable.aimangle.description>Кут, під яким персонаж тримає предмет під час прицілювання (у градусах, відносно повороту руки персонажа).</sp.holdable.aimangle.description>
+  <sp.rangedweapon.penetration.name>Проникнення</sp.rangedweapon.penetration.name>
+  <sp.rangedweapon.penetration.description>Відсоток пом'якшення шкоди, що ігнорується при попаданні в броньовані частини тіла (відхилення кінцівок).  Сума зброя + снаряд.</sp.rangedweapon.penetration.description>
+  <sp.itemcontainer.containablerestrictions.name>Обмеження вмісту</sp.itemcontainer.containablerestrictions.name>
+  <sp.itemcontainer.containablerestrictions.description>Визначає, які предметі (завдяки ідентифікаторам або тегам) мають складати боти в цей контейнер.</sp.itemcontainer.containablerestrictions.description>
+  <sp.itemcontainer.autofill.name>Автоматичне заповнення</sp.itemcontainer.autofill.name>
+  <sp.itemcontainer.autofill.description>Чи має цей контейнер автоматично заповнюватись предметами?</sp.itemcontainer.autofill.description>
+  <sp.itemlabel.text.name>Текст</sp.itemlabel.text.name>
+  <sp.itemlabel.text.description>Текст показаний на позначці.</sp.itemlabel.text.description>
+  <sp.itemlabel.ignorelocalization.name>Ігнорувати переклад</sp.itemlabel.ignorelocalization.name>
+  <sp.itemlabel.ignorelocalization.description>Пропускати локалізацію та завжди зображати необроблене значення.</sp.itemlabel.ignorelocalization.description>
+  <sp.itemlabel.textcolor.description>Колір тексту на позначці (R,G,B,A).</sp.itemlabel.textcolor.description>
+  <sp.itemlabel.textscale.description>Розмір тексту на позначці.</sp.itemlabel.textscale.description>
+  <sp.lightcomponent.range.description>Дистанція випромінюваного світла. Високі значення є більш продуктивними.</sp.lightcomponent.range.description>
+  <sp.lightcomponent.castshadows.name>Відкидаючи тіні</sp.lightcomponent.castshadows.name>
+  <sp.lightcomponent.castshadows.description>Чи потрібно структурам залишати тінь, коли на них світить це джерело світла. Відключення тіней підвищує продуктивність гри це рекомендовано для ліхтарів з маленькою дистанцією. Ліхтарі які поставлені позаду субмарини не створюють тіні, не залежно від налаштувань.</sp.lightcomponent.castshadows.description>
+  <sp.lightcomponent.drawbehindsubs.name>Промальовувати Позаду Човна</sp.lightcomponent.drawbehindsubs.name>
+  <sp.lightcomponent.drawbehindsubs.description>Світло промальоване позаду субмарин немає відкинутих тіней і вони швидко промальовуються ніж світло з відкинутою тінню. Рекомендовано вмикати для декоративного світла за межами корпуса субмарин.</sp.lightcomponent.drawbehindsubs.description>
+  <sp.lightcomponent.ison.description>Чи світло зараз увімкнуте.</sp.lightcomponent.ison.description>
+  <sp.lightcomponent.flicker.name>Мерехтіння</sp.lightcomponent.flicker.name>
+  <sp.lightcomponent.flicker.description>Як сильно світло мерехтітиме. 0 = ніякого мерехтіння, 1 = світло буде чергувати з повністю темного до повністю яскравого.</sp.lightcomponent.flicker.description>
+  <sp.lightcomponent.flickerspeed.name>Швидкість мерехтіння</sp.lightcomponent.flickerspeed.name>
+  <sp.lightcomponent.flickerspeed.description>Як швидко світло мерехтітиме.</sp.lightcomponent.flickerspeed.description>
+  <sp.lightcomponent.pulsefrequency.name>Частота імпульсів</sp.lightcomponent.pulsefrequency.name>
+  <sp.lightcomponent.pulsefrequency.description>Як швидко пульсує світло (в Гц). 0 = ніякого блимання.</sp.lightcomponent.pulsefrequency.description>
+  <sp.lightcomponent.pulseamount.name>Кількість пульсу</sp.lightcomponent.pulseamount.name>
+  <sp.lightcomponent.pulseamount.description>На скільки світло пульсує (в Гц). 0 = ніяк, 1 = чергує між повної яскравості та вимкненням.</sp.lightcomponent.pulseamount.description>
+  <sp.lightcomponent.blinkfrequency.name>Частота блимання</sp.lightcomponent.blinkfrequency.name>
+  <sp.lightcomponent.blinkfrequency.description>Як швидко світло блиматиме між увімкнення і вимкнення (в Гц). 0 = ніякого блимання.</sp.lightcomponent.blinkfrequency.description>
+  <sp.lightcomponent.lightcolor.description>Колір випромінюваного світла (R,G,B,A).</sp.lightcomponent.lightcolor.description>
+  <sp.controller.istoggle.name>Перемикач</sp.controller.istoggle.name>
+  <sp.controller.state.name>Стан</sp.controller.state.name>
+  <sp.controller.state.description>Чи предмет перемкнутий Увімкнути/Вимкнути. Застосовується тільки, якщо Перемикач застосовано.</sp.controller.state.description>
+  <sp.deconstructor.deconstructionspeed.name>Швидкість деконструкції</sp.deconstructor.deconstructionspeed.name>
+  <sp.Deconstructor.DeconstructionSpeed.description>Множник на швидкість деконструкції.</sp.Deconstructor.DeconstructionSpeed.description>
+  <sp.engine.maxforce.name>Максимальна сила</sp.engine.maxforce.name>
+  <sp.engine.maxforce.description>Кількість спрямованої сили на субмарину коли двигун працює на повну потужність.</sp.engine.maxforce.description>
+  <sp.engine.propellerpos.name>Позиція гвинту</sp.engine.propellerpos.name>
+  <sp.engine.propellerpos.description>Положення гвинта як зміщення від центру предмета (у пікселях). Визначає де частинки з'являтимуться і позиція яка спричиняє шкоду персонажам від двигуна, якщо визначено ШкодаВідГвинта.</sp.engine.propellerpos.description>
+  <sp.engine.disablepropellerdamage.name>Відключити шкоду від гвинта</sp.engine.disablepropellerdamage.name>
+  <sp.minimap.requirewaterdetectors.name>Потребує детектори води</sp.minimap.requirewaterdetectors.name>
+  <sp.minimap.requirewaterdetectors.description>Чи потребують механізми вхід з детекторів води що б зображати рівень води у відсіку.</sp.minimap.requirewaterdetectors.description>
+  <sp.minimap.requireoxygendetectors.name>Потребує детектор кисню</sp.minimap.requireoxygendetectors.name>
+  <sp.minimap.requireoxygendetectors.description>Чи потребують механізми вхід з детекторів кисню що б зображати рівень кисню у відсіку.</sp.minimap.requireoxygendetectors.description>
+  <sp.minimap.showhullintegrity.name>Зобразити цілісність корпусу</sp.minimap.showhullintegrity.name>
+  <sp.minimap.showhullintegrity.description>Чи повинні пошкоджені стіни зображатися завдяки механізму.</sp.minimap.showhullintegrity.description>
+  <sp.minimap.enablehullstatus.name>Увімкнути стан корпусу</sp.minimap.enablehullstatus.name>
+  <sp.minimap.enablehullstatus.description>Вмикає стан корпусу.</sp.minimap.enablehullstatus.description>
+  <sp.minimap.enableelectricalview.name>Увімкнути електричний стан</sp.minimap.enableelectricalview.name>
+  <sp.minimap.enableelectricalview.description>Вмикає електричний стан.</sp.minimap.enableelectricalview.description>
+  <sp.minimap.enableitemfinder.name>Увімкнути пошук предметів</sp.minimap.enableitemfinder.name>
+  <sp.minimap.enableitemfinder.description>Вмикає пошук предметів.</sp.minimap.enableitemfinder.description>
+  <sp.pump.maxflow.name>Максимальний стік</sp.pump.maxflow.name>
+  <sp.pump.maxflow.description>Як швидко предмети викачують воду увімкнуто/вимкнуто коли працюють в 100%.</sp.pump.maxflow.description>
+  <sp.reactor.maxpoweroutput.name>Максимальний вивід енергії</sp.reactor.maxpoweroutput.name>
+  <sp.reactor.maxpoweroutput.description>Скільки енергії (кВт) реактор виробляє коли працює на повну потужність.</sp.reactor.maxpoweroutput.description>
+  <sp.reactor.meltdowndelay.name>Затримка розплавлення</sp.reactor.meltdowndelay.name>
+  <sp.reactor.meltdowndelay.description>Як довго має температури залишатися на критичному значені до того, як почне розплавлюватися.</sp.reactor.meltdowndelay.description>
+  <sp.reactor.firedelay.name>Затримка вогню</sp.reactor.firedelay.name>
+  <sp.reactor.firedelay.description>Як довго має температура залишатися на критичному значенні до того, як реактор запалав.</sp.reactor.firedelay.description>
+  <sp.reactor.fuelconsumptionrate.name>Витрати палива</sp.reactor.fuelconsumptionrate.name>
+  <sp.reactor.fuelconsumptionrate.description>Те наскільки швидко погіршується стан паливних стрижнів, що містяться в контейнері, за секунду.</sp.reactor.fuelconsumptionrate.description>
+  <sp.reactor.explosiondamagesothersubs.name>Вибух пошкоджує інші субмарини</sp.reactor.explosiondamagesothersubs.name>
+  <sp.sonar.usetransducers.name>Використання датчиків</sp.sonar.usetransducers.name>
+  <sp.sonar.usetransducers.description>Потрібно підключати сонар до зовнішніх датчиків, щоб він працював.</sp.sonar.usetransducers.description>
+  <sp.sonar.centerontransducers.name>Центр на датчиках</sp.sonar.centerontransducers.name>
+  <sp.sonar.centerontransducers.description>Огляд сонара має бути зосереджений на датчиках або на центрі маси підводного човна. Впливає лише якщо увімкнено UseTransducers.</sp.sonar.centerontransducers.description>
+  <sp.sonar.hasmineralscanner.name>Має сканер мінералів</sp.sonar.hasmineralscanner.name>
+  <sp.sonar.hasmineralscanner.description>Чи має сонар можливість сканувати мінерали.</sp.sonar.hasmineralscanner.description>
+  <sp.steering.neutralballastlevel.name>Нейтральний рівень баласту</sp.steering.neutralballastlevel.name>
+  <sp.steering.neutralballastlevel.description>Наскільки мають бути заповнені баласти коли субмарина не скерована вверх/вниз. Може використовуватися для компенсації, якщо баластні цистерни занадто великі/малі порівняно з розмірами підводного човна.</sp.steering.neutralballastlevel.description>
+  <sp.powered.propertyheader>Силовой компонент</sp.powered.propertyheader>
+  <sp.powercontainer.maxoutput.name>Максимальний вивід</sp.powercontainer.maxoutput.name>
+  <sp.powercontainer.maxoutput.description>Максимальний вивід коли пристрій повністю заряджений (кВт).</sp.powercontainer.maxoutput.description>
+  <sp.powercontainer.capacity.name>Місткість</sp.powercontainer.capacity.name>
+  <sp.powercontainer.capacity.description>Максимальна місткість пристрою (кВт/хв). Для прикладу, число 1000 означає що пристрій може вивести 100 кіловатів енергії за 10 хвилин, або 1000 кіловат за 1 хвилину.</sp.powercontainer.capacity.description>
+  <sp.powercontainer.charge.description>Поточний заряд пристрою.</sp.powercontainer.charge.description>
+  <sp.powercontainer.maxrechargespeed.name>Максимальна швидкість перезаряджання</sp.powercontainer.maxrechargespeed.name>
+  <sp.powercontainer.maxrechargespeed.description>Як швидко можна зарядити пристрій. Наприклад, швидкість перезарядки 100 кВт і потужність 1000 кВт/хв означає, що для повної зарядки пристрою знадобиться 10 хвилин.</sp.powercontainer.maxrechargespeed.description>
+  <sp.powercontainer.rechargespeed.name>Швидкість перезаряджання</sp.powercontainer.rechargespeed.name>
+  <sp.powercontainer.rechargespeed.description>Поточна швидкість перезаряджання пристрою.</sp.powercontainer.rechargespeed.description>
+  <sp.powercontainer.efficiency.name>Ефективність</sp.powercontainer.efficiency.name>
+  <sp.powercontainer.efficiency.description>Кількість енергії, яку ви можете отримати від предмета, відносно кількості енергії, яку в нього було вкладено.</sp.powercontainer.efficiency.description>
+  <sp.PowerContainer.FlipIndicator.name>Індикатор перевертання</sp.PowerContainer.FlipIndicator.name>
+  <sp.PowerContainer.FlipIndicator.description>Шкала рівню заряду має показувати що потрібно перевернути, щоб заповнити його з іншого боку.</sp.PowerContainer.FlipIndicator.description>
+  <sp.powertransfer.canbeoverloaded.name>Може бути перевантажений</sp.powertransfer.canbeoverloaded.name>
+  <sp.powertransfer.canbeoverloaded.description>Чи може елемент бути пошкоджений, якщо в електромережу подається занадто велика потужність.</sp.powertransfer.canbeoverloaded.description>
+  <sp.powertransfer.overloadvoltage.name>Перенапруга</sp.powertransfer.overloadvoltage.name>
+  <sp.powertransfer.overloadvoltage.description>Скільки енергії потрібно подати в мережу щодо навантаження, перш ніж елемент почне пошкоджуватися. Наприклад, значення 2 означає, що мережа повинна отримувати вдвічі більше енергії, ніж споживають пристрої в мережі.</sp.powertransfer.overloadvoltage.description>
+  <sp.powertransfer.fireprobability.name>Імовірність загоряння</sp.powertransfer.fireprobability.name>
+  <sp.powertransfer.fireprobability.description>Ймовірність виникнення пожежі коли елемент пошкоджується.</sp.powertransfer.fireprobability.description>
+  <sp.quality.qualitylevel.name>Рівень якості</sp.quality.qualitylevel.name>
+  <sp.repairable.deteriorationspeed.name>Швидкість погіршення</sp.repairable.deteriorationspeed.name>
+  <sp.repairable.deteriorationspeed.description>Наскільки швидко погіршується стан предмета за секунду.</sp.repairable.deteriorationspeed.description>
+  <sp.repairable.mindeteriorationdelay.name>Мінімальна затримка погіршення стану предмета</sp.repairable.mindeteriorationdelay.name>
+  <sp.repairable.mindeteriorationdelay.description>Мінімальна початкова затримка до того, як стан предмету почне погіршуватися.</sp.repairable.mindeteriorationdelay.description>
+  <sp.repairable.maxdeteriorationdelay.name>Максимальна затримка погіршення стану предмета</sp.repairable.maxdeteriorationdelay.name>
+  <sp.repairable.maxdeteriorationdelay.description>Максимальна початкова затримка до того, як стан предмету почне погіршуватися.</sp.repairable.maxdeteriorationdelay.description>
+  <sp.repairable.mindeteriorationcondition.name>Мінімальний стан погіршення</sp.repairable.mindeteriorationcondition.name>
+  <sp.repairable.mindeteriorationcondition.description>Предмет не буде спонтанно погіршуватися, якщо стан нижче цього значення. Наприклад, якщо встановлено значення 10, умова спонтанно знизиться до 10, а потім перестане знижуватися (якщо елемент не буде пошкоджено ще більше під впливом зовнішніх факторів). Відсотки від максимального стану.</sp.repairable.mindeteriorationcondition.description>
+  <sp.repairable.repairthreshold.name>Поріг ремонту</sp.repairable.repairthreshold.name>
+  <sp.repairable.repairthreshold.description>Стан предмета має бути нижчим за цей показник, щоб його можна було відремонтувати. Відсотки від максимального стану.</sp.repairable.repairthreshold.description>
+  <sp.repairable.fixdurationlowskill.name>Виправити тривалість, якщо рівень навички недостатній</sp.repairable.fixdurationlowskill.name>
+  <sp.repairable.fixdurationlowskill.description>Кількість часу, необхідного для ремонту предмета, якщо рівень навичок недостатній.</sp.repairable.fixdurationlowskill.description>
+  <sp.repairable.fixdurationhighskill.name>Виправити тривалість, якщо рівень навички достатній</sp.repairable.fixdurationhighskill.name>
+  <sp.repairable.fixdurationhighskill.description>Кількість часу, необхідного для ремонту предмета, якщо рівень навичок достатній.</sp.repairable.fixdurationhighskill.description>
+  <sp.repairtool.barrelrotation.name>Обертання стволу</sp.repairtool.barrelrotation.name>
+  <sp.repairtool.barrelrotation.description>Обертання стволу в градусах.</sp.repairtool.barrelrotation.description>
+  <sp.buttonterminal.signals.name>Сигнали</sp.buttonterminal.signals.name>
+  <sp.buttonterminal.signals.description>Сигнали надсилаються при натисканні відповідних кнопок.</sp.buttonterminal.signals.description>
+  <sp.buttonterminal.activatingitems.name>Активація елементів</sp.buttonterminal.activatingitems.name>
+  <sp.buttonterminal.activatingitems.description>Ідентифікатори або мітки елементів, які, коли вони присутні, дозволяють використовувати кнопки терміналу. Кілька таких елементів слід відокремлювати комами.</sp.buttonterminal.activatingitems.description>
+  <sp.buttonterminal.deactivatedsignal.name>Деактивований сигнал</sp.buttonterminal.deactivatedsignal.name>
+  <sp.buttonterminal.deactivatedsignal.description>Сигнал постійно надсилається через усі з'єднання, коли термінал деактивований (тобто, коли всередині нього немає потрібних елементів).</sp.buttonterminal.deactivatedsignal.description>
+  <sp.wire.width.name>Ширина</sp.wire.width.name>
+  <sp.connectionpanel.locked.name>Заблоковані</sp.connectionpanel.locked.name>
+  <sp.connectionpanel.locked.description>Заблоковані з'єднувальні панелі не можуть бути перепідключені в грі.</sp.connectionpanel.locked.description>
+  <sp.memorycomponent.maxvaluelength.name>Максимальний розмір значення</sp.memorycomponent.maxvaluelength.name>
+  <sp.memorycomponent.maxvaluelength.description>Максимальна довжина збереженого значення. Попередження: Великі значення можуть призвести до високого використання пам'яті або проблем з мережею.</sp.memorycomponent.maxvaluelength.description>
+  <sp.memorycomponent.writeable.name>Придатний для запису</sp.memorycomponent.writeable.name>
+  <sp.memorycomponent.writeable.description>Чи можна змінити значення, що зберігається в компоненті пам'яті, за допомогою сигналів.</sp.memorycomponent.writeable.description>
+  <sp.motionsensor.ignoredead.name>Ігнорувати мертвих</sp.motionsensor.ignoredead.name>
+  <sp.motionsensor.ignoredead.description>Чи повинен датчик ігнорувати тіла мертвих персонажів?</sp.motionsensor.ignoredead.description>
+  <sp.motionsensor.rangex.description>Горизонтальна дальність виявлення.</sp.motionsensor.rangex.description>
+  <sp.motionsensor.rangey.description>Вертикальна дальність виявлення.</sp.motionsensor.rangey.description>
+  <sp.motionsensor.detectoffset.name>Виявити зміщення</sp.motionsensor.detectoffset.name>
+  <sp.motionsensor.detectoffset.description>Позиція для виявлення руху відносно об'єкта. Наприклад, 0,100 виявить рух на 100 одиниць вище елемента.</sp.motionsensor.detectoffset.description>
+  <sp.motionsensor.updateinterval.name>Інтервал оновлення</sp.motionsensor.updateinterval.name>
+  <sp.motionsensor.updateinterval.description>Як часто датчик перевіряє, чи не рухається щось поблизу нього. Вищі значення є кращими для продуктивності.</sp.motionsensor.updateinterval.description>
+  <sp.motionsensor.output.description>Сигнал, який пристрій видає, коли виявляє рух.</sp.motionsensor.output.description>
+  <sp.motionsensor.falseoutput.description>Сигнал, який пристрій видає, якщо він не виявив руху.</sp.motionsensor.falseoutput.description>
+  <sp.motionsensor.minimumvelocity.name>Мінімальна швидкість</sp.motionsensor.minimumvelocity.name>
+  <sp.motionsensor.minimumvelocity.description>Швидкість, з якою повинні рухатися об'єкти в зоні дії датчика (в м/с), щоб бути виявленими.</sp.motionsensor.minimumvelocity.description>
+  <sp.motionsensor.targetspecies.name>Цільові Сутності</sp.motionsensor.targetspecies.name>
+  <sp.motionsensor.targetspecies.description>Чи реагує датчик лише на певниі сутності (назва сутності, група чи мітка)? Не має ефекту, якщо тип цілі неправильний.</sp.motionsensor.targetspecies.description>
+  <sp.terminal.welcomemessage.name>Вітальне повідомлення</sp.terminal.welcomemessage.name>
+  <sp.terminal.welcomemessage.description>Повідомлення, яке буде показано на дисплеї терміналу при першому відкритті.</sp.terminal.welcomemessage.description>
+  <sp.terminal.usemonospacefont.name>Використовувати моноширинний шрифт</sp.terminal.usemonospacefont.name>
+  <sp.terminal.usemonospacefont.description>Якщо цей пункт позначено, термінал використовуватиме моноширинний шрифт.</sp.terminal.usemonospacefont.description>
+  <sp.textcolor.name>Колір тексту</sp.textcolor.name>
+  <sp.terminal.textcolor.description>Колір тексту терміналу.</sp.terminal.textcolor.description>
+  <sp.terminal.linestartsymbol.name>Символ початку лінії</sp.terminal.linestartsymbol.name>
+  <sp.terminal.readonly.name>Лише для читання</sp.terminal.readonly.name>
+  <sp.range.name>Діапазон</sp.range.name>
+  <sp.wificomponent.range.description>Наскільки близько повинен знаходитися одержувач, щоб отримати сигнал від цього компонента Wi-Fi.</sp.wificomponent.range.description>
+  <sp.wificomponent.allowcrossteamcommunication.name>Дозвольте міжкомандну комунікацію</sp.wificomponent.allowcrossteamcommunication.name>
+  <sp.wificomponent.allowcrossteamcommunication.description>Чи може компонент зв'язуватися з Wi-Fi компонентами на підводному човні іншої команди (наприклад, ворожий підводний човен у бойових місіях, шатл возродження). Потрібно ввімкнути як на компоненті, що передає сигнал, так і на компоненті, що його приймає.</sp.wificomponent.allowcrossteamcommunication.description>
+  <sp.wificomponent.linktochat.name>Прив'язка до чату</sp.wificomponent.linktochat.name>
+  <sp.wificomponent.linktochat.description>Якщо увімкнено, будь-які сигнали, отримані від іншого Wi-Fi компонента, пов'язаного з чатом, відображатимуться як повідомлення чату у вікні чату гравця, який тримає цей об'єкт.</sp.wificomponent.linktochat.description>
+  <sp.wificomponent.minchatmessageinterval.name>Мінімальний інтервал між повідомленнями в чаті</sp.wificomponent.minchatmessageinterval.name>
+  <sp.wificomponent.minchatmessageinterval.description>Скільки секунд має пройти між сигналами, щоб повідомлення з'явилося в чаті. Не рекомендується встановлювати дуже низьке значення, оскільки це може призвести до створення надмірної кількості повідомлень у чаті, якщо є підключені до чату Wi-Fi компоненти, які передають безперервний сигнал.</sp.wificomponent.minchatmessageinterval.description>
+  <sp.wificomponent.discardduplicatechatmessages.name>Видалення дублікатів повідомлень чату</sp.wificomponent.discardduplicatechatmessages.name>
+  <sp.wificomponent.discardduplicatechatmessages.description>Якщо встановлено значення true, компонент буде створювати повідомлення чату лише тоді, коли зміниться отриманий сигнал.</sp.wificomponent.discardduplicatechatmessages.description>
+  <sp.wire.noautolock.name>Немає автоблокування</sp.wire.noautolock.name>
+  <sp.wire.noautolock.description>Якщо увімкнено, цей провід буде проігноровано параметром "Блокувати всі проводи за замовчуванням".</sp.wire.noautolock.description>
+  <sp.wire.usespritedepth.name>Використовуйте глибину спрайту</sp.wire.usespritedepth.name>
+  <sp.wire.usespritedepth.description>Якщо увімкнено, цей провід використовуватиме глибину спрайту замість постійної глибини.</sp.wire.usespritedepth.description>
+  <sp.triggercomponent.force.description>Максимальна кількість сили, застосованої до об'єктів, що викликають спрацьовування.</sp.triggercomponent.force.description>
+  <sp.triggercomponent.distancebasedforce.name>Вплив дистанції на силу</sp.triggercomponent.distancebasedforce.name>
+  <sp.triggercomponent.distancebasedforce.description>Визначає, чи зростає сила, чим ближче курок до центру спускового гачка.</sp.triggercomponent.distancebasedforce.description>
+  <sp.triggercomponent.forcefluctuation.name>Коливання сили</sp.triggercomponent.forcefluctuation.name>
+  <sp.triggercomponent.forcefluctuation.description>Визначає, чи коливається сила з часом, чи залишається постійною.</sp.triggercomponent.forcefluctuation.description>
+  <sp.turret.hudtint.name>Відтінок HUD</sp.turret.hudtint.name>
+  <sp.turret.hudtint.description>Додатковий колір відтінку екрана під час роботи елемента (R,G,B,A).</sp.turret.hudtint.description>
+  <sp.turret.reload.name>Перезавантажити</sp.turret.reload.name>
+  <sp.turret.reload.description>Період часу, який користувач повинен чекати між знімками.</sp.turret.reload.description>
+  <sp.turret.shotsperburst.name>Кількість пострілів за серію</sp.turret.shotsperburst.name>
+  <sp.turret.shotsperburst.description>Скільки снарядів потрібно вистрілити, щоб зробити додаткову перерву. (Подумайте про рушницю з подвійною котушкою.)</sp.turret.shotsperburst.description>
+  <sp.turret.delaybetweenbursts.name>Затримка між серіями</sp.turret.delaybetweenbursts.name>
+  <sp.turret.delaybetweenbursts.description>Додаткова затримка між серіями. Додано до перезавантаження.</sp.turret.delaybetweenbursts.description>
+  <sp.turret.retractiondurationmultiplier.name>Мультиплікатор тривалості втягування</sp.turret.retractiondurationmultiplier.name>
+  <sp.turret.retractiondurationmultiplier.description>Змінює час, за який ствол повертається у вихідне положення після пострілу. Час перезавантаження також впливає на це.</sp.turret.retractiondurationmultiplier.description>
+  <sp.turret.recoiltime.name>Час відкату</sp.turret.recoiltime.name>
+  <sp.turret.recoiltime.description>Як швидко віддача переміщує ствол після пострілу.</sp.turret.recoiltime.description>
+  <sp.turret.retractiondelay.name>Затримка повернення</sp.turret.retractiondelay.name>
+  <sp.turret.retractiondelay.description>Як довго ствол залишається на місці після віддачі і до повернення у вихідне положення.</sp.turret.retractiondelay.description>
+  <sp.turret.rotationlimits.name>Обмеження обертання</sp.turret.rotationlimits.name>
+  <sp.turret.rotationlimits.description>Діапазон, на який може обертатися ствол.</sp.turret.rotationlimits.description>
+  <sp.turret.springstiffnesslowskill.name>Жорсткість пружини якщо рівень навички недостатній</sp.turret.springstiffnesslowskill.name>
+  <sp.turret.springstiffnesslowskill.description>Який крутний момент прикладається для обертання ствола, коли предмет використовується персонажем з недостатніми навичками керування ним. Вищі значення змушують ствол обертатися швидше.</sp.turret.springstiffnesslowskill.description>
+  <sp.turret.springstiffnesshighskill.name>Жорсткість пружини якщо рівень навички достатній</sp.turret.springstiffnesshighskill.name>
+  <sp.turret.springstiffnesshighskill.description>Який крутний момент прикладається для обертання ствола, коли предмет використовується персонажем з достатніми навичками для керування ним. Вищі значення змушують ствол обертатися швидше.</sp.turret.springstiffnesshighskill.description>
+  <sp.turret.springdampinglowskill.name>Спротив пружини якщо рівень навички недостатній</sp.turret.springdampinglowskill.name>
+  <sp.turret.springdampinglowskill.description>Який крутний момент прикладається, щоб протистояти руху ствола, коли предмет використовується персонажем з недостатніми навичками керування ним. Вищі значення роблять прицілювання більш "чітким", зупиняючи коливання ствола в напрямку, в який він націлений.</sp.turret.springdampinglowskill.description>
+  <sp.turret.springdampinghighskill.name>Спротив пружини якщо рівень навички достатній</sp.turret.springdampinghighskill.name>
+  <sp.turret.springdampinghighskill.description>Який крутний момент прикладається, щоб протистояти руху ствола, коли предмет використовується персонажем з достатніми навичками для керування ним. Вищі значення роблять прицілювання більш "чітким", зупиняючи коливання ствола в напрямку, в який він націлений.</sp.turret.springdampinghighskill.description>
+  <sp.turret.rotationspeedlowskill.name>Швидкість обертання якщо рівень навички недостатній</sp.turret.rotationspeedlowskill.name>
+  <sp.turret.rotationspeedlowskill.description>Максимальна швидкість ствола, якщо в персонажа недостатній рівень навички.</sp.turret.rotationspeedlowskill.description>
+  <sp.turret.rotationspeedhighskill.name>Швидкість обертання, якщо рівень навички достатній</sp.turret.rotationspeedhighskill.name>
+  <sp.turret.rotationspeedhighskill.description>Максимальна швидкість ствола, якщо в персонажа достатній рівень навички.</sp.turret.rotationspeedhighskill.description>
+  <sp.turret.AutoOperate.name>Автоматична робота</sp.turret.AutoOperate.name>
+  <sp.turret.RandomAimAmount.name>Сума випадкової мети</sp.turret.RandomAimAmount.name>
+  <sp.turret.RandomAimMinTime.name>Мінімальний час випадкового прицілювання</sp.turret.RandomAimMinTime.name>
+  <sp.turret.RandomAimMaxTime.name>Максимальний час випадкового прицілювання</sp.turret.RandomAimMaxTime.name>
+  <sp.turret.RandomMovement.name>Випадковий рух</sp.turret.RandomMovement.name>
+  <sp.turret.AimDelay.name>Затримка прицілювання</sp.turret.AimDelay.name>
+  <sp.turret.TargetCharacters.name>Цільові персонажі</sp.turret.TargetCharacters.name>
+  <sp.turret.TargetMonsters.name>Цільові монстри</sp.turret.TargetMonsters.name>
+  <sp.turret.TargetHumans.name>Цільові люди</sp.turret.TargetHumans.name>
+  <sp.turret.TargetSubmarines.name>Цільові підводні човни</sp.turret.TargetSubmarines.name>
+  <sp.turret.TargetItems.name>Цільові предмети</sp.turret.TargetItems.name>
+  <sp.turret.FriendlyTag.name>Дружній тег</sp.turret.FriendlyTag.name>
+  <sp.turret.FriendlyTeam.name>Дружня команда</sp.turret.FriendlyTeam.name>
+  <sp.turret.FriendlyTeam.description>Команда, яку турель вважає дружньою. Якщо встановлено значення «Немає», команда, до якої належить підводний човен/форпост, вважається дружньою командою.</sp.turret.FriendlyTeam.description>
+  <sp.turret.RandomAimAmount.description>[Автоматичне керування] Наскільки вежа має випадково зміщувати ціль замість ідеального супроводу цілі, у градусах.</sp.turret.RandomAimAmount.description>
+  <sp.turret.RandomAimMinTime.description>[Автоматичне керування] Як часто вежа має налаштовувати приціл випадковим чином замість ідеального стеження за ціллю.  Мінімальний час очікування, секунди.</sp.turret.RandomAimMinTime.description>
+  <sp.turret.RandomAimMaxTime.description>[Автоматичне керування] Як часто вежа має налаштовувати приціл випадковим чином замість ідеального стеження за ціллю.  Максимальний час очікування, секунди.</sp.turret.RandomAimMaxTime.description>
+  <sp.turret.RandomMovement.description>[Автоматичне керування] Чи має турель рухатися випадковим чином під час простою?</sp.turret.RandomMovement.description>
+  <sp.turret.AimDelay.description>[Автоматичне керування] Чи має вежа мати затримку під час захоплення цілей, чи вона має мати ідеальний час?</sp.turret.AimDelay.description>
+  <sp.turret.TargetCharacters.description>[Автоматичне керування] Чи має турель націлюватись на персонажів загалом?</sp.turret.TargetCharacters.description>
+  <sp.turret.TargetMonsters.description>[Автоматичне керування] Чи має турель націлюватися на всіх монстрів?</sp.turret.TargetMonsters.description>
+  <sp.turret.TargetHumans.description>[Автоматичне керування] Чи має турель націлюватися на всіх людей (або істот в одній групі, як-от домашніх тварин)?</sp.turret.TargetHumans.description>
+  <sp.turret.TargetSubmarines.description>[Автоматичне керування] Чи має турель націлюватись на інші підводні човни?</sp.turret.TargetSubmarines.description>
+  <sp.turret.TargetItems.description>[Автоматичне керування] Чи має турель націлюватися на предмети?</sp.turret.TargetItems.description>
+  <sp.turret.FriendlyTag.description>[Автоматичне керування] Назва групи або виду, яку ШІ ігнорує під час автоматичного керування вежею.</sp.turret.FriendlyTag.description>
+  <sp.turret.AutoOperate.propertyheader>Автокерування</sp.turret.AutoOperate.propertyheader>
+  <sp.turret.AutoOperate.description>Чи повинна турель працювати автоматично за допомогою штучного інтелекту?  Включає додаткові налаштування випадкового руху, які можна налаштувати нижче.</sp.turret.AutoOperate.description>
+  <sp.turret.AllowAutoOperateWithWiring.name>Дозвольте автоматично працювати з електропроводкою</sp.turret.AllowAutoOperateWithWiring.name>
+  <sp.turret.AllowAutoOperateWithWiring.description>Чи можна включити функціональність автоматичної роботи за допомогою сигналів до башти?</sp.turret.AllowAutoOperateWithWiring.description>
+  <sp.dockingport.maindockingport.name>Головний шлюз стикування</sp.dockingport.maindockingport.name>
+  <sp.dockingport.maindockingport.description>Якщо встановлено значення true, цей шлюз стикування використовується при відтворенні підводного човна, пришвартованого до аванпосту (якщо це можливо).</sp.dockingport.maindockingport.description>
+  <sp.dockingport.applyeffectsondocking.name>Застосувати ефекти до стикування</sp.dockingport.applyeffectsondocking.name>
+  <sp.dockingport.applyeffectsondocking.description>Якщо під час стикування спрацьовують ефекти OnUse StatusEffects (на ванільних док-шлюзах ці ефекти випромінюють частинки та відтворюють звук).</sp.dockingport.applyeffectsondocking.description>
+  <sp.dockingport.forcedockingdirection.name>Напрям стикування</sp.dockingport.forcedockingdirection.name>
+  <sp.dockingport.forcedockingdirection.description>В якому напрямку шлюзу дозволено швартуватися. Наприклад, "Верхній" означає, що порт може стикуватися з іншим шлюзом, розташованим вище. Зазвичай немає потреби торкатися цього налаштування, але якщо ви помітили, що позиція стикування неправильна (наприклад, через незвичну конфігурацію стикувального шлюзу без корпусів або дверей), ви можете скористатися ним, щоб примусово змінити напрямок.</sp.dockingport.forcedockingdirection.description>
+  <sp.meleeweapon.swing.name>Гойдання</sp.meleeweapon.swing.name>
+  <sp.meleeweapon.swingpos.name>Позиція гойдання</sp.meleeweapon.swingpos.name>
+  <sp.meleeweapon.swingforce.name>Сила гойдання</sp.meleeweapon.swingforce.name>
+  <sp.force.name>Сила</sp.force.name>
+  <sp.propulsion.force.description>Сила, яку потрібно прикласти до тіла користувача.</sp.propulsion.force.description>
+  <sp.oxygengenerator.generatedamount.name>Згенерована сума</sp.oxygengenerator.generatedamount.name>
+  <sp.oxygengenerator.generatedamount.description>Скільки кисню виробляє машина при роботі на повній потужності.</sp.oxygengenerator.generatedamount.description>
+  <sp.booleanoperatorcomponent.output.description>Сигнал надсилається, коли умова виконана.</sp.booleanoperatorcomponent.output.description>
+  <sp.booleanoperatorcomponent.falseoutput.description>Сигнал, що надсилається при виконанні умови (якщо порожньо, то сигнал не надсилається).</sp.booleanoperatorcomponent.falseoutput.description>
+  <sp.concatcomponent.maxoutputlength.description>Максимальна довжина рядка, що виводиться. Попередження: Великі значення можуть призвести до високого використання пам'яті або навантаження на мережу.</sp.concatcomponent.maxoutputlength.description>
+  <sp.delaycomponent.delay.description>Як довго елемент затримує сигнали (у секундах).</sp.delaycomponent.delay.description>
+  <sp.delaycomponent.resetwhensignalreceived.description>Чи повинен компонент відкидати раніше отримані сигнали при отриманні нового.</sp.delaycomponent.resetwhensignalreceived.description>
+  <sp.delaycomponent.resetwhendifferentsignalreceived.description>Чи повинен компонент відкидати раніше отримані сигнали при зміні вхідного сигналу.</sp.delaycomponent.resetwhendifferentsignalreceived.description>
+  <sp.notcomponent.continuousoutput.name>Безперервний вихід</sp.notcomponent.continuousoutput.name>
+  <sp.oscillatorcomponent.outputtype.description>Який сигнал видає елемент. Імпульс: періодично надсилає сигнал 1. Пилкоподібний: посилає періодичну хвилю, яка лінійно збільшується від 0 до 1. Синусоїда: надсилає синусоїдальну хвилю, що коливається між -1 і 1. Квадрат: надсилає сигнал, який чергується між 0 та 1. Трикутник: посилає хвилю, яка чергується між лінійним збільшенням від -1 до 1 і зменшенням від 1 до -1.</sp.oscillatorcomponent.outputtype.description>
+  <sp.oscillatorcomponent.frequency.name>Періодичність</sp.oscillatorcomponent.frequency.name>
+  <sp.oscillatorcomponent.frequency.description>Як швидко коливається сигнал, або як швидко надсилаються імпульси (в Гц).</sp.oscillatorcomponent.frequency.description>
+  <sp.regexfindcomponent.maxoutputlength.description>Максимальна довжина рядка, що виводиться. Попередження: Великі значення можуть призвести до значного використання пам'яті або проблем з мережею.</sp.regexfindcomponent.maxoutputlength.description>
+  <sp.relaycomponent.maxpower.name>Максимальна Енергія</sp.relaycomponent.maxpower.name>
+  <sp.relaycomponent.maxpower.description>Максимальна кількість енергія, яка може проходити через цей предмет.</sp.relaycomponent.maxpower.description>
+  <sp.greatercomponent.output.description>Сигнал, який надсилається, коли перший сигнал більший за другий (якщо порожній, сигнал не надсилається).</sp.greatercomponent.output.description>
+  <sp.greatercomponent.falseoutput.description>Сигнал, який надсилається, коли перший сигнал менший або дорівнює другому (якщо порожній, сигнал не надсилається).</sp.greatercomponent.falseoutput.description>
+  <sp.ison.name>Увімкнуто</sp.ison.name>
+  <sp.relaycomponent.ison.description>Чи може реле в даний момент пропускати живлення та сигнали через себе.</sp.relaycomponent.ison.description>
+  <sp.signalcheckcomponent.output.description>Сигнал, який цей елемент виводить, коли отриманий сигнал збігається з цільовим сигналом.</sp.signalcheckcomponent.output.description>
+  <sp.signalcheckcomponent.falseoutput.description>Сигнал, який цей елемент виводить, коли отриманий сигнал не збігається з цільовим сигналом.</sp.signalcheckcomponent.falseoutput.description>
+  <sp.signalcheckcomponent.targetsignal.description>Значення для порівняння отриманих сигналів.</sp.signalcheckcomponent.targetsignal.description>
+  <sp.maxoutputlength.name>Максимальна довжина вихідних даних</sp.maxoutputlength.name>
+  <sp.maxoutputlength.description>Максимальна довжина виведених рядків. Попередження: Великі значення можуть призвести до високого використання пам'яті або проблем з мережею.</sp.maxoutputlength.description>
+  <sp.waterdetector.output.description>Сигнал, який предмет посилає, коли перебуває під водою.</sp.waterdetector.output.description>
+  <sp.waterdetector.falseoutput.description>Сигнал, який предмет посилає, коли він не під водою.</sp.waterdetector.falseoutput.description>
+  <sp.multiplexercomponent.SelectedInput.name>Вибраний вхідний сигнал</sp.multiplexercomponent.SelectedInput.name>
+  <sp.multiplexercomponent.SelectedInput.description>Вхідний номер, з якого пристрій зчитує вхідні сигнали.</sp.multiplexercomponent.SelectedInput.description>
+  <sp.demultiplexercomponent.SelectedOutput.name>Вибраний вихід</sp.demultiplexercomponent.SelectedOutput.name>
+  <sp.demultiplexercomponent.SelectedOutput.description>Вихідний номер, на який пристрій передає вхідні сигнали.</sp.demultiplexercomponent.SelectedOutput.description>
+  <sp.wraparound.name>Обернути</sp.wraparound.name>
+  <sp.wraparound.description>Чи має вибране з'єднання повертатися до першого, коли воно проходить повз останнє?</sp.wraparound.description>
+  <sp.SkipEmptyConnections.name>Пропустити порожні з'єднання</sp.SkipEmptyConnections.name>
+  <sp.SkipEmptyConnections.description>Чи слід пропускати порожні з’єднання (з’єднання без проводів) під час переміщення виділення?</sp.SkipEmptyConnections.description>
+  <sp.CircuitBox.Locked.name>Заблоковано</sp.CircuitBox.Locked.name>
+  <sp.CircuitBox.Locked.description>Заблоковані коробки електромереж можна лише переглядати, але не взаємодіяти з ними.</sp.CircuitBox.Locked.description>
+  <sp.Fabricator.FabricationSpeed.name>Швидкість виготовлення</sp.Fabricator.FabricationSpeed.name>
+  <sp.Fabricator.FabricationSpeed.description>Множник на швидкості виготовлення.</sp.Fabricator.FabricationSpeed.description>
+  <!-- Entity names -->
+  <entityname.hull>Корпус</entityname.hull>
+  <entitydescription.hull>Корпуси визначають, які частини вважаються "всередині підводного човна." Як правило, кожна кімната повинна бути огороджена корпусом.</entitydescription.hull>
+  <entityname.gap>Прогалина</entityname.gap>
+  <entitydescription.gap>Прогалини дозволяють воді та повітрю проходити між двома корпусами.</entitydescription.gap>
+  <entityname.waypoint>Точка маршруту</entityname.waypoint>
+  <entitydescription.waypoint>Використовується ШІ-персонажами для навігації всередині підводного човна.</entitydescription.waypoint>
+  <entityname.spawnpoint>Точка відродження</entityname.spawnpoint>
+  <entitydescription.spawnpoint>Визначає, в яких кімнатах члени екіпажу будуть з'являтись.</entitydescription.spawnpoint>
+  <!-- Structure names -->
+  <entityname.horizontalresizablewindow>Горизонтальне регулювання розміру вікна</entityname.horizontalresizablewindow>
+  <entityname.verticalresizablewindow>Вертикальне регулювання розміру вікна</entityname.verticalresizablewindow>
+  <entityname.ff_x_wall>Велика горизонтальна внутрішня стіна</entityname.ff_x_wall>
+  <entityname.ff_x_wall_cables>Велика горизонтальна внутрішня стіна з кабелями</entityname.ff_x_wall_cables>
+  <entityname.ff_y_wall>Велика вертикальна внутрішня стіна</entityname.ff_y_wall>
+  <entityname.inwalll90cables>Велика вертикальна внутрішня стіна з кабелями</entityname.inwalll90cables>
+  <entitydescription.resizeablewallwithcollisiondetection>Стіна, що змінюється за розміром, з функцією виявлення зіткнень.</entitydescription.resizeablewallwithcollisiondetection>
+  <entityname.inwalllcaph1>Велика внутрішня стіна - кришка H1</entityname.inwalllcaph1>
+  <entityname.inwalllcaph2>Велика внутрішня стіна - кришка H2</entityname.inwalllcaph2>
+  <entityname.inwalllcaph3>Велика внутрішня стіна - кришка H3</entityname.inwalllcaph3>
+  <entityname.inwalllcapy1>Велика внутрішня стіна - кришка V1</entityname.inwalllcapy1>
+  <entityname.inwalllcapy2>Велика внутрішня стіна - кришка V2</entityname.inwalllcapy2>
+  <entityname.inwalllcapy4>Велика внутрішня стіна - кришка V4</entityname.inwalllcapy4>
+  <entityname.inwallltieh1>Велика внутрішня стіна - анкар H1</entityname.inwallltieh1>
+  <entityname.inwallltieh2>Велика внутрішня стіна - анкар H2</entityname.inwallltieh2>
+  <entityname.inwallltieh3>Велика внутрішня стіна - анкар H3</entityname.inwallltieh3>
+  <entityname.inwallltiev1>Велика внутрішня стіна - анкар V1</entityname.inwallltiev1>
+  <entityname.inwallltiev2>Велика внутрішня стіна - анкар V2</entityname.inwallltiev2>
+  <entityname.inwallltiev3>Велика внутрішня стіна - анкар V3</entityname.inwallltiev3>
+  <entitydescription.wallcap>Декоративна конструкція, призначена для розміщення на кінцях або перетинах стін.</entitydescription.wallcap>
+  <entityname.ff_wall_b>Задня стіна баласту А1</entityname.ff_wall_b>
+  <entityname.ff_wall_bp>Задня стіна баласту А2</entityname.ff_wall_bp>
+  <entityname.bwbc>Задня стіна баласту С</entityname.bwbc>
+  <entityname.ff_wall_c1>Задня стіна C1</entityname.ff_wall_c1>
+  <entityname.ff_wall_c2>Задня стіна C2</entityname.ff_wall_c2>
+  <entityname.ff_wall_c3>Задня стіна C3</entityname.ff_wall_c3>
+  <entityname.ff_wall_d1>Задня стіна D1</entityname.ff_wall_d1>
+  <entityname.ff_wall_d2>Задня стіна D2</entityname.ff_wall_d2>
+  <entityname.ff_wall_d3>Задня стіна D3</entityname.ff_wall_d3>
+  <entityname.ff_wall_e>Задня стіна E</entityname.ff_wall_e>
+  <entityname.ff_wall_e2>Задня стіна E2</entityname.ff_wall_e2>
+  <entityname.ff_wall_g1>Задня стіна G1</entityname.ff_wall_g1>
+  <entityname.ff_wall_g2>Задня стіна G2</entityname.ff_wall_g2>
+  <entityname.ff_wall_g3>Задня стіна G3</entityname.ff_wall_g3>
+  <entityname.ff_wall_h1>Задня стіна H1</entityname.ff_wall_h1>
+  <entityname.bgorangepanels>Помаранчеві панелі для задньої стіни</entityname.bgorangepanels>
+  <entityname.bgorangepanelwindow>Помаранчеві віконні панелі для задньої стіни</entityname.bgorangepanelwindow>
+  <entityname.bgpanels>Панелі задньої стінки</entityname.bgpanels>
+  <entityname.bgpanelswindow>Вікно задньої стіни</entityname.bgpanelswindow>
+  <entityname.PipesBackground>Задня стінка (труби)</entityname.PipesBackground>
+  <entityname.roughbgwall>Задня стінка (чорнова)</entityname.roughbgwall>
+  <entityname.cleanbgwall>Задня стінка (чиста)</entityname.cleanbgwall>
+  <entitydescription.backgroundwall>Декоративна фонова стіна.</entitydescription.backgroundwall>
+  <entityname.exta_tail>Хвостовий плавець (старий) A</entityname.exta_tail>
+  <entitydescription.tailwithcollision>Хвостова частина підводного човна з системою виявлення зіткнень.</entitydescription.tailwithcollision>
+  <entityname.tailfina>Хвостовий плавець A</entityname.tailfina>
+  <entityname.tailfinb>Хвостовий плавець B</entityname.tailfinb>
+  <entityname.tailfinc>Хвостовий плавець C</entityname.tailfinc>
+  <entityname.tailfind>Хвостовий плавець D</entityname.tailfind>
+  <entityname.tailfind2p1>Хвостовий плавець D2 P1</entityname.tailfind2p1>
+  <entityname.tailfind2p2>Хвостовий плавець D2 P2</entityname.tailfind2p2>
+  <entityname.tailfind2p3>Хвостовий плавець D2 P3</entityname.tailfind2p3>
+  <entityname.tailfind3p1>Хвостовий плавець D3 P1</entityname.tailfind3p1>
+  <entityname.tailfind3p2>Хвостовий плавець D3 P2</entityname.tailfind3p2>
+  <entityname.tailfind3p3>Хвостовий плавець D3 P3</entityname.tailfind3p3>
+  <entityname.tailfinep1>Хвостовий плавець E P1</entityname.tailfinep1>
+  <entityname.tailfinep2>Хвостовий плавець E P2</entityname.tailfinep2>
+  <entityname.tailfinfp3>Хвостовий плавець E P3</entityname.tailfinfp3>
+  <entityname.tailfinf1>Хвостовий плавець F1</entityname.tailfinf1>
+  <entityname.tailfinf2>Хвостовий плавець F2</entityname.tailfinf2>
+  <entityname.tailfinf3>Хвостовий плавець F3</entityname.tailfinf3>
+  <entityname.tailfinf4>Хвостовий плавець F4</entityname.tailfinf4>
+  <entitydescription.tailnocollision>Декоративний хвостовий відсік підводного човна без виявлення зіткнень.</entitydescription.tailnocollision>
+  <entityname.exta_front>Носова частина підводного човна A</entityname.exta_front>
+  <entityname.subfrontb>Носова частина підводного човна B</entityname.subfrontb>
+  <entityname.subfrontc>Носова частина підводного човна C</entityname.subfrontc>
+  <entityname.subfrontd>Носова частина підводного човна D</entityname.subfrontd>
+  <entityname.subfronte>Носова частина підводного човна E</entityname.subfronte>
+  <entityname.subfrontg1p1>Носова частина підводного човна F (верхній)</entityname.subfrontg1p1>
+  <entityname.subfrontg1p2>Носова частина підводного човна F (центральний)</entityname.subfrontg1p2>
+  <entityname.subfrontg1p3>Носова частина підводного човна F (нижній)</entityname.subfrontg1p3>
+  <entityname.subfrontg2p1>Носова частина підводного човна G (верхній)</entityname.subfrontg2p1>
+  <entityname.subfrontg2p2>Носова частина підводного човна G (центральний)</entityname.subfrontg2p2>
+  <entityname.subfrontg2p3>Носова частина підводного човна G (нижній)</entityname.subfrontg2p3>
+  <entitydescription.frontwithcollision>Передня частина підводного човна з функцією виявлення зіткнень.</entitydescription.frontwithcollision>
+  <entityname.frontfchaina1>Передній ланцюг 1</entityname.frontfchaina1>
+  <entityname.frontfchaina2>Передній ланцюг 2</entityname.frontfchaina2>
+  <entityname.frontpulley>Передній шків</entityname.frontpulley>
+  <entityname.shellaboard0dega>Металева смуга горизонтальна мала</entityname.shellaboard0dega>
+  <entityname.shellaboard0degb>Металева смуга горизонтальна велика</entityname.shellaboard0degb>
+  <entityname.shellaboard90dega>Смуга металева вертикальна мала</entityname.shellaboard90dega>
+  <entityname.shellaboard90degb>Металева смуга вертикальна велика</entityname.shellaboard90degb>
+  <entityname.leftwall>Базова стіна (ліво)</entityname.leftwall>
+  <entityname.LeftWallHeavy>Важка стіна (ліво)</entityname.LeftWallHeavy>
+  <entityname.rightwall>Базова стіна (право)</entityname.rightwall>
+  <entityname.RightWallHeavy>Важка стіна (право)</entityname.RightWallHeavy>
+  <entityname.topwall>Базова стіна (вверх)</entityname.topwall>
+  <entityname.TopWallHeavy>Важка стіна (вверх)</entityname.TopWallHeavy>
+  <entityname.shella90deg>Оболонка А (90 градусів)</entityname.shella90deg>
+  <entityname.shella16deg>Оболонка А (16 градусів)</entityname.shella16deg>
+  <entityname.shella34deg>Оболонка А (34 градуси)</entityname.shella34deg>
+  <entityname.shella0deg>Оболонка А (0 градусів)</entityname.shella0deg>
+  <entityname.shella04deg>Оболонка А (4 градуси)</entityname.shella04deg>
+  <entityname.shella14adeg>Оболонка А (14 градусів)</entityname.shella14adeg>
+  <entityname.shella52deg>Оболонка А (52 градуси)</entityname.shella52deg>
+  <entityname.shella16degb>Оболонка A (16 градусів) B</entityname.shella16degb>
+  <entityname.shella25deg>Оболонка А (25 градусів)</entityname.shella25deg>
+  <entityname.shella45deg>Оболонка А (45 градусів)</entityname.shella45deg>
+  <entityname.shella32deg>Оболонка А (32 градуси)</entityname.shella32deg>
+  <entityname.shella14degb>Оболонка А (14 градусів) B</entityname.shella14degb>
+  <entityname.shella43deg>Оболонка А (43 градуси)</entityname.shella43deg>
+  <entityname.shella51deg>Оболонка А (51 градус)</entityname.shella51deg>
+  <entityname.shella47deg>Оболонка А (47 градусів)</entityname.shella47deg>
+  <entityname.shella60deg>Оболонка А (60 градусів)</entityname.shella60deg>
+  <entityname.shella18deg>Оболонка А (18 градусів)</entityname.shella18deg>
+  <entityname.shella70deg>Оболонка А (70 градусів)</entityname.shella70deg>
+  <entityname.shella90degcurve>Оболонка А (вигиб 90 градусів)</entityname.shella90degcurve>
+  <entityname.shella45degb>Оболонка А (45 градусів) B</entityname.shella45degb>
+  <entityname.shella45degc>Оболонка А (45 градусів) C</entityname.shella45degc>
+  <entityname.shella45degd>Оболонка А (45 градусів) D</entityname.shella45degd>
+  <entityname.shella57deg>Оболонка А (57 градусів)</entityname.shella57deg>
+  <entityname.shella40deg>Оболонка А (40 градусів)</entityname.shella40deg>
+  <entityname.shella61deg>Оболонка А (61 градус)</entityname.shella61deg>
+  <entityname.shella17deg>Оболонка А (17 градусів)</entityname.shella17deg>
+  <entityname.shella34degb>Оболонка А (34 градуси) B</entityname.shella34degb>
+  <entityname.shella26deg>Оболонка А (26 градусів)</entityname.shella26deg>
+  <entityname.shella54deg>Оболонка А (54 градуси)</entityname.shella54deg>
+  <entityname.shella38deg>Оболонка А (38 градусів)</entityname.shella38deg>
+  <entityname.shella42deg>Оболонка А (42 градуси)</entityname.shella42deg>
+  <entityname.shellacombo11>Оболонка А комбо 1 1</entityname.shellacombo11>
+  <entityname.shellacombo12>Оболонка А комбо 1 2</entityname.shellacombo12>
+  <entitydescription.exteriorshell>Зовнішня стіна підводного човна.</entitydescription.exteriorshell>
+  <entityname.shellacap0dega>Оболонка А горизонтальний круглий ковпачок</entityname.shellacap0dega>
+  <entityname.shellacap0degb>Оболонка А горизонтальний квадратний ковпачок</entityname.shellacap0degb>
+  <entityname.shellacap90dega>Оболонка А вертикальний круглий ковпачок</entityname.shellacap90dega>
+  <entityname.shellacap90degb>Оболонка А вертикальний квадратний ковпачок</entityname.shellacap90degb>
+  <entityname.sshella01>Оболонка шатлу A01</entityname.sshella01>
+  <entityname.sshella02>Оболонка шатлу A02</entityname.sshella02>
+  <entityname.sshella04>Оболонка шатлу A04</entityname.sshella04>
+  <entityname.sshella05>Оболонка шатлу A05</entityname.sshella05>
+  <entityname.sshellaa06>Оболонка шатлу A06</entityname.sshellaa06>
+  <entityname.sshella07>Оболонка шатлу A07</entityname.sshella07>
+  <entityname.sshella08>Оболонка шатлу A08</entityname.sshella08>
+  <entityname.sshella09>Оболонка шатлу A09</entityname.sshella09>
+  <entityname.sshella10>Оболонка шатлу A10</entityname.sshella10>
+  <entityname.sshella11>Оболонка шатлу A11</entityname.sshella11>
+  <entityname.sshella14>Оболонка шатлу A14</entityname.sshella14>
+  <entityname.sshella15a>Оболонка шатлу A15a</entityname.sshella15a>
+  <entityname.sshella15b>Оболонка шатлу A15b</entityname.sshella15b>
+  <entityname.sshella15c>Оболонка шатлу A15c</entityname.sshella15c>
+  <entityname.sshella17a>Оболонка шатлу A17a</entityname.sshella17a>
+  <entityname.sshella17b>Оболонка шатлу A17b</entityname.sshella17b>
+  <entityname.sshella17c>Оболонка шатлу A17c</entityname.sshella17c>
+  <entityname.sshella18>Оболонка шатлу A18</entityname.sshella18>
+  <entityname.sshella19>Оболонка шатлу A19</entityname.sshella19>
+  <entityname.sshella20>Оболонка шатлу A20</entityname.sshella20>
+  <entityname.sshella21>Оболонка шатлу A21</entityname.sshella21>
+  <entityname.sshella22>Оболонка шатлу A22</entityname.sshella22>
+  <entityname.sshella23>Оболонка шатлу A23</entityname.sshella23>
+  <entityname.sshella24>Оболонка шатлу A24</entityname.sshella24>
+  <entityname.sshella25>Оболонка шатлу A25</entityname.sshella25>
+  <entityname.sshella26>Оболонка шатлу A26</entityname.sshella26>
+  <entityname.sshella27>Оболонка шатлу A27</entityname.sshella27>
+  <entityname.sshella28>Оболонка шатлу A28</entityname.sshella28>
+  <entityname.sshella30>Оболонка шатлу A30</entityname.sshella30>
+  <entityname.sshella32b>Оболонка шатлу A32b</entityname.sshella32b>
+  <entityname.sshella32c>Оболонка шатлу A32c</entityname.sshella32c>
+  <entityname.sshella32d>Оболонка шатлу A32d</entityname.sshella32d>
+  <entityname.sshella36>Оболонка шатлу A36</entityname.sshella36>
+  <entityname.sshella37>Оболонка шатлу A37</entityname.sshella37>
+  <entityname.sshella38>Оболонка шатлу A38</entityname.sshella38>
+  <entityname.sshella39>Оболонка шатлу A39</entityname.sshella39>
+  <entityname.sshella40>Оболонка шатлу A40</entityname.sshella40>
+  <entityname.sshella41>Оболонка шатлу A41</entityname.sshella41>
+  <entityname.sshellaglassa>Оболонка шатлу A Скло A</entityname.sshellaglassa>
+  <entityname.sshellaglassb>Оболонка шатлу A Скло B</entityname.sshellaglassb>
+  <entityname.sshellaglassc>Оболонка шатлу A Скло C</entityname.sshellaglassc>
+  <entityname.sshellaglassd>Оболонка шатлу A Скло D</entityname.sshellaglassd>
+  <entityname.sshellaglasse>Оболонка шатлу A Скло E</entityname.sshellaglasse>
+  <entityname.sshellaglassf>Оболонка шатлу A Скло F</entityname.sshellaglassf>
+  <entitydescription.exteriorshuttleshell>Зовнішня стіна шатлу.</entitydescription.exteriorshuttleshell>
+  <entityname.ventbendducta1>Вентиляційний канал вигиб A1</entityname.ventbendducta1>
+  <entityname.ventbendducta2>Вентиляційний канал вигиб A2</entityname.ventbendducta2>
+  <entityname.ventconnectora1>Вентиляційний з'єднувач A1</entityname.ventconnectora1>
+  <entityname.ventconnectora2>Вентиляційний з'єднувач A2</entityname.ventconnectora2>
+  <entityname.ventconnectora3>Вентиляційний з'єднувач A3</entityname.ventconnectora3>
+  <entityname.ventconnectora4>Вентиляційний з'єднувач A4</entityname.ventconnectora4>
+  <entityname.ventconnectora5>Вентиляційний з'єднувач A5</entityname.ventconnectora5>
+  <entityname.ventconnectora6>Вентиляційний з'єднувач A6</entityname.ventconnectora6>
+  <entityname.ventconnectora7>Вентиляційний з'єднувач A7</entityname.ventconnectora7>
+  <entityname.ventconnectorcapa1>Вентиляційний з'єднувач ковпачок A1</entityname.ventconnectorcapa1>
+  <entityname.ventconnectorcapa2>Вентиляційний з'єднувач ковпачок A2</entityname.ventconnectorcapa2>
+  <entityname.ventducta1>Вентиляційний канал A1</entityname.ventducta1>
+  <entityname.ventducta190deg>Вентиляційний канал A1 вертикальний</entityname.ventducta190deg>
+  <entityname.ventducta2>Вентиляційний канал A2</entityname.ventducta2>
+  <entityname.ventducta290deg>Вентиляційний канал A2 вертикальний</entityname.ventducta290deg>
+  <entityname.ventductb1>Вентиляційний канал B1</entityname.ventductb1>
+  <entityname.ventductb190deg>Вентиляційний канал B1 вертикальний</entityname.ventductb190deg>
+  <entityname.ventductb290deg>Вентиляційний канал B2 вертикальний</entityname.ventductb290deg>
+  <entityname.ventductbendb1>Вентиляційний канал вигиб B1</entityname.ventductbendb1>
+  <entityname.ventductbendb2>Вентиляційний канал вигиб B2</entityname.ventductbendb2>
+  <entityname.ventductfana>Вентиляційний канал вентилятор А</entityname.ventductfana>
+  <entityname.ventductlongb2>Вентиляційний канал B2</entityname.ventductlongb2>
+  <entityname.ventductreducerb>Вентиляційний канал перехідник В</entityname.ventductreducerb>
+  <entityname.ventductreducerb90deg>Вентиляційний канал перехідник В вертикальний</entityname.ventductreducerb90deg>
+  <entityname.ventlargeductreducera>Вентиляційний канал великий перехідник А</entityname.ventlargeductreducera>
+  <entityname.ventlargeductreducera1>Вентиляційний канал середній перехідник А1</entityname.ventlargeductreducera1>
+  <entityname.ventlargeductreducera2>Вентиляційний канал середній перехідник А2</entityname.ventlargeductreducera2>
+  <entityname.ventlargepipebenda1>Велика вентиляційна труба вигиб А1</entityname.ventlargepipebenda1>
+  <entityname.ventmediumpipebenda1>Середня вентиляційна труба вигиб А1</entityname.ventmediumpipebenda1>
+  <entityname.ventpipea1>Вентиляційна труба A1</entityname.ventpipea1>
+  <entityname.ventpipea190deg>Вентиляційна труба A1 вертикальна</entityname.ventpipea190deg>
+  <entityname.ventpipea2>Вентиляційна труба A2</entityname.ventpipea2>
+  <entityname.ventpipea290deg>Вентиляційна труба A2 вертикальна</entityname.ventpipea290deg>
+  <entityname.ventpipea3>Вентиляційна труба A3</entityname.ventpipea3>
+  <entityname.ventpipea390deg>Вентиляційна труба A3 вертикальна</entityname.ventpipea390deg>
+  <entityname.ventpipea4>Вентиляційна труба A4</entityname.ventpipea4>
+  <entityname.ventpipea490deg>Вентиляційна труба A4 вертикальна</entityname.ventpipea490deg>
+  <entityname.ventpipea5>Вентиляційна труба A5</entityname.ventpipea5>
+  <entityname.ventpipea590deg>Вентиляційна труба A5 вертикальна</entityname.ventpipea590deg>
+  <entityname.ventpipea6>Вентиляційна труба A6</entityname.ventpipea6>
+  <entityname.ventpipea690deg>Вентиляційна труба A6 вертикальна</entityname.ventpipea690deg>
+  <entityname.ventpipea7>Вентиляційна труба A7</entityname.ventpipea7>
+  <entityname.ventpipea790deg>Вентиляційна труба A7 вертикальна</entityname.ventpipea790deg>
+  <entityname.ventpipea8>Вентиляційна труба A8</entityname.ventpipea8>
+  <entityname.ventpipea890deg>Вентиляційна труба A8 вертикальна</entityname.ventpipea890deg>
+  <entityname.ventpipea9>Вентиляційна труба A9</entityname.ventpipea9>
+  <entityname.ventpipea990deg>Вентиляційна труба A9 вертикальна</entityname.ventpipea990deg>
+  <entityname.ventpipecapa1>Заглушка для вентиляційної труби A1</entityname.ventpipecapa1>
+  <entityname.ventpipecapa190deg>Заглушка для вентиляційної труби A1 вертикальна</entityname.ventpipecapa190deg>
+  <entityname.ventsmallductreducera>Вентиляційний канал маленький перехідник А</entityname.ventsmallductreducera>
+  <entityname.sshellalightsa>Освітлення човну А</entityname.sshellalightsa>
+  <entityname.sshellaplatea>Панель човна А</entityname.sshellaplatea>
+  <entityname.sshellaplateb>Панель човна B</entityname.sshellaplateb>
+  <entityname.sshellaplatexl>Панель човна XL</entityname.sshellaplatexl>
+  <entityname.sshellabumpera>Бампер човна А</entityname.sshellabumpera>
+  <entityname.sshellabumperb>Бампер човна В</entityname.sshellabumperb>
+  <entityname.sshellafina>Частина човна A</entityname.sshellafina>
+  <entityname.sshellafinb>Частина човна B</entityname.sshellafinb>
+  <entityname.sshellafinc>Частина човна C</entityname.sshellafinc>
+  <entityname.sshellafind>Частина човна D</entityname.sshellafind>
+  <entityname.sshellagromita>Кренгельс човна A</entityname.sshellagromita>
+  <entityname.sshellagromitb>Кренгельс човна B</entityname.sshellagromitb>
+  <entityname.sshellagromitc>Кренгельс човна C</entityname.sshellagromitc>
+  <entityname.sshellagromitd>Кренгельс човна D</entityname.sshellagromitd>
+  <entitydescription.decorativeshuttlepiece>Декоративна деталь човна.</entitydescription.decorativeshuttlepiece>
+  <entityname.finabelt01>Частина крила човна (пояс) 1</entityname.finabelt01>
+  <entityname.finabelt02>Частина крила човна (пояс) 2</entityname.finabelt02>
+  <entityname.finabelt03>Частина крила човна (пояс) 3</entityname.finabelt03>
+  <entityname.finabelt04>Частина крила човна (пояс) 4</entityname.finabelt04>
+  <entityname.finabelt05>Частина крила човна (пояс) 5</entityname.finabelt05>
+  <entityname.finabelt06>Частина крила човна (пояс) 6</entityname.finabelt06>
+  <entityname.finabodyedge01>Частина крила човна (край) 1</entityname.finabodyedge01>
+  <entityname.finabodyedge02>Частина крила човна (край) 2</entityname.finabodyedge02>
+  <entityname.finabodyedge03>Частина крила човна (край) 3</entityname.finabodyedge03>
+  <entityname.finabodyedge04>Частина крила човна (край) 4</entityname.finabodyedge04>
+  <entityname.finabodyedge05>Частина крила човна (край) 5</entityname.finabodyedge05>
+  <entityname.finabodyedge06>Частина крила човна (край) 6</entityname.finabodyedge06>
+  <entityname.finabodyedge07>Частина крила човна (край) 7</entityname.finabodyedge07>
+  <entityname.finabodyedge08>Частина крила човна (край) 8</entityname.finabodyedge08>
+  <entityname.finabodyinside01>Частина крила човна (внутрішня) 1</entityname.finabodyinside01>
+  <entityname.finabodyinside02>Частина крила човна (внутрішня) 2</entityname.finabodyinside02>
+  <entityname.finabodyinside03>Частина крила човна (внутрішня) 3</entityname.finabodyinside03>
+  <entityname.finabodyinside04>Частина крила човна (внутрішня) 4</entityname.finabodyinside04>
+  <entityname.finabodyinside05>Частина крила човна (внутрішня) 5</entityname.finabodyinside05>
+  <entityname.finabodyinside06>Частина крила човна (внутрішня) 6</entityname.finabodyinside06>
+  <entityname.finbodyinside07>Частина крила човна (внутрішня) 7</entityname.finbodyinside07>
+  <entityname.finabodyinside08>Частина крила човна (внутрішня) 8</entityname.finabodyinside08>
+  <entityname.finabodyinside11>Частина крила човна (внутрішня) 9</entityname.finabodyinside11>
+  <entityname.finabodyinside12>Частина крила човна (внутрішня) 10</entityname.finabodyinside12>
+  <entityname.finabodyinside13>Частина крила човна (внутрішня) 11</entityname.finabodyinside13>
+  <entityname.finabodyinside14>Частина крила човна (внутрішня) 12</entityname.finabodyinside14>
+  <entityname.finabodyinside15>Частина крила човна (внутрішня) 13</entityname.finabodyinside15>
+  <entityname.finabodyinside16>Частина крила човна (внутрішня) 14</entityname.finabodyinside16>
+  <entityname.finacorner01>Частина крила човна (бокова) 1</entityname.finacorner01>
+  <entityname.finacorner02>Частина крила човна (бокова) 2</entityname.finacorner02>
+  <entityname.finacorner03>Частина крила човна (бокова) 3</entityname.finacorner03>
+  <entityname.finacorner04>Частина крила човна (бокова) 4</entityname.finacorner04>
+  <entityname.finacorner05>Частина крила човна (бокова) 5</entityname.finacorner05>
+  <entityname.finacorner06>Частина крила човна (бокова) 6</entityname.finacorner06>
+  <entityname.finacorner07>Частина крила човна (бокова) 7</entityname.finacorner07>
+  <entityname.finacorner08>Частина крила човна (бокова) 8</entityname.finacorner08>
+  <entityname.finacorner09>Частина крила човна (бокова) 9</entityname.finacorner09>
+  <entityname.finacorner11>Частина крила човна (бокова) 10</entityname.finacorner11>
+  <entityname.finacorner12>Частина крила човна (бокова) 11</entityname.finacorner12>
+  <entityname.finacorner13>Частина крила човна (бокова) 12</entityname.finacorner13>
+  <entityname.finacorner14>Частина крила човна (бокова) 13</entityname.finacorner14>
+  <entityname.finacorner15>Частина крила човна (бокова) 14</entityname.finacorner15>
+  <entityname.finadeco01>Частина крила човна (декоративна) 1</entityname.finadeco01>
+  <entityname.finadeco02>Частина крила човна (декоративна) 2</entityname.finadeco02>
+  <entityname.finadeco03>Частина крила човна (декоративна) 3</entityname.finadeco03>
+  <entityname.finadeco04>Частина крила човна (декоративна) 4</entityname.finadeco04>
+  <entityname.finadeco05>Частина крила човна (декоративна) 5</entityname.finadeco05>
+  <entityname.finadeco06>Частина крила човна (декоративна) 6</entityname.finadeco06>
+  <entityname.finadeco07>Частина крила човна (декоративна) 7</entityname.finadeco07>
+  <entityname.finadeco08>Частина крила човна (декоративна) 8</entityname.finadeco08>
+  <entityname.finadeco09>Частина крила човна (декоративна) 9</entityname.finadeco09>
+  <entityname.finadeco10>Частина крила човна (декоративна) 10</entityname.finadeco10>
+  <entityname.finawingpart72>Частина крила човна (декоративна) 11</entityname.finawingpart72>
+  <entityname.finapatch01>Частина крила човна (заплатка) 1</entityname.finapatch01>
+  <entityname.finapatch02>Частина крила човна (заплатка) 2</entityname.finapatch02>
+  <entityname.finapatch03>Частина крила човна (заплатка) 3</entityname.finapatch03>
+  <entityname.finapatch04>Частина крила човна (заплатка) 4</entityname.finapatch04>
+  <entityname.finapatch05>Частина крила човна (заплатка) 5</entityname.finapatch05>
+  <entityname.finawingpart01>Частина крила човна G 2</entityname.finawingpart01>
+  <entityname.finawingpart02>Частина крила човна G 1</entityname.finawingpart02>
+  <entityname.finawingpart03>Частина крила човна E 2</entityname.finawingpart03>
+  <entityname.finawingpart04>Частина крила човна E 1</entityname.finawingpart04>
+  <entityname.finawingpart05>Частина крила човна D 2</entityname.finawingpart05>
+  <entityname.finawingpart06>Частина крила човна D 1</entityname.finawingpart06>
+  <entityname.finawingpart07>Частина крила човна F 2</entityname.finawingpart07>
+  <entityname.finawingpart08>Частина крила човна F 1</entityname.finawingpart08>
+  <entityname.finawingpart09>Частина крила човна (викривлена) А 1</entityname.finawingpart09>
+  <entityname.finawingpart10>Частина крила човна (викривлена) А 2</entityname.finawingpart10>
+  <entityname.finawingpart11>Частина крила човна E 4</entityname.finawingpart11>
+  <entityname.finawingpart12>Частина крила човна E 3</entityname.finawingpart12>
+  <entityname.finawingpart13>Частина крила човна D 5</entityname.finawingpart13>
+  <entityname.finawingpart14>Частина крила човна D 6</entityname.finawingpart14>
+  <entityname.finawingpart15>Частина крила човна D 3</entityname.finawingpart15>
+  <entityname.finawingpart16>Частина крила човна D 4</entityname.finawingpart16>
+  <entityname.finawingpart19>Частина крила човна (пошкоджена) 2</entityname.finawingpart19>
+  <entityname.finawingpart20>Частина крила човна (пошкоджена) 1</entityname.finawingpart20>
+  <entityname.finawingpart22>Частина крила човна (особлива) 1</entityname.finawingpart22>
+  <entityname.finawingpart23>Частина крила човна (особлива) 2</entityname.finawingpart23>
+  <entityname.finawingpart24>Частина крила човна (особлива) 3</entityname.finawingpart24>
+  <entityname.finawingpart25>Частина крила човна (особлива) 4</entityname.finawingpart25>
+  <entityname.finawingpart26>Частина крила човна (особлива) 5</entityname.finawingpart26>
+  <entityname.finawingpart27>Частина крила човна (особлива) 6</entityname.finawingpart27>
+  <entityname.finawingpart28>Стіна човну 1</entityname.finawingpart28>
+  <entityname.finawingpart29>Стіна човну 2</entityname.finawingpart29>
+  <entityname.finawingpart30>Стіна човну 3</entityname.finawingpart30>
+  <entityname.finawingpart31>Стіна човну 4</entityname.finawingpart31>
+  <entityname.finawingpart32>Стіна човну 5</entityname.finawingpart32>
+  <entityname.finawingpart33>Стіна човну 6</entityname.finawingpart33>
+  <entityname.finawingpart34>Частина крила човна A 1</entityname.finawingpart34>
+  <entityname.finawingpart35>Частина крила човна A 2</entityname.finawingpart35>
+  <entityname.finawingpart36>Частина крила човна B 3</entityname.finawingpart36>
+  <entityname.finawingpart38>Частина крила човна B 2</entityname.finawingpart38>
+  <entityname.finawingpart39>Частина крила човна B 1</entityname.finawingpart39>
+  <entityname.finawingpart40>Частина крила човна A 4</entityname.finawingpart40>
+  <entityname.finawingpart41>Частина крила човна A 3</entityname.finawingpart41>
+  <entityname.finawingpart42>Частина крила човна A 5</entityname.finawingpart42>
+  <entityname.finawingpart43>Частина крила човна C 3</entityname.finawingpart43>
+  <entityname.finawingpart44>Частина крила човна C 4</entityname.finawingpart44>
+  <entityname.finawingpart45>Частина крила човна C 2</entityname.finawingpart45>
+  <entityname.finawingpart46>Частина крила човна C 1</entityname.finawingpart46>
+  <entityname.finawingpart67>Частина крила човна C 5</entityname.finawingpart67>
+  <entityname.finawingpart68>Частина крила човна C 6</entityname.finawingpart68>
+  <entityname.finawingpart53>Частина крила човна (викривлена) B 1</entityname.finawingpart53>
+  <entityname.finawingpart54>Частина крила човна (викривлена) B 2</entityname.finawingpart54>
+  <entityname.finawingpart55>Частина крила човна (викривлена) C 1</entityname.finawingpart55>
+  <entityname.finawingpart56>Частина крила човна (викривлена) C 2</entityname.finawingpart56>
+  <entityname.finawingpart17>Частина крила човна 1</entityname.finawingpart17>
+  <entityname.finawingpart18>Частина крила човна 2</entityname.finawingpart18>
+  <entityname.finawingpart21>Частина крила човна 3</entityname.finawingpart21>
+  <entityname.finawingpart37>Частина крила човна 4</entityname.finawingpart37>
+  <entityname.finawingpart47>Частина крила човна 5</entityname.finawingpart47>
+  <entityname.finawingpart48>Частина крила човна 6</entityname.finawingpart48>
+  <entityname.finawingpart49>Частина крила човна 7</entityname.finawingpart49>
+  <entityname.finawingpart50>Частина крила човна 8</entityname.finawingpart50>
+  <entityname.finawingpart52>Частина крила човна 9</entityname.finawingpart52>
+  <entityname.finawingpart57>Частина крила човна 10</entityname.finawingpart57>
+  <entityname.finawingpart58>Частина крила човна 11</entityname.finawingpart58>
+  <entityname.finawingpart59>Частина крила човна 12</entityname.finawingpart59>
+  <entityname.finawingpart60>Частина крила човна 13</entityname.finawingpart60>
+  <entityname.finawingpart61>Частина крила човна 14</entityname.finawingpart61>
+  <entityname.finawingpart62>Частина крила човна 15</entityname.finawingpart62>
+  <entityname.finawingpart63>Частина крила човна 16</entityname.finawingpart63>
+  <entityname.finawingpart64>Частина крила човна 17</entityname.finawingpart64>
+  <entityname.finawingpart65>Частина крила човна 18</entityname.finawingpart65>
+  <entityname.finawingpart66>Частина крила човна 19</entityname.finawingpart66>
+  <entityname.finawingpart69>Частина крила човна 20</entityname.finawingpart69>
+  <entityname.finawingpart70>Частина крила човна 21</entityname.finawingpart70>
+  <entityname.finawingpart71>Частина крила човна 22</entityname.finawingpart71>
+  <entityname.finawingpart73>Частина крила човна 23</entityname.finawingpart73>
+  <entityname.largehorizontalback>Велика горизонтальна задня стінка</entityname.largehorizontalback>
+  <entityname.smallhorizontalback>Мала горизонтальна задня стінка</entityname.smallhorizontalback>
+  <entityname.largeverticalback>Велика вертикальна задня стінка</entityname.largeverticalback>
+  <entityname.largeverticalback2>Велика вертикальна задня стінка 2</entityname.largeverticalback2>
+  <entityname.smallverticalback>Мала вертикальна задня стінка</entityname.smallverticalback>
+  <entityname.smallverticalback2>Мала вертикальна задня стінка 2</entityname.smallverticalback2>
+  <entitydescription.decorativestructure>Декоративна конструкція без системи виявлення зіткнень.</entitydescription.decorativestructure>
+  <entityname.doorlabel>Наліпка: двері</entityname.doorlabel>
+  <entityname.engineeringlabel>Наліпка: інженерна</entityname.engineeringlabel>
+  <entityname.commandlabel>Наліпка: пункт керування</entityname.commandlabel>
+  <entityname.airlocklabel>Наліпка: шлюз</entityname.airlocklabel>
+  <entityname.cabinslabel>Наліпка: койки</entityname.cabinslabel>
+  <entityname.medicallabel>Наліпка: медичний відділ</entityname.medicallabel>
+  <entityname.arrowup>Стрілка вгору</entityname.arrowup>
+  <entityname.arrowdown>Стрілка вниз</entityname.arrowdown>
+  <entityname.arrowleft>Стрілка вліво</entityname.arrowleft>
+  <entityname.arrowright>Стрілка вправо</entityname.arrowright>
+  <entityname.labelslettera>Позначка: літера A</entityname.labelslettera>
+  <entityname.labelsletterb>Позначка: літера B</entityname.labelsletterb>
+  <entityname.labelsletterc>Позначка: літера C</entityname.labelsletterc>
+  <entityname.labelsletterd>Позначка: літера D</entityname.labelsletterd>
+  <entityname.labelslettere>Позначка: літера E</entityname.labelslettere>
+  <entityname.labelsletterf>Позначка: літера F</entityname.labelsletterf>
+  <entityname.labelsletterg>Позначка: літера G</entityname.labelsletterg>
+  <entityname.labelsletterh>Позначка: літера H</entityname.labelsletterh>
+  <entityname.labelsletteri>Позначка: літера I</entityname.labelsletteri>
+  <entityname.labelsletterj>Позначка: літера J</entityname.labelsletterj>
+  <entityname.labelsletterk>Позначка: літера K</entityname.labelsletterk>
+  <entityname.labelsletterl>Позначка: літера L</entityname.labelsletterl>
+  <entityname.labelsletterm>Позначка: літера M</entityname.labelsletterm>
+  <entityname.labelslettern>Позначка: літера N</entityname.labelslettern>
+  <entityname.labelslettero>Позначка: літера O</entityname.labelslettero>
+  <entityname.labelsletterp>Позначка: літера P</entityname.labelsletterp>
+  <entityname.labelsletterq>Позначка: літера Q</entityname.labelsletterq>
+  <entityname.labelsletterr>Позначка: літера R</entityname.labelsletterr>
+  <entityname.labelsletters>Позначка: літера S</entityname.labelsletters>
+  <entityname.labelslettert>Позначка: літера T</entityname.labelslettert>
+  <entityname.labelsletteru>Позначка: літера U</entityname.labelsletteru>
+  <entityname.labelsletterv>Позначка: літера V</entityname.labelsletterv>
+  <entityname.labelsletterw>Позначка: літера W</entityname.labelsletterw>
+  <entityname.labelsletterx>Позначка: літера X</entityname.labelsletterx>
+  <entityname.labelslettery>Позначка: літера Y</entityname.labelslettery>
+  <entityname.labelsletterz>Позначка: літера Z</entityname.labelsletterz>
+  <entityname.labelsnumber0>Позначка: цифра 0</entityname.labelsnumber0>
+  <entityname.labelsnumber1>Позначка: цифра 1</entityname.labelsnumber1>
+  <entityname.labelsnumber2>Позначка: цифра 2</entityname.labelsnumber2>
+  <entityname.labelsnumber3>Позначка: цифра 3</entityname.labelsnumber3>
+  <entityname.labelsnumber4>Позначка: цифра 4</entityname.labelsnumber4>
+  <entityname.labelsnumber5>Позначка: цифра 5</entityname.labelsnumber5>
+  <entityname.labelsnumber6>Позначка: цифра 6</entityname.labelsnumber6>
+  <entityname.labelsnumber7>Позначка: цифра 7</entityname.labelsnumber7>
+  <entityname.labelsnumber8>Позначка: цифра 8</entityname.labelsnumber8>
+  <entityname.labelsnumber9>Позначка: цифра 9</entityname.labelsnumber9>
+  <entityname.labelscaptureitlettera>Позначка: груба літера А</entityname.labelscaptureitlettera>
+  <entityname.labelscaptureitletterb>Позначка: груба літера В</entityname.labelscaptureitletterb>
+  <entityname.labelscaptureitletterc>Позначка: груба літера С</entityname.labelscaptureitletterc>
+  <entityname.labelscaptureitletterd>Позначка: груба літера D</entityname.labelscaptureitletterd>
+  <entityname.labelscaptureitlettere>Позначка: груба літера E</entityname.labelscaptureitlettere>
+  <entityname.labelscaptureitletterf>Позначка: груба літера F</entityname.labelscaptureitletterf>
+  <entityname.labelscaptureitletterg>Позначка: груба літера G</entityname.labelscaptureitletterg>
+  <entityname.labelscaptureitletterh>Позначка: груба літера H</entityname.labelscaptureitletterh>
+  <entityname.labelscaptureitletteri>Позначка: груба літера I</entityname.labelscaptureitletteri>
+  <entityname.labelscaptureitletterj>Позначка: груба літера J</entityname.labelscaptureitletterj>
+  <entityname.labelscaptureitletterk>Позначка: груба літера K</entityname.labelscaptureitletterk>
+  <entityname.labelscaptureitletterl>Позначка: груба літера L</entityname.labelscaptureitletterl>
+  <entityname.labelscaptureitletterm>Позначка: груба літера M</entityname.labelscaptureitletterm>
+  <entityname.labelscaptureitlettern>Позначка: груба літера N</entityname.labelscaptureitlettern>
+  <entityname.labelscaptureitlettero>Позначка: груба літера O</entityname.labelscaptureitlettero>
+  <entityname.labelscaptureitletterp>Позначка: груба літера P</entityname.labelscaptureitletterp>
+  <entityname.labelscaptureitletterq>Позначка: груба літера Q</entityname.labelscaptureitletterq>
+  <entityname.labelscaptureitletterr>Позначка: груба літера R</entityname.labelscaptureitletterr>
+  <entityname.labelscaptureitletters>Позначка: груба літера S</entityname.labelscaptureitletters>
+  <entityname.labelscaptureitlettert>Позначка: груба літера T</entityname.labelscaptureitlettert>
+  <entityname.labelscaptureitletteru>Позначка: груба літера U</entityname.labelscaptureitletteru>
+  <entityname.labelscaptureitletterv>Позначка: груба літера V</entityname.labelscaptureitletterv>
+  <entityname.labelscaptureitletterw>Позначка: груба літера W</entityname.labelscaptureitletterw>
+  <entityname.labelscaptureitletterx>Позначка: груба літера X</entityname.labelscaptureitletterx>
+  <entityname.labelscaptureitlettery>Позначка: груба літера Y</entityname.labelscaptureitlettery>
+  <entityname.labelscaptureitletterz>Позначка: груба літера Z</entityname.labelscaptureitletterz>
+  <entityname.labelscaptureitnumber0>Позначка: груба цифра 0</entityname.labelscaptureitnumber0>
+  <entityname.labelscaptureitnumber1>Позначка: груба цифра 1</entityname.labelscaptureitnumber1>
+  <entityname.labelscaptureitnumber2>Позначка: груба цифра 2</entityname.labelscaptureitnumber2>
+  <entityname.labelscaptureitnumber3>Позначка: груба цифра 3</entityname.labelscaptureitnumber3>
+  <entityname.labelscaptureitnumber4>Позначка: груба цифра 4</entityname.labelscaptureitnumber4>
+  <entityname.labelscaptureitnumber5>Позначка: груба цифра 5</entityname.labelscaptureitnumber5>
+  <entityname.labelscaptureitnumber6>Позначка: груба цифра 6</entityname.labelscaptureitnumber6>
+  <entityname.labelscaptureitnumber7>Позначка: груба цифра 7</entityname.labelscaptureitnumber7>
+  <entityname.labelscaptureitnumber8>Позначка: груба цифра 8</entityname.labelscaptureitnumber8>
+  <entityname.labelscaptureitnumber9>Позначка: груба цифра 9</entityname.labelscaptureitnumber9>
+  <entityname.labelsiconairlock>Позначка: знак шлюзу</entityname.labelsiconairlock>
+  <entityname.labelsiconballast>Позначка: знак баласту</entityname.labelsiconballast>
+  <entityname.labelsiconcargo>Позначка: знак вантажу</entityname.labelsiconcargo>
+  <entityname.labelsicondiving>Позначка: знак занурювання</entityname.labelsicondiving>
+  <entityname.labelsicondocking>Позначка: знак швартування</entityname.labelsicondocking>
+  <entityname.labelsiconelectricity>Позначка: знак електрики</entityname.labelsiconelectricity>
+  <entityname.labelsiconengine>Позначка: знак двигуна</entityname.labelsiconengine>
+  <entityname.labelsiconengineering>Позначка: знак інженерної</entityname.labelsiconengineering>
+  <entityname.labelsiconexit>Позначка: знак виходу</entityname.labelsiconexit>
+  <entityname.labelsiconmedical>Позначка: знак медичного відділення</entityname.labelsiconmedical>
+  <entityname.labelsiconreactor>Позначка: знак реакторної</entityname.labelsiconreactor>
+  <entityname.labelsiconsecurity>Позначка: знак служби безпеки</entityname.labelsiconsecurity>
+  <entityname.labelsiconsteering>Позначка: знак керування</entityname.labelsiconsteering>
+  <entityname.labelsiconweapons>Позначка: знак зброярні</entityname.labelsiconweapons>
+  <entityname.labelsarroverticala>Позначка: стрілка вертикальна A</entityname.labelsarroverticala>
+  <entityname.labelsarroverticalb>Позначка: стрілка вертикальна В</entityname.labelsarroverticalb>
+  <entityname.labelsarrowdiagonala>Позначка: стрілка діагональ A</entityname.labelsarrowdiagonala>
+  <entityname.labelsarrowdiagonalb>Позначка: стрілка вертикальна В</entityname.labelsarrowdiagonalb>
+  <entityname.labelsarrowhorizontala>Позначка: стрілка горизонтальна A</entityname.labelsarrowhorizontala>
+  <entityname.labelsarrowhorizontalb>Позначка: стрілка горизонтальна В</entityname.labelsarrowhorizontalb>
+  <entityname.decorativelabel>Декоративна позначка.</entityname.decorativelabel>
+  <entityname.cableholderhorizontal>Горизонтальний тримач проводів</entityname.cableholderhorizontal>
+  <entityname.cableholdervertical>Вертикальний тримач проводів</entityname.cableholdervertical>
+  <entitydescription.cableholder>Декоративна планка для акуратного укладання проводів.</entitydescription.cableholder>
+  <entityname.topwindow>Вікно (верхнє)</entityname.topwindow>
+  <entityname.verticalwindow>Вікно (Вертикальне)</entityname.verticalwindow>
+  <entityname.largeplatform>Платформа велика</entityname.largeplatform>
+  <entityname.platform>Платформа основна</entityname.platform>
+  <entitydescription.platform>Рухома платформа, з якої персонаж може за бажанням спуститися або залізти на неї.</entitydescription.platform>
+  <entityname.slopeforward>Схил вперед</entityname.slopeforward>
+  <entityname.slopeback>Схил назад</entityname.slopeback>
+  <entitydescription.decorativepiece>Декоративна деталь.</entitydescription.decorativepiece>
+  <entityname.stairs>Сходи</entityname.stairs>
+  <entityname.stairsshort>Сходи короткі</entityname.stairsshort>
+  <entityname.stairslong>Сходи довгі</entityname.stairslong>
+  <entityname.ruinwallhorizontal>Горизонтальна стіна руїн</entityname.ruinwallhorizontal>
+  <entityname.ruinwallvertical>Вертикальна стіна руїн</entityname.ruinwallvertical>
+  <entityname.ruinwallheavyhorizontal>Горизонтальна важка стіна руїн</entityname.ruinwallheavyhorizontal>
+  <entityname.ruinwallheavyvertical>Вертикальна важка стіна руїн</entityname.ruinwallheavyvertical>
+  <entityname.ruinwallhorizontalsmall>Горизонтальна мала стіна руїн</entityname.ruinwallhorizontalsmall>
+  <entityname.ruinwallverticalsmall>Вертикальна мала стіна руїн</entityname.ruinwallverticalsmall>
+  <entityname.ruinback>Основний фон стінки руїн</entityname.ruinback>
+  <entityname.ruinprop>Декоративні руїни</entityname.ruinprop>
+  <entityname.bunk>Койка</entityname.bunk>
+  <entityname.opdeco_weaponstoragesuit1>Вітрина для одягу</entityname.opdeco_weaponstoragesuit1>
+  <entityname.op_weaponstoragesmall>Вітрина для мілкої зброї</entityname.op_weaponstoragesmall>
+  <entityname.op_weaponstoragemedium>Вітрина для середньої зброї</entityname.op_weaponstoragemedium>
+  <entityname.op_weaponstoragelarge>Вітрина для великої зброї</entityname.op_weaponstoragelarge>
+  <entityname.opdeco_storageitemshelf>Полиця-вітрина для предметів</entityname.opdeco_storageitemshelf>
+  <entityname.opdeco_storagemineralshelf>Полиця-вітрина для мінералів</entityname.opdeco_storagemineralshelf>
+  <entityname.opdeco_storageweaponshelf>Полиця-вітрина для зброї</entityname.opdeco_storageweaponshelf>
+  <entityname.opdeco_storageseedshelf>Полиця-вітрина для насіння</entityname.opdeco_storageseedshelf>
+  <entityname.opdeco_storagefrozenseedshelf>Полиця-вітрина для замороженого насіння</entityname.opdeco_storagefrozenseedshelf>
+  <entityname.opdeco_diningtable>Обідній стіл</entityname.opdeco_diningtable>
+  <entityname.opdeco_boxes1>Коробки</entityname.opdeco_boxes1>
+  <entityname.opdeco_bunks1>Койки</entityname.opdeco_bunks1>
+  <entityname.opdeco_researchdecal1>Лабораторна наліпка</entityname.opdeco_researchdecal1>
+  <entityname.opdeco_hrwindow1>Офісне вікно</entityname.opdeco_hrwindow1>
+  <entityname.opdeco_hrwindow2>Високе офісне вікно</entityname.opdeco_hrwindow2>
+  <entityname.opdeco_hrwindowblinds>Офісні жалюзі</entityname.opdeco_hrwindowblinds>
+  <entityname.opdeco_hrblinds>Високі офісні жалюзі</entityname.opdeco_hrblinds>
+  <entityname.opdeco_hrglassoffice>Офісні двері</entityname.opdeco_hrglassoffice>
+  <entityname.opdeco_hrticketdispenser>Роздавальник квитків</entityname.opdeco_hrticketdispenser>
+  <entityname.opdeco_hrnewspaperrack>Стійка для газет</entityname.opdeco_hrnewspaperrack>
+  <entityname.opdeco_hrcalendar>Календар</entityname.opdeco_hrcalendar>
+  <entityname.opdeco_hrsign>Фон - знак</entityname.opdeco_hrsign>
+  <entityname.opdeco_hrheater>Радіатор</entityname.opdeco_hrheater>
+  <entityname.opdeco_hrelectricpanel>Дошка оголошень</entityname.opdeco_hrelectricpanel>
+  <entityname.opdeco_hrbench>Лава</entityname.opdeco_hrbench>
+  <entityname.opdeco_hrflyers>Листівки</entityname.opdeco_hrflyers>
+  <entityname.opdeco_officeshelf1>Офісна полиця</entityname.opdeco_officeshelf1>
+  <entityname.opdeco_officedesk1>Офісний стіл</entityname.opdeco_officedesk1>
+  <entityname.opdeco_officedisplay1>Декоративний трофей</entityname.opdeco_officedisplay1>
+  <entityname.opdeco_computer>Комп'ютерний термінал</entityname.opdeco_computer>
+  <entityname.opdeco_shelfsmall>Маленька полиця</entityname.opdeco_shelfsmall>
+  <entityname.opdeco_shelfmedium>Середня полиця</entityname.opdeco_shelfmedium>
+  <entityname.opdeco_shelflarge>Велика полиця</entityname.opdeco_shelflarge>
+  <entityname.opdeco_rollupdoor>Підйомні двері</entityname.opdeco_rollupdoor>
+  <entityname.opdeco_rollupdoorframe>Рама підйомних дверей</entityname.opdeco_rollupdoorframe>
+  <entityname.opdeco_subblueprint1>Проект підводного човна</entityname.opdeco_subblueprint1>
+  <entityname.opdeco_toolrack1>Стелаж для інструментів</entityname.opdeco_toolrack1>
+  <entityname.opdeco_ladder>Сходи</entityname.opdeco_ladder>
+  <entityname.opdeco_shelf>Стелаж</entityname.opdeco_shelf>
+  <entityname.opdeco_desk>Стіл касира</entityname.opdeco_desk>
+  <entityname.opdeco_oxygentanks>Кисневі балони</entityname.opdeco_oxygentanks>
+  <entityname.opdeco_crane>Гірничий кран</entityname.opdeco_crane>
+  <entityname.opdeco_trolley1>Гірничий візок 1</entityname.opdeco_trolley1>
+  <entityname.opdeco_trolley2>Гірничий візок 2</entityname.opdeco_trolley2>
+  <entityname.opdeco_debris1>Видобуток завалів 1</entityname.opdeco_debris1>
+  <entityname.opdeco_debris2>Видобуток завалів 2</entityname.opdeco_debris2>
+  <entityname.opdeco_debris3>Видобуток завалів 3</entityname.opdeco_debris3>
+  <entityname.opdeco_construction_sign>Знак "Будівництво"</entityname.opdeco_construction_sign>
+  <entityname.opdeco_box1>Коробка 1</entityname.opdeco_box1>
+  <entityname.opdeco_box2>Коробка 2</entityname.opdeco_box2>
+  <entityname.opdeco_box3>Коробка 3</entityname.opdeco_box3>
+  <entityname.opdeco_box4>Коробка 4</entityname.opdeco_box4>
+  <entityname.opdeco_box5>Коробка 5</entityname.opdeco_box5>
+  <entityname.heavydoor>Важкі двері</entityname.heavydoor>
+  <entityname.opdeco_door>Фонові двері</entityname.opdeco_door>
+  <entityname.opdeco_towelrack>Вішалка для рушників</entityname.opdeco_towelrack>
+  <entityname.concretewall>Бетонна стіна</entityname.concretewall>
+  <entityname.opdeco_wheelchair1>Інвалідний візок</entityname.opdeco_wheelchair1>
+  <entityname.opdeco_adposter>Реклама</entityname.opdeco_adposter>
+  <entityname.windowglass>Віконне скло</entityname.windowglass>
+  <entityname.windowframe>Віконна рама</entityname.windowframe>
+  <entityname.op_cafeteriawindow>Барна стійка</entityname.op_cafeteriawindow>
+  <entityname.op_gardendistiller>Перегоний апарат</entityname.op_gardendistiller>
+  <entityname.op_cafeteriabench>Лавка в кафетерії</entityname.op_cafeteriabench>
+  <entityname.op_cafeteriatable>Стіл для кафетерію</entityname.op_cafeteriatable>
+  <entityname.op_cafeteriachair>Стілець для кафетерію</entityname.op_cafeteriachair>
+  <entityname.op_cafeteriaposter>Афіша для кафетерію</entityname.op_cafeteriaposter>
+  <entityname.op_cafeteriacart>Візок для кафетерію</entityname.op_cafeteriacart>
+  <entityname.op_gardenproducebox>Коробки з продукцією</entityname.op_gardenproducebox>
+  <entityname.op_gardenbags>Мішки з ґрунтом</entityname.op_gardenbags>
+  <entityname.op_gardenposter>Садовий плакат</entityname.op_gardenposter>
+  <entityname.table>Стіл</entityname.table>
+  <entityname.Target>Ціль</entityname.Target>
+  <entityname.sign>Знак</entityname.sign>
+  <entityname.op_freezer>Морозильна камера</entityname.op_freezer>
+  <entityname.op_clothesrack>Вішалка для одягу</entityname.op_clothesrack>
+  <entityname.op_metalchair>Металеві стільці</entityname.op_metalchair>
+  <entityname.op_washingmachine>Пральна машина</entityname.op_washingmachine>
+  <entityname.op_smallcouch>Крісло</entityname.op_smallcouch>
+  <entityname.op_janitorcart>Візок прибиральника</entityname.op_janitorcart>
+  <entityname.op_towellocker>Шафка для рушників</entityname.op_towellocker>
+  <entityname.op_inkpainting>Розпис тушшю</entityname.op_inkpainting>
+  <entityname.op_banner>Підвісний банер</entityname.op_banner>
+  <entityname.op_boxcart>Металевий візок</entityname.op_boxcart>
+  <entityname.op_sworddisplay>Стійка для меча</entityname.op_sworddisplay>
+  <entityname.op_statue>Статуя</entityname.op_statue>
+  <entityname.op_raptorhead>Опудало голови раптора</entityname.op_raptorhead>
+  <entityname.op_shower>Душовий набір</entityname.op_shower>
+  <entityname.op_painting1>Картина в рамці</entityname.op_painting1>
+  <entityname.op_wetsign>Знак "Прибирання"</entityname.op_wetsign>
+  <entityname.FF_Wall_I1>Стіна форпосту 1</entityname.FF_Wall_I1>
+  <entityname.FF_Wall_I2>Стіна форпосту 2</entityname.FF_Wall_I2>
+  <entityname.FF_Wall_I3>Стіна форпосту 3</entityname.FF_Wall_I3>
+  <entityname.opbg_generic1>Загальна стіна форпосту 1</entityname.opbg_generic1>
+  <entityname.opbg_generic2>Загальна стіна форпосту 2</entityname.opbg_generic2>
+  <entityname.opbg_generic3>Загальна стіна форпосту 3</entityname.opbg_generic3>
+  <entityname.opbg_generic4>Загальна стіна форпосту 4</entityname.opbg_generic4>
+  <entityname.opbg_generic5>Загальна стіна форпосту 5</entityname.opbg_generic5>
+  <entityname.opbg_generic6>Загальна стіна форпосту 6</entityname.opbg_generic6>
+  <entityname.opbg_generic7>Загальна стіна форпосту 7</entityname.opbg_generic7>
+  <entityname.opbg_airlock1>Шлюзова стіна форпосту</entityname.opbg_airlock1>
+  <entityname.opbgshopa1>Стіна магазину форпосту 1</entityname.opbgshopa1>
+  <entityname.opbg_shop2>Стіна магазину форпосту 2</entityname.opbg_shop2>
+  <entityname.opbg_shop3>Стіна магазину форпосту 3</entityname.opbg_shop3>
+  <entityname.opbg_shop4>Стіна магазину форпосту 4</entityname.opbg_shop4>
+  <entityname.opbgsocialcentera1>Стіна соціального центру форпосту</entityname.opbgsocialcentera1>
+  <entityname.opbg_barracks1>Казарми аванпосту фон 1</entityname.opbg_barracks1>
+  <entityname.opbg_barracks2>Казарми аванпосту фон 2</entityname.opbg_barracks2>
+  <entityname.opbg_barracks3>Казарми аванпосту фон 3</entityname.opbg_barracks3>
+  <entityname.opbg_services1>Послуги аванпосту фон 1</entityname.opbg_services1>
+  <entityname.opbg_services2>Послуги аванпосту фон 2</entityname.opbg_services2>
+  <entityname.opbgmaintenancebaya1>Відсік технічного обслуговування аванпосту фон 1</entityname.opbgmaintenancebaya1>
+  <entityname.opbgmaintenancebaya2>Відсік технічного обслуговування аванпосту фон 2</entityname.opbgmaintenancebaya2>
+  <entityname.opbgmaintenancebaya3>Відсік технічного обслуговування аванпосту фон 3</entityname.opbgmaintenancebaya3>
+  <entityname.opbg_researchlab1>Дослідницька лабораторія форпосту фон 1</entityname.opbg_researchlab1>
+  <entityname.opbg_researchlab2>Дослідницька лабораторія форпосту фон 2</entityname.opbg_researchlab2>
+  <entityname.opbg_tunnel1>Тунель форпосту фон 1</entityname.opbg_tunnel1>
+  <entityname.opbg_tunnel2>Тунель форпосту фон 2</entityname.opbg_tunnel2>
+  <entityname.opbg_tunnel4>Тунель форпосту фон 4</entityname.opbg_tunnel4>
+  <entityname.opbg_tunnel5>Тунель форпосту фон 5</entityname.opbg_tunnel5>
+  <entityname.opbg_tunnel6>Тунель форпосту фон 6</entityname.opbg_tunnel6>
+  <entityname.opbg_manageroffice1>Кабінет керівника форпосту фон 1</entityname.opbg_manageroffice1>
+  <entityname.opbg_manageroffice2>Кабінет керівника форпосту фон 2</entityname.opbg_manageroffice2>
+  <entityname.opbg_manageroffice3>Кабінет керівника форпосту фон 3</entityname.opbg_manageroffice3>
+  <entityname.opbg_dorm1>Гуртожиток форпосту фон</entityname.opbg_dorm1>
+  <entityname.opbg_messhall1>Їдальня форпосту фон</entityname.opbg_messhall1>
+  <entityname.opdeco_nuclearsign>Знак "Радіація"</entityname.opdeco_nuclearsign>
+  <entityname.opdeco_instructionsign>Знак "Інструкція"</entityname.opdeco_instructionsign>
+  <entityname.opdeco_propagandaposter>Пропагандистський банер</entityname.opdeco_propagandaposter>
+  <entityname.crackedwall1>Тріснутий настінний розпис</entityname.crackedwall1>
+  <entityname.graffiti1>Графіті</entityname.graffiti1>
+  <entityname.icewall>Крижана стіна тунелю</entityname.icewall>
+  <entityname.icewallcracked>Тріснула крижана стіна тунелю</entityname.icewallcracked>
+  <entityname.icewall90>Крижана стіна тунелю 90</entityname.icewall90>
+  <entityname.icewallcracked90>Крижана стіна тунелю тріснула 90</entityname.icewallcracked90>
+  <entityname.icerock01>Тунельна льодовикова скеля 1</entityname.icerock01>
+  <entityname.icerock02>Тунельна льодовикова скеля 2</entityname.icerock02>
+  <entityname.icerock03>Тунельна льодовикова скеля 3</entityname.icerock03>
+  <entityname.icerock04>Тунельна льодовикова скеля 4</entityname.icerock04>
+  <entityname.thalamus_background_2>Таламус фон 2</entityname.thalamus_background_2>
+  <entityname.thalamus_background_3>Таламус фон 3</entityname.thalamus_background_3>
+  <entityname.thalamus_background_4>Таламус фон 4</entityname.thalamus_background_4>
+  <entityname.medbaywall1>Стіна медблоку 1</entityname.medbaywall1>
+  <entityname.opdeco_medrack>Медичний стелаж</entityname.opdeco_medrack>
+  <entityname.opdeco_hospitalbed>Лікарняне ліжко</entityname.opdeco_hospitalbed>
+  <entityname.opdeco_diningtablesmall>Маленький обідній стіл</entityname.opdeco_diningtablesmall>
+  <entityname.opdeco_liftingequpiment>Вантажопідйомне обладнання</entityname.opdeco_liftingequpiment>
+  <entityname.opdeco_construction_barrier>Будівельний бар'єр</entityname.opdeco_construction_barrier>
+  <entityname.opdeco_supportbeam>Несуча балка</entityname.opdeco_supportbeam>
+  <entityname.opdeco_icecube>Кубик льоду</entityname.opdeco_icecube>
+  <entityname.opdeco_icepillar>Крижаний стовп</entityname.opdeco_icepillar>
+  <entityname.opdeco_monitor>Монітор</entityname.opdeco_monitor>
+  <entityname.decowire1>Декоративний провід</entityname.decowire1>
+  <entityname.decopanel1>Декоративна панель</entityname.decopanel1>
+  <entityname.decocolumn1>Декоративна колона</entityname.decocolumn1>
+  <entityname.decobarrier1>Захисний бар'єр</entityname.decobarrier1>
+  <entityname.opbg_jail>Біла в'язниця</entityname.opbg_jail>
+  <entityname.opbg_rock>Скельний фон</entityname.opbg_rock>
+  <entityname.opdeco_prisonbed>Тюремне ліжко</entityname.opdeco_prisonbed>
+  <entityname.shop_decoration>Оформлення магазину</entityname.shop_decoration>
+  <entityname.op_circusposter.png>Постер</entityname.op_circusposter.png>
+  <entityname.op_plaque.png>Бляшка</entityname.op_plaque.png>
+  <entityname.wreckdecal>Наліпка про аварію</entityname.wreckdecal>
+  <entityname.engineerequipment>Інженерне обладнання</entityname.engineerequipment>
+  <entityname.Jaildoor>Двері в'язниці</entityname.Jaildoor>
+  <entityname.shelf>Полиця</entityname.shelf>
+  <!-- The following texts are only used in "hidden editors" only accessible by console commands and intended for very advanced modders (and the devs), these don't need to be localized -->
+  <!-- Sprite editor -->
+  <spriteeditor.reloadtexture>Перезавантажити текстури</spriteeditor.reloadtexture>
+  <spriteeditor.texturesreloaded>Текстури перезавантажено з [filepath]</spriteeditor.texturesreloaded>
+  <spriteeditor.resetchanges>Скинути зміни</spriteeditor.resetchanges>
+  <spriteeditor.resetsuccessful>Зміни успішно скинуто</spriteeditor.resetsuccessful>
+  <spriteeditor.saveselectedsprites>Зберегти вибрані спрайти</spriteeditor.saveselectedsprites>
+  <spriteeditor.saveallsprites>Зберегти всі спрайти</spriteeditor.saveallsprites>
+  <spriteeditor.zoom>Наближення:</spriteeditor.zoom>
+  <spriteeditor.resetzoom>Скинути наближення</spriteeditor.resetzoom>
+  <spriteeditor.showgrid>Показати сітку</spriteeditor.showgrid>
+  <spriteeditor.snaptogrid>Прив'язати до сітки</spriteeditor.snaptogrid>
+  <spriteeditor.backgroundcolor>Фон\nКолір:</spriteeditor.backgroundcolor>
+  <spriteeditor.colorcomponentr>R</spriteeditor.colorcomponentr>
+  <spriteeditor.colorcomponentg>G</spriteeditor.colorcomponentg>
+  <spriteeditor.colorcomponentb>B</spriteeditor.colorcomponentb>
+  <spriteeditor.allchangessavedto>Всі зміни збережено в:</spriteeditor.allchangessavedto>
+  <!-- Event editor -->
+  <eventeditor.loadevent>Завантажити заготовку події</eventeditor.loadevent>
+  <eventeditor.addaction>Додати дію події</eventeditor.addaction>
+  <eventeditor.addvalue>Додайте значення</eventeditor.addvalue>
+  <eventeditor.addspecial>Додати особливе</eventeditor.addspecial>
+  <eventeditor.add>Додати</eventeditor.add>
+  <eventeditor.edit>Редагувати значення</eventeditor.edit>
+  <eventeditor.delete>Видалити вузол</eventeditor.delete>
+  <eventeditor.removeconnection>Очистити з'єднання</eventeditor.removeconnection>
+  <eventeditor.removeoption>Видалити опцію</eventeditor.removeoption>
+  <eventeditor.addoption>Додати опцію</eventeditor.addoption>
+  <eventeditor.saveproject>Зберегти проект</eventeditor.saveproject>
+  <eventeditor.loadproject>Завантажити проект</eventeditor.loadproject>
+  <eventeditor.newproject>Новий проект</eventeditor.newproject>
+  <eventeditor.newprojectprompt>Ви впевнені, що хочете створити новий проект? Всі незбережені зміни будуть втрачені.</eventeditor.newprojectprompt>
+  <eventeditor.export>Експортувати як подію</eventeditor.export>
+  <eventeditor.namefileprompt>Зберегти проект як</eventeditor.namefileprompt>
+  <eventeditor.exportprojectprompt>Експортуйте проект як</eventeditor.exportprojectprompt>
+  <eventeditor.unnamed>Безіменний</eventeditor.unnamed>
+  <eventeditor.opentextheader>Відкрита подія</eventeditor.opentextheader>
+  <eventeditor.opentextbody>Ви хочете відкрити експортовану подію в текстовому редакторі?</eventeditor.opentextbody>
+  <eventeditor.randomgenerationheader>Позицій вузлів не знайдено</eventeditor.randomgenerationheader>
+  <eventeditor.randomgenerationbody>Ця подія не була створена за допомогою редактора подій і не має визначених позицій вузлів, тому вони були згенеровані автоматично.</eventeditor.randomgenerationbody>
+  <!-- Particle editor -->
+  <particleeditor.emitter>Емітер</particleeditor.emitter>
+  <!-- Level editor -->
+  <leveleditor.levelseed>Сід генерації рівня</leveleditor.levelseed>
+  <leveleditor.generate>Згенерувати</leveleditor.generate>
+  <leveleditor.test>Тест</leveleditor.test>
+  <leveleditor.lightingenabled>Увімкнути освітлення</leveleditor.lightingenabled>
+  <leveleditor.cursorlightenabled>Увімкнути освітлення курсору</leveleditor.cursorlightenabled>
+  <leveleditor.reloadtextures>Перезавантажити текстури</leveleditor.reloadtextures>
+  <leveleditor.spriteeditdone>Готово</leveleditor.spriteeditdone>
+  <leveleditor.levelobjcommonness>Поширеність у [leveltype]</leveleditor.levelobjcommonness>
+  <leveleditor.editsprite>Редагувати Спрайт</leveleditor.editsprite>
+  <leveleditor.childobjects>Дочірні об'єкти</leveleditor.childobjects>
+  <leveleditor.addchildobject>Додати дочірній об'єкт</leveleditor.addchildobject>
+  <leveleditor.lightsources>Джерела світла</leveleditor.lightsources>
+  <leveleditor.addlightsource>Додати джерело світла</leveleditor.addlightsource>
+  <leveleditor.createlevelobj>Створити об'єкт рівня</leveleditor.createlevelobj>
+  <leveleditor.levelobjname>Ім'я</leveleditor.levelobjname>
+  <leveleditor.levelobjtexturepath>Шлях до текстури</leveleditor.levelobjtexturepath>
+  <leveleditor.levelobjnameempty>Будь ласка, введіть назву для об'єкта рівня.</leveleditor.levelobjnameempty>
+  <leveleditor.levelobjnametaken>Об'єкт з введеною назвою вже існує.</leveleditor.levelobjnametaken>
+  <leveleditor.levelobjtexturenotfound>Не вдалося знайти текстуру у введеному шляху до текстури.</leveleditor.levelobjtexturenotfound>
+  <leveleditor.ruinparams>Параметри руїн</leveleditor.ruinparams>
+  <leveleditor.caveparams>Параметри печер</leveleditor.caveparams>
+  <leveleditor.outpostparams>Параметри аванпостів</leveleditor.outpostparams>
+  <leveleditor.addmoduletype>Додати тип модуля</leveleditor.addmoduletype>
+  <leveleditor.allowinvalidoutpost>Дозволити несправні аванпости</leveleditor.allowinvalidoutpost>
+  <leveleditor.allowinvalidoutpost.tooltip>Чи повинен генератор аванпостів розміщувати аванпост, згенерований неправильно (наприклад, без деяких необхідних модулів), замість того, щоб замінити його запасним, правильно згенерованим аванпостом. Опція може бути корисною, при налагодженні генерації аванпостів.</leveleditor.allowinvalidoutpost.tooltip>
+  <leveleditor.allsaved>Усі зміни збережено</leveleditor.allsaved>
+  <leveleditor.levelobjects>Об'єкти рівня</leveleditor.levelobjects>
+  <leveleditor.backgroundcreatures>Фонові істоти</leveleditor.backgroundcreatures>
+  <leveleditor.levelmissingforbackgroundcreatures>Створіть рівень для відображення фонових істот.</leveleditor.levelmissingforbackgroundcreatures>
+</infotexts>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotext language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Factions -->
+  <faction.bandits>Бандити</faction.bandits>
+  <faction.bandits.description>Банди злочинців, що блукають каламутними морями Європи й займаються криміналом. Небезпечні, але завжди готові до діла…</faction.bandits.description>
+  <faction.bandits.shortdescription>Пристосованці, розбійники, пірати... Справжня зграя негідників.</faction.bandits.shortdescription>
+</infotext>

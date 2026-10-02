@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <!-- Paste the <Text> lines you generated -->
+  <entityname.emergencysiren01>Аварійна сирена — Тривога</entityname.emergencysiren01>
+  <entityname.emergencysirenfire01>Аварійна сирена — Вогонь 1</entityname.emergencysirenfire01>
+  <entityname.emergencysirenfire02>Аварійна сирена — Вогонь 2</entityname.emergencysirenfire02>
+  <entityname.emergencysirenhazard01>Аварійна сирена — Небезпека 1</entityname.emergencysirenhazard01>
+  <entityname.emergencysirenhazard02>Аварійна сирена — Небезпека 2</entityname.emergencysirenhazard02>
+  <entityname.emergencysirenmeltdown01>Аварійна сирена — Розплавлення</entityname.emergencysirenmeltdown01>
+  <entityname.alarmbuzzerconsole01>Аварійний дзвінок — Консоль 1</entityname.alarmbuzzerconsole01>
+  <entityname.alarmbuzzerconsole02>Аварійний дзвінок — Консоль 2</entityname.alarmbuzzerconsole02>
+  <entityname.alarmbuzzerconsole03>Аварійний дзвінок — Консоль 3</entityname.alarmbuzzerconsole03>
+  <entityname.alarmbuzzerconsole04>Аварійний дзвінок — Консоль 4</entityname.alarmbuzzerconsole04>
+  <entityname.alarmbuzzerdanger01>Аварійний дзвінок — Небезпека 1</entityname.alarmbuzzerdanger01>
+  <entityname.alarmbuzzerdanger02>Аварійний дзвінок — Небезпека 2</entityname.alarmbuzzerdanger02>
+  <entityname.alarmbuzzerdanger03>Аварійний дзвінок — Небезпека 3</entityname.alarmbuzzerdanger03>
+  <entityname.alarmbuzzerdanger04>Аварійний дзвінок — Небезпека 4</entityname.alarmbuzzerdanger04>
+  <entityname.alarmbuzzerdigital01>Аварійний дзвінок — Цифровий 1</entityname.alarmbuzzerdigital01>
+  <entityname.alarmbuzzerdigital02>Аварійний дзвінок — Цифровий 2</entityname.alarmbuzzerdigital02>
+  <entityname.alarmbuzzerdigital03>Аварійний дзвінок — Цифровий 3</entityname.alarmbuzzerdigital03>
+  <entityname.alarmbuzzeremergency01>Аварійний дзвінок — Надзвичайна ситуація</entityname.alarmbuzzeremergency01>
+  <entityname.alarmbuzzernuclear01>Аварійний дзвінок — Ядерна небезпека</entityname.alarmbuzzernuclear01>
+</infotexts>
