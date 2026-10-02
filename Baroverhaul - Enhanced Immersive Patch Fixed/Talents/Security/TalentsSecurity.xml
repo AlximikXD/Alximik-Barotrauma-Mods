@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Override>
+    <Talent identifier="gunlugger">
+      <Icon texture="%ModDir%/Talents/Security/TalentsIconsSecurity.png" sheetindex="6,3" sheetelementsize="128,128" />
+      <Description tag="talentdescription.gunrunner">
+        <Replace tag="[amount]" value="25" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.railguncarrier" color="gui.orange" />
+      </Description>
+      <AbilityGroupInterval interval="0.9">
+        <Conditions>
+          <AbilityConditionHoldingItem tags="ammobox,railgunammo,railguncarrier" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.25" />
+          <CharacterAbilityApplyStatusEffects>
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="Character" tags="gunrunner" duration="1.0" />
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffects>
+        </Abilities>
+      </AbilityGroupInterval>
+      <AddedRecipe itemidentifier="railguncarrier" />
+    </Talent>
+  </Override>
+</Talents>

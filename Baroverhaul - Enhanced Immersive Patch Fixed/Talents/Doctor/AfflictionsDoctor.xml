@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Afflictions>
+  <Affliction identifier="archimedeanmedicine" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="300" showiconthreshold="20" showinhealthscannerthreshold="1" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="300" strengthchange="-20" resistancefor="damage,bleeding,burn" minresistance="0" maxresistance=".30">
+      <StatValue stattype="AttackMultiplier" value="0.30" />
+    </Effect>
+    <Icon texture="%ModDir%/Talents/Doctor/TalentsIconsDoctor.png" sheetindex="4,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction identifier="vitaminfortified" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="60" resetbetweenrounds="true" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="60" strengthchange="0" resistancefor="damage,bleeding,burn" minresistance="0" maxresistance=".1">
+      <StatValue stattype="MaximumHealthMultiplier" value="0.1" />
+    </Effect>
+    <Icon texture="%ModDir%/Talents/Doctor/TalentsIconsDoctor.png" sheetindex="3,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Mending" identifier="alienmending" description="Rapid physical recovery" type="healing" isbuff="true" limbspecific="false" indicatorlimb="Torso" showiconthreshold="20" showinhealthscannerthreshold="1" treatmentthreshold="1000" maxstrength="100" affectmachines="false" MedicalSkillGain="1.0">
+    <Description textidentifier="afflictiondescription.alienmending.low.self" target="Self" minstrength="0" maxstrength="50" />
+    <Description textidentifier="afflictiondescription.alienmending.high.self" target="Self" minstrength="50" maxstrength="1000" />
+    <Description textidentifier="afflictiondescription.alienmending.low" target="OtherCharacter" minstrength="0" maxstrength="30" />
+    <Description textidentifier="afflictiondescription.alienmending" target="OtherCharacter" minstrength="30" maxstrength="60" />
+    <Description textidentifier="afflictiondescription.alienmending.high" target="OtherCharacter" minstrength="60" maxstrength="100" />
+    <Effect minstrength="0" maxstrength="20" strengthchange="-10">
+      <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="damage" amount="0.5" />
+        <ReduceAffliction type="burn" amount="0.5" />
+        <ReduceAffliction type="bleeding" amount="0.2" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="20" maxstrength="40" strengthchange="-10">
+      <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="damage" amount="1.0" />
+        <ReduceAffliction type="burn" amount="1.0" />
+        <ReduceAffliction type="bleeding" amount="0.4" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="40" maxstrength="60" strengthchange="-10">
+      <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="damage" amount="1.5" />
+        <ReduceAffliction type="burn" amount="1.5" />
+        <ReduceAffliction type="bleeding" amount="0.6" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="60" maxstrength="80" strengthchange="-10">
+      <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="damage" amount="2.0" />
+        <ReduceAffliction type="burn" amount="2.0" />
+        <ReduceAffliction type="bleeding" amount="0.8" />
+      </StatusEffect>
+    </Effect>
+    <Effect minstrength="80" maxstrength="100" strengthchange="-10">
+      <StatusEffect target="Character" interval="0.1" disabledeltatime="true">
+        <ReduceAffliction type="damage" amount="2.5" />
+        <ReduceAffliction type="burn" amount="2.5" />
+        <ReduceAffliction type="bleeding" amount="1.0" />
+      </StatusEffect>
+    </Effect>
+    <icon texture="%ModDir%/Talents/Doctor/TalentsIconsDoctor.png" sheetindex="2,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+  </Affliction>
+  <Affliction name="Leech Drained" identifier="leechdrained" type="leech" causeofdeathdescription="Drained by a leech" selfcauseofdeathdescription="You have been drained by a leech." limbspecific="false" indicatorlimb="Torso" activationthreshold="1" showinhealthscannerthreshold="1" karmachangeonapplied="-0.1" maxstrength="100" resetbetweenrounds="true" affectmachines="false">
+    <Effect minstrength="0" maxstrength="100" multiplybymaxvitality="true" strengthchange="-0.05" />
+    <icon texture="Content/UI/MainIconsAtlas.png" sourcerect="0,768,128,128" color="139,60,42,255" origin="0,0" />
+  </Affliction>
+  <Override>
+    <Affliction identifier="bedsidemanner" type="talentbuff" isbuff="true" hideiconafterdelay="true" limbspecific="false" maxstrength="60" resetbetweenrounds="true" treatmentthreshold="1000" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+      <Effect minstrength="0" maxstrength="60" strengthchange="0">
+        <StatValue stattype="MaximumHealthMultiplier" value="0.2" />
+      </Effect>
+      <Icon texture="%ModDir%/Talents/Doctor/TalentsIconsDoctor.png" sheetindex="5,6" sheetelementsize="128,128" color="10,193,114,255" origin="0,0" />
+    </Affliction>
+  </Override>
+</Afflictions>

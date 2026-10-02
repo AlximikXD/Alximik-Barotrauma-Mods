@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Override>
+    <Talent identifier="nuclearoption">
+      <Icon texture="%ModDir%/Talents/Engineer/TalentsIconsEngineer.png" sheetindex="6,1" sheetelementsize="128,128" />
+      <Description tag="talentdescription.additionalresistanceself">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+        <Replace tag="[affliction]" value="afflictionname.radiationsickness" color="gui.orange" />
+      </Description>
+      <Description tag="talentdescription.nuclearoption" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.nucleargun,entityname.nuclearcartridge" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveResistance resistanceid="radiationsickness" multiplier="0.85" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="nucleargun" />
+      <AddedRecipe itemidentifier="nuclearcartridge" />
+      <AddedRecipe itemidentifier="nuclearshellcheap" />
+      <AddedRecipe itemidentifier="nucleardepthchargecheap" />
+      <AddedRecipe itemidentifier="nucleardepthdecoycheap" />
+    </Talent>
+    <Talent identifier="vegetabledefense">
+      <Icon texture="%ModDir%/Talents/Engineer/TalentsIconsEngineer.png" sheetindex="7,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.vegetabledefense">
+        <Replace tag="[amount]" value="5" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.spuds,entityname.spudssuithelmet" color="gui.orange" />
+      </Description>
+      <AbilityGroupInterval interval="0.9">
+        <Abilities>
+          <CharacterAbilityApplyStatusEffectsToAllies allowself="true">
+            <StatusEffects>
+              <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+                <Affliction identifier="vegetabledefense" amount="1.0" />
+              </StatusEffect>
+            </StatusEffects>
+          </CharacterAbilityApplyStatusEffectsToAllies>
+        </Abilities>
+      </AbilityGroupInterval>
+      <AddedRecipe itemidentifier="spuds" />
+      <AddedRecipe itemidentifier="spudssuithelmet" />
+    </Talent>
+  </Override>
+</Talents>

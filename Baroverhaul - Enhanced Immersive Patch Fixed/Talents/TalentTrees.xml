@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentTrees>
+  <Override>
+    <TalentTree jobidentifier="medicaldoctor">
+      <SubTree identifier="xenologist" type="specialization" blocks="medic,scientist,xenotechnician">
+        <TalentOptions>
+          <TalentOption identifier="fieldresearch" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="grantmoney" />
+          <TalentOption identifier="dissertation" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="geneharvester" />
+          <TalentOption identifier="foreignflora" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="blackmarketgenes" />
+          <TalentOption identifier="companionplants" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bloodybusiness" />
+          <TalentOption identifier="sorceroussnack" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="genetampering" />
+          <TalentOption identifier="genesplicer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="geneticgenious" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="medic" type="specialization" blocks="xenologist,scientist,xenotechnician">
+        <TalentOptions>
+          <TalentOption identifier="medicalschooldropout" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="healthinsurance" />
+          <TalentOption identifier="nobodyimportantdies" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="medicalexpertise" />
+          <TalentOption identifier="frontlineaid" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="medicalassistance" />
+          <TalentOption identifier="emergencyresponse" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="drsubmarine" />
+          <TalentOption identifier="vitaminsupplements" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="miracleworker" />
+          <TalentOption identifier="battlemedic" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="downrightarchimedean" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="scientist" type="specialization" blocks="xenologist,medic,xenotechnician">
+        <TalentOptions>
+          <TalentOption identifier="weneedtocook" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bigbrain" />
+          <TalentOption identifier="fastlearner" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="deliverysystem" />
+          <TalentOption identifier="labcontacts" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="plaguedoctor" />
+          <TalentOption identifier="laresistance" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="labanimal" />
+          <TalentOption identifier="nopressure" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="supersoldiers" />
+          <TalentOption identifier="whatastench" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="macrodosing" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="xenotechnician" type="specialization" blocks="xenologist,medic,scientist">
+        <TalentOptions>
+          <TalentOption identifier="crewmeninblack" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="uncoveringtheold" />
+          <TalentOption identifier="tombraider" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="boldandbrash" />
+          <TalentOption identifier="itbelongsinamuseum" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="reverseengineer" />
+          <TalentOption identifier="artificialintelligence" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="alienhoarder" />
+          <TalentOption identifier="madscience" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="containmentprotocol" />
+          <TalentOption identifier="armoredcore" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fontofhealth" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="engineer">
+      <SubTree identifier="weaponsengineer" type="specialization" blocks="electrician,physicist,inventor">
+        <TalentOptions>
+          <TalentOption identifier="aggressiveengineering" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="surplussupplies" />
+          <TalentOption identifier="gunrunner" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="runandgunner" />
+          <TalentOption identifier="topbrass" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="heavyhitter" />
+          <TalentOption identifier="armsrace" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="militaryapplications" />
+          <TalentOption identifier="radpower" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="pyromaniac" />
+          <TalentOption identifier="shockvalue" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nuclearoption" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="electrician" type="specialization" blocks="weaponsengineer,physicist,inventor">
+        <TalentOptions>
+          <TalentOption identifier="grounded" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="stationengineer" />
+          <TalentOption identifier="junctionjunkie" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="intheflow" />
+          <TalentOption identifier="betterthannew" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="gridmaintainer" />
+          <TalentOption identifier="unlimitedpower" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="badohmen" />
+          <TalentOption identifier="faradaycage" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="cruising" />
+          <TalentOption identifier="buzzing" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="lightningwizard" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="physicist" type="specialization" blocks="weaponsengineer,electrician,inventor">
+        <TalentOptions>
+          <TalentOption identifier="funwithfission" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="unstoppablecuriosity" />
+          <TalentOption identifier="expandedresearch" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="theuniverseissinging" />
+          <TalentOption identifier="whatisthatmelody" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="dangerzone" />
+          <TalentOption identifier="playingwithgeiger" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="masstimesacceleration" />
+          <TalentOption identifier="deltavoverdeltat" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="equalandoppositereaction" />
+          <TalentOption identifier="barrierinitialized" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="phdinnuclearphysics" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="inventor" type="specialization" blocks="weaponsengineer,electrician,physicist">
+        <TalentOptions>
+          <TalentOption identifier="submarineofthings" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="egghead" />
+          <TalentOption identifier="polymath" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="remotemonitor" />
+          <TalentOption identifier="distressbeacon" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="samplecollection" />
+          <TalentOption identifier="holdsupspork" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="valvecorporation" />
+          <TalentOption identifier="sayitdontsprayit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="ticktickboom" />
+          <TalentOption identifier="packingheat" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="vegetabledefense" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="securityofficer">
+      <SubTree identifier="frogman" type="specialization" blocks="enforcer,gunner,soldier">
+        <TalentOptions>
+          <TalentOption identifier="wetbehindtheears" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scavenger" />
+          <TalentOption identifier="firstaidtraining" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="physicalconditioning" />
+          <TalentOption identifier="swole" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="boardingparty" />
+          <TalentOption identifier="slayer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="easyturtle" />
+          <TalentOption identifier="daringdolphin" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="rescueoperation" />
+          <TalentOption identifier="merfolk" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="specops" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="enforcer" type="specialization" blocks="frogman,gunner,soldier">
+        <TalentOptions>
+          <TalentOption identifier="policeacademy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bythebook" />
+          <TalentOption identifier="protectandserve" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="beatcop" />
+          <TalentOption identifier="stonewall" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="pacificationkit" />
+          <TalentOption identifier="riotcontrol" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="crustyseaman" />
+          <TalentOption identifier="buff" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="inordinateexsanguination" />
+          <TalentOption identifier="firingsquad" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="implacable" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="gunner" type="specialization" blocks="frogman,enforcer,soldier">
+        <TalentOptions>
+          <TalentOption identifier="powdermonkey" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="killconfirmed" />
+          <TalentOption identifier="killquota" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="choppyseas" />
+          <TalentOption identifier="manthecannons" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="gunlugger" />
+          <TalentOption identifier="extrapowder" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="delayedfuse" />
+          <TalentOption identifier="accuracythroughvolume" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="tandemfire" />
+          <TalentOption identifier="destroyer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="cannoneer" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="soldier" type="specialization" blocks="frogman,enforcer,gunner">
+        <TalentOptions>
+          <TalentOption identifier="bootcamp" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="tourofduty" />
+          <TalentOption identifier="warstories" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="munitionsexpertise" />
+          <TalentOption identifier="dontpushit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="marksman" />
+          <TalentOption identifier="infantryman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="commando" />
+          <TalentOption identifier="onthemove" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="rifleman" />
+          <TalentOption identifier="operator" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="warlord" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="captain">
+      <SubTree identifier="gunslinger" type="specialization" blocks="skipper,politician,fisherman">
+        <TalentOptions>
+          <TalentOption identifier="smallfry" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="prodigy" />
+          <TalentOption identifier="veteran" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="rootintootinshootin" />
+          <TalentOption identifier="roughandtumble" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="sidearm" />
+          <TalentOption identifier="sixshooter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="lonewolf" />
+          <TalentOption identifier="deputy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="quickdraw" />
+          <TalentOption identifier="shootout" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bigguns" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="skipper" type="specialization" blocks="gunslinger,politician,fisherman">
+        <TalentOptions>
+          <TalentOption identifier="maidenvoyage" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="commendations" />
+          <TalentOption identifier="camaraderie" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="drunkensailor" />
+          <TalentOption identifier="wakeupcall" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="helmsman" />
+          <TalentOption identifier="admiralty" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="emergencymaneuvers" />
+          <TalentOption identifier="downwiththeship" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="family" />
+          <TalentOption identifier="rallyingcry" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bonvoyage" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="politician" type="specialization" blocks="gunslinger,skipper,fisherman">
+        <TalentOptions>
+          <TalentOption identifier="swimmingforoffice" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="logisticsexpert" />
+          <TalentOption identifier="inspirationalleader" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="affiliation" />
+          <TalentOption identifier="networking" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="campaigning" />
+          <TalentOption identifier="leadingbyexample" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="trickledown" />
+          <TalentOption identifier="inspiringpresence" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="travelingtradesman" />
+          <TalentOption identifier="trustbusting" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="figurehead" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="fisherman" type="specialization" blocks="gunslinger,skipper,politician">
+        <TalentOptions>
+          <TalentOption identifier="sailorwithnoname" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fishinabarrel" />
+          <TalentOption identifier="bountyhunter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="treasurehunter" />
+          <TalentOption identifier="truegrit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fishinglure" />
+          <TalentOption identifier="biggamehunter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="saltyseadog" />
+          <TalentOption identifier="brinepunk" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="trophyhunter" />
+          <TalentOption identifier="huntersmark" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="surfandturfwars" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="mechanic">
+      <SubTree identifier="scrapper" type="specialization" blocks="machinist,brawler,repairman">
+        <TalentOptions>
+          <TalentOption identifier="thetrashman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="salvagecrew" />
+          <TalentOption identifier="mineralcollector" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="onemanstrash" />
+          <TalentOption identifier="anothermanstreasure" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="reducereuserecycle" />
+          <TalentOption identifier="residualwaste" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scrapsavant" />
+          <TalentOption identifier="miner" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="scrapnado" />
+          <TalentOption identifier="swarmageddon" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="goodluckmagnet" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="machinist" type="specialization" blocks="scrapper,brawler,repairman">
+        <TalentOptions>
+          <TalentOption identifier="tinkerer" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="machinemaniac" />
+          <TalentOption identifier="retrofit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="engineengineer" />
+          <TalentOption identifier="pumpndump" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="oiledmachinery" />
+          <TalentOption identifier="massproduction" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="underclocking" />
+          <TalentOption identifier="overclocking" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="letitdrain" />
+          <TalentOption identifier="robotics" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="soupedup" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="brawler" type="specialization" blocks="machinist,scrapper,repairman">
+        <TalentOptions>
+          <TalentOption identifier="iamthatguy" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="heavylifting" />
+          <TalentOption identifier="hiredmuscle" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="letmebeblunt" />
+          <TalentOption identifier="mudraptorwrestler" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="multifunctional" />
+          <TalentOption identifier="ironman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="foolhardy" />
+          <TalentOption identifier="berserker" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="neverseeitcoming" />
+          <TalentOption identifier="tastytarget" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fightclub" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="repairman" type="specialization" blocks="machinist,scrapper,brawler">
+        <TalentOptions>
+          <TalentOption identifier="handywithawrench" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fixerupper" />
+          <TalentOption identifier="manuallabor" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="whistlewhileyouwork" />
+          <TalentOption identifier="elbowgrease" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="modularrepairs" />
+          <TalentOption identifier="safetyfirst" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="quickfixer" />
+          <TalentOption identifier="reinforced" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="fixit" />
+          <TalentOption identifier="wreckit" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="multitalented" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+    <TalentTree jobidentifier="assistant">
+      <SubTree identifier="oddjob" type="specialization" blocks="apprentice,fodder,clown,cultist">
+        <TalentOptions>
+          <TalentOption identifier="indenturedservitude" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="janitor" />
+          <TalentOption identifier="courier" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="workinghard" />
+          <TalentOption identifier="hardlyworking" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="bagitup" />
+          <TalentOption identifier="logisticssystems" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="richsoil" />
+          <TalentOption identifier="kibble" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="thefriendswemade" />
+          <TalentOption identifier="orangeman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="aceofalltrades" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="apprentice" type="specialization" blocks="oddjob,fodder,clown,cultist">
+        <TalentOptions>
+          <ShowCaseTalent identifier="apprenticeship">
+            <TalentOption identifier="apprenticeship_captain" />
+            <TalentOption identifier="apprenticeship_doctor" />
+            <TalentOption identifier="apprenticeship_security" />
+            <TalentOption identifier="apprenticeship_mechanic" />
+            <TalentOption identifier="apprenticeship_engineer" />
+          </ShowCaseTalent>
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="playingcatchup" />
+          <TalentOption identifier="peerlearning" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="crewlayabout" />
+          <TalentOption identifier="journeyman" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="loyalassistant" />
+          <TalentOption identifier="disloyalscum" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="employeeofthemonth" />
+          <TalentOption identifier="companytime" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nepotismhire" />
+          <TalentOption identifier="collaborativeproject" />
+        </TalentOptions>
+        <TalentOptions>
+          <ShowCaseTalent identifier="graduationceremonybase">
+            <TalentOption identifier="graduationceremonyold" />
+            <TalentOption identifier="graduationceremonynew" />
+          </ShowCaseTalent>
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="fodder" type="specialization" blocks="oddjob,apprentice,clown,cultist">
+        <TalentOptions>
+          <TalentOption identifier="expendable" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="livebait" />
+          <TalentOption identifier="traptester" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nonthreatening" />
+          <TalentOption identifier="skedaddle" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="glasscannon" />
+          <TalentOption identifier="brickwall" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="toughnut" />
+          <TalentOption identifier="straightshooter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="redshirt" />
+          <TalentOption identifier="stormtrooper" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="indispensable" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="clown" type="specialization" blocks="oddjob,apprentice,fodder,cultist">
+        <TalentOptions>
+          <TalentOption identifier="enrollintoclowncollege" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="inspiringtunes" />
+          <TalentOption identifier="spreadinglaughter" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="doyoufeellucky" />
+          <TalentOption identifier="funnyfarm" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="patchadams" />
+          <TalentOption identifier="chonkyhonks" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="waterprankster" />
+          <TalentOption identifier="bigtopspeed" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="nowformyassistant" />
+          <TalentOption identifier="psychoclown" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="truepotential" />
+        </TalentOptions>
+      </SubTree>
+      <SubTree identifier="cultist" type="specialization" blocks="oddjob,apprentice,fodder,clown">
+        <TalentOptions>
+          <TalentOption identifier="acolyte" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="sirensong" />
+          <TalentOption identifier="spreadtheword" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="spreadingblessings" />
+          <TalentOption identifier="communioncomestible" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="lightinthedark" />
+          <TalentOption identifier="bofanatic" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="shieldoffaith" />
+          <TalentOption identifier="bloodofcalyx" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="perhapsthisishell" />
+          <TalentOption identifier="oughttocrawl" />
+        </TalentOptions>
+        <TalentOptions>
+          <TalentOption identifier="symbioticrelationship" />
+        </TalentOptions>
+      </SubTree>
+    </TalentTree>
+  </Override>
+</TalentTrees>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <Item name="" identifier="allinonehelmet" category="Equipment" tags="smallitem,clownmask,clowns,foureyes" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.325">
+      <PreferredContainer primary="secarmcab" spawnprobability="0" />
+      <PreferredContainer secondary="armcab" spawnprobability="0" />
+      <Price baseprice="600" sold="false">
+        <Price storeidentifier="merchantoutpost" multiplier="1.3" />
+        <Price storeidentifier="merchantcity" multiplier="1.2" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+        <Price storeidentifier="merchantmine" />
+        <Price storeidentifier="merchantarmory" multiplier="0.9" />
+      </Price>
+      <Deconstruct time="10">
+        <Item identifier="iron" amount="2" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="weapons" level="50" />
+        <RequiredSkill identifier="mechanical" level="50" />
+        <RequiredSkill identifier="electrical" level="50" />
+        <RequiredSkill identifier="medical" level="50" />
+        <RequiredSkill identifier="helm" level="50" />
+        <RequiredItem identifier="ironhelmet" />
+        <RequiredItem identifier="healthscanner" />
+        <RequiredItem identifier="thermalgoggles" />
+        <RequiredItem identifier="electriciansgoggles" />
+        <RequiredItem identifier="clownmask" />
+      </Fabricate>
+      <Body width="70" height="80" density="30" />
+      <Sprite name="All In One Helmet Item" texture="%ModDir%/Assistant/Allinonevisor.png" sourcerect="0,0,112,112" depth="0.6" origin="0.5,0.5" />
+      <Wearable slots="Any,Head" armorvalue="20.0" msg="ItemMsgPickUpSelect">
+        <CustomInterface canbeselected="false" drawhudwhenequipped="true" allowuioverlap="true">
+          <GuiFrame relativesize="0.1,0.1" anchor="BottomCenter" pivot="BottomCenter" relativeoffset="0,0.1" style="ItemUI" />
+          <Tickbox text="Thermal Goggles" connection="signal_out1">
+            <StatusEffect type="OnUse" target="This" thermalgoggles="true" />
+            <StatusEffect type="OnSecondaryUse" target="This" thermalgoggles="false" />
+          </Tickbox>
+          <Tickbox text="Electrician Goggles" connection="signal_out2">
+            <StatusEffect type="OnUse" target="This" debugwiring="true" />
+            <StatusEffect type="OnSecondaryUse" target="This" debugwiring="false" />
+          </Tickbox>
+        </CustomInterface>
+        <StatusHUD drawhudwhenequipped="true" />
+        <StatusEffect type="OnWearing" target="Character" HideFace="true" ObstructVision="true" SpeedMultiplier="0.9" setvalue="true" disabledeltatime="true" />
+        <damagemodifier afflictionidentifiers="lacerations, bitewounds" armorsector="0.0,360.0" damagemultiplier="0.15" damagesound="LimbArmor" deflectprojectiles="true" />
+        <damagemodifier afflictiontypes="bleeding" armorsector="0.0,360.0" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
+        <sprite name="All In One Helmet" texture="%ModDir%/Assistant/Allinonevisor.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.55" hidewearablesoftype="Hair" sourcerect="0,0,112,112" origin="0.5,0.5" />
+      </Wearable>
+    </Item>
+  </Override>
+</Items>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Override>
+    <Talent identifier="downrightarchimedean">
+      <Icon texture="%ModDir%/Talents/Doctor/TalentsIconsDoctor.png" sheetindex="1,3" sheetelementsize="128,128" />
+      <Description tag="talentdescription.downrightarchimedean">
+        <Replace tag="[amount]" value="30" color="gui.green" />
+        <Replace tag="[duration]" value="15" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.medicdivingsuit,entityname.medicsuithelmet" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="OnApplyTreatment">
+        <Conditions>
+          <AbilityConditionCharacter targettype="Ally,NotSelf" />
+        </Conditions>
+        <Abilities>
+          <CharacterAbilityGiveAffliction affliction="archimedeanmedicine" strength="1000" setvalue="true" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="medicdivingsuit" />
+      <AddedRecipe itemidentifier="medicsuithelmet" />
+    </Talent>
+  </Override>
+</Talents>

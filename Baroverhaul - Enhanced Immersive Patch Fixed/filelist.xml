@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Baroverhaul - Enhanced Immersive Patch Fixed" corepackage="false" modversion="1.0.0">
+  <Item file="%ModDir%/Assistant/Items.xml" />
+  <Item file="%ModDir%/Captain/Items.xml" />
+  <Item file="%ModDir%/Engineer/Items.xml" />
+  <Item file="%ModDir%/Medic/Items.xml" />
+  <Item file="%ModDir%/Mechanic/Items.xml" />
+  <Item file="%ModDir%/Security/Items.xml" />
+  <Item file="%ModDir%/Exosuits/Items.xml" />
+  <Item file="%ModDir%/ammunition.xml" />
+  <Item file="%ModDir%/Factions/Items.xml" />
+  <Talents file="%ModDir%/Talents/Doctor/TalentsDoctor.xml" />
+  <Talents file="%ModDir%/Talents/Engineer/TalentsEngineer.xml" />
+  <Talents file="%ModDir%/Talents/Mechanic/TalentsMechanic.xml" />
+  <Talents file="%ModDir%/Talents/Security/TalentsSecurity.xml" />
+  <TalentTrees file="%ModDir%/Talents/TalentTrees.xml" />
+  <Text file="%ModDir%/Texts/English/English.xml" />
+  <Text file="%ModDir%/Texts/Ukrainian/Ukrainian.xml" />
+</contentpackage>

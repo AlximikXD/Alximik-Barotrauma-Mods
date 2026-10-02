@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talents>
+  <Override>
+    <Talent identifier="oiledmachinery">
+      <Icon texture="%ModDir%/Talents/Mechanic/TalentsIconsMechanic.png" sheetindex="3,2" sheetelementsize="128,128" />
+      <Description tag="talentdescription.oiledmachinery">
+        <Replace tag="[amount]" value="50" color="gui.green" />
+      </Description>
+      <Description tag="talentdescription.doesnotstack" />
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.premiumengineoil" color="gui.orange" />
+      </Description>
+      <AbilityGroupInterval interval="60">
+        <Abilities>
+          <CharacterAbilityGiveItemStatToTags tags="fabricator" stattype="FabricationSpeed" value="1.5" />
+          <CharacterAbilityGiveItemStatToTags tags="deconstructor" stattype="DeconstructorSpeed" value="1.5" />
+        </Abilities>
+      </AbilityGroupInterval>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveItemStatToTags tags="fabricator" stattype="FabricationSpeed" value="1.5" />
+          <CharacterAbilityGiveItemStatToTags tags="deconstructor" stattype="DeconstructorSpeed" value="1.5" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="premiumengineoil" />
+    </Talent>
+    <Talent identifier="modularrepairs">
+      <Icon texture="%ModDir%/Talents/Mechanic/TalentsIconsMechanic.png" sheetindex="1,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.additionalstattype">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+        <Replace tag="[stattype]" value="stattypenames.repairtoolstructurerepairmultiplier" color="gui.orange" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.multitool,entityname.fixfoamtank,entityname.handheldstatusmonitor" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveStat stattype="RepairToolStructureRepairMultiplier" value="0.15" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="repairpack" />
+      <AddedRecipe itemidentifier="fixfoamtank" />
+      <AddedRecipe itemidentifier="handheldstatusmonitor" />
+    </Talent>
+    <Talent identifier="safetyfirst">
+      <Icon texture="%ModDir%/Talents/Mechanic/TalentsIconsMechanic.png" sheetindex="2,5" sheetelementsize="128,128" />
+      <Description tag="talentdescription.firefighter">
+        <Replace tag="[itemname1]" value="entityname.firefightersuit" color="gui.orange" />
+        <Replace tag="[itemname2]" value="entityname.firefighterhelmet" color="gui.orange" />
+        <Replace tag="[itemname3]" value="entityname.fireaxe" color="gui.orange" />
+        <Replace tag="[itemname4]" value="entityname.halligantool" color="gui.orange" />
+        <Replace tag="[itemname5]" value="entityname.co2grenade" color="gui.orange" />
+      </Description>
+      <Description tag="talentdescription.additionalstattype">
+        <Replace tag="[amount]" value="15" color="gui.green" />
+        <Replace tag="[stattype]" value="stattypenames.RepairSpeed" color="gui.orange" />
+      </Description>
+      <Description tag="talentdescription.unlockrecipe">
+        <Replace tag="[itemname]" value="entityname.safetyharness" color="gui.orange" />
+      </Description>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveStat stattype="RepairSpeed" value="0.15" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AbilityGroupEffect abilityeffecttype="None">
+        <Abilities>
+          <CharacterAbilityGiveFlag flagtype="MoveNormallyWhileDragging" />
+        </Abilities>
+      </AbilityGroupEffect>
+      <AddedRecipe itemidentifier="firefightersuit" />
+      <AddedRecipe itemidentifier="firefighterhelmet" />
+      <AddedRecipe itemidentifier="fireaxe" />
+      <AddedRecipe itemidentifier="halligantool" />
+      <AddedRecipe itemidentifier="co2grenade" />
+      <AddedRecipe itemidentifier="safetyharness" />
+    </Talent>
+  </Override>
+</Talents>

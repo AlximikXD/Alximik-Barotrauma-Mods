@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Override>
+    <Item name="Cigar" identifier="cigar" category="Equipment" maxstacksize="1" maxstacksizecharacterinventory="1" MaxStackSizeHoldableOrWearableInventory="1" Tags="smallitem,ignitable" cargocontaineridentifier="metalcrate" scale="0.35" isshootable="true" RequireAimToUse="true" impactsoundtag="impact_soft">
+      <PreferredContainer primary="crewcab" />
+      <Price baseprice="130" sold="false" />
+      <Fabricate suitablefabricators="fabricator" requiredtime="5" requiresrecipe="true">
+        <RequiredItem identifier="pipetobacco" />
+      </Fabricate>
+      <InventoryIcon texture="Content/Items/JobGear/TalentGear.png" sourcerect="174,234,42,50" origin="0.5,0.5" />
+      <Sprite texture="%ModDir:3217556378%/Content/Items/II_ItemsAtlas.png" sourcerect="81,53,50,11" depth="0.55" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,65,50,11" depth="0.55" maxcondition="99.9" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,77,50,11" depth="0.55" maxcondition="75" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,89,50,11" depth="0.55" maxcondition="62.5" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,101,50,11" depth="0.55" maxcondition="50" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,113,50,11" depth="0.55" maxcondition="37.5" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,125,50,11" depth="0.55" maxcondition="25" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="81,137,50,11" depth="0.55" maxcondition="12.5" fadein="false" />
+      <Body width="45" height="10" density="9.9" />
+      <LightComponent range="0" lightcolor="0,0,0,0" castshadows="false" powerconsumption="0" allowingameediting="false" comparison="And">
+        <ActiveConditional HasTag="lit" />
+        <ActiveConditional InWater="false" />
+        <!-- extinguish the item by turning off the LightComponent and adding the tag "unlit" to override the "lit" tag, if the item was put back into the pocket or cabinet, unless it is a trash can -->
+        <StatusEffect type="OnActive" target="This" IsOn="false" tags="unlit" setvalue="true" comparison="And">
+          <Conditional PhysicsBodyActive="eq false" />
+          <Conditional HasTag="neq outposttrashcan" targetcontainer="true" />
+        </StatusEffect>
+        <!-- constantly burn down the cigar when it was lit and procude smoke particles while not inhaling (using) -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="gt 50" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="7" distancemax="7" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+        <!-- constantly burn down the cigar when it is lit, its condition is between 37.5 and 50 and procude smoke particles while not inhaling (using) with adjusted particle position to match the different sprite length -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="lte 50" />
+          <Conditional condition="gt 37.5" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="5" distancemax="5" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+        <!-- constantly burn down the cigar when it is lit, its condition is between 0 and 37.5 and procude smoke particles while not inhaling (using) with adjusted particle position to match the different sprite length -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="lte 37.5" />
+          <Conditional condition="gt 0" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="1" distancemax="1" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+      </LightComponent>
+      <Holdable canbepicked="true" canBeCombined="false" removeOnCombined="false" slots="Any,RightHand" handle1="-7,-15" aimpos="24,13" holdangle="0" holdpos="30,-5" aimangle="-5" aimable="false" swingwhenaiming="false" swingamount="6,3" swingspeed="0.2" msg="ItemMsgPickUpSelect">
+        <!-- add the temporary "wet" tag and spawn water drop particles for 10 seconds after the item entered water to block reigniting it again for that duration -->
+        <StatusEffect type="InWater" target="This" tags="wet" setvalue="true" duration="10" stackable="false" />
+        <!-- add the tag "lit" and change the hand position if the item was in real fire -->
+        <StatusEffect type="OnFire" target="This" tags="lit" handle1="0,-35" setvalue="true" interval="1" disabledeltatime="true" />
+        <!-- constantly reduce the condition of the item while it is in a real fire -->
+        <StatusEffect type="OnFire" target="This" Condition="-10.0" interval="1" disabledeltatime="true" />
+        <!-- reduce the condition of the cigar and prevent it from producing smoke when actively smoking it (using) while it is on (tag "lit") -->
+        <StatusEffect type="OnUse" target="This,Character" tags="lit,inhaling" condition="-1" interval="0.1" duration="0.2">
+          <Conditional HasTag="lit" />
+        </StatusEffect>
+        <!-- remove the ability to breath oxygen, apply the custom "smokingcigarette" affliction and play a sizzling sound while inhaling the smoke (using the item while it has the tag "lit") -->
+        <StatusEffect type="OnUse" target="This,Character" availableoxygen="0" setvalue="true" interval="0.1" duration="0.2" multiplyafflictionsbymaxvitality="true">
+          <Conditional HasTag="lit" />
+          <Affliction identifier="smoking" amount="0.01" />
+          <Affliction identifier="oxygenlow" amount="0.15" />
+          <Sound file="%ModDir:3217556378%/Content/Items/Misc/SmokingCigaretteLoop.ogg" range="200" volume="1.0" loop="true" />
+        </StatusEffect>
+        <!-- apply and reduce various afflictions when smoking (using the item while it has the tag "lit") | separate effect to allow better control over the applied amounts (configured value per second) -->
+        <StatusEffect type="OnUse" target="This,Character" multiplyafflictionsbymaxvitality="true">
+          <Conditional HasTag="lit" />
+          <Affliction identifier="psychosisresistance" amount="20" />
+          <ReduceAffliction identifier="psychosis" amount="6" />
+          <ReduceAffliction identifier="hallucinating" amount="10" />
+          <ReduceAffliction identifier="reaperstax" amount="1" />
+          <ReduceAffliction identifier="watchersgaze" amount="5" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This,Character" stackable="false">
+          <Conditional Condition="lte 1" />
+          <Affliction identifier="companytimetracker" amount="1.0" />
+        </StatusEffect>
+        <!-- change hand position when holding the item while not using it (no temporary "inhaling" tag) -->
+        <StatusEffect type="OnActive" target="This" handle1="-30,-35" setvalue="true">
+          <Conditional HasStatusTag="neq inhaling" />
+        </StatusEffect>
+        <!-- start a fire when it burns out (breaks) inside a trashcan -->
+        <StatusEffect type="OnBroken" target="This">
+          <Conditional HasTag="outposttrashcan" targetcontainer="true" />
+          <Fire size="1" />
+        </StatusEffect>
+        <!-- remove the item when it is broken -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </Holdable>
+    </Item>
+    <Item name="" identifier="captainspipe" category="Misc" Tags="smallitem,ignitable" scale="0.5" cargocontaineridentifier="metalcrate" impactsoundtag="impact_metal_light" isshootable="true" requireaimtouse="true">
+      <PreferredContainer primary="crewcab" spawnprobability="0.05" notcampaign="true" />
+      <PreferredContainer secondary="wreckcrewcab,abandonedcrewcab" spawnprobability="0.1" />
+      <Price baseprice="50">
+        <Price storeidentifier="merchantoutpost" />
+        <Price storeidentifier="merchantcity" />
+        <Price storeidentifier="merchantresearch" />
+        <Price storeidentifier="merchantmilitary" />
+        <Price storeidentifier="merchantmine" />
+      </Price>
+      <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="511,957,64,64" origin="0.5,0.5" />
+      <Sprite texture="Content/Items/Misc/Misc.png" sourcerect="105,73,50,30" depth="0.55" origin="0.5,0.5" />
+      <Body width="58" height="20" density="15" />
+      <!-- LightComponent that doesn't produce light and only turns on if the item has the tag "lit" and temporary tag "hastobacco" while not being in water -->
+      <LightComponent range="0" lightcolor="0,0,0,0" castshadows="false" powerconsumption="0" allowingameediting="false" comparison="And">
+        <ActiveConditional HasTag="lit" />
+        <ActiveConditional HasStatusTag="hastobacco" />
+        <ActiveConditional InWater="false" />
+        <!-- check on the tobacco every 5 seconds if the container of the captains pipe (pipe = targetcontainer | grandparent = container of the targetcontainer) is a trash can while being lit (lightcomponent is active) and create a fire after being contained in it for 45 seconds while also deleting the tobacco -->
+        <StatusEffect type="OnActive" target="Contained" interval="5" delay="45" stackable="false" checkconditionalalways="true" comparison="And">
+          <Conditional HasTag="outposttrashcan" targetcontainer="true" targetgrandparent="true" />
+          <Fire size="1" />
+          <Remove />
+        </StatusEffect>
+        <!-- extinguish the item by turning off the LightComponent and adding the tag "unlit" to override the "lit" tag, if the item was put back into the pocket or cabinet, unless it is a trash can -->
+        <StatusEffect type="OnActive" target="This" IsOn="false" tags="unlit" setvalue="true" comparison="And">
+          <Conditional PhysicsBodyActive="eq false" />
+          <Conditional HasTag="neq outposttrashcan" targetcontainer="true" />
+        </StatusEffect>
+        <!-- constantly burn down the tobacco when it was lit and procude smoke particles while not inhaling (using) -->
+        <StatusEffect type="OnActive" target="Contained" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="9" distancemax="9" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+      </LightComponent>
+      <Holdable slots="Any,RightHand,LeftHand" aimable="false" holdpos="30,-5" aimpos="27,10" handle1="10,-15" swingamount="0,0" swingspeed="0.5" swingwhenusing="true" msg="ItemMsgPickUpSelect">
+        <!-- add the temporary "wet" tag that overrides the "lit" tag and spawn water drop particles for 10 seconds after the item entered water to block reigniting it again for that duration -->
+        <StatusEffect type="InWater" target="This" tags="wet" setvalue="true" duration="10" stackable="false" />
+        <!-- reduce the condition of the tobacco and prevent the pipe from producing smoke when actively smoking it (using) while it is on (has tag "lit" and temporary tag "hastobacco") -->
+        <StatusEffect type="OnUse" target="Contained,Character" tags="lit,inhaling" condition="-1" interval="0.1" duration="0.2">
+          <Conditional IsOn="true" targetcontainer="true" />
+        </StatusEffect>
+        <!-- remove the ability to breath oxygen, apply the custom "smokingcigarette" affliction and play a sizzling sound while inhaling the smoke (using the item while it is on, meaning it has the tag "lit" and temporary tag "hastobacco") -->
+        <StatusEffect type="OnUse" target="This,Character" availableoxygen="0" setvalue="true" interval="0.1" duration="0.2" multiplyafflictionsbymaxvitality="true">
+          <Conditional IsOn="true" />
+          <Affliction identifier="smoking" amount="0.01" />
+          <Affliction identifier="oxygenlow" amount="0.15" />
+          <Sound file="%ModDir:3217556378%/Content/Items/Misc/SmokingCigaretteLoop.ogg" range="200" volume="1.0" loop="true" />
+        </StatusEffect>
+        <!-- apply and reduce various afflictions when smoking (using the item while it is on, meaning it has the tag "lit" and temporary tag "hastobacco") | separate effect to allow better control over the applied amounts (configured value per second) -->
+        <StatusEffect type="OnUse" target="This,Character" multiplyafflictionsbymaxvitality="true">
+          <Conditional IsOn="true" />
+          <Affliction identifier="psychosisresistance" amount="7.5" />
+          <ReduceAffliction identifier="psychosis" amount="2.5" />
+          <ReduceAffliction identifier="hallucinating" amount="5" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="Contained,Character" stackable="false">
+          <Conditional IsOn="true" />
+          <Conditional Condition="lte 1" />
+          <Affliction identifier="companytimetracker" amount="1.0" />
+          <RequiredItem items="pipetobacco" type="Contained" />
+        </StatusEffect>
+        <!-- tag the item with "unlit" to override the "lit" tag and essentially turn it off, if the contained pipe tobacco was used up or removed by checking if the item still has the temporary tag "hastobacco" -->
+        <StatusEffect type="OnActive" target="This" tags="unlit" setvalue="true" interval="0.1">
+          <Conditional HasStatusTag="neq hastobacco" />
+        </StatusEffect>
+      </Holdable>
+      <ItemContainer hideitems="true" drawinventory="true" capacity="1" maxstacksize="1" canbeselected="false">
+        <SlotIcon slotindex="0" texture="Content/UI/StatusMonitorUI.png" sourcerect="0,384,64,64" origin="0.5,0.5" />
+        <Containable items="pipetobacco">
+          <!-- apply a temporary tag "hastobacco" to the item when pipetobacco is contained -->
+          <StatusEffect type="OnContaining" target="This" tags="hastobacco" interval="0.1" duration="0.2" />
+        </Containable>
+      </ItemContainer>
+    </Item>
+    <Item name="Cigarette" identifier="cigarette" category="Equipment" maxstacksize="20" maxstacksizecharacterinventory="1" MaxStackSizeHoldableOrWearableInventory="20" Tags="smallitem,cigarette,ignitable" description="A submariner's life is mentally taxing, but a good cigarette can help you soothe your nerves a bit. Ignite it with a lighter or an open fire." cargocontaineridentifier="metalcrate" scale="0.2" isshootable="true" RequireAimToUse="true" impactsoundtag="impact_soft">
+      <PreferredContainer primary="crewcab" />
+      <Deconstruct time="1" />
+      <InventoryIcon texture="%ModDir:3217556378%/Content/Items/II_ItemsAtlas.png" sourcerect="149,0,64,63" origin="0.5,0.5" />
+      <!-- intact cigarette sprite at full condition -->
+      <Sprite texture="%ModDir:3217556378%/Content/Items/II_ItemsAtlas.png" sourcerect="0,53,80,9" depth="0.55" />
+      <!-- BrokenSprite to change the sprite at different condition stages to simulate the cigarette burning down and getting shorter -->
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,63,80,9" depth="0.55" maxcondition="99.9" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,73,80,9" depth="0.55" maxcondition="80" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,83,80,9" depth="0.55" maxcondition="70" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,93,80,9" depth="0.55" maxcondition="60" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,103,80,9" depth="0.55" maxcondition="50" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,113,80,9" depth="0.55" maxcondition="40" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,123,80,9" depth="0.55" maxcondition="30" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,133,80,9" depth="0.55" maxcondition="20" fadein="false" />
+      <BrokenSprite texture="%ModDir%/Captain/II_ItemsAtlas.png" sourcerect="0,143,80,9" depth="0.55" maxcondition="10" fadein="false" />
+      <Body width="78" height="6" density="9.7" />
+      <!-- LightComponent that doesn't produce light and only turns on if the item has the tag "lit" while not being in water -->
+      <LightComponent range="0" lightcolor="0,0,0,0" castshadows="false" powerconsumption="0" allowingameediting="false" comparison="And">
+        <ActiveConditional HasTag="lit" />
+        <ActiveConditional InWater="false" />
+        <!-- extinguish the item by turning off the LightComponent and adding the tag "unlit" to override the "lit" tag, if the item was put back into the pocket or cabinet, unless it is a trash can -->
+        <StatusEffect type="OnActive" target="This" IsOn="false" tags="unlit" setvalue="true" comparison="And">
+          <Conditional PhysicsBodyActive="eq false" />
+          <Conditional HasTag="neq outposttrashcan" targetcontainer="true" />
+        </StatusEffect>
+        <!-- constantly burn down the cigarette when it is lit, its condition is above 50 and procude smoke particles while not inhaling (using) -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="gt 50" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="7" distancemax="7" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+        <!-- constantly burn down the cigarette when it is lit, its condition is between 30 and 50 and procude smoke particles while not inhaling (using) with adjusted particle position to match the different sprite length -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="lte 50" />
+          <Conditional condition="gt 30" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="5" distancemax="5" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+        <!-- constantly burn down the cigarette when it is lit, its condition is between 0 and 30 and procude smoke particles while not inhaling (using) with adjusted particle position to match the different sprite length -->
+        <StatusEffect type="OnActive" target="This" condition="-0.5" comparison="And">
+          <Conditional HasStatusTag="neq inhaling" />
+          <Conditional condition="lte 30" />
+          <Conditional condition="gt 0" />
+          <ParticleEmitter particle="fleshsmoke" colormultiplier="120,120,120,150" particlespersecond="3" copyentityangle="true" anglemin="0" anglemax="0" distancemin="3" distancemax="3" velocitymin="0" velocitymax="0" scalemin="0.1" scalemax="0.1" />
+        </StatusEffect>
+      </LightComponent>
+      <Holdable canbepicked="true" canBeCombined="false" removeOnCombined="false" slots="Any,RightHand" handle1="-25,-30" aimpos="22,13" holdangle="0" holdpos="30,-5" aimangle="-5" aimable="false" swingwhenaiming="false" swingamount="6,3" swingspeed="0.2" msg="ItemMsgPickUpSelect">
+        <!-- add the temporary "wet" tag and spawn water drop particles for 10 seconds after the item entered water to block reigniting it again for that duration -->
+        <StatusEffect type="InWater" target="This" tags="wet" setvalue="true" duration="10" stackable="false" />
+        <!-- add the tag "lit" and change the hand position if the item was in real fire -->
+        <StatusEffect type="OnFire" target="This" tags="lit" handle1="0,-35" setvalue="true" interval="1" disabledeltatime="true" />
+        <!-- constantly reduce the condition of the item while it is in a real fire -->
+        <StatusEffect type="OnFire" target="This" Condition="-10.0" interval="1" disabledeltatime="true" />
+        <!-- reduce the condition of the cigarette and prevent it from producing smoke (the StatusEffects in LightComponent) when actively smoking it (using) while it is on (tag "lit") by adding the temporary tag "inhaling" -->
+        <StatusEffect type="OnUse" target="This,Character" tags="lit,inhaling" condition="-1" interval="0.1" duration="0.2">
+          <Conditional HasTag="lit" />
+        </StatusEffect>
+        <!-- remove the ability to breath oxygen, apply the custom "smokingcigarette" affliction and play a sizzling sound while inhaling the smoke (using the item while it has the tag "lit") -->
+        <StatusEffect type="OnUse" target="This,Character" availableoxygen="0" setvalue="true" interval="0.1" duration="0.2" multiplyafflictionsbymaxvitality="true">
+          <Conditional HasTag="lit" />
+          <Affliction identifier="smoking" amount="0.01" />
+          <!-- affliction tracks time spent inhaling and creates different amount of smoke with exhaling sound depending on the duration you were inhaling (using the item while it has the tag "lit") -->
+          <Affliction identifier="oxygenlow" amount="0.15" />
+          <Sound file="%ModDir:3217556378%/Content/Items/Misc/SmokingCigaretteLoop.ogg" range="200" volume="1.0" loop="true" />
+        </StatusEffect>
+        <!-- apply and reduce various afflictions when smoking (using the item while it has the tag "lit") | separate effect to allow better control over the applied amounts (configured value per second) -->
+        <StatusEffect type="OnUse" target="This,Character" multiplyafflictionsbymaxvitality="true">
+          <Conditional HasTag="lit" />
+          <Affliction identifier="psychosisresistance" amount="4" />
+          <ReduceAffliction identifier="psychosis" amount="1.2" />
+          <ReduceAffliction identifier="hallucinating" amount="2" />
+          <ReduceAffliction identifier="watchersgaze" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnUse" target="This,Character" stackable="false">
+          <Conditional Condition="lte 1" />
+          <Affliction identifier="companytimetracker" amount="1.0" />
+        </StatusEffect>
+        <!-- change hand position when holding the item while not using it (no temporary "inhaling" tag) -->
+        <StatusEffect type="OnActive" target="This" handle1="-30,-35" setvalue="true">
+          <Conditional HasStatusTag="neq inhaling" />
+        </StatusEffect>
+        <!-- start a fire when it burns out (breaks) inside a trash can -->
+        <StatusEffect type="OnBroken" target="This">
+          <Conditional HasTag="outposttrashcan" targetcontainer="true" />
+          <Fire size="1" />
+        </StatusEffect>
+        <!-- remove the item when it is broken -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </Holdable>
+    </Item>
+    <Item name="" identifier="empshell" tags="railgunequipment,railgunammo" showcontentsintooltip="true" category="Weapon" sonarsize="5" scale="0.5" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
+      <PreferredContainer primary="railgunammoloader,railgunammocontainer" mincondition="1" />
+      <PreferredContainer secondary="wreckrailgunammocontainer" amount="1" spawnprobability="0.05" />
+      <Price baseprice="470" sold="false">
+        <Price storeidentifier="merchantoutpost" multiplier="1.35" />
+        <Price storeidentifier="merchantcity" multiplier="1.25" sold="false" />
+        <Price storeidentifier="merchantresearch" multiplier="1.25" sold="false" />
+        <Price storeidentifier="merchantmilitary" sold="true" multiplier="0.9" minavailable="1" minleveldifficulty="35" />
+        <Price storeidentifier="merchantmine" multiplier="1.25" sold="false" />
+        <Price storeidentifier="merchantarmory" sold="true" multiplier="0.9" minavailable="1" minleveldifficulty="35" />
+      </Price>
+      <Deconstruct time="10">
+        <Item identifier="steel" />
+        <Item identifier="fulgurium" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="30">
+        <RequiredSkill identifier="weapons" level="40" />
+        <RequiredItem identifier="steel" />
+        <RequiredItem identifier="fulgurium" amount="2" />
+        <RequiredItem identifier="c4block" />
+      </Fabricate>
+      <InventoryIcon texture="%ModDir%/Captain/emprailgunshellicon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <Sprite texture="%ModDir%/Captain/emprailgunshell.png" sourcerect="0,0,216,32" depth="0.55" origin="0.5,0.5" />
+      <Body width="215" height="30" density="35" />
+      <Holdable canbecombined="false" removeoncombined="false" slots="LeftHand,RightHand" holdpos="0,-15" handle1="-30,-5" holdangle="170" aimable="false" msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true" comparison="And">
+          <Conditional HasStatusTag="neq gunrunner" />
+          <Affliction identifier="ammoboxslowdown1" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true" comparison="And">
+          <Conditional HasStatusTag="neq gunrunner" />
+          <Conditional ammoboxslowdown1="gt 0.2" />
+          <Affliction identifier="ammoboxslowdown2" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="This" holdpos="-10,-15" handle1="0,-5" holdangle="70" setvalue="true" interval="1.1">
+          <Conditional InWater="true" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="This" holdpos="0,-15" handle1="-30,-5" holdangle="170" setvalue="true" interval="1.1">
+          <Conditional InWater="false" />
+        </StatusEffect>
+      </Holdable>
+      <Projectile characterusable="false" launchimpulse="0" maxtargetstohit="1" damagedoors="true">
+        <Attack structuredamage="100" itemdamage="50" severlimbsprobability="5" penetration="0.6" targetforce="1000">
+          <Affliction identifier="explosiondamage" strength="250" />
+          <Affliction identifier="bleeding" strength="50" />
+          <Affliction identifier="stun" strength="15" />
+        </Attack>
+        <StatusEffect type="OnImpact" target="This" Condition="-100.0" setvalue="true" allowwhenbroken="true">
+          <sound file="Content/Items/Weapons/ExplosionLarge1.ogg" range="50000" />
+          <sound file="Content/Items/Weapons/ExplosionLarge2.ogg" range="50000" />
+          <Explosion range="2000" force="0.0" smoke="false" sparks="false" empstrength="2.5" applyfireeffects="false" ignorecover="true">
+            <Affliction identifier="emp" strength="50" multiplybymaxvitality="true" />
+          </Explosion>
+          <ParticleEmitter particle="underwaterexplosion" anglemin="0" anglemax="360" particleamount="3" velocitymin="0" velocitymax="0" scalemin="15" scalemax="15" />
+          <SpawnItem identifier="empaftereffectemitter" spawnposition="This" />
+        </StatusEffect>
+        <StatusEffect type="OnImpact" target="This">
+          <sound file="Content/Items/Weapons/ExplosionDebris4.ogg" range="5000" />
+          <sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="5000" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="This">
+          <ParticleEmitter particle="bubbles" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" velocitymax="50" scalemin="1" scalemax="3" />
+        </StatusEffect>
+        <StatusEffect type="OnBroken" target="Contained" allowwhenbroken="true">
+          <Use />
+        </StatusEffect>
+        <!-- Remove the item after exploding -->
+        <StatusEffect type="OnBroken" target="This">
+          <Remove />
+        </StatusEffect>
+      </Projectile>
+      <ItemContainer hideitems="true" capacity="1" maxstacksize="1" canbeselected="false">
+        <GuiFrame relativesize="0.2,0.25" anchor="Center" minsize="140,170" maxsize="280,280" style="ItemUI" />
+        <Containable items="smallitem" />
+      </ItemContainer>
+    </Item>
+    <Item name="" identifier="decoycanistershell" tags="railgunequipment,railgunammo,containershell" category="Weapon" linkable="true" scale="0.5" impactsoundtag="impact_metal_heavy" cargocontaineridentifier="">
+      <PreferredContainer primary="railgunammoloader,railgunammocontainer" mincondition="1" />
+      <Price baseprice="115" sold="false">
+        <Price storeidentifier="merchantoutpost" multiplier="1.2" />
+        <Price storeidentifier="merchantcity" multiplier="1.2" />
+        <Price storeidentifier="merchantresearch" multiplier="1.2" />
+        <Price storeidentifier="merchantmilitary" multiplier="0.9" />
+        <Price storeidentifier="merchantmine" multiplier="1.2" />
+        <Price storeidentifier="merchantarmory" multiplier="0.9" />
+      </Price>
+      <Deconstruct time="10">
+        <Item identifier="steel" />
+      </Deconstruct>
+      <Fabricate suitablefabricators="fabricator" requiredtime="20" requiresrecipe="true">
+        <RequiredSkill identifier="weapons" level="25" />
+        <RequiredItem identifier="phosphorus" />
+        <RequiredItem identifier="plastic" />
+        <RequiredItem identifier="steel" amount="2" />
+      </Fabricate>
+      <Fabricate suitablefabricators="fabricator" displayname="recycleitem" requiredtime="8" requiresrecipe="true">
+        <RequiredSkill identifier="weapons" level="20" />
+        <RequiredItem identifier="phosphorus" />
+        <RequiredItem identifier="plastic" />
+        <RequiredItem tag="containershell" mincondition="0.0" maxcondition="1.0" usecondition="false" />
+      </Fabricate>
+      <Sprite texture="%ModDir%/Captain/decoycanistersprite.png" sourcerect="0,0,216,34" depth="0.55" origin="0.5,0.5" />
+      <BrokenSprite texture="%ModDir%/Captain/decoycanisterspentsprite.png" sourcerect="0,0,216,34" depth="0.55" origin="0.5,0.5" maxcondition="0" />
+      <InventoryIcon texture="%ModDir%/Captain/decoycanistericon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+      <Body width="215" height="30" density="35" />
+      <Holdable canbecombined="false" removeoncombined="false" slots="LeftHand,RightHand" holdpos="0,-15" handle1="-30,-5" holdangle="170" aimable="false" msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true" comparison="And">
+          <Conditional HasStatusTag="neq gunrunner" />
+          <Affliction identifier="ammoboxslowdown1" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="Character" multiplyafflictionsbymaxvitality="true" comparison="And">
+          <Conditional HasStatusTag="neq gunrunner" />
+          <Conditional ammoboxslowdown1="gt 0.2" />
+          <Affliction identifier="ammoboxslowdown2" amount="1" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="This" holdpos="-10,-15" handle1="0,-5" holdangle="70" setvalue="true" interval="1.1">
+          <Conditional InWater="true" />
+        </StatusEffect>
+        <StatusEffect type="OnActive" target="This" holdpos="0,-15" handle1="-30,-5" holdangle="170" setvalue="true" interval="1.1">
+          <Conditional InWater="false" />
+        </StatusEffect>
+      </Holdable>
+      <ItemContainer hideitems="true" capacity="11" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet" spawnwithid="decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet,decoycanistershellpellet">
+        <StatusEffect type="OnUse" target="This" condition="-100" disabledeltatime="true">
+          <RequiredItem items="decoycanistershellpellet" type="Contained" />
+        </StatusEffect>
+        <Containable items="decoycanistershellpellet" />
+      </ItemContainer>
+    </Item>
+  </Override>
+</Items>

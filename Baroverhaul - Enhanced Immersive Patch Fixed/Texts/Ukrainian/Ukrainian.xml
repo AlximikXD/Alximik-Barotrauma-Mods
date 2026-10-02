@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+    <Override>
+        <!-- Items -->
+        <!-- Medic -->
+        <entityname.medicdivingsuit>МАВК</entityname.medicdivingsuit>
+        <entitydescription.medicdivingsuit>Медичний аварійний водолазний костюм, або МАВК — це легкий костюм, що не обмежує рухи, але майже не захищає від фізичних ушкоджень. Вбудована система компресора оксигеніту поступово наповнює кисневі балони, які також можна швидко спорожнити для прискорення. Витримує тиск до 6000 метрів.</entitydescription.medicdivingsuit>
+        <entityname.medicsuithelmet>Шолом МАВК</entityname.medicsuithelmet>
+        <!-- Engineer -->
+        <entityname.spuds>КСУТ</entityname.spuds>
+        <entitydescription.spuds>Костюм Самозбереження Універсального Типу, скорочено КСУТ, оснащений сенсором життєвих показників, що відстежує травми носія. Якщо носій втрачає свідомість, костюм стискається та твердішає, щоб уповільнити кровотечу і зменшити подальші ушкодження до моменту відновлення свідомості. Має вбудований ребризер та може виконувати легкі ритмічні стиснення грудної клітки для зниження дефіциту кисню. Витримує тиск до глибини 6000 метрів.</entitydescription.spuds>
+        <entityname.spudssuithelmet>Шолом КСУТ</entityname.spudssuithelmet>
+        <entityname.fissilelauncher>Розщеплювальний пускач</entityname.fissilelauncher>
+        <entitydescription.fissilelauncher>Набагато грубіший аналог «Швидкісного розщеплювального прискорювача». Розщеплювальний пускач створила людина, якій набридли лазери й захотілося стріляти паливними стрижнями.</entitydescription.fissilelauncher>
+        <talentdescription.companytime>Ви отримуєте [amount] mk за вживання ‖color:gui.orange‖етанолу‖end‖ або ‖color:gui.orange‖рому‖end‖, а також за куріння ‖color:gui.orange‖люлькового тютюну‖end‖, ‖color:gui.orange‖сигар‖end‖ або ‖color:gui.orange‖сигарет‖end‖, до [limit] разів, доки ви не виконаєте іншу місію.</talentdescription.companytime>
+        <entityname.allinonehelmet>Шолом «Все в одному»</entityname.allinonehelmet>
+        <entitydescription.allinonehelmet>Геніальний винахід, що поєднує сканер здоров'я, тепловізійні окуляри, окуляри електрика та залізний шолом, прикрашений клоунським гримом.</entitydescription.allinonehelmet>
+        <entityname.institutedivingsuithelmet>Дослідницький водолазний шолом Інституту</entityname.institutedivingsuithelmet>
+        <entityname.shellsuithelmet>Шолом шелсьюта</entityname.shellsuithelmet>
+    </Override>
+</infotexts>

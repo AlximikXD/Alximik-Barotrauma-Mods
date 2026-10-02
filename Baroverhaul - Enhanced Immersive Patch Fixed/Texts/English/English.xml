@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <Override>
+    <!-- Items -->
+    <!-- Medic -->
+    <entityname.medicdivingsuit>MEDS</entityname.medicdivingsuit>
+    <entitydescription.medicdivingsuit>The Medical Emergency Diving Suit, or MEDS for short, is a lightweight suit that does not inhibit movement of the wearer but offers little in the way of protection from physical trauma. The built-in oxygenite compressor system allows for the gradual refilling of oxygen tanks which can also be quickly emptied for a burst of propulsion. Withstands pressure up to a depth of 6,000 meters.</entitydescription.medicdivingsuit>
+    <entityname.medicsuithelmet>MEDS Helmet</entityname.medicsuithelmet>
+    <!-- Engineer -->
+    <entityname.spuds>SPUDS</entityname.spuds>
+    <entitydescription.spuds>The Self-Preservation Universal Disaster Suit, or SPUDS for short, is equipped with a vitals sensor that tracks the wearer's injuries. In the event the wearer loses consciousness, the suit constricts and hardens to slow bleeding and mitigate additional physical damage until the user regains consciousness. It also supports a built-in rebreather and can preform light rhythmic chest compressions to slow oxygen deprivation slightly. Withstands pressure up to a depth of 6,000 meters.</entitydescription.spuds>
+    <entityname.spudssuithelmet>SPUDS Helmet</entityname.spudssuithelmet>
+    <entityname.fissilelauncher>Fissile Launcher</entityname.fissilelauncher>
+    <entitydescription.fissilelauncher>A much more crude counterpart to the "Rapid Fissile Accelerator," the fissile launcher was designed by someone who was fed up with lasers and wanted to launch fuel rods.</entitydescription.fissilelauncher>
+    <talentdescription.companytime>You receive [amount] mk for drinking ‖color:gui.orange‖Ethanol‖end‖ or ‖color:gui.orange‖Rum‖end‖, or smoking ‖color:gui.orange‖Pipe Tobacco‖end‖, ‖color:gui.orange‖Cigars‖end‖ or ‖color:gui.orange‖Cigarettes‖end‖, up to [limit] times until you complete another mission.</talentdescription.companytime>
+    <entityname.allinonehelmet>All-In-One Helmet</entityname.allinonehelmet>
+    <entitydescription.allinonehelmet>A brilliant invention that combines a health scanner, thermal goggles, electrician goggles, and an iron helmet, decorated with clown makeup.</entitydescription.allinonehelmet>
+    <entityname.institutedivingsuithelmet>Institute Research Diving Helmet</entityname.institutedivingsuithelmet>
+    <entityname.shellsuithelmet>Shellsuit Helmet</entityname.shellsuithelmet>
+  </Override>
+</infotexts>
