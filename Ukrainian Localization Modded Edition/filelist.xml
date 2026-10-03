@@ -59,7 +59,8 @@
   <Text file="%ModDir%/Mods/Backpacks/Ukrainian.xml" />
   <Text file="%ModDir%/Mods/MoreUniqueWeapons/Ukrainian.xml" />
   <Text file="%ModDir%/Mods/MoreUniqueWeapons/Overrides.xml" />
-  <Text file="%ModDir%/Mods/More Content for Europa/English_huntercall.xml" />
   <Text file="%ModDir%/Mods/More Content for Europa/Ukrainian.xml" />
   <Text file="%ModDir%/Mods/More Content for Europa/Ukrainian_submarines.xml" />
+  <Text file="%ModDir%/Mods/T.S.M MISSIONS-问君此去几时还/Ukrainian.xml" />
+  <Text file="%ModDir%/Mods/T.S.M MISSIONS-问君此去几时还/Ukrainian_mission.xml" />
 </contentpackage>

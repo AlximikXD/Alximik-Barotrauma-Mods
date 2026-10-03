@@ -1,0 +1,631 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="true" translatedname="Українська">
+  <!--原版-->
+  <!-- tsmmission11 -->
+  <missionname.tsmmission11>Межовий випадок*Один</missionname.tsmmission11>
+  <missiondescription.tsmmission11>Після відкриття дверей Безодні звідти з'явилося багато відвідувачів. Ми позначили їх на відстані, але тепер виявили сигнали в районі T.S.M. Ми будемо битися з ними з мечами в руках!</missiondescription.tsmmission11>
+  <missionsuccess.tsmmission11>Падіння зірок</missionsuccess.tsmmission11>
+  <missionheader0.tsmmission11>Записано в Архіві Безодні № 011</missionheader0.tsmmission11>
+  <missionmessage0.tsmmission11>Ми ніколи не дозволимо нікому ступити на нашу землю!</missionmessage0.tsmmission11>
+  <missionsonarlabel.tsmmission11>Блукаючі зорі</missionsonarlabel.tsmmission11>
+  <!-- tsmmission12 -->
+  <missionname.tsmmission12>Небесний Пес пожирає сонце світлом згасаючого майбутнього</missionname.tsmmission12>
+  <missiondescription.tsmmission12>T.S.M веде бій на передовій № 73 і не має зайвих сил для зачистки цього сектора, але гарантовано: той, хто вб'є цих монстрів, отримає винагороду в [reward]mk.</missiondescription.tsmmission12>
+  <missionsuccess.tsmmission12>Вітаємо з успіхом!</missionsuccess.tsmmission12>
+  <missionheader0.tsmmission12>Відродження світла</missionheader0.tsmmission12>
+  <missionmessage0.tsmmission12>Який чудовий бій</missionmessage0.tsmmission12>
+  <missionsonarlabel.tsmmission12>Ціль</missionsonarlabel.tsmmission12>
+  <!-- tsmmission13 -->
+  <missionname.tsmmission13>ЖУКИ! ЖУКИ!</missionname.tsmmission13>
+  <missiondescription.tsmmission13>Ми виявили кількох великих істот, що наближаються до цього району, прибуття за 5 годин. Або ви вб'єте цих покидьків, або ми всі тут загинемо.</missiondescription.tsmmission13>
+  <missionsuccess.tsmmission13>Ціль знищено, негайно повертайтеся.</missionsuccess.tsmmission13>
+  <missionheader0.tsmmission13>Нищитель жуків</missionheader0.tsmmission13>
+  <missionmessage0.tsmmission13>Ми більше ніколи не боятимемося Жуків!</missionmessage0.tsmmission13>
+  <missionsonarlabel.tsmmission13>ЖУК</missionsonarlabel.tsmmission13>
+  <!-- tsmmission14 -->
+  <missionname.tsmmission14>Бенкет усіх кібернетиків</missionname.tsmmission14>
+  <missiondescription.tsmmission14>Виявлено появу кібер-черв'яків, які суттєво вплинули на безпеку цього водного шляху. Ми обіцяємо, що вам заплатять [reward]mk, якщо ви їх уб'єте.</missiondescription.tsmmission14>
+  <missionsuccess.tsmmission14>Скиньте всіх Богів!</missionsuccess.tsmmission14>
+  <missionheader0.tsmmission14>Машини з Безодні</missionheader0.tsmmission14>
+  <missionmessage0.tsmmission14>Ціль знищено</missionmessage0.tsmmission14>
+  <missionsonarlabel.tsmmission14>Негайно повертайтеся</missionsonarlabel.tsmmission14>
+  <!-- tsmmission15 -->
+  <missionname.tsmmission15>Усі зібрані бурі штовхають мене до обрію</missionname.tsmmission15>
+  <missiondescription.tsmmission15>Великий рій Молотоголовів загрожує безпеці між [location1] та [location2]. Рій пошкодив незліченні станції, подекуди їх називають богами. Тож, капітане, вам потрібно негайно вирушити та знищити їх.</missiondescription.tsmmission15>
+  <missionsuccess.tsmmission15>Я стану тим, хто зруйнує їхні Вівтарі.</missionsuccess.tsmmission15>
+  <missionheader0.tsmmission15>Слабкі!</missionheader0.tsmmission15>
+  <missionmessage0.tsmmission15>Падіння старих богів, піднесення нових богів.</missionmessage0.tsmmission15>
+  <missionsonarlabel.tsmmission15>Буря</missionsonarlabel.tsmmission15>
+  <!-- tsmmission16 -->
+  <missionname.tsmmission16>Наближаються Латчери!</missionname.tsmmission16>
+  <missiondescription.tsmmission16>T.S.M помітила групу Латчерів, що наближається. Обіцяємо, що кожен, хто уб'є цих Латчерів, отримає премію в [reward]mk.</missiondescription.tsmmission16>
+  <missionsuccess.tsmmission16>Зламати Гак</missionsuccess.tsmmission16>
+  <missionheader0.tsmmission16>Удар, якого не сталося</missionheader0.tsmmission16>
+  <missionmessage0.tsmmission16>Ви добре попрацювали, капітане, ви знову убезпечили цю територію.</missionmessage0.tsmmission16>
+  <missionsonarlabel.tsmmission16>Латчери</missionsonarlabel.tsmmission16>
+  <!-- tsmmission17 -->
+  <missionname.tsmmission17>Звір першого погляду</missionname.tsmmission17>
+  <missiondescription.tsmmission17>Капітане, наші сканери виявили кількох Матрон Кроулерів та їхні виводки, які ведуть тут територіальні суперечки. Їхній конфлікт заважає нашій навігації. Ми відправили невелику групу воїнів T.S.M, але вони зникли невдовзі після цього. З огляду на терміновість ми обрали вас для цього завдання: повністю знищте всі популяції Кроулерів і з'ясуйте, що сталося зі зниклими солдатами.</missiondescription.tsmmission17>
+  <missionsuccess.tsmmission17>Гробниця кроулерів? Вона наша!</missionsuccess.tsmmission17>
+  <missionheader0.tsmmission17>Згасле минуле</missionheader0.tsmmission17>
+  <missionmessage0.tsmmission17>Усередині черева кроулера ми побачили воїнів у формі T.S.M. Такі юні, а змушені воювати як солдати, бути використаними як зброя й похованими як речі. Зрештою, вони не отримають слави й хвали, на яку заслуговують, навіть панегірика чи маленької могили.</missionmessage0.tsmmission17>
+  <missionsonarlabel.tsmmission17>Кроулер</missionsonarlabel.tsmmission17>
+  <!--EMBI实验体-->
+  <!-- tsmmission21 -->
+  <missionname.tsmmission21>Europa Magical Biology Ink</missionname.tsmmission21>
+  <missiondescription.tsmmission21>Europa Magical Biology Ink пожертвувала партію змінених загадкових істот, але ці істоти втекли під час тестування корпорацією. Ми відправили загін «Захід сонця» розібратися з ними, але вони втратили зв'язок зі штабом наступної секунди після зіткнення. Будьте обережні, капітане, це не звичайні Спайнелінги! Обережно!</missiondescription.tsmmission21>
+  <missionsuccess.tsmmission21>Ні слова про це завдання, інакше Europa Magical Biology Ink отримає величезний штраф.</missionsuccess.tsmmission21>
+  <missionheader0.tsmmission21>Збій утримання</missionheader0.tsmmission21>
+  <missionmessage0.tsmmission21>Тсс! Тихіше!</missionmessage0.tsmmission21>
+  <missionsonarlabel.tsmmission21>Об'єкт № 1</missionsonarlabel.tsmmission21>
+  <!-- tsmmission23 -->
+  <missionname.tsmmission23>Випробувальний полігон EMBI (1)</missionname.tsmmission23>
+  <missiondescription.tsmmission23>EMBI кинула виклик: їхній новий об'єкт готовий до використання, зараз набираються екіпажі, які мають сміливість битися з ним, під час бою вони фіксуватимуть дані. Вам добре заплатять, якщо повернетеся цілими.</missiondescription.tsmmission23>
+  <missionsuccess.tsmmission23>Боги оплакують! Дайте почути... хто ридає——</missionsuccess.tsmmission23>
+  <missionfailure.tsmmission23>Ви зазнали невдачі... зрештою</missionfailure.tsmmission23>
+  <missionheader0.tsmmission23>Погребальна пісня смерті</missionheader0.tsmmission23>
+  <missionmessage0.tsmmission23>Погребальна пісня смерті пролунала, але це хвала зв'язку з іншим світом.</missionmessage0.tsmmission23>
+  <missionsonarlabel.tsmmission23>ТРИ КОРОЛІ</missionsonarlabel.tsmmission23>
+  <!-- tsmmission24 -->
+  <missionname.tsmmission24>Пекло в Безодні</missionname.tsmmission24>
+  <missiondescription.tsmmission24>EMBI змінила об'єкт T044Y на основі даних, зібраних минулого разу, зараз набираються екіпажі, які мають сміливість битися з ними, не знаємо, чи ви зацікавлені.</missiondescription.tsmmission24>
+  <missionsuccess.tsmmission24>Крики землі відлунюють у глибинах, де вона ревить у люті. Тертя її жвал розсилає пронизливі верески по навколишніх водах. Полум'я, яке вона вивергає, горить безкінечно.....</missionsuccess.tsmmission24>
+  <missionfailure.tsmmission24>Ви зазнали невдачі... зрештою</missionfailure.tsmmission24>
+  <missionheader0.tsmmission24>Мітка мертвих</missionheader0.tsmmission24>
+  <missionmessage0.tsmmission24>Крик землі відлунює в безодні. Почуйте, як вона виє від люті, а тертя її жвал верещить над морем. Полум'я вивергається з її пащі, горячи безкінечно.</missionmessage0.tsmmission24>
+  <missionsonarlabel.tsmmission24>T044Y</missionsonarlabel.tsmmission24>
+  <!-- tsmmission25 -->
+  <missionname.tsmmission25>Світло гнилого дерева</missionname.tsmmission25>
+  <missiondescription.tsmmission25>EMBI змінила Subject009 на основі даних, зібраних минулого разу, зараз набираються екіпажі, які мають сміливість битися з ними, не знаємо, чи ви зацікавлені.</missiondescription.tsmmission25>
+  <missionsuccess.tsmmission25>Отруйні ікла піддослідного 009 вилучено. Його висохлий смолоскип блукає в безодні. Лід кишить трупами. Та не бійтеся, бо наш сталевий велетень пильнує нас.</missionsuccess.tsmmission25>
+  <missionfailure.tsmmission25>Ви зазнали невдачі... зрештою</missionfailure.tsmmission25>
+  <missionheader0.tsmmission25>Усвідомлення, що ніколи не згасає</missionheader0.tsmmission25>
+  <missionmessage0.tsmmission25>Спустошлива Чума проноситься по льоду, зі зброєю в руці й серці, ніщо не вічне.</missionmessage0.tsmmission25>
+  <missionsonarlabel.tsmmission25>Піддослідний 009</missionsonarlabel.tsmmission25>
+  <!-- tsmmission26 -->
+  <missionname.tsmmission26>Кігті пам'яті</missionname.tsmmission26>
+  <missiondescription.tsmmission26>EMBI змінила T037α на основі даних, зібраних минулого разу, зараз набираються екіпажі, які мають сміливість битися з ними.</missiondescription.tsmmission26>
+  <missionsuccess.tsmmission26>Я явлю вам своє творіння, що перевершує богів.</missionsuccess.tsmmission26>
+  <missionfailure.tsmmission26>Ви зазнали невдачі... зрештою</missionfailure.tsmmission26>
+  <missionheader0.tsmmission26>Темрява з Безодні</missionheader0.tsmmission26>
+  <missionmessage0.tsmmission26>На Європі блискає блискавка й гримить грім, велетенська машина ревить, а проте оборона все ще стоїть.</missionmessage0.tsmmission26>
+  <missionsonarlabel.tsmmission26>T037α</missionsonarlabel.tsmmission26>
+  <!--新生-->
+  <!-- tsmmission31 -->
+  <missionname.tsmmission31>Полювання на піддослідного 003</missionname.tsmmission31>
+  <missiondescription.tsmmission31>EMBI випустила зграю нових об'єктів, які чекають на випробування. Зараз вони загнані в печеру, де є кілька маяків-баз. Якщо бажаєте, ви маєте вбити об'єкти та знищити маяки-бази, а наприкінці ми зберемо дані для подальших тестів.</missiondescription.tsmmission31>
+  <missionsuccess.tsmmission31>Дані завантажено</missionsuccess.tsmmission31>
+  <missionheader0.tsmmission31>Завдання виконано</missionheader0.tsmmission31>
+  <missionmessage0.tsmmission31>Усіх об'єктів зачищено, дякуємо за ваші дані.</missionmessage0.tsmmission31>
+  <missionsonarlabel.tsmmission31>Піддослідний 003</missionsonarlabel.tsmmission31>
+  <!-- tsmmission32 -->
+  <missionname.tsmmission32>Існуюче минуле</missionname.tsmmission32>
+  <missiondescription.tsmmission32>Ми виявили в печері кількох вартових та їхні капсули, залишені інопланетними істотами. Схоже, вони досі виконують своє останнє завдання——Зачистіть цю печеру: ваше завдання — убити все живе та знищити їхні капсули.</missiondescription.tsmmission32>
+  <missionsuccess.tsmmission32>Це історія про те, як покинуте знищило інше покинуте.</missionsuccess.tsmmission32>
+  <missionheader0.tsmmission32>Зачекайте, поки ця війна закінчиться</missionheader0.tsmmission32>
+  <missionmessage0.tsmmission32>Якби випала нагода покинути Європу, як творець цих Машин. Я хочу побачити захід сонця, відчути пори року, так само, як вона бажала.</missionmessage0.tsmmission32>
+  <missionsonarlabel.tsmmission32>Фрактальний прибиральник</missionsonarlabel.tsmmission32>
+  <!-- tsmmission33 -->
+  <missionname.tsmmission33>Бурхливі хвилі, височенні хвилі</missionname.tsmmission33>
+  <missiondescription.tsmmission33>Невдовзі після того, як ми відігнали зграю молотоголових, з'явилася нова зграя місцевих, які й далі залишаються в цьому місці. Через це цього разу ми вб'ємо їх усіх, а не відганятимемо. Ми щедро вас винагородимо.</missiondescription.tsmmission33>
+  <missionsuccess.tsmmission33>Свіжа кров на вашому списі</missionsuccess.tsmmission33>
+  <missionheader0.tsmmission33>Додайте ще одну душу до списку</missionheader0.tsmmission33>
+  <missionmessage0.tsmmission33>Нарешті мирний час</missionmessage0.tsmmission33>
+  <missionsonarlabel.tsmmission33>Рій Списоголових</missionsonarlabel.tsmmission33>
+  <!-- tsmmission34 -->
+  <missionname.tsmmission34>Мікровійна</missionname.tsmmission34>
+  <missiondescription.tsmmission34>Під час тесту ми зменшили кількох латчерів, але через їхній надто малий розмір вони прорвалися крізь установку. Ви маєте розібратися з ними, доки це не стало проблемою, живими чи мертвими.</missiondescription.tsmmission34>
+  <missionsuccess.tsmmission34>Цікавий експеримент</missionsuccess.tsmmission34>
+  <missionheader0.tsmmission34>Не можна пошкодувати</missionheader0.tsmmission34>
+  <missionmessage0.tsmmission34>Якби справді настав день, коли бажання здійснюються, усі наслідки були б відсічені.</missionmessage0.tsmmission34>
+  <missionsonarlabel.tsmmission34>Мікролатчери</missionsonarlabel.tsmmission34>
+  <!-- tsmmission35 -->
+  <missionname.tsmmission35>Приплив Молохів</missionname.tsmmission35>
+  <missiondescription.tsmmission35>Ми виявили рій аномальних Молохів, що нападають на кораблі між [location1] та [location2]. Будьте обережні, це не звичайні Молохи, остерігайтеся лютих.</missiondescription.tsmmission35>
+  <missionsuccess.tsmmission35>Рій Молохів зачищено</missionsuccess.tsmmission35>
+  <missionheader0.tsmmission35>Полювання завершено</missionheader0.tsmmission35>
+  <missionmessage0.tsmmission35>Знищення підтверджено, будь ласка, повертайтеся</missionmessage0.tsmmission35>
+  <missionsonarlabel.tsmmission35>Рій Молохів</missionsonarlabel.tsmmission35>
+  <!-- tsmmission36 -->
+  <missionname.tsmmission36>Їхня земля — їхня кров</missionname.tsmmission36>
+  <missiondescription.tsmmission36>Дедалі більше людей тиснеться на станціях, що спричиняє брак приміщень. Тому ми вирішили відкрити нову станцію, ми просканували руїни з ідеальним розташуванням. Але всередині залишилося багато вартових, тож ми сподіваємося, що ви допоможете нам упоратися з ними. Гроші не будуть проблемою.</missiondescription.tsmmission36>
+  <missionsuccess.tsmmission36>"Співіснування Вічності та Руйнування"</missionsuccess.tsmmission36>
+  <missionheader0.tsmmission36>Хижак</missionheader0.tsmmission36>
+  <missionmessage0.tsmmission36>Ми — природжені хижаки</missionmessage0.tsmmission36>
+  <missionsonarlabel.tsmmission36>Фрактальний вартовий</missionsonarlabel.tsmmission36>
+  <!-- tsmmission37 -->
+  <missionname.tsmmission37>Полювання на відьму</missionname.tsmmission37>
+  <missiondescription.tsmmission37>Ми знайшли корабель хористки, яка напала, і за даними дистанційного спостереження, схоже, вона зазнала вторинної мутації. Згідно з розвідданими від Віли, цей мутований черв'як, імовірно, є носієм раніше зниклого капітана Боренширу. Ми не впевнені, що відбувалося в період зникнення, а Віла досі не надала додаткової інформації. Але хто б не був цим черв'яком, якщо його не зупинити, він завдасть ще більшої шкоди.</missiondescription.tsmmission37>
+  <missionsuccess.tsmmission37>Щелепа відьми</missionsuccess.tsmmission37>
+  <missionheader0.tsmmission37>Надгробок Вічності</missionheader0.tsmmission37>
+  <missionmessage0.tsmmission37>Згідно зі звітом про завдання, поданим Вілою, Альянс прорвав T.S.M і стратив наставника Беренширу, Сократа, в ім'я справедливості. Після цього Берен Гілл безслідно зникла. Адвентисти обманом зробили її ключем до Відьми Злиття, а величезний мутований черв'як був носієм відьми Адвентистів. Я досі пам'ятаю, як ми вчилися разом у коледжі, вона так любила співати. Мені дуже подобалося, як вона збирала нас разом, щоб розповісти, наскільки чудовими були ідеї її наставника, але, на жаль, пізніше мені вже ніколи не випадало шансу почути їх знову.</missionmessage0.tsmmission37>
+  <missionsonarlabel.tsmmission37>Відьма</missionsonarlabel.tsmmission37>
+  <!-- tsmmission38 -->
+  <missionname.tsmmission38>Створення альбіносів*один</missionname.tsmmission38>
+  <missiondescription.tsmmission38>У судноплавному каналі є якісь відвідувачі, але очевидно, що ці істоти не звичайні варіанти, їх хтось створив. Гаразд, моряки, час винести сміття.</missiondescription.tsmmission38>
+  <missionsuccess.tsmmission38>Перший виступ родини альбіносів</missionsuccess.tsmmission38>
+  <missionfailure.tsmmission38>Смерть у процесі</missionfailure.tsmmission38>
+  <missionheader0.tsmmission38>Світло світанку</missionheader0.tsmmission38>
+  <missionmessage0.tsmmission38>Після «дощу» кров і морська вода помінялися ідентичностями. Угорі метеори пролітали небом; унизу під нашими ногами лежали гори трупів і моря крові.</missionmessage0.tsmmission38>
+  <missionsonarlabel.tsmmission38>Спайн-альбінос</missionsonarlabel.tsmmission38>
+  <!-- tsmmission39 -->
+  <missionname.tsmmission39>Довга подорож у 1,36 мільйона миль</missionname.tsmmission39>
+  <missiondescription.tsmmission39>Глибоководні механізми неспокійно ворушаться, океан кипить, а гуркіт колосального джерела енергії відлунює... Цей канал огорнутий таємницею. Капітане, закликаємо вас розслідувати.</missiondescription.tsmmission39>
+  <missionsuccess.tsmmission39>Гість від Сонця</missionsuccess.tsmmission39>
+  <missionfailure.tsmmission39>Кипляче озеро</missionfailure.tsmmission39>
+  <missionheader0.tsmmission39>Боротьба людства</missionheader0.tsmmission39>
+  <missionmessage0.tsmmission39>"Чи знали ви? Підльодовий океан Європи приховує безмежні невідомості, а її крижана кора завтовшки десятки кілометрів — останній замок, що береже таємниці глибин."
+    "Спочатку людство десятиліттями будувало низку глибоководних колоніальних станцій. За допомогою зонда-піонера «Europa Pioneer» ми пробурили лід і заклали основу інфраструктури. Ці станції були самодостатніми, з'єднаними мережею підводних тунелів, що зв'язували сталеві острови, які пливли в безодні."
+    "Проте перетворення Європи людством захиталося. З розширенням колоній виникли непередбачені проблеми. Станції зіткнулися з «екологічними аномаліями» — місцеві форми життя, піддослідні види чи таємниці з безодні почали розмножуватися. Ці сутності, продукти швидкої еволюції, виявляли паразитичні та хижацькі риси. Ще гірше, що хімічні забруднювачі від зондів і гірничого обладнання пробудили стародавніх, невимовних істот."
+    "Потім Земля замовкла. Міжусобиці, напади глибоководних жахіть... Колись обнадійлива колонізація стала синонімом жаху. Колоністи стикалися з частими «безоднєвими кризами»: обладнання знищувалося, батискафи зникали..."
+    "Тепер колонізація просувається обережно. Станції покладаються на крихкі підводні проходи; кожне занурення — ризик життя і смерті. Європа — не просто прикордоння, це небезпечна невідомість, символ і надії, і людської дурості. Подейкують, що її глибини приховують більше: справжню інопланетну біосферу чи сутності за межами уяви."</missionmessage0.tsmmission39>
+  <missionsonarlabel.tsmmission39>Сонячний указ</missionsonarlabel.tsmmission39>
+  <!-- tsmmission40 -->
+  <missionname.tsmmission40>Нескінченне пограбування</missionname.tsmmission40>
+  <missiondescription.tsmmission40>Раніше ми підібрали в цьому каналі стародавню сутність чуми. Під час очищення заражених істот кілька Молохів прорвали оборону й втекли. Через кілька днів свідки повідомили про мутованих Молохів у цих місцях. З'ясуйте, чи це ті, що втекли.</missiondescription.tsmmission40>
+  <missionsuccess.tsmmission40>Безіменне прокляття</missionsuccess.tsmmission40>
+  <missionfailure.tsmmission40>Чума поглинає екіпаж</missionfailure.tsmmission40>
+  <missionheader0.tsmmission40>Поширення чуми</missionheader0.tsmmission40>
+  <missionmessage0.tsmmission40>Чума заражає не лише людей, а й інших істот. Заражені монстри стають агресивнішими — схоже, вони прагнуть очистити ці води.</missionmessage0.tsmmission40>
+  <missionsonarlabel.tsmmission40>Невідомо</missionsonarlabel.tsmmission40>
+  <!--移植-->
+  <!-- tsmmission41 -->
+  <missionname.tsmmission41>Землетрус</missionname.tsmmission41>
+  <missiondescription.tsmmission41>Виявлено інтенсивні імпульсні завади. Цей канал сколихують сильні поштовхи. Капітани, тримайтеся осторонь. T.S.M вирішить це.</missiondescription.tsmmission41>
+  <missionsuccess.tsmmission41>Розпочався катаклізмний струс.</missionsuccess.tsmmission41>
+  <missionheader0.tsmmission41>Суд</missionheader0.tsmmission41>
+  <missionmessage0.tsmmission41>Я віддаю час безодні, даючи йому вирувати під моїм конем. Я копаю собі могилу у власних очах.</missionmessage0.tsmmission41>
+  <missionsonarlabel.tsmmission41>Епіцентр</missionsonarlabel.tsmmission41>
+  <!-- tsmmission42 -->
+  <missionname.tsmmission42>Приплив Левіафана</missionname.tsmmission42>
+  <missiondescription.tsmmission42>На Землі були китобої. На Європі в нас є схожі мисливці, але їхня здобич — не звичайний кит. Моряче, вирушай до цільової зони та знищ усіх китоподібних.</missiondescription.tsmmission42>
+  <missionsuccess.tsmmission42>Кінець Левіафана</missionsuccess.tsmmission42>
+  <missionheader0.tsmmission42>Китобій</missionheader0.tsmmission42>
+  <missionmessage0.tsmmission42>Вітаємо, ви стали кваліфікованим китобоєм.</missionmessage0.tsmmission42>
+  <missionsonarlabel.tsmmission42>Левіафан</missionsonarlabel.tsmmission42>
+  <!-- tsmmission43 -->
+  <missionname.tsmmission43>Флот дредноутів</missionname.tsmmission43>
+  <missiondescription.tsmmission43>Флот дредноутів Альянсу впав у цьому регіоні. Але розвідка свідчить, що вони досі «живі». Ваше завдання: гарантувати їхню справжню смерть. Зауваження: рекомендується тактика надмобільного бою.</missiondescription.tsmmission43>
+  <missionsuccess.tsmmission43>Надмобільна війна</missionsuccess.tsmmission43>
+  <missionheader0.tsmmission43>Прощавайте! Дредноути!</missionheader0.tsmmission43>
+  <missionmessage0.tsmmission43>Справжньому флоту дредноутів місце на Кладовищі кораблів.</missionmessage0.tsmmission43>
+  <missionsonarlabel.tsmmission43>Флот дредноутів</missionsonarlabel.tsmmission43>
+  <!-- tsmmission44 -->
+  <missionname.tsmmission44>Самозванець</missionname.tsmmission44>
+  <missiondescription.tsmmission44>Капітане, гірнича станція повідомляє, що її судна атакує сама шахта. Хоч це й звучить абсурдно, все одно розслідуйте.</missiondescription.tsmmission44>
+  <missionsuccess.tsmmission44>Зустріч із рудою</missionsuccess.tsmmission44>
+  <missionheader0.tsmmission44>Народження єресі</missionheader0.tsmmission44>
+  <missionmessage0.tsmmission44>Боюся, що наші гріхи колись поховають нас на цій чужій землі.</missionmessage0.tsmmission44>
+  <missionsonarlabel.tsmmission44>Рудний міцелій</missionsonarlabel.tsmmission44>
+  <!-- tsmmission45 -->
+  <missionname.tsmmission45>Подвійна аномалія</missionname.tsmmission45>
+  <missiondescription.tsmmission45>Дві інопланетні конструкції, керовані двома людськими мозками, чинять тут розруху. Хоч технологія незрозуміла, вона безсумнівно нелюдська. Покладіть край їхнім стражданням.</missiondescription.tsmmission45>
+  <missionsuccess.tsmmission45>Оператор, Бунтівник, Підбурювач</missionsuccess.tsmmission45>
+  <missionheader0.tsmmission45>Нерозказана трагедія</missionheader0.tsmmission45>
+  <missionmessage0.tsmmission45>Цивілізація та історія тягнуть його вниз.</missionmessage0.tsmmission45>
+  <missionsonarlabel.tsmmission45>Близнюки</missionsonarlabel.tsmmission45>
+  <!-- tsmmission46 -->
+  <missionname.tsmmission46>Тінь екліптики</missionname.tsmmission46>
+  <missiondescription.tsmmission46>Коли крила стають плавцями, починається вторгнення. Вони мешкають у печерах безодні, вартові, як дракони. Це їхнє королівство — киньте виклик їхньому виводку, і почнеться війна.</missiondescription.tsmmission46>
+  <missionsuccess.tsmmission46>Залізні коні, золоті списи</missionsuccess.tsmmission46>
+  <missionheader0.tsmmission46>Кінець гробниці</missionheader0.tsmmission46>
+  <missionmessage0.tsmmission46>Переможцям не потрібно шанувати життя; справжня гармонія — міф. Коли падає останній громоподібний удар, навіть вартові печер стають поживою для океану, не залишаючи по собі нічого.</missionmessage0.tsmmission46>
+  <missionsonarlabel.tsmmission46>Фантом</missionsonarlabel.tsmmission46>
+  <!-- tsmmission47 -->
+  <missionname.tsmmission47>Пронизувач хмар</missionname.tsmmission47>
+  <missiondescription.tsmmission47>Новий вид риб, Кит-пронизувач хмар, ковзає морем, як птахи крізь хмари. Лагідні, але могутні, їхнє м'ясо — делікатес. Але розлютіть їх, і вони накинуться зграєю. У печері — їхня ікра: усуньте загрозу, і рибалки зможуть вільно збирати врожай.</missiondescription.tsmmission47>
+  <missionsuccess.tsmmission47>Гроші — це ваша брехня</missionsuccess.tsmmission47>
+  <missionheader0.tsmmission47>Криваша різанина</missionheader0.tsmmission47>
+  <missionmessage0.tsmmission47>Екіпаж зафіксував зображення — запис найпідлішого злочину людства: геноциду цілого виду.</missionmessage0.tsmmission47>
+  <missionsonarlabel.tsmmission47>Кит-пронизувач хмар</missionsonarlabel.tsmmission47>
+  <!--废弃站点-->
+  <missionname.tsm_combat_qrf>Розсіюючи хмари</missionname.tsm_combat_qrf>
+  <missiondescription.tsm_combat_qrf>Сили швидкого реагування Коаліції розгортаються на цьому покинутому об'єкті, готуючись здійснити рейд на ворожий об'єкт поблизу. Однак сусідні об'єкти не залишаться осторонь. Це ваш момент здобути славу. Знищте всі сили швидкого реагування та зруйнуйте реактор!</missiondescription.tsm_combat_qrf>
+  <missionsuccess.tsm_combat_qrf>Туман під хвилями</missionsuccess.tsm_combat_qrf>
+  <missionfailure.tsm_combat_qrf>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_qrf>
+  <missionheader0.tsm_combat_qrf>Північний рейд</missionheader0.tsm_combat_qrf>
+  <missionmessage0.tsm_combat_qrf>???:
+    Гарна робота. Ця операція завдала важкого удару по моралі Коаліції. Гроші внесено на ваш рахунок. Пам'ятайте, ніхто вам наказів не віддавав. Це були ваші власні дії.</missionmessage0.tsm_combat_qrf>
+  <missionname.tsm_combat_beowulf>Варвари Беовульфа</missionname.tsm_combat_beowulf>
+  <missiondescription.tsm_combat_beowulf>Після Інциденту 172 капітана Кріса було знято з посади, а Беовульфам наказали реструктуризуватися. Ветерани серед них відмовилися приймати таке підпорядкування, що призвело до розпаду команди. Тепер вони намагаються рушити на столицю Коаліції, щоб влаштувати збройний протест проти вищого командування — стверджуючи, що хочуть «усунути радників біля трону». Ще неймовірніше, що ніхто на жодній із транзитних станцій не намагався їх зупинити... Але вони й гадки не мають, що кожен їхній крок давно викрито — хтось їх зрадив. Тепер, коли Беовульфи наближаються до Європейського хребта, керівництво Коаліції чекає слушного моменту, щоб остаточно «реструктуризувати» Беовульфів. Можливо, ви — найкращий кандидат для цієї роботи...</missiondescription.tsm_combat_beowulf>
+  <missionsuccess.tsm_combat_beowulf>Курган</missionsuccess.tsm_combat_beowulf>
+  <missionfailure.tsm_combat_beowulf>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_beowulf>
+  <missionheader0.tsm_combat_beowulf>Мис</missionheader0.tsm_combat_beowulf>
+  <missionmessage0.tsm_combat_beowulf>Незліченні претенденти вганяли свої клинки глибоко в черево дракона, вбиваючи його. Помираючи, дракон нарешті згадав своє ім'я — Беовульф.</missionmessage0.tsm_combat_beowulf>
+  <missionname.tsm_combat_occupation>Гнітючий скіпетр</missionname.tsm_combat_occupation>
+  <missiondescription.tsm_combat_occupation>Окупаційні сили Коаліції, відомі своєю важкою бронею та вогневою міццю, запровадили в районі повну військову блокаду. За останніми наказами командного штабу сепаратистів: наше завдання — повністю знищити всі ворожі сили в районі та зруйнувати реактор, розчистивши безпечний шлях для наших головних сил. Усім командирам кораблів: переконайтеся, що ваші судна повністю готові до бою, перш ніж вступати в зіткнення з ворогом.</missiondescription.tsm_combat_occupation>
+  <missionsuccess.tsm_combat_occupation>Незглибима фортеця</missionsuccess.tsm_combat_occupation>
+  <missionfailure.tsm_combat_occupation>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_occupation>
+  <missionheader0.tsm_combat_occupation>Незглибима фортеця</missionheader0.tsm_combat_occupation>
+  <missionmessage0.tsm_combat_occupation>Окупаційні сили безпорадно спостерігали, як їх поглинув вибух реактора.
+    Тим часом в іншому об'єкті сепаратисти й солдати Коаліції продовжували битися. Світло й жар від вибуху реактора досягли й їх, і вони спостерігали, як той самий спалах повільно згасає. Усе це почалося з того, що політики стояли на протилежних трибунах і ображали один одного. Словесна дуель переросла в криваву війну. Сторонні бажали розірвати протилежні фракції, тоді як справжні учасники хотіли просто повернутися додому.</missionmessage0.tsm_combat_occupation>
+  <missionname.tsm_combat_coalition>Встромлений прапор</missionname.tsm_combat_coalition>
+  <missiondescription.tsm_combat_coalition>Невелика група солдатів Коаліції діє в цьому районі. Зважаючи на попереднє оголошення війни між сепаратистами та Коаліцією, вони не вітатимуть вашої присутності. Якщо ви хочете підтримувати добрі стосунки з Коаліцією, краще не втручатися.</missiondescription.tsm_combat_coalition>
+  <missionsuccess.tsm_combat_coalition>Момент повстання</missionsuccess.tsm_combat_coalition>
+  <missionfailure.tsm_combat_coalition>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_coalition>
+  <missionheader0.tsm_combat_coalition>Початок війни</missionheader0.tsm_combat_coalition>
+  <missionmessage0.tsm_combat_coalition>Зв'язковий сепаратистів:
+    Ми раді, що Капітан обрав шлях праведності.</missionmessage0.tsm_combat_coalition>
+  <missionname.tsm_combat_separatists>Силовики</missionname.tsm_combat_separatists>
+  <missiondescription.tsm_combat_separatists>Місцеві жителі виступають проти сил Коаліції, розміщених у [location1]. Після виведення сил Коаліції сепаратисти тихо проникли на об'єкт. Як охоронці порядку на Європі, ми не можемо терпіти такі дії ворога. Капітане, здійсніть рейд на цей об'єкт, усуньте їхнього лідера та покажіть сепаратистам, хто є справжніми силовиками.</missiondescription.tsm_combat_separatists>
+  <missionsuccess.tsm_combat_separatists>Розтрощені</missionsuccess.tsm_combat_separatists>
+  <missionfailure.tsm_combat_separatists>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_separatists>
+  <missionheader0.tsm_combat_separatists>Починається придушення</missionheader0.tsm_combat_separatists>
+  <missionmessage0.tsm_combat_separatists>Зв'язковий Коаліції:
+    Капітане, не послаблюйте натиск після цього. У нас попереду ще бої.</missionmessage0.tsm_combat_separatists>
+  <missionname.tsm_combat_Anonymous>Рейдери — підкорення ослаблених</missionname.tsm_combat_Anonymous>
+  <missiondescription.tsm_combat_Anonymous>Термінове повідомлення від командування бойової зони: збройні повстання в кількох місцях привернули увагу вищого командування Коаліції. Підтверджено, що елітні «Гострі рейдери» сепаратистів облаштували опорний пункт у [location1], маючи намір здійснювати рейди на довколишні об'єкти. Мета цього разу — знищити всіх рейдерів і зруйнувати реактор.</missiondescription.tsm_combat_Anonymous>
+  <missionsuccess.tsm_combat_Anonymous>Могила рейдерів</missionsuccess.tsm_combat_Anonymous>
+  <missionfailure.tsm_combat_Anonymous>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_Anonymous>
+  <missionheader0.tsm_combat_Anonymous>Зіткнення</missionheader0.tsm_combat_Anonymous>
+  <missionmessage0.tsm_combat_Anonymous>Зв'язковий Коаліції:
+    Капітане, адмірал отримав наші переможні новини та висловив нам похвалу. Тим часом ми також допитали організатора цього «повстання» сепаратистів — генерала Вікторію Педран. Настав час планувати наступну операцію.</missionmessage0.tsm_combat_Anonymous>
+  <missionname.tsm_combat_yehuo>Дикий вогонь — остання червона квітка, що розквітла</missionname.tsm_combat_yehuo>
+  <missiondescription.tsm_combat_yehuo>Намагаючись послабити домінування Коаліції в цій морській зоні, сепаратисти «Дикого вогню» здійснили раптову атаку та знищили гарнізон Коаліції в [location1]. За даними розвідки, успішно захопивши більшість опорних пунктів району, сепаратисти тепер зосереджують сили для останнього штурму. Мета завдання: знищити всіх сепаратистів і зруйнувати реактор.</missiondescription.tsm_combat_yehuo>
+  <missionsuccess.tsm_combat_yehuo>Згашено</missionsuccess.tsm_combat_yehuo>
+  <missionfailure.tsm_combat_yehuo>Це той кінець, якого ви бажали?</missionfailure.tsm_combat_yehuo>
+  <missionheader0.tsm_combat_yehuo>Постава справжнього генерала</missionheader0.tsm_combat_yehuo>
+  <missionmessage0.tsm_combat_yehuo>Останній сепаратист упав, вигукуючи перед смертю: «Ми палатимемо, як дикий вогонь, і колись повністю поглинемо Коаліцію!»
+    Чого люди насправді прагнуть і задля чого? Вони б'ються одне з одним — невже кровопролиття слугує тому, щоб квіти розквітли?</missionmessage0.tsm_combat_yehuo>
+  <tsm_haulagecombat_1.c1>Тут є термінове замовлення. Від нього залежить наша співпраця з ними. Група самовпевнених паразитів думає, що може відкусити більше, ніж здатна проковтнути. Якщо ви готові взятися за це, винагорода однозначно буде вартою.</tsm_haulagecombat_1.c1>
+  <missionname.tsm_haulagecombat_1>Зазіхання на небесні таємниці</missionname.tsm_haulagecombat_1>
+  <missiondescription.tsm_haulagecombat_1>Група піратів викрала партію модулів даних, що містять особисту приватну інформацію. Я не хочу, щоб їх продавали відкрито. Або вони помруть, або зникнуть із цими речами (Примітка: корпус корабля невразливий і не піддається руйнуванню, тож сміливо піднімайтеся на борт, але остерігайтеся повільнострільних гармат на кораблі.)</missiondescription.tsm_haulagecombat_1>
+  <missionsuccess.tsm_haulagecombat_1>Пам'ятайте, тримайте це в таємниці.</missionsuccess.tsm_haulagecombat_1>
+  <missionfailure.tsm_haulagecombat_1>Розчарування, але гадаю, що чорний ринок знайде більш підходящих партнерів, ніж ви.</missionfailure.tsm_haulagecombat_1>
+  <missionsonarlabel.tsm_haulagecombat_1>Викрадений піратський корабель</missionsonarlabel.tsm_haulagecombat_1>
+  <missionheader0.tsm_haulagecombat_1>Виявлено злодіїв</missionheader0.tsm_haulagecombat_1>
+  <missionmessage0.tsm_haulagecombat_1>Час викинути їх за борт на поталу рибам.</missionmessage0.tsm_haulagecombat_1>
+  <missionheader1.tsm_haulagecombat_1>Злодіїв усунено</missionheader1.tsm_haulagecombat_1>
+  <missionmessage1.tsm_haulagecombat_1>Ті, хто пхав носа в таємниці, заплатили за це. Тепер можемо обговорити інші види співпраці.</missionmessage1.tsm_haulagecombat_1>
+  <missionname.tsm_combat_crosstalk>Штурм через перешкоди</missionname.tsm_combat_crosstalk>
+  <missiondescription.tsm_combat_crosstalk>Викликаю Бірюзу, Бірюза, відповідайте!\nДідько, вони заглушили наші сигнали. Стривайте, пристикується підводний човен.\n..........\nДе ви були? Нам потрібне підкріплення!\nЦе Відділ передових бойових дій TSM, готуємося до перехоплення.\nВиженіть цих псів Коаліції з нашої території!</missiondescription.tsm_combat_crosstalk>
+  <missionsuccess.tsm_combat_crosstalk>Вітер прийшов...</missionsuccess.tsm_combat_crosstalk>
+  <missionfailure.tsm_combat_crosstalk>Звіт: весь особовий склад загинув у бою.</missionfailure.tsm_combat_crosstalk>
+  <missionheader0.tsm_combat_crosstalk>Вітер прийшов...</missionheader0.tsm_combat_crosstalk>
+  <missionmessage0.tsm_combat_crosstalk>Дякуємо, Капітане, що розібралися з загоном перешкод Коаліції. Будьте певні, ми не розголошуватимемо жодної інформації про вас.</missionmessage0.tsm_combat_crosstalk>
+  <missionname.tsm_combat_escort>Чорний корабель</missionname.tsm_combat_escort>
+  <missiondescription.tsm_combat_escort>Повністю озброєний загін Коаліції має потрапити на ваш корабель, щоб дістатися наступної станції, але вони не здаються надто легітимними. Будьте обережні.</missiondescription.tsm_combat_escort>
+  <missionsuccess.tsm_combat_escort>Бандитам Коаліції місце в безодні, щоб годувати риб.</missionsuccess.tsm_combat_escort>
+  <missionfailure.tsm_combat_escort>Корабель реквізовано для військових потреб.</missionfailure.tsm_combat_escort>
+  <missionheader0.tsm_combat_escort>Викиньте тіла за борт</missionheader0.tsm_combat_escort>
+  <missionmessage0.tsm_combat_escort>Ви, пси Коаліції, геть з мого корабля!</missionmessage0.tsm_combat_escort>
+  <missionname.tsm_combat_aria>Каральна операція</missionname.tsm_combat_aria>
+  <missiondescription.tsm_combat_aria>Коаліція глибоко незадоволена тим, що TSM зберігає нейтралітет і продає припаси повстанцям, порушуючи Спільну конвенцію. Розвідка підтвердила, що в цьому районі діє підрозділ із Моря Див. Вище командування хоче, щоб ви знищили цей загін, щоб надіслати попередження TSM.</missiondescription.tsm_combat_aria>
+  <missionsuccess.tsm_combat_aria>Завдання виконано</missionsuccess.tsm_combat_aria>
+  <missionfailure.tsm_combat_aria>Біла голубка дрейфує дедалі далі. Коли вона повернеться до гнізда?</missionfailure.tsm_combat_aria>
+  <missionheader0.tsm_combat_aria>Зламаний дзьоб</missionheader0.tsm_combat_aria>
+  <missionmessage0.tsm_combat_aria>«Це ескадрилья Гнізда... ми більше не можемо повернутися. Вцілілі, вперед!»</missionmessage0.tsm_combat_aria>
+  <missionname.tsm_adventists_save>Порятунок міс Цю</missionname.tsm_adventists_save>
+  <missiondescription.tsm_adventists_save>Ми виявили міс Цю, яку викрали до [location1]. Судячи з оздоблень, це робота Адвентистів. Нам потрібно врятувати міс Цю та безпечно доставити її на станцію TSM, забезпечивши її безпеку за будь-яку ціну.</missiondescription.tsm_adventists_save>
+  <missionsuccess.tsm_adventists_save>Завдання виконано. Далі ми візьмемо ескорт на себе.</missionsuccess.tsm_adventists_save>
+  <missionfailure.tsm_adventists_save></missionfailure.tsm_adventists_save>
+  <missionheader0.tsm_adventists_save>Перша зустріч</missionheader0.tsm_adventists_save>
+  <missionmessage0.tsm_adventists_save>Коли вона йшла, то постійно озиралася, ніби намагалася запам'ятати ваше обличчя.</missionmessage0.tsm_adventists_save>
+  <missionname.tsm_combat_advisers>«Котячі» радники</missionname.tsm_combat_advisers>
+  <missiondescription.tsm_combat_advisers>Наші сили нещодавно помітили аномалії в боях проти сепаратистів: тактика противника демонструє виразні цілеспрямовані риси, а їхні стратегічні шаблони тісно збігаються з тактичними системами, з якими Коаліція стикалася в минулих кампаніях TSM. Після тактичного аналізу підтверджено, що військові радники від TSM беруть участь у керуванні діями сепаратистів. За останніми розвідданими, у цільовій будівлі не лише зібралися котячі військові радники TSM, а й розміщено велику кількість елітних бойових підрозділів сепаратистів. Завдання цього разу — повністю знищити командний центр противника та насамперед ліквідувати всіх котячих радників.</missiondescription.tsm_combat_advisers>
+  <missionsuccess.tsm_combat_advisers>Операція з обезголовлення</missionsuccess.tsm_combat_advisers>
+  <missionfailure.tsm_combat_advisers>Усі зорі цієї ночі потонуть у воді.</missionfailure.tsm_combat_advisers>
+  <missionheader0.tsm_combat_advisers>Обезголовлення</missionheader0.tsm_combat_advisers>
+  <missionmessage0.tsm_combat_advisers>Перешкоди й кулі, якими ворог перегороджує нам шлях, ми зневажливо сміємося над ними, а потім упевнено крокуємо далі.</missionmessage0.tsm_combat_advisers>
+  <missionname.tsm_combat_adventists>Пекельне плавання</missionname.tsm_combat_adventists>
+  <missiondescription.tsm_combat_adventists>Згідно з інформацією, отриманою від злодіїв минулого разу, вони тепер, імовірно, працюють з Адвентистами. Ми можемо скористатися цією нагодою, щоб знищити їх усіх. Цього разу ми надішлемо загін для рейду на об'єкт разом із вами, їх уже розставлено. Щойно ви почнете операцію, вони координуватимуть дії з вами.</missiondescription.tsm_combat_adventists>
+  <missionsuccess.tsm_combat_adventists>Перша спільна операція</missionsuccess.tsm_combat_adventists>
+  <missionfailure.tsm_combat_adventists>Дії, які слід було вжити, неодноразово відкладалися.</missionfailure.tsm_combat_adventists>
+  <missionheader0.tsm_combat_adventists>Перша спільна операція</missionheader0.tsm_combat_adventists>
+  <missionmessage0.tsm_combat_adventists>Наш перший спільний рейд на об'єкт пройшов добре. Сподіваймося на кращу координацію наступного разу.</missionmessage0.tsm_combat_adventists>
+  <missionname.tsm_combat_nz>Стрілянина</missionname.tsm_combat_nz>
+  <missiondescription.tsm_combat_nz>Деякі особи з винятковою влучністю захопили цей об'єкт. Кожен із них володіє ручною гарматою, прагнучи чесної дуелі.</missiondescription.tsm_combat_nz>
+  <missionsuccess.tsm_combat_nz>Ковбойська дуель</missionsuccess.tsm_combat_nz>
+  <missionfailure.tsm_combat_nz>Перший постріл сповіщає про моє прибуття; другий постріл оголошує вашу смерть.</missionfailure.tsm_combat_nz>
+  <missionheader0.tsm_combat_nz>Король зброї</missionheader0.tsm_combat_nz>
+  <missionmessage0.tsm_combat_nz>Куля прошила мозок. У заціпенінні йому здалося, що він стоїть на сцені, бачить глядачів у суцільній темряві, але чітко чує, як розмовляють двоє.
+    «Хто грає на цій сцені?» — запитав один голос.
+    Інший голос відповів: «Людина на сцені здається незграбною, але рухається невимушено. Якщо він не вдає блазня, то він, мабуть, король».
+    Щойно ці слова було вимовлено, із зали вибухнули оплески, і заграла радісна симфонія.
+    Пані та панове, це кінець Соломона.</missionmessage0.tsm_combat_nz>
+  <Override>
+    <missionname.abandonedoutpostrescue2>Військове відправлення</missionname.abandonedoutpostrescue2>
+    <missiondescription.abandonedoutpostrescue2>За перевіреними даними, група найманців викрала відомого бізнес-лідера в районі [location1] та облаштувала тимчасовий опорний пункт. Родина викраденого доручила нашій організації провести тактичну рятувальну операцію, основною метою якої є безпечне вилучення цієї особи.</missiondescription.abandonedoutpostrescue2>
+    <missionsuccess.abandonedoutpostrescue2>Ми успішно врятували заручників.</missionsuccess.abandonedoutpostrescue2>
+    <missionfailure.abandonedoutpostrescue2>Не вдалося врятувати заручників.</missionfailure.abandonedoutpostrescue2>
+    <missionheader0.abandonedoutpostrescue2>Порятунок успішний</missionheader0.abandonedoutpostrescue2>
+    <missionmessage0.abandonedoutpostrescue2>Усі заручники на борту. Час повертатися й доповідати.</missionmessage0.abandonedoutpostrescue2>
+    <missionname.abandonedoutpostrescue3>Пустка війни</missionname.abandonedoutpostrescue3>
+    <missiondescription.abandonedoutpostrescue3>Розвідники підтвердили, що найманський підрозділ приблизно ескадронного розміру здійснив цілеспрямоване знищення [location1] та вбив мешканців форпосту, одночасно вимагаючи величезних плат за захист із сусідніх форпостів. Тактична оцінка свідчить, що озброєна група має здатність до швидких маневрових ударів і загрожує й надалі руйнувати об'єкти вздовж лінії постачання, якщо її вимоги не будуть виконані. Коаліція, що контролює постраждалі об'єкти, уклала угоду про стратегічну співпрацю з Капітаном, доручивши операцію зі знищення.</missiondescription.abandonedoutpostrescue3>
+    <missionsuccess.abandonedoutpostrescue3>Усіх найманців підтверджено нейтралізованими.</missionsuccess.abandonedoutpostrescue3>
+    <missionfailure.abandonedoutpostrescue3>Не вдалося виконати завдання.</missionfailure.abandonedoutpostrescue3>
+    <missionheader0.abandonedoutpostrescue3>Завдання виконано</missionheader0.abandonedoutpostrescue3>
+    <missionmessage0.abandonedoutpostrescue3>Зло широко вишкіряється, у їхніх очах хвилею здіймається злоба, а свою мерзоту вони ховають під облудною, святенницькою усмішкою.</missionmessage0.abandonedoutpostrescue3>
+  </Override>
+  <!-- tsmmission51 -->
+  <missionname.tsmmission51>Живий Хаск</missionname.tsmmission51>
+  <missiondescription.tsmmission51>Нещодавно станція замовкла. Перед цим сюди доставили особливі яйця — підозра на диверсію. Ваше завдання: знищити все живе та зруйнувати реактор.</missiondescription.tsmmission51>
+  <missionsuccess.tsmmission51>Станцію зачищено. Решту ми візьмемо на себе.</missionsuccess.tsmmission51>
+  <missionheader0.tsmmission51>Тартар</missionheader0.tsmmission51>
+  <missionmessage0.tsmmission51>T.S.M простежила походження вантажу. Розшифрування даних викриє тих, хто за цим стоїть. Вони заплатять.</missionmessage0.tsmmission51>
+  <missionsonarlabel.tsmmission51>Невідома форма життя</missionsonarlabel.tsmmission51>
+  <!-- tsmmission52 -->
+  <missionname.tsmmission52>Місто трагедії</missionname.tsmmission52>
+  <missiondescription.tsmmission52>Носія чуми нульового типу було ескортовано до невідомих координат за таємним наказом. Після зупинки в [location1] місто змовкло. Наші розвідники виявили, що його захопили варіанти чуми. Розслідуйте дії ескорту, знищте все живе та зруйнуйте реактор.</missiondescription.tsmmission52>
+  <missionsuccess.tsmmission52>Завдання виконано</missionsuccess.tsmmission52>
+  <missionheader0.tsmmission52>Місто плоті</missionheader0.tsmmission52>
+  <missionmessage0.tsmmission52>Слідів із зачищеного міста мало. Ключ шифрування наказу не походив від верхівки T.S.M. Перевірте дані в штабі. Тим часом збирайте розвіддані про ескорт.</missionmessage0.tsmmission52>
+  <!-- tsmmission53 -->
+  <missionname.tsmmission53>Концерт</missionname.tsmmission53>
+  <missiondescription.tsmmission53>Мелодія смерті лунає в їхніх вухах. Душі з безодні дряпаються на станцію. Каламутні очі нічого не бачать. «Я довго спав... Тепер я прокидаюся». (Мета: знищити все живе та зруйнувати реактор.)</missiondescription.tsmmission53>
+  <missionsuccess.tsmmission53>Реквієм смерті</missionsuccess.tsmmission53>
+  <missionheader0.tsmmission53>Страх перед невідомим</missionheader0.tsmmission53>
+  <missionmessage0.tsmmission53>У панцирі не лишилося душі, проте пісня не вщухає... Вона все ще співає.</missionmessage0.tsmmission53>
+  <missionsonarlabel.tsmmission53>Співачка</missionsonarlabel.tsmmission53>
+  <missionname.tsmmission60>Усе в ім'я справедливості</missionname.tsmmission60>
+  <missiondescription.tsmmission60>T.S.M запечатала канал між [location1] та [location2]. Тепер ви вступаєте в хаос.</missiondescription.tsmmission60>
+  <missionsuccess.tsmmission60>Життя згасає, як вода у воді.</missionsuccess.tsmmission60>
+  <missionheader0.tsmmission60>Не йди лагідно</missionheader0.tsmmission60>
+  <missionmessage0.tsmmission60>«Я бачив таке, у що ви б не повірили. Атакуючі кораблі, що палають біля плеча Оріона. C-промені, що мерехтять у темряві біля брами Тангойзера. Усі ці миті загубляться в часі... як сльози під дощем.»</missionmessage0.tsmmission60>
+  <missionsonarlabel.tsmmission60>HTC24—Червоний агат</missionsonarlabel.tsmmission60>
+  <missionname.tsmattack>Нічна засідка</missionname.tsmattack>
+  <missionheader0.tsmattack>Операція розпочата. Правила застосування сили: дозволено летальну силу</missionheader0.tsmattack>
+  <missionmessage0.tsmattack>У цьому світі не бракує смерті.</missionmessage0.tsmattack>
+  <!--origin-->
+  <missionname.tsmmission_origin1>Нагорода: знищити Черв'яка Апокаліпсису</missionname.tsmmission_origin1>
+  <missiondescription.tsmmission_origin1>Черв'як Апокаліпсису переслідує наші транспорти між [location1] та [location2]. Нагорода: [reward]mk за його смерть.</missiondescription.tsmmission_origin1>
+  <missionsuccess.tsmmission_origin1>Завдання виконано</missionsuccess.tsmmission_origin1>
+  <missionheader0.tsmmission_origin1>Полювання завершено</missionheader0.tsmmission_origin1>
+  <missionmessage0.tsmmission_origin1>Винагороду буде надіслано по прибутті на наступну станцію.</missionmessage0.tsmmission_origin1>
+  <missionsonarlabel.tsmmission_origin1>Ціль полювання</missionsonarlabel.tsmmission_origin1>
+  <missionname.tsmmission_origin2>Нагорода: полювання на Банші</missionname.tsmmission_origin2>
+  <missiondescription.tsmmission_origin2>Банші бродить каналом між [location1] та [location2], нападаючи на кораблі та станції. Нагорода: [reward]mk за її голову.</missiondescription.tsmmission_origin2>
+  <missionsuccess.tsmmission_origin2>Завдання виконано</missionsuccess.tsmmission_origin2>
+  <missionheader0.tsmmission_origin2>Полювання завершено</missionheader0.tsmmission_origin2>
+  <missionmessage0.tsmmission_origin2>Оплату буде надіслано по прибутті на наступну станцію.</missionmessage0.tsmmission_origin2>
+  <missionsonarlabel.tsmmission_origin2>Ціль полювання</missionsonarlabel.tsmmission_origin2>
+  <missionname.tsmmission_origin3>Нагорода: полювання на Латчера</missionname.tsmmission_origin3>
+  <missiondescription.tsmmission_origin3>Інвазивний Латчер порушує глибоководний видобуток. Винагорода: [reward]mk за його смерть.</missiondescription.tsmmission_origin3>
+  <missionsuccess.tsmmission_origin3>Завдання виконано</missionsuccess.tsmmission_origin3>
+  <missionheader0.tsmmission_origin3>Полювання завершено</missionheader0.tsmmission_origin3>
+  <missionmessage0.tsmmission_origin3>Винагороду [reward]mk буде надіслано по прибутті.</missionmessage0.tsmmission_origin3>
+  <missionsonarlabel.tsmmission_origin3>Ціль полювання</missionsonarlabel.tsmmission_origin3>
+  <missionname.tsmmission_origin4>Нагорода: полювання на Кібер-черв'яка</missionname.tsmmission_origin4>
+  <missiondescription.tsmmission_origin4>Глибоководні геодезисти виявили Кібер-черв'яка. Нагорода: [reward]mk для забезпечення безпечної роботи.</missiondescription.tsmmission_origin4>
+  <missionsuccess.tsmmission_origin4>Завдання виконано</missionsuccess.tsmmission_origin4>
+  <missionheader0.tsmmission_origin4>Полювання завершено</missionheader0.tsmmission_origin4>
+  <missionmessage0.tsmmission_origin4>Винагороду [reward]mk надіслано. Відновлюємо глибоководні зйомки.</missionmessage0.tsmmission_origin4>
+  <missionsonarlabel.tsmmission_origin4>Ціль полювання</missionsonarlabel.tsmmission_origin4>
+  <missionname.tsmmission_origin5>Нагорода: знищити колонію Гігантських Спайнів</missionname.tsmmission_origin5>
+  <missiondescription.tsmmission_origin5>Гігантські Спайни заполонили канал, загрожуючи безпеці. Усуньте їх.</missiondescription.tsmmission_origin5>
+  <missionsuccess.tsmmission_origin5>Завдання виконано</missionsuccess.tsmmission_origin5>
+  <missionheader0.tsmmission_origin5>Полювання завершено</missionheader0.tsmmission_origin5>
+  <missionmessage0.tsmmission_origin5>Винагороду [reward]mk надіслано. Канал знову спокійний.</missionmessage0.tsmmission_origin5>
+  <missionsonarlabel.tsmmission_origin5>Ціль полювання</missionsonarlabel.tsmmission_origin5>
+  <missionname.tsmmission_origin6>Нагорода: винищити отруйних змій</missionname.tsmmission_origin6>
+  <missiondescription.tsmmission_origin6>Отруйні змії труять екіпажі. Усуньте їх, щоб забезпечити безпеку.</missiondescription.tsmmission_origin6>
+  <missionsuccess.tsmmission_origin6>Завдання виконано</missionsuccess.tsmmission_origin6>
+  <missionheader0.tsmmission_origin6>Полювання завершено</missionheader0.tsmmission_origin6>
+  <missionmessage0.tsmmission_origin6>Винагороду [reward]mk надіслано. Більше жодних смертей від отрути.</missionmessage0.tsmmission_origin6>
+  <missionsonarlabel.tsmmission_origin6>Ціль полювання</missionsonarlabel.tsmmission_origin6>
+  <missionname.tsmmission_origin7>Завдання з нагородою: засідка на раптор</missionname.tsmmission_origin7>
+  <missiondescription.tsmmission_origin7>Велика кількість раптор захопила те, що колись було безпечним проходом, загрожуючи безпеці довколишніх станцій. Ми пропонуємо винагороду [reward]mk флоту, здатному влаштувати засідку на цих раптор.</missiondescription.tsmmission_origin7>
+  <missionsuccess.tsmmission_origin7>Завдання виконано</missionsuccess.tsmmission_origin7>
+  <missionheader0.tsmmission_origin7>Полювання завершено</missionheader0.tsmmission_origin7>
+  <missionmessage0.tsmmission_origin7>Вітаємо з виконанням завдання. [reward]mk буде надіслано на ваш рахунок по прибутті на наступну станцію. Засідку здійснено бездоганно.</missionmessage0.tsmmission_origin7>
+  <missionsonarlabel.tsmmission_origin7>Ціль полювання</missionsonarlabel.tsmmission_origin7>
+  <missionname.tsmmission_origin8>Завдання з нагородою: знищення Чорних Молохів</missionname.tsmmission_origin8>
+  <missiondescription.tsmmission_origin8>Група нерозважливих членів екіпажу вбила кількох дитинчат Молохів, проходячи маршрутом між [location1] та [location2]. Тепер рій чорних Молохів заволодів проходом. Нам не лишається нічого, окрім як залучити відважних воїнів, щоб допомогти владнати ситуацію.</missiondescription.tsmmission_origin8>
+  <missionsuccess.tsmmission_origin8>Завдання виконано</missionsuccess.tsmmission_origin8>
+  <missionheader0.tsmmission_origin8>Полювання завершено</missionheader0.tsmmission_origin8>
+  <missionmessage0.tsmmission_origin8>Вітаємо з виконанням завдання. [reward]mk буде надіслано на ваш рахунок по прибутті на наступну станцію. Усіх чорних Молохів знищено.</missionmessage0.tsmmission_origin8>
+  <missionsonarlabel.tsmmission_origin8>Ціль полювання</missionsonarlabel.tsmmission_origin8>
+  <missionname.tsmmission_origin9>Завдання з нагородою: винищення клану Трешерів</missionname.tsmmission_origin9>
+  <missiondescription.tsmmission_origin9>Група звірів-трешерів заволоділа проходом, атакуючи сусідні станції та знищуючи кораблі, що проходять повз. Кількох відважних воїнів відправили розібратися з ними, але жоден не повернувся. Флот, який успішно винищить цих трешерів і безпечно повернеться, буде винагороджений на наступній станції.</missiondescription.tsmmission_origin9>
+  <missionsuccess.tsmmission_origin9>Завдання виконано</missionsuccess.tsmmission_origin9>
+  <missionheader0.tsmmission_origin9>Полювання завершено</missionheader0.tsmmission_origin9>
+  <missionmessage0.tsmmission_origin9>Вітаємо з виконанням завдання. [reward]mk буде надіслано на ваш рахунок по прибутті на наступну станцію. Клан трешерів не зміг уникнути винищення.</missionmessage0.tsmmission_origin9>
+  <missionsonarlabel.tsmmission_origin9>Ціль полювання</missionsonarlabel.tsmmission_origin9>
+  <missionname.tsmmission_origin10>Завдання з нагородою: інопланетний бенкет</missionname.tsmmission_origin10>
+  <missiondescription.tsmmission_origin10>Команда дослідників реліквій випадково випустила кількох вартових під час дослідження руїн. Ці вартові спричинили серйозні інциденти з безпекою. Нам потрібен хтось, щоб прибрати цей безлад.</missiondescription.tsmmission_origin10>
+  <missionsuccess.tsmmission_origin10>Завдання виконано</missionsuccess.tsmmission_origin10>
+  <missionheader0.tsmmission_origin10>Полювання завершено</missionheader0.tsmmission_origin10>
+  <missionmessage0.tsmmission_origin10>Вітаємо з виконанням завдання. [reward]mk буде надіслано на ваш рахунок по прибутті на наступну станцію. Але, строго кажучи, інопланетянами є ми.</missionmessage0.tsmmission_origin10>
+  <missionsonarlabel.tsmmission_origin10>Ціль полювання</missionsonarlabel.tsmmission_origin10>
+  <missionname.tsmmission_origin11>Завдання з нагородою: варвари в печері</missionname.tsmmission_origin11>
+  <missiondescription.tsmmission_origin11>Цю нагороду оголошено Сектою Шкуродерів. Деякі радикальні члени, спожили спеціально виготовлені яйця шкуродерів, пограбували скриньки шкуродерів секти та втекли до печери. Секта сподівається, що хтось допоможе навести лад і знищить ті скриньки.</missiondescription.tsmmission_origin11>
+  <missionsuccess.tsmmission_origin11>Завдання виконано</missionsuccess.tsmmission_origin11>
+  <missionheader0.tsmmission_origin11>Полювання завершено</missionheader0.tsmmission_origin11>
+  <missionmessage0.tsmmission_origin11>Вітаємо з виконанням завдання. [reward]mk буде надіслано на ваш рахунок по прибутті на наступну станцію. Таке міцне тіло, такий низький інтелект — вознесіння було успіхом чи провалом?</missionmessage0.tsmmission_origin11>
+  <missionsonarlabel.tsmmission_origin11>Ціль полювання</missionsonarlabel.tsmmission_origin11>
+  <missionname.tsmmission_origin12>Завдання з нагородою: Експеримент 003</missionname.tsmmission_origin12>
+  <missiondescription.tsmmission_origin12>Корпорація EMBI пропонує значну винагороду за транспортування партії піддослідних до наступного призначеного місця. Зверніть увагу: Експерименту 003 потрібне безперервне постачання паралітичного агента; інакше існуватиме ризик пробудження.</missiondescription.tsmmission_origin12>
+  <missionsuccess.tsmmission_origin12>Завдання виконано</missionsuccess.tsmmission_origin12>
+  <missionheader0.tsmmission_origin12>Ідеальне прибуття</missionheader0.tsmmission_origin12>
+  <missionmessage0.tsmmission_origin12>Чудово. Це суттєво прискорить хід наших досліджень.</missionmessage0.tsmmission_origin12>
+  <missionname.tsmmission_origin13>Перевезення розкладної матерії</missionname.tsmmission_origin13>
+  <missiondescription.tsmmission_origin13>Кілька ящиків розкладної матерії терміново потрібно доставити до [location2]. Увага! У вас лише десять хвилин.</missiondescription.tsmmission_origin13>
+  <missionsuccess.tsmmission_origin13>Експрес-доставка</missionsuccess.tsmmission_origin13>
+  <missionheader0.tsmmission_origin13>Експрес-доставка</missionheader0.tsmmission_origin13>
+  <missionmessage0.tsmmission_origin13>Перегони зі смертю</missionmessage0.tsmmission_origin13>
+  <missionname.tsmmission_origin14>Перевезення шкіряних матеріалів</missionname.tsmmission_origin14>
+  <missiondescription.tsmmission_origin14>Магнат у [location2] замовив високоякісну шкіру. Ця шкіра дуже цінна й не може намокати, бо інакше буде зіпсована. Тож перевозьте її з надзвичайною обережністю.</missiondescription.tsmmission_origin14>
+  <missionsuccess.tsmmission_origin14>Якість і кількість гарантовано</missionsuccess.tsmmission_origin14>
+  <missionheader0.tsmmission_origin14>Найкраща кур'єрська служба</missionheader0.tsmmission_origin14>
+  <missionmessage0.tsmmission_origin14>Якість і кількість гарантовано</missionmessage0.tsmmission_origin14>
+  <missionname.tsmmission_origin15>Перевезення захоплених членів Фракції Прибуття</missionname.tsmmission_origin15>
+  <missiondescription.tsmmission_origin15>T.S.M заарештувала кількох членів Фракції Прибуття, і тепер їх потрібно доправити на наступну станцію для допиту.</missiondescription.tsmmission_origin15>
+  <missionsuccess.tsmmission_origin15>Жодного члена не залишено</missionsuccess.tsmmission_origin15>
+  <missionheader0.tsmmission_origin15>Завдання виконано</missionheader0.tsmmission_origin15>
+  <missionmessage0.tsmmission_origin15>Жодного члена не залишено</missionmessage0.tsmmission_origin15>
+  <missionname.tsmmission_origin16>Скарб Ксілока</missionname.tsmmission_origin16>
+  <missiondescription.tsmmission_origin16>Таємнича особа доручила нам доправити пакунок іншій таємничій особі. Вона також розкрила, що цей пакунок — Скарб Ксілока (нібито Скарб Ксілока можна розкласти на будь-що, але все залежить від удачі).</missiondescription.tsmmission_origin16>
+  <missionsuccess.tsmmission_origin16>Чесність — найкраща політика</missionsuccess.tsmmission_origin16>
+  <missionheader0.tsmmission_origin16>Завдання виконано</missionheader0.tsmmission_origin16>
+  <missionmessage0.tsmmission_origin16>Чесність — найкраща політика</missionmessage0.tsmmission_origin16>
+  <missionname.tsmmission_origin17>Перевезення матеріалів</missionname.tsmmission_origin17>
+  <missiondescription.tsmmission_origin17>T.S.M доручила нам доправити партію сирої руди. Зверніть увагу: якщо T.S.M зловить вас на розкраданні, вас оштрафують.</missiondescription.tsmmission_origin17>
+  <missionsuccess.tsmmission_origin17>Чесність — найкраща політика</missionsuccess.tsmmission_origin17>
+  <missionheader0.tsmmission_origin17>Завдання виконано</missionheader0.tsmmission_origin17>
+  <missionmessage0.tsmmission_origin17>Чесність — найкраща політика</missionmessage0.tsmmission_origin17>
+  <eventtext.tsmmission.mcrate_replenishment>Кількість ящиків із рудою не збігається з накладною. Вашим словам не можна вірити.</eventtext.tsmmission.mcrate_replenishment>
+  <missionname.tsmmission_origin18>Перевезення медичних припасів</missionname.tsmmission_origin18>
+  <missiondescription.tsmmission_origin18>[location2] відчуває нестачу медичних припасів. Вони замовили партію в T.S.M, яку потрібно доставити терміново.</missiondescription.tsmmission_origin18>
+  <missionsuccess.tsmmission_origin18>Чесність — найкраща політика</missionsuccess.tsmmission_origin18>
+  <missionheader0.tsmmission_origin18>Завдання виконано</missionheader0.tsmmission_origin18>
+  <missionmessage0.tsmmission_origin18>Чесність — найкраща політика</missionmessage0.tsmmission_origin18>
+  <eventtext.tsmmission.yl_replenishment>Ви розікрали медичні припаси, через що воїни на передовій не отримали своєчасного лікування.</eventtext.tsmmission.yl_replenishment>
+  <missionname.tsmmission_origin19>Перевезення солдатів T.S.M</missionname.tsmmission_origin19>
+  <missiondescription.tsmmission_origin19>Загін T.S.M бажає доїхати на вашому кораблі до наступної станції.</missiondescription.tsmmission_origin19>
+  <missionsuccess.tsmmission_origin19>Безпечне прибуття</missionsuccess.tsmmission_origin19>
+  <missionheader0.tsmmission_origin19></missionheader0.tsmmission_origin19>
+  <missionfailure.tsmmission_origin19>Убивство</missionfailure.tsmmission_origin19>
+  <missionname.tsmmission_origin20>Завдання з нагородою: знищення Кроулерів</missionname.tsmmission_origin20>
+  <missiondescription.tsmmission_origin20>Великий рій кроулерів заволодів проходом. Ми кілька разів намагалися їх відігнати, але з малим ефектом. Вони безстрашні навіть перед охоронними силами станції — це не звичайні кроулери. Потрібна важка рука.</missiondescription.tsmmission_origin20>
+  <missionsuccess.tsmmission_origin20>Кроулери наглядають за керуванням підводним човном і тренують стрілецькі навички екіпажу, справді ретельно й навмисно.</missionsuccess.tsmmission_origin20>
+  <missionheader0.tsmmission_origin20>Завдання виконано</missionheader0.tsmmission_origin20>
+  <missionmessage0.tsmmission_origin20>Кроулери наглядають за керуванням підводним човном і тренують стрілецькі навички екіпажу, справді ретельно й навмисно.</missionmessage0.tsmmission_origin20>
+  <missionsonarlabel.tsmmission_origin20>Ціль полювання</missionsonarlabel.tsmmission_origin20>
+  <missionname.tsmmission_origin21>Завдання з нагородою: прощавай, Черв'яче-руйнівнику</missionname.tsmmission_origin21>
+  <missiondescription.tsmmission_origin21>Черв'як-Руйнівник, що дрімав у безодні, знову став активним. Довколишні станції видали екстрені сповіщення, спричинивши масову паніку. Хтось пропонує [reward]mk за голову Черв'яка-Руйнівника.</missiondescription.tsmmission_origin21>
+  <missionsuccess.tsmmission_origin21>Сподіваюся, він більше ніколи не прокинеться</missionsuccess.tsmmission_origin21>
+  <missionheader0.tsmmission_origin21>Завдання виконано</missionheader0.tsmmission_origin21>
+  <missionmessage0.tsmmission_origin21>Назад спати</missionmessage0.tsmmission_origin21>
+  <missionsonarlabel.tsmmission_origin21>Ціль полювання</missionsonarlabel.tsmmission_origin21>
+  <missionname.tsmmission_event_lin>Доручення Лінь Хеїнь</missionname.tsmmission_event_lin>
+  <missiondescription.tsmmission_event_lin>Лінь Хеїнь хоче, щоб ви усунули T037, що діє в цій морській зоні, і вилучили з нього систему порту мозок-комп'ютерного інтерфейсу.</missiondescription.tsmmission_event_lin>
+  <missionsuccess.tsmmission_event_lin>Прогрес</missionsuccess.tsmmission_event_lin>
+  <missionheader0.tsmmission_event_lin>Завдання виконано</missionheader0.tsmmission_event_lin>
+  <missionmessage0.tsmmission_event_lin>Поверніться до найближчої станції T.S.M. — Лінь Хеїнь чекатиме на вас там.</missionmessage0.tsmmission_event_lin>
+  <missionsonarlabel.tsmmission_event_lin>T037</missionsonarlabel.tsmmission_event_lin>
+  <!--任务事件-->
+  <tsm_combat_tsm_event.1>«Кіт-радник» до T.S.M, надзвичайна ситуація! Запитуємо підкріплення!</tsm_combat_tsm_event.1>
+  <tsm_combat_tsm_event.2>Тримайтеся, Раднику! Головний інструктор наказав мені повернути вас усіх живими й неушкодженими.</tsm_combat_tsm_event.2>
+  <tsm_combat_occupation_event.1>Ситуація критична! Найближчі підрозділи швидкого реагування наближаються до цього форпосту — нам треба поспішати!</tsm_combat_occupation_event.1>
+  <tsm_combat_beowulf_event.1>Біс! Ми перехопили передачу від ескадрону Беовульф — вони кличуть підкріплення. Найближчий підрозділ швидкого реагування Коаліції вже в дорозі; нам треба прискоритися!</tsm_combat_beowulf_event.1>
+  <tsm_combat_yehuo_event.1>Дикий вогонь до Групи підтримки «Warhammer»! Контакт із ворогом підтверджено — потрібне підкріплення! Потрібне підкріплення!</tsm_combat_yehuo_event.1>
+  <tsm_darkstormynight.1>Наближається гроза з блискавками.</tsm_darkstormynight.1>
+  <tsm_darkstormynight.2>Це не віщує нічого доброго. Сьогодні точно не найкращий день, щоб марнувати життя.</tsm_darkstormynight.2>
+  <tsm_darkstormynight.3>Час для справжньої дуелі стрільців!</tsm_darkstormynight.3>
+  <tsm_combat_adventists_event_tsm>Офіцер зв'язку: бойова команда TSM на місці. Щойно ви розпочнете штурм, вони координуватимуть атаку. Зверніть увагу, що фракція Адвентистів модифікувала деякі екзоскелети. Дійте обережно.</tsm_combat_adventists_event_tsm>
+  <tsm_fire_water_1>Ви відчуваєте сильну спеку за межами підводного човна, за лічені миті вкриваючись потом. Простягнувши руку, щоб торкнутися корпусу, ви відсмикуєте її — він розпечений. Може, щось там кип'ятить морську воду? \nГадаю, мені треба негайно одягнути водолазний костюм.</tsm_fire_water_1>
+  <tsm_aria_talk>Це Відділ передових операцій TSM. Ми зараз виконуємо завдання. Усьому непотрібному персоналу негайно залишити територію, інакше ми застосуємо силу.</tsm_aria_talk>
+  <!--test:航道封锁-->
+  <tsm.warming1.1>Цей навігаційний маршрут заблоковано T.S.M. Негайно змініть курс на зворотний, інакше ми розпочнемо примусове виселення!</tsm.warming1.1>
+  <tsm.warming1.2>Останнє попередження! Негайно змініть курс!</tsm.warming1.2>
+  <!--名字-->
+  <character.embi_t044y>Плакальник Землі</character.embi_t044y>
+  <character.embi_009>Чумоносець</character.embi_009>
+  <character.embi_t037a>Грозовий Дракон</character.embi_t037a>
+  <character.T037α>T037α</character.T037α>
+  <character.T044Y>T044Y</character.T044Y>
+  <character.Experiment009>Експеримент 009</character.Experiment009>
+  <character.embi_001>Експеримент 001</character.embi_001>
+  <character.embi_003>Експеримент 003</character.embi_003>
+  <character.Experiment009_bug>Плювач отрути</character.Experiment009_bug>
+  <character.巨型女妖>Гігантська Харибда</character.巨型女妖>
+  <character.huangxing>Хун Сін</character.huangxing>
+  <character.毁灭>Фрактальні близнюки — Руйнація</character.毁灭>
+  <character.破坏>Фрактальні близнюки — Саботаж</character.破坏>
+  <character.Shadowreave>Тіньовий Жнець</character.Shadowreave>
+  <character.Eclipticshadow>Тінь екліптики</character.Eclipticshadow>
+  <character.Skypiercingdolphin>Дельфін-пронизувач неба</character.Skypiercingdolphin>
+  <character.AlbinismSpineling_giant>Гігантський Спайнелінг-альбінос</character.AlbinismSpineling_giant>
+  <character.AlbinismSpineling>Спайнелінг-альбінос</character.AlbinismSpineling>
+  <character.corruptionMachinery>Зіпсована техніка</character.corruptionMachinery>
+  <character.tsm_husk_pucs>Живий Хаск</character.tsm_husk_pucs>
+  <character.tsm_husk_arm>Живий Хаск</character.tsm_husk_arm>
+  <character.tsm_beast>Бегемот</character.tsm_beast>
+  <character.tsm_portalguardian_cave>Прибиральник печер</character.tsm_portalguardian_cave>
+  <character.tsm_Guardianrepairbot>Ремонтник</character.tsm_Guardianrepairbot>
+  <character.tsm_portalguardian>Елітний вартовий</character.tsm_portalguardian>
+  <character.tsm_latcher_m>мікроскопічний Латчер</character.tsm_latcher_m>
+  <character.deadnoughtshell>Торпеда</character.deadnoughtshell>
+  <character.Vengeful_Witch>Мстива відьма</character.Vengeful_Witch>
+  <character.FractalAzureVanguard>Фрактальний лазурний авангард</character.FractalAzureVanguard>
+  <character.FractalCrimsonHarbinger>Фрактальний багряний провісник</character.FractalCrimsonHarbinger>
+  <character.Huskswordnosed>Хаск-акула-меченос</character.Huskswordnosed>
+  <character.Swordnosed>Акула-меченос</character.Swordnosed>
+  <!--恶疫-->
+  <character.boneeater>Кісткоїд</character.boneeater>
+  <character.humaneyi>Носій чуми</character.humaneyi>
+  <character.eyivariant>Варіант</character.eyivariant>
+  <character.tsm_tyrant>Тиран</character.tsm_tyrant>
+  <character.skinbreaker>Шкуролом</character.skinbreaker>
+  <character.eyibug>Кривавий черв'як</character.eyibug>
+  <character.eyihugger>Обіймач тіл</character.eyihugger>
+  <character.AlbinismMoloch>Носій плоті</character.AlbinismMoloch>
+  <character.eyinovariant>Грабіжник</character.eyinovariant>
+  <character.eyichimeras>Химера</character.eyichimeras>
+  <character.eyirunner>Тріщина</character.eyirunner>
+  <!--奇迹之海-->
+  <npctitle.corrode>Корозія</npctitle.corrode>
+  <npctitle.MobileTaskForce>Мобільна оперативна група передових бойових дій</npctitle.MobileTaskForce>
+  <npctitle.RiotSquad>Мобільний загін придушення заворушень передових бойових дій</npctitle.RiotSquad>
+  <character.Ship>HTC24 - Малахіт</character.Ship>
+  <character.Ship1>HTC24 - Малахіт</character.Ship1>
+  <character.Ship2>HTC24 - Малахіт</character.Ship2>
+  <character.Ship3>HTC24 - Малахіт</character.Ship3>
+  <character.sight>Десантний катер «Чжусяо»</character.sight>
+  <character.sight1>Десантний катер «Чжусяо»</character.sight1>
+  <character.sight2>Десантний катер «Чжусяо»</character.sight2>
+  <character.sight3>Десантний катер «Чжусяо»</character.sight3>
+  <!--降临派-->
+  <character.adventists_heavy>Важкий лідер Адвентистів</character.adventists_heavy>
+  <character.adventists>Озброєний солдат Адвентистів</character.adventists>
+  <!--ai-->
+  <charactername.tsm_mission_advanced_yunshu>Солдат T.S.M</charactername.tsm_mission_advanced_yunshu>
+  <charactername.tsm_adventists_prisoner>Полонений член Адвентистів</charactername.tsm_adventists_prisoner>
+  <!--物品-->
+  <entityname.tsm_mcrate_time1>Розкладна матерія</entityname.tsm_mcrate_time1>
+  <entitydescription.tsm_mcrate_time1>Ящик розкладної матерії з терміном придатності лише десять хвилин</entitydescription.tsm_mcrate_time1>
+  <entityname.tsm_mcrate_water1>Шкіра в ящику</entityname.tsm_mcrate_water1>
+  <entitydescription.tsm_mcrate_water1>Цілий ящик високоякісної шкіри, якщо вона намокне, то пошкодиться, будьте обережні, звичайні люди не можуть дозволити собі відшкодувати це</entitydescription.tsm_mcrate_water1>
+  <entityname.tsm_mcrate_shillok>Скарб Шилока</entityname.tsm_mcrate_shillok>
+  <entitydescription.tsm_mcrate_shillok>Кажуть, ця торбинка може містити будь-що, чому б не розкласти її й не подивитися, що можна отримати?</entitydescription.tsm_mcrate_shillok>
+  <entityname.tsm_mission_husk_box>Скринька Хаска</entityname.tsm_mission_husk_box>
+  <entityname.tsm_t037a_missionitem>Система порту мозок-комп'ютерного інтерфейсу</entityname.tsm_t037a_missionitem>
+  <entitydescription.tsm_t037a_missionitem>Предмет завдання — пристрій доктора Лінь Ханя, за допомогою якого він намагався спілкуватися з T037.</entitydescription.tsm_t037a_missionitem>
+  <entityname.tsm_t037a_missionitem>Система порту мозок-комп'ютерного інтерфейсу</entityname.tsm_t037a_missionitem>
+  <entitydescription.tsm_t037a_missionitem>Предмет завдання — пристрій доктора Лінь Ханя, за допомогою якого він намагався спілкуватися з T037.</entitydescription.tsm_t037a_missionitem>
+  <entityname.tsm_experimental_003>Сплячий піддослідний</entityname.tsm_experimental_003>
+  <entitydescription.tsm_experimental_003>Він прокинеться, щойно паралітичний агент закінчиться</entitydescription.tsm_experimental_003>
+  <entityname.mvdxe>Щелепа відьми</entityname.mvdxe>
+  <entitydescription.mvdxe>Доказ вашої перемоги над нею.</entitydescription.mvdxe>
+  <entityname.lldyj>Око T037</entityname.lldyj>
+  <entitydescription.lldyj>Доказ вашої перемоги над нею.</entitydescription.lldyj>
+  <entityname.hyddx>Отруйна залоза 009</entityname.hyddx>
+  <entitydescription.hyddx>Доказ вашої перемоги над нею.</entitydescription.hyddx>
+  <entityname.ddbm>Орган T044</entityname.ddbm>
+  <entitydescription.ddbm>Доказ вашої перемоги над нею.</entitydescription.ddbm>
+  <entityname.AlbinismSpineling>Снаряд Спайнелінга-альбіноса</entityname.AlbinismSpineling>
+  <entitydescription.AlbinismSpineling>Можна використати для виготовлення снарядів рейкгана або розібрати на сталь.</entitydescription.AlbinismSpineling>
+  <entityname.AlbinismSpineling_shell>Картечний снаряд Спайнелінга-альбіноса</entityname.AlbinismSpineling_shell>
+  <entitydescription.AlbinismSpineling_shell>Можна зарядити картеччю.</entitydescription.AlbinismSpineling_shell>
+  <entityname.tsm_shipammo_shell>Снаряд HTC24</entityname.tsm_shipammo_shell>
+  <entitydescription.tsm_shipammo_shell>Снаряд рейкгана, спеціалізований проти споруд.</entitydescription.tsm_shipammo_shell>
+  <entityname.tsm_skypiercingdolphin_meat>М'ясо дельфіна-пронизувача неба</entityname.tsm_skypiercingdolphin_meat>
+  <entitydescription.tsm_skypiercingdolphin_meat>Легко приготоване, воно свіже й ніжне — вишуканий делікатес, що довго залишається на піднебінні, його можна порівняти з королівським бенкетом. Його можна непогано продати на форпостах.</entitydescription.tsm_skypiercingdolphin_meat>
+  <entityname.tsm_skypiercingdolphin_headcone>Головний конус дельфіна-пронизувача неба</entityname.tsm_skypiercingdolphin_headcone>
+  <entitydescription.tsm_skypiercingdolphin_headcone>Дельфін-пронизувач неба розвинув надзвичайно твердий головний конус для самозахисту, який також має вирішальне значення в боротьбі за середовище існування та залученні партнерів. Його твердість така екстремальна, що жоден кухар нічого не може з ним зробити, і ніхто на форпості його не хоче. Але офіцер безпеки, якому першому спало на думку завантажити його в рейкганний завантажувач, був генієм.</entitydescription.tsm_skypiercingdolphin_headcone>
+  <entityname.tsm_skypiercingdolphin_sashimi>Сашімі з дельфіна-пронизувача неба</entityname.tsm_skypiercingdolphin_sashimi>
+  <entitydescription.tsm_skypiercingdolphin_sashimi>Преміальне м'ясо, замариноване в дріжджах, апетитне й непереборне. Найкраще загортати його у водонепроникний брезент — навіть за низької температури морської води воно псується, якщо його не спожити, марнуючи такий дорогоцінний ресурс.</entitydescription.tsm_skypiercingdolphin_sashimi>
+  <entityname.tsm_eclipticshadow_blood>Лазурна плазма</entityname.tsm_eclipticshadow_blood>
+  <entitydescription.tsm_eclipticshadow_blood>Рідкісна плазма, зібрана з Тіні екліптики, що слабко світиться в темряві. Це цінний лікарський інгредієнт, який можна екстрагувати за допомогою медичного фабрикатора. Пряме застосування не рекомендується, оскільки може спричинити параліч м'язів.</entitydescription.tsm_eclipticshadow_blood>
+  <entityname.tsm_eclipticshadow_stabilozine>Лазурний екстрагований терапевтичний засіб</entityname.tsm_eclipticshadow_stabilozine>
+  <entitydescription.tsm_eclipticshadow_stabilozine>Концентрований компонент, видобутий із крові Тіні екліптики, що має значний детоксикаційний ефект. Однак неправильне використання може призвести до паралічу.</entitydescription.tsm_eclipticshadow_stabilozine>
+  <entityname.tsm_eclipticshadow_water>Лазурна газована вода «Настрій»</entityname.tsm_eclipticshadow_water>
+  <entitydescription.tsm_eclipticshadow_water>«Нехай ніжні бульбашки лопаються на ваших смакових рецепторах! Кожен ковток — це психічна йога після навігації!» У списку інгредієнтів зазначено, що вона містить 2% екстракту рідкісної крові Тіні екліптики — але будьмо чесними, це лише штучні добавки й рекламні трюки.</entitydescription.tsm_eclipticshadow_water>
+  <entityname.tsm_alienpistol_blue_broken>Зламаний фрактальний швидкострільний лазерний пістолет</entityname.tsm_alienpistol_blue_broken>
+  <entitydescription.tsm_alienpistol_blue_broken>Зброя інопланетної механіки, але вона пошкоджена й не принесе хорошої ціни — хоча при розбиранні може дати цінні матеріали.</entitydescription.tsm_alienpistol_blue_broken>
+  <entityname.tsm_alienpistol_red_broken>Зламаний фрактальний лазерний пістолет із відсічкою</entityname.tsm_alienpistol_red_broken>
+  <entitydescription.tsm_alienpistol_red_broken>Зброя інопланетної механіки, але вона пошкоджена й не принесе хорошої ціни — хоча при розбиранні може дати цінні матеріали.</entitydescription.tsm_alienpistol_red_broken>
+  <entityname.tsm_guardianhookcannon_lancher_broken>Зламаний фрактальний гранатомет</entityname.tsm_guardianhookcannon_lancher_broken>
+  <entitydescription.tsm_guardianhookcannon_lancher_broken>Зброя інопланетної механіки, але вона пошкоджена й не принесе хорошої ціни — хоча при розбиранні може дати цінні матеріали.</entitydescription.tsm_guardianhookcannon_lancher_broken>
+  <entityname.tsm_guardianhookcannon_d_broken>Зламана фрактальна ланцюгова молотова гармата</entityname.tsm_guardianhookcannon_d_broken>
+  <entitydescription.tsm_guardianhookcannon_d_broken>Зброя інопланетної механіки, але вона пошкоджена й не принесе хорошої ціни — хоча при розбиранні може дати цінні матеріали.</entitydescription.tsm_guardianhookcannon_d_broken>
+  <!--怪物用/跳帮人员武器&服装-->
+  <entityname.tsm_map_suit_ai>Військовий передовий захисний костюм</entityname.tsm_map_suit_ai>
+  <entitydescription.tsm_map_suit_ai>Цей костюм було пошкоджено в бою, і багато його функцій вийшли з ладу.</entitydescription.tsm_map_suit_ai>
+  <entityname.tsm_rap_suit_ai>Захисний костюм придушувача заворушень</entityname.tsm_rap_suit_ai>
+  <entitydescription.tsm_rap_suit_ai>Цей костюм було пошкоджено в бою, і багато його функцій вийшли з ладу.</entitydescription.tsm_rap_suit_ai>
+  <entityname.tsm_rz_pirent_ai>Модель «Войовничий зломщик»</entityname.tsm_rz_pirent_ai>
+  <entitydescription.tsm_rz_pirent_ai>Цей екзоскелет було пошкоджено в бою, і багато його функцій вийшли з ладу.</entitydescription.tsm_rz_pirent_ai>
+  <entityname.tsm_rz_3a_ai>Войовничий тип 3A</entityname.tsm_rz_3a_ai>
+  <entitydescription.tsm_rz_3a_ai>Цей екзоскелет було пошкоджено в бою, і багато його функцій вийшли з ладу.</entitydescription.tsm_rz_3a_ai>
+</infotexts>
