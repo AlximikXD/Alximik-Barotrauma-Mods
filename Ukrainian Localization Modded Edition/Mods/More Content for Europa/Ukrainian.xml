@@ -1,0 +1,1119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Ukrainian" nowhitespace="false" translatedname="Українська">
+  <eventtext.UFO_GALLIMUX.c1>До вас підходить якийсь тип, мабуть, хоче про щось запитати: \n\n«Привіт, я UFO GALLIMUX, або принаймні так я сам себе називаю. Ви любите мадраптори?».\n</eventtext.UFO_GALLIMUX.c1>
+  <eventtext.UFO_GALLIMUX.o1>Що це за питання?</eventtext.UFO_GALLIMUX.o1>
+  <eventtext.UFO_GALLIMUX.o1.c1>Тут мене не хочуть через мого незвичайного улюбленця, але якщо візьмете мене з собою, я працюватиму над артилерією вашого корабля. Вас це влаштовує?</eventtext.UFO_GALLIMUX.o1.c1>
+  <eventtext.UFO_GALLIMUX.o1.o1>Чудово, якщо ви тримаєте свого улюбленця під контролем, тоді все гаразд.</eventtext.UFO_GALLIMUX.o1.o1>
+  <eventtext.UFO_GALLIMUX.o1.o1.c1>Щиро дякую! Ви не пошкодуєте.</eventtext.UFO_GALLIMUX.o1.o1.c1>
+  <eventtext.UFO_GALLIMUX.o1.o2>Не хочу монстрів на своєму кораблі!</eventtext.UFO_GALLIMUX.o1.o2>
+  <eventtext.UFO_GALLIMUX.o1.o2.c1>Ви багато втрачаєте, ідіоте!</eventtext.UFO_GALLIMUX.o1.o2.c1>
+  <eventtext.UFO_GALLIMUX.o2>Відчепіться від мене!</eventtext.UFO_GALLIMUX.o2>
+  <eventtext.UFO_GALLIMUX.o2.c1>Я пішов.</eventtext.UFO_GALLIMUX.o2.c1>
+  <eventtext.Hatsumaru.c0>Гей! Ви, здається, цілком здатні на це. Мене звати Hatsumaru, я інженер і ремонтник станцій-маяків. Мені потрібна ваша допомога в місії. Вас це цікавить?</eventtext.Hatsumaru.c0>
+  <eventtext.Hatsumaru.o0>Слухаю вас.</eventtext.Hatsumaru.o0>
+  <eventtext.Hatsumaru.o1>Я зайнятий!</eventtext.Hatsumaru.o1>
+  <eventtext.Hatsumaru.o1.c1>Нещодавно, коли я обслуговував маяк, його сонар виявив орду монстрів, що наближалася до цього місця. Начальник цього місця пообіцяв гарну плату за їхнє знищення, але я лише інженер без належного спорядження. А ось у вас є екіпаж, готовий до таких подій.</eventtext.Hatsumaru.o1.c1>
+  <eventtext.Hatsumaru.o1.c2>Вибачте за незручності.</eventtext.Hatsumaru.o1.c2>
+  <eventtext.Hatsumaru.o1.o1>Я розумію, до чого це йде. Сподіваюся на гарну плату.</eventtext.Hatsumaru.o1.o1>
+  <eventtext.Hatsumaru.o1.o2>Здається, це дуже небезпечна місія. Знайдіть когось іншого.</eventtext.Hatsumaru.o1.o2>
+  <eventtext.Hatsumaru.o1.o2.c1>Чудово! Я піду з вами, зі своїми навичками я неодмінно стану вам у пригоді.</eventtext.Hatsumaru.o1.o2.c1>
+  <eventtext.Hatsumaru.o1.o2.c2>Гаразд, гарного дня.</eventtext.Hatsumaru.o1.o2.c2>
+  <missionname.hatsumarumission1>Виявлено небезпечну орду.</missionname.hatsumarumission1>
+  <missionheader0.hatsumarumission1>Цілі ліквідовано.</missionheader0.hatsumarumission1>
+  <missiondescription.hatsumarumission1>Інженер Hatsumaru виявив величезну орду, що прямує до цієї станції. Вам добре заплатять за знищення всієї цієї групи тварин.</missiondescription.hatsumarumission1>
+  <missionmessage1.hatsumarumission1>Цілі, виявлені сонаром, ліквідовано. Час забирати винагороду.</missionmessage1.hatsumarumission1>
+  <eventtext.Hunter.c0>Той загадковий механік повільно підходить до вас. \n\n«Гей, як гадаєте, ви можете позичити мені грошей, щоб заплатити лікарю? Натомість я розповім, чому я в клініці. Це буде лише 50 монет».\n</eventtext.Hunter.c0>
+  <eventtext.Hunter.o0>Ваша історія має бути цікавою.</eventtext.Hunter.o0>
+  <eventtext.Hunter.o1>ХА! Геть звідси, жебраку.</eventtext.Hunter.o1>
+  <eventtext.Hunter.o1.c1>Передусім, мене звати Hunter. Я єдиний, хто вижив після гірничої експедиції. Ми пливли, аж поки не побачили розбитий підводний човен. Капітан вирішив підплисти ближче й… яке жахливе рішення. Саме там і почалася катастрофа.</eventtext.Hunter.o1.c1>
+  <eventtext.Hunter.o1.c2>Яке хамство! Ви багато втрачаєте, грубіяне.</eventtext.Hunter.o1.c2>
+  <eventtext.Hunter.o1.o1>Дайте вгадаю! Їх там чекали мадраптори.</eventtext.Hunter.o1.o1>
+  <eventtext.Hunter.o1.o2>Дайте вгадаю! Їх там чекали краулери.</eventtext.Hunter.o1.o2>
+  <eventtext.Hunter.o1.o1.c1>Ех, те, що ви кажете, було б ще краще. Проте там було щось гірше: з покинутого підводного човна розгорнулися якісь щупальця, які не дали нам утекти, а з щупалець вийшли якісь червоні створіння й почали нападати на екіпаж. Мені вдалося втекти в одному з аварійних шатлів, хоч і поранений: одна з тих тварюк зачепила мою руку, і вона сильно оніміла.</eventtext.Hunter.o1.o1.c1>
+  <eventtext.Hunter.o1.o1.o1>Дуже моторошна історія.</eventtext.Hunter.o1.o1.o1>
+  <eventtext.Hunter.o1.o1.o1.c1>Правда ваша. Хочете вирушити туди? Закладаюся, за вбивство тієї «штуки», що на нас напала, заплатили добре.</eventtext.Hunter.o1.o1.o1.c1>
+  <eventtext.Hunter.o1.o1.o1.o1>Живемо лише раз, до того ж мені цікаво вбити ту «штуку», що їх прикінчила.</eventtext.Hunter.o1.o1.o1.o1>
+  <eventtext.Hunter.o1.o1.o1.o2>Ви щойно сказали, що ледь не загинули там, а хочете, щоб я пішов з вами! Шукайте когось іншого для своєї самогубної місії.</eventtext.Hunter.o1.o1.o1.o2>
+  <eventtext.Hunter.o1.o1.o1.o1.c1>Чудово! Тепер ми команда. Я піду з вами на «самогубну місію». До зустрічі на підводному човні, друже.</eventtext.Hunter.o1.o1.o1.o1.c1>
+  <eventtext.Hunter.o1.o1.o1.o1.c2>Гей! Я думав, ми вже партнери. Та байдуже, за лікарняний рахунок заплатить Бог. До зустрічі.</eventtext.Hunter.o1.o1.o1.o1.c2>
+  <missionname.huntermission1>Таємнича «штука».</missionname.huntermission1>
+  <missionheader0.huntermission1>«Штука» мертва, ми помстилися за всіх моряків, яких вона вбила.</missionheader0.huntermission1>
+  <missiondescription.huntermission1>Хлопець на ім'я Hunter розповів нам про «штуку», що живе всередині уламків корабля й потопила його колишній екіпаж. Нам добре заплатять за її вбивство.</missiondescription.huntermission1>
+  <missionmessage1.huntermission1>Самовпевнена «штука» мертва. Вирушайте до найближчого форпосту по винагороду.</missionmessage1.huntermission1>
+  <!--Reiss-->
+  <npctitle.Reiss>Детектив Коаліції</npctitle.Reiss>
+  <npctitle.Rita_prisoner>Шпигунка Коаліції</npctitle.Rita_prisoner>
+  <npctitle.Rita>Шпигунка Коаліції</npctitle.Rita>
+  <npctitle.Fiery>Солдат Коаліції</npctitle.Fiery>
+  <npctitle.Lucapoke>Солдат Коаліції</npctitle.Lucapoke>
+  <npctitle.Havel>Солдат Коаліції</npctitle.Havel>
+  <npctitle.Rebel>«Rebel»</npctitle.Rebel>
+  <jobname.MCFE_CoalitionSoldiers>Солдат Коаліції</jobname.MCFE_CoalitionSoldiers>
+  <jobdescription.MCFE_CoalitionSoldiers>Елітна піхота, що залучається до операцій із умиротворення та масштабних боїв. Це збройне крило Коаліції, навчене підтримувати порядок у глибинах і виконувати першочергові місії, де дипломатія зазнала невдачі.</jobdescription.MCFE_CoalitionSoldiers>
+  <locationname.RebelBase>Форпост Rakeron</locationname.RebelBase>
+  <locationdescription.RebelBase>Привидний анклав, стертий з усіх офіційних записів Коаліції. Розвідувальні дані свідчать, що ця чорна діра на карті — прихисток Tyr Rakeron.</locationdescription.RebelBase>
+  <RebelBase_Diary_1>«Сьогодні вирішальний день для командира; зустріч у конференц-залі, схоже, надзвичайно важлива. Мені до смерті хочеться бути там і почути, як вони планують вдарити по Коаліції, але мене не пустили. Я навіть не міг спробувати прокрастися: камери контролюються з кабінету адміністратора, а точка доступу прямо там. Увійти непоміченим неможливо».</RebelBase_Diary_1>
+  <RebelBase_Diary_2>«Який підводний човен ми сховали. Схоже, командир Tyr планує використати його для прямої атаки на Коаліцію, але яку ж технологію вони могли мати, щоб збудувати його в цьому надсекретному об'єкті? Як би там не було, я мушу стримувати бажання піднятися на його борт… рано чи пізно час настане. Зрештою, я лише солдат, що чекає наказів».</RebelBase_Diary_2>
+  <RebelBase_Console>Двері відчиняються з іншого боку.</RebelBase_Console>
+  <RebelBase_meetingroom>Зал нарад</RebelBase_meetingroom>
+  <!--ReissChapter1-->
+  <missionname.reissmission1>Полювання на шпигунів.</missionname.reissmission1>
+  <missionheader0.reissmission1>Шпигуни мертві, прокляті сепаратистські пси.</missionheader0.reissmission1>
+  <missiondescription.reissmission1>Детектив Reiss заплатив нам за ліквідацію цих трьох сепаратистів за витік документів Коаліції.</missiondescription.reissmission1>
+  <missionmessage1.reissmission1>Троє шпигунів, яких призначив вам Reiss, мертві. Час забрати винагороду.</missionmessage1.reissmission1>
+  <missionsonarlabel.reissmission1>Шпигун-сепаратист.</missionsonarlabel.reissmission1>
+  <eventtext.Reiss.c0>Чоловік в бездоганному вбранні перегороджує вам шлях. Він оглядає ваше спорядження й киває.\n\n«Схоже, я нарешті знайшов потрібний профіль».</eventtext.Reiss.c0>
+  <eventtext.Reiss.o0>А хто ви такий?</eventtext.Reiss.o0>
+  <eventtext.Reiss.o1.c1>Я детектив Reiss із Коаліції. Скажу прямо: я вистежував трьох шпигунів-сепаратистів, але вони виявили мене й забарикадувалися на найближчій станції. Мені потрібно, щоб ви ліквідували їх остаточно. Оплата буде чудова.</eventtext.Reiss.o1.c1>
+  <eventtext.Reiss.o1.o1>А чому б вам самому не виконати свою брудну роботу?</eventtext.Reiss.o1.o1>
+  <eventtext.Reiss.o1.o1.c1>Вони вже знають моє обличчя; якщо я з'явлюся біля причалу, вони відкриють вогонь, не давши мені й слова сказати. А ви — нове обличчя. Цікаво? Я кажу про чотиризначну суму за цю «послугу».</eventtext.Reiss.o1.o1.c1>
+  <eventtext.Reiss.o1.o1.o1>За таку суму рахуйте мене. Вважайте, що зроблено.</eventtext.Reiss.o1.o1.o1>
+  <eventtext.Reiss.o1.o1.o2>Шукайте іншого найманця прибирати за собою, офіцере. Мене це не цікавить.</eventtext.Reiss.o1.o1.o2>
+  <eventtext.Reiss.o1.o1.o1.c1>Я знав, що ви прагматик. Я зв'яжуся з вами по радіо, щойно ви пристикуєтеся до місця.</eventtext.Reiss.o1.o1.o1.c1>
+  <eventtext.Reiss.o1.o1.o1.c2>Яка марна трата часу. Ви менш відважні, ніж здаєтеся.</eventtext.Reiss.o1.o1.o1.c2>
+  <eventtext.Reissradio.o0>Перевірка… сигнал встановлено. Бачу, ви вже на форпості. Пам'ятайте: цілей троє. Використовуйте сонар підводного човна, щоб відстежити їхні теплові сигнатури, або візьміть портативний сонар, якщо підете станцією пішки. Не дайте їм утекти.</eventtext.Reissradio.o0>
+  <eventtext.Reissradio.o1>Цілі нейтралізовано. Коли ці неакуратні кінці прибрано, інформація Коаліції в безпеці. Тримайтеся поруч, незабаром ваші послуги можуть знову знадобитися.</eventtext.Reissradio.o1>
+  <!--ReissChapter2-->
+  <missionname.reissmission2>Друг Reiss.</missionname.reissmission2>
+  <missionheader0.reissmission2>Вам вдалося врятувати Rita живою.</missionheader0.reissmission2>
+  <missionmessage0.reissmission2>Місію виконано, тікаймо з цього смердючого місця.</missionmessage0.reissmission2>
+  <missiondescription.reissmission2>Детектив Reiss доручив нам нову ризиковану місію: врятувати ключову союзницю Коаліції, яка зникла на території сепаратистів, охороняючи життєво важливу інформацію. Щоб забезпечити її повернення будь-якою ціною, Reiss дозволив нам діяти вільно й надав спеціальну зброю для допомоги в успіху операції.</missiondescription.reissmission2>
+  <missionsuccess.reissmission2>Подругу Reiss, Rita McGlur, успішно врятовано. Коаліція та Reiss будуть вам цілком вдячні за вашу перемогу.</missionsuccess.reissmission2>
+  <failuremessage.reissmission2>Подруга Reiss, Rita McGlur, загинула; ви провалили місію та наразили Коаліцію на небезпеку.</failuremessage.reissmission2>
+  <missionsonarlabel.reissmission2>Друг Reiss.</missionsonarlabel.reissmission2>
+  <prisonerkilled.reissmission2>Місію провалено: подруга Reiss загинула.</prisonerkilled.reissmission2>
+  <eventtext.Rita.c0>Ви рятувальна команда? Я так і подумала: ви не схожі на цих повстанців. Добре, рухайтеся; я піду за вами. Тікаймо звідси, поки нас не знайшли.</eventtext.Rita.c0>
+  <eventtext.Reiss2.c0>Ну-ну! Якщо це не той, хто вижив минулого разу. Як справи? У мене нова ризикована робота… і нагорода буде такою ж високою.</eventtext.Reiss2.c0>
+  <eventtext.Reiss2.o0>Детективе Reiss… я ледь вижив після останньої послуги, яку зробив для вас. Яке божевілля ви придумали цього разу?</eventtext.Reiss2.o0>
+  <eventtext.Reiss2.o1.c1>Ви ж вижили, чи не так? Це головне. Слухайте: близька подруга зникла, стежачи за базою сепаратистів. Вона мала ключові дані, і мені потрібно, щоб ви витягли її з тієї діри, неважливо як — аби вона повернулася живою. Для людини з вашою відвагою це має бути проста справа.</eventtext.Reiss2.o1.c1>
+  <eventtext.Reiss2.o1.o1>Це звучить самогубно! Якщо ви очікуєте, що я піду туди, то хоч надайте необхідне спорядження.</eventtext.Reiss2.o1.o1>
+  <eventtext.Reiss2.o1.o1.c1>Саме це я й мав на увазі. Візьміть цей експериментальний пристрій; він безшумний і ідеально підходить для виведення цілей з ладу, не сполошивши всю базу. Використовуйте його з розумом, пріоритезуйте цілі й витягніть цю жінку звідти.</eventtext.Reiss2.o1.o1.c1>
+  <eventtext.Reiss2.o1.o1.o1>Ці кредити мають того вартувати, Reiss. Вирушаю зараз.</eventtext.Reiss2.o1.o1.o1>
+  <eventtext.Reiss2.o1.o1.o2>Вибачте, детективе, але це занадто навіть для мене. Без мене.</eventtext.Reiss2.o1.o1.o2>
+  <eventtext.Reiss2.o1.o1.o1.c1>Ось це діло. Коаліція вміє винагороджувати тих, хто виконує. Візьміть зброю й не помріть там.</eventtext.Reiss2.o1.o1.o1.c1>
+  <eventtext.Reiss2.o1.o1.o1.c2>Яке розчарування… Я думав, вам не байдужі гроші. Геть звідси; я знайду когось сміливішого.</eventtext.Reiss2.o1.o1.o1.c2>
+  <!--ReissChapter3-->
+  <missionname.reissmission3>Штурм бази Rakeron</missionname.reissmission3>
+  <missionheader0.reissmission3>Ви ліквідували всіх сепаратистів на станції, це була жахлива різанина.</missionheader0.reissmission3>
+  <missiondescription.reissmission3>Після порятунку Rita вона надала нам місцезнаходження впливового лідера сепаратистів; його голова значиться в списку найрозшукуваніших Коаліції, і Reiss дав вам шанс схопити його. Ліквідуйте всіх сепаратистів у секторі [location1] і знайдіть Tyr Rakeron, на прізвисько «Rebel».</missiondescription.reissmission3>
+  <missionmessage1.reissmission3>Усі сепаратисти мертві, але щось не так…</missionmessage1.reissmission3>
+  <missionsonarlabel.reissmission3>Сепаратисти.</missionsonarlabel.reissmission3>
+  <eventtext.SeparatistsRadio.o0>Що?! Корабель Коаліції щойно пристикувався тут?! Увага всім підрозділам, у нас порушники!</eventtext.SeparatistsRadio.o0>
+  <eventtext.WhereisRebel.o0>Місію виконано… або так я думав. Я перевірив обличчя, і ніде немає й сліду «Rebel». Я ще не можу піти; той боягуз, мабуть, ховається в якійсь кімнаті цієї діри. Я мушу знайти його, поки він не знайшов вихід.</eventtext.WhereisRebel.o0>
+  <eventtext.WhereisRebel.o1>Ви помічаєте підводний човен, що тікає з тилу станції. \n\n «Прокляття! Це він! Tyr тікає на рятувальному підводному апараті! Припиніть пошуки й негайно повертайтеся на корабель, якщо не хочемо втратити його слід!»</eventtext.WhereisRebel.o1>
+  <eventtext.Reiss3.c0>Ну, якщо це не найцінніший актив Коаліції! Хлопче, порятунок Rita дав нам місцезнаходження великої риби в опорі. Бачу, ви вмієте користуватися тими паралітиками… але тепер мені потрібен капітан для масштабної операції. Берете участь? Нагорода за його голову — повністю ваша</eventtext.Reiss3.c0>
+  <eventtext.Reiss3.o0>Детективе Reiss… на цьому етапі, чи є в мене вибір?</eventtext.Reiss3.o0>
+  <eventtext.Reiss3.o1.c1>Ось це діло! Ціль — Tyr Rakeron, на прізвисько «Rebel». Іронічно, чи не так? Але його смуга закінчується під вашим командуванням. «Господар» зустрінеться на найближчій станції; наші джерела кажуть, що він планує партизанське розгортання проти однієї з наших передових баз.</eventtext.Reiss3.o1.c1>
+  <eventtext.Reiss3.o1.o1>Партизани? Це означає, що він буде не сам… з ним буде важке обладнання.</eventtext.Reiss3.o1.o1>
+  <eventtext.Reiss3.o1.o1.c1>Проникливі, як завжди. Але ви не підете наосліп; ці люди Коаліції зголосилися йти за вами. Дбайте про них, лейтенанте; після повернення на вас чекають підвищення й статок.</eventtext.Reiss3.o1.o1.c1>
+  <eventtext.Ritatalk2.c0>Гей, ви! Ви ледь не пішли, не давши мені подякувати за те, що витягли мене з тієї діри. Візьміть це; воно стане вам у пригоді більше, ніж мені на пляжному шезлонгу. Я вже виконала свою квоту пострілів на цей рік, їду у відпустку.</eventtext.Ritatalk2.c0>
+  <eventtext.Ritatalk2.o0>Ого… вражаюча штука. Дякую, Rita. Вона стане в пригоді в тому, що попереду.</eventtext.Ritatalk2.o0>
+  <eventtext.Ritatalk2.o1.c1>Ні, це вам дякую. Якби ви не з'явилися, я б зараз була обідом для фангораптора. Не дозволяйте Reiss вичавити вас надто сильно… і повертайтеся цілим, солдате.</eventtext.Ritatalk2.o1.c1>
+  <eventtext.Soldiertalk.c0>Троє солдатів обмінюються здивованими поглядами, осмислюючи щойно отримані накази.\n\n Havel: «Ну… схоже, тепер ми під вашим командуванням. Сподіваюся, довіра Reiss до вас обернеться добрими результатами, коли почнуть літати кулі». \n\n Lucapoke: «Серйозно? Ви тут віддаєте нам накази? Я вступав до Коаліції не для того, щоб опинитися в самогубній місії під проводом цивільного». \n\n Fiery: «Мовчи, Luca, і дай йому шанс. Ми вибиралися з гірших дір, ніж ця». \n\n Lucapoke: «Ага, звісно… Але якщо вже помирати, мені б не завадило кілька кружок пива перед відплиттям».</eventtext.Soldiertalk.c0>
+  <eventtext.Soldiertalk.o0>«Вільно, солдати. Це не перше «самогубство», на яке мене посилає Reiss, і не останнє. Мій пріоритет — щоб усі повернулися додому цілими».</eventtext.Soldiertalk.o0>
+  <eventtext.Soldiertalk.o1.c1>Атмосфера помітно розряджається. Солдати киваючи визнають вашу владу з новою повагою.</eventtext.Soldiertalk.o1.c1>
+  <!--ReissChapter4-->
+  <missionname.reissmission4>Полювання на Rakeron.</missionname.reissmission4>
+  <missiontypedescription.reissmission4>Tyr Rakeron, клятий «Rebel», вислизнув у нас крізь пальці під час штурму, але далеко він не втече. Ми маємо перехопити його підводний апарат, поки він не дістався глибоких вод і не зник з радара. Зараз або ніколи.</missiontypedescription.reissmission4>
+  <missionsonarlabel.reissmission4>Рятувальний підводний човен: «Rebel»</missionsonarlabel.reissmission4>
+  <missionmessage0.reissmission4>«Невже ви, фашистські пси, не знаєте, коли здаватися? Погоня за мною так далеко стала вашою останньою помилкою. Насолоджуйтесь тиском… ваші тіла опиняться розчавленими на дні безодні».</missionmessage0.reissmission4>
+  <missionmessage1.reissmission4>Критичне влучання підтверджено! Tyr Rakeron нарешті впав на дно Європи.</missionmessage1.reissmission4>
+  <missionheader0.reissmission4>РАДІО — КАНАЛ СЕПАРАТИСТІВ:</missionheader0.reissmission4>
+  <missionheader1.reissmission4>Хай живе Коаліція…</missionheader1.reissmission4>
+  <missionsuccess.reissmission4>Місію виконано. Ви ліквідували «Rebel» і відтяли голову повстанню в цьому секторі. Винагороду за його страту переказано на ваш рахунок. Гарна робота, капітане.</missionsuccess.reissmission4>
+  <failuremessage.reissmission4>Ціль втрачено. Підводний човен Rakeron зник у тінях безодні. Коаліція не забуде вашої нездарності; ви дозволили втекти найрозшукуванішій людині в регіоні.</failuremessage.reissmission4>
+  <eventtext.Fiery.c0>Ось і все, капітане! Ми це зробили… Tyr тепер історія. Погляньте на обличчя Luca, він досі не вірить, що ми цілі. Гнатися за тим підводним човном було пеклом, але воно того варте. До речі, сер… не думайте, що так легко позбудетеся мене; мені сподобалося, як ви командуєте. Якщо приймете мене, я залишуся у вашому екіпажі; я завжди хотів побачити світ через перископ.</eventtext.Fiery.c0>
+  <eventtext.Lucapoke.c0>Ну-ну… Місію виконано, і я ще дихаю. Мабуть, мені доведеться забрати свої слова назад: я помилявся, недооцінюючи вас, Босе. Ось, випийте цього пива; воно дуже добре. За цю перемогу… і за ті, що будуть під вашим командуванням.</eventtext.Lucapoke.c0>
+  <eventtext.Havel.c0>Я не очікував, що в сепаратистів буде такий важкий корабель; ми вибралися звідти на волосині. Тепер я цілком розумію, чому Reiss довірив цей контракт вам, а не комусь зі своїх офіцерів. Відмінна робота, сер. Розраховуйте на мою зброю для будь-якого іншого божевілля, що ви надумаєте.</eventtext.Havel.c0>
+  <!--ReissChapterFinal-->
+  <eventtext.Reiss4.c0>Новини швидко поширюються через сонар, хлопче. Тепер це офіційно: Tyr Rakeron — історія. Я радий підтвердити, що наша тодішня зустріч була не простим збігом… у вас інстинкт, який не купиш за кредити. Вас чекає світле майбутнє; Коаліція не забуде вашої служби, і я певен, ті солдати теж не забудуть, хто повернув їх додому.</eventtext.Reiss4.c0>
+  <eventtext.Reiss4.o0>Детективе Reiss… не буду брехати, були моменти, коли я думав, що не впораюся. Але після всього ці місії стали найкращим бойовим тренуванням, про яке я міг просити.</eventtext.Reiss4.o0>
+  <eventtext.Reiss4.o1.c1>Можете повторити, мій дорогий. Небезпека має таку властивість — шліфувати талант. Та й годі, не відбиратиму більше вашого навігаційного часу; безодня безмежна, і нові маршрути чекають на вас. Успіхів у ваших пригодах. Не сумніваюся, що ще почую ваше ім'я, якщо ви й далі звершуватимете подвиги такого калібру. До наступного разу, капітане.</eventtext.Reiss4.o1.c1>
+  <!--Reiss-->
+  <missionname.andersongmission1>Термінова доставка.</missionname.andersongmission1>
+  <missionheader0.andersongmission1>Доктор Andersong вільний і тепер може працювати з нами.</missionheader0.andersongmission1>
+  <missiondescription.andersongmission1>Лікар, який називає себе «Andersong», попросив нас привезти йому цю термінову посилку. Він сказав, що цим сплатить свій борг і віддасть нам частину виручки за те, що допомогли йому вибратися з цієї халепи.</missiondescription.andersongmission1>
+  <missionmessage1.andersongmission1>Andersong більше нічого не винен людям, з якими раніше працював, і тепер може стати частиною команди.</missionmessage1.andersongmission1>
+  <eventtext.Andersong.c0>Привіт, це ваш підводний човен щойно прибув, так?\n\n Будь ласка, мені потрібна ваша допомога!\n  </eventtext.Andersong.c0>
+  <eventtext.Andersong.o0>Хто ви такий? Яка допомога?</eventtext.Andersong.o0>
+  <eventtext.Andersong.o1>Геть з очей моїх, божевільний! Ідіть просіть допомоги в своєї мами.</eventtext.Andersong.o1>
+  <eventtext.Andersong.o1.c1>Послухайте мене! Мені потрібно доставити вантаж на наступний форпост через непогашений борг перед поганими людьми. Вони заплатять мені великі гроші, але в мене немає транспорту, і якщо я скоро не доставлю його їм, ці люди мене вб'ють. Будь ласка! Прийміть замовлення! Я працюватиму на вас і ще віддам вам частину оплати. </eventtext.Andersong.o1.c1>
+  <eventtext.Andersong.o1.c2>Кого ви називаєте божевільною егоїстичною свинею?!</eventtext.Andersong.o1.c2>
+  <eventtext.Andersong.o1.o1>Заспокойтеся, я допоможу вам і сподіваюся, що винагорода буде гарною.</eventtext.Andersong.o1.o1>
+  <eventtext.Andersong.o1.o2>Погані люди? Несіть свої історії кудись інде!</eventtext.Andersong.o1.o2>
+  <eventtext.Andersong.o1.o2.c1>Щиро дякую! Ви врятували мені життя! Я буду добрим лікарем у вашому екіпажі.</eventtext.Andersong.o1.o2.c1>
+  <eventtext.Andersong.o1.o2.c2>Ганьба! Ніхто в цьому жалюгідному місці не хоче допомогти! Так це не залишиться!</eventtext.Andersong.o1.o2.c2>
+  <!-- Workersindicatos-->
+  <missionname.Workers>Бунтівна профспілка.</missionname.Workers>
+  <missiontypedescription.Workers>Лідер профспілки, а нині пірат на ім'я David Буканьєр, завдав проблем усім фракціям Європи. Схоже, ніхто не сумуватиме за ним, коли ви потопите «Wandering Crawler» — його відомий корабель.</missiontypedescription.Workers>
+  <missionsonarlabel.Workers>Wandering Crawler</missionsonarlabel.Workers>
+  <missionmessage0.Workers>Убийте профспілківців або відправте підводний човен на дно моря!</missionmessage0.Workers>
+  <missionmessage1.Workers>Відведіть підводний човен до [location2], щоб забрати винагороду.</missionmessage1.Workers>
+  <missionheader0.Workers>Бунтівна профспілка.</missionheader0.Workers>
+  <missionheader1.Workers>Прощавайте, профспілківці.</missionheader1.Workers>
+  <eventtext.Davidradio.o0>Ще один пес Коаліції?! Мені було б приємно прикрасити свою стіну вашою ідіотською головою.</eventtext.Davidradio.o0>
+  <!-- Workersindicatos Sujely-->
+  <eventtext.Sujely.c0>До вас підходить статна жіноча постать.\n\n Хочете зробити людству послугу?\n</eventtext.Sujely.c0>
+  <eventtext.Sujely.o0>Що за «послугу»?</eventtext.Sujely.o0>
+  <eventtext.Sujely.o1.c1>Чудово! Я привернула вашу увагу. Мені потрібно, щоб ви вбили одного типа, він називає себе «David Буканьєр». Колись він був старим механіком і створив профспілку. Оскільки ніхто не зважав на його абсурдні вимоги, він украв Dugong, який назвав «Wandering Crawler». Відтоді він лише завдає проблем усім фракціям без розбору. Закладаюся, навіть ті сепаратистські пси хотіли б бачити його мертвим.</eventtext.Sujely.o1.c1>
+  <eventtext.Sujely.o1.o1>Ця «послуга» звучить складніше, ніж здається. Ви просите мене вистежити людину та її екіпаж.</eventtext.Sujely.o1.o1>
+  <eventtext.Sujely.o1.o1.c1>Заспокойтеся, солдате, звісно, вам добре заплатять за те, що потопите його в глибинах Європи. То що, беретеся за місію?</eventtext.Sujely.o1.o1.c1>
+  <eventtext.Sujely.o1.o1.o1>Приймаю місію, немає нічого кращого, ніж потопити кількох профспілкових.</eventtext.Sujely.o1.o1.o1>
+  <eventtext.Sujely.o1.o1.o2>Правду кажучи, мене це не цікавить.</eventtext.Sujely.o1.o1.o2>
+  <eventtext.Sujely.o1.o1.o1.c1>Чудово, солдате! Я залишу координати завантаженими на вашому кораблі. Коли я піднімуся на борт підводного човна цих псів, передайте від мене привіт їхньому юнзі на ім'я Santiago кулею в лоба. А я лейтенант Sujely з Коаліції. Успіхів, солдате.</eventtext.Sujely.o1.o1.o1.c1>
+  <eventtext.Sujely.o1.o1.o1.c2>Ха! Тепер у Коаліції залишилися самі чисті боягузи.</eventtext.Sujely.o1.o1.o1.c2>
+  <!-- Fabrizio Valderrama-->
+  <eventtext.Fabrizio.c0>Ви бачите чоловіка з мукою на обличчі.\n\n Чого ти, до біса, витріщаєшся?\n</eventtext.Fabrizio.c0>
+  <eventtext.Fabrizio.o0>У вас стурбоване обличчя, чоловіче. Наче ви побачили латчера ззовні свого підводного човна.</eventtext.Fabrizio.o0>
+  <eventtext.Fabrizio.o1.c1>Не смішіть мене. Бувають жахи гірші за латчера, і те, що пережив я, зробила людина. Ті мерзенні члени Церкви Хаска вчинили найбільший теракт, який я будь-коли бачив.</eventtext.Fabrizio.o1.c1>
+  <eventtext.Fabrizio.o1.o1>Що саме сталося?</eventtext.Fabrizio.o1.o1>
+  <eventtext.Fabrizio.o1.o1.c1>Єдине, що я побачив, — вони прибули на форпост, де я жив, і почали стріляти в усіх шприцами з паразитом, який так люблять. Мені пощастило втекти, але, здається, я був єдиним. Найгірше те, що вони зуміли видати все за інцидент із нападом місцевої фауни й замели сліди.</eventtext.Fabrizio.o1.o1.c1>
+  <eventtext.Fabrizio.o1.o1.o1>І ви не намагалися свідчити проти них?</eventtext.Fabrizio.o1.o1.o1>
+  <eventtext.Fabrizio.o1.o1.o1.c1>Звісно, але в мене немає доказів, а повертатися туди без команди — самогубство. Ви! У вас є екіпаж! Я можу дати вам координати місця, допоможіть мені очистити територію, поки я шукатиму докази, щоб звинуватити цих покидьків.</eventtext.Fabrizio.o1.o1.o1.c1>
+  <eventtext.Fabrizio.o1.o1.o1.o1>Я не працюю безкоштовно, якщо ви включите гарну плату за ризик нашого життя, я це зроблю.</eventtext.Fabrizio.o1.o1.o1.o1>
+  <eventtext.Fabrizio.o1.o1.o1.o2>Вибачте, але я не хочу ризикувати своєю шиєю.</eventtext.Fabrizio.o1.o1.o1.o2>
+  <eventtext.Fabrizio.o1.o1.o1.o1.c1>Я заплачу вам, солдате, і не лише це, Коаліція чи будь-яка фракція подякує вам за це, і ви будете винагороджені. Я залишу координати місця завантаженими на вашому кораблі, щойно ви закінчите зачистку, я піду шукати докази. Щиро дякую за вашу відвагу.</eventtext.Fabrizio.o1.o1.o1.o1.c1>
+  <eventtext.Fabrizio.o1.o1.o1.o1.c2>Боягуз, Коаліція розбомбить це місце, і вся інформація буде втрачена. Геть з моїх очей.</eventtext.Fabrizio.o1.o1.o1.o1.c2>
+  <missionheader0.FabrizioMissions.01>Вхідна передача.</missionheader0.FabrizioMissions.01>
+  <missionmessage0.FabrizioMissions.01>Щиро дякую, солдате. Я вже наближаюся до вашої позиції.</missionmessage0.FabrizioMissions.01>
+  <missiondescription.FabrizioMissions.01>Капітан Fabrizio Valderrama пережив теракт Церкви Хаска. Він попросив нас зачистити [location1], щоб він міг провести розслідування та знайти докази проти вбивць.</missiondescription.FabrizioMissions.01>
+  <missionname.FabrizioMissions.01>Біотерористична атака.</missionname.FabrizioMissions.01>
+  <locationname.AbandonedMissions>Покинутий форпост</locationname.AbandonedMissions>
+  <locationdescription.AbandonedMissions>Форпост без ознак життя.</locationdescription.AbandonedMissions>
+  <locationname.None.2></locationname.None.2>
+  <locationdescription.None.2>Необжитий, потенційне місце для форпосту.</locationdescription.None.2>
+  <eventtext.Fabrizio.2.c0>Гей, я піду обстежити місце, сподіваюся, там залишився якийсь доказ.</eventtext.Fabrizio.2.c0>
+  <eventtext.Fabrizio.2.o0>Як швидко ви з'явилися, ви пішли за мною на шатлі?</eventtext.Fabrizio.2.o0>
+  <eventtext.Fabrizio.2.o0.c1>Саме так, солдате, безрозсудний вчинок з вашого боку. Я не бачив, щоб хтось так стріляв, відколи першої громадянської війни проти сепаратистів.</eventtext.Fabrizio.2.o0.c1>
+  <eventtext.Fabrizio.2.o0.o1>Це дрібниця, я ніколи не бачив стількох зомбі разом.</eventtext.Fabrizio.2.o0.o1>
+  <eventtext.Fabrizio.2.o0.o1.c1>А чому б вам не приєднатися до них?</eventtext.Fabrizio.2.o0.o1.c1>
+  <eventtext.Fabrizio.2.o0.o1.o1>Що?!</eventtext.Fabrizio.2.o0.o1.o1>
+  <eventtext.Fabrizio.2.nohusks>Весь цей час ті фанатики ховалися, але ніщо не вирішує такі проблеми краще за гарну ручну гармату. Ну що ж, ще раз дякую за все, солдате.</eventtext.Fabrizio.2.nohusks>
+  <!-- Admin rescue-->
+  <EventText.MinersRescue.c1>Нас повідомили, що на сусідній станції під час гірничих робіт виявили гніздо мадрапторів. Знищте їх, поки вони не загрожують спокою станції.</EventText.MinersRescue.c1>
+  <eventtext.adminrescue0>Я приймаю місію.</eventtext.adminrescue0>
+  <eventtext.adminrescue1>Я відхиляю місію.</eventtext.adminrescue1>
+  <eventtext.adminrescueo1>Успіхів, врятуйте тих людей.</eventtext.adminrescueo1>
+  <eventtext.adminrescueo1.o1>Які ще є накази?</eventtext.adminrescueo1.o1>
+  <missionname.rescueadmin>Порятунок гірничої станції.</missionname.rescueadmin>
+  <missionheader0.rescueadmin>Цілі ліквідовано.</missionheader0.rescueadmin>
+  <missiondescription.rescueadmin>Гніздо мадрапторів загрожує гірничим роботам сусіднього форпосту. Знищте їх усіх, щоб забезпечити виживання об'єкта.</missiondescription.rescueadmin>
+  <missionmessage1.rescueadmin>Мадраптори ліквідовані. Час забирати винагороду.</missionmessage1.rescueadmin>
+  <!-- Admin rescue-->
+  <!--Zealots of Europa-->
+  <missionheader0.KnightsOfEurope>Лідера ревнителів ліквідовано.</missionheader0.KnightsOfEurope>
+  <missionmessage0.KnightsOfEurope>Лідера ревнителів ліквідовано. Залиште форпост, щоб завершити місію.</missionmessage0.KnightsOfEurope>
+  <missiondescription.KnightsOfEurope>Нещодавно ми втратили зв'язок із [location1] і підозрюємо, що за інцидентом стоїть угруповання, яке називає себе Ревнителями Європи. Ліквідуйте цих фанатиків і поверніть форпост.</missiondescription.KnightsOfEurope>
+  <missionname.KnightsOfEurope>Орден ревнителів Європи</missionname.KnightsOfEurope>
+  <missionheader0.KnightsOfEurope_rescue>Солодка свобода!</missionheader0.KnightsOfEurope_rescue>
+  <missionmessage0.KnightsOfEurope_rescue>Ви врятували заручників від ревнителів. Гарна робота! Залиште форпост, щоб отримати винагороду.</missionmessage0.KnightsOfEurope_rescue>
+  <missiondescription.KnightsOfEurope_rescue>Нещодавно ми втратили зв'язок із [location1] і підозрюємо, що за інцидентом стоїть угруповання, яке називає себе Ревнителями Європи. Ліквідуйте фанатиків, убезпечте заручників і евакуюйте їх на борту вашого підводного човна.</missiondescription.KnightsOfEurope_rescue>
+  <missionname.KnightsOfEurope_rescue>Орден ревнителів Європи</missionname.KnightsOfEurope_rescue>
+  <missionheader0.KnightsOfEurope_reactor>Уф! Як же я люблю вибухи.</missionheader0.KnightsOfEurope_reactor>
+  <missionmessage0.KnightsOfEurope_reactor>Із зруйнованим реактором залишається лише надіслати інженера, щоб пізніше повернути форпост. Це на деякий час відлякає тамплієрів. Відстикуйте підводний човен, щоб забрати винагороду.</missionmessage0.KnightsOfEurope_reactor>
+  <missiondescription.KnightsOfEurope_reactor>Нещодавно ми втратили зв'язок із [location1] і підозрюємо, що за інцидентом стоїть угруповання, яке називає себе Ревнителями Європи. Підірвіть реактор, щоб вигнати цю нечисть із форпосту.</missiondescription.KnightsOfEurope_reactor>
+  <missionname.KnightsOfEurope_reactor>Орден ревнителів Європи</missionname.KnightsOfEurope_reactor>
+  <!--Zealots of Europa Items-->
+  <!--Zealots of Europa-->
+  <!--Husked Outposts-->
+  <missionheader0.huskedoutposts>Жах закінчився.</missionheader0.huskedoutposts>
+  <missionmessage0.huskedoutposts>Ви очистили це місце від усіх жахіть. Залиште станцію, щоб повідомити про свій успіх і забрати винагороду.</missionmessage0.huskedoutposts>
+  <missiondescription.huskedoutposts>Нещодавно ми втратили зв'язок із [location1]. Хоча радіо там досі працює, усе, що ми чуємо, — це гарчання. Дізнайтеся, що там сталося, і поверніть форпост.</missiondescription.huskedoutposts>
+  <missionname.huskedoutposts>Втрачений зв'язок</missionname.huskedoutposts>
+  <!--Husked Outposts-->
+  <!--Mantis Outposts-->
+  <missionheader0.MantisOutposts>Богомолів ліквідовано.</missionheader0.MantisOutposts>
+  <missionmessage0.MantisOutposts>Усі богомоли-загарбники мертві. Відстикуйтеся від форпосту, щоб завершити місію.</missionmessage0.MantisOutposts>
+  <missiondescription.MantisOutposts>Група богомолів загніздилася на цьому форпості й винищила всіх місцевих мешканців. Ліквідуйте їх і звільніть форпост, щоб отримати винагороду.</missiondescription.MantisOutposts>
+  <missionname.MantisOutposts>Паралізатори Європи</missionname.MantisOutposts>
+  <!--Mantis Outposts-->
+  <!--Destroy Outposts-->
+  <missionheader0.outpostsDestroy>Ех! Я просто обожнюю вибухи.</missionheader0.outpostsDestroy>
+  <missionmessage0.outpostsDestroy>Ці сепаратисти двічі подумають, перш ніж будувати свої сміттєві бази на нашій території. Відмінна робота, солдате. Пристикуйтеся, щоб отримати винагороду.</missionmessage0.outpostsDestroy>
+  <missiondescription.outpostsDestroy>Підірвіть промислові енергоблоки, щоб змусити сепаратистів залишити свій військовий форпост. Дійте обережно: вони не вагатимуться захищати свої ресурси до кінця.</missiondescription.outpostsDestroy>
+  <missionname.outpostsDestroy>Знищте ворожий Центр тактичних операцій</missionname.outpostsDestroy>
+  <EventText.outpostsDestroy.c1>Ми виявили в секторі Центр тактичних операцій сепаратистів. Наші шпигуни повідомляють, що він залежить від трьох промислових енергоблоків; їх знищення змусить їх покинути місце. Коаліція не терпітиме цих актів агресії; знищте їхнє джерело живлення, і нагорода ваша. У вас вистачить сміливості це зробити?</EventText.outpostsDestroy.c1>
+  <missionmessage0.outpostsDestroy.v2>Нам потрібно вигнати фашистів з Європи. Цей удар їх налякає, безсумнівно. Добре зроблено, товаришу, вирушайте й забирайте свою винагороду.</missionmessage0.outpostsDestroy.v2>
+  <missiondescription.outpostsDestroy.v2>Підірвіть промислові енергоблоки, щоб змусити Коаліцію залишити свій військовий форпост. Дійте обережно: вони не вагатимуться захищати свої ресурси до кінця.</missiondescription.outpostsDestroy.v2>
+  <EventText.outpostsDestroy.v2>Ми виявили в секторі Центр тактичних операцій Коаліції. Наші шпигуни повідомляють, що він залежить від трьох промислових енергоблоків; їх знищення змусить їх покинути місце. Ми не дозволимо їм обмежувати нашу експансію; знищте їхнє джерело живлення, і нагорода ваша. У вас вистачить сміливості це зробити?</EventText.outpostsDestroy.v2>
+  <EventText.adminoutpostdestroy.s1>Вижену цих брудних фашистів із цих морів.</EventText.adminoutpostdestroy.s1>
+  <EventText.adminoutpostdestroy.c1>Вижену цих сепаратистських псів із цих морів.</EventText.adminoutpostdestroy.c1>
+  <EventText.OutpostDestroyAlarm.c1>ТРИВОГА! Цілісність мережі порушено; ми втратили енергомодуль. Підрозділи безпеки, негайно ліквідуйте всіх відвідувачів.</EventText.OutpostDestroyAlarm.c1>
+  <locationname.Outpost_of_surveillance>Центр тактичних операцій</locationname.Outpost_of_surveillance>
+  <locationdescription.Outpost_of_surveillance>Сильно охоронюваний військовий форпост, де плануються стратегічні атаки проти ворогів. Цей комплекс працює як нервова система сектора, координуючи патрулі та наступальні розгортання. Його інфраструктура критично залежить від трьох високоефективних промислових енергоблоків; компактна конструкція, що жертвує резервуванням заради потужності, робить його електропостачання одночасно найбільшою перевагою й найвразливішою слабкістю.</locationdescription.Outpost_of_surveillance>
+  <EventText.Secwelcome.c1>Не знаю, які справи, на вашу думку, у вас тут, але ваша присутність несанкціонована. Негайно залиште територію; цей об'єкт закритий для осіб без допуску.</EventText.Secwelcome.c1>
+  <EventText.Secwelcome.c2>Пільговий період закінчився. Підрозділи безпеки, переходьте до ліквідації порушників; вони проігнорували попередження про евакуацію.</EventText.Secwelcome.c2>
+  <npctitle.MCFE_securitynpccoalition_1>Солдат Коаліції</npctitle.MCFE_securitynpccoalition_1>
+  <npctitle.MCFE_securitynpccoalition_2>Солдат Коаліції</npctitle.MCFE_securitynpccoalition_2>
+  <npctitle.MCFE_securitynpccoalition_3>Солдат Коаліції</npctitle.MCFE_securitynpccoalition_3>
+  <npctitle.MCFE_coalitionmechanic>Механік Коаліції</npctitle.MCFE_coalitionmechanic>
+  <npctitle.MCFE_coalitionEngineer>Інженер Коаліції</npctitle.MCFE_coalitionEngineer>
+  <npctitle.MCFE_coalitionmedic>Медик Коаліції</npctitle.MCFE_coalitionmedic>
+  <npctitle.MCFE_outpostmanagercoalition>Командир Коаліції</npctitle.MCFE_outpostmanagercoalition>
+  <npctitle.MCFE_securitynpcseparatists_1>Солдат-сепаратист</npctitle.MCFE_securitynpcseparatists_1>
+  <npctitle.MCFE_securitynpcseparatists_2>Солдат-сепаратист</npctitle.MCFE_securitynpcseparatists_2>
+  <npctitle.MCFE_securitynpcseparatists_3>Солдат-сепаратист</npctitle.MCFE_securitynpcseparatists_3>
+  <npctitle.MCFE_separatistsmechanic>Механік-сепаратист</npctitle.MCFE_separatistsmechanic>
+  <npctitle.MCFE_separatistsEngineer>Інженер-сепаратист</npctitle.MCFE_separatistsEngineer>
+  <npctitle.MCFE_separatistmedic>Медик-сепаратист</npctitle.MCFE_separatistmedic>
+  <npctitle.MCFE_outpostmanagerseparatist>Командир сепаратистів</npctitle.MCFE_outpostmanagerseparatist>
+  <!--Destroy Outposts-->
+  <!--Templar of Europe-->
+  <faction.Templars>Тамплієри Європи</faction.Templars>
+  <faction.Templars.description>Ніхто не знає, як виникла ця фракція: вони просто одного дня з'явилися з бажанням допомогти прогресу й виживанню людства, проповідуючи, що Альфа-іскра врятує всіх. Проте їхні інженерні та механічні послуги на Європі чудові.</faction.Templars.description>
+  <faction.Templars.shortdescription>Тамплієри Європи — невелика релігійна й торгова фракція. Вони обожнюють технології, адже вірять, що лише завдяки їм зможуть вижити в океанах Європи.</faction.Templars.shortdescription>
+  <!--Shop Templars of Europe-->
+  <!--TemplarCooking-->
+  <entityname.MCFE_MudraptorMeat_tail>Хвіст мадраптора</entityname.MCFE_MudraptorMeat_tail>
+  <entityname.MCFE_MudraptorMeat_leg>Лапа мадраптора</entityname.MCFE_MudraptorMeat_leg>
+  <entityname.MCFE_MudraptorMeat_body>Тулуб мадраптора</entityname.MCFE_MudraptorMeat_body>
+  <entityname.MCFE_Thresher_tail>Хвіст тигрового трешера</entityname.MCFE_Thresher_tail>
+  <entityname.MCFE_Thresher_body>Тулуб тигрового трешера</entityname.MCFE_Thresher_body>
+  <entityname.MCFE_BabyHammerfish>Тулуб дитинчати молотоголова</entityname.MCFE_BabyHammerfish>
+  <entityname.MCFE_Hammerfish_tail>Хвіст молотоголова</entityname.MCFE_Hammerfish_tail>
+  <entityname.MCFE_Hammerfish_body>Тулуб молотоголова</entityname.MCFE_Hammerfish_body>
+  <entityname.MCFE_Hammerfish_fin_1>Плавник молотоголова</entityname.MCFE_Hammerfish_fin_1>
+  <entityname.MCFE_Hammerfish_fin_2>Плавник молотоголова</entityname.MCFE_Hammerfish_fin_2>
+  <npctitle.TemplarNpcChef>Шеф-кухар тамплієрів</npctitle.TemplarNpcChef>
+  <storename.TemplarNpcChef>Магазин шеф-кухаря тамплієрів</storename.TemplarNpcChef>
+  <entityname.MCFE_FishwithFruits>Риба з фруктами</entityname.MCFE_FishwithFruits>
+  <entitydescription.MCFE_FishwithFruits>Свіжа риба з цитрусовими. Легка й антисептична.</entitydescription.MCFE_FishwithFruits>
+  <entityname.MCFE_MeatStew>М'ясне рагу</entityname.MCFE_MeatStew>
+  <entitydescription.MCFE_MeatStew>Ситне м'ясне рагу. Ідеально для довгих змін обслуговування.</entitydescription.MCFE_MeatStew>
+  <entityname.MCFE_Salad>Морський салат</entityname.MCFE_Salad>
+  <entitydescription.MCFE_Salad>Приготований із печерних рослин, зокрема опієвих. Заспокоює нерви та біль від ран.</entitydescription.MCFE_Salad>
+  <entityname.MCFE_CrawlerCeviche>Севіче з краулера</entityname.MCFE_CrawlerCeviche>
+  <entitydescription.MCFE_CrawlerCeviche>Надзвичайна кислотність, що може розбудити навіть мертвого.</entitydescription.MCFE_CrawlerCeviche>
+  <entityname.MCFE_TigerSoap>Суп із голови тигрового трешера</entityname.MCFE_TigerSoap>
+  <entitydescription.MCFE_TigerSoap>Гарячий суп, ідеальний для стресових днів.</entitydescription.MCFE_TigerSoap>
+  <entityname.MCFE_MudCereal>Пластівці з мадраптора: MUD</entityname.MCFE_MudCereal>
+  <entitydescription.MCFE_MudCereal>Смачні й поживні пластівці з вашої улюбленої тварини. Кожна пластівка має форму мадраптора.</entitydescription.MCFE_MudCereal>
+  <entityname.MCFE_MudKebab>Шашлик із мадраптора</entityname.MCFE_MudKebab>
+  <entitydescription.MCFE_MudKebab>М'ясо мадраптора на шпажці. Унікальний перекус для виведення токсинів.</entitydescription.MCFE_MudKebab>
+  <entityname.MCFE_TEmplarWater>Мінеральна вода тамплієрів</entityname.MCFE_TEmplarWater>
+  <entitydescription.MCFE_TEmplarWater>Потужна вода, оброблена передовими технологіями. Ідеально підходить для очищення тіла й втамування спраги.</entitydescription.MCFE_TEmplarWater>
+  <entityname.MCFE_TEmplarCitricWater>Сік молотоголова</entityname.MCFE_TEmplarCitricWater>
+  <entitydescription.MCFE_TEmplarCitricWater>Кров нашого коханого морського хижака, оброблена для вживання. Має антисептичні властивості й допомагає від головного болю.</entitydescription.MCFE_TEmplarCitricWater>
+  <entityname.MCFE_Cheflironhelmet>Шолом шефа</entityname.MCFE_Cheflironhelmet>
+  <entitydescription.MCFE_Cheflironhelmet>Елегантний шолом лицаря з ковпаком шеф-кухаря.</entitydescription.MCFE_Cheflironhelmet>
+  <entityname.MCFE_Chefbody>Фартух шефа</entityname.MCFE_Chefbody>
+  <entitydescription.MCFE_Chefbody>Одяг треба тримати чистим, правда ж?</entitydescription.MCFE_Chefbody>
+  <entityname.MCFE_templarbook_3>Писання тамплієрів III: Гастрономія</entityname.MCFE_templarbook_3>
+  <MCFE_TemplarBook3>Попри наші досягнення, наше суспільство було катастрофою в медичному лікуванні, що робило нас залежними від інших фракцій. Щоб виправити це, ми розробили їжу, яка запобігає хворобам і пом'якшує симптоми, доки пацієнт не отримає належних ліків.\n\n Риба з фруктами: має антисептичні властивості, подібні до антибіотика широкого спектра, хоча менш потужні. Зменшує нудоту й покращує моторну координацію під час високоенергетичних завдань.\n\n М'ясне рагу: висока концентрація білка підвищує стійкість до зовнішніх ушкоджень і дає більшу грубу силу для використання важких інструментів.\n\n Морський салат: приготований із поживних речовин печерних рослин, зміцнює імунну систему проти інфекцій. Його опіоїдні компоненти ефективно знімають гострий біль.\n\n Севіче з краулера: підтримує нервову систему пацієнта в тонусі, запобігаючи непритомності чи втраті критичних моторних функцій.\n\n Суп із голови тигрового трешера: багатий на антипсихотичні сполуки, призначені для стабілізації та заспокоєння навіть найбільш розламаних розумів.\n\n Пластівці з мадраптора: пластівці активують рефлекси пацієнта, дозволяючи реагувати з хірургічною швидкістю в ситуаціях неминучої небезпеки.\n\n Шашлик із мадраптора: насичений антитоксинами, що уповільнюють поширення отрут у кровотоці, вигравляючи життєво важливий час до отримання належного протиотруття.\n\n Мінеральна вода тамплієрів: ця чудодійна рідина прискорює клітинну регенерацію після опіків від вогню чи кислоти, а також є надійним засобом проти алкогольної інтоксикації.\n\n Сік молотоголова: цитрусова сполука, що зберігає свідомість, запобігаючи запамороченню від механічних аварій та уникаючи опортуністичних інфекцій.\n\n Усі наші страви сприяють клітинній регенерації після фізичних ушкоджень. Ми мусимо зберегти життя нашим людям.</MCFE_TemplarBook3>
+  <!--Fabricartorbot-->
+  <entityname.MCFE_TemplarFactory>Складальний модуль тамплієрів</entityname.MCFE_TemplarFactory>
+  <eventtext.fabricartorbot.c0>Ласкаво просимо, я Tommi, розумний фабрикатор. Що бажаєте замовити? Пам'ятайте, що гроші мають бути напоготові.</eventtext.fabricartorbot.c0>
+  <eventtext.fabricartorbot.restart.o1>Щиро дякую, повертайтеся скоріше.</eventtext.fabricartorbot.restart.o1>
+  <eventtext.fabricartorbot.restart.o2>Недостатньо грошей, пане.</eventtext.fabricartorbot.restart.o2>
+  <eventtext.fabricartorbot.restart.o3>Поки що я нічого не купуватиму.</eventtext.fabricartorbot.restart.o3>
+  <eventtext.fabricartorbot.restart.o4>Я хотів би обрати інший предмет.</eventtext.fabricartorbot.restart.o4>
+  <eventtext.fabricartorbot.restart.reputation>У вас недостатньо репутації, щоб замовити цей предмет, пане.</eventtext.fabricartorbot.restart.reputation>
+  <eventtext.fabricartorbot.choose>Продається три види паливних стрижнів.\n\n Ціна визначає якість і ефективність кожного паливного стрижня.\n </eventtext.fabricartorbot.choose>
+  <!--Fuel Rod-->
+  <eventtext.fuelrod.c0>Купити паливні стрижні для підводного човна.</eventtext.fuelrod.c0>
+  <eventtext.fuelrod.c1>Купити уранові стрижні.</eventtext.fuelrod.c1>
+  <eventtext.fuelrod.c1.d1>Стрижень зі збагаченого урану для використання всередині реактора.</eventtext.fuelrod.c1.d1>
+  <eventtext.fuelrod.c2>Купити торієві стрижні.</eventtext.fuelrod.c2>
+  <eventtext.fuelrod.c2.d2>Торієвий стрижень для використання всередині реактора. Генерує трохи більше тепла й служить довше за урановий паливний стрижень.</eventtext.fuelrod.c2.d2>
+  <eventtext.fuelrod.c3>Купити фульгурієві стрижні.</eventtext.fuelrod.c3>
+  <eventtext.fuelrod.c3.d3>Стрижень зі збагаченого фульгурію для використання всередині реактора. Генерує значно більше тепла й служить довше за урановий паливний стрижень.</eventtext.fuelrod.c3.d3>
+  <eventtext.fuelrod.o0>Урановий паливний стрижень x1 = 200mk</eventtext.fuelrod.o0>
+  <eventtext.fuelrod.o1>Урановий паливний стрижень x2 = 400mk</eventtext.fuelrod.o1>
+  <eventtext.fuelrod.o2>Урановий паливний стрижень x3 = 600mk</eventtext.fuelrod.o2>
+  <eventtext.fuelrod.o3>Урановий паливний стрижень x4 = 800mk</eventtext.fuelrod.o3>
+  <eventtext.fuelrod.o4>Урановий паливний стрижень x5 = 1000mk</eventtext.fuelrod.o4>
+  <eventtext.fuelrod.o5>Торієвий паливний стрижень x1 = 250mk</eventtext.fuelrod.o5>
+  <eventtext.fuelrod.o6>Торієвий паливний стрижень x2 = 500mk</eventtext.fuelrod.o6>
+  <eventtext.fuelrod.o7>Торієвий паливний стрижень x3 = 750mk</eventtext.fuelrod.o7>
+  <eventtext.fuelrod.o8>Торієвий паливний стрижень x4 = 1000mk</eventtext.fuelrod.o8>
+  <eventtext.fuelrod.o9>Торієвий паливний стрижень x5 = 1250mk</eventtext.fuelrod.o9>
+  <eventtext.fuelrod.o10>Фульгурієвий паливний стрижень x1 = 300mk</eventtext.fuelrod.o10>
+  <eventtext.fuelrod.o11>Фульгурієвий паливний стрижень x2 = 600mk</eventtext.fuelrod.o11>
+  <eventtext.fuelrod.o12>Фульгурієвий паливний стрижень x3 = 900mk</eventtext.fuelrod.o12>
+  <eventtext.fuelrod.o13>Фульгурієвий паливний стрижень x4 = 1200mk</eventtext.fuelrod.o13>
+  <eventtext.fuelrod.o14>Фульгурієвий паливний стрижень x5 = 1500mk</eventtext.fuelrod.o14>
+  <!--Fuel Rod-->
+  <!--Cargo Scooter-->
+  <eventtext.CargoScooter.c0>Купити вантажний скутер.</eventtext.CargoScooter.c0>
+  <eventtext.fabricartorbot.choose.cargo>Підводний скутер, спеціально створений для перевезення матеріалів під водою. Хоча скутер завеликий, щоб зберігати його в інвентарі, його власна плавучість означає, що він залишиться там, де ви його покинете.</eventtext.fabricartorbot.choose.cargo>
+  <eventtext.CargoScooter.o0>Вантажний скутер = 400mk</eventtext.CargoScooter.o0>
+  <!--Cargo Scooter-->
+  <!--safetyharness-->
+  <eventtext.safetyharness.c0>Купити страхувальний ремінь.</eventtext.safetyharness.c0>
+  <eventtext.fabricartorbot.choose.safetyharness>Спеціальний ремінь, створений для зменшення виробничих травм на європейських підводних човнах. Ремінь також гасить дію потоку води, стабілізуючи користувача при пробої корпусу.</eventtext.fabricartorbot.choose.safetyharness>
+  <eventtext.safetyharness.o0>Страхувальний ремінь = 320mk</eventtext.safetyharness.o0>
+  <!--safetyharness-->
+  <!--safetyharness-->
+  <eventtext.ArmorKit.c0>Купити комплект броні тамплієрів.</eventtext.ArmorKit.c0>
+  <eventtext.fabricartorbot.choose.ArmorKit>Фірмова броня тамплієрів; ця пропозиція дає вам сталевий нагрудник і шолом.</eventtext.fabricartorbot.choose.ArmorKit>
+  <eventtext.ArmorKit.o0>Комплект броні тамплієрів = 400mk</eventtext.ArmorKit.o0>
+  <!--safetyharness-->
+  <!--Monitors-->
+  <eventtext.monitors.c0>Купити портативні монітори.</eventtext.monitors.c0>
+  <eventtext.fabricartorbot.choose.monitors>Монітори, що зручно відображають інформацію про підводний човен.</eventtext.fabricartorbot.choose.monitors>
+  <!--Handheld Status Monitors-->
+  <eventtext.monitors.c1>Купити портативний монітор стану.</eventtext.monitors.c1>
+  <eventtext.monitors.c1.d1>Невеликий портативний пристрій з екраном, що показує поточний стан корабля й дистанційно повідомляє користувача про будь-які пробої.</eventtext.monitors.c1.d1>
+  <eventtext.monitors.o1>Портативний монітор стану = 250mk</eventtext.monitors.o1>
+  <!--Reactor PDA-->
+  <eventtext.monitors.c2>Купити КПК реактора.</eventtext.monitors.c2>
+  <eventtext.monitors.c2.d2>Портативний пристрій, яким можна дистанційно керувати реактором підводного човна.</eventtext.monitors.c2.d2>
+  <eventtext.monitors.o2>КПК реактора = 200mk</eventtext.monitors.o2>
+  <!--Handheld Electrical Monitors-->
+  <eventtext.monitors.c3>Купити портативний електричний монітор.</eventtext.monitors.c3>
+  <eventtext.monitors.c3.d3>Невеликий портативний пристрій, що надає користувачеві дистанційний доступ до інформації про електричні системи корабля.</eventtext.monitors.c3.d3>
+  <eventtext.monitors.o3>Портативний електричний монітор = 250mk</eventtext.monitors.o3>
+  <!--Item Finder Monitors-->
+  <eventtext.monitors.c4>Купити портативний пошуковик предметів.</eventtext.monitors.c4>
+  <eventtext.monitors.c4.d4>Невеликий портативний пристрій з екраном, здатний легко знаходити предмети всередині підводного човна.</eventtext.monitors.c4.d4>
+  <eventtext.monitors.o4>Портативний пошуковик предметів = 200mk</eventtext.monitors.o4>
+  <!--Monitors-->
+  <!--Tools-->
+  <eventtext.Tools.c0>Купити інструменти.</eventtext.Tools.c0>
+  <eventtext.fabricartorbot.choose.Tools>Купуйте інструменти для ремонту обладнання або стін підводного човна.</eventtext.fabricartorbot.choose.Tools>
+  <!--Screwdriver and crowbar-->
+  <eventtext.Tools.c1>Купити викрутку або лом.</eventtext.Tools.c1>
+  <eventtext.Tools.c1.d1>Викрутка: дає змогу виконувати електричний ремонт і перепрокладати проводку.\n\n Лом: силою відчиняє двері та люки. Також тупа зброя.\n</eventtext.Tools.c1.d1>
+  <eventtext.Tools.o1>Викрутка = 30mk</eventtext.Tools.o1>
+  <eventtext.Tools.o1.o1>Лом = 50mk</eventtext.Tools.o1.o1>
+  <!--Wrench-->
+  <eventtext.Tools.c2>Купити гайковий ключ або загартований гайковий ключ.</eventtext.Tools.c2>
+  <eventtext.Tools.c2.d2>Гайковий ключ: дає змогу виконувати механічний ремонт.\n\n Загартований гайковий ключ: ключ, що пройшов процес загартування з використанням збідненого палива. Зміцнений матеріал забезпечує ефективніший ремонт і важчі удари. Вимоги до навички: Механіка: 40 \n</eventtext.Tools.c2.d2>
+  <eventtext.Tools.o2>Гайковий ключ = 50mk</eventtext.Tools.o2>
+  <eventtext.Tools.o2.o2>Загартований гайковий ключ = 250mk</eventtext.Tools.o2.o2>
+  <!--Welding Tool and fuel-->
+  <eventtext.Tools.c3>Купити зварювальний апарат і його паливо.</eventtext.Tools.c3>
+  <eventtext.Tools.c3.d3>Зварювальний апарат: один із найважливіших інструментів на борту підводного човна. Працює також під водою.\n\n Паливний бак для зварювання: паливо для зварювального апарата.\n </eventtext.Tools.c3.d3>
+  <eventtext.Tools.o3>Зварювальний апарат = 200mk</eventtext.Tools.o3>
+  <eventtext.Tools.o3.p1>Паливні баки для зварювання</eventtext.Tools.o3.p1>
+  <eventtext.Tools.o3.p1.d1>Оберіть кількість паливних баків, які хочете придбати.</eventtext.Tools.o3.p1.d1>
+  <eventtext.Tools.o3.x1>Паливний бак для зварювання x1 = 160mk</eventtext.Tools.o3.x1>
+  <eventtext.Tools.o3.x2>Паливний бак для зварювання x2 = 320mk</eventtext.Tools.o3.x2>
+  <eventtext.Tools.o3.x3>Паливний бак для зварювання x3 = 480mk</eventtext.Tools.o3.x3>
+  <eventtext.Tools.o3.x4>Паливний бак для зварювання x4 = 640mk</eventtext.Tools.o3.x4>
+  <eventtext.Tools.o3.x5>Паливний бак для зварювання x5 = 800mk</eventtext.Tools.o3.x5>
+  <!--Extinguisher , Multi tools and others-->
+  <eventtext.Tools.c4>Купити вогнегасник, мультитул або інше.</eventtext.Tools.c4>
+  <eventtext.Tools.c4.d4>Набір інструментів, які ваш екіпаж може використовувати для обслуговування підводного човна.</eventtext.Tools.c4.d4>
+  <eventtext.Tools.o4.n1>Купити вогнегасник.</eventtext.Tools.o4.n1>
+  <eventtext.Tools.o4.d1>Ручний вуглекислотний вогнегасник.</eventtext.Tools.o4.d1>
+  <eventtext.Tools.o4.op1>Вогнегасник = 120mk</eventtext.Tools.o4.op1>
+  <eventtext.Tools.o4.n2>Купити мультитул.</eventtext.Tools.o4.n2>
+  <eventtext.Tools.o4.d2>Саморобний мультитул, здатний швидко усувати як механічні, так і електричні проблеми.</eventtext.Tools.o4.d2>
+  <eventtext.Tools.o4.op2>Мультитул = 75mk</eventtext.Tools.o4.op2>
+  <eventtext.Tools.o4.n3>Купити розпилювач.</eventtext.Tools.o4.n3>
+  <eventtext.Tools.o4.d3>Очищує або фарбує стіни, розпилюючи на них рідину.</eventtext.Tools.o4.d3>
+  <eventtext.Tools.o4.op3>Розпилювач = 145mk</eventtext.Tools.o4.op3>
+  <eventtext.Tools.o4.n4>Купити контейнер для зберігання.</eventtext.Tools.o4.n4>
+  <eventtext.Tools.o4.d4>Портативний контейнер для зберігання інструментів і припасів.</eventtext.Tools.o4.d4>
+  <eventtext.Tools.o4.op4>Контейнер для зберігання = 110mk</eventtext.Tools.o4.op4>
+  <eventtext.Tools.o4.n5>Купити пояс для інструментів.</eventtext.Tools.o4.n5>
+  <eventtext.Tools.o4.d5>Контейнер, який можна носити, для зберігання інструментів і припасів.</eventtext.Tools.o4.d5>
+  <eventtext.Tools.o4.op5>Пояс для інструментів = 80mk</eventtext.Tools.o4.op5>
+  <eventtext.Tools.o4.n6>Купити гранату Fixfoam.</eventtext.Tools.o4.n6>
+  <eventtext.Tools.o4.d6>Випускає хмару хімічного герметика, що швидко закриває пробої.\n Потрібно щонайменше 30 очок репутації. </eventtext.Tools.o4.d6>
+  <eventtext.Tools.o4.op6>Граната Fixfoam = 140mk</eventtext.Tools.o4.op6>
+  <eventtext.Tools.o4.n7>Купити портативну помпу.</eventtext.Tools.o4.n7>
+  <eventtext.Tools.o4.d7>Невелика помпа на батареях, яку можна встановити на стінах. Дуже швидко відкачує воду, але споживає багато енергії.  \n Потрібно щонайменше 60 очок репутації.\n Для налаштування потрібне попереднє навчання «Нехай стікає».</eventtext.Tools.o4.d7>
+  <eventtext.Tools.o4.op7>Портативна помпа = 740mk</eventtext.Tools.o4.op7>
+  <eventtext.Tools.o4.n8>Купити батарейний елемент.</eventtext.Tools.o4.n8>
+  <eventtext.Tools.o4.d8>Використовується як джерело живлення для різних портативних пристроїв. Більшість підводних човнів мають кілька стаціонарних резервних акумуляторів із зарядними доками для батарейних елементів.</eventtext.Tools.o4.d8>
+  <eventtext.Tools.o4.op8>Батарейний елемент = 210mk</eventtext.Tools.o4.op8>
+  <!--Tools-->
+  <!--Templar Items-->
+  <entityname.MCFE_assistantclothes_templar>Одяг тамплієрів</entityname.MCFE_assistantclothes_templar>
+  <entitydescription.MCFE_assistantclothes_templar>Класична уніформа тамплієрів Європи.</entitydescription.MCFE_assistantclothes_templar>
+  <entityname.MCFE_assistantclothes_templaradmin>Одяг високого тамплієра</entityname.MCFE_assistantclothes_templaradmin>
+  <entitydescription.MCFE_assistantclothes_templaradmin>Уніформа тамплієра вищого рангу з Європи. Оснащена пристроями та броньованими секціями.</entitydescription.MCFE_assistantclothes_templaradmin>
+  <entityname.MCFE_engineerclothes_templar>Одяг інженера-тамплієра</entityname.MCFE_engineerclothes_templar>
+  <entitydescription.MCFE_engineerclothes_templar>Уніформа інженерів тамплієрів Європи. Містить броню, а також захист від опіків і радіації.</entitydescription.MCFE_engineerclothes_templar>
+  <entityname.MCFE_mechanicclothes_templar>Одяг механіка-тамплієра</entityname.MCFE_mechanicclothes_templar>
+  <entitydescription.MCFE_mechanicclothes_templar>Уніформа механіків тамплієрів Європи. Містить броню, а також захист від порізів, розривів і опіків.</entitydescription.MCFE_mechanicclothes_templar>
+  <entityname.MCFE_templar_Medic>Уніформа фармацевта-тамплієра</entityname.MCFE_templar_Medic>
+  <entitydescription.MCFE_templar_Medic>Легкий костюм науковця. Тамплієри, керуючись своєю філософією «профілактики хвороб», шукають не ліки, а способи зміцнення тіла. Хоча це може звучати як зручна відмовка через незнання, з чого почати розробку медицини, іронічно, але їхні медичні дослідження призвели до створення високопоживної кухні.</entitydescription.MCFE_templar_Medic>
+  <entityname.MCFE_templar_Security>Уніформа офіцера безпеки тамплієрів</entityname.MCFE_templar_Security>
+  <entitydescription.MCFE_templar_Security>Хоча важка броня — найбільша гордість тамплієрів, цей легкий костюм забезпечує непомітний, але незамінний шар захисту під сталлю. Його тактичний дизайн включає посилені відсіки для ефективного перенесення боєприпасів, що дозволяє солдату залишатися озброєним, навіть коли обставини вимагають мобільності без ваги основного бойового спорядження.</entitydescription.MCFE_templar_Security>
+  <!--Templar Items-->
+  <!--Fabricartorbot-->
+  <!--Templar Missions-->
+  <missionheader0.Templar_escort1>Тамплієри прибули безпечно.</missionheader0.Templar_escort1>
+  <missionmessage0.Templar_escort1>Усі тамплієри прибули безпечно, ви отримаєте [reward] за добру службу.</missionmessage0.Templar_escort1>
+  <missiondescription.Templar_escort1>Група тамплієрів хоче дістатися до [location2] для міграційних місій. Перевозьте їх обережно.</missiondescription.Templar_escort1>
+  <EventText.Templar_escort1>Група тамплієрів хоче дістатися до наступного форпосту для міграційних місій. Перевозьте їх обережно.</EventText.Templar_escort1>
+  <missionname.Templar_escort1>Ескорт тамплієрів</missionname.Templar_escort1>
+  <missionsuccess.Templar_escort1>Гарна робота, тамплієри прибули здоровими.</missionsuccess.Templar_escort1>
+  <missionfailure.Templar_escort1>Деякі тамплієри загинули, місію провалено.</missionfailure.Templar_escort1>
+  <missionheader0.Templar_escortVIP_1>VIP-тамплієр прибув безпечно.</missionheader0.Templar_escortVIP_1>
+  <missionmessage0.Templar_escortVIP_1>Посол тамплієрів прибув безпечно, вам добре заплатять [reward] за вашу гарну службу.</missionmessage0.Templar_escortVIP_1>
+  <missiondescription.Templar_escortVIP_1>Посол тамплієрів має дістатися до [location2] для дипломатичних місій. Вам заплатять за те, щоб ви обережно його перевезли.</missiondescription.Templar_escortVIP_1>
+  <EventText.Templar_escortVIP_1>Посол тамплієрів має дістатися до наступного форпосту для дипломатичних місій. Вам заплатять за те, щоб ви обережно його перевезли.</EventText.Templar_escortVIP_1>
+  <missionname.Templar_escortVIP_1>Ескорт VIP-тамплієрів</missionname.Templar_escortVIP_1>
+  <missionsuccess.Templar_escortVIP_1>Гарна робота, VIP-тамплієр прибув здоровим. </missionsuccess.Templar_escortVIP_1>
+  <missionfailure.Templar_escortVIP_1>VIP-тамплієр загинув, ви провалили місію.</missionfailure.Templar_escortVIP_1>
+  <missionheader0.Templar_escortTerrorist1>Мертві інженери.</missionheader0.Templar_escortTerrorist1>
+  <missionmessage0.Templar_escortTerrorist1>Більшість інженерів загинула в морі. Місію провалено.</missionmessage0.Templar_escortTerrorist1>
+  <missionheader1.Templar_escortTerrorist1>Екстремістів-ревнителів ліквідовано.</missionheader1.Templar_escortTerrorist1>
+  <missionmessage1.Templar_escortTerrorist1>Схоже, останній із радикальних ревнителів загинув. Продовжуйте місію, довізши інженерів до [location2].</missionmessage1.Templar_escortTerrorist1>
+  <missiondescription.Templar_escortTerrorist1>Група радикальних тамплієрів змішалася з інженерами, яких ви маєте перевезти до [location2]. Ліквідуйте або нейтралізуйте їх, щойно вони почнуть ворожі дії, і захистіть наших інженерів.</missiondescription.Templar_escortTerrorist1>
+  <EventText.Templar_escortTerrorist1>Група радикальних тамплієрів змішалася з інженерами, яких ви маєте перевезти до наступного форпосту. Ліквідуйте або нейтралізуйте їх, щойно вони почнуть ворожі дії, і захистіть наших інженерів.</EventText.Templar_escortTerrorist1>
+  <missionname.Templar_escortTerrorist1>Ревнителі серед нас</missionname.Templar_escortTerrorist1>
+  <missionsuccess.Templar_escortTerrorist1>Ви ліквідували екстремістів і захистили інженерів. Гарна робота. </missionsuccess.Templar_escortTerrorist1>
+  <missionfailure.Templar_escortTerrorist1>Інженери мертві. Ви не захистили їх, як обіцяли.</missionfailure.Templar_escortTerrorist1>
+  <!--Templar Missions-->
+  <!--hireableTemplars-->
+  <npctitle.hireabletemplarmechanic>Механік-тамплієр</npctitle.hireabletemplarmechanic>
+  <npctitle.hireabletemplarmechanicveteran>Механік-тамплієр-ветеран</npctitle.hireabletemplarmechanicveteran>
+  <npctitle.hireabletemplarengineer>Інженер-тамплієр</npctitle.hireabletemplarengineer>
+  <npctitle.hireabletemplarengineerveteran>Інженер-тамплієр-ветеран</npctitle.hireabletemplarengineerveteran>
+  <npctitle.hireabletemplarassistant>Асистент-тамплієр</npctitle.hireabletemplarassistant>
+  <!--hireableTemplars-->
+  <locationname.TemplarOutpost>Форпост тамплієрів</locationname.TemplarOutpost>
+  <locationdescription.TemplarOutpost>Промислова твердиня, що кидає виклик холоду глибин. Постійний гул її механізмів зливається з ретельно підібраним музичним репертуаром, створюючи функціональне середовище, яке на диво здається привітним.</locationdescription.TemplarOutpost>
+  <locationname.TemplarBase>Блокпост тамплієрів</locationname.TemplarBase>
+  <locationnameformat.TemplarOutpost>Залізний замок [name]</locationnameformat.TemplarOutpost>
+  <locationnameformat.TemplarBase>Блокпост [name]</locationnameformat.TemplarBase>
+  <locationdescription.TemplarBase>База тамплієрів на ранній стадії будівництва.</locationdescription.TemplarBase>
+  <locationdescription.None.2>Необжитий. Потенційне місце для розміщення форпосту.</locationdescription.None.2>
+  <locationchange.ruins.changeto.TemplarBase>У [previousname] засновано блокпост тамплієрів.</locationchange.ruins.changeto.TemplarBase>
+  <locationchange.TemplarBase.changeto.none>Блокпост тамплієрів у [previousname] знищено.</locationchange.TemplarBase.changeto.none>
+  <locationchange.TemplarBase.changeto.TemplarOutpost>Блокпост тамплієрів у [previousname] розрісся настільки, що став форпостом тамплієрів.</locationchange.TemplarBase.changeto.TemplarOutpost>
+  <locationchange.TemplarOutpost.changeto.none>Форпост тамплієрів у [previousname] знищено.</locationchange.TemplarOutpost.changeto.none>
+  <!--Templar NPC Title-->
+  <npctitle.TemplarNpcShop>Торговець тамплієрів</npctitle.TemplarNpcShop>
+  <storename.TemplarNpcShop>Магазин тамплієрів</storename.TemplarNpcShop>
+  <npctitle.outpostmanagertemplar>Високий тамплієр</npctitle.outpostmanagertemplar>
+  <npctitle.subupgradenpcTemplar>Головний механік тамплієрів</npctitle.subupgradenpcTemplar>
+  <npctitle.securitynpctemplar>Техно-священний охоронець тамплієрів</npctitle.securitynpctemplar>
+  <npctitle.watchmannpctemplar>Старший лицар тамплієрів</npctitle.watchmannpctemplar>
+  <npctitle.TemplarNpcVIP>VIP-тамплієр</npctitle.TemplarNpcVIP>
+  <npctitle.TemplarNpcVIPSecurity>Охоронець тамплієрів</npctitle.TemplarNpcVIPSecurity>
+  <npctitle.Rick_Stone>Науковець храму</npctitle.Rick_Stone>
+  <npctitle.Rick_Stone_escort_Mission>Науковець храму</npctitle.Rick_Stone_escort_Mission>
+  <npctitle.Templarhrmanager>Директор з персоналу тамплієрів</npctitle.Templarhrmanager>
+  <npctitle.TemplarNpcWarShop>Військовий торговець тамплієрів</npctitle.TemplarNpcWarShop>
+  <storename.TemplarNpcWarShop>Магазин військового торговця тамплієрів</storename.TemplarNpcWarShop>
+  <npctitle.TemplarNpcMedicShop>Фармацевт-тамплієр</npctitle.TemplarNpcMedicShop>
+  <storename.TemplarNpcMedicShop>Магазин фармацевта-тамплієра</storename.TemplarNpcMedicShop>
+  <npctitle.Templarsubsale>Торговець підводними човнами тамплієрів</npctitle.Templarsubsale>
+  <!--TemplarTradeItems-->
+  <entityname.MCFE_Torchbaton>Смолоскипна дубинка тамплієрів</entityname.MCFE_Torchbaton>
+  <entitydescription.MCFE_Torchbaton>Дубинка з посиленого сплаву, оснащена термоядрами високої щільності. При ударі випромінює екстремальну температуру, спалюючи тканини й органічні структури прямою термічною травмою.</entitydescription.MCFE_Torchbaton>
+  <entityname.MCFE_blueprintTorchbaton>Креслення: смолоскипна дубинка тамплієрів</entityname.MCFE_blueprintTorchbaton>
+  <entitydescription.MCFE_blueprintTorchbaton>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти термічну зброю.</entitydescription.MCFE_blueprintTorchbaton>
+  <entityname.MCFE_TemplarSword>Меч тамплієрів</entityname.MCFE_TemplarSword>
+  <entitydescription.MCFE_TemplarSword>Однолезий смертоносний меч. Здатний обходити частину органічної броні, завдаючи прямої шкоди внутрішнім органам.</entitydescription.MCFE_TemplarSword>
+  <entityname.MCFE_blueprintTemplarSword>Креслення: меч тамплієрів</entityname.MCFE_blueprintTemplarSword>
+  <entitydescription.MCFE_blueprintTemplarSword>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти зброю для ближнього бою.</entitydescription.MCFE_blueprintTemplarSword>
+  <entityname.MCFE_TemplarShield>Тактичний щит тамплієрів</entityname.MCFE_TemplarShield>
+  <entitydescription.MCFE_TemplarShield>Легкий тактичний щит високої щільності. Забезпечує винятковий захист від снарядів і прямих фізичних атак на близькій відстані за мінімального штрафу до руху.</entitydescription.MCFE_TemplarShield>
+  <entityname.MCFE_blueprintTemplarShield>Креслення: тактичний щит тамплієрів</entityname.MCFE_blueprintTemplarShield>
+  <entitydescription.MCFE_blueprintTemplarShield>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти захисний засіб.</entitydescription.MCFE_blueprintTemplarShield>
+  <entityname.MCFE_HarpoonPistol>Ручний механічний арбалет тамплієрів</entityname.MCFE_HarpoonPistol>
+  <entitydescription.MCFE_HarpoonPistol>Диво компактної інженерії. Цей механічний арбалет використовує кулачкову систему високого натягу, щоб стріляти болтами з кінетичною силою, співмірною з важкими гарпунними гарматами. Його зменшений розмір забезпечує виняткову маневреність у боях на коротких дистанціях.</entitydescription.MCFE_HarpoonPistol>
+  <entityname.MCFE_blueprintHarpoonPistol>Креслення: ручний механічний арбалет тамплієрів</entityname.MCFE_blueprintHarpoonPistol>
+  <entitydescription.MCFE_blueprintHarpoonPistol>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти зброю середньої дальності.</entitydescription.MCFE_blueprintHarpoonPistol>
+  <entityname.MCFE_bolt>Сталевий болт</entityname.MCFE_bolt>
+  <entitydescription.MCFE_bolt>Компактні сталеві боєприпаси із загостреними наконечниками. Спеціалізовані на завданні тяжкої різаної шкоди та стійкої кровотечі біологічним цілям.</entitydescription.MCFE_bolt>
+  <entityname.MCFE_blueprintbolt>Креслення: сталевий болт</entityname.MCFE_blueprintbolt>
+  <entitydescription.MCFE_blueprintbolt>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти боєприпаси для ручного механічного арбалета тамплієрів.</entitydescription.MCFE_blueprintbolt>
+  <entityname.MCFE_bolt_stun>Електрошоковий сталевий болт</entityname.MCFE_bolt_stun>
+  <entitydescription.MCFE_bolt_stun>Несмертельні сталеві боєприпаси з електричним зарядом. Завдають зменшеної фізичної шкоди, але дуже ефективно оглушують і виводять ворогів з ладу електричними розрядами.</entitydescription.MCFE_bolt_stun>
+  <entityname.MCFE_blueprintbolt_stun>Креслення: електрошоковий сталевий болт</entityname.MCFE_blueprintbolt_stun>
+  <entitydescription.MCFE_blueprintbolt_stun>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти боєприпаси для ручного механічного арбалета тамплієрів.</entitydescription.MCFE_blueprintbolt_stun>
+  <entityname.MCFE_bolt_penetrator>Пробивний сталевий болт</entityname.MCFE_bolt_penetrator>
+  <entitydescription.MCFE_bolt_penetrator>Спеціалізовані сталеві боєприпаси зі свердлоподібним наконечником. Призначені для максимального пробиття броні, жертвуючи площею розриву заради неперевершеної пробивної здатності.</entitydescription.MCFE_bolt_penetrator>
+  <entityname.MCFE_blueprintbolt_penetrator>Креслення: пробивний сталевий болт</entityname.MCFE_blueprintbolt_penetrator>
+  <entitydescription.MCFE_blueprintbolt_penetrator>Конструкторські схеми тамплієрів. Прочитайте їх, щоб навчитися виготовляти боєприпаси для ручного механічного арбалета тамплієрів.</entitydescription.MCFE_blueprintbolt_penetrator>
+  <!--Shop Templars of Europe-->
+  <eventtext.Templarwelcome.c0>До вас підходить чоловік у сяйливих обладунках.\n\n Вітаю, громадянине! Схоже, ви бачите нас уперше, ваше обличчя говорить саме за себе.\n</eventtext.Templarwelcome.c0>
+  <eventtext.Templarwelcome.o0>Чому ви носите таку екстравагантну броню?</eventtext.Templarwelcome.o0>
+  <eventtext.Templarwelcome.o1.c1>Вона гарна, чи не так? ХАХА Що ж, дозвольте представитися. Я належу до Тамплієрів Європи, друже. Ми дружня фракція, що прагне технологічного вдосконалення на благо людства. Наша богиня, Альфа-іскра, благословила нас і направила в цю велику подорож.</eventtext.Templarwelcome.o1.c1>
+  <eventtext.Templarwelcome.o1.o1>Вашу богиню звуть Альфа-іскра?</eventtext.Templarwelcome.o1.o1>
+  <eventtext.Templarwelcome.o1.o1.c1>Саме так, громадянине! Бачу, ви добре зрозуміли! Ви дуже кмітлива людина. Прошу, ідіть до наших модулів, ми пропонуємо товари з гарною гарантією і можемо дати вам роботу, якщо хочете.</eventtext.Templarwelcome.o1.o1.c1>
+  <eventtext.Templarwelcome.o1.o1.o1.o1>Гм… Щиро дякую. Я навідаюся до вас, коли зможу.</eventtext.Templarwelcome.o1.o1.o1.o1>
+  <entityname.MCFE_templarbook_1>Писання тамплієрів I: Виникнення</entityname.MCFE_templarbook_1>
+  <entityname.MCFE_templarbook_2>Писання тамплієрів II: Економіка</entityname.MCFE_templarbook_2>
+  <MCFE_TemplarBook1>Тамплієри Європи виникли понад століття тому, коли перші поселенці, загублені у безкрайній темряві океану Європи, стали свідками стабільного електричного явища, породженого експериментальним реактором, що заливав печеру вічним синюватим сяйвом. Це «технологічне диво» засновники витлумачили як прояв Альфа-іскри, богині, що символізує єдність віри й науки, надію серед безодні та переконання, що технології мають служити збереженню, а не знищенню. Відтоді тамплієри стали посередниками між фракціями, зводячи святилища у віддалених форпостах, охороняючи світні артефакти й обстоюючи свою центральну доктрину: «технологія — це дар, а не зброя». Проте їхню історію позначив і внутрішній розкол, що виник через десятиліття, коли група тамплієрів переосмислила світло Альфа-іскри як виняткову місію «вести та очищати» людство. Так народилися Ревнителі Європи, радикальна підфракція, що складається з геніальних інженерів і запеклих фанатиків, здатних псувати електричні системи, змінювати істот і саботувати реактори. Тоді як тамплієри відкидають їх і борються за збереження свого мирного шляху, ревнителі стверджують, що лише через абсолютне оволодіння енергією Альфа-іскри, навіть ціною невинних життів, Європа може бути по-справжньому «просвітленою». Цей сакрально-технологічний конфлікт визначив значну частину нещодавньої історії підльодового океану, формуючи союзи, війни та легенди, що й досі впливають на життя кожної людської колонії під льодом.</MCFE_TemplarBook1>
+  <MCFE_TemplarBook2>Після заснування перших святилищ і мережі сховищ під льодом тамплієри Європи усвідомили, що стабільність їхнього ордену не може ґрунтуватися лише на вірі й принципах; їм потрібне було постійне джерело ресурсів. На відміну від інших фракцій, тамплієри не прагнули панувати над рідкісними мінералами чи монополізувати небезпечні родовища. Їхня сила виросла з чогось простішого, але набагато революційнішого. Поєднавши науку й відданість, вони розробили передові методи видобутку поширених мінералів Європи — заліза, нікелю, силікатів і звичайних замерзлих сполук — із ефективністю, що далеко перевершувала звичайні гірничі роботи. Завдяки бурам, стабілізованим електричними полями, гірничим дронам, що керуються світловими візерунками Альфа-іскри, та системам переробки, що значно скоротили відходи, тамплієри отримували більше корисного матеріалу з меншим сейсмічним ризиком і меншими втратами. Це дозволило їм стати надійними постачальниками Коаліції, незалежних торговців і навіть наукових колоній, які віддавали перевагу співпраці з ними через прозорі угоди та високоякісні очищені матеріали. Їхня економіка трималася на достатку ресурсів, а не на їхній рідкісності: звичайні мінерали, добуті краще за всіх. Однак цей успіх породив і напруженість; деякі фракції почали підозрювати, що «пацифізм» тамплієрів приховує зростаючу економічну владу, тоді як Ревнителі Європи відкрито критикували орден за «продаж благословення Іскри» невіруючим. Тим не менш, протягом десятиліть видобуток тамплієрів підтримував незліченні колонії, стабілізував торговельні маршрути й перетворив орден на мовчазний стовп політичної рівноваги під льодом Європи.</MCFE_TemplarBook2>
+  <!--Templars ammoboxes-->
+  <entityname.MCFE_pulselaserammoboxSpark>Паливний бокс електромагнітного імпульсного лазера</entityname.MCFE_pulselaserammoboxSpark>
+  <entitydescription.MCFE_pulselaserammoboxSpark>Оптимізований енергетичний паливний елемент для імпульсного лазера. Призначений випромінювати руйнівний електромагнітний імпульс, здатний вивести з ладу механічні системи. Його ємність розряду також утворює електричну дугу високої інтенсивності, смертельну для органічних цілей і дуже ефективну для нейтралізації груп сусідніх ворогів завдяки передачі заряду.</entitydescription.MCFE_pulselaserammoboxSpark>
+  <entityname.MCFE_pulselaserboltSpark>Снаряд електромагнітного імпульсного лазера.</entityname.MCFE_pulselaserboltSpark>
+  <entityname.MCFE_blueprint_pulselaserammoboxSpark>Креслення: паливний бокс електромагнітного імпульсного лазера</entityname.MCFE_blueprint_pulselaserammoboxSpark>
+  <entitydescription.MCFE_blueprint_pulselaserammoboxSpark>Конструкторські креслення тамплієрів. Прочитайте їх, щоб навчитися виготовляти паливні бокси електромагнітного імпульсного лазера.</entitydescription.MCFE_blueprint_pulselaserammoboxSpark>
+  <entityname.MCFE_chaingunammoboxSpark>Бокс боєприпасів електромагнітного чейнгана</entityname.MCFE_chaingunammoboxSpark>
+  <entitydescription.MCFE_chaingunammoboxSpark>Енергетичний елемент придушення для чейнгана. Ці боєприпаси надають перевагу прямій передачі електричного заряду над кінетичним ударом. При влучанні снаряд випускає сконцентрований ЕМІ-імпульс, призначений порушувати рухові функції та тримати загрози на відстані постійним і смертельним ураженням струмом.</entitydescription.MCFE_chaingunammoboxSpark>
+  <entityname.MCFE_chaingunboltSpark>Снаряд електромагнітного чейнгана.</entityname.MCFE_chaingunboltSpark>
+  <entityname.MCFE_blueprint_chaingunammoboxSpark>Креслення: бокс боєприпасів електромагнітного чейнгана</entityname.MCFE_blueprint_chaingunammoboxSpark>
+  <entitydescription.MCFE_blueprint_chaingunammoboxSpark>Конструкторські креслення тамплієрів. Прочитайте їх, щоб навчитися виготовляти бокси боєприпасів електромагнітного чейнгана.</entitydescription.MCFE_blueprint_chaingunammoboxSpark>
+  <entityname.MCFE_coilgunammoboxSpark>Бокс боєприпасів електромагнітної котушкової гармати</entityname.MCFE_coilgunammoboxSpark>
+  <entitydescription.MCFE_coilgunammoboxSpark>Боєприпаси високої ємності для котушкової гармати. Кожен снаряд накопичує електричний заряд, що вивільняється при влучанні, створюючи ЕМІ-імпульс малої дальності. Ідеально підходить для контролю натовпу: окрім фізичної шкоди, його розряд електризує навколишню зону, уповільнюючи або тимчасово знерухомлюючи сусідні цілі.</entitydescription.MCFE_coilgunammoboxSpark>
+  <entityname.MCFE_coilgunboltSpark>Снаряд електромагнітної котушкової гармати.</entityname.MCFE_coilgunboltSpark>
+  <entityname.MCFE_blueprint_coilgunammoboxSpark>Креслення: бокс боєприпасів електромагнітної котушкової гармати</entityname.MCFE_blueprint_coilgunammoboxSpark>
+  <entitydescription.MCFE_blueprint_coilgunammoboxSpark>Конструкторські креслення тамплієрів. Прочитайте їх, щоб навчитися виготовляти бокси боєприпасів електромагнітної котушкової гармати.</entitydescription.MCFE_blueprint_coilgunammoboxSpark>
+  <!--BluePrints Templar of Europe-->
+  <entityname.MCFE_blueprintAbandoned_makeshiftarmor>Креслення: броня ревнителів</entityname.MCFE_blueprintAbandoned_makeshiftarmor>
+  <entitydescription.MCFE_blueprintAbandoned_makeshiftarmor>Конструкторське креслення Ревнителів Європи. Прочитайте його, щоб навчитися виготовляти броню ревнителів.</entitydescription.MCFE_blueprintAbandoned_makeshiftarmor>
+  <entityname.MCFE_blueprintAbandoned_ironhelmet>Креслення: залізний шолом ревнителів</entityname.MCFE_blueprintAbandoned_ironhelmet>
+  <entitydescription.MCFE_blueprintAbandoned_ironhelmet>Конструкторське креслення Ревнителів Європи. Прочитайте його, щоб навчитися виготовляти залізні шоломи ревнителів.</entitydescription.MCFE_blueprintAbandoned_ironhelmet>
+  <entityname.MCFE_blueprintcombattemplardivingsuit>Креслення: бойовий костюм ревнителів</entityname.MCFE_blueprintcombattemplardivingsuit>
+  <entitydescription.MCFE_blueprintcombattemplardivingsuit>Конструкторське креслення Ревнителів Європи. Прочитайте його, щоб навчитися виготовляти бойові костюми ревнителів.</entitydescription.MCFE_blueprintcombattemplardivingsuit>
+  <entityname.MCFE_blueprintscrappistol>Креслення: саморобний пістолет</entityname.MCFE_blueprintscrappistol>
+  <entitydescription.MCFE_blueprintscrappistol>Конструкторське креслення Ревнителів Європи. Прочитайте його, щоб навчитися виготовляти саморобні пістолети.</entitydescription.MCFE_blueprintscrappistol>
+  <entityname.MCFE_blueprintscrappistol_ammo>Креслення: боєприпаси для саморобного пістолета</entityname.MCFE_blueprintscrappistol_ammo>
+  <entitydescription.MCFE_blueprintscrappistol_ammo>Конструкторське креслення Ревнителів Європи. Прочитайте його, щоб навчитися виготовляти боєприпаси для саморобного пістолета.</entitydescription.MCFE_blueprintscrappistol_ammo>
+  <!--BluePrints Templar of Europe-->
+  <!--Templar of Europe Chapter 1-->
+  <eventtext.Chapter1_Templar.c0>Ви щойно прибули на цей форпост, так? Ви можете стати нам у пригоді; перейду одразу до справи: тамплієри досліджують нове джерело енергії, що може покращити якість життя на Європі, але мені потрібно дістатися сусіднього форпосту. Ви, не маючи до нас жодного стосунку, не могли б мені допомогти? Ваш підводний човен, не будучи одним із наших, міг би залишитися непоміченим для фанатиків, які намагаються мене вбити.</eventtext.Chapter1_Templar.c0>
+  <eventtext.Chapter1_Templar.o0>Вони хочуть вас убити? Місія ескорту вам дорого коштуватиме.</eventtext.Chapter1_Templar.o0>
+  <eventtext.Chapter1_Templar.o1.c1>Заспокойтеся, мої люди дуже добре вас винагородять. До того ж я піду не сам; зі мною підуть мої охоронці. Мене звати Rick Stone, я науковець-інженер тамплієрів.</eventtext.Chapter1_Templar.o1.c1>
+  <eventtext.Chapter1_Templar.o1.o1>Гаразд, домовились.</eventtext.Chapter1_Templar.o1.o1>
+  <eventtext.Chapter1_Templar.o1.o1.c1>Хай Альфа-іскра благословить вас.</eventtext.Chapter1_Templar.o1.o1.c1>
+  <eventtext.Chapter1_Templar.o1.o1.o1.o1>(Альфа-іскра? Я вже чув про їхнє нібито божество.)</eventtext.Chapter1_Templar.o1.o1.o1.o1>
+  <eventtext.RickConversation.c0>Не можу повірити, що вони пішли за мною аж сюди; ці люди божевільні. Те, що вони дісталися вашого підводного човна, означає, що вони ніколи не припиняли мене переслідувати; я справді був у небезпеці. Вибачте за клопіт.</eventtext.RickConversation.c0>
+  <missionheader0.Templar_escortVIP_Special>Місію провалено.</missionheader0.Templar_escortVIP_Special>
+  <missionmessage0.Templar_escortVIP_Special>Науковець-інженер Rick Stone загинув, поки ми його ескортували.</missionmessage0.Templar_escortVIP_Special>
+  <missiondescription.Templar_escortVIP_Special>Науковець-інженер Rick Stone має дістатися до [location2] для важливої місії тамплієрів, яка, за його словами, допоможе покращити якість життя на Європі. Він сказав, що люди хочуть його вбити, тому хоче, щоб ми його захищали й залишалися непоміченими на нашому підводному човні.</missiondescription.Templar_escortVIP_Special>
+  <missionname.Templar_escortVIP_Special>Ескорт Rick Stone</missionname.Templar_escortVIP_Special>
+  <missionsuccess.Templar_escortVIP_Special>Rick Stone прибув безпечно!</missionsuccess.Templar_escortVIP_Special>
+  <missionfailure.Templar_escortVIP_Special>Rick Stone вбито; ви провалили місію.</missionfailure.Templar_escortVIP_Special>
+  <transmission.Templar_escortVIP_Special>Ви думали, що зможете від нас втекти? Поширення технології Альфа-іскри серед цих звичайних людей лише робить вас єретиком.\n\n Ви чуєте кроки з шлюзу підводного човна.</transmission.Templar_escortVIP_Special>
+  <!--Templar of Europe Chapter 1-->
+  <!--Templar of Europe Chapter 2-->
+  <eventtext.Chapter2_Templar.c0>Це ви! У мене жахливі новини, відбувається щось жахливе.</eventtext.Chapter2_Templar.c0>
+  <eventtext.Chapter2_Templar.o0>Rick? Що сталося?</eventtext.Chapter2_Templar.o0>
+  <eventtext.Chapter2_Templar.o1.c1>Фанатики-тамплієри атакують форпост неподалік; вони хочуть знищити технологію, яку ми розробляли, бо не хочуть, щоб ми ділилися нею з іншими. Багато невинних людей загине. Ви можете піти їх врятувати? Решті підводних човнів тамплієрів знадобиться багато часу, щоб прибути, і може бути вже запізно; ви набагато ближче.</eventtext.Chapter2_Templar.o1.c1>
+  <eventtext.Chapter2_Templar.o1.o1>Я зроблю, що зможу.</eventtext.Chapter2_Templar.o1.o1>
+  <eventtext.Chapter2_Templar.o1.o1.c1>Дякую, мої люди пам'ятатимуть вас.</eventtext.Chapter2_Templar.o1.o1.c1>
+  <eventtext.Chapter2_Templar.o1.o1.o1.o1>(Останнє, що нам потрібно, — ще одна громадянська війна, як нинішня між Коаліцією та сепаратистами.)</eventtext.Chapter2_Templar.o1.o1.o1.o1>
+  <eventtext.Chapter2_Templar_end.c0>Хто ви, незнайомцю? Ви нас врятували.</eventtext.Chapter2_Templar_end.c0>
+  <eventtext.Chapter2_Templar_end.o0>Ваш товариш Rick Stone попередив мене про небезпеку, в якій ви опинилися, тож я прийшов допомогти.</eventtext.Chapter2_Templar_end.o0>
+  <eventtext.Chapter2_Templar_end.o1.c1>Rick, он як?! Той божевільний науковець… Певен, ця атака має до нього якесь відношення.</eventtext.Chapter2_Templar_end.o1.c1>
+  <eventtext.Chapter2_Templar_end.o1.o1>Схоже, Rick тут доволі популярний. Це вперше щось подібне трапляється?</eventtext.Chapter2_Templar_end.o1.o1>
+  <eventtext.Chapter2_Templar_end.o1.o1.c1>Stone — колега; у нього завжди були чудові ідеї, а його віра спрямовувала його на створення технологій, що допомогли нам вижити на Європі. Було б несправедливо його звинувачувати; справжні винуватці — ті радикальні фанатики з їхніми екстремістськими ідеями. Вони неправильно витлумачили вчення Альфа-іскри й хочуть, щоб лише їхня фракція мала право користуватися передовими технологіями… цілковиті божевільні. Як би там не було, піду допоможу вцілілим. Щиро дякую, незнайомцю. Хай Альфа-іскра веде вас у ваших подорожах.</eventtext.Chapter2_Templar_end.o1.o1.c1>
+  <eventtext.Chapter2_Templar_end.o1.o1.o1.o1>(Це правда, усі ці смерті через тих фанатиків; сподіваюся, ця зустріч стане для них важким ударом.)</eventtext.Chapter2_Templar_end.o1.o1.o1.o1>
+  <missionheader0.Templar_Outpost_Assault>Місію виконано.</missionheader0.Templar_Outpost_Assault>
+  <missionmessage0.Templar_Outpost_Assault>Вам вдалося ліквідувати всіх фанатиків; форпост виживе.</missionmessage0.Templar_Outpost_Assault>
+  <missiondescription.Templar_Outpost_Assault>Ми знову зустріли Rick Stone; він попросив нас дістатися до [location2], щоб врятувати його від фанатиків. Схоже, це буде небезпечна місія, тож краще нам прибути добре споряджені.</missiondescription.Templar_Outpost_Assault>
+  <missionname.Templar_Outpost_Assault>Штурм фанатиків</missionname.Templar_Outpost_Assault>
+  <missionsuccess.Templar_Outpost_Assault>Вам вдалося ліквідувати всіх фанатиків; форпост виживе.</missionsuccess.Templar_Outpost_Assault>
+  <missionfailure.Templar_Outpost_Assault>Ви залишили форпост напризволяще; без сумніву, це місце впаде.</missionfailure.Templar_Outpost_Assault>
+  <entityname.MCFE_scrappistol>Саморобний пістолет</entityname.MCFE_scrappistol>
+  <entitydescription.MCFE_scrappistol>Зброя, виготовлена фанатиками Альфа-іскри. Порівняно зі стандартною гарматою для брухту вона має меншу потужність; однак її легше носити, і вона використовує власні боєприпаси.</entitydescription.MCFE_scrappistol>
+  <entityname.MCFE_scrappistol_ammo>Патрони для саморобного пістолета</entityname.MCFE_scrappistol_ammo>
+  <entitydescription.MCFE_scrappistol_ammo>Загорнуті в гільзи від рушниці, але всередині видно залізо та інші метали всіх форм, готові до пострілу.</entitydescription.MCFE_scrappistol_ammo>
+  <!--Templar of Europe Chapter 2-->
+  <!--Wrecks-->
+  <!--Items-->
+  <entityname.MCFE_brokenexosuit>Зламаний екзокостюм</entityname.MCFE_brokenexosuit>
+  <entitydescription.MCFE_brokenexosuit>Побитий екзокостюм, який можна розібрати, щоб отримати базові матеріали.</entitydescription.MCFE_brokenexosuit>
+  <!--RiskyCargo-->
+  <missionname.fragilecargo>Ризикований вантаж.</missionname.fragilecargo>
+  <missiondescription.fragilecargo>Ми втратили зв'язок із підводним човном, що перевозив високолетючий елемент для виготовлення зброї. Запечатана коробка не зможе захищати його вічно, поверніть її, поки вміст не втрачено.\n\nБережіться, щоб не впустити коробку при вході в підводний човен, рекомендується залишити її на полиці й стежити за батареями в коробці.\n</missiondescription.fragilecargo>
+  <missionsuccess.fragilecargo>Вам вдалося повернути втрачений вантаж. Вийдіть із печер, щоб отримати винагороду.</missionsuccess.fragilecargo>
+  <missionfailure.fragilecargo>Вантаж загублено назавжди.</missionfailure.fragilecargo>
+  <missionmessage.fragilecargo.partiallyretrieved>Ви вже повернули половину вантажу. Так тримати.</missionmessage.fragilecargo.partiallyretrieved>
+  <missionmessage.fragilecargo.allretrieved>Вам вдалося повернути втрачений вантаж. Вийдіть із печер, щоб отримати винагороду.</missionmessage.fragilecargo.allretrieved>
+  <missionsonarlabel.fragilecargo>Ризикований вантаж</missionsonarlabel.fragilecargo>
+  <!--ClownCargoCave-->
+  <missionname.ClownsCave>Загублені ящики клоунів.</missionname.ClownsCave>
+  <missiondescription.ClownsCave>Кілька ящиків із матеріалами для виготовлення клоунських костюмів загубилися. Нам заплатять, якщо ми їх повернемо. Клоун, який їх мав… за його пошуки нам не заплатять.</missiondescription.ClownsCave>
+  <missionsuccess.ClownsCave>Усі клоунські ящики успішно повернуто. Забираймося звідси й отримаймо оплату.</missionsuccess.ClownsCave>
+  <missionfailure.ClownsCave>Клоуни залишаться без нових костюмів на кілька сезонів.</missionfailure.ClownsCave>
+  <missionmessage.ClownsCave.partiallyretrieved>Ви на півдорозі. Так тримати!</missionmessage.ClownsCave.partiallyretrieved>
+  <missionmessage.ClownsCave.allretrieved>Клоунська текстильна промисловість не зупиниться завдяки вам. Залиште ці печери, щоб отримати винагороду.</missionmessage.ClownsCave.allretrieved>
+  <missionsonarlabel.ClownsCave>Клоунський ящик.</missionsonarlabel.ClownsCave>
+  <missionmessage.ClownsCave.pickedup>Ви знайшли один із клоунських ящиків. Час братися до роботи.</missionmessage.ClownsCave.pickedup>
+  <eventtext.missionevent_clowncargo.c1>Мої хлопці, що пішли в печери по матеріали, зникли. Принесіть мені ящики, де вони зберігали свою колекцію, і я вам заплачу. Від цього залежить продовження виготовлення клоунських костюмів.</eventtext.missionevent_clowncargo.c1>
+  <!--HuskCargoCave-->
+  <missionname.HuskCultCave>Загублені ящики культистів.</missionname.HuskCultCave>
+  <missiondescription.HuskCultCave>Культисти кажуть, що заплатять нам, якщо ми повернемо ящики, якими вони збирали матеріали для своїх «ліків». Невідомо, що сталося з їхніми членами, які працювали в печерах.</missiondescription.HuskCultCave>
+  <missionsuccess.HuskCultCave>Усі ящики культистів успішно повернуто. Забираймося звідси й отримаймо оплату.</missionsuccess.HuskCultCave>
+  <missionfailure.HuskCultCave>Нам не вдалося повернути всі загублені ящики культистів.</missionfailure.HuskCultCave>
+  <missionmessage.HuskCultCave.partiallyretrieved>Ви на півдорозі. Так тримати!</missionmessage.HuskCultCave.partiallyretrieved>
+  <missionmessage.HuskCultCave.allretrieved>Культисти зрадіють, дізнавшись, що можуть і далі виготовляти свої «ліки». Забираймося звідси й отримаймо оплату.</missionmessage.HuskCultCave.allretrieved>
+  <missionsonarlabel.HuskCultCave>Ящик культистів.</missionsonarlabel.HuskCultCave>
+  <missionmessage.HuskCultCave.pickedup>Ви знайшли один із ящиків культистів. Перенесімо їх обережно.</missionmessage.HuskCultCave.pickedup>
+  <eventtext.missionevent_huskcargo.c1>Кілька нових адептів вирушили до печер збирати матеріали, але відтоді ми про них не чули. Нам потрібно, щоб ви повернули ящики, які вони взяли для зберігання цих ресурсів — без них ми не зможемо виготовляти ліки.</eventtext.missionevent_huskcargo.c1>
+  <!--ClownCargoWreck-->
+  <missionname.lostcargoclown>Загублені ящики клоунів.</missionname.lostcargoclown>
+  <missiondescription.lostcargoclown>Клоуни розповіли нам, що вантаж загубився в затонулому підводному човні. Вони добре заплатять, якщо ми повернемо його весь.</missiondescription.lostcargoclown>
+  <missionsuccess.lostcargoclown>Увесь клоунський вантаж повернуто. Винагорода буде нашою.</missionsuccess.lostcargoclown>
+  <missionfailure.lostcargoclown>Нам не вдалося повернути весь клоунський вантаж. Ці гроші зникнуть, як їхні несмачні жарти.</missionfailure.lostcargoclown>
+  <missionmessage.lostcargoclown.partiallyretrieved>Ви на півдорозі. Так тримати!</missionmessage.lostcargoclown.partiallyretrieved>
+  <missionmessage.lostcargoclown.allretrieved>Увесь клоунський вантаж у нас; забираймося звідси й отримаймо винагороду.</missionmessage.lostcargoclown.allretrieved>
+  <missionmessage.lostcargoclown.pickedup>Ми маємо один із клоунських ящиків із вантажем. Віднесімо його до підводного човна й продовжимо з рештою.</missionmessage.lostcargoclown.pickedup>
+  <eventtext.missionevent_lostcargoclown.c1>На жаль, підводний човен із нашим вантажем застряг посеред печер, що, очевидно, нам не смішно. Поверніть наш вантаж, і ми добре заплатимо — слово клоуна.</eventtext.missionevent_lostcargoclown.c1>
+  <!--HuskCargoWreck-->
+  <missionname.lostcargohusk>Загублені ящики культистів.</missionname.lostcargohusk>
+  <missiondescription.lostcargohusk>Аколіт Церкви Паразита розповів нам, що їхній вантаж загубився в затонулому підводному човні. Попри дивний вигляд, вони пообіцяли гарну оплату, якщо ми врятуємо їхні посилки.</missiondescription.lostcargohusk>
+  <missionsuccess.lostcargohusk>Увесь вантаж культистів повернуто. Забираймося звідси й отримаймо наші гроші.</missionsuccess.lostcargohusk>
+  <missionfailure.lostcargohusk>Нам не вдалося повернути весь вантаж культистів. Вважаймо ці гроші втраченими.</missionfailure.lostcargohusk>
+  <missionmessage.lostcargohusk.partiallyretrieved>Ви на півдорозі. Так тримати!</missionmessage.lostcargohusk.partiallyretrieved>
+  <missionmessage.lostcargohusk.allretrieved>Усі ящики культистів на борту. Забираймося звідси й заберімо ті монети.</missionmessage.lostcargohusk.allretrieved>
+  <missionmessage.lostcargohusk.pickedup>Ви знайшли одну з загублених посилок культистів. Покладімо її в підводний човен і повернімося по решту.</missionmessage.lostcargohusk.pickedup>
+  <eventtext.missionevent_lostcargohusk.c1>Хочете гарних грошей? Врятуйте наш вантаж, що застряг у підводному човні, який затонув посеред печер.</eventtext.missionevent_lostcargohusk.c1>
+  <!-- VESSELS-->
+  <!-- Bandits Pirates-->
+  <missionname.bandit>Бандити на горизонті</missionname.bandit>
+  <missiontypedescription.bandit>Знайдіть корабель бандитів і знищте його разом з екіпажем.</missiontypedescription.bandit>
+  <missionsonarlabel.bandit>Корабель бандитів</missionsonarlabel.bandit>
+  <missionmessage0.bandit1>Убийте бандитів або відправте підводний човен на дно моря!</missionmessage0.bandit1>
+  <missionmessage1.bandit1>Відведіть підводний човен до [location2], щоб забрати винагороду.</missionmessage1.bandit1>
+  <missionheader0.bandit>Бандити на горизонті!</missionheader0.bandit>
+  <missionheader1.bandit>Бандитів ліквідовано</missionheader1.bandit>
+  <eventtext.missionevent_bandit1.c1>Якісь головорізи нападали на наші підводні човни на наступному маршруті. Ми були б вдячні, якби ви їх прибрали.</eventtext.missionevent_bandit1.c1>
+  <!-- Clowns Pirates-->
+  <missionname.clownpirates>Видалення клоунів</missionname.clownpirates>
+  <missiontypedescription.clownpirates>Знайдіть корабель клоунів і знищте його разом з екіпажем.</missiontypedescription.clownpirates>
+  <missionsonarlabel.clownpirates>Клоунський корабель</missionsonarlabel.clownpirates>
+  <missionmessage0.clownpirates>Убийте клоунів або відправте підводний човен на дно моря!</missionmessage0.clownpirates>
+  <missionmessage1.clownpirates>Відведіть підводний човен до [location2], щоб забрати винагороду.</missionmessage1.clownpirates>
+  <missionheader0.clownpirates>Клоуни на горизонті! Убийте їх без жалю! </missionheader0.clownpirates>
+  <missionheader1.clownpirates>Клоунів ліквідовано</missionheader1.clownpirates>
+  <eventtext.missionevent_clownpirates.c1>Якісь клоуни перехопили наші транспортні судна й убили наш екіпаж. Убийте їх без жалю.</eventtext.missionevent_clownpirates.c1>
+  <!-- Huskcult Pirates-->
+  <missionname.huskcultpirates>Винищення культистів</missionname.huskcultpirates>
+  <missiontypedescription.huskcultpirates>Знайдіть корабель культистів і знищте його на славу Матері Гудка.</missiontypedescription.huskcultpirates>
+  <missionsonarlabel.huskcultpirates>Корабель культистів</missionsonarlabel.huskcultpirates>
+  <missionmessage0.huskcultpirates>Убийте культистів або відправте підводний човен на дно моря!</missionmessage0.huskcultpirates>
+  <missionmessage1.huskcultpirates>Відведіть підводний човен до [location2], щоб забрати винагороду.</missionmessage1.huskcultpirates>
+  <missionheader0.huskcultpirates>Сектанти на горизонті! За полеглих клоунів!</missionheader0.huskcultpirates>
+  <missionheader1.huskcultpirates>Культистів ліквідовано</missionheader1.huskcultpirates>
+  <eventtext.missionevent_huskcultpirates.c1>Якісь культисти викрали членів нашої спільноти. Хтозна, які жахи вони з ними вчинили. Ми добре заплатимо, якщо ви їх усунете.</eventtext.missionevent_huskcultpirates.c1>
+  <!-- Bandit Ambush-->
+  <missionheader0.Banditambush>Вхідна передача</missionheader0.Banditambush>
+  <missionmessage0.Banditambush>«Ваша дорога закінчилася! Гарний підводний човен, він виглядав би краще, будучи дірявим».</missionmessage0.Banditambush>
+  <!-- Vessell Exosuit-->
+  <entityname.MCFE_coalition_exosuit>Важкий екзокостюм Коаліції для умиротворення</entityname.MCFE_coalition_exosuit>
+  <entitydescription.MCFE_coalition_exosuit>Екзокостюм Коаліції, спеціально розроблений для важких боїв. Його посилена металева конструкція забезпечує більшу стійкість до шкоди в зонах конфлікту, а передова система калібрування оптимізує поводження зі зброєю та зменшує споживання кисню. Він гордо демонструє кольори та вражаючу естетику найпроцвітаючішого уряду Європи.</entitydescription.MCFE_coalition_exosuit>
+  <entityname.MCFE_separatists_exosuit>Важкий авангардний екзокостюм сепаратистів</entityname.MCFE_separatists_exosuit>
+  <entitydescription.MCFE_separatists_exosuit>Екзокостюм сепаратистів, розроблений для бою на передовій. Його посилена металева конструкція забезпечує чудову стійкість до шкоди в зонах конфлікту, а система калібрування оптимізує поводження зі зброєю та зменшує споживання кисню. Він твердо несе характерні кольори опору та свободи.</entitydescription.MCFE_separatists_exosuit>
+  <entityname.MCFE_blueprintCoaltionExosuit>Креслення виготовлення: важкий екзокостюм Коаліції для умиротворення</entityname.MCFE_blueprintCoaltionExosuit>
+  <entitydescription.MCFE_blueprintCoaltionExosuit>Креслення виготовлення Коаліції. Прочитайте його, щоб навчитися виготовляти екзокостюми для збройних конфліктів під прапором Коаліції.</entitydescription.MCFE_blueprintCoaltionExosuit>
+  <entityname.MCFE_blueprintSeparatistExosuit>Креслення виготовлення: важкий авангардний екзокостюм сепаратистів</entityname.MCFE_blueprintSeparatistExosuit>
+  <entitydescription.MCFE_blueprintSeparatistExosuit>Креслення виготовлення сепаратистів. Прочитайте його, щоб навчитися виготовляти екзокостюми для збройних конфліктів під прапором сепаратистів.</entitydescription.MCFE_blueprintSeparatistExosuit>
+  <!--NPC Title-->
+  <!--Coalition NPC-->
+  <npctitle.coalitioncaptainlord.mpfe>Адмірал Коаліції</npctitle.coalitioncaptainlord.mpfe>
+  <npctitle.coalitionmedicrecruit>Медик Коаліції</npctitle.coalitionmedicrecruit>
+  <npctitle.coalitionmedicveteran>Медик-ветеран Коаліції</npctitle.coalitionmedicveteran>
+  <!--Separatists NPC-->
+  <npctitle.separatistcaptainlord.mpfe>Адмірал сепаратистів</npctitle.separatistcaptainlord.mpfe>
+  <npctitle.separatistmedicrecruit>Медик-сепаратист</npctitle.separatistmedicrecruit>
+  <npctitle.separatistmedicveteran>Медик-ветеран сепаратистів</npctitle.separatistmedicveteran>
+  <!--Bandit NPC-->
+  <npctitle.banditcaptain>Капітан-бандит</npctitle.banditcaptain>
+  <npctitle.banditcaptainlord>Капітан-бандит-лорд</npctitle.banditcaptainlord>
+  <npctitle.banditsecurityrecruit>Бандит-новобранець</npctitle.banditsecurityrecruit>
+  <npctitle.banditsecuritygunner>Бандит-стрілець</npctitle.banditsecuritygunner>
+  <npctitle.banditsecuritybrute>Елітний бандит-стрілець</npctitle.banditsecuritybrute>
+  <npctitle.banditengineerrecruit>Інженер-бандит</npctitle.banditengineerrecruit>
+  <npctitle.banditengineerveteran>Інженер-бандит-ветеран</npctitle.banditengineerveteran>
+  <npctitle.banditmechanicrecruit>Механік-бандит</npctitle.banditmechanicrecruit>
+  <npctitle.banditmechanicveteran>Механік-бандит-ветеран</npctitle.banditmechanicveteran>
+  <npctitle.banditmedicrecruit>Хірург-бандит</npctitle.banditmedicrecruit>
+  <npctitle.banditmedicveteran>Хірург-бандит-ветеран</npctitle.banditmedicveteran>
+  <!--Clown NPC-->
+  <npctitle.clowncaptain>Капітан Білий клоун</npctitle.clowncaptain>
+  <npctitle.clowncaptainlord>Капітан-лорд Білий клоун</npctitle.clowncaptainlord>
+  <npctitle.clownsecurityrecruit>Клоун-новобранець Огюст</npctitle.clownsecurityrecruit>
+  <npctitle.clownsecuritygunner>Клоун-стрілець родео</npctitle.clownsecuritygunner>
+  <npctitle.clownsecuritybrute>Елітний клоун-стрілець Ексцентрик</npctitle.clownsecuritybrute>
+  <npctitle.clownengineerrecruit>Клоун-інженер Бродяга</npctitle.clownengineerrecruit>
+  <npctitle.clownengineerveteran>Клоун-інженер-ветеран Бродяга</npctitle.clownengineerveteran>
+  <npctitle.clownmechanicrecruit>Клоун-механік Блазень</npctitle.clownmechanicrecruit>
+  <npctitle.clownmechanicveteran>Клоун-механік-ветеран Блазень</npctitle.clownmechanicveteran>
+  <npctitle.clownmedicrecruit>Клоун-хірург Жахливий</npctitle.clownmedicrecruit>
+  <npctitle.clownmedicveteran>Клоун-хірург-ветеран Жахливий</npctitle.clownmedicveteran>
+  <!--SectarianHusk NPC-->
+  <npctitle.huskcultcaptain>Сектантський жрець</npctitle.huskcultcaptain>
+  <npctitle.huskcultcaptainlord>Сектантський верховний жрець</npctitle.huskcultcaptainlord>
+  <npctitle.huskcultsecurityrecruit>Вірний сектант-мирянин</npctitle.huskcultsecurityrecruit>
+  <npctitle.huskcultsecuritygunner>Сектантський диякон</npctitle.huskcultsecuritygunner>
+  <npctitle.huskcultsecuritybrute>Сектантський інквізитор</npctitle.huskcultsecuritybrute>
+  <npctitle.huskcultengineerrecruit>Сектант-інженер, служка вівтаря</npctitle.huskcultengineerrecruit>
+  <npctitle.huskcultengineerveteran>Сектант-інженер-ветеран, служка вівтаря</npctitle.huskcultengineerveteran>
+  <npctitle.huskcultmechanicrecruit>Сектант-механік, служка вівтаря</npctitle.huskcultmechanicrecruit>
+  <npctitle.huskcultmechanicveteran>Сектант-механік-ветеран, служка вівтаря</npctitle.huskcultmechanicveteran>
+  <npctitle.huskcultmedicrecruit>Військовий науковець сектантів</npctitle.huskcultmedicrecruit>
+  <npctitle.huskcultmedicveteran>Військовий науковець-ветеран сектантів</npctitle.huskcultmedicveteran>
+  <npctitle.huskcultprisoner>В'язень сектантів</npctitle.huskcultprisoner>
+  <!--Bandit Items-->
+  <entityname.MCFE_Colt_2118_round>Патрон Colt 2118</entityname.MCFE_Colt_2118_round>
+  <entitydescription.MCFE_Colt_2118_round>Калібр .38. Снаряди зі зміненим загостреним наконечником і бічними канавками, призначені розколюватися при влучанні. Їхня мета — не лише пробивати, а й розривати м'які тканини й спричиняти масивні крововиливи, які важко припекти.</entitydescription.MCFE_Colt_2118_round>
+  <entityname.MCFE_Colt_2118>Colt 2118</entityname.MCFE_Colt_2118>
+  <entitydescription.MCFE_Colt_2118>Модернізація Colt 1911, пристосована до вузьких коридорів Європи. Хоча його виготовлення має суто кримінальне походження, надійність і контрольована віддача зробили його улюбленим інструментом для «справ», що вимагають точності та стабільної швидкості стрільби.</entitydescription.MCFE_Colt_2118>
+  <entityname.MCFE_Colt_2118_magazine>Магазин Colt 2118</entityname.MCFE_Colt_2118_magazine>
+  <entitydescription.MCFE_Colt_2118_magazine>Посилений сталевий магазин для боєприпасів калібру .38. Його механізм подачі оптимізований, щоб запобігати заклиненню під час використання нерівних патронів із зубчастим наконечником.</entitydescription.MCFE_Colt_2118_magazine>
+  <entityname.MCFE_blueprintColt_2118>Креслення: Colt 2118</entityname.MCFE_blueprintColt_2118>
+  <entitydescription.MCFE_blueprintColt_2118>Конструкторські схеми піратів. Прочитайте їх, щоб навчитися виготовляти пістолети Colt 2118.</entitydescription.MCFE_blueprintColt_2118>
+  <entityname.MCFE_blueprintColt_2118_magazine>Креслення: магазин Colt 2118</entityname.MCFE_blueprintColt_2118_magazine>
+  <entitydescription.MCFE_blueprintColt_2118_magazine>Конструкторські схеми піратів. Прочитайте їх, щоб навчитися виготовляти магазини для пістолета Colt 2118.</entitydescription.MCFE_blueprintColt_2118_magazine>
+  <!-- Clown Items -->
+  <entityname.MCFE_revolverrounddementonine>Дементонітові патрони для револьвера</entityname.MCFE_revolverrounddementonine>
+  <entitydescription.MCFE_revolverrounddementonine>Патрони для револьвера, створені Дітьми Матері Мек-Мек. Поранення ними викликає галюцинації.</entitydescription.MCFE_revolverrounddementonine>
+  <entityname.MCFE_clownmask_doctor>Маска жахливого клоуна</entityname.MCFE_clownmask_doctor>
+  <entitydescription.MCFE_clownmask_doctor>Клоунська маска в темніших тонах; різкість її кольорів відображає, як вони сприймають візит до лікаря.</entitydescription.MCFE_clownmask_doctor>
+  <entityname.MCFE_clowncostume_doctor>Костюм жахливого клоуна</entityname.MCFE_clowncostume_doctor>
+  <entitydescription.MCFE_clowncostume_doctor>Клоунський костюм у темніших тонах; різкість його кольорів відображає, як вони сприймають візит до лікаря.</entitydescription.MCFE_clowncostume_doctor>
+  <entityname.MCFE_dementoninespear>Дементонітовий гарпун</entityname.MCFE_dementoninespear>
+  <entitydescription.MCFE_dementoninespear>Гарпун для гарпунної гармати, створений Дітьми Матері Мек-Мек. Окрім завдання порізів, викликає в цілі галюцинації.</entitydescription.MCFE_dementoninespear>
+  <entityname.MCFE_explosivespeardementonite>Вибуховий дементонітовий гарпун</entityname.MCFE_explosivespeardementonite>
+  <entitydescription.MCFE_explosivespeardementonite>Нестабільний гарпун, виготовлений із дементоніту Дітьми Матері Мек-Мек. Його психоделічні ефекти спричиняють сумбурну смерть, поки ціль у пастці вибуху.</entitydescription.MCFE_explosivespeardementonite>
+  <!-- Husk Items -->
+  <entityname.MCFE_HuskcultRevolver>Модифікований револьвер культистів</entityname.MCFE_HuskcultRevolver>
+  <entitydescription.MCFE_HuskcultRevolver>Цей револьвер змінено відносно оригінальної конструкції, щоб у барабан можна було заряджати малі шприци й стріляти ними.</entitydescription.MCFE_HuskcultRevolver>
+  <entityname.MCFE_HuskCultrevolverround>Шприц-куля з кислотою</entityname.MCFE_HuskCultrevolverround>
+  <entitydescription.MCFE_HuskCultrevolverround>Культисти створили кулю з наконечником-шприцом. Вона наповнена кислотою; без сумніву, болісна смерть.</entitydescription.MCFE_HuskCultrevolverround>
+  <entityname.MCFE_HuskCultrevolverround_2>Шприц-куля з хлоралгідратом</entityname.MCFE_HuskCultrevolverround_2>
+  <entitydescription.MCFE_HuskCultrevolverround_2>Культисти створили кулю з наконечником-шприцом. Вона наповнена хлоралгідратом, потужним паралітиком. Ймовірно, вони викрадають людей за допомогою цих куль.</entitydescription.MCFE_HuskCultrevolverround_2>
+  <!-- BluePrints Clowns -->
+  <entityname.MCFE_blueprintcoilgunammoboxDementonite>Креслення: бокс дементонітових боєприпасів для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxDementonite>
+  <entitydescription.MCFE_blueprintcoilgunammoboxDementonite>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти бокси дементонітових боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxDementonite>
+  <entityname.MCFE_blueprintchaingunammoboxDementonite>Креслення: бокс дементонітових боєприпасів для чейнгана</entityname.MCFE_blueprintchaingunammoboxDementonite>
+  <entitydescription.MCFE_blueprintchaingunammoboxDementonite>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти бокси дементонітових боєприпасів для чейнгана.</entitydescription.MCFE_blueprintchaingunammoboxDementonite>
+  <entityname.MCFE_blueprintrevolverrounddementonine>Креслення: дементонітові патрони для револьвера</entityname.MCFE_blueprintrevolverrounddementonine>
+  <entitydescription.MCFE_blueprintrevolverrounddementonine>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти дементонітові патрони для револьвера.</entitydescription.MCFE_blueprintrevolverrounddementonine>
+  <entityname.MCFE_blueprintDementoniteCharge>Креслення: дементонітовий UEX</entityname.MCFE_blueprintDementoniteCharge>
+  <entitydescription.MCFE_blueprintDementoniteCharge>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти дементонітовий UEX.</entitydescription.MCFE_blueprintDementoniteCharge>
+  <entityname.MCFE_blueprintdementoninespear>Креслення: дементонітовий гарпун</entityname.MCFE_blueprintdementoninespear>
+  <entitydescription.MCFE_blueprintdementoninespear>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти дементонітові гарпуни.</entitydescription.MCFE_blueprintdementoninespear>
+  <entityname.MCFE_blueprintexplosivespeardementonite>Креслення: вибуховий дементонітовий гарпун</entityname.MCFE_blueprintexplosivespeardementonite>
+  <entitydescription.MCFE_blueprintexplosivespeardementonite>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти вибухові дементонітові гарпуни.</entitydescription.MCFE_blueprintexplosivespeardementonite>
+  <!-- BluePrints HuskCult-->
+  <entityname.MCFE_blueprintcoilgunammoboxToxic>Креслення: бокс хворобливих боєприпасів для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxToxic>
+  <entitydescription.MCFE_blueprintcoilgunammoboxToxic>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти бокси хворобливих боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxToxic>
+  <entityname.MCFE_blueprintchaingunammoboxToxic>Креслення: бокс хворобливих боєприпасів для чейнгана</entityname.MCFE_blueprintchaingunammoboxToxic>
+  <entitydescription.MCFE_blueprintchaingunammoboxToxic>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти бокси хворобливих боєприпасів для чейнгана.</entitydescription.MCFE_blueprintchaingunammoboxToxic>
+  <entityname.MCFE_blueprintToxicCharge>Креслення: хворобливий заряд UEX</entityname.MCFE_blueprintToxicCharge>
+  <entitydescription.MCFE_blueprintToxicCharge>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти хворобливі заряди UEX.</entitydescription.MCFE_blueprintToxicCharge>
+  <entityname.MCFE_blueprintHuskcultRevolver>Креслення: модифікований револьвер культистів</entityname.MCFE_blueprintHuskcultRevolver>
+  <entitydescription.MCFE_blueprintHuskcultRevolver>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти модифіковані револьвери культистів.</entitydescription.MCFE_blueprintHuskcultRevolver>
+  <entityname.MCFE_blueprintHuskCultrevolverround>Креслення: шприц-куля з кислотою</entityname.MCFE_blueprintHuskCultrevolverround>
+  <entitydescription.MCFE_blueprintHuskCultrevolverround>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти шприц-кулі з кислотою.</entitydescription.MCFE_blueprintHuskCultrevolverround>
+  <entityname.MCFE_blueprintHuskCultrevolverround2>Креслення: шприц-куля з хлоралгідратом</entityname.MCFE_blueprintHuskCultrevolverround2>
+  <entitydescription.MCFE_blueprintHuskCultrevolverround2>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти шприц-кулі з хлоралгідратом.</entitydescription.MCFE_blueprintHuskCultrevolverround2>
+  <!-- BluePrints Bandits-->
+  <entityname.MCFE_blueprintcoilgunammoboxTrash>Креслення: бокс дешевих боєприпасів для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxTrash>
+  <entitydescription.MCFE_blueprintcoilgunammoboxTrash>Конструкторські креслення піратів. Прочитайте їх, щоб навчитися виготовляти бокси дешевих боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxTrash>
+  <entityname.MCFE_blueprintchaingunammoboxTrash>Креслення: бокс дешевих боєприпасів для чейнгана</entityname.MCFE_blueprintchaingunammoboxTrash>
+  <entitydescription.MCFE_blueprintchaingunammoboxTrash>Конструкторські креслення піратів. Прочитайте їх, щоб навчитися виготовляти бокси дешевих боєприпасів для чейнгана.</entitydescription.MCFE_blueprintchaingunammoboxTrash>
+  <!--Ammo Clowns-->
+  <entityname.MCFE_chaingunammoboxDementonite>Бокс дементонітових боєприпасів для чейнгана</entityname.MCFE_chaingunammoboxDementonite>
+  <entitydescription.MCFE_chaingunammoboxDementonite>Великий бокс дементонітових боєприпасів для чейнгана. Влучання цих куль може викликати галюцинації.</entitydescription.MCFE_chaingunammoboxDementonite>
+  <entityname.MCFE_chaingunboltDementonite>Дементонітовий снаряд чейнгана</entityname.MCFE_chaingunboltDementonite>
+  <entityname.MCFE_coilgunammoboxDementonite>Бокс дементонітових боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxDementonite>
+  <entitydescription.MCFE_coilgunammoboxDementonite>Великий бокс дементонітових боєприпасів для котушкової гармати. Влучання цих куль може викликати галюцинації.</entitydescription.MCFE_coilgunammoboxDementonite>
+  <entityname.MCFE_coilgunboltDementonite>Дементонітовий снаряд котушкової гармати</entityname.MCFE_coilgunboltDementonite>
+  <entityname.MCFE_DementoniteCharge>Дементонітовий заряд UEX</entityname.MCFE_DementoniteCharge>
+  <entitydescription.MCFE_DementoniteCharge>Вибухова суміш, виготовлена клоунами з натрію, фосфору та дементоніту. Надзвичайно психоделічна.</entitydescription.MCFE_DementoniteCharge>
+  <!--Ammo Huskcult-->
+  <entityname.MCFE_chaingunammoboxToxic>Бокс хворобливих боєприпасів для чейнгана</entityname.MCFE_chaingunammoboxToxic>
+  <entitydescription.MCFE_chaingunammoboxToxic>Великий бокс хворобливих боєприпасів для чейнгана. Їхні кулі заражені патогенами й під час влучання в ціль спричиняють небезпечні інфекції.</entitydescription.MCFE_chaingunammoboxToxic>
+  <entityname.MCFE_chaingunboltToxic>Хворобливий снаряд чейнгана</entityname.MCFE_chaingunboltToxic>
+  <entityname.MCFE_coilgunammoboxToxic>Бокс хворобливих боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxToxic>
+  <entitydescription.MCFE_coilgunammoboxToxic>Великий бокс хворобливих боєприпасів для котушкової гармати. Їхні кулі заражені патогенами й під час влучання в ціль спричиняють небезпечні інфекції.</entitydescription.MCFE_coilgunammoboxToxic>
+  <entityname.MCFE_coilgunboltToxic>Хворобливий снаряд котушкової гармати</entityname.MCFE_coilgunboltToxic>
+  <entityname.MCFE_ToxicCharge>Хворобливий заряд UEX</entityname.MCFE_ToxicCharge>
+  <entitydescription.MCFE_ToxicCharge>Вибухова суміш, виготовлена культистами з натрію, фосфору та бактерій. Вкрай шкідлива для організму.</entitydescription.MCFE_ToxicCharge>
+  <!--Ammo Bandit-->
+  <entityname.MCFE_chaingunammoboxTrash>Бокс дешевих боєприпасів для чейнгана</entityname.MCFE_chaingunammoboxTrash>
+  <entitydescription.MCFE_chaingunammoboxTrash>Великий бокс дешевих боєприпасів для чейнгана. Їхні кулі мають нерівні наконечники, що спричиняють тяжчі рани та посилюють кровотечу при влучанні.</entitydescription.MCFE_chaingunammoboxTrash>
+  <entityname.MCFE_chaingunboltTrash>Дешевий снаряд чейнгана</entityname.MCFE_chaingunboltTrash>
+  <entityname.MCFE_coilgunammoboxTrash>Бокс дешевих боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxTrash>
+  <entitydescription.MCFE_coilgunammoboxTrash>Великий бокс дешевих боєприпасів для котушкової гармати. Їхні кулі мають нерівні наконечники, що спричиняють тяжчі рани та посилюють кровотечу при влучанні.</entitydescription.MCFE_coilgunammoboxTrash>
+  <entityname.MCFE_coilgunboltTrash>Дешевий снаряд котушкової гармати</entityname.MCFE_coilgunboltTrash>
+  <!--PulseLaserAmmo-->
+  <entityname.MCFE_pulselaserammoboxAlcoholic>Паливний бокс імпульсного лазера з етанолом</entityname.MCFE_pulselaserammoboxAlcoholic>
+  <entitydescription.MCFE_pulselaserammoboxAlcoholic>Дивна формула палива для імпульсного лазера, що використовує етанол; вона не завдає сильної ударної шкоди, але викликає у цілі стан дезорієнтації. Використовується як боєприпаси для імпульсного лазера.</entitydescription.MCFE_pulselaserammoboxAlcoholic>
+  <entityname.MCFE_pulselaserboltAlcoholic>Снаряд імпульсного лазера з етанолом</entityname.MCFE_pulselaserboltAlcoholic>
+  <entityname.MCFE_pulselaserammoboxToxic>Паливний бокс радіоактивного імпульсного лазера</entityname.MCFE_pulselaserammoboxToxic>
+  <entitydescription.MCFE_pulselaserammoboxToxic>Нестабільний варіант стандартного палива. Хоча він жертвує безпосередньою ударною потужністю, низька чистота сполуки створює смертоносне радіоактивне розсіювання при контакті з ціллю.</entitydescription.MCFE_pulselaserammoboxToxic>
+  <entityname.MCFE_pulselaserboltToxic>Снаряд радіоактивного імпульсного лазера</entityname.MCFE_pulselaserboltToxic>
+  <entityname.MCFE_pulselaserammoboxTrash>Дешевий паливний бокс імпульсного лазера</entityname.MCFE_pulselaserammoboxTrash>
+  <entitydescription.MCFE_pulselaserammoboxTrash>Спроба створити звичайне паливо для імпульсного лазера. Попри грубі компоненти виготовлення, воно може створювати інтенсивні сплески енергії.</entitydescription.MCFE_pulselaserammoboxTrash>
+  <entityname.MCFE_pulselaserboltTrash>Дешевий снаряд імпульсного лазера</entityname.MCFE_pulselaserboltTrash>
+  <entityname.MCFE_blueprintpulselaserammoboxAlcoholic>Креслення: паливний бокс імпульсного лазера з етанолом</entityname.MCFE_blueprintpulselaserammoboxAlcoholic>
+  <entitydescription.MCFE_blueprintpulselaserammoboxAlcoholic>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти паливні бокси імпульсного лазера з етанолом.</entitydescription.MCFE_blueprintpulselaserammoboxAlcoholic>
+  <entityname.MCFE_blueprintpulselaserammoboxToxic>Креслення: паливний бокс радіоактивного імпульсного лазера</entityname.MCFE_blueprintpulselaserammoboxToxic>
+  <entitydescription.MCFE_blueprintpulselaserammoboxToxic>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти паливні бокси радіоактивного імпульсного лазера.</entitydescription.MCFE_blueprintpulselaserammoboxToxic>
+  <entityname.MCFE_blueprintpulselaserammoboxTrash>Креслення: дешевий паливний бокс імпульсного лазера</entityname.MCFE_blueprintpulselaserammoboxTrash>
+  <entitydescription.MCFE_blueprintpulselaserammoboxTrash>Конструкторські креслення піратів. Прочитайте їх, щоб навчитися виготовляти дешеві паливні бокси імпульсного лазера.</entitydescription.MCFE_blueprintpulselaserammoboxTrash>
+  <!--ExplosiveCoilgunAmmo-->
+  <entityname.MCFE_coilgunammoboxexplosiveClown>Бокс вибухових етанолізованих дементних боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxexplosiveClown>
+  <entitydescription.MCFE_coilgunammoboxexplosiveClown>Вибухові снаряди для котушкової гармати, заряджені сполукою етанолу й галюциногенних речовин. Детонація випаровує хімікати, викликаючи в нервовій системі цілі стан сильної дезорієнтації.</entitydescription.MCFE_coilgunammoboxexplosiveClown>
+  <entityname.MCFE_coilgunboltexplosiveClown>Вибуховий етанолізований дементний снаряд котушкової гармати.</entityname.MCFE_coilgunboltexplosiveClown>
+  <entityname.MCFE_coilgunammoboxexplosiveToxic>Бокс вибухових боєприпасів «Ізотопна чума» для котушкової гармати</entityname.MCFE_coilgunammoboxexplosiveToxic>
+  <entitydescription.MCFE_coilgunammoboxexplosiveToxic>Заряд для котушкової гармати промислового класу, забруднений радіоактивними ізотопами та біоактивними патогенами. Розроблений так, щоб вибух діяв як переносник зараження, спричиняючи негайне системне отруєння жертв.</entitydescription.MCFE_coilgunammoboxexplosiveToxic>
+  <entityname.MCFE_coilgunboltexplosiveToxic>Вибуховий снаряд «Ізотопна чума» для котушкової гармати.</entityname.MCFE_coilgunboltexplosiveToxic>
+  <entityname.MCFE_coilgunammoboxexplosiveTrash>Бокс дешевих вибухових боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxexplosiveTrash>
+  <entitydescription.MCFE_coilgunammoboxexplosiveTrash>Імпровізовані боєприпаси з базових матеріалів і залишкового металобрухту. Хоча радіус вибуху зменшений через нестабільну суміш, насичення шрапнеллю, що виникає, брутально ефективно розриває тканини та броню.</entitydescription.MCFE_coilgunammoboxexplosiveTrash>
+  <entityname.MCFE_coilgunboltexplosiveTrash>Дешевий вибуховий снаряд котушкової гармати.</entityname.MCFE_coilgunboltexplosiveTrash>
+  <entityname.MCFE_blueprintcoilgunammoboxexplosiveClown>Креслення: бокс вибухових етанолізованих дементних боєприпасів для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxexplosiveClown>
+  <entitydescription.MCFE_blueprintcoilgunammoboxexplosiveClown>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти бокси вибухових етанолізованих дементних боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxexplosiveClown>
+  <entityname.MCFE_blueprintcoilgunammoboxexplosiveToxic>Креслення: бокс вибухових боєприпасів «Ізотопна чума» для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxexplosiveToxic>
+  <entitydescription.MCFE_blueprintcoilgunammoboxexplosiveToxic>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти бокси вибухових боєприпасів «Ізотопна чума» для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxexplosiveToxic>
+  <entityname.MCFE_blueprintcoilgunammoboxexplosiveTrash>Креслення: бокс дешевих вибухових боєприпасів для котушкової гармати</entityname.MCFE_blueprintcoilgunammoboxexplosiveTrash>
+  <entitydescription.MCFE_blueprintcoilgunammoboxexplosiveTrash>Конструкторські креслення піратів. Прочитайте їх, щоб навчитися виготовляти бокси дешевих вибухових боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprintcoilgunammoboxexplosiveTrash>
+  <!--FlakCannons-->
+  <entityname.MCFE_flakcannonammoboxTrash>Бокс дешевих боєприпасів для зенітної гармати</entityname.MCFE_flakcannonammoboxTrash>
+  <entitydescription.MCFE_flakcannonammoboxTrash>Виготовлений із залишкових високощільних металів і переробленого брухту. Його конструкція створює щільний град нерівної шрапнелі, що глибоко розриває тканини цілі.</entitydescription.MCFE_flakcannonammoboxTrash>
+  <entityname.MCFE_flakboltTrash>Дешевий снаряд зенітної гармати</entityname.MCFE_flakboltTrash>
+  <entityname.MCFE_flakshrapnelTrash>Уламок дешевого снаряда зенітної гармати</entityname.MCFE_flakshrapnelTrash>
+  <entityname.MCFE_flakcannonammoboxToxic>Бокс заражених боєприпасів для зенітної гармати</entityname.MCFE_flakcannonammoboxToxic>
+  <entitydescription.MCFE_flakcannonammoboxToxic>Снаряди, заряджені активними біологічними патогенами. Ці боєприпаси не просто ранять ціль, а використовують вибух як переносник для спричинення небезпечних інфекцій і системних хвороб, що гарантують смерть після влучання.</entitydescription.MCFE_flakcannonammoboxToxic>
+  <entityname.MCFE_flakboltToxic>Заражений снаряд зенітної гармати</entityname.MCFE_flakboltToxic>
+  <entityname.MCFE_flakshrapnelToxic>Уламок зараженого снаряда зенітної гармати</entityname.MCFE_flakshrapnelToxic>
+  <entityname.MCFE_flakcannonammoboxAlcoholic>Бокс етанолізованих боєприпасів для зенітної гармати</entityname.MCFE_flakcannonammoboxAlcoholic>
+  <entitydescription.MCFE_flakcannonammoboxAlcoholic>Заряджений леткими сполуками етанолу. При детонації розсіює забруднену шрапнель, що, окрім фізичної шкоди, викликає сильну дезорієнтацію та втрату координації в будь-якої ураженої цілі.</entitydescription.MCFE_flakcannonammoboxAlcoholic>
+  <entityname.MCFE_flakboltAlcoholic>Етанолізований снаряд зенітної гармати</entityname.MCFE_flakboltAlcoholic>
+  <entityname.MCFE_flakshrapnelAlcoholic>Уламок етанолізованого снаряда зенітної гармати</entityname.MCFE_flakshrapnelAlcoholic>
+  <entityname.MCFE_blueprintflakcannonammoboxAlcoholic>Креслення: бокс етанолізованих боєприпасів для зенітної гармати</entityname.MCFE_blueprintflakcannonammoboxAlcoholic>
+  <entitydescription.MCFE_blueprintflakcannonammoboxAlcoholic>Конструкторські креслення клоунів. Прочитайте їх, щоб навчитися виготовляти бокси етанолізованих боєприпасів для зенітної гармати.</entitydescription.MCFE_blueprintflakcannonammoboxAlcoholic>
+  <entityname.MCFE_blueprintflakcannonammoboxToxic>Креслення: бокс заражених боєприпасів для зенітної гармати</entityname.MCFE_blueprintflakcannonammoboxToxic>
+  <entitydescription.MCFE_blueprintflakcannonammoboxToxic>Конструкторські креслення культистів. Прочитайте їх, щоб навчитися виготовляти бокси заражених боєприпасів для зенітної гармати.</entitydescription.MCFE_blueprintflakcannonammoboxToxic>
+  <entityname.MCFE_blueprintflakcannonammoboxTrash>Креслення: бокс дешевих боєприпасів для зенітної гармати</entityname.MCFE_blueprintflakcannonammoboxTrash>
+  <entitydescription.MCFE_blueprintflakcannonammoboxTrash>Конструкторські креслення піратів. Прочитайте їх, щоб навчитися виготовляти бокси дешевих боєприпасів для зенітної гармати.</entitydescription.MCFE_blueprintflakcannonammoboxTrash>
+  <!--Tags names-->
+  <!--Tags names Bandidos-->
+  <tagname.MCFE_piratetbanditshelf>Завантажувач зброї бандитів</tagname.MCFE_piratetbanditshelf>
+  <tagdescription.MCFE_piratetbanditshelf>Постачає ящики з боєприпасами на підводні човни бандитів.</tagdescription.MCFE_piratetbanditshelf>
+  <tagname.MCFE_piratetbanditcab>Шафа бандитів</tagname.MCFE_piratetbanditcab>
+  <tagdescription.MCFE_piratetbanditcab>Зберігає унікальні предмети бандитів.</tagdescription.MCFE_piratetbanditcab>
+  <!--Tags names Sectarian-->
+  <tagname.MCFE_piratethuskcultshelf>Завантажувач зброї сектантів</tagname.MCFE_piratethuskcultshelf>
+  <tagdescription.MCFE_piratethuskcultshelf>Постачає ящики з боєприпасами на підводні човни сектантів.</tagdescription.MCFE_piratethuskcultshelf>
+  <tagname.MCFE_piratethuskcultcab>Шафа сектантів</tagname.MCFE_piratethuskcultcab>
+  <tagdescription.MCFE_piratethuskcultcab>Зберігає унікальні предмети сектантів.</tagdescription.MCFE_piratethuskcultcab>
+  <!--Tags names Clowns-->
+  <tagname.MCFE_piratetclownshelf>Завантажувач зброї клоунів</tagname.MCFE_piratetclownshelf>
+  <tagdescription.MCFE_piratetclownshelf>Постачає ящики з боєприпасами на підводні човни клоунів.</tagdescription.MCFE_piratetclownshelf>
+  <tagname.MCFE_piratetclowncab>Шафа клоунів</tagname.MCFE_piratetclowncab>
+  <tagdescription.MCFE_piratetclowncab>Зберігає унікальні предмети клоунів.</tagdescription.MCFE_piratetclowncab>
+  <!--Tags names Templars-->
+  <tagname.MCFE_piratetTemplarshelf>Завантажувач озброєння тамплієрів</tagname.MCFE_piratetTemplarshelf>
+  <tagdescription.MCFE_piratetTemplarshelf>Постачає бокси з боєприпасами на підводні човни тамплієрів.</tagdescription.MCFE_piratetTemplarshelf>
+  <tagname.MCFE_piratetTemplarcab>Шафа тамплієрів</tagname.MCFE_piratetTemplarcab>
+  <tagdescription.MCFE_piratetTemplarcab>Зберігає унікальні предмети тамплієрів.</tagdescription.MCFE_piratetTemplarcab>
+  <!--Tags names Zealots-->
+  <tagname.MCFE_piratetZealotshelf>Завантажувач озброєння ревнителів-тамплієрів</tagname.MCFE_piratetZealotshelf>
+  <tagdescription.MCFE_piratetZealotshelf>Постачає бокси з боєприпасами на підводні човни ревнителів-тамплієрів.</tagdescription.MCFE_piratetZealotshelf>
+  <tagname.MCFE_piratetZealotcab>Шафа ревнителів-тамплієрів</tagname.MCFE_piratetZealotcab>
+  <tagdescription.MCFE_piratetZealotcab>Зберігає унікальні предмети ревнителів-тамплієрів.</tagdescription.MCFE_piratetZealotcab>
+  <!--Tags names-->
+  <!--AmbushBandits-->
+  <missionname.MCFE_Bandit_Vessels_Attack>Засідка бандитів</missionname.MCFE_Bandit_Vessels_Attack>
+  <missionmessage0.Banditsattack1>«Не щодня побачиш, як падає такий гарний підводний човен».</missionmessage0.Banditsattack1>
+  <missionmessage0.Banditsattack2>«Нічого особистого, нам просто потрібні ваші деталі».</missionmessage0.Banditsattack2>
+  <missionmessage0.Banditsattack3>«Яке ж вам не щастить, саме сьогодні».</missionmessage0.Banditsattack3>
+  <!--MissionItems-->
+  <entityname.MCFE_Reactorexploder>Каталізатор термічної нестабільності</entityname.MCFE_Reactorexploder>
+  <entitydescription.MCFE_Reactorexploder>Нестабільна сполука, призначена для перевантаження енергетичних ядер. При детонації запускає ланцюгову реакцію, здатну за секунди обвалити кілька секцій інфраструктури.</entitydescription.MCFE_Reactorexploder>
+  <entityname.MCFE_EnergyGenerator>Промисловий енергоблок</entityname.MCFE_EnergyGenerator>
+  <entitydescription.MCFE_EnergyGenerator>Резервний генератор, призначений для форпостів. Хоча він стабільніший за реактор, його потужність обмежена, а для роботи потрібні паливні стрижні з фульгурію.</entitydescription.MCFE_EnergyGenerator>
+  <!--MissionOutpostDestroyDialogue-->
+  <!--TemplarsOutpostsDestroy-->
+  <eventtext.templaroutpostdestruction.npcsflee>Ви чуєте, як відстиковується безліч стикувальних портів: решта мешканців станції втекли, залишивши її покинутою.</eventtext.templaroutpostdestruction.npcsflee>
+  <eventtext.templaroutpostdestruction.placeruined>Тепер це місце лежить у руїнах…</eventtext.templaroutpostdestruction.placeruined>
+  <!--ZealotsMachinery-->
+  <entityname.MCFE_Zealto_reactor>Ядерний реактор ревнителів</entityname.MCFE_Zealto_reactor>
+  <entitydescription.MCFE_Zealto_reactor>Пристрій, модифікований інопланетною технологією, що використовується для вироблення електроенергії.</entitydescription.MCFE_Zealto_reactor>
+  <!--Zealot of Europa-->
+  <faction.Zealot_Templars>Ревнителі Європи</faction.Zealot_Templars>
+  <faction.Zealot_Templars.description>Фракція, що народилася від найрадикальнішого розколу тамплієрів. Ревнителі вважають технологію Альфа-іскри священною спадщиною, забороненою для «негідних» з інших фракцій. Їхнє спорядження — брутальна суміш передової інженерії та латок рівня виживання, викувана дефіцитом і призначена витримувати там, де інші гинуть.</faction.Zealot_Templars.description>
+  <faction.Zealot_Templars.shortdescription>Радикальна секта тамплієрів, що забороняє «негідним» доступ до технології Альфа-іскри. Їхній арсенал — брутальне поєднання високих технологій і латок рівня виживання, викуваних дефіцитом.</faction.Zealot_Templars.shortdescription>
+  <entityname.Zealot_Robot>Око ревнителів</entityname.Zealot_Robot>
+  <entitydescription.Zealot_Robot>Гігантське роботизоване око, що завжди за вами стежить.</entitydescription.Zealot_Robot>
+  <entityname.Zealot_holder_1>Чучело тамплієра</entityname.Zealot_holder_1>
+  <entitydescription.Zealot_holder_1>Частина тіла почесного тамплієра, що опинилася в лігві ревнителів.</entitydescription.Zealot_holder_1>
+  <entityname.Zealot_Wall_1>Настінна прикраса ревнителів</entityname.Zealot_Wall_1>
+  <entitydescription.Zealot_Wall_1>Купа пристроїв, змонтованих на стіні.</entitydescription.Zealot_Wall_1>
+  <entityname.Zealot_Paint>Картина ревнителів</entityname.Zealot_Paint>
+  <!--Items zealots-->
+  <entityname.MCFE_Abandoned_makeshiftarmor>Броня ревнителів</entityname.MCFE_Abandoned_makeshiftarmor>
+  <entitydescription.MCFE_Abandoned_makeshiftarmor>Костюм із залізних пластин. Його вигляд брудний і заплямований кров'ю.</entitydescription.MCFE_Abandoned_makeshiftarmor>
+  <entityname.MCFE_Abandoned_ironhelmet>Залізний шолом ревнителів</entityname.MCFE_Abandoned_ironhelmet>
+  <entitydescription.MCFE_Abandoned_ironhelmet>Грубого вигляду шолом із такими модифікаціями, як власна радіостанція та система освітлення.</entitydescription.MCFE_Abandoned_ironhelmet>
+  <entityname.MCFE_assistantclothes_templarZealots>Одяг асистента ревнителів</entityname.MCFE_assistantclothes_templarZealots>
+  <entitydescription.MCFE_assistantclothes_templarZealots>Варіант стандартної уніформи тамплієрів із дивним пристроєм, змонтованим на плечі.</entitydescription.MCFE_assistantclothes_templarZealots>
+  <entityname.MCFE_combattemplardivingsuit>Бойовий костюм ревнителів</entityname.MCFE_combattemplardivingsuit>
+  <entitydescription.MCFE_combattemplardivingsuit>Схоже, це модифікований бойовий костюм; попри кращий захист, він здається не важчим за оригінал. Забезпечує належний захист до 5700 метрів і має вбудовану систему фільтрації повітря, що дозволяє костюму використовувати кисень із шолома власника, коли це можливо.</entitydescription.MCFE_combattemplardivingsuit>
+  <entityname.MCFE_zealottclothes_templaradmin>Одяг високого ревнителя</entityname.MCFE_zealottclothes_templaradmin>
+  <entitydescription.MCFE_zealottclothes_templaradmin>Одяг, що позначає високий ранг серед Ревнителів Європи; містить броньовані секції, а також пристрої для допомоги у щоденних обов'язках.</entitydescription.MCFE_zealottclothes_templaradmin>
+  <entityname.MCFE_zealot_Security>Уніформа офіцера безпеки ревнителів</entityname.MCFE_zealot_Security>
+  <entitydescription.MCFE_zealot_Security>Одяг у військовому стилі, підсилений звичайними металевими пластинами та фрагментами невідомого походження. Вбудовані тактичні підсумки дозволяють власнику носити додаткові боєприпаси — життєво важливе доповнення для ревних охоронців віри.</entitydescription.MCFE_zealot_Security>
+  <entityname.MCFE_zealot_Engineer>Уніформа інженера ревнителів</entityname.MCFE_zealot_Engineer>
+  <entitydescription.MCFE_zealot_Engineer>Тривожний одяг, що поєднує біологічну тканину з механічними компонентами. Попри відразливий вигляд, його структура, підсилена інопланетними полімерами, забезпечує виняткову стійкість до радіації, роблячи його найкращим спорядженням для інженерів.</entitydescription.MCFE_zealot_Engineer>
+  <entityname.MCFE_zealot_Mechanic>Уніформа механіка ревнителів</entityname.MCFE_zealot_Mechanic>
+  <entitydescription.MCFE_zealot_Mechanic>Костюм, виготовлений із біологічних і механічних залишків. Хоча його дизайн суперечить будь-якій естетичній логіці, він відповідає всім стандартам безпеки, потрібним для роботи в глибинах будь-якого підводного човна.</entitydescription.MCFE_zealot_Mechanic>
+  <entityname.MCFE_zealot_TecHelmet>Технічний шолом ревнителів</entityname.MCFE_zealot_TecHelmet>
+  <entitydescription.MCFE_zealot_TecHelmet>Шолом, викуваний зі сплавів невідомого походження. Його інопланетний дизайн тривожить, але вбудований інтерфейсний дисплей значно допомагає у складних завданнях із проводкою та маніпуляціями зі схемами.</entitydescription.MCFE_zealot_TecHelmet>
+  <entityname.MCFE_zealot_Medic>Уніформа фармацевта ревнителів</entityname.MCFE_zealot_Medic>
+  <entitydescription.MCFE_zealot_Medic>Модифікований лабораторний одяг. Хоча ревнителі мають науковий і націлений на виживання склад розуму, відсутність передових медичних технологій змушує їх покладатися на припаси інших фракцій. Попри це, їхня винахідливість дозволяє їм змінювати й покращувати ці чужі ліки під свої брутальні потреби.</entitydescription.MCFE_zealot_Medic>
+  <!--Templar NPC Title-->
+  <npctitle.ZealotNpcShop>Торговець ревнителів</npctitle.ZealotNpcShop>
+  <storename.ZealotNpcShop>Магазин ревнителів</storename.ZealotNpcShop>
+  <npctitle.outpostmanagerzealot>Високий ревнитель</npctitle.outpostmanagerzealot>
+  <npctitle.subupgradenpcZealot>Головний механік ревнителів</npctitle.subupgradenpcZealot>
+  <npctitle.securitynpczealot>Фанатик Іскри</npctitle.securitynpczealot>
+  <npctitle.watchmannpczealot>Лицар Іскри ревнителів</npctitle.watchmannpczealot>
+  <npctitle.ZealotNpcVIP>VIP-ревнитель</npctitle.ZealotNpcVIP>
+  <npctitle.ZealotNpcVIPSecurity>Охоронець ревнителів</npctitle.ZealotNpcVIPSecurity>
+  <npctitle.Zealothrmanager>Директор з персоналу ревнителів</npctitle.Zealothrmanager>
+  <npctitle.ZealotNpcWarShop>Військовий торговець ревнителів</npctitle.ZealotNpcWarShop>
+  <storename.ZealotNpcWarShop>Магазин військового торговця ревнителів</storename.ZealotNpcWarShop>
+  <npctitle.ZealotNpcMedicShop>Фармацевт-ревнитель</npctitle.ZealotNpcMedicShop>
+  <storename.ZealotNpcMedicShop>Магазин фармацевта-ревнителя</storename.ZealotNpcMedicShop>
+  <npctitle.Zealotsubsale>Торговець підводними човнами ревнителів</npctitle.Zealotsubsale>
+  <npctitle.ZealotScientist>Науковець ревнителів</npctitle.ZealotScientist>
+  <!--Zealot ammoboxes-->
+  <entityname.MCFE_pulselaserammoboxZealotSpark>Паливний бокс плазмових снарядів імпульсного лазера</entityname.MCFE_pulselaserammoboxZealotSpark>
+  <entitydescription.MCFE_pulselaserammoboxZealotSpark>Невдала спроба відтворити технологію інопланетних турелей. Хоча оригінальну формулу не вдалося повністю розшифрувати, балістичні випробування демонструють нищівну потужність, яку не слід недооцінювати.</entitydescription.MCFE_pulselaserammoboxZealotSpark>
+  <entityname.MCFE_Zealotalienprojectile>Плазмовий снаряд імпульсного лазера.</entityname.MCFE_Zealotalienprojectile>
+  <entityname.MCFE_blueprint_pulselaserammoboxZealotSpark>Креслення: паливний бокс плазмових снарядів імпульсного лазера</entityname.MCFE_blueprint_pulselaserammoboxZealotSpark>
+  <entitydescription.MCFE_blueprint_pulselaserammoboxZealotSpark>Конструкторські креслення ревнителів. Прочитайте їх, щоб навчитися виготовляти паливні бокси плазмових снарядів імпульсного лазера.</entitydescription.MCFE_blueprint_pulselaserammoboxZealotSpark>
+  <entityname.MCFE_chaingunammoboxZealot_piercing>Бокс заточених боєприпасів для чейнгана</entityname.MCFE_chaingunammoboxZealot_piercing>
+  <entitydescription.MCFE_chaingunammoboxZealot_piercing>Заточені боєприпаси для чейнгана, що вилітають на високій швидкості. Призначені максимізувати травми м'яких тканин, а не руйнування корпусу. Здатність відсікати кінцівки й спричиняти сильну кровотечу робить їх бажаним вибором для нейтралізації біологічних загроз.</entitydescription.MCFE_chaingunammoboxZealot_piercing>
+  <entityname.MCFE_chaingunboltZealot_piercing>Заточений снаряд чейнгана.</entityname.MCFE_chaingunboltZealot_piercing>
+  <entityname.MCFE_blueprint_chaingunammoboxZealot_piercing>Креслення: бокс заточених боєприпасів для чейнгана</entityname.MCFE_blueprint_chaingunammoboxZealot_piercing>
+  <entitydescription.MCFE_blueprint_chaingunammoboxZealot_piercing>Конструкторські креслення ревнителів. Прочитайте їх, щоб навчитися виготовляти бокси заточених боєприпасів для чейнгана.</entitydescription.MCFE_blueprint_chaingunammoboxZealot_piercing>
+  <entityname.MCFE_coilgunammoboxZealot_shotgun>Бокс розсіювальних боєприпасів для котушкової гармати</entityname.MCFE_coilgunammoboxZealot_shotgun>
+  <entitydescription.MCFE_coilgunammoboxZealot_shotgun>Боєприпаси для котушкової гармати з високим розсіюванням. При пострілі структура снаряда розламується на безліч високошвидкісних уламків, створюючи миттєвий конус ураження. Хоч і нестабільні, їхня здатність покривати широку зону перед зброєю робить їх незамінними проти кількох цілей.</entitydescription.MCFE_coilgunammoboxZealot_shotgun>
+  <entityname.MCFE_coilgunboltZealot_shotgun>Розсіювальний снаряд котушкової гармати.</entityname.MCFE_coilgunboltZealot_shotgun>
+  <entityname.MCFE_blueprint_coilgunammoboxZealot_shotgun>Креслення: бокс розсіювальних боєприпасів для котушкової гармати</entityname.MCFE_blueprint_coilgunammoboxZealot_shotgun>
+  <entitydescription.MCFE_blueprint_coilgunammoboxZealot_shotgun>Конструкторські креслення ревнителів. Прочитайте їх, щоб навчитися виготовляти бокси розсіювальних боєприпасів для котушкової гармати.</entitydescription.MCFE_blueprint_coilgunammoboxZealot_shotgun>
+  <!--ZealotOutpost-->
+  <locationname.Zealots_Outpost>Форпост ревнителів</locationname.Zealots_Outpost>
+  <locationdescription.Zealots_Outpost>Металева луна важкої техніки розноситься коридорами цього форпосту. Споруда, задумана як фабрика масштабного рівня, постійно тремтить під невпинним навантаженням промислового виробництва.</locationdescription.Zealots_Outpost>
+  <locationchange.ruins.changeto.Zealots_Outpost>У [previousname] засновано форпост ревнителів.</locationchange.ruins.changeto.Zealots_Outpost>
+  <locationchange.Zealots_Outpost.changeto.none>Форпост ревнителів у [previousname] знищено.</locationchange.Zealots_Outpost.changeto.none>
+  <locationnameformat.Zealots_Outpost>Механічна фортеця [name]</locationnameformat.Zealots_Outpost>
+  <locationnameformat.Zealotbase>Блокпост [name]</locationnameformat.Zealotbase>
+  <locationname.Zealotbase>Блокпост ревнителів</locationname.Zealotbase>
+  <locationdescription.Zealotbase>База ревнителів на ранній стадії будівництва.</locationdescription.Zealotbase>
+  <locationchange.ruins.changeto.Zealotbase>У [previousname] засновано блокпост ревнителів.</locationchange.ruins.changeto.Zealotbase>
+  <locationchange.Zealotbase.changeto.none>Блокпост ревнителів у [previousname] знищено.</locationchange.Zealotbase.changeto.none>
+  <locationchange.Zealotbase.changeto.Zealots_Outpost>Блокпост ревнителів у [previousname] розрісся настільки, що став форпостом ревнителів.</locationchange.Zealotbase.changeto.Zealots_Outpost>
+  <!--ZealotTemplarships NPC-->
+  <npctitle.Zealotcaptain>Маршал ревнителів</npctitle.Zealotcaptain>
+  <npctitle.Zealotcaptainlord>Верховний маршал ревнителів</npctitle.Zealotcaptainlord>
+  <npctitle.zealotsecurityrecruit>Паж ревнителів</npctitle.zealotsecurityrecruit>
+  <npctitle.zealotsecuritygunner>Зброєносець ревнителів</npctitle.zealotsecuritygunner>
+  <npctitle.zealotsecuritybrute>Лицар-культист</npctitle.zealotsecuritybrute>
+  <npctitle.zealotengineerrecruit>Інженер ревнителів</npctitle.zealotengineerrecruit>
+  <npctitle.zealotengineerveteran>Інженер-ветеран ревнителів</npctitle.zealotengineerveteran>
+  <npctitle.zealotmechanicrecruit>Механік-ревнитель із культу</npctitle.zealotmechanicrecruit>
+  <npctitle.zealotmechanicveteran>Механік-ветеран ревнителів</npctitle.zealotmechanicveteran>
+  <npctitle.zealotmedicrecruit>Науковець Іскри ревнителів</npctitle.zealotmedicrecruit>
+  <npctitle.zealotmedicveteran>Науковець-ветеран Іскри ревнителів</npctitle.zealotmedicveteran>
+  <!--Templarships NPC-->
+  <npctitle.Templarcaptain>Маршал тамплієрів</npctitle.Templarcaptain>
+  <npctitle.Templarcaptainlord>Верховний маршал тамплієрів</npctitle.Templarcaptainlord>
+  <npctitle.Templarsecurityrecruit>Паж тамплієрів</npctitle.Templarsecurityrecruit>
+  <npctitle.Templarsecuritygunner>Зброєносець тамплієрів</npctitle.Templarsecuritygunner>
+  <npctitle.Templarsecuritybrute>Лицар тамплієрів</npctitle.Templarsecuritybrute>
+  <npctitle.Templarengineerrecruit>Інженер тамплієрів</npctitle.Templarengineerrecruit>
+  <npctitle.Templarengineerveteran>Інженер-ветеран тамплієрів</npctitle.Templarengineerveteran>
+  <npctitle.Templarmechanicrecruit>Механік тамплієрів</npctitle.Templarmechanicrecruit>
+  <npctitle.Templarmechanicveteran>Механік-ветеран тамплієрів</npctitle.Templarmechanicveteran>
+  <npctitle.Templarmedicrecruit>Медик тамплієрів</npctitle.Templarmedicrecruit>
+  <npctitle.Templarmedicveteran>Медик-ветеран тамплієрів</npctitle.Templarmedicveteran>
+  <!--ZealotWeapons-->
+  <entityname.MCFE_zealot_alienprototype>Інопланетна гвинтівка</entityname.MCFE_zealot_alienprototype>
+  <entitydescription.MCFE_zealot_alienprototype>Спроба відтворити технологію інопланетних руїн. Хоча ця копія поступається за вогневою міццю оригіналам, вона набагато стабільніша й здатна завдавати сильної шкоди від опіків.</entitydescription.MCFE_zealot_alienprototype>
+  <entityname.MCFE_blueprint_MCFE_zealot_alienprototype>Креслення виготовлення: інопланетна гвинтівка</entityname.MCFE_blueprint_MCFE_zealot_alienprototype>
+  <entitydescription.MCFE_blueprint_MCFE_zealot_alienprototype>Набір конструкторських планів ревнителів. Прочитайте їх, щоб навчитися виготовляти інопланетні гвинтівки.</entitydescription.MCFE_blueprint_MCFE_zealot_alienprototype>
+  <entityname.MCFE_Zealot_PowerCell>Енергоелемент</entityname.MCFE_Zealot_PowerCell>
+  <entitydescription.MCFE_Zealot_PowerCell>Функціональна копія інопланетних батарей. Хоча це груба репліка, вона ідеально слугує джерелом живлення для гвинтівки ревнителів.</entitydescription.MCFE_Zealot_PowerCell>
+  <entityname.MCFE_blueprint_MCFE_Zealot_PowerCell>Креслення виготовлення: енергоелемент</entityname.MCFE_blueprint_MCFE_Zealot_PowerCell>
+  <entitydescription.MCFE_blueprint_MCFE_Zealot_PowerCell>Набір конструкторських планів ревнителів. Прочитайте їх, щоб навчитися виготовляти енергоелементи.</entitydescription.MCFE_blueprint_MCFE_Zealot_PowerCell>
+  <entityname.MCFE_BoardingHammer>Абордажний молот</entityname.MCFE_BoardingHammer>
+  <entitydescription.MCFE_BoardingHammer>Важка зброя ближнього бою, ідеальна для того, щоб приголомшувати й оглушувати ворогів кожним ударом.</entitydescription.MCFE_BoardingHammer>
+  <entityname.MCFE_blueprint_MCFE_BoardingHammer>Креслення виготовлення: абордажний молот</entityname.MCFE_blueprint_MCFE_BoardingHammer>
+  <entitydescription.MCFE_blueprint_MCFE_BoardingHammer>Набір конструкторських планів ревнителів. Прочитайте їх, щоб навчитися виготовляти абордажні молоти.</entitydescription.MCFE_blueprint_MCFE_BoardingHammer>
+  <!-- ZealotVesselsMission-->
+  <missionname.zealot>Помічено ревнителів</missionname.zealot>
+  <missiontypedescription.zealot>Знайдіть судно ревнителів і знищте його разом з екіпажем.</missiontypedescription.zealot>
+  <missionsonarlabel.zealot>Судно ревнителів</missionsonarlabel.zealot>
+  <missionmessage0.zealot>Ліквідуйте ревнителів або відправте їхній підводний човен на дно моря!</missionmessage0.zealot>
+  <missionmessage1.zealot>Відведіть підводний човен до [location2], щоб отримати винагороду.</missionmessage1.zealot>
+  <missionheader0.zealot>Ревнителі! Готуйте зброю!</missionheader0.zealot>
+  <missionheader1.zealot>Ревнителів ліквідовано</missionheader1.zealot>
+  <eventtext.missionevent_zealotsvessels.c1>Судно ревнителів загрожує наступному маршруту. Навчіть цих зрадників, що Іскра не прощає їхнього абсолютизму.</eventtext.missionevent_zealotsvessels.c1>
+  <!-- TemplarVesselsMission-->
+  <missionname.Templars>Помічено тамплієрів</missionname.Templars>
+  <missiontypedescription.Templars>Знайдіть судно тамплієрів і знищте його разом з екіпажем.</missiontypedescription.Templars>
+  <missionsonarlabel.Templars>Судно тамплієрів</missionsonarlabel.Templars>
+  <missionmessage0.Templars>Ліквідуйте тамплієрів або відправте їхній підводний човен на дно моря!</missionmessage0.Templars>
+  <missionmessage1.Templars>Відведіть підводний човен до [location2], щоб отримати винагороду.</missionmessage1.Templars>
+  <missionheader0.Templars>Тамплієри! Готуйте зброю!</missionheader0.Templars>
+  <missionheader1.Templars>Тамплієрів ліквідовано</missionheader1.Templars>
+  <eventtext.missionevent_Templarsvessels.c1>Судно тамплієрів патрулює наступний маршрут. Спрямуйте кату руку Іскри проти цих єретиків.</eventtext.missionevent_Templarsvessels.c1>
+  <missionheader0.TemplarsAttack>ВХІДНА ПЕРЕДАЧА</missionheader0.TemplarsAttack>
+  <missionmessage0.TemplarsAttack>Зрадники! Високий тамплієр вимагає ваших голів!</missionmessage0.TemplarsAttack>
+  <missionheader0.zealotattack>ВХІДНА ПЕРЕДАЧА</missionheader0.zealotattack>
+  <missionmessage0.zealotattack>Стійте, єретики! Ваша подорож закінчується тут; нехай Іскра змилосердиться над вашими душами.</missionmessage0.zealotattack>
+  <!--Zealot n Templar Medicine-->
+  <entityname.MCFE_Zealot_CombateSerum>Бойова сироватка ревнителів</entityname.MCFE_Zealot_CombateSerum>
+  <entitydescription.MCFE_Zealot_CombateSerum>Доводить фізичну працездатність до межі, даючи надзвичайну стійкість до болю, підвищену швидкість і тимчасовий імунітет до інфекцій. Попередження: через 50 секунд примусове прискорення метаболізму спричинить повний м'язовий параліч у суб'єкта.</entitydescription.MCFE_Zealot_CombateSerum>
+  <entityname.MCFE_blueprint_MCFE_Zealot_CombateSerum>Креслення виготовлення: бойова сироватка ревнителів</entityname.MCFE_blueprint_MCFE_Zealot_CombateSerum>
+  <entitydescription.MCFE_blueprint_MCFE_Zealot_CombateSerum>Креслення формули ревнителів. Прочитайте їх, щоб навчитися виготовляти бойові сироватки ревнителів.</entitydescription.MCFE_blueprint_MCFE_Zealot_CombateSerum>
+  <entityname.MCFE_Templar_CombateSerum>Бойова сироватка тамплієрів</entityname.MCFE_Templar_CombateSerum>
+  <entitydescription.MCFE_Templar_CombateSerum>Передовий стимулятор, що перевантажує фізичну та розумову регенерацію. Дає тепловізійний зір, стійкість до психозу, оглушення, фізичної шкоди та тиску. Попередження: через 50 секунд нервова система руйнується через надмірну стимуляцію, спричиняючи повний параліч суб'єкта.</entitydescription.MCFE_Templar_CombateSerum>
+  <entityname.MCFE_blueprint_Templar_CombateSerum>Креслення виготовлення: бойова сироватка тамплієрів</entityname.MCFE_blueprint_Templar_CombateSerum>
+  <entitydescription.MCFE_blueprint_Templar_CombateSerum>Креслення формули тамплієрів. Прочитайте їх, щоб навчитися виготовляти бойові сироватки тамплієрів.</entitydescription.MCFE_blueprint_Templar_CombateSerum>
+  <!--hireableZealots-->
+  <npctitle.hireablezealotmechanic>Механік-ревнитель</npctitle.hireablezealotmechanic>
+  <npctitle.hireablezealotmechanicveteran>Механік-ветеран ревнителів</npctitle.hireablezealotmechanicveteran>
+  <npctitle.hireablezealotengineer>Інженер ревнителів</npctitle.hireablezealotengineer>
+  <npctitle.hireablezealotengineerveteran>Інженер-ветеран ревнителів</npctitle.hireablezealotengineerveteran>
+  <npctitle.hireablezealotassistant>Асистент ревнителів</npctitle.hireablezealotassistant>
+  <!--Zealot Escort Missions-->
+  <missionheader0.Zealot_escort1>Ревнителі прибули безпечно.</missionheader0.Zealot_escort1>
+  <missionmessage0.Zealot_escort1>Усі ревнителі прибули безпечно. Ви отримаєте винагороду [reward] за добру службу.</missionmessage0.Zealot_escort1>
+  <missiondescription.Zealot_escort1>Група ревнителів хоче дістатися до [location2] для міграційних місій. Перевозьте їх обережно.</missiondescription.Zealot_escort1>
+  <EventText.Zealot_escort1>Група ревнителів хоче дістатися до наступного форпосту для міграційних місій. Перевозьте їх обережно.</EventText.Zealot_escort1>
+  <missionname.Zealot_escort1>Ескорт ревнителів</missionname.Zealot_escort1>
+  <missionsuccess.Zealot_escort1>Гарна робота, ревнителі прибули безпечно.</missionsuccess.Zealot_escort1>
+  <missionfailure.Zealot_escort1>Деякі ревнителі загинули. Місію провалено.</missionfailure.Zealot_escort1>
+  <missionheader0.Zealot_escortVIP_1>VIP-ревнитель прибув безпечно.</missionheader0.Zealot_escortVIP_1>
+  <missionmessage0.Zealot_escortVIP_1>Посол ревнителів прибув безпечно. Вам заплатять [reward] за вашу службу.</missionmessage0.Zealot_escortVIP_1>
+  <missiondescription.Zealot_escortVIP_1>Посол ревнителів має дістатися до [location2] для дипломатичних місій. Вам заплатять за те, що ви обережно його перевезете.</missiondescription.Zealot_escortVIP_1>
+  <EventText.Zealot_escortVIP_1>Посол ревнителів має дістатися до наступного форпосту для дипломатичних місій. Вам заплатять за те, що ви обережно його перевезете.</EventText.Zealot_escortVIP_1>
+  <missionname.Zealot_escortVIP_1>Ескорт VIP-ревнителя</missionname.Zealot_escortVIP_1>
+  <missionsuccess.Zealot_escortVIP_1>Чудово, VIP-ревнитель прибув безпечно!</missionsuccess.Zealot_escortVIP_1>
+  <missionfailure.Zealot_escortVIP_1>VIP-ревнитель загинув. Ви провалили місію.</missionfailure.Zealot_escortVIP_1>
+  <missionheader0.ZealotescortTerrorist1>Інженери мертві.</missionheader0.ZealotescortTerrorist1>
+  <missionmessage0.ZealotescortTerrorist1>Більшість інженерів загинула в морі. Місію провалено.</missionmessage0.ZealotescortTerrorist1>
+  <missionheader1.ZealotescortTerrorist1>Прихованих тамплієрів ліквідовано.</missionheader1.ZealotescortTerrorist1>
+  <missionmessage1.ZealotescortTerrorist1>Схоже, останній тамплієр загинув. Продовжуйте місію, довізши інженерів до [location2].</missionmessage1.ZealotescortTerrorist1>
+  <missiondescription.ZealotescortTerrorist1>Група тамплієрів проникла серед інженерів, яких ви маєте перевезти до [location2]. Ліквідуйте або нейтралізуйте їх, коли вони стануть ворожими, і захистіть наших інженерів.</missiondescription.ZealotescortTerrorist1>
+  <EventText.ZealotescortTerrorist1>Група тамплієрів проникла серед інженерів, яких ви маєте перевезти до наступного форпосту. Ліквідуйте або нейтралізуйте їх, коли вони стануть ворожими, і захистіть наших інженерів.</EventText.ZealotescortTerrorist1>
+  <missionname.ZealotescortTerrorist1>Тамплієри серед нас</missionname.ZealotescortTerrorist1>
+  <missionsuccess.ZealotescortTerrorist1>Ви ліквідували тамплієрів і захистили інженерів. Гарна робота.</missionsuccess.ZealotescortTerrorist1>
+  <missionfailure.ZealotescortTerrorist1>Інженери мертві. Вам не вдалося їх захистити.</missionfailure.ZealotescortTerrorist1>
+  <missionname.Zealot_escort3>Перевезення полонених тамплієрів</missionname.Zealot_escort3>
+  <missionname.templar_escort3>Перевезення полонених ревнителів</missionname.templar_escort3>
+  <missiondescription.templar_escort3>Цих ревнителів захопили після морського бою; перевезіть їх до [location2] для допиту. Подбайте, щоб вони були під надійною охороною протягом подорожі, бо можуть спробувати втекти. Не дозволяйте нікому з них померти. Якщо вам це вдасться, ви отримаєте винагороду в [reward] марок. Хай Іскра веде ваш шлях.</missiondescription.templar_escort3>
+  <missiondescription.Zealot_escort3>Цих тамплієрів захопили після бою в морі; перевезіть їх до [location2], щоб витягти з них інформацію. Подбайте, щоб вони були під надійною охороною протягом подорожі, бо можуть спробувати втекти. Не дозволяйте нікому з них померти. Якщо вам це вдасться, ви отримаєте винагороду в [reward] марок. Хай Іскра веде вашу зброю.</missiondescription.Zealot_escort3>
+  <eventtext.templar_escort3.c1>Ми захопили групу ревнителів після бою у відкритому морі. Доставте їх до наступної локації для допиту. Вам добре заплатять, якщо всі прибудуть живими. Будьте обережні, вони спробують утекти за першої нагоди.</eventtext.templar_escort3.c1>
+  <eventtext.Zealot_escort3.c1>Ми захопили групу тамплієрів після бою у відкритому морі. Доставте їх до наступної локації для допиту. Вам добре заплатять, якщо всі прибудуть живими. Будьте обережні, вони спробують утекти за першої нагоди.</eventtext.Zealot_escort3.c1>
+  <!--Zealot trashseller-->
+  <charactername.zealottrashseller>Aurora, збирачка</charactername.zealottrashseller>
+  <eventtext.trashseller.c1>Гей! Що ви тут робите, так далеко від тепла коридорів? Скажіть, хочете укласти угоду?</eventtext.trashseller.c1>
+  <eventtext.trashseller.c1.s1>«Вони завжди повертаються», — казала моя мати. Що ж, друже, укладемо угоду? Маю для вас сьогодні симпатичну «лотерею»… якщо ви розумієте, про що я.</eventtext.trashseller.c1.s1>
+  <eventtext.trashseller.o1>Що ви пропонуєте?</eventtext.trashseller.o1>
+  <eventtext.trashseller.o1.c1>У мене є ця купа брухту… На перший погляд це просто іржавий метал, але пам'ятайте, ми тут переробляємо інопланетні матеріали, вкрадені з їхніх поселень. Якщо пощастить, ви знайдете в деконструкторі щось справді корисне. До того ж хлопці з лабораторії не помітять, якщо трохи «зникне»… ви розумієте, про що я.\n\nЦе буде 600.</eventtext.trashseller.o1.c1>
+  <eventtext.trashseller.o1.c1.o1>Прийняти пропозицію.</eventtext.trashseller.o1.c1.o1>
+  <eventtext.trashseller.o1.c1.o1.c1>Чудово! Ось, тримайте. Якщо повернетеся іншого дня, у мене може бути ще один скарб на вас. Я працюю на кількох форпостах моїх людей, тож певна, що ми ще зустрінемося.</eventtext.trashseller.o1.c1.o1.c1>
+  <eventtext.trashseller.o1.c1.o1.c2>Схоже, вам не вистачає… Мила, немає грошей — немає брухту. Повертайтеся, коли зможете заплатити.</eventtext.trashseller.o1.c1.o1.c2>
+  <eventtext.trashseller.o1.c1.o2>Відхилити пропозицію.</eventtext.trashseller.o1.c1.o2>
+  <eventtext.trashseller.o1.c1.o2.c1>О… Я буду тут, якщо передумаєте.</eventtext.trashseller.o1.c1.o2.c1>
+  <eventtext.trashseller.o2>Хто ви?</eventtext.trashseller.o2>
+  <eventtext.trashseller.o2.c1>Просто ще одна учасниця суспільства, що намагається заробити на життя — ну, звичайна річ. Але це неважливо. Повернімося до угоди.</eventtext.trashseller.o2.c1>
+  <eventtext.trashseller.o2.c1.s1>Мила, ми вже мали цю розмову. Але раз ви, здається, забули: я просто ще одна учасниця суспільства, що намагається заробити на життя. Нічого особливого. А тепер повернімося до важливого: укладаємо цю угоду чи ні?</eventtext.trashseller.o2.c1.s1>
+  <eventtext.trashseller.o3>Піти.</eventtext.trashseller.o3>
+  <eventtext.trashseller.o3.c1>Не соромтеся, друже! Ходіть, повертайтеся сюди…</eventtext.trashseller.o3.c1>
+  <!--Zealot trashseller-->
+</infotexts>
